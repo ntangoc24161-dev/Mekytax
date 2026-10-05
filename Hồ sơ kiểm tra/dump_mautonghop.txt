@@ -1,0 +1,955 @@
+P0: 
+P1: TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ
+P2: V/v: Ban hành quyết định kiểm tra thuế;
+P3: Quyết định giám sát hoạt động của Đoàn kiểm tra
+P4: 
+P5: - Nội dung công việc:
+P6: Kiểm tra việc chấp hành pháp luật về thuế và giám sát hoạt động của Đoàn kiểm tra tại «Tên_công_ty»– MST: «MST»; thời kỳ kiểm tra «Thời_kỳ_kiểm_tra».
+P7: - Căn cứ pháp lý để giải quyết:
+P8: Căn cứ Quyết định số 1614/QĐ-TCT ngày 13/10/2022 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám sát hoạt động của Đoàn thanh tra, kiểm tra thuế.
+P9: Căn cứ Quyết định số 1412/QĐ-DON ngày 06/05/2026 của Trưởng Thuế Thành phố Đồng Nai về việc phê duyệt kế hoạch kiểm tra tại trụ sở người nộp thuế năm 2026 của các Thuế cơ sở thuộc Thuế tỉnh Đồng Nai;
+P10: Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025 của Quốc hội;
+P11: - Ý kiến tham gia của các đơn vị liên quan: Không.
+P12: - Đề xuất của cán bộ giải quyết:
+P13: Kiến nghị BLĐ Thuế Cơ sở 3 Thành phố Đồng Nai ký duyệt quyết định kiểm tra, quyết định giám sát hoạt động đoàn kiểm tra tại «Tên_công_ty»– MST: «MST» (có dự thảo quyết định kèm theo).
+P14: 	Trấn Biên, ngày ….. tháng ….. năm 2026
+P15: 	CÁN BỘ ĐỀ XUẤT
+P16: 
+P17: 	
+P18: 
+P19: 
+P20: 	«TĐ»
+P21: Ý kiến của lãnh đạo Đội thuế: 
+P22: 	Kính đề nghị Lãnh đạo Tổ kiểm tra ký duyệt theo đề xuất.
+P23: 	Trấn Biên, ngày ….. tháng ….. năm 2026
+P24: 	TỔ TRƯỞNG
+P25: 
+P26: 
+P27: 
+P28: 	Nguyễn Trường Giang	
+P29: Ý kiến phê duyệt của Lãnh đạo Thuế Cơ sở 3: ..……………………………………………………………………………………
+P30: 	Trấn Biên, ngày ….. tháng ….. năm 2026
+P31: 	KT. TRƯỞNG THUẾ CƠ SỞ
+P32: 	PHÓ TRƯỞNG THUẾ CƠ SỞ
+P33: 	
+P34: 
+P35: 
+P36: 
+P37: 	Phạm Đồng Xuân
+P38: 
+P39: 					
+P40: QUYẾT ĐỊNH
+P41: Về việc kiểm tra thuế tại 
+P42: «Tên_công_ty»
+P43: TRƯỞNG THUẾ CƠ SỞ  3 THÀNH PHỐ ĐỒNG NAI
+P44: Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025 và các văn bản hướng dẫn thi hành;
+P45: Căn cứ các Luật thuế và các văn bản hướng dẫn thi hành;
+P46: Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2026 của Cục trưởng Cục Thuế quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sổ thuộc Thuế tỉnh, thành phố;
+P47: Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+P48: Căn cứ Quyết định số 1412/QĐ-DON ngày 06/05/2026 của Trưởng Thuế Thành phố Đồng Nai về việc phê duyệt kế hoạch kiểm tra tại trụ sở người nộp thuế năm 2026 của các Thuế cơ sở thuộc Thuế tỉnh Đồng Nai;
+P49: Căn cứ Quyết định số 2618/QĐ-TCS3 ngày 20/05/2026 của Trưởng Thuế Cơ sở 3 Thành phố Đồng Nai về việc giao quyền ra Quyết định Kiểm tra thuế tại trụ sở của người nộp thuế;
+P50: Theo đề nghị của Tổ trưởng Tổ Kiểm tra số 1.
+P51: QUYẾT ĐỊNH:
+P52: Điều 1. Kiểm tra chấp hành pháp luật thuế tại «Tên_công_ty», mã số thuế: «MST» về các nội dung sau:
+P53: «Nội_dung_kiểm_tra»
+P54: Thời kỳ kiểm tra: «Thời_kỳ_kiểm_tra».
+P55: Thời hạn kiểm tra là «Thời_hạn_kiểm_tra_» ngày làm việc, kể từ ngày công bố Quyết định kiểm tra.  
+P56: Điều 2. Thành lập Đoàn kiểm tra để thực hiện nhiệm vụ ghi tại Điều 1 gồm có:
+P57: - Ông (Bà)	: «TĐ»	- Chức vụ: «CVTĐ»	- Trưởng đoàn;
+P58: - Ông (Bà)	: «TV»	- Chức vụ: «CVTV»	- Thành viên.
+P59: 	Đoàn kiểm tra có nhiệm vụ, quyền hạn quy định tại Điều 22 của Luật Quản lý thuế.
+P60: Điều 3. Quyết định này có hiệu lực kể từ ngày ký. Công ty được kiểm tra có tên tại Điều 1 và Đoàn kiểm tra chịu trách nhiệm thi hành Quyết định này./.
+P61: 
+P62: 
+P63: 					
+P64: QUYẾT ĐỊNH 
+P65: Về việc giám sát hoạt động của Đoàn kiểm tra tại 
+P66: «Tên_công_ty»
+P67: TRƯỞNG THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+P68: Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025 và các văn bản hướng dẫn thi hành;
+P69: Căn cứ Luật Thanh tra ngày 14 tháng 11 năm 2022 và các văn bản hướng dẫn thi hành;
+P70: Căn cứ Quyết định số 1614/QĐ-TCT ngày 13/10/2022 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám sát hoạt động của Đoàn thanh tra, kiểm tra thuế;
+P71: Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+P72: Căn cứ Quyết định số 1412/QĐ-DON ngày 06/05/2026 của Trưởng Thuế Thành phố Đồng Nai về việc phê duyệt kế hoạch kiểm tra tại trụ sở người nộp thuế năm 2026 của các Thuế cơ sở thuộc Thuế tỉnh Đồng Nai;
+P73: Căn cứ Quyết định kiểm tra số .............../QĐ-TCS3 ngày ...../...../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại «Tên_công_ty»;
+P74: Theo đề nghị của Tổ trưởng Tổ Kiểm tra số 1. 
+P75: QUYẾT ĐỊNH:
+P76: 	Điều 1. Thực hiện giám sát đối với hoạt động kiểm tra của Đoàn kiểm tra được thành lập theo Quyết định số ................./QĐ-TCS3 ngày ...../...../2026.
+P77: Thời hạn giám sát được tính kể từ ngày công bố quyết định kiểm tra đến thời điểm kết thúc việc kiểm tra tại trụ sở người nộp thuế.
+P78: 	Điều 2. Giao Ông Nguyễn Trường Giang – Chức vụ: Tổ trưởng Tổ Kiểm tra thuế 1 giám sát hoạt động của Đoàn kiểm tra để thực hiện nhiệm vụ tại Điều 1.
+P79: 	Điều 3. Ông Nguyễn Trường Giang có nhiệm vụ giám sát hoạt động của Đoàn kiểm tra theo quy định tại Quy chế giám sát hoạt động của Đoàn kiểm tra thuế. 
+P80: 	Điều 4. Ông Nguyễn Trường Giang, Đoàn Kiểm tra, «Tên_công_ty» và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành quyết định này./.
+P81: 	
+P82: 
+P83: 
+P84: PHÂN TÍCH THÔNG TIN, XÁC ĐỊNH NỘI DUNG CUỘC KIỂM TRA
+P85: 	
+P86: I. THÔNG TIN CHUNG:
+P87: 1. Đoàn kiểm tra (Nhóm phân tích):
+P88: a) Trưởng đoàn: «TĐ». Chức vụ: «CVTĐ». Bộ phận kiểm tra: Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai.
+P89: b) Thành viên: «TV». Chức vụ: «CVTV». Bộ phận kiểm tra: Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai.
+P90: 2. Đối tượng được kiểm tra:
+P91: a) Tên người nộp thuế: «Tên_công_ty»;
+P92: b) Mã số thuế: «MST».
+P93: c) Địa chỉ: «địa_chỉ», Thành phố Đồng Nai.
+P94: d) Số chi nhánh, cơ sở phụ thuộc: .
+P95: đ) Niên độ kế toán: Từ ngày 01 tháng 01 đến ngày 31 tháng 12.
+P96: e) Ngành nghề kinh doanh: «NNKD»…
+P97: II. TÌNH HÌNH CHẤP HÀNH PHÁP LUẬT THUẾ:
+P98: 1. Tình hình chấp hành và các vi phạm trong các năm gần nhất:
+P99: a) Tình hình nộp các tờ khai thuế:  
+P100: b) Tình hình nộp báo cáo quyết toán thuế: 
+P101: c) Quyết định xử lý vi phạm hành chính:
+P102: d) Vi phạm về chế độ hóa đơn:
+P103: e) Nộp thuế quá hạn:
+P104: f) Lỗ liên tục từ 2 năm trở lên: Không
+P105: g) Có hoàn thuế GTGT: Không
+P106: 2. Tình hình kiểm tra, thanh tra của cơ quan thuế:
+P107: 3. Thông tin thu thập được ngoài cơ quan thuế:
+P108: III. PHÂN TÍCH, ĐÁNH GIÁ THÔNG TIN:
+P109: 1. Đối với các trường hợp theo kế hoạch, chuyên đề (trừ hoàn thuế):
+P110: a) Phân tích các chỉ tiêu rủi ro trên báo cáo tài chính.:
+P111: +/ Báo cáo kết quả hoạt động kinh doanh:
+P112: - Doanh nghiệp kê khai lãi từ năm 2022, 2024- 2025; kê khai lỗ năm 2023.
+P113: - Tỷ lệ giá vốn hàng bán trên doanh thu năm 2022 là 88,75%, 2023 là 86,18%, 2024 là 85,66%, năm 2025 là 89,16%.
+P114: - Tỷ lệ Chi phí quản lý kinh doanh trên doanh thu năm 2022 là 9,96%, 2023 là 14,15%, 2024 là 14,78%, năm 2025 là 8,49%.
+P115: - Tỷ lệ giá vốn hàng bán và chi phí quản lý kinh doanh trên doanh thu biến động không đều qua các năm, không tương ứng biến động doanh thu.
+P116: +/ Bảng cân đối kế toán:
+P117: b) Phân tích các chỉ tiêu rủi ro trên tờ khai thuế:
+P118: 2. Đối với các trường hợp hoàn thuế: thực hiện phân tích thông tin theo nội dung đề nghị hoàn thuế (kiểm tra trước hoàn thuế) hoặc quyết định hoàn thuế (kiểm tra sau hoàn thuế).
+P119: 3. Các trường hợp khác: 
+P120: a) Phân tích mức độ tuân thủ nộp thuế (nếu có):
+P121: b) Phân tích các yếu tố về sự thay đổi chính sách thuế làm ảnh hưởng đến số thuế phải nộp (nếu có).
+P122: IV. ĐỀ XUẤT NỘI DUNG KIỂM TRA:
+P123: - «Phân_công_trưởng_đoàn» «Thời_kỳ_kiểm_tra».
+P124: - «Phân_công_thành_viên» «Thời_kỳ_kiểm_tra».
+P125: 
+P126: 	Trấn Biên, ngày ….. tháng …. năm 2026	
+P127: 	NGƯỜI PHÂN TÍCH	TRƯỞNG ĐOÀN KIỂM TRA hoặc
+P128: 	 TRƯỞNG NHÓM PHÂN TÍCH
+P129: 
+P130: 
+P131: 
+P132: 
+P133: 	
+P134: 	«TĐ»
+P135: 
+P136: 					
+P137: THƯ TRAO ĐỔI THÔNG TIN
+P138: 
+P139: Kính gửi: «Tên_công_ty»
+P140: 
+P141: Thuế Cơ sở 3 Thành phố Đồng Nai xin gửi lời chào trân trọng và cảm ơn sự hợp tác của Quý Doanh nghiệp, Người nộp thuế trong việc thực hiện chính sách pháp luật thuế.
+P142: Với mục tiêu xây dựng cơ quan thuế Văn hóa – Hiện đại, đội ngũ cán bộ công chức Thuế chuyên nghiệp – liêm chính, Thuế Cơ sở 3 Thành phố Đồng Nai đã, đang và sẽ tiếp tục phối hợp, hỗ trợ, tạo điều kiện tốt nhất để Người nộp thuế thực hiện tốt chính sách pháp luật thuế; Tiếp tục nâng cao chất lượng nguồn nhân lực và xây dựng đội ngũ có tính kỷ luật cao trong thực thi công vụ.
+P143: Thuế Cơ sở 3 Thành phố Đồng Nai cam kết luôn lắng nghe, nắm bắt các khó khăn, vướng mắc trong quá trình thực hiện chính sách pháp luật của người nộp thuế để hỗ trợ, hướng dẫn hoặc đề xuất, kiến nghị với cơ quan có thẩm quyền kịp thời tháo gỡ khó khăn vướng mắc trong việc thực hiện nghĩa vụ thuế của Người nộp thuế.
+P144: Chúng tôi mong muốn Người nộp thuế luôn thực hiện tốt chính sách pháp luật thuế, đặc biệt là phối hợp, trao đổi thường xuyên, kịp thời các thông tin có liên quan tới công tác quản lý thuế và ý thức, trách nhiệm của công chức thuế nhằm góp phần nâng cao hiệu lực, hiệu quả công tác quản lý thuế và chất lượng phục vụ Người nộp thuế của Cơ quan thuế.
+P145: Thuế Cơ sở 3 Thành phố Đồng Nai đề nghị Người nộp thuế: Trong quá trình thực hiện các thủ tục hành chính thuế, nếu có vướng mắc đề nghị liên hệ với Cơ quan thuế để được hỗ trợ, đồng thời phản ánh kịp thời về đạo đức, tác phong, thái độ ứng xử chưa văn hóa của cán bộ thuế; không tiếp tay cho các hành vi thông đồng sách nhiễu, tiêu cực của cán bộ thuế.
+P146: Mọi thông tin phản ánh của Người nộp thuế xin gửi về hòm thư điện tử và số điện thoại của Lãnh đạo bộ phận thanh tra, kiểm tra thuế; Lãnh đạo bộ phận kiểm tra nội bộ và Tổ trưởng tổ giám sát hoặc người giám sát là người được người ra quyết định thanh tra, kiểm tra thuế giao thực hiện nhiệm vụ giám sát, Cụ thể: 
+P147: - Phó Trưởng Thuế cơ sở: Ông Phạm Đồng Xuân. Số điện thoại: 0913.327.749. Email: pdxuanbho.don@gdt.gov.vn;
+P148: - Tổ trưởng Tổ Kiểm tra thuế 1 (giám sát đoàn kiểm tra): Ông Nguyễn Trường Giang. Số điện thoại: 0916.369.389. Email: giangnt1802@gmail.com.
+P149: Thuế Cơ sở 3 Thành phố Đồng Nai trân trọng cảm ơn sự hợp tác của Quý Doanh nghiệp, Người nộp thuế!
+P150: 
+P151: 
+P152: 
+P153: BIÊN BẢN 
+P154: Công bố quyết định kiểm tra
+P155: 
+P156: Căn cứ Luật Quản lý thuế ngày 13/6/2019 và các văn bản hướng dẫn thi hành;
+P157: Căn cứ Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại «Tên_công_ty»;
+P158: Hôm nay, hồi 8 giờ 00 ngày «Ngày_công_bố»;
+P159: Tại: văn phòng «Tên_công_ty»;
+P160: Chúng tôi gồm:
+P161: I. Đoàn kiểm tra thuế:
+P162: - Ông/Bà: «TĐ»	- Chức vụ : «CVTĐ»	-  Trưởng đoàn;
+P163: - Ông/Bà: «TV»	- Chức vụ : «CVTV»	-  Thành viên;
+P164: II. Người nộp thuế (hoặc đại diện hợp pháp của người nộp thuế):
+P165: Ông/Bà: «GĐ»
+P166: CMND/CCCD/hộ chiếu số: «CCCD»
+P167: Chức vụ: Giám đốc; đại diện cho «Tên_công_ty».
+P168: Ông/Bà: «KT»	
+P169: CMND/CCCD/hộ chiếu số: «CCCDKT»«CCCDKT»	
+P170: Chức vụ: Kế toán.
+P171: Người nộp thuế đã được nghe Đoàn kiểm tra công bố nội dung Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra quyết toán tại «Tên_công_ty».
+P172: Biên bản này gồm có 01 trang, được lập thành 02 bản có nội dung và giá trị pháp lý như nhau. 01 (một) bản được giao người nộp thuế.   
+P173: Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến bổ sung khác (nếu có) như sau: ……………………………...................
+P174: .................................................................................................................................
+P175: 
+P176: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+P177: Độc lập - Tự do - Hạnh phúc
+P178: 
+P179: Trấn Biên, ngày         tháng     năm 2026
+P180: 
+P181: GIẤY XÁC NHẬN
+P182: Giao Quyết Định số ……../QĐ-TCS3 ngày …../…../2026
+P183: 
+P184: 1. Chúng tôi đại diện cơ quan quản lý thuế, gồm:
+P185: - Họ và tên: «TĐ»;
+P186: - Chức vụ: «CVTĐ»;
+P187: - Đơn vị công tác: Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai.
+P188: 2. Chúng tôi đại diện bên nhận văn bản/quyết định gồm:
+P189: - Họ và tên: «GĐ»;
+P190: - Số CMND: «CCCD» cấp ngày: «ngày_cấp» tại «Nơi_cấp»
+P191: - Giấy ủy quyền số …………….. ngày ……………..
+P192: - Chức vụ: Giám đốc.
+P193: Đã nhận Quyết Định số: ……../QĐ-TCS3 ngày …../…../2026 do người đại diện cơ quan thuế nói trên giao trực tiếp tại: văn phòng Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai vào  lúc: 9 giờ 00 ngày ……  tháng …… năm 2026.
+P194: Ý kiến của người nhận quyết định hoặc lý do không nhận (nếu có): ………… …………………………………………………………………………………………………………………………………………………………………………
+P195: Giấy xác nhận được lập thành 02 bản giống nhau, mỗi bên giao và nhận giữ 01 bản.
+P196: 
+P197: 	
+P198: 
+P199: BIÊN BẢN 
+P200: Xác nhận số liệu kiểm tra
+P201: tại «Tên_công_ty»
+P202: 
+P203: Căn cứ Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại «Tên_công_ty»; địa chỉ: «địa_chỉ», Đồng Nai; mã số thuế: «MST».
+P204: Hôm nay, vào lúc 15 giờ 00 phút ngày «Đến_ngày» tại văn phòng «Tên_công_ty», chúng tôi gồm:
+P205: Thành viên đoàn kiểm tra:
+P206: 	- Ông/Bà: «TV»	- Thành viên.
+P207: Đại diện Người nộp thuế được kiểm tra:
+P208: 	- Ông/Bà	: «GĐ»	- Chức vụ: Giám đốc.
+P209: 	- Ông/Bà	: «KT»			- Chức vụ: Kế toán.
+P210: Căn cứ sổ sách kế toán, chứng từ tài liệu do «Tên_công_ty» xuất trình, hai bên cùng nhau tiến hành xác nhận số liệu kiểm tra về việc kiểm tra tại «Tên_công_ty» như sau:
+P211: I. Nội dung kiểm tra:
+P212: 	«Phân_công_thành_viên»
+P213: II. Kết quả kiểm tra:
+P214: + NĂM 2022:	Đơn vị tính: Đồng
+P215: */ Không chênh lệch.
+P216: + NĂM 2023:	Đơn vị tính: Đồng
+P217: */ Không chênh lệch.
+P218: 
+P219: + NĂM 2024:	Đơn vị tính: Đồng
+P220: */ Không chênh lệch.
+P221: + NĂM 2025:	Đơn vị tính: Đồng
+P222: */ Không chênh lệch.
+P223: Biên bản này được lập được lập thành 03 bản, bao gồm 02 trang  01 bản có nội dung và giá trị pháp lý như nhau, 01 bản được giao người nộp thuế.
+P224: Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến khác như sau:
+P225: 	
+P226: 		
+P227: 		
+P228: 		
+P229: 	
+P230: Ý kiến bổ sung khác (nếu có): 
+P231: 	
+P232: 	
+P233: 	
+P234: 	./.
+P235: 
+P236: 
+P237: 
+P238: 
+P239: BIÊN BẢN 
+P240: Xác nhận số liệu kiểm tra
+P241: tại «Tên_công_ty»
+P242: 
+P243: Căn cứ Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại «Tên_công_ty»; địa chỉ: «địa_chỉ», Đồng Nai; mã số thuế: «MST».
+P244: Hôm nay, vào lúc 16 giờ 00 phút ngày «Đến_ngày» tại văn phòng «Tên_công_ty», chúng tôi gồm:
+P245: Thành viên đoàn kiểm tra:
+P246: 	- Ông (Bà)	: «TĐ»	- Trưởng đoàn.
+P247: Đại diện Người nộp thuế được kiểm tra:
+P248: 	- Ông (Bà)	: «GĐ»		- Chức vụ: Giám đốc.
+P249: 	- Ông (Bà)	: «KT»				- Chức vụ: Kế toán.
+P250: Căn cứ sổ sách kế toán, chứng từ tài liệu do «Tên_công_ty» xuất trình, hai bên cùng nhau tiến hành xác nhận số liệu kiểm tra về việc kiểm tra tại «Tên_công_ty» như sau:
+P251: I. Nội dung kiểm tra:
+P252: 	«Phân_công_trưởng_đoàn».
+P253: II. Kết quả kiểm tra:
+P254: Năm 2022	Đơn vị tính: Đồng
+P255: */ Không chênh lệch.
+P256: Năm 2023	Đơn vị tính: Đồng
+P257: Giải trình số liệu chênh lệch qua kiểm tra:
+P258: */ «Phân_công_trưởng_đoàn» giảm 78.475.200 đồng, do Công ty hạch toán chi phí giá vốn không tương ứng doanh thu. Căn cứ Điều 4 Thông tư 96/2015/TT-BTC ngày 22/06/2015 của Bộ Tài chính.
+P259: 
+P260: Năm 2024	Đơn vị tính: Đồng
+P261: Giải trình số liệu chênh lệch qua kiểm tra:
+P262: */ «Phân_công_trưởng_đoàn» giảm 117.712.800 đồng, do Công ty hạch toán chi phí giá vốn không tương ứng doanh thu. Căn cứ Điều 4 Thông tư 96/2015/TT-BTC ngày 22/06/2015 của Bộ Tài chính.
+P263: Năm 2025	Đơn vị tính: Đồng
+P264: */ Không chênh lệch
+P265: Biên bản này được lập được lập thành 03 bản, bao gồm 02 trang  01 bản có nội dung và giá trị pháp lý như nhau. 01 bản được giao người nộp thuế.
+P266: Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến khác như sau:
+P267: 	
+P268: 		
+P269: 		
+P270: 		
+P271: 		Ý kiến bổ sung khác (nếu có): 
+P272: 	
+P273: 		../.
+P274: 
+P275: 
+P276: 
+P277: 					
+P278: BIÊN BẢN KIỂM TRA
+P279: 
+P280: Căn cứ Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại «Tên_công_ty»; địa chỉ: «địa_chỉ», Đồng Nai; mã số thuế: «MST».
+P281: Đoàn kiểm tra đã tiến hành kiểm tra thuế tại «Tên_công_ty».
+P282: Thời kỳ kiểm tra: «Thời_kỳ_kiểm_tra».
+P283: Hôm nay, vào lúc 10 giờ 00 ngày 
+«Ngày_ký_Biên_bản_kiểm_tra» tại «Tên_công_ty»,
+P284: Chúng tôi gồm:
+P285: 1. Đoàn kiểm tra:
+P286: 	- Ông/Bà: «TĐ»	- Trưởng đoàn.
+P287: 	- Ông/Bà: «TV»	- Thành viên.
+P288: 2. Người nộp thuế:
+P289: 	- Ông/Bà: «GĐ»			- Chức vụ: Giám đốc.
+P290: 	- Ông/Bà: «KT»			- Chức vụ: Kế toán
+P291: Tiến hành lập biên bản xác nhận kết quả kiểm tra như sau:
+P292: I. ĐẶC ĐIỂM, TÌNH HÌNH CHUNG CỦA DOANH NGHIỆP:
+P293: - Giấy chứng nhận đăng ký kinh doanh số «GGCNĐKKD» ngày «Ngày_cấp2» do Sở Kế hoạch và Đầu tư Thành phố Đồng Nai cấp.
+P294: 	- Ngành nghề kinh doanh chủ yếu: «NNKD»...
+P295: 	- Hình thức hạch toán kế toán: hạch toán độc lập.
+P296: 	- Niên độ kế toán: Từ ngày 01 tháng 01 đến ngày 31 tháng 12.
+P297: 	- Đăng ký kê khai nộp thuế tại: Thuế Cơ sở 3 Thành phố Đồng Nai.
+P298: 	- Hình thức kê khai nộp thuế Giá trị gia tăng: khấu trừ.
+P299: - Mục lục Ngân sách: Cấp 3 Chương 855 Loại ...... Khoản .....
+P300: - Tài khoản số: 
+P301:  «Tài_khoản_số»
+P302: - Các đơn vị thành viên (nếu có): 
+P303: + «Chi_nhánh»
+P304: II. NỘI DUNG KIỂM TRA TẠI TRỤ SỞ CỦA NGƯỜI NỘP THUẾ:
+P305: * NĂM 2022	Đơn vị tính: Đồng	
+P306: */ Không chênh lệch.
+P307: * NĂM 2023	Đơn vị tính: Đồng	
+P308: Giải trình số liệu chênh lệch qua kiểm tra:
+P309: Công ty báo cáo lỗ 40.829.663 đồng, Đoàn kiểm tra xác định thu nhập chịu thuế 37.645.537 đồng, tăng 78.475.200 đồng, nguyên nhân:
+P310: */ «Phân_công_trưởng_đoàn» giảm 78.475.200 đồng, do Công ty hạch toán chi phí giá vốn không tương ứng doanh thu. Căn cứ Điều 4 Thông tư 96/2015/TT-BTC ngày 22/06/2015 của Bộ Tài chính.. 
+P311: =>Thuế TNDN truy thu qua kiểm tra: 7.529.107 đồng.
+P312:                Giảm lỗ 40.829.663 đồng.
+P313: * NĂM 2024	Đơn vị tính: Đồng	
+P314: Giải trình số liệu chênh lệch qua kiểm tra:
+P315: Công ty báo cáo lỗ 44.566.965 đồng, Đoàn kiểm tra xác định thu nhập tính thuế 73.145.835 đồng, tăng 117.712.800 đồng, nguyên nhân:
+P316: */ «Phân_công_trưởng_đoàn» giảm 117.712.800 đồng, do Công ty hạch toán chi phí giá vốn không tương ứng doanh thu. Căn cứ Điều 4 Thông tư 96/2015/TT-BTC ngày 22/06/2015 của Bộ Tài chính.. 
+P317: =>Thuế TNDN truy thu qua kiểm tra: 14.674.144  đồng.
+P318: Giảm lỗ: 44.566.965 đồng.
+P319: * NĂM 2025	Đơn vị tính: Đồng	
+P320: Giải trình số liệu chênh lệch qua kiểm tra:
+P321: Công ty báo cáo thu nhập tính thuế 247.658.136 đồng, Đoàn kiểm tra xác định thu nhập tính thuế 297.072.695 đồng, tăng 49.414.559 đồng, nguyên nhân:
+P322:  */ Lợi nhuận kế toán trước thuế thu nhập doanh nghiệp tăng 49.414.559 đồng do công ty cộng sai số học. Căn cứ quy định tại Điều 10 Nghị định số 320/2025/NĐ-CP ngày 15/12/2025 và Thông tư số 20/2026/TT-BTC ngày 12/03/2026.  
+P323: =>Thuế TNDN truy thu qua kiểm tra: 970.731 đồng.
+P324: III. TÌNH HÌNH THỰC HIỆN NGHĨA VỤ VỚI NGÂN SÁCH NHÀ NƯỚC:
+P325: (Tính đến ngày «Ngày_ký_Biên_bản_kiểm_tra»)
+P326: 	IV. KẾT LUẬN, KIẾN NGHỊ VÀ YÊU CẦU:
+P327: 1/ Kết luận:
+P328: 1.1. Về việc mở, ghi chép, hạch toán trên sổ sách kế toán và hoá đơn chứng từ:
+P329: Công ty đã thực hiện mở sổ sách kế toán, lưu trữ đầy đủ chứng từ, sổ sách kế toán.
+P330: 1.2. Về việc kê khai thuế, nộp thuế:
+P331: Công ty thực hiện kê khai thuế đúng thời hạn quy định, nộp thuế kịp thời và đầy đủ theo kê khai.
+P332: 1.3. Về xử phạt vi phạm hành chính (nếu có):
+P333: -  Hành vi vi phạm hành chính về: thuế TNDN theo quy định khoản 1 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ.
+P334: - Hình thức xử phạt: Phạt tiền theo quy định tại Điều 138 của Luật quản lý thuế.
+P335: 2. Kiến nghị và yêu cầu:
+P336: 2.1. Kiến nghị Thuế Cơ sở 3 Thành phố Đồng Nai tiến hành xử lý vi phạm về thuế đã được phát hiện qua kiểm tra, như sau:
+P337: a) Hình thức xử phạt hành chính:
+P338: - Phạt tiền với số tiền: «Tổng_phạt_kk_sai» đồng (Bằng chữ «Số_tiền_phạt_20_BC»), trong đó:
+P339: + Phạt về hành vi vi phạm thủ tục thuế: «Phạt_KK_sai_VPHC» đồng;
+P340: + Phạt về hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp (theo tỷ lệ 20% trên số thuế truy thu): «Số_tiền_phạt_20» đồng;
+P341: b)  Biện pháp khắc phục hậu quả: 
+P342: 	-  Số tiền thuế truy thu: «Tổng_cộng_truy_thu» đồng (Bằng chữ: «Tổng_cộng_truy_thu_BC»), trong đó:
+P343: + Thuế TNDN (TM 1052), số tiền: «Thuế_TNDN» đồng.
+P344: + Thuế GTGT (TM 1701), số tiền: «Thuế_GTGT» đồng;
+P345: - Tiền chậm nộp: Xử phạt 0,03% mỗi ngày tính trên số tiền thuế chậm nộp được quy định tại Khoản 2 Điều 16 Luật Quản lý thuế 108/2025/QH15 của Quốc Hội, được tính từ ngày tiếp sau ngày cuối cùng của thời hạn nộp thuế đến ngày liền kề trước ngày thực nộp số tiền thuế truy thu.
+P346: Giảm lỗ: «Giảm_lỗ» đồng;
+P347: Giảm khấu trừ: «giảm_khấu_trừ» đồng; 
+P348: - Biện pháp khắc phục hậu quả khác (nếu có): không.
+P349: «Tên_công_ty» có trách nhiệm tự tính và nộp số tiền chậm nộp tiền thuế kể từ sau ngày «Ngày_ký_Biên_bản_kiểm_tra», tiền chậm nộp tiền phạt kể từ ngày kế tiếp ngày hết thời hạn nộp tiền phạt (nếu có) đến ngày liền kề trước ngày thực nộp số tiền thuế truy thu và tiền phạt vào ngân sách Nhà nước theo quy định.
+P350: 	2.2. Yêu cầu người nộp thuế nộp đầy đủ, kịp thời vào tài khoản của cơ quan thuế khi có quyết định xử lý của cơ quan quản lý thuế.
+P351: 	 	- Nếu còn nợ đọng thuế phải yêu cầu người nộp thuế nộp ngay vào Ngân sách Nhà nước.
+P352: 	- Đối với các vi phạm về chế độ mở, ghi chép, hạch toán trên sổ sách kế toán và hoá đơn chứng từ phải yêu cầu người nộp thuế chấn chỉnh kịp thời.
+P353: - Về số liệu kiểm tra: Số liệu kiểm tra theo biên bản này, Đoàn kiểm tra căn cứ số liệu trên hồ sơ khai thuế, sổ sách kế toán của đơn vị xuất trình. Do thời gian kiểm tra hạn chế và chứng từ, số liệu kiểm tra rất nhiều, vì vậy một vài nội dung kiểm tra Đoàn kiểm tra chỉ chọn mẫu để kiểm tra. Các chứng từ, số liệu không kiểm tra Đoàn kiểm tra ghi nhận theo số liệu từ sổ sách kế toán, hồ sơ khai thuế và Báo cáo tài chính do Công ty xuất trình. Trường hợp sau kiểm tra, cơ quan có thẩm quyền phát hiện số liệu đơn vị xuất trình không đúng thực tế, các chứng từ, số liệu chưa được kiểm tra có sai sót hoặc có sự chênh lệch giữa các liên hóa đơn mua hàng, hóa đơn tài chính hoặc hóa đơn không hợp pháp thì đơn vị phải hoàn toàn chịu trách nhiệm và bị xử phạt theo quy định của pháp luật.
+P354: - Đoàn kiểm tra không kiểm tra về giao dịch liên kết, nếu sau này phát hiện có sự chênh lệch khác ngoài kết quả nêu trên thì đơn vị phải chịu hoàn toàn trách nhiệm trước Pháp luật và các cơ quan quản lý Nhà nước.
+P355: V. Ý KIẾN CỦA NGƯỜI NỘP THUẾ (nếu có):
+P356: ...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... .................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................... ....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+P357: VI. QUYỀN VÀ THỜI HẠN GIẢI TRÌNH CỦA NGƯỜI NỘP THUẾ:
+P358: Trong thời hạn không quá 02 ngày làm việc, kể từ ngày lập biên bản này, «Tên_công_ty» gửi yêu cầu giải trình trực tiếp hoặc trong thời hạn không quá 05 ngày, kể từ ngày lập được biên bản này «Tên_công_ty» gửi văn bản giải trình đến Tổ Kiểm tra thuế 1 để thực hiện quyền giải trình.
+P359: Biên bản được thông qua vào hồi 10 giờ 30 cùng ngày, gồm ...... trang được lập thành 05 bản có nội dung và giá trị như nhau, biên bản được giao cho «Tên_công_ty», Đoàn kiểm tra, Tổ quản lý, hỗ trợ doanh nghiệp 01 bản lưu hồ sơ./.
+P360: 
+P361: 
+P362: 
+P363: 
+P364: BIÊN BẢN 
+P365: Công khai và bàn giao dự thảo biên bản kiểm tra
+P366: 
+P367: Căn cứ Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại «Tên_công_ty».
+P368: Đoàn kiểm tra đã tiến hành kiểm tra thuế tại «Tên_công_ty» và kết thúc kiểm tra ngày «Đến_ngày».
+P369: Hôm nay, hồi 8 giờ 00 ngày 
+«Ngày_ký_Biên_bản_kiểm_tra»,
+P370: Tại: văn phòng Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai,
+P371: Chúng tôi gồm:
+P372: I. Đoàn kiểm tra thuế:
+P373: - Ông/Bà: «TĐ»	- Chức vụ: «CVTĐ»	- Trưởng đoàn.
+P374: - Ông/Bà: «TV»	- Chức vụ: «CVTV»	- Thành viên.
+P375: II. Người nộp thuế:
+P376: - Ông/Bà: «GĐ»
+P377: - Chức vụ: Giám đốc, đại diện cho «Tên_công_ty»
+P378: - Ông/Bà: «KT»	- Chức vụ: Kế toán.
+P379: Nội dung
+P380: Đoàn kiểm tra tiến hành công khai và bàn giao dự thảo Biên bản kiểm tra giữa Đoàn kiểm tra và «Tên_công_ty» theo Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai.
+P381: Đại diện «Tên_công_ty» và Đoàn kiểm tra đã được nghe toàn bộ dự thảo Biên bản và Đại diện «Tên_công_ty» đã nhận bàn giao dự thảo Biên bản kiểm tra giữa Đoàn kiểm tra và «Tên_công_ty» nêu trên.
+P382: «Tên_công_ty» có trách nhiệm rà soát dự thảo Biên bản, có ý kiến giải trình (nếu có) và ký Biên bản kiểm tra trong thời hạn 05 ngày làm việc, kể từ ngày kết thúc kiểm tra.
+P383:      	Biên bản này gồm có 01 trang, được lập thành 02 bản có nội dung và giá trị pháp lý như nhau. 01 bản được giao cho đại diện «Tên_công_ty».
+P384: Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và ký biên bản hoặc có ý kiến bổ sung khác (nếu có) như sau: …………………………………………………………………………………………...…………………………………………………………………………………………...
+P385: 
+P386: 
+P387: 
+P388: BÁO CÁO
+P389: Kết quả kiểm tra tại «Tên_công_ty»
+P390: 
+P391: Thực hiện Quyết định kiểm tra số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai. Từ ngày «Từ_ngày» đến ngày «Đến_ngày» Đoàn kiểm tra đã tiến hành kiểm tra thuế tại «Tên_công_ty». Căn cứ Biên bản kiểm tra ký ngày «Ngày_ký_Biên_bản_kiểm_tra» giữa Trưởng đoàn kiểm tra và đại diện người nộp thuế được kiểm tra và các hồ sơ, tài liệu có liên quan.
+P392: Đoàn kiểm tra báo cáo kết quả kiểm tra:
+P393: I. Đặc điểm tình hình chung:
+P394: - Tên đối tượng được kiểm tra: «Tên_công_ty».
+P395: - Mã số thuế: «MST»
+P396: - Địa chỉ: «ĐỊA_CHỈ», Thành phố Đồng Nai.
+P397: - Mục lục Ngân sách: Chương 855
+P398: - Loại hình doanh nghiệp: Công ty TNHH.
+P399: - Hình thức hạch toán: Nhật ký chung.
+P400: - Ngành nghề HĐKD chủ yếu: «NNKD»
+P401: - Thời kỳ kiểm tra: «Thời_kỳ_kiểm_tra». 
+P402: - Thời gian tiến hành kiểm tra: «Thời_hạn_kiểm_tra_» ngày
+P403: + Công bố Quyết định kiểm tra: Ngày «Ngày_công_bố».
+P404: + Thời gian bắt đầu: Ngày «Từ_ngày»;
+P405: + Thời gian kết thúc: Ngày «Đến_ngày»;
+P406: II. Nội dung kiểm tra
+P407: «Nội_dung_kiểm_tra».
+P408: III. Đánh giá với kết quả phân tích
+P409: Căn cứ vào kết quả phân tích đánh giá rủi ro trước kiểm, Đoàn kiểm tra có đánh giá các nội dung đã phân tích với kết quả kiểm tra thực tế tại đơn vị như sau: 
+P410: Đơn vị hạch toán kế toán theo hình thức nhật ký chung, hóa đơn chứng từ đầy đủ, sổ sách kế toán in từ máy vi tính đóng thành quyển rõ ràng đúng quy định. Tuy nhiên doanh nghiệp còn hạch toán một số chi phí không hợp lý hợp lệ, đã vi phạm quy định của Luật thuế TNDN và Luật thuế GTGT. 
+P411: 		III. Kiến nghị xử lý:
+P412: Doanh nghiệp còn kê khai một số chi phí không hợp lý hợp lệ, đã vi phạm quy định của Luật thuế TNDN, Luật thuế GTGT.
+P413: - Kiến nghị xử lý truy thu: «Tổng»					 đồng, trong đó: 
+P414: + Thuế TNDN:  	«Thuế_TNDN» đồng.
+P415: + Thuế GTGT: 	«Thuế_GTGT» đồng.
+P416: và số tiền phạt đối với hành vi kê khai sai và phạt chậm nộp.
+P417: - Kiến nghị xử phạt: Tổng cộng số tiền phạt: «Tổng_cộng_số_phạt__chậm_nộp» đồng, trong đó:
+P418: + Tiền chậm nộp: Xử phạt 0,03% mỗi ngày tính trên số tiền thuế chậm nộp được quy định tại Khoản 2 Điều 16 Luật Quản lý thuế 108/2025/QH15 của Quốc Hội, được tính từ ngày tiếp sau ngày cuối cùng của thời hạn nộp thuế đến ngày ký Biên bản kiểm tra, với số tiền:  «Tổng_phạt» đồng.
+P419: + Phạt 20% đối với hành vi khai sai được quy định tại Khoản 1 Điều 16 Chương 1 Nghị Định 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ, với số tiền: «Số_tiền_phạt_20» đồng.
+P420: + Phạt vi phạm hành chính về hành vi khai sai tại Khoản 3 Điều 12 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ: «Phạt_KK_sai_VPHC» đồng;
+P421: Trên đây là báo cáo kết quả kiểm tra tại «Tên_công_ty», Đoàn kiểm tra báo cáo và trình dự thảo Kết luận kiểm tra/Quyết định xử phạt vi phạm hành chính để Lãnh đạo Thuế Cơ sở 3 xem xét, ký duyệt./.
+P422: 
+P423: 	TRƯỞNG ĐOÀN KIỂM TRA
+P424: 	(Ký và ghi rõ họ tên)
+P425: 	
+P426: 
+P427: 	
+P428: 	«TĐ»
+P429: 
+P430: 
+P431: 		  		 									
+P432: KẾ HOẠCH GIÁM SÁT HOẠT ĐỘNG
+P433: CỦA ĐOÀN KIỂM TRA THUẾ
+P434: 
+P435: Thực hiện Quyết định số «QĐGS» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc giám sát đoàn kiểm tra theo QĐ kiểm tra tại doanh nghiệp số «QĐKT» ngày «ngày_QĐ» do ông Nguyễn Trường Giang làm giám sát đoàn kiểm tra, lập kế hoạch tiến hành giám sát như sau:
+P436: I. Mục đích, yêu cầu
+P437:  Căn chứ theo Quyết định số 1614/QĐ-TCT ngày 13/10/2022 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám, sát hoạt động của Đoàn thanh tra, kiểm tra thuế.
+P438: II. Nội dung giám sát
+P439: 1. Giám sát việc chấp hành pháp luật của người được giám sát bao gồm các nội dung sau:
+P440: a. Việc thực hiện các quy định của pháp luật về trình tự, thủ tục, thời hạn tiến hành một cuộc kiểm tra thuế theo quy trình kiểm tra thuế bao gồm: việc thu thập, tổng hợp, đánh giá thông tin; thực hiện chế độ thông tin, báo cáo; ghi nhật ký Đoàn kiểm tra;
+P441: b. Việc thực hiện các quyền trong hoạt động kiểm tra thuế đối với người được giám sát, bao gồm: căn cứ, thẩm quyền, trình tự, thủ tục và kết quả thực hiện; việc xử lý ý kiến của đối tượng kiểm tra và các cơ quan, tổ chức, cá nhân có liên quan đến việc thực hiện các quyền trong hoạt động kiểm tra;
+P442: c. Việc thực hiện các quy định của pháp luật đối với người được giám sát, bao gồm: quy định về những điều cấm trong hoạt động kiểm tra thuế; quy tắc ứng xử của công chức thực hiện nhiệm vụ kiểm tra thuế; ý thức chấp hành kỷ luật kiểm tra thuế và các quy định khác có liên quan.
+P443: 2. Giám sát việc thực hiện nhiệm vụ và triển khai hoạt động kiểm tra thuế của Đoàn kiểm tra bao gồm các nội dung sau:
+P444: a. Tiến độ và kết quả đã đạt được so với yêu cầu theo quyết định kiểm tra thuế, kế hoạch tiến hành kiểm tra;
+P445: b. Khó khăn, vướng mắc phát sinh trong hoạt động kiểm tra thuế và tác động đối với việc hoàn thành kế hoạch tiến hành kiểm tra;
+P446: c. Việc thực hiện nhiệm vụ, triển khai hoạt động kiểm tra thuế của người được giám sát;
+P447: d. Việc xử lý ý kiến khác nhau giữa Trưởng đoàn và thành viên Đoàn kiểm tra về những vấn đề liên quan đến nội dung kiểm tra;
+P448: e. Các nội dung tại Khoản 6, điều 7 Quy chế này;
+P449: f. Các nội dung khác có liên quan đến việc thực hiện nhiệm vụ, triển khai hoạt động kiểm tra của Đoàn kiểm tra thuế.
+P450: 3. Các nội dung giám sát hoạt động của Đoàn kiểm tra thuế được thực hiện theo mẫu 05-TTr ban hành kèm theo Quy chế này.
+P451: III. Hình thức giám sát
+P452: - Theo điều 14 của QĐ 1614 (tùy trường hợp)
+P453: IV. Tổ chức thực hiện
+P454: - Tiến độ thực hiện:
+P455: + Chậm nhất 05 ngày làm việc sau khi quyết định giám sát hoạt động của Đoàn kiểm tra thuế được ký, người được phân công giám sát thực hiện nhiệm vụ giám sát của mình theo quy chế giám sát của QĐ 1614.
+P456: + Yêu cầu Đoàn kiểm tra thực hiện theo khoản 1 Điều 7 của QĐ 1614
+P457: - Chế độ thông tin báo cáo: Người được giám sát thực hiện tại khoản 2 Điều 16 của QĐ 1562 (nếu có).
+P458: - Điều kiện vật chất đảm bảo hoạt động giám sát.
+P459: - Những vấn đề khác (nếu có).
+P460: 
+P461: 
+P462: 
+P463: 
+P464: 
+P465: 		  		 									
+P466: BÁO CÁO
+P467: Nội dung và Kết quả giám sát hoạt động của Đoàn kiểm tra
+P468: «Tên_công_ty»
+P469: 
+P470: Thực hiện Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc giám sát hoạt động của Đoàn kiểm tra tại «Tên_công_ty», từ ngày «Từ_ngày» đến ngày «Đến_ngày» Đoàn giám sát do ông Nguyễn Trường Giang thực hiện đã tiến hành triển khai công việc.
+P471: Quá trình giám sát, ông Nguyễn Trường Giang đã làm việc với Đoàn kiểm tra và tiến hành xem xét, đối chiếu, đánh giá về nội dung giám sát.
+P472: Sau đây là nội dung và kết quả giám sát:
+P473: I. VỀ THỦ TỤC THỰC HIỆN KIỂM TRA TẠI TRỤ SỞ NGƯỜI NỘP THUẾ:
+P474: 1. Việc công bố Quyết định kiểm tra có đúng thời hạn theo quy định (theo biên bản công bố Quyết định kiểm tra) và báo cáo người giám sát về việc biên bản công bố Quyết định kiểm tra theo thời hạn quy định:
+P475: Công bố đúng thời hạn □			                   Công bố không đúng thời hạn □
+P476: Báo cáo người giám sát đúng thời hạn □
+P477: Báo cáo người giám sát không đúng thời hạn □
+P478: 2. Giao và giải thích tài liệu những điều người nộp thuế cần biết trong kiểm tra thuế và thông tin người giám sát tại trụ sở người nộp thuế (theo biên bản công bố Quyết định kiểm tra):
+P479: Có □						Không □
+P480: 3. Thời hạn tiến hành cuộc kiểm tra tại doanh nghiệp (từ khi công bố quyết định kiểm tra đến khi kết thúc thời gian kiểm tra tại trụ sở NNT) thực hiện đúng quy định:
+P481: Đúng □	Không đúng □
+P482: 4. Về thái độ ứng xử, tác phong làm việc của Đoàn (theo phản ánh của NNT tới người giám sát):
+P483: Tốt □	Không tốt □
+P484: 5. Đoàn kiểm tra vi phạm yêu cầu cung cấp thông tin, tài liệu không liên quan đến nội dung, thời kỳ kiểm tra, hoặc yêu cầu những thông tin, tài liệu người nộp thuế đã nộp cho CQT theo quy định hiện hành (theo phản ánh của NNT):
+P485: Không có phản ánh □
+P486: Không vi phạm □
+P487: Có vi phạm □
+P488: 6. Về việc thực hiện theo quy chế giải quyết trước khi ký biên bản kiểm tra thuế tại trụ sở người nộp thuế đối với những trường hợp có khả năng khiếu nại ban hành kèm theo Quyết định số 1276/QĐ-TCT ngày 16/7/2015 của Tổng cục trưởng Tổng cục Thuế:
+P489: Không phát sinh □
+P490: Có thực hiện khi phát sinh □
+P491: Không thực hiện khi phát sinh □
+P492: 7. Đoàn kiểm tra có thực hiện kiểm tra theo các tiêu chí rủi ro để Xây dựng kế hoạch kiểm tra:
+P493: Có □					Không □
+P494: 8. Đoàn kiểm tra có thực hiện kiểm tra theo các tiêu chí lựa chọn phân tích rủi ro trước khi ban hành Quyết định kiểm tra thuế:
+P495: Có □ 					Không □
+P496: 9. Đoàn kiểm tra có thực hiện kiểm tra theo các thông tin thụ thập từ các nguồn bên ngoài (nếu có):
+P497: Có thực hiện kiểm tra □		Không thực hiện kiểm tra □
+P498: Không có thông tin thu thập từ bên ngoài
+P499: II. NHỮNG NỘI DUNG KHÁC PHÁT SINH TRONG QUÁ TRÌNH GIÁM SÁT (nếu có):
+P500: .............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+P501: III. Ý KIẾN ĐÁNH GIÁ VÀ ĐỀ XUẤT CỦA NGƯỜI SÁT ĐỐI VỚI KẾT QUẢ kiểm TRA VÀ ĐỀ XUẤT XỬ LÝ CỦA TRƯỞNG ĐOÀN (trên cơ sở hồ sơ trình của Đoàn kiểm tra):
+P502: .............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+P503: Trên đây là Báo cáo kết quả giám sát hoạt động của Đoàn kiểm tra về «Tên_công_ty», kính  xin ý kiến chỉ đạo của Lãnh đạo Cục thuế. 
+P504: 
+P505: 	Tổ trưởng Tổ giám sát hoặc công chức
+P506: 	(Ký, ghi rõ họ tên)
+P507: Nơi nhận:			                                
+P508: Lãnh đạo Cục; 
+P509: Đoàn kiểm tra;
+P510: - Lưu: KTr1.
+P511: 		
+P512: 	Nguyễn Trường Giang 
+P513: 
+P514: 			
+P515: BIÊN BẢN LÀM VIỆC
+P516: 
+P517: Vào hồi 14 giờ 00 ngày «Ngày_báo_cáo» tại Văn phòng Thuế Cơ sở 3 Thành phố Đồng Nai, ông Nguyễn Trường Giang làm việc với Đoàn kiểm tra theo quyết định kiểm tra tại doanh nghiệp số «QĐKT» ngày «ngày_QĐ» về việc giám sát Đoàn kiểm tra theo quyết định giám sát số «QĐGS» ngày «ngày_QĐ».
+P518: 1. Đại diện Đoàn giám sát:
+P519: - Ông:	Nguyễn Trường Giang	- Chức vụ: Tổ trưởng Tổ kiểm tra số 1.
+P520: 2. Đại diện Đoàn kiểm tra :
+P521: - Ông/Bà:«TĐ»		- Chức vụ: Trưởng đoàn
+P522: - Ông/Bà:«TV»		- Chức vụ: Thành viên
+P523: 3. Nội dung làm việc
+P524: Đánh giá về thực hiện nhiệm vụ của đoàn kiểm tra: Đoàn kiểm tra đã thực hiện đúng quy trình, nội dung trong quyết định kiểm tra, thực hiện đúng tiến độ kiểm tra và đã báo cáo tiến độ cho người phân công giám sát kịp thời.
+P525: Người giám sát đã thực hiện theo đúng quy trình giám sát tại quyết định số 1614/QĐ-TCT ngày 13/10/2022 của Tổng cục trưởng Tổng cục Thuế, số liệu kiểm tra theo nội dung quyết định đoàn kiểm tra chịu trách nhiệm giải trình với người ra quyết định kiểm tra, người ra quyết định giám sát khi có yêu cầu.
+P526: Các nội dung tại biên bản này được thống nhất giữa các bên tham dự.
+P527: Biên bản kết thúc vào hồi 14 giờ 30 ngày «Ngày_báo_cáo».
+P528: Biên bản đã được đọc lại cho những người có tên nêu trên nghe và ký xác nhận; biên bản được lập thành 02  bản có giá trị như nhau, mỗi bên giữa 01 bản.
+P529: 
+P530: 
+P531: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+P532: 	TỔ KIỂM TRA SỐ 1
+P533: 
+P534: NHẬT KÝ THANH TRA KIỂM TRA
+P535: 
+P536: I. THÔNG TIN CHUNG:
+P537: 1. Đoàn kiểm tra:
+P538: - Ông/Bà	: «TĐ»	- Chức vụ: Trưởng đoàn
+P539: - Ông/Bà	: «TV»	- Chức vụ: Thành Viên
+P540: 2. Đối tượng được kiểm tra:
+P541: - Tên doanh nghiệp: «Tên_công_ty»;
+P542: - Mã số thuế: «MST»;
+P543: - Địa chỉ: «địa_chỉ», Đồng Nai;
+P544: - Ngành nghề KD hiện tại: «NNKD»
+P545: II. NHẬT KÝ THANH TRA KIỂM TRA:
+P546: 1/ Công việc chính:
+P547: 	2/ Phân công nhiệm vụ kiểm tra:
+P548: 3/ Nội dung khác nếu có: Không
+P549: 
+P550: 	Người lập	Trưởng đoàn	Thành viên
+P551: 
+P552: 
+P553: 
+P554: 	
+P555: 		«TĐ»	«TV»
+P556: 
+P557: 
+P558: 
+P559: 
+P560: 
+P561: BIÊN BẢN 
+P562: PHÂN CÔNG CÔNG VIỆC 
+P563: Tại «Tên_công_ty»
+P564: 
+P565: Căn cứ Quyết định số «QĐKT» ngày «ngày_QĐ» của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại «Tên_công_ty»; địa chỉ: «địa_chỉ», Đồng Nai; mã số thuế: 	«MST»;
+P566: Căn cứ nội dung phân tích chuyên sâu về người nộp thuế.
+P567: Hôm nay, ngày «Ngày_công_bố» tại Văn phòng «Tên_công_ty»; địa chỉ: «địa_chỉ»,  Đồng Nai; mã số thuế: 	«MST»; 
+P568: Trưởng đoàn kiểm tra phân công công việc cho các thành viên trong đoàn như sau:
+P569: Trưởng đoàn kiểm tra: «TĐ»
+P570: Nội dung công việc thực hiện:
+P571: «Phân_công_trưởng_đoàn».
+P572: 2. Thành viên đoàn kiểm tra: «TV»
+P573: Nội dung công việc thực hiện:
+P574: «Phân_công_thành_viên».
+P575: Biên bản này được lập thành 02 (hai) bản và đọc cho các thành viên đoàn kiểm tra nghe và thống nhất thông qua.
+P576: Trong trường hợp cần thiết, trưởng đoàn kiểm tra căn cứ vào thực tế công việc kiểm tra tại trụ sở người nộp thuế có thể điều chỉnh phân công công việc cho các thành viên đoàn kiểm tra./.
+P577: 	THÀNH VIÊN	TRƯỞNG ĐOÀN KIỂM TRA
+P578: 
+P579: 
+P580: 
+P581: 
+P582: 	«TV»	«TĐ»
+P583: 
+P584: 	
+P585: QUYẾT ĐỊNH
+P586: Xử phạt vi phạm hành chính về thuế
+P587: 
+P588: TRƯỞNG THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+P589: 	
+P590: Căn cứ Luật Quản lý thuế 108/2025/QH15 ngày 10 tháng 12 năm 2025 của Quốc Hội;
+P591: Căn cứ Điều 57, Điều 68, Điều 70, Điều 78 và Điều 85 Luật Xử lý vi phạm hành chính (sửa đổi, bổ sung năm 2022);
+P592: Căn cứ Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định về xử phạt vi phạm hành chính về thuế, hóa đơn;
+P593: Căn cứ Nghị định 118/2021/NĐ-CP ngày 23/12/2021 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xử lý vi phạm hành chính và Nghị định 190/2025/NĐ-CP ngày 01/07/2025 của Chính phủ sửa đổi, bổ sung một số điều của nghị định số 118/2021/NĐ-CP ngày 23 tháng 12 năm 2021 của chính phủ;
+P594: Căn cứ Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ quy định sửa đổi, bổ sung một số điều của Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định về xử phạt vi phạm hành chính về thuế, hóa đơn;
+P595: Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2026 của Cục trưởng Cục Thuế quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sổ thuộc Thuế tỉnh, thành phố;
+P596: Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục thuế quyết định quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+P597: Căn cứ Quyết định số 2956/QĐ-GQXP ngày 01/6/2026 của Trưởng Thuế cơ sở Thuế Cơ sở 3 Thành phố Đồng Nai về việc giao quyền xử phạt vi phạm hành chính về thuế và hóa đơn;
+P598: Căn cứ Biên bản kiểm tra quyết toán ký ngày «Ngày_ký_Biên_bản_kiểm_tra» tại trụ sở người nộp thuế của Đoàn kiểm tra Thuế Cơ sở 3 Thành phố Đồng Nai theo Quyết định số «QĐKT» ngày «ngày_QĐ» về việc kiểm tra quyết toán tại «Tên_công_ty»;
+P599: Theo đề nghị của Tổ trưởng Tổ Kiểm tra số 1.
+P600: QUYẾT ĐỊNH:
+P601: Điều 1. Xử phạt vi phạm hành chính về thuế đối với ông (bà) tổ chức có tên sau đây:
+P602: 1. Tên tổ chức vi phạm: «Tên_công_ty»;
+P603: Địa chỉ trụ sở chính: «địa_chỉ», Thành phố Đồng Nai.
+P604: Mã số doanh nghiệp: «MST».
+P605: Giấy chứng nhận đăng ký doanh nghiệp số: «GGCNĐKKD» Ngày cấp:  «Ngày_cấp2» Nơi cấp Sở Tài chính Thành phố Đồng Nai cấp;
+P606: Lĩnh vực hoạt động: «NNKD»...
+P607: Người đại diện theo pháp luật: «GĐ».
+P608: Chức danh: Giám đốc.
+P609: Thời kỳ kiểm tra: «Thời_kỳ_kiểm_tra»
+P610: 2. Đã thực hiện hành vi vi phạm hành chính: Khai sai dẫn đến thiếu tiền thuế phải nộp.
+P611: 3. Hành vi vi phạm hành chính quy định tại: khoản 1 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ.
+P612: 4. Các tình tiết tăng nặng, giảm nhẹ (nếu có): Không.
+P613: 5. Các tình tiết liên quan đến việc giải quyết vi phạm (nếu có): Không.
+P614: 6. Bị áp dụng hình thức xử phạt, biện pháp khắc phục hậu quả như sau:	
+P615: a) Hình thức xử phạt hành chính: phạt tiền, mức phạt:	 «Tổng_phạt_kk_sai» đồng.
+P616: Cụ thể: 
+P617: + Phạt kê khai sai (TM 4254):	 «Số_tiền_phạt_20» đồng.
+P618:   + Phạt về hành vi vi phạm thủ tục thuế (TM 4254): «Phạt_KK_sai_VPHC» đồng;
+P619: b) Hình thức xử phạt bổ sung: Không.
+P620: c) Biện pháp khắc phục hậu quả (nếu có): Buộc nộp đủ số tiền thuế truy thu và tiền chậm nộp vào ngân sách nhà nước:
+P621: - Số tiền thuế truy thu:
+P622: + Thuế TNDN (TM 1052), số tiền:  	«Thuế_TNDN» đồng;
+P623: + Thuế GTGT (TM 1701), số tiền:  «Thuế_GTGT» 	đồng;
+P624: - Số tiền chậm nộp:
+P625: + Tiền chậm nộp thuế TNDN (TM 4918), số tiền:  «Số_tiền_phạt_003_TNDN» đồng;
+P626: + Tiền chậm nộp thuế GTGT (TM 4931), số tiền: «Số_tiền_phạt_003_GTGT» đồng;
+P627: Tổng số tiền truy thu, phạt: «Tổng_cộng_phạt_và_truy_thu» đồng (bằng chữ: «Tổng_cộng_phạt_và_truy_thu_BC»).
+P628: Số tiền chậm nộp tiền thuế nêu trên được tính đến hết ngày «Ngày_ký_Biên_bản_kiểm_tra», Doanh nghiệp có trách nhiệm tự tính và nộp số tiền chậm nộp tiền thuế kể từ sau ngày «Ngày_ký_Biên_bản_kiểm_tra», tiền chậm nộp tiền phạt kể từ ngày kế tiếp ngày hết thời hạn nộp tiền phạt (nếu có) đến ngày liền kề trước ngày thực nộp số tiền thuế truy thu và tiền phạt vào ngân sách Nhà nước theo quy định.
+P629: Giảm lỗ: «Giảm_lỗ» đồng;
+P630: Giảm khấu trừ: «giảm_khấu_trừ» đồng;
+P631: Mọi chi phí tổ chức thi hành biện pháp khắc phục hậu quả do tổ chức vi phạm có tên trong Điều này chi trả.
+P632: - Biện pháp khắc phục hậu quả khác (nếu có): Không
+P633: Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký;
+P634: Điều 3. Quyết định này được:
+P635: 1.	Giao cho ông/bà «GĐ» là người đại diện của «Tên_công_ty» để chấp hành.
+P636: «Tên_công_ty» có tên trong Điều 1 phải nghiêm chỉnh chấp hành quyết định xử phạt này. Nếu quá thời hạn «Tên_công_ty» không tự nguyện chấp hành thì sẽ bị cưỡng chế thi hành theo quy định của pháp luật và cứ mỗi ngày chậm nộp tiền phạt thì cá nhân, tổ chức vi phạm phải nộp thêm 0,05% tính trên tổng số tiền phạt chưa nộp.
+P637: a) «Tên_công_ty» bị xử phạt phải nộp tiền phạt và tiền khắc phục hậu quả vào tài khoản số 7111.«Ma_CQT» của «CQT» mở tại Kho bạc Nhà nước khu vực XVII theo đúng các tiểu mục trên trong thời hạn 10 ngày, kể từ ngày nhận được Quyết định này.
+P638: b) «Tên_công_ty» có quyền khiếu nại hoặc khởi kiện hành chính đối với Quyết định này theo quy định của pháp luật.
+P639: 2. Gửi cho Kho bạc Nhà nước khu vực XVII để thu tiền phạt.
+P640: 3. Gửi cho Tổ Kiểm tra số 1, Tổ quản lý, hỗ trợ doanh nghiệp số 1 để tổ chức thực hiện và phối hợp thực hiện quyết định này.
+P641: 
+P642: 
+P643: TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ 3
+P644: Về việc: ban hành Quyết Định xử phạt vi phạm trong lĩnh vực thuế.
+P645: 
+P646: Nội dung công việc: Ban hành Quyết định xử phạt vi phạm hành chính trong lĩnh vực thuế đối với «Tên_công_ty», MST: «MST» theo kiến nghị tại Biên bản kiểm tra ngày «Ngày_ký_Biên_bản_kiểm_tra» của Đoàn kiểm tra của theo quyết định số «QĐKT» ngày «ngày_QĐ».
+P647: Căn cứ pháp lý để giải quyết: Căn cứ khoản 1 Điều 16 Mục 1 Chương II Nghị định số 125/2022/NĐ-CP ngày 19/10/2022 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ.
+P648: Ý kiến tham gia của các đơn vị liên quan:…………………………………………...  …….…………………………………………………………………………………...
+P649: Đề xuất của cán bộ giải quyết: Đề nghị Lãnh đạo Thuế Cơ sở 3 Thành phố Đồng Nai ban hành quyết định xử lý đối với  «Tên_công_ty».
+P650: 	Trấn Biên, ngày ..... tháng ..... năm 2026
+P651: 	CÁN BỘ ĐỀ XUẤT
+P652: 
+P653: 
+P654: 
+P655: 	«TĐ»
+P656: Ý kiến của lãnh đạo Đội thuế:  Kính đề nghị Lãnh đạo Thuế Cơ sở 3 Thành phố Đồng Nai ban hành Quyết định xử phạt nêu trên./.
+P657: 	Trấn Biên, ngày ..... tháng ..... năm 2026
+P658: 	TỔ TRƯỞNG
+P659:  
+P660: 
+P661: 
+P662: 
+P663: 	Nguyễn Trường Giang
+P664: Ý kiến phê duyệt của Lãnh đạo Thuế Cơ sở 3 Thành phố Đồng Nai: 
+P665: …………………………………….....……………………………………………………………………………………….....…………………………………………………	
+P666: 	Trấn Biên, ngày ..... tháng ..... năm 2026
+P667: 	KT. TRƯỞNG THUẾ CƠ SỞ
+P668: 	PHÓ TRƯỞNG THUẾ CƠ SỞ
+P669: 
+P670: 
+P671: 
+P672: 
+P673: 
+P674: 	Phạm Đồng Xuân
+P675: 
+P676: 	
+P677: 
+P678: 
+P679: VĂN BẢN ĐỀ NGHỊ THAM GIA Ý KIẾN PHÁP LÝ
+P680: Kính gửi: Tổ Nghiệp vụ - Dự toán – Pháp chế.
+P681: 	Tổ Kiểm tra số 1 đề nghị Tổ Nghiệp vụ - Dự toán – Pháp chế nghiên cứu và tham gia ý kiến pháp lý đối với dự thảo: Quyết định xử lý vi phạm về thuế theo kết quả kiểm tra đối với «Tên_công_ty». 
+P682: 	Hồ sơ đề nghị tham gia ý kiến pháp lý gồm:
+P683: 		
+P684: 	Tổ Trưởng
+P685: 
+P686: 
+P687: 
+P688: 
+P689: 	Nguyễn Trường Giang
+P690: 
+P691: 
+P692: 
+P693: BIÊN BẢN 
+P694: Giao, nhận hồ sơ, tài liệu cuộc kiểm tra theo Quyết định 
+P695: số «QĐKT» ngày «NGÀY_QĐ»
+P696: 
+P697: Hôm nay, vào lúc ..... giờ ..... ngày ..... tháng ..... năm 2026 tại văn phòng Tổ Kiểm tra số 1 Đoàn kiểm tra theo Quyết định số: «QĐKT» ngày «NGÀY_QĐ» của Trưởng Thuế cơ sở Thuế Cơ sở 3 về việc kiểm tra thuế tại «Tên_công_ty» tiến hành bàn giao hồ sơ kiểm tra. cụ thể như sau:
+P698: Chúng tôi gồm có:
+P699: + Đại diện Bên bàn giao (Đoàn kiểm tra):
+P700: Ông/Bà: «TĐ» 	- Chức vụ: «CVTĐ»
+P701: + Đại diện Bên nhận bàn giao:
+P702: Ông/Bà: Nguyễn Thị Ánh Ngọc	- Chức vụ: Kiểm tra viên
+P703: Đã tiến hành giao, nhận hồ sơ, tài liệu cuộc kiểm tra theo Quyết định số «QĐKT» ngày «NGÀY_QĐ» của Trưởng Thuế cơ sở Thuế Cơ sở 3 về việc kiểm tra thuế tại «Tên_công_ty».
+P704: Hồ sơ gồm các tài liệu sau:
+P705: 1/ Hồ sơ về người nộp thuế được kiểm tra:
+P706: - Bản sao giấy phép kinh doanh;
+P707: 2/ Hồ sơ. tài liệu do Đoàn kiểm tra thu thập được:
+P708: - Không.
+P709: 3/ Hồ sơ. tài liệu liên quan thủ tục hành chính tại cơ quan thuế:
+P710: - Bản nhận xét phân tích hồ sơ ;
+P711: - Quyết định kiểm tra;
+P712: - Công bố quyết định kiểm tra
+P713: - Phiếu phân công
+P714: - Báo cáo kết quả cuộc kiểm tra;
+P715: - Biên bản xác nhận số liệu kiểm tra;
+P716: - Biên bản kiểm tra;
+P717: - Quyết định xử phạt vi phạm hành chính 
+P718:  (tất cả các tài liệu có liên quan đến việc xử lý sau kiểm tra)
+P719: Việc giao nhận hoàn thành vào lúc ... giờ ... ngày ...../...../2026.
+P720: Biên bản giao, nhận hồ sơ, tài liệu đã được đọc lại cho những người có tên nêu trên nghe và ký xác nhận; biên bản được lập thành 02 bản, mỗi bên giữ 01 bản./.
+P721: 
+P722: 	ĐẠI DIỆN BÊN NHẬN	ĐẠI DIỆN BÊN GIAO
+P723: 	(Ký và ghi rõ họ tên)	(Ký và ghi rõ họ tên)
+P724: 
+P725: 
+P726: 
+P727: 	Nguyễn Thị Ánh Ngọc 88	«TĐ» 	90
+
+--- TABLE 0 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI TỔ KIỂM TRA 1 | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+
+--- TABLE 1 ---
+  R0: THUẾ THÀNH PHỐ ĐỒNG NAI THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R2:                  Số:               | Trấn Biên, ngày       tháng       năm 2026
+
+--- TABLE 2 ---
+  R0: Nơi nhận:			                                 - Như Điều 3; - Lưu: VT; Tổ KTR1 (04b). | KT. TRƯỞNG THUẾ CƠ SỞ PHÓ TRƯỞNG THUẾ CƠ SỞ     Phạm Đồng Xuân
+
+--- TABLE 3 ---
+  R0: THUẾ THÀNH PHỐ ĐỒNG NAI THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | 
+  R2:                 Số:                | Trấn Biên, ngày      tháng     năm 2026
+
+--- TABLE 4 ---
+  R0: Nơi nhận:			  - Như Điều 4;  - Lưu: VT; Tổ KTR1 (03b). | KT. TRƯỞNG THUẾ CƠ SỞ PHÓ TRƯỞNG THUẾ CƠ SỞ     Phạm Đồng Xuân
+
+--- TABLE 5 ---
+  R0:  THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | 
+
+--- TABLE 6 ---
+  R0: THUẾ THÀNH PHỐ ĐỒNG NAI THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | 
+  R2:  | Trấn Biên, ngày      tháng     năm 2026
+
+--- TABLE 7 ---
+  R0: Nơi nhận:			                                 Như trên;  - Lưu: KTR1 (02b). 	 | KT. TRƯỞNG THUẾ CƠ SỞ PHÓ TRƯỞNG THUẾ CƠ SỞ     Phạm Đồng Xuân         
+
+--- TABLE 8 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc 
+
+--- TABLE 9 ---
+  R0: NGƯỜI NỘP THUẾ hoặc ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ | ĐẠI DIỆN ĐOÀN KIỂM TRA (HOẶC THANH TRA)
+  R1:     «GĐ» |     «TĐ»
+
+--- TABLE 10 ---
+  R0: Người được phân công giao văn bản     «TĐ» | Người nhận văn bản     «GĐ»
+
+--- TABLE 11 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+
+--- TABLE 12 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_thành_viên» |  144.281.478  |  144.281.478  | -
+
+--- TABLE 13 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_thành_viên» |  1.748.198.921  |  1.748.198.921  | -
+
+--- TABLE 14 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_thành_viên» |  285.191.642  |  285.191.642  | -
+
+--- TABLE 15 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_thành_viên» |  288.289.977  |  288.289.977  | -
+
+--- TABLE 16 ---
+  R0: NGƯỜI NỘP THUẾ hoặc  ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ | THÀNH VIÊN ĐOÀN KIỂM TRA | THÀNH VIÊN ĐOÀN KIỂM TRA
+  R1:  |  |  | 
+  R2:                Giám đốc                             Kế toán                 «GĐ»                 «KT» |      «TV» |      «TV»
+
+--- TABLE 17 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+
+--- TABLE 18 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_trưởng_đoàn». |         13.776.004.215  |         13.776.004.215  |                              -   
+
+--- TABLE 19 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_trưởng_đoàn» |         10.643.637.220  |         10.565.162.020  |             (78.475.200)
+
+--- TABLE 20 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_trưởng_đoàn» |           8.632.787.527  |           8.515.074.727  |           (117.712.800)
+
+--- TABLE 21 ---
+  R0: TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH
+  R1: 1 | «Phân_công_trưởng_đoàn» |         11.260.000.000  |         11.260.000.000  | - 
+
+--- TABLE 22 ---
+  R0: NGƯỜI NỘP THUẾ hoặc  ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ | THÀNH VIÊN ĐOÀN KIỂM TRA | THÀNH VIÊN ĐOÀN KIỂM TRA
+  R1:  |  |  | 
+  R2:      Giám đốc                             Kế toán     «GĐ»            «KT» | Trưởng đoàn     «TĐ» | Trưởng đoàn     «TĐ»
+
+--- TABLE 23 ---
+  R0:   THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA |   CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+
+--- TABLE 24 ---
+  R0: TT | CHỈ TIÊU |  SỐ BÁO CÁO  |  SỐ KIỂM TRA  |  CHÊNH LỆCH 
+  R1: 1 | «Phân_công_trưởng_đoàn» |       13.776.004.215  |       13.776.004.215  |                           -   
+  R2: 2 | «Phân_công_thành_viên» |            144.281.478  |         144.281.478  |  
+  R3: 3 | Thu nhập tính thuế |            199.986.335  |            199.986.335  |                           -   
+  R4: 4 | Thuế suất thuế TNDN | 20% | 20% |  
+  R5: 5 | Thuế TNDN từ hoạt động SXKD |              39.997.267  |             39.997.267  |                           -   
+
+--- TABLE 25 ---
+  R0: TT | CHỈ TIÊU |  SỐ BÁO CÁO  |  SỐ KIỂM TRA  |  CHÊNH LỆCH 
+  R1: 1 | «Phân_công_trưởng_đoàn» |       10.643.637.220  |       10.565.162.020  |      (78.475.200)
+  R2: 2 | «Phân_công_thành_viên» |        1.748.198.921  |    1.748.198.921  | - 
+  R3: 3 | Thu nhập chịu thuế |           (40.829.663) |           37.645.537  |         78.475.200 
+  R4: 4 | Thuế suất thuế TNDN | 20% | 20% |  
+  R5: 5 | Thuế TNDN từ hoạt động SXKD |                               -    |                7.529.107  |             7.529.107 
+
+--- TABLE 26 ---
+  R0: TT | CHỈ TIÊU |  SỐ BÁO CÁO  |  SỐ KIỂM TRA  |  CHÊNH LỆCH 
+  R1: 1 | «Phân_công_trưởng_đoàn» |  8.632.787.527  |  8.515.074.727  | (117.712.800)
+  R2: 2 | «Phân_công_thành_viên» |  285.191.642  |         285.191.642  | - 
+  R3: 3 | Thu nhập chịu thuế | (44.566.965) |           73.145.835  |         117.712.800 
+  R4: 4 | Thuế suất thuế TNDN | 20% | 20% |  
+  R5: 5 | Thuế TNDN từ hoạt động SXKD |                               -    |              14.629.167  |             14.629.167 
+
+--- TABLE 27 ---
+  R0: TT | CHỈ TIÊU |  SỐ BÁO CÁO  |  SỐ KIỂM TRA  |  CHÊNH LỆCH 
+  R1: 1 | «Phân_công_trưởng_đoàn» |       11.260.000.000  |       11.260.000.000  | - 
+  R2: 2 | «Phân_công_thành_viên» |            288.289.977  |            288.289.977  |  
+  R3: 3 | Lợi nhuận kế toán trước thuế thu nhập doanh nghiệp |   247.658.136  |    297.072.695  |     49.414.559 
+  R4: 4 | Thu nhập tính thuế |           247.658.136  |     297.072.695  |       49.414.559 
+  R5: 5 | Thuế suất thuế TNDN | 20% | 17% |  
+  R6: 6 | Thuế TNDN từ hoạt động SXKD |         49.531.627  |        50.502.358  |            970.731 
+
+--- TABLE 28 ---
+  R0: STT | CHỈ TIÊU | Số kỳ trước chuyển sang | Số phát sinh trong kỳ | Số phát sinh trong kỳ | Số đã nộp | Số còn phải nộp
+  R1: STT | CHỈ TIÊU | Số kỳ trước chuyển sang | Số báo cáo phát sinh phải nộp trong kỳ | Số xử lý qua kiểm tra  | Số đã nộp | Số còn phải nộp
+  R2: (1) | (2) | (3) | (4) | (5) | (6) | (7)=(3)+(4)+(5)-(6)
+  R3:   | Thuế TNDN  | Thuế TNDN  |   |   |   |  
+  R4:   | 2022 | (26.064.088) | 39.997.267  |  -  | 56.995.151  | (43.061.972)
+  R5:  | 2023 | (43.061.972) |  - | 7.529.107  | -  | (35.532.865)
+  R6:  | 2024 | (35.532.865) |  -  | 14.629.167  | 50.000.000  | (70.903.698)
+  R7:   | 2025 | (70.903.698) | 49.531.627  |  970.731  | 50.000.000  | (70.401.340)
+
+--- TABLE 29 ---
+  R0: NGƯỜI NỘP THUẾ HOẶC  ĐẠI DIỆN HỢP PHÁP CỦA  NGƯỜI NỘP THUẾ | NGƯỜI NỘP THUẾ HOẶC  ĐẠI DIỆN HỢP PHÁP CỦA  NGƯỜI NỘP THUẾ | NGƯỜI NỘP THUẾ HOẶC  ĐẠI DIỆN HỢP PHÁP CỦA  NGƯỜI NỘP THUẾ | ĐẠI DIỆN ĐOÀN KIỂM TRA | ĐẠI DIỆN ĐOÀN KIỂM TRA | ĐẠI DIỆN ĐOÀN KIỂM TRA | ĐẠI DIỆN ĐOÀN KIỂM TRA
+  R1: Giám đốc | Giám đốc | Kế toán | Thành viên | Thành viên | Trưởng đoàn | Trưởng đoàn
+  R2:       «GĐ» | «KT» | «KT» | «KT» |    «TV» |    «TV» | «TĐ» | «TĐ»
+
+--- TABLE 30 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+
+--- TABLE 31 ---
+  R0: ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ | TRƯỞNG ĐOÀN KIỂM TRA
+  R1: GIÁM ĐỐC     «GĐ» |      «TĐ»
+
+--- TABLE 32 ---
+  R0: Mẫu số: 12/QTKT-TC (Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế )
+
+--- TABLE 33 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA THEO QĐ SỐ «QĐKT» | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | Trấn Biên, ngày «Ngày_báo_cáo»  tháng  «Ngày_báo_cáo» năm 2026
+
+--- TABLE 34 ---
+  R0: THUẾ THÀNH PHỐ ĐỒNG NAI THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | 
+  R2:  | Trấn Biên, ngày 28  tháng 07  năm 2026
+
+--- TABLE 35 ---
+  R0: Phê duyệt của Lãnh đạo Đội Thuế   Phạm Đồng Xuân | Phê duyệt của Lãnh đạo Đội Thuế   Phạm Đồng Xuân | Tổ trưởng Tổ giám sát hoặc công chức   Nguyễn Trường Giang | Tổ trưởng Tổ giám sát hoặc công chức   Nguyễn Trường Giang
+  R1: Nơi nhận:			                                 - Đoàn kiểm tra;  - Lưu: Tổ KTR1. | Nơi nhận:			                                 - Đoàn kiểm tra;  - Lưu: Tổ KTR1. |                                                                      |                                                                     
+
+--- TABLE 36 ---
+  R0: THUẾ THÀNH PHỐ ĐỒNG NAI THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | Trấn Biên,  ngày «Ngày_báo_cáo»  tháng  «Ngày_báo_cáo»    năm 2026
+
+--- TABLE 37 ---
+  R0:  THUẾ THÀNH PHỐ ĐỒNG NAI THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI        |  CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | 
+  R2:  | Trấn Biên, ngày «Ngày_báo_cáo» tháng  «Ngày_báo_cáo»  năm 2026
+
+--- TABLE 38 ---
+  R0: Người giám sát (Ký, ghi rõ họ tên)     Nguyễn Trường Giang | Đoàn kiểm tra (Ký, ghi rõ họ tên)     «TĐ»
+
+--- TABLE 39 ---
+  R0: Số TT | Nội dung công việc | Số hiệu văn bản | Ngày tháng thực hiện | Ghi chú
+  R1: 1 | Ban hành quyết định | «QĐKT» | «ngày_QĐ» | 
+  R2: 2 | Thông báo quyết định KT |  | «ngày_QĐ» | 
+  R3: 3 | Thu hồi quyết định KT |  |  | 
+  R4: 4 | Tiến hành kiểm tra |  | «Ngày_công_bố» | Công bố
+  R5: 5 | Kết thúc kiểm tra |  | «Đến_ngày» | 
+  R6: 6 | Lập biên bản thông báo kết quả KT |  | «Ngày_báo_cáo» | 
+  R7: 7 | Báo cáo kết quả kiểm tra |  | «Ngày_báo_cáo» | 
+  R8: 8 | Chuyển kết quả KT chờ xử lý |  | «Ngày_báo_cáo» | 
+
+--- TABLE 40 ---
+  R0: Số TT | Tên cán bộ thực hiện | Nội dung công việc được giao | Ngày tháng thực hiện | Kết quả & ý kiến đề xuất
+  R1: 1 | «TĐ» | «Phân_công_trưởng_đoàn» | «Từ_ngày»-«Đến_ngày» | 
+  R2: 2 | «TV» | «Phân_công_thành_viên» | «Từ_ngày»-«Đến_ngày» | 
+
+--- TABLE 41 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA |  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+
+--- TABLE 42 ---
+  R0: THUẾ THÀNH PHỐ ĐỒNG NAI THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc 
+  R1:  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc 
+  R2:                 Số:               | Trấn Biên, ngày       tháng       năm 2026
+
+--- TABLE 43 ---
+  R0: Nơi nhận: - Như Điều 3; - Lãnh đạo Thuế Cơ sở 3; - Lưu: VT, KTR1 (05b). | KT. TRƯỞNG THUẾ CƠ SỞ PHÓ TRƯỞNG THUẾ CƠ SỞ     Phạm Đồng Xuân 
+
+--- TABLE 44 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI TỔ KIỂM TRA SỐ 1  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+
+--- TABLE 45 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI TỔ KIỂM TRA SỐ 1 | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R1:  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc
+  R2:  | Trấn Biên, ngày ..... tháng ..... năm 2026
+
+--- TABLE 46 ---
+  R0: STT | Trích yếu văn bản, tài liệu | Số văn bản, tài liệu | Ngày ban hành | Bút lục
+  R1: 01 | Dự thảo Quyết định xử lý vi phạm về thuế (2 bản) |  | «Ngày_báo_cáo» | 
+  R2: 02 | Tờ trình xử lý kết quả kiểm tra  |  | «Ngày_báo_cáo» | 
+  R3: 03 | Báo cáo kết quả kiểm tra |  | «Ngày_báo_cáo» | 
+  R4: 04 | Biên bản kiểm tra |  | «Ngày_ký_Biên_bản_kiểm_tra» | 
+  R5: 05 | Biên bản xác nhận số liệu |  | «Đến_ngày» | 
+  R6: 06 | Phiếu phân công công việc |  | «Ngày_công_bố» | 
+  R7: 07 | Biên bản công bố Quyết định kiểm tra |  | «Ngày_công_bố» | 
+  R8: 08 | Quyết định kiểm tra | «QĐKT» | «ngày_QĐ» | 
+  R9: 09 | Hồ sơ phân tích thông tin |  | «ngày_QĐ» | 
+
+--- TABLE 47 ---
+  R0: THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI ĐOÀN KIỂM TRA  | CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc

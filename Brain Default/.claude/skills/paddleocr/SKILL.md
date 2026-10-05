@@ -10,8 +10,9 @@ Dùng MCP chính thức của [PaddlePaddle/PaddleOCR](https://github.com/Paddle
 
 ## Khi nào dùng
 
-- Ảnh hóa đơn, CMND, biển số, tem, bảng, trang scan, PDF cần lấy chữ.
-- Người dùng nói "đọc chữ ảnh này", "OCR", "chuyển PDF thành markdown", "lấy bảng trong ảnh".
+- Ảnh hóa đơn, CMND, biển số, tem, bảng, trang scan, PDF cần **đọc chữ ra chat**.
+- Người dùng nói "đọc chữ ảnh này", "OCR giúp", "lấy chữ trong ảnh".
+- Muốn **ghi file .md vào sources** (heading, bảng, batch) → skill `pdf-sang-md`, không gọi MCP.
 - Không dùng khi file đã là chữ (`.md`, `.txt`, `.docx` có text). Không dịch, không sửa ảnh.
 
 ## Chuẩn bị

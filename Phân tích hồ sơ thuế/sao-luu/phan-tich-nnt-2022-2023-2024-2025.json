@@ -1,0 +1,38 @@
+{
+  "mst": "",
+  "ten": "",
+  "nam": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "findings": [
+    {
+      "id": "m1-am",
+      "module": "m1",
+      "tax_topic": "hddt",
+      "severity": "low",
+      "title": "Hóa đơn số tiền âm (điều chỉnh/hủy?)",
+      "delta": "HĐ 75 doanh số -297,960",
+      "evidence": "C:\\Users\\NGOC\\AppData\\Local\\Temp\\vpt-hoso-stage\\HDDT.xlsx / BAN RA dòng 715",
+      "legal_basis": "Hóa đơn điều chỉnh/thay thế",
+      "question_for_nnt": "Đây là HĐ điều chỉnh hay hủy? Đã lập biên bản điều chỉnh chưa?",
+      "tieu_chi": "",
+      "nam": null
+    },
+    {
+      "id": "m3-score",
+      "module": "m3",
+      "tax_topic": "gtgt",
+      "severity": "low",
+      "title": "Điểm rủi ro tổng thể: An toàn / ít dấu hiệu",
+      "delta": "Điểm 1 (high×3 + medium×2 + low×1). High=0, medium=0, low=1. MST .",
+      "evidence": "Tổng hợp M1+M2",
+      "legal_basis": "Thang điểm nội bộ (cần xác minh so với QĐ 1109/QĐ-CT 30/07/2026; chưa đọc được bảng điểm VBA)",
+      "question_for_nnt": "Ưu tiên giải trình các mục High trước khi đoàn kiểm tra làm việc.",
+      "tieu_chi": "SCORE",
+      "nam": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+P001: TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ
+P002: V/v: Ban hành quyết định kiểm tra thuế;
+P003: Quyết định giám sát hoạt động của Đoàn kiểm tra
+P040: QUYẾT ĐỊNH
+P051: QUYẾT ĐỊNH:
+P064: QUYẾT ĐỊNH
+P075: QUYẾT ĐỊNH:
+P084: PHÂN TÍCH THÔNG TIN, XÁC ĐỊNH NỘI DUNG CUỘC KIỂM TRA
+P087: 1. Đoàn kiểm tra (Nhóm phân tích):
+P101: c) Quyết định xử lý vi phạm hành chính:
+P108: III. PHÂN TÍCH, ĐÁNH GIÁ THÔNG TIN:
+P109: 1. Đối với các trường hợp theo kế hoạch, chuyên đề (trừ hoàn thuế):
+P110: a) Phân tích các chỉ tiêu rủi ro trên báo cáo tài chính.:
+P117: b) Phân tích các chỉ tiêu rủi ro trên tờ khai thuế:
+P120: a) Phân tích mức độ tuân thủ nộp thuế (nếu có):
+P127: NGƯỜI PHÂN TÍCH	TRƯỞNG ĐOÀN KIỂM TRA hoặc
+P128: TRƯỞNG NHÓM PHÂN TÍCH
+P137: THƯ TRAO ĐỔI THÔNG TIN
+P153: BIÊN BẢN
+P154: Công bố quyết định kiểm tra
+P181: GIẤY XÁC NHẬN
+P182: Giao Quyết Định số ……../QĐ-TCS3 ngày …../…../2026
+P188: 2. Chúng tôi đại diện bên nhận văn bản/quyết định gồm:
+P195: Giấy xác nhận được lập thành 02 bản giống nhau, mỗi bên giao và nhận giữ 01 bản.
+P199: BIÊN BẢN
+P239: BIÊN BẢN
+P278: BIÊN BẢN KIỂM TRA
+P291: Tiến hành lập biên bản xác nhận kết quả kiểm tra như sau:
+P364: BIÊN BẢN
+P365: Công khai và bàn giao dự thảo biên bản kiểm tra
+P403: + Công bố Quyết định kiểm tra: Ngày «Ngày_công_bố».
+P408: III. Đánh giá với kết quả phân tích
+P432: KẾ HOẠCH GIÁM SÁT HOẠT ĐỘNG
+P515: BIÊN BẢN LÀM VIỆC
+P526: Các nội dung tại biên bản này được thống nhất giữa các bên tham dự.
+P527: Biên bản kết thúc vào hồi 14 giờ 30 ngày «Ngày_báo_cáo».
+P561: BIÊN BẢN
+P566: Căn cứ nội dung phân tích chuyên sâu về người nộp thuế.
+P585: QUYẾT ĐỊNH
+P600: QUYẾT ĐỊNH:
+P633: Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký;
+P634: Điều 3. Quyết định này được:
+P643: TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ 3
+P644: Về việc: ban hành Quyết Định xử phạt vi phạm trong lĩnh vực thuế.
+P693: BIÊN BẢN
+P694: Giao, nhận hồ sơ, tài liệu cuộc kiểm tra theo Quyết định
+P710: - Bản nhận xét phân tích hồ sơ ;
+P711: - Quyết định kiểm tra;
+P712: - Công bố quyết định kiểm tra
+P715: - Biên bản xác nhận số liệu kiểm tra;
+P716: - Biên bản kiểm tra;
+P717: - Quyết định xử phạt vi phạm hành chính

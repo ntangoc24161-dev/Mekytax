@@ -1,0 +1,14 @@
+{
+  "enabled": [
+    "hoa-don-dien-tu",
+    "paddleocr",
+    "pdf-sang-md",
+    "thue-gtgt",
+    "thue-tncn",
+    "thue-tndn",
+    "luat-phong-chong-tham-nhung",
+    "xem-ho-so-thue",
+    "lap-ho-so-kiem-tra"
+  ],
+  "disabled": []
+}

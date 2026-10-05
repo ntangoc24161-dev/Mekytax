@@ -1,0 +1,16 @@
+{
+  "enabled": [
+    "hoa-don-dien-tu",
+    "huong-dan-kiem-tra-chuyen-de",
+    "luat-quan-ly-thue",
+    "paddleocr",
+    "pdf-sang-md",
+    "phan-tich-ho-so-thue",
+    "quy-che-phoi-hop-kiem-tra-thue",
+    "quy-trinh-kiem-tra-thue",
+    "quy-trinh-hoan-thue",
+    "xu-ly-rui-ro-thue-hoa-don",
+    "xem-ho-so-thue"
+  ],
+  "disabled": []
+}

@@ -1,0 +1,1154 @@
+[
+  {
+    "stt": 142,
+    "so_cv": "6647/CSKT-Đ2",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an thành phố Đồng Nai",
+    "so_den": "",
+    "ngay_cv": "2026-07-10 00:00:00",
+    "ngay_den": "2026-07-16 00:00:00",
+    "noi_dung": "",
+    "folder": "176. CV 6647-CA DONG NAI",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\176. CV 6647-CA DONG NAI",
+    "files": [
+      "6647CSKT-Đ2 2024.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 442,
+        "mst": "3603348427",
+        "ten_nnt": "Công ty TNHH Tư vấn xây dựng FI",
+        "dia_chi": "Phường Long Hưng",
+        "to_kt": "KT1",
+        "cb_ql": "VÕ ANH TUẤN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-07-22 00:00:00",
+        "ngay_xl": "2026-07-22 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 160,
+    "so_cv": "5847/CSĐT-KT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an thành phố Đồng Nai",
+    "so_den": "",
+    "ngay_cv": "2026-06-22 00:00:00",
+    "ngay_den": "16/07/2026",
+    "noi_dung": "",
+    "folder": "193. CV 5847- CA DONG NAI-KT1",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\193. CV 5847- CA DONG NAI-KT1",
+    "files": [
+      "5847CSĐT-KT 2023.pdf",
+      "TRA LOI CV 5847_CA DONG NAI_du thao.docx",
+      "to trinh 5847.docx",
+      "desktop.ini"
+    ],
+    "has_tra_loi": true,
+    "has_to_trinh": true,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 468,
+        "mst": "3603658852",
+        "ten_nnt": "CÔNG TY TNHH VẬN TẢI NAM HUY HOÀNG",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGOAN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-07-31 00:00:00",
+        "ngay_xl": "2026-07-31 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 177,
+    "so_cv": "30291/YC-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát Điều tra- Công an thành phố\nĐồng Nai",
+    "so_den": "15870/DON-KTr1",
+    "ngay_cv": "2026-08-14 00:00:00",
+    "ngay_den": "2026-08-18 00:00:00",
+    "noi_dung": "Đối với các kỳ thuế trong năm 2022",
+    "folder": "218. CV 30291-CA DONG NAI",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\218. CV 30291-CA DONG NAI",
+    "files": [
+      "Công văn 30291 YC CSKT.signed.signed.pdf",
+      "30291.pdf",
+      "Danh sach cong ty.xlsx",
+      "3603820897",
+      "DANH_SACH_TO_KHAI (2).xlsx",
+      "3603966920",
+      "DANH_SACH_TO_KHAI (1).xlsx",
+      "3602218182",
+      "DANH_SACH_TO_KHAI.xlsx",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 3,
+    "kt1_pending": [
+      {
+        "row_idx": 538,
+        "mst": "3603820897",
+        "ten_nnt": "CÔNG TY TNHH DẦU NHỜN DẠ HUY (nay đổi tên thành Công ty TNHH Quốc tế Thanh Quý)",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 540,
+        "mst": "3602218182",
+        "ten_nnt": "CÔNG TY TNHH MTV NAM HUY HOÀNG",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 547,
+        "mst": "3603966920",
+        "ten_nnt": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ QUYỀN THUẬN PHÁT",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VĂN THÔNG",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 180,
+    "so_cv": "30236/YC-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra- Công An thành phố Đồng Nai",
+    "so_den": "",
+    "ngay_cv": "2026-08-14 00:00:00",
+    "ngay_den": "2026-08-17 00:00:00",
+    "noi_dung": "YÊU CẦU CUNG CẤP CHỨNG CỨ HỒ SƠ TÀI LIỆU",
+    "folder": "213. CV 30236-CA DONG NAI",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\213. CV 30236-CA DONG NAI",
+    "files": [
+      "30236YC-CSKT 12089.pdf",
+      "TRA LOI CV 30236_CA DONG NAI.docx",
+      "to trinh.doc",
+      "desktop.ini"
+    ],
+    "has_tra_loi": true,
+    "has_to_trinh": true,
+    "kt1_count": 3,
+    "kt1_pending": [
+      {
+        "row_idx": 560,
+        "mst": "3602212800",
+        "ten_nnt": "Công ty TNHH Đại Đông",
+        "dia_chi": "Phường Tam Phước",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN HOÀNG MINH",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 562,
+        "mst": "3603443423",
+        "ten_nnt": "Công ty TNHH Một Thành viên Bình Chi Thanh",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGỌC TRÂM",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 564,
+        "mst": "3603825101",
+        "ten_nnt": "Công ty TNHH Thanh Bình Minh Phát",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGỌC TRÂM",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 181,
+    "so_cv": "29938/YC-CSHS-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra- Công An thành phố Đồng Nai",
+    "so_den": "",
+    "ngay_cv": "2026-08-13 00:00:00",
+    "ngay_den": "2026-08-19 00:00:00",
+    "noi_dung": "29938/29931 YÊU CẦU CUNG CẤP HS, CHỨNG CỨ, TÀI LIỆU",
+    "folder": "219. CV 29931+29938-CA DONG NAI-Da lam 29938",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\219. CV 29931+29938-CA DONG NAI-Da lam 29938",
+    "files": [
+      "+2993129938YC-CSHS-CSKT 12100.pdf",
+      "to trinh.doc",
+      "TRA LOI CV 29938_CA DONG NAI.docx",
+      "TRA LOI CV 29938_CA DONG NAI.signed.signed.pdf",
+      "to trinh 29931.docx",
+      "~$ trinh 29931.docx",
+      "TRA LOI CV 29931_CA DONG NAI_du thao.docx",
+      "LICH SU HONG PHUONG.XLSX",
+      "desktop.ini"
+    ],
+    "has_tra_loi": true,
+    "has_to_trinh": true,
+    "kt1_count": 2,
+    "kt1_pending": [
+      {
+        "row_idx": 566,
+        "mst": "3600243200",
+        "ten_nnt": "DOANH NGHIỆP TƯ NHÂN THANH TÂM AN PHƯỚC",
+        "dia_chi": "Phường Long Hưng",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VŨ QUỲNH NHƯ",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 568,
+        "mst": "3603728482",
+        "ten_nnt": "CÔNG TY TNHH CUNG ỨNG LAO ĐỘNG ĐẠI LỢI PHÁT GROUP",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGOAN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 182,
+    "so_cv": "29931/YC-CSHS-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra- Công An thành phố Đồng Nai",
+    "so_den": "",
+    "ngay_cv": "2026-08-13 00:00:00",
+    "ngay_den": "2026-08-19 00:00:00",
+    "noi_dung": "29938/29931 YÊU CẦU CUNG CẤP HS, CHỨNG CỨ, TÀI LIỆU",
+    "folder": "219. CV 29931+29938-CA DONG NAI-Da lam 29938",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\219. CV 29931+29938-CA DONG NAI-Da lam 29938",
+    "files": [
+      "+2993129938YC-CSHS-CSKT 12100.pdf",
+      "to trinh.doc",
+      "TRA LOI CV 29938_CA DONG NAI.docx",
+      "TRA LOI CV 29938_CA DONG NAI.signed.signed.pdf",
+      "to trinh 29931.docx",
+      "~$ trinh 29931.docx",
+      "TRA LOI CV 29931_CA DONG NAI_du thao.docx",
+      "LICH SU HONG PHUONG.XLSX",
+      "desktop.ini"
+    ],
+    "has_tra_loi": true,
+    "has_to_trinh": true,
+    "kt1_count": 4,
+    "kt1_pending": [
+      {
+        "row_idx": 570,
+        "mst": "3603938338",
+        "ten_nnt": "CÔNG TY TNHH THƯƠNG MẠI PHÁT TRIỂN PHƯỢNG HOÀNG PHÁT",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "HỒ HOÀNG SƠN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 571,
+        "mst": "3603563576",
+        "ten_nnt": "CÔNG TY TNHH XUẤT NHẬP KHẨU BÍCH LÂM",
+        "dia_chi": "Phường Phước Tân",
+        "to_kt": "KT1",
+        "cb_ql": "LÊ THỊ MAI",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 572,
+        "mst": "3603703248",
+        "ten_nnt": "CÔNG TY TNHH CƯA XẺ GỖ MINH ĐẠI",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "PHẠM NGUYỄN THU HIỀN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      },
+      {
+        "row_idx": 573,
+        "mst": "3603129827",
+        "ten_nnt": "CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ DŨNG THƯ PHÁT",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "TRỊNH THỊ THANH HƯƠNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-08-20 00:00:00",
+        "ngay_xl": "2026-08-20 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 192,
+    "so_cv": "32285/YC-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra- Công An thành phố Đồng Nai",
+    "so_den": "",
+    "ngay_cv": "2026-08-27 00:00:00",
+    "ngay_den": "2026-09-04 00:00:00",
+    "noi_dung": "",
+    "folder": "227. CV 32285- CA DONG NAI-dang lam",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\227. CV 32285- CA DONG NAI-dang lam",
+    "files": [
+      "32285YC-CSKT 12227.pdf",
+      "to trinh.doc",
+      "TRA LOI CV 32285_CA DONG NAI.docx",
+      "desktop.ini"
+    ],
+    "has_tra_loi": true,
+    "has_to_trinh": true,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 586,
+        "mst": "3603728482",
+        "ten_nnt": "CÔNG TY TNHH CUNG ỨNG LAO ĐỘNG ĐẠI LỢI PHÁT GROUP",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGOAN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 193,
+    "so_cv": "12258/PC03-Đ2",
+    "cq_bh": "CÔNG AN TỈNH BẮC NINH",
+    "so_den": "",
+    "ngay_cv": "2026-08-25 00:00:00",
+    "ngay_den": "2026-09-03 00:00:00",
+    "noi_dung": "",
+    "folder": "228. CV 12258- CA BAC NINH",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\228. CV 12258- CA BAC NINH",
+    "files": [
+      "12258PC03-Đ2 12200.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 587,
+        "mst": "3604081328",
+        "ten_nnt": "CÔNG TY TNHH ĐẦU TƯ NGUYEN MANH LAM",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGỌC TRÂM",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 194,
+    "so_cv": "8569/CSHS",
+    "cq_bh": "CÔNG AN TP ĐỒNG NAI",
+    "so_den": "",
+    "ngay_cv": "2026-08-24 00:00:00",
+    "ngay_den": "2026-09-03 00:00:00",
+    "noi_dung": "",
+    "folder": "229. CV 8569- CA DONG NAI-KT1",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\229. CV 8569- CA DONG NAI-KT1",
+    "files": [
+      "8569CSHS 12224.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 588,
+        "mst": "3603656100",
+        "ten_nnt": "CÔNG TY TNHH GIA CÔNG CƠ KHÍ NGỌC HÂN",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN TRẦN THU HÀ",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 196,
+    "so_cv": "8278/CSKT-Đ2",
+    "cq_bh": "Cơ quan Cảnh sát điều tra- Công An thành phố Đồng Nai",
+    "so_den": "16889/DON-KTr1",
+    "ngay_cv": "2026-08-17 00:00:00",
+    "ngay_den": "2026-09-04 00:00:00",
+    "noi_dung": "phối hợp cung cấp hồ sơ theo yêu cầu cơ quan Công An theo Công văn số 8278/CSKT-Đ2 và thực hiện tạm nhưng kê khai khai, loại bỏ, đóng thuế bổ sung đối với các hóa đơn",
+    "folder": "231. CV 8278-CA DONG NAI",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\231. CV 8278-CA DONG NAI",
+    "files": [
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 8278.signed.signed.pdf",
+      "CV 8278.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 3,
+    "kt1_pending": [
+      {
+        "row_idx": 595,
+        "mst": "3603062379",
+        "ten_nnt": "CÔNG TY TNHH MTV HOÀNG HÙNG YÊN",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "TRỊNH THỊ THANH HƯƠNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      },
+      {
+        "row_idx": 597,
+        "mst": "3603965444",
+        "ten_nnt": "CÔNG TY TNHH MTV TM DV HÙNG YÊN",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGỌC TRÂM",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      },
+      {
+        "row_idx": 599,
+        "mst": "3603493801",
+        "ten_nnt": "CÔNG TY TNHH THÉP ĐẶC BIỆT HƯNG PHÁT",
+        "dia_chi": "Phường Phước Tân",
+        "to_kt": "KT1",
+        "cb_ql": "LÊ THỊ MAI",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 199,
+    "so_cv": "1944/ANĐT-Đ2",
+    "cq_bh": "CÔNG AN TỈNH PHÚ THỌ",
+    "so_den": "16443/DON-KTr1",
+    "ngay_cv": "2026-08-18 00:00:00",
+    "ngay_den": "2026-08-25 00:00:00",
+    "noi_dung": "Cung cấp ĐK sử dụng HĐ, BC tình hình SD HĐ, bảng kê mua vào - bán ra; tờ khai GTGT, BCTC quyết toán thuế, hồ sơ hoàn thuế GTGT và kết quả thanh tra, kiểm tra từ 01/01/2025 đến nay đối với Cty Đông Phát PT (MST: 3603794559)",
+    "folder": "234. CV 1944-CA PHU TH0-KT3",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\234. CV 1944-CA PHU TH0-KT3",
+    "files": [
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 1944.signed.signed.pdf",
+      "CV 1944.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 606,
+        "mst": "3603794559",
+        "ten_nnt": "CÔNG TY TNHH ĐÔNG PHÁT PT",
+        "dia_chi": "Phường Long Hưng",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN HOÀNG HÀ",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 200,
+    "so_cv": "33036/YC-CSKT-CSHS",
+    "cq_bh": "Cơ quan Cảnh sát điều tra- Công An thành phố Đồng Nai",
+    "so_den": "",
+    "ngay_cv": "2026-09-03 00:00:00",
+    "ngay_den": "2026-09-03 00:00:00",
+    "noi_dung": "",
+    "folder": "235. CV 33036-CA DONG NAI-KT1,2-dang trinh",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\235. CV 33036-CA DONG NAI-KT1,2-dang trinh",
+    "files": [
+      "to trinh.doc",
+      "~WRL2730.tmp",
+      "TRA LOI CV 33036_CA DONG NAI.docx",
+      "IMG_2848.JPG",
+      "33036.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": true,
+    "has_to_trinh": true,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 608,
+        "mst": "3603626716",
+        "ten_nnt": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ NHÂN LỰC TRÍ VIỆT",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGOAN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 201,
+    "so_cv": "9751/CV-CSKT(D92)",
+    "cq_bh": "CÔNG AN TỈNH THANH HÓA",
+    "so_den": "",
+    "ngay_cv": "2026-09-04 00:00:00",
+    "ngay_den": "2026-09-07 00:00:00",
+    "noi_dung": "",
+    "folder": "237.  CV 9751-CA Thanh hoa-KT1",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\237.  CV 9751-CA Thanh hoa-KT1",
+    "files": [
+      "9751CV-CSKT (D2) 12241.pdf",
+      "9751CV-CSKT (D2) 12241.md",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 609,
+        "mst": "3603989685",
+        "ten_nnt": "Công ty TNHH TM Trường Anh Nguyễn",
+        "dia_chi": "Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "ĐOÀN THANH TÙNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-07 00:00:00",
+        "ngay_xl": "2026-09-07 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 203,
+    "so_cv": "1494/YC-ANĐT-Đ2",
+    "cq_bh": "CƠ QUAN AN NINH ĐIỀU TRA - CÔNG AN THÀNH PHỐ ĐỒNG NAI",
+    "so_den": "17812/DON-KTr1 (Đến: 13939)",
+    "ngay_cv": "2026-06-09 00:00:00",
+    "ngay_den": "15/09/2026",
+    "noi_dung": "Xác minh tình hình kê khai, khấu trừ, hoàn thuế, giảm chi phí đối với 02 số HĐ mua vào (HĐ 0001354, 0001581; tổng tiền 358.073.740 đ); hồ sơ điều chỉnh bổ sung, ưu đãi thuế, vi phạm thuế và STK ngân hàng",
+    "folder": "239. CV 1494- CA DONG NAI-KT1, 2,3",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\239. CV 1494- CA DONG NAI-KT1, 2,3",
+    "files": [
+      "1494YC-ANĐT-Đ2 13939.pdf",
+      "~$94YC-ANĐT-Đ2 13939.pdf",
+      "CV1494.pdf",
+      "DANH SACH.xls",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- 1494.signed.signed.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 2,
+    "kt1_pending": [
+      {
+        "row_idx": 617,
+        "mst": "3603731333",
+        "ten_nnt": "Công ty TNHH XNK Đầu tư Mạnh Hưng Phát",
+        "dia_chi": "Phường Phước Tân",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ ÁNH NGỌC 90",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 619,
+        "mst": "3603694554",
+        "ten_nnt": "Công ty TNHH Lý An Thịnh Phát",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "TRỊNH THỊ THANH HƯƠNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 205,
+    "so_cv": "12782/CV-CSĐT(PC03-Đ1)",
+    "cq_bh": "Cơ quan CSĐT - Công an tỉnh Bắc Ninh",
+    "so_den": "12240",
+    "ngay_cv": "31/08/2026",
+    "ngay_den": "2026-09-07 00:00:00",
+    "noi_dung": "Xác minh thông tin GĐ, kế toán, nghĩa vụ thuế, TK ngân hàng, CKS, BC tình hình SD HĐ, BCTC, tờ khai GTGT, bảng kê mua vào bán ra, QT TNDN, TNCN từ năm 2025 đến nay. Hạn trả lời trước 15/9/2026 cho ĐTV Trần Quang Huy (0982.472.818)",
+    "folder": "241. CV 12782-CA BAC NINH-KT1+KT2",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\241. CV 12782-CA BAC NINH-KT1+KT2",
+    "files": [
+      "12782CV-CSĐT (PC03) 12240.pdf",
+      "12782CV-CSĐT (PC03) 12240.md",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 621,
+        "mst": "3604042992",
+        "ten_nnt": "Công ty TNHH MTV YD Fashion Viet",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VĂN THÔNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 206,
+    "so_cv": "1821+1808/YC-ANĐT-Đ2",
+    "cq_bh": "Cơ quan An ninh điều tra - Công an TP Hải Phòng",
+    "so_den": "12242",
+    "ngay_cv": "2026-04-09 00:00:00",
+    "ngay_den": "2026-09-07 00:00:00",
+    "noi_dung": "Vụ án Ngô Văn Tới mua bán trái phép HĐ (QĐ 32/QĐ-ANĐT-Đ2): Cung cấp GCN ĐKKD, tờ khai GTGT từ khi thành lập, TK ngân hàng, DS HĐĐT mua vào - bán ra, BB kiểm tra hoạt động, tiền thuế đã nộp. Trả lời trong 07 ngày làm việc cho ĐTV Vũ Ngọc Chương (0972.786.408)",
+    "folder": "242. CV 1821-CA HAI PHONG-KT1+KT2",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\242. CV 1821-CA HAI PHONG-KT1+KT2",
+    "files": [
+      "1821YC-ANĐT-Đ2 12242.pdf",
+      "1821YC-ANĐT-Đ2 12242.md",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 624,
+        "mst": "3603989685",
+        "ten_nnt": "CÔNG TY TNHH THƯƠNG MẠI TRƯỜNG ANH NGUYÊN",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "ĐOÀN THANH TÙNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 208,
+    "so_cv": "C34300/CSHS-Đ4",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an TP. Hồ Chí Minh",
+    "so_den": "17398/DON-KTr1",
+    "ngay_cv": "2026-09-03 00:00:00",
+    "ngay_den": "2026-09-11 00:00:00",
+    "noi_dung": "Cung cấp thông tin kê khai thuế, nộp thuế của 18 DN từ khi ĐKKD. Thuế TP có CV 17398/DON-KTr1 ngày 14/09/2026 đề nghị gửi Phòng KTr1 (Đ/c Nguyễn Trí Thanh 0961.354.264) trước 28/09/2026 để tổng hợp gửi CATP HCM trước 30/09/2026 (ĐTV Nguyễn Thế Quang 0913.707.750)",
+    "folder": "244. CV 34300-CA TP. HCM-KT1+KT2",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\244. CV 34300-CA TP. HCM-KT1+KT2",
+    "files": [
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 34300.signed.signed.pdf",
+      "cv 34300.pdf",
+      "cv 34300.md",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 34300.signed.signed.md",
+      "Danh ba NNT.xls",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 2,
+    "kt1_pending": [
+      {
+        "row_idx": 640,
+        "mst": "3604049638",
+        "ten_nnt": "CÔNG TY TNHH TRỰC TUYẾN UNIONPAY",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "ĐOÀN THANH TÙNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 643,
+        "mst": "3604067891",
+        "ten_nnt": "CÔNG TY TNHH THƯƠNG MẠI DV QUYEN LEO",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN TRẦN THU HÀ",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 209,
+    "so_cv": "2088/ANĐT-Đ1",
+    "cq_bh": "Cơ quan An ninh điều tra - Công an tỉnh Phú Thọ",
+    "so_den": "17404/DON-KTr1",
+    "ngay_cv": "2026-09-07 00:00:00",
+    "ngay_den": "2026-09-10 00:00:00",
+    "noi_dung": "Đôn đốc cung cấp hồ sơ liên quan đến CV 2017/YC-ANĐT ngày 25/08/2026 (CV Thuế TP 16882/DON-KTr1 ngày 03/09/2026). Gửi Phòng KTr1 (Đ/c Nguyễn Trí Thanh) trước 14/09/2026",
+    "folder": "245. CV 2088-CA PHU THO-KT1",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\245. CV 2088-CA PHU THO-KT1",
+    "files": [
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 2088.signed.signed.signed.pdf",
+      "cv 2088.pdf",
+      "cv 2088.md",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 2088.signed.signed.signed.md",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 3,
+    "kt1_pending": [
+      {
+        "row_idx": 644,
+        "mst": "3603989702",
+        "ten_nnt": "CÔNG TY TNHH DỊCH VỤ THƯƠNG MẠI TƯ ÂM",
+        "dia_chi": "Phường Phước Tân",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ ÁNH NGỌC 90",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 645,
+        "mst": "3604013991",
+        "ten_nnt": "CÔNG TY TNHH HẠ HẢI NGÂN",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN ANH QUÂN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 646,
+        "mst": "3604015357",
+        "ten_nnt": "CÔNG TY TNHH THIÊN QUANG VN",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN ANH QUÂN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 210,
+    "so_cv": "1457/YC-ANĐT-Đ2",
+    "cq_bh": "Cơ quan An ninh điều tra - Công an TP Đồng Nai",
+    "so_den": "16981/DON-KTr1",
+    "ngay_cv": "2026-09-03 00:00:00",
+    "ngay_den": "2026-09-04 00:00:00",
+    "noi_dung": "Xác minh 06 hóa đơn GTGT mua của Cty TNHH TM Nhật Khang Hưng (MST: 3603679059), tổng tiền 981.774.270đ. Thuế TP có CV 16981/DON-KTr1 ngày 07/09/2026 chuyển Thuế cơ sở 3 cung cấp trước 12/09/2026 về Phòng KTr1 (Đ/c Nguyễn Trí Thanh 0961.354.264) để tổng hợp báo cáo (CQ ANĐT CATP Đồng Nai - ĐTV Đặng Thanh Quang 0392.656.633)",
+    "folder": "246. CV 1457-CA DONG NAI-TCS3",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\246. CV 1457-CA DONG NAI-TCS3",
+    "files": [
+      "CV 1457.pdf",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 1457.signed.signed.pdf",
+      "cv 1457.md",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- CV 1457.signed.signed.md",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 647,
+        "mst": "3603299875",
+        "ten_nnt": "Công ty CP Thiết bị Tập Thành",
+        "dia_chi": "Phường Hố nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGỌC TRÂM",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 211,
+    "so_cv": "H14554/CSHS-Đ4-CS2",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an TP. Hồ Chí Minh",
+    "so_den": "17562/DON-KTr1",
+    "ngay_cv": "2026-08-23 00:00:00",
+    "ngay_den": "2026-09-14 00:00:00",
+    "noi_dung": "Cung cấp hoạt động về báo cáo thuế từ 08/05/2025 đến nay. Thuế TP có CV 17562/DON-KTr1 ngày 15/09/2026 chuyển Thuế cơ sở 3 cung cấp trước 20/09/2026 về Phòng KTr1 (Đ/c Nguyễn Trí Thanh 0961.354.264) để tổng hợp gửi CATP HCM (ĐTV Nguyễn Đình Đường 0338.452.358)",
+    "folder": "247. CV H14554-CA TP. HCM-TCS3",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\247. CV H14554-CA TP. HCM-TCS3",
+    "files": [
+      "H14554.pdf",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- 14554.signed.signed.pdf",
+      "cv H14554.md",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- 14554.signed.signed.md",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 648,
+        "mst": "3604016840",
+        "ten_nnt": "CÔNG TY TNHH KHÁCH SẠN DU LỊCH THANH TÂM",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VĂN THÔNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 213,
+    "so_cv": "34662/YC-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an TP Đồng Nai",
+    "so_den": "17565/DON-KTr1",
+    "ngay_cv": "2026-09-11 00:00:00",
+    "ngay_den": "2026-09-11 00:00:00",
+    "noi_dung": "Tạm ngừng tiếp nhận kê khai thuế GTGT, TNDN; cung cấp hồ sơ tờ khai, BCTC, QTT, bảng kê mua bán năm 2022. Thuế TP có CV 17565/DON-KTr1 ngày 15/09/2026 yêu cầu gửi Phòng KTr1 (Đ/c Nguyễn Trí Thanh 0961.354.264) trước 20/09/2026 để tổng hợp gửi CATP Đồng Nai (ĐTV Nguyễn Văn Doanh 0909.648.935)",
+    "folder": "249. CV 34662-CA DONG NAI-TCS3+5+6",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\249. CV 34662-CA DONG NAI-TCS3+5+6",
+    "files": [
+      "CV34662.pdf",
+      "Cong van 39662 - DSACH 22 CTY.docx",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- 34662.signed.signed.pdf",
+      "cv 34662.md",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- 34662.signed.signed.md",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 4,
+    "kt1_pending": [
+      {
+        "row_idx": 654,
+        "mst": "3603756641",
+        "ten_nnt": "CÔNG TY TNHH TOÀN PHÁT ĐỒNG NAI",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN ANH QUÂN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 657,
+        "mst": "3601023007",
+        "ten_nnt": "CÔNG TY TNHH NGUYỄN KHÁNH BẢO VY",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN ANH QUÂN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 659,
+        "mst": "3603966920",
+        "ten_nnt": "CÔNG TY TNHH LẮP ĐẶT DỊCH VỤ KỸ THUẬT THUẬN THIÊN PHÁT",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VĂN THÔNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 667,
+        "mst": "3602150576",
+        "ten_nnt": "CÔNG TY TNHH MỘT THÀNH VIÊN ĐỨC VƯỢNG",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGỌC TRÂM",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 214,
+    "so_cv": "34799/YC-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an TP Đồng Nai",
+    "so_den": "17563/DON-KTr1",
+    "ngay_cv": "2026-09-11 00:00:00",
+    "ngay_den": "2026-09-11 00:00:00",
+    "noi_dung": "Rà soát QĐ xử phạt VPHC về thuế, hóa đơn từ năm 2020-2025 và nợ thuế hiện tại của 57 DN. Thuế TP có CV 17563/DON-KTr1 ngày 15/09/2026 đề nghị gửi Phòng KTr1 (Đ/c Nguyễn Trí Thanh 0961.354.264) trước 20/09/2026 để tổng hợp gửi CATP Đồng Nai (ĐTV Nguyễn Văn Doanh 0909.648.935)",
+    "folder": "250. CV 34799-CA DONG NAI-TCS2+3+5+6",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\250. CV 34799-CA DONG NAI-TCS2+3+5+6",
+    "files": [
+      "cv 34799.pdf",
+      "DS 34799 57 CTY.xls",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- 34799.signed.signed.pdf",
+      "cv 34799.md",
+      "QLDN , TCS- Công văn phối hợp cung cấp thông tin- 34799.signed.signed.md",
+      "Phieu chuyen CV 34799 To QLHKD.docx",
+      "PHAN CONG KT1.xls",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 14,
+    "kt1_pending": [
+      {
+        "row_idx": 672,
+        "mst": "3603738924",
+        "ten_nnt": "CÔNG TY TNHH THƯƠNG MẠI VẬN TẢI HÀ TRINH PHÁT",
+        "dia_chi": "Phường Tam Phước",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN HOÀNG MINH",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 674,
+        "mst": "3601002166",
+        "ten_nnt": "CÔNG TY TNHH MTV DỊCH VỤ BẢO VỆ TRƯỜNG AN",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGOAN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 676,
+        "mst": "3601464756",
+        "ten_nnt": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ THIÊN AN PHÚ",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGUYỆT",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 680,
+        "mst": "3603267640",
+        "ten_nnt": "CÔNG TY TNHH MỘT THÀNH VIÊN SẢN XUẤT THƯƠNG MẠI XUẤT NHẬP KHẨU AN PHÚC KHANG",
+        "dia_chi": "Xã Phước Tân",
+        "to_kt": "KT1",
+        "cb_ql": "MAI NGỌC LÂN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 691,
+        "mst": "3602878118",
+        "ten_nnt": "CÔNG TY TNHH MỘT THÀNH VIÊN QUÝ GIA PHÁT",
+        "dia_chi": "Phường Tân Biên",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGUYỆT",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 693,
+        "mst": "3600710991",
+        "ten_nnt": "DOANH NGHIỆP TƯ NHÂN BÌNH GIANG",
+        "dia_chi": "Xã Hố Nai 3",
+        "to_kt": "KT1",
+        "cb_ql": "HỒ HOÀNG SƠN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 694,
+        "mst": "3603769778",
+        "ten_nnt": "CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI XUẤT NHẬP KHẨU NGỌC MINH PHÁT",
+        "dia_chi": "Phường Long Bình Tân",
+        "to_kt": "KT1",
+        "cb_ql": "VÕ ANH TUẤN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 696,
+        "mst": "3603269239",
+        "ten_nnt": "CÔNG TY TNHH MỘT THÀNH VIÊN THƯƠNG MẠI DỊCH VỤ TÁO VÀNG",
+        "dia_chi": "Phường Tam Phước",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THÀNH ĐỒNG",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 698,
+        "mst": "3602874603",
+        "ten_nnt": "CÔNG TY TNHH MINH ĐĂNG PHÁT",
+        "dia_chi": "Phường Long Bình Tân",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VŨ QUỲNH NHƯ",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 701,
+        "mst": "3603445438",
+        "ten_nnt": "CÔNG TY TNHH MỘT THÀNH VIÊN MẠNH TƯỜNG QUÂN",
+        "dia_chi": "Phường An Hoà",
+        "to_kt": "KT1",
+        "cb_ql": "PHẠM NGUYỄN THU HIỀN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 711,
+        "mst": "3603892690",
+        "ten_nnt": "CÔNG TY TNHH DỊCH VỤ VẬN TẢI BẢO ANH VŨ",
+        "dia_chi": "Phường Long Bình Tân",
+        "to_kt": "KT1",
+        "cb_ql": "VÕ ANH TUẤN",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 713,
+        "mst": "3603810786",
+        "ten_nnt": "CÔNG TY TNHH MTV THƯƠNG MẠI BÌNH MINH ELECTRIC",
+        "dia_chi": "Phường Long Bình Tân",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VŨ QUỲNH NHƯ",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 715,
+        "mst": "3603093095",
+        "ten_nnt": "CÔNG TY TNHH MAI PHÚC LAN",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGUYỆT",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      },
+      {
+        "row_idx": 718,
+        "mst": "3603755863",
+        "ten_nnt": "CÔNG TY TNHH MTV VẬN TẢI THƯƠNG MẠI PHAN LINH",
+        "dia_chi": "Phường Tam Phước",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN HOÀNG MINH",
+        "tinh_trang": "Đang xử lý",
+        "ngay_giao": "2026-09-17 00:00:00",
+        "ngay_xl": "2026-09-17 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 215,
+    "so_cv": "7531/CSHS-CSKT",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an thành phố Đồng Nai",
+    "so_den": "17149/DON-QLDN2",
+    "ngay_cv": "2026-08-02 00:00:00",
+    "ngay_den": "2026-09-08 00:00:00",
+    "noi_dung": "Trao đổi kết quả xác minh liên quan hoạt động Cty TNHH Bao Bì Ngọc Thanh Phước (MST: 3603187674). HĐ 0000071 do Cty Nguyễn Hồ Uy Nghi xuất là quan hệ mua bán thực tế, đúng quy định pháp luật. Cục Thuế có CV 17149/DON-QLDN2 ngày 08/09/2026 chuyển Thuế CS3 thực hiện (ĐTV Trung tá Bùi Minh Hiệp 0989.687.908)",
+    "folder": "252. CV 7531-CA DONG NAI-KT1",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\252. CV 7531-CA DONG NAI-KT1",
+    "files": [
+      "CV 7531.CSHS-CSKT.pdf",
+      "VB CHUYEN THUE CO SO 3.signed.signed.pdf",
+      "desktop.ini"
+    ],
+    "has_tra_loi": false,
+    "has_to_trinh": false,
+    "kt1_count": 1,
+    "kt1_pending": [
+      {
+        "row_idx": 729,
+        "mst": "3603187674",
+        "ten_nnt": "CÔNG TY TNHH BAO BÌ NGỌC THANH PHƯỚC",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN THỊ NGỌC TRÂM",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-09-22 00:00:00",
+        "ngay_xl": "2026-09-22 00:00:00"
+      }
+    ]
+  },
+  {
+    "stt": 217,
+    "so_cv": "21295/VPCQCSĐT(Đ1)",
+    "cq_bh": "Cơ quan Cảnh sát điều tra - Công an thành phố Hải Phòng",
+    "so_den": "14020",
+    "ngay_cv": "2026-09-21 00:00:00",
+    "ngay_den": "2026-09-24 00:00:00",
+    "noi_dung": "Vụ án Bùi Thanh An mua bán trái phép HĐ (QĐ 466/QĐ-VPCQCSĐT): Đề nghị cung cấp GCN ĐKKD, DN cung cấp HĐĐT, tờ khai GTGT kèm bảng kê mua vào - bán ra (file Excel gửi vpcqcsdt.catphp@gmail.com), tài liệu thanh tra kiểm tra quyết toán thuế, nghĩa vụ thuế, TK ngân hàng, BC tình hình SD HĐ, thông tin CBQL thuế của 04 DN. Hạn trước 30/09/2026 (ĐTV Trịnh Quang Hưng 0932.123.568)",
+    "folder": "254. CV 21295-CA HAI PHONG-KT1+KT2+KT3",
+    "folder_path": "I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\254. CV 21295-CA HAI PHONG-KT1+KT2+KT3",
+    "files": [
+      "21295VPCQCSĐT 14020.pdf",
+      "TRA LOI CV 21295_CA HAI PHONG_du thao.docx",
+      "to trinh 21295.docx",
+      "desktop.ini"
+    ],
+    "has_tra_loi": true,
+    "has_to_trinh": true,
+    "kt1_count": 2,
+    "kt1_pending": [
+      {
+        "row_idx": 743,
+        "mst": "3604056586",
+        "ten_nnt": "CÔNG TY TNHH DTPT NYSE VN",
+        "dia_chi": "Phường Hố Nai",
+        "to_kt": "KT1",
+        "cb_ql": "",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-09-25 00:00:00",
+        "ngay_xl": "2026-09-25 00:00:00"
+      },
+      {
+        "row_idx": 746,
+        "mst": "3604042992",
+        "ten_nnt": "CÔNG TY TNHH MTV YD FASHION VIET",
+        "dia_chi": "Phường Long Bình",
+        "to_kt": "KT1",
+        "cb_ql": "NGUYỄN VĂN THÔNG",
+        "tinh_trang": "Mới",
+        "ngay_giao": "2026-09-25 00:00:00",
+        "ngay_xl": "2026-09-25 00:00:00"
+      }
+    ]
+  }
+]
