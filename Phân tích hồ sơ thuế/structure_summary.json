@@ -1,0 +1,1268 @@
+{
+  ". Phat hoang long": {
+    "type": "dir",
+    "items_count": 15,
+    "children": [
+      {
+        "name": "Báo cáo thống kê hóa đơn dịch vụ bán ra theo phương pháp khấu trừ.zip",
+        "type": "file",
+        "size": 7313
+      },
+      {
+        "name": "Báo cáo thống kê hóa đơn dịch vụ bán ra theo phương pháp khấu trừ (2).zip",
+        "type": "file",
+        "size": 11616
+      },
+      {
+        "name": "Báo cáo thống kê hóa đơn dịch vụ bán ra theo phương pháp khấu trừ (1).zip",
+        "type": "file",
+        "size": 7176
+      },
+      {
+        "name": "Báo cáo thống kê hóa đơn dịch vụ bán ra theo phương pháp khấu trừ (3).zip",
+        "type": "file",
+        "size": 8683
+      },
+      {
+        "name": "data-hddt_3.csv",
+        "type": "file",
+        "size": 79744
+      },
+      {
+        "name": "tieu_de.csv",
+        "type": "file",
+        "size": 125
+      },
+      {
+        "name": "tieu_de_2.csv",
+        "type": "file",
+        "size": 125
+      },
+      {
+        "name": "data-hddt_1.csv",
+        "type": "file",
+        "size": 135153
+      },
+      {
+        "name": "data-hddt.csv",
+        "type": "file",
+        "size": 79456
+      },
+      {
+        "name": "tieu_de_1.csv",
+        "type": "file",
+        "size": 125
+      },
+      {
+        "name": "data-hddt_2.csv",
+        "type": "file",
+        "size": 104591
+      },
+      {
+        "name": "tieu_de_3.csv",
+        "type": "file",
+        "size": 125
+      },
+      {
+        "name": "Báo cáo thống kê hóa đơn dịch vụ bán ra theo phương pháp khấu trừ",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "data-hddt.csv",
+          "tieu_de.csv"
+        ]
+      },
+      {
+        "name": "PTDN01_20260924094404.xlsx",
+        "type": "file",
+        "size": 50892
+      },
+      {
+        "name": "PTDN02_20260924094551.xlsx",
+        "type": "file",
+        "size": 19091
+      }
+    ]
+  },
+  "1. SON TIEN HAI": {
+    "type": "dir",
+    "items_count": 9,
+    "children": [
+      {
+        "name": "PTDN01_20260524182414.xlsx",
+        "type": "file",
+        "size": 41932
+      },
+      {
+        "name": "PTDN02_20260524182422.xlsx",
+        "type": "file",
+        "size": 18228
+      },
+      {
+        "name": "TIEN HAI-2022-2025",
+        "type": "dir",
+        "count": 8,
+        "sample": [
+          "Bang ke",
+          "THBK MV-BT .xlsx",
+          "ghi chu.docx",
+          "NKC",
+          "So chi tiet"
+        ]
+      },
+      {
+        "name": "BIEN BAN",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "Bang tinh.xlsx",
+          "TONG HOP.docx"
+        ]
+      },
+      {
+        "name": "CHECKLIST_TONG_HOP_HO_SO.xlsx",
+        "type": "file",
+        "size": 26537
+      },
+      {
+        "name": "1. DU LIEU THO NGANH THUE",
+        "type": "dir",
+        "count": 5,
+        "sample": [
+          "CHECKLIST_BUOC_1_DU_LIEU_THO_CQT.xlsx",
+          "README_CHECKLIST_BUOC_1.md",
+          "1.1. To khai XML",
+          "1.2. Hoa don dien tu & Bang ke",
+          "1.3. Nghia vu nop thue & Thong bao"
+        ]
+      },
+      {
+        "name": "2. HO SO NNT CUNG CAP",
+        "type": "dir",
+        "count": 6,
+        "sample": [
+          "CHECKLIST_BUOC_2_HO_SO_NNT_CUNG_CAP.xlsx",
+          "README_CHECKLIST_BUOC_2.md",
+          "2.1. So ke toan tong hop va chi tiet",
+          "2.2. Kho - Chi phi - Gia thanh",
+          "2.3. Ngan hang & Dong tien"
+        ]
+      },
+      {
+        "name": "3. DU LIEU BO SUNG & TRA CUU QLT",
+        "type": "dir",
+        "count": 6,
+        "sample": [
+          "CHECKLIST_BUOC_3_DU_LIEU_BO_SUNG_QLT.xlsx",
+          "README_CHECKLIST_BUOC_3.md",
+          "3.1. Canh bao rui ro CVCBRR & Cong an",
+          "3.2. Danh ba trang thai NNT",
+          "3.3. Tra cuu TNCN da nguon & Nhan su"
+        ]
+      },
+      {
+        "name": "4. KET QUA PHAN TICH",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "CHECKLIST_BUOC_4_KET_QUA_PHAN_TICH.xlsx",
+          "README_CHECKLIST_BUOC_4.md",
+          "cau-thanh",
+          "sao-luu"
+        ]
+      }
+    ]
+  },
+  "2. T&T BHOA": {
+    "type": "dir",
+    "items_count": 7,
+    "children": [
+      {
+        "name": "2023",
+        "type": "dir",
+        "count": 15,
+        "sample": [
+          "Bang ke thue GTGTQuý  01-2023.xls",
+          "Bang ke thue GTGTQuý  02-2023.xls",
+          "Bang ke thue GTGTQuý  04-2023.xls",
+          "Bang ke thue GTGTQuý  02-2023 - BS.xls",
+          "Bang theo doi khau hao CCDC  2023.xls"
+        ]
+      },
+      {
+        "name": "2024",
+        "type": "dir",
+        "count": 14,
+        "sample": [
+          "Bang ke thue GTGTQuý  01-2024.xls",
+          "Bang ke thue GTGTQuý  02-2024.xls",
+          "Bang ke thue GTGTQuý  03-2024.xls",
+          "Bang ke thue GTGTQuý  04-2024.xls",
+          "Bang theo doi khau hao TSCD  2024.xls"
+        ]
+      },
+      {
+        "name": "2022",
+        "type": "dir",
+        "count": 10,
+        "sample": [
+          "Bang theo doi Khau hao CCDC 2022.xls",
+          "cong no phai thu 2022.xls",
+          "cong no phai tra 2022.xls",
+          "So cai",
+          "Bang tong hop luong 2022.xls"
+        ]
+      },
+      {
+        "name": "2025",
+        "type": "dir",
+        "count": 16,
+        "sample": [
+          "Bang ke thue GTGTQuý  02-2025.xls",
+          "Sổ phụ ngân hàng Q1+2+3 -2025.pdf",
+          "Bang ke thue GTGTQuý  03-2025.xls",
+          "Bang ke thue GTGTQuý  03-2025 - BS.xls",
+          "Bang ke thue GTGTQuý  04-2025.xls"
+        ]
+      },
+      {
+        "name": "PTDN01_20260524182508.xlsx",
+        "type": "file",
+        "size": 21413
+      },
+      {
+        "name": "PTDN02_20260524182512.xlsx",
+        "type": "file",
+        "size": 10687
+      },
+      {
+        "name": "3603883505-TO KHAI",
+        "type": "dir",
+        "count": 36,
+        "sample": [
+          "TO_KHAI_11320250349316342.xml",
+          "3603883505000-133_B01A_DNN_BCTC-Y2025-L00.xml",
+          "TO_KHAI_11320250352712093.xml",
+          "TNDN 11320250301087754 2024 chinh thuc 1.xml",
+          "BCTC 11320230182114445 2022 chinh thuc 1.xml"
+        ]
+      }
+    ]
+  },
+  "3. PHUC NGUYEN TIEN": {
+    "type": "dir",
+    "items_count": 6,
+    "children": [
+      {
+        "name": "HDDT BAN RA TAM THIEN NI 2023.xlsx",
+        "type": "file",
+        "size": 21025
+      },
+      {
+        "name": "Lich su cty Tam Thien Ni.XLSX",
+        "type": "file",
+        "size": 11987
+      },
+      {
+        "name": "Danh sach NCC.xlsx",
+        "type": "file",
+        "size": 134850
+      },
+      {
+        "name": "Gui cty.xlsx",
+        "type": "file",
+        "size": 19510
+      },
+      {
+        "name": "DS HÓA ĐƠN 20-25",
+        "type": "dir",
+        "count": 8,
+        "sample": [
+          "TH HD MV.xlsx",
+          "TH HD",
+          "2023",
+          "2021",
+          "2022"
+        ]
+      },
+      {
+        "name": "danh sách lọc lại.xlsx",
+        "type": "file",
+        "size": 15534
+      }
+    ]
+  },
+  "4. TAM HOANG PHAT": {
+    "type": "dir",
+    "items_count": 18,
+    "children": [
+      {
+        "name": "Danh sach chung tu.XLSX",
+        "type": "file",
+        "size": 6918
+      },
+      {
+        "name": "Tong quan.XLSX",
+        "type": "file",
+        "size": 41418
+      },
+      {
+        "name": "THMV-BR.xlsx",
+        "type": "file",
+        "size": 1172868
+      },
+      {
+        "name": "Danh ba NNT.xls",
+        "type": "file",
+        "size": 11919660
+      },
+      {
+        "name": "Danh ba NNT 2.xls",
+        "type": "file",
+        "size": 5711675
+      },
+      {
+        "name": "CTY GUI",
+        "type": "dir",
+        "count": 8,
+        "sample": [
+          "SO CHI TIET-TAM HOANG PHAT-2023.xlsx",
+          "SO CHI TIET-TAM HOANG PHAT-2024.xlsx",
+          "SO CHI TIET-TAM HOANG PHAT-2025.xlsx",
+          "BANG KE BR MV TAM HOANG PHAT.xlsx",
+          "Backup of SO CHI TIET-TAM HOANG PHAT-2024.xlk"
+        ]
+      },
+      {
+        "name": "TNCN",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "Nguon 2025.XLSX",
+          "Nguon 2023.xlsx",
+          "Nguon 2024.xlsx"
+        ]
+      },
+      {
+        "name": "To khai",
+        "type": "dir",
+        "count": 60,
+        "sample": [
+          "TO_KHAI_000.713.18.G12-260331-27130100111120.zip",
+          "DANH_SACH_TO_KHAI.xlsx",
+          "ETAX11320240247274660.xml",
+          "3603721832000-200_BCTC-01012025_31122025_VND-L00.xml",
+          "ETAX11220250304671692.xml"
+        ]
+      },
+      {
+        "name": "TNCN.xlsx",
+        "type": "file",
+        "size": 106243
+      },
+      {
+        "name": "PTDN02_20260828084112.xlsx",
+        "type": "file",
+        "size": 15739
+      },
+      {
+        "name": "PTDN01_20260828084033.xlsx",
+        "type": "file",
+        "size": 37695
+      },
+      {
+        "name": "HDDT",
+        "type": "dir",
+        "count": 5,
+        "sample": [
+          "CDPS_2025.xlsx",
+          "TMBCTC_2025_THP.xlsx",
+          "HDDT MV-BR.xlsx",
+          "MUA VAO",
+          "BAN RA"
+        ]
+      },
+      {
+        "name": "THP.docx",
+        "type": "file",
+        "size": 43567
+      },
+      {
+        "name": "TONG HOP TẤT CẢ 1.xlsx",
+        "type": "file",
+        "size": 15667
+      },
+      {
+        "name": "NKC.xlsx",
+        "type": "file",
+        "size": 6224
+      },
+      {
+        "name": "BIEN BAN",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "Bang tinh.xlsx",
+          "TONG HOP.docx"
+        ]
+      },
+      {
+        "name": "Bien ban kiem tra ky trc.pdf",
+        "type": "file",
+        "size": 2739735
+      },
+      {
+        "name": "30.09.2026-cty dieu chinh to khai",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "3603721832000-01_GTGT_TT80-Q12023-L01.xml",
+          "3603721832000-01_GTGT_TT80-Q22024-L01.xml",
+          "3603721832000-01_GTGT_TT80-Q32024-L01.xml",
+          "Công văn giải trình rủi ro.doc"
+        ]
+      }
+    ]
+  },
+  "5. HUNG ANH PHAT": {
+    "type": "dir",
+    "items_count": 18,
+    "children": [
+      {
+        "name": "HUNG ANH PHAT 2022.rar",
+        "type": "file",
+        "size": 9525150
+      },
+      {
+        "name": "HUNG ANH PHAT 2024.rar",
+        "type": "file",
+        "size": 15117941
+      },
+      {
+        "name": "HUNG ANH PHAT 2023.rar",
+        "type": "file",
+        "size": 12799552
+      },
+      {
+        "name": "HUNG ANH PHAT 2024",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "SO PHU 2024-HAP",
+          "TO KHAI GTGT 2024-HAP",
+          "SO CHI TIET 2024-HAP"
+        ]
+      },
+      {
+        "name": "HUNG ANH PHAT 2023",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "TO KHAI GTGT 2023-HAP",
+          "SO PHU 2023-HAP",
+          "SO CHI TIET 2023-HAP"
+        ]
+      },
+      {
+        "name": "HUNG ANH PHAT 2022",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "SO PHU 2022-HAP",
+          "TO KHAI GTGT 2022-HAP",
+          "SO CHI TIET 2022-HAP"
+        ]
+      },
+      {
+        "name": "Danh ba cty.xls",
+        "type": "file",
+        "size": 1694319
+      },
+      {
+        "name": "Tong hop bang ke.xlsx",
+        "type": "file",
+        "size": 620190
+      },
+      {
+        "name": "3.xls",
+        "type": "file",
+        "size": 747337
+      },
+      {
+        "name": "HDDT",
+        "type": "dir",
+        "count": 1,
+        "sample": [
+          "2023.csv"
+        ]
+      },
+      {
+        "name": "2.xls",
+        "type": "file",
+        "size": 257850
+      },
+      {
+        "name": "BANG KE MV-BR",
+        "type": "dir",
+        "count": 12,
+        "sample": [
+          "01_GTGT_Q2_2022 - BANG KE - HAP.xls",
+          "01_GTGT_Q3_2022 - BANG KE - HAP.xls",
+          "01_GTGT_Q1_2022 - BANG KE.xls",
+          "01_GTGT_Q4_2022 - BANG KE - HAP.xls",
+          "01_GTGT_Q3_2024 - BANG KE - HAP.xls"
+        ]
+      },
+      {
+        "name": "HUNG ANH PHAT 2025.rar",
+        "type": "file",
+        "size": 20205640
+      },
+      {
+        "name": "HUNG ANH PHAT 2025",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "TO KHAI GTGT 2025-HAP",
+          "SO PHU 2025-HAP",
+          "SO CHI TIET 2025-HAP"
+        ]
+      },
+      {
+        "name": "HUNG ANH PHAT-PTDN02_20260524183409.xlsx",
+        "type": "file",
+        "size": 19691
+      },
+      {
+        "name": "HUNG ANH PHAT-PTDN01_20260524183422.xlsx",
+        "type": "file",
+        "size": 46086
+      },
+      {
+        "name": "CTY DIEU CHINH",
+        "type": "dir",
+        "count": 8,
+        "sample": [
+          "DC GIAM_GTGT_Q3_2022 - HAP.xls",
+          "01_GTGT_TT80_2022 Q2-2022-HAP L1.xls",
+          "DC GIAM_GTGT_Q2_2022 - HAP.xls",
+          "01_GTGT_TT80_2022 Q3-2022-HAP L1.xls",
+          "01_GTGT_TT80_2024 Q1-2024-HAP 16-09-2026.xls"
+        ]
+      },
+      {
+        "name": "TO KHAI",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "DANH_SACH_TO_KHAI.xlsx",
+          "3602451559"
+        ]
+      }
+    ]
+  },
+  "6. DAI HUY HOANG": {
+    "type": "dir",
+    "items_count": 20,
+    "children": [
+      {
+        "name": "So NXT 2024",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "So nguyen lieu tram 2024.xlsx",
+          "So tram xe TP 2024.xlsx"
+        ]
+      },
+      {
+        "name": "SO KT DH Hoang 2021",
+        "type": "dir",
+        "count": 30,
+        "sample": [
+          "18.3415.xlsx",
+          "21.511.xlsx",
+          "7.154.xlsx",
+          "14.3338.xlsx",
+          "26.711.xlsx"
+        ]
+      },
+      {
+        "name": "So KT 2024 DHH",
+        "type": "dir",
+        "count": 31,
+        "sample": [
+          "30 911.xlsx",
+          "NKC 2024.xlsx",
+          "3 131.xlsx",
+          "4 1331.xlsx",
+          "7 154.xlsx"
+        ]
+      },
+      {
+        "name": "So KT 2025 DHH",
+        "type": "dir",
+        "count": 25,
+        "sample": [
+          "17 5113.xlsx",
+          "23 8212.xlsx",
+          "18 515.xlsx",
+          "15 4211.xlsx",
+          "6 2141.xlsx"
+        ]
+      },
+      {
+        "name": "So KT 2023 DHH",
+        "type": "dir",
+        "count": 31,
+        "sample": [
+          "21 4212.xlsx",
+          "20 4211.xlsx",
+          "17 3383.xlsx",
+          "7 154.xlsx",
+          "9 2141.xlsx"
+        ]
+      },
+      {
+        "name": "So kho 2022 DHH",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "NXT kho nguyen lieu Tram xe.xlsx",
+          "NXT kho TP tram xe.xlsx"
+        ]
+      },
+      {
+        "name": "So kho 2025",
+        "type": "dir",
+        "count": 1,
+        "sample": [
+          "NXT TP tram xe 2025.xlsx"
+        ]
+      },
+      {
+        "name": "So kho 2023 DHH",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "NXT kho nguyen lieu tram 2023.xlsx",
+          "NXT kho TP  tram  xe 2023.xlsx"
+        ]
+      },
+      {
+        "name": "So KT 2022 DHH",
+        "type": "dir",
+        "count": 22,
+        "sample": [
+          "9.242.xlsx",
+          "19 . 811.xlsx",
+          "17.6422.xlsx",
+          "10.331.xlsx",
+          "1522 kho go 2022.xlsx"
+        ]
+      },
+      {
+        "name": "So cong no 2025",
+        "type": "dir",
+        "count": 13,
+        "sample": [
+          "131 MVuong.xlsx",
+          "131 QAnh.xlsx",
+          "331 DLuc.xlsx",
+          "331 HAnh.xlsx",
+          "131 ViNa.xlsx"
+        ]
+      },
+      {
+        "name": "So cong no 2022",
+        "type": "dir",
+        "count": 25,
+        "sample": [
+          "131 men.xlsx",
+          "331 T Phat.xlsx",
+          "331 GM khoi.xlsx",
+          "331 LHanh.xlsx",
+          "331 M Khoi.xlsx"
+        ]
+      },
+      {
+        "name": "SO KHO 2021",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "NXT kho TP Tram xe.xlsx",
+          "NXT nguyen lieu tram xe.xlsx"
+        ]
+      },
+      {
+        "name": "So cong no 2024",
+        "type": "dir",
+        "count": 14,
+        "sample": [
+          "331 T Nghia.xlsx",
+          "331 VPhat.xlsx",
+          "331 Tong 2024.xlsx",
+          "331 Xanh.xlsx",
+          "131 Vina.xlsx"
+        ]
+      },
+      {
+        "name": "So cong no 2023 DHH",
+        "type": "dir",
+        "count": 18,
+        "sample": [
+          "331 CPhong.xlsx",
+          "331 BH.xlsx",
+          "131 Vina.xlsx",
+          "331 VPhat.xlsx",
+          "331 SCB.xlsx"
+        ]
+      },
+      {
+        "name": "SO CONG NO 2021 DHH",
+        "type": "dir",
+        "count": 31,
+        "sample": [
+          "131 XNK NPHAT.xlsx",
+          "131 T Tuoi.xlsx",
+          "331 D Thang.xlsx",
+          "331 L Hanh.xlsx",
+          "131 XANH.xlsx"
+        ]
+      },
+      {
+        "name": "2023 luong kh pb",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "CPCPB 2023.xlsx",
+          "Bang KHTSCD 31122023 DHH.xlsx",
+          "Bang luong DHH 2023.xls"
+        ]
+      },
+      {
+        "name": "2024 luong kh pb",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "Bang KHTS   31122024 DHH.xls",
+          "Bang CPCPB 2024.xlsx",
+          "Bang luong 2024 DHH.xls"
+        ]
+      },
+      {
+        "name": "2025 luong kh pb",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "CPCPB 2025.xlsx",
+          "Bang luong 2025 DHH.xls",
+          "Bang KHTS 31122025.xls",
+          "Bang luong T13-2025 DHH.xlsx"
+        ]
+      },
+      {
+        "name": "2021 luong kh pb",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "Bang luong DHH 2021.xls",
+          "Bang luong DHH 2021 SO 2.xlsx",
+          "CPCPB 2021.xlsx",
+          "Bang KHTSCD  31122021 DHH.xlsx"
+        ]
+      },
+      {
+        "name": "2022 luong kh pb",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "Bang luong 2022 DHH.xls",
+          "Bang luong 2022 DHH so 2.xlsx",
+          "CPCPB 2022.xlsx",
+          "Bang KHTS 31122022 DHH.xlsx"
+        ]
+      }
+    ]
+  },
+  "7. NHAT VINH-PASS LAM": {
+    "type": "dir",
+    "items_count": 20,
+    "children": [
+      {
+        "name": "BANG KE HOA DON 2020.xlsx",
+        "type": "file",
+        "size": 85073
+      },
+      {
+        "name": "BANG KE HOA DON 2025.xlsx",
+        "type": "file",
+        "size": 128970
+      },
+      {
+        "name": "BANG KE HOA DON 2021.xlsx",
+        "type": "file",
+        "size": 67671
+      },
+      {
+        "name": "BANG KE HOA DON 2022.xlsx",
+        "type": "file",
+        "size": 90216
+      },
+      {
+        "name": "BANG KE HOA DON 2023.xlsx",
+        "type": "file",
+        "size": 93889
+      },
+      {
+        "name": "BANG KE HOA DON 2024.xlsx",
+        "type": "file",
+        "size": 90613
+      },
+      {
+        "name": "SCTK111-911-2025.xlsx",
+        "type": "file",
+        "size": 488479
+      },
+      {
+        "name": "SCTK111-911-2023.xlsx",
+        "type": "file",
+        "size": 388173
+      },
+      {
+        "name": "P.THU-P.TRA 2020-2025.xlsx",
+        "type": "file",
+        "size": 888832
+      },
+      {
+        "name": "NKC 2020-2025.xlsx",
+        "type": "file",
+        "size": 856576
+      },
+      {
+        "name": "SCTK111-911-2022.xlsx",
+        "type": "file",
+        "size": 380465
+      },
+      {
+        "name": "SCTK111-911-2024.xlsx",
+        "type": "file",
+        "size": 405273
+      },
+      {
+        "name": "SCTK111-911-2020 .xlsx",
+        "type": "file",
+        "size": 342059
+      },
+      {
+        "name": "SCTK111-911-2021.xlsx",
+        "type": "file",
+        "size": 328907
+      },
+      {
+        "name": "LUONG2023",
+        "type": "dir",
+        "count": 19,
+        "sample": [
+          "BANG LUONG-T12.2023.xlsx",
+          "~$BANG LUONG-T9.2023.xlsx",
+          "BANG LUONG-T1.2023.xlsx",
+          "BANG LUONG-T7.2023.xlsx",
+          "BANG LUONG-T3.2023.xlsx"
+        ]
+      },
+      {
+        "name": "LUONG2022",
+        "type": "dir",
+        "count": 13,
+        "sample": [
+          "BANG LUONG-T1.2022.xlsx",
+          "BANG LUONG-T10.2022.xlsx",
+          "~$BANG LUONG-T3.2022.xlsx",
+          "BANG LUONG-T12.2022.xlsx",
+          "BANG LUONG-T11.2022.xlsx"
+        ]
+      },
+      {
+        "name": "LUONG2021",
+        "type": "dir",
+        "count": 12,
+        "sample": [
+          "BANG LUONG-T1.2021.xlsx",
+          "BANG LUONG-T2.2021.xlsx",
+          "BANG LUONG-T3.2021.xlsx",
+          "BANG LUONG-T9.2021.xlsx",
+          "BANG LUONG-T6.2021.xlsx"
+        ]
+      },
+      {
+        "name": "LUONG2020",
+        "type": "dir",
+        "count": 15,
+        "sample": [
+          "~$BANG LUONG-T3.2020.xlsx",
+          "~$BANG LUONG-T1.2020.xlsx",
+          "BANG LUONG-T9.2020.xlsx",
+          "BANG LUONG-T8.2020.xlsx",
+          "BANG LUONG-T7.2020.xlsx"
+        ]
+      },
+      {
+        "name": "LUONG2025",
+        "type": "dir",
+        "count": 14,
+        "sample": [
+          "BANG LUONG-T10.2025.xlsx",
+          "BANG LUONG-T12.2025.xlsx",
+          "BANG LUONG-T5.2025.xlsx",
+          "BANG LUONG-T2.2025.xlsx",
+          "BANG LUONG-T7.2025.xlsx"
+        ]
+      },
+      {
+        "name": "LUONG2024",
+        "type": "dir",
+        "count": 19,
+        "sample": [
+          "~$BANG LUONG-T9.2023.xlsx",
+          "~$BANG LUONG-T3.2023.xlsx",
+          "BANG LUONG-T8.2024.xlsx",
+          "BANG LUONG-T2.2024.xlsx",
+          "BANG LUONG-T4.2024.xlsx"
+        ]
+      }
+    ]
+  },
+  "8. HUY THANH DAT": {
+    "type": "dir",
+    "items_count": 1,
+    "children": [
+      {
+        "name": "tiliuphcvcngtckimtrathunm2026.zip",
+        "type": "file",
+        "size": 5040765
+      }
+    ]
+  },
+  "9. TRIQUYEN": {
+    "type": "dir",
+    "items_count": 13,
+    "children": [
+      {
+        "name": "2024 Trí Quyên",
+        "type": "dir",
+        "count": 11,
+        "sample": [
+          "BANG KE MUA VAO QUY 3.2024.xlsx",
+          "BANG KE BAN RA QUY 3.2024.xlsx",
+          "BANG KE MUA VAO QUY 2.2024.xlsx",
+          "BANG KE MUA VAO QUY 1.2024.xlsx",
+          "BANG KE BAN RA QUY 4.2024.xlsx"
+        ]
+      },
+      {
+        "name": "2025 Trí Quyên",
+        "type": "dir",
+        "count": 8,
+        "sample": [
+          "PHU LUC 01-1, 02-1 TRIQUYEN Q2.2025.xlsx",
+          "PHU LUC 01-1, 02-1 TRIQUYEN Q1.2025.xlsx",
+          "PHU LUC 01-1, 02-1 TRIQUYEN Q4.2025.xlsx",
+          "PHU LUC 01-1, 02-1 TRIQUYEN Q3.2025.xlsx",
+          "SO NHAT KY CHUNG 2025.xlsx"
+        ]
+      },
+      {
+        "name": "2023 Trí Quyên",
+        "type": "dir",
+        "count": 5,
+        "sample": [
+          "2023 HOA DON BAN RA MUA VAO-.xls",
+          "SỔ NGÂN HÀNG 2023.XLS",
+          "Bảng lương 2023.xls",
+          "TSCD2023.xls",
+          "so chi tiet cac tk 2023.xlsx"
+        ]
+      },
+      {
+        "name": "2022 Trí Quyên",
+        "type": "dir",
+        "count": 5,
+        "sample": [
+          "2022 HOA DON BAN RA MUA VAO-.xls",
+          "SỔ NGÂN HÀNG 2022.XLS",
+          "TSCD2022.xls",
+          "Bảng lương 2022.xls",
+          "SO CHI TIET CAC TAI KHOAN 2022.xlsx"
+        ]
+      },
+      {
+        "name": "2021 Trí Quyên",
+        "type": "dir",
+        "count": 5,
+        "sample": [
+          "2021 HOA DON BAN RA MUA VAO--.xls",
+          "SỔ NGÂN HÀNG 2021.XLS",
+          "TSCD2021.xls",
+          "Bảng lương 2021.xls",
+          "SO CHI TIET CAC TAI KHOAN 2021.xlsx"
+        ]
+      },
+      {
+        "name": "2020 Trí Quyên",
+        "type": "dir",
+        "count": 5,
+        "sample": [
+          "2020 HOA DON BAN RA MUA VAO -.xls",
+          "Bảng lương.xls",
+          "SỔ NGÂN HÀNG 2020.XLS",
+          "TSCD2020.xls",
+          "SO CHI TIET CAC TK 2020.xlsx"
+        ]
+      },
+      {
+        "name": "2019 TRí Quyên",
+        "type": "dir",
+        "count": 5,
+        "sample": [
+          "2019 HOA DON BAN RA MUA VAO -.xls",
+          "Bảng lương 2019.xls",
+          "SỔ NGÂN HÀNG 2019.XLS",
+          "TSCD2019.xls",
+          "SO CHI TIET CAC TAI KHOAN 2019.xlsx"
+        ]
+      },
+      {
+        "name": "2018 Trí Quyên",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "2018 HOA DON BAN RA MUA VAO -.xls",
+          "TSCD2018.xls",
+          "SO CHI TIET CAC TAI KHOAN 2018.xlsx",
+          "SỔ NGÂN HÀNG 2018.XLS"
+        ]
+      },
+      {
+        "name": "2017 Trí Quyên",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "2017 HOA DON BAN RA MUA VAO-01.xls",
+          "SỔ NGÂN HÀNG 2017.XLS",
+          "TSCD2017.xls",
+          "SO CHI TIET CAC TK 2017.xlsx"
+        ]
+      },
+      {
+        "name": "2016 Trí Quyên",
+        "type": "dir",
+        "count": 3,
+        "sample": [
+          "2016 HOA DON BAN RA MUA VAO.xls",
+          "SO NGAN HANG -2016.XLS",
+          "SO CHI TIET CAC TK 2016.xlsx"
+        ]
+      },
+      {
+        "name": "2015 Trí Quyên",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "2015 HOA DON BAN RA MUA VAO.xls",
+          "SO NGAN HANG 2015.XLS",
+          "TSCD2015.xls",
+          "SO CHI TIET CAC TK.xlsx"
+        ]
+      },
+      {
+        "name": "2014 Trí Quyên",
+        "type": "dir",
+        "count": 4,
+        "sample": [
+          "2014 HOA DON BAN RA MUA VAO.xls",
+          "TSCD2014.xls",
+          "Sổ chi tiết các tk 9.2014.xlsx",
+          "SO NGAN HANG 2014.XLS"
+        ]
+      },
+      {
+        "name": "SAO KÊ VCB - 2014to2025",
+        "type": "dir",
+        "count": 12,
+        "sample": [
+          "2024",
+          "2025",
+          "2022",
+          "2023",
+          "2014"
+        ]
+      }
+    ]
+  },
+  "HO SO KE KOACH": {
+    "type": "dir",
+    "items_count": 2,
+    "children": [
+      {
+        "name": "Ra soat an phuong tam- dong khanh.docx",
+        "type": "file",
+        "size": 75496
+      },
+      {
+        "name": "2. An Phuong Tam",
+        "type": "dir",
+        "count": 27,
+        "sample": [
+          "Danh ba An Phuong Tam.xls",
+          "Danh ba an Phuong Tam-ban ra.xls",
+          "3602694223000-03_TNDN_TT80-Y2025-L00.xml.xml",
+          "3602694223000-200_BCTC-01012025_31122025_VND-L00.xml",
+          "B09_DN_Thuyet_minh_bao_cao_tai_chinh.pdf"
+        ]
+      }
+    ]
+  },
+  "Tai khoan ngan hang APT, DK.xlsx": {
+    "type": "file",
+    "size": 15110
+  },
+  "Tai khoan.docx": {
+    "type": "file",
+    "size": 15123
+  },
+  "To khai": {
+    "type": "dir",
+    "items_count": 11,
+    "children": [
+      {
+        "name": "3603883505",
+        "type": "dir",
+        "count": 43,
+        "sample": [
+          "GTGT 11320250317079183 Q1.2025 chinh thuc 1.xml",
+          "TNCN 11320240253992941 Q1.2024 chinh thuc 1.xml",
+          "GTGT 11320240267575913 Q2.2024 chinh thuc 1.xml",
+          "TNCN 11320230182114711 2022 chinh thuc 1.xml",
+          "TNCN 11320250301087858 2024 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3603820015",
+        "type": "dir",
+        "count": 62,
+        "sample": [
+          "TNCN 11320220159687314 Q3.2022 chinh thuc 1.xml",
+          "TNCN 11320240281734749 Q3.2024 chinh thuc 1.xml",
+          "TNCN 11320250290490709 Q3.2024 bo sung 1.xml",
+          "TNCN 11320230194339701 Q1.2023 chinh thuc 1.xml",
+          "TNCN 11320250318767122 Q1.2025 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3600840461",
+        "type": "dir",
+        "count": 126,
+        "sample": [
+          "TNCN 20120250000939079 Q1.2025 chinh thuc 1.xml",
+          "TNCN 20120220000755855 Q2.2022 chinh thuc 1.xml",
+          "TO_KHAI_000.713.18.G12-260317-27130100220849.zip",
+          "TNCN 20120240000926224 2024 chinh thuc 1.xml",
+          "TNCN 20120240000889097 Q2.2024 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3603698904",
+        "type": "dir",
+        "count": 125,
+        "sample": [
+          "TNCN 11320220132625942 2021 chinh thuc 1.xml",
+          "TNCN 11320250310576729 Q3.2024 bo sung 1.xml",
+          "TTS 11320230216817186 Q3.2023 chinh thuc 1.xml",
+          "TNCN 11320220153247818 Q2.2022 chinh thuc 1.xml",
+          "TNCN 11320240246812806 2023 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3600854351",
+        "type": "dir",
+        "count": 35,
+        "sample": [
+          "BCTC 11320240229859159 2023 chinh thuc 1.xml",
+          "TNCN 11320240257045658 Q1.2024 chinh thuc 1.xml",
+          "TNDN 11320240232232391 2022 bo sung 1.xml",
+          "TNCN 11320250328684819 Q2.2025 chinh thuc 1.xml",
+          "TNDN 11320240229858906 2023 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3600840461-CÔNG TY TNHH THANH THANH PHƯƠNG",
+        "type": "dir",
+        "count": 129,
+        "sample": [
+          "GTGT 20120250000961772 07.2025 chinh thuc 1.xml",
+          "TNCN 20120230000865506 2023 chinh thuc 1.xml",
+          "GTGT 20120250000955185 06.2025 chinh thuc 1.xml",
+          "GTGT 20120210000692581 08.2021 chinh thuc 1.xml",
+          "TNCN 20120210000695960 Q3.2021 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3602179712",
+        "type": "dir",
+        "count": 2,
+        "sample": [
+          "3602179712000-03_TNDN_TT80-Y2025-L00.xml.xml",
+          "ToKhai_05"
+        ]
+      },
+      {
+        "name": "3601946069",
+        "type": "dir",
+        "count": 117,
+        "sample": [
+          "TNCN 11320230202823932 Q2.2023 chinh thuc 1.xml",
+          "GTGT 10120190273317684 Q1.2019 chinh thuc 1.xml",
+          "TNCN 11320230191944364 Q1.2023 chinh thuc 1.xml",
+          "TNCN 10620190267978505 2018 chinh thuc 1.xml",
+          "TNDN 10620180224272828 2017 chinh thuc 2.xml"
+        ]
+      },
+      {
+        "name": "3603820015-HUY THANH PHAT",
+        "type": "dir",
+        "count": 66,
+        "sample": [
+          "GTGT 11220220122037647 Q4.2021 chinh thuc 1.xml",
+          "GTGT 11320230202925054 Q2.2023 chinh thuc 1.xml",
+          "GTGT 11320220138202079 Q1.2022 chinh thuc 1.xml",
+          "GTGT 11320250333854394 Q2.2025 chinh thuc 1.xml",
+          "TNCN 11320240269480786 Q2.2024 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3603698904-PHUC NGUYEN TIEN",
+        "type": "dir",
+        "count": 128,
+        "sample": [
+          "GTGT 11320260386331159 Q1.2021 bo sung 2.xml",
+          "TNCN 11320210076380664 2020 chinh thuc 1.xml",
+          "TNDN 11320250310575109 2024 chinh thuc 1.xml",
+          "GTGT 11320220121721460 Q4.2021 chinh thuc 1.xml",
+          "GTGT 11320250348739212 Q3.2025 chinh thuc 1.xml"
+        ]
+      },
+      {
+        "name": "3603883505-TT",
+        "type": "dir",
+        "count": 46,
+        "sample": [
+          "TNDN 11320250301087754 2024 chinh thuc 1.xml",
+          "TNDN 11320250352712582 2023 bo sung 1.xml",
+          "TNCN 11320250328217580 Q2.2025 chinh thuc 1.xml",
+          "GTGT 11320250328215104 Q2.2025 chinh thuc 1.xml",
+          "TNCN 11320230216578649 Q3.2023 chinh thuc 1.xml"
+        ]
+      }
+    ]
+  }
+}

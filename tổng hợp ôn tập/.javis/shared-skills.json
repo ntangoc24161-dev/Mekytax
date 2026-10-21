@@ -1,0 +1,25 @@
+{
+  "enabled": [
+    "doi-chieu-cup-gdlk",
+    "hoa-don-dien-tu",
+    "huong-dan-kiem-tra-chuyen-de",
+    "kiem-tra-thue-thuong-mai-dien-tu",
+    "luat-phong-chong-tham-nhung",
+    "luat-quan-ly-thue",
+    "luat-thuong-mai-dien-tu",
+    "paddleocr",
+    "pdf-sang-md",
+    "phan-tich-ho-so-thue",
+    "quy-che-phoi-hop-kiem-tra-thue",
+    "quy-trinh-hoan-thue",
+    "quy-trinh-kiem-tra-thue",
+    "theo-doi-cung-cap-ca",
+    "theo-doi-cv-canh-bao-rui-ro",
+    "thue-gtgt",
+    "thue-tncn",
+    "thue-tndn",
+    "xu-ly-rui-ro-thue-hoa-don",
+    "xem-ho-so-thue"
+  ],
+  "disabled": []
+}

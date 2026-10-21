@@ -1,0 +1,46 @@
+{
+  "mst": "3603883505",
+  "ten_doanh_nghiep": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ T&T BIÊN HÒA",
+  "dia_chi": "Số 20/6, Khu phố 2, Phường An Bình, Thành phố Biên Hòa, Tỉnh Đồng Nai",
+  "nien_do": "2022 - 2025",
+  "so_quy": 14,
+  "tong_doanh_thu_ban_ra": 58891860581,
+  "tong_thue_gtgt_ban_ra": 5094403667,
+  "tong_mua_vao": 57710654684,
+  "tong_thue_gtgt_mua_vao": 4976716376,
+  "thue_tndn_phai_nop": 99160673,
+  "kiem_tra_f1": {
+    "so_ban_ghi": 0,
+    "ket_luan": "An toàn tuyệt đối, không có trong Sổ CVCBRR F1"
+  },
+  "kiem_tra_cong_an": {
+    "so_ban_ghi": 0,
+    "ket_luan": "An toàn tuyệt đối, không có trong Sổ theo dõi Công an"
+  },
+  "tong_so_ncc": 132,
+  "ncc_f0": {
+    "so_luong": 1,
+    "mst": "0317409384",
+    "ten": "CÔNG TY TNHH NNM GROUP",
+    "so_hd": 2,
+    "doanh_so": 2442000,
+    "thue_gtgt": 244200,
+    "so_cv": "6174/CCTKVQ12HM-KT2",
+    "ngay_cv": "2024-06-19",
+    "don_vi_ban_hanh": "Chi cục Thuế Q12 - Hóc Môn"
+  },
+  "ncc_bat_thuong": {
+    "so_luong": 24,
+    "so_hd": 125,
+    "tong_doanh_so": 291802972,
+    "tong_thue_gtgt": 26046213,
+    "ty_trong_ds": 0.005056
+  },
+  "ncc_binh_thuong": {
+    "so_luong": 108,
+    "so_hd": 612,
+    "tong_doanh_so": 57418851712,
+    "tong_thue_gtgt": 4950670163,
+    "ty_trong_ds": 0.994944
+  }
+}

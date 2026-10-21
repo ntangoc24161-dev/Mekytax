@@ -1,0 +1,196 @@
+{
+  "schema": 2,
+  "source": "kanban.sqlite3",
+  "orchestration": "auto",
+  "tasks": [
+    {
+      "id": "t_023c017d27b8",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Brain Default",
+      "title": "Bóc tách 16 công văn scan tháng 09/2026 và nạp vào sổ theo dõi",
+      "intent": "Chạy OCR offline bóc tách thông tin từ 16 công văn cảnh báo dạng scan của tháng 09/2026 tại thư mục 'D:\\HO SO CONG VAN CANH BAO\\Cong_van_chua_boc_tach\\2026-09' và trích xuất nạp dữ liệu vào sheet THEO_DOI của file Excel 'SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx'.",
+      "route": "auto",
+      "capability": "files",
+      "execution_mode": "auto",
+      "priority": 1,
+      "status": "archived",
+      "needs_approval": false,
+      "block_kind": "",
+      "block_reason": "",
+      "created_by": "user",
+      "chat_id": "web:2fffc81f35a9420db2c134320d9f1bcb",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "last_heartbeat_at": 1790191221.7644646,
+      "current_run_id": "",
+      "result": "Đang kiểm tra danh sách 16 file scan trong thư mục `D:\\HO SO CONG VAN CANH BAO\\Cong_van_chua_boc_tach\\2026-09` và file Excel theo dõi.\nĐang kiểm tra cấu trúc bảng tính Excel `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx`...\nĐang chạy thử nghiệm OCR offline bằng PaddleOCR trên tệp công văn scan...\nĐang chạy kiểm tra trích xuất OCR trực tiếp qua `extract_paddle_ocr`...\nĐang in nội dung trích xuất của file `[2874_TCS7-QLDN1] 4966.pdf`...",
+      "created_at": 1790156989.4271903,
+      "updated_at": 1790476041.02514,
+      "not_before": 0.0,
+      "metadata": {
+        "route": "auto",
+        "capability": "files",
+        "execution_mode": "auto",
+        "tool_calls": [],
+        "provider": "antigravity-cli"
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-09-23 16:49",
+          "msg": "created by user"
+        },
+        {
+          "ts": "2026-09-23 23:09",
+          "msg": "claimed by worker:35584:62b93ef2"
+        },
+        {
+          "ts": "2026-09-23 23:10",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-09-24 02:08",
+          "msg": "claimed by worker:21372:70476caf"
+        },
+        {
+          "ts": "2026-09-24 02:20",
+          "msg": "done"
+        },
+        {
+          "ts": "2026-09-27 09:27",
+          "msg": "done -> archived: đã kết thúc quá 3 ngày"
+        }
+      ]
+    },
+    {
+      "id": "t_23552db4b2af",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Brain Default",
+      "title": "Bóc tách OCR hàng loạt 30 bộ đề thi kiểm tra thuế Đợt 2",
+      "intent": "Bóc tách tự động 1.800 câu hỏi từ ảnh chụp trong 30 file Word tại thư mục 'D:\\HOC TAP\\ON THI 2026.09\\Ôn tập thi nghiệp vụ\\Đợt 2\\KIEM TRA THUE\\NEW', nhận diện đáp án đúng dựa trên dấu hiệu nút radio màu xanh, loại bỏ các câu hỏi trùng lặp và cập nhật kết quả vào ngân hàng đề thi chuẩn tại 'D:\\HOC TAP\\ON THI 2026.09'",
+      "route": "auto",
+      "capability": "files",
+      "execution_mode": "auto",
+      "priority": 1,
+      "status": "archived",
+      "needs_approval": false,
+      "block_kind": "cancelled",
+      "block_reason": "worker cancelled",
+      "created_by": "user",
+      "chat_id": "web:6e9ed04fdbe04175a73aec0eace85874",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "last_heartbeat_at": 1790190537.9083085,
+      "current_run_id": "",
+      "result": "",
+      "created_at": 1790186335.1381893,
+      "updated_at": 1790476041.02514,
+      "not_before": 0.0,
+      "metadata": {
+        "acceptance": [
+          "Toàn bộ 30 file Word trong thư mục nguồn được quét và trích xuất dữ liệu ảnh chứa câu hỏi",
+          "Nhận diện chính xác nội dung câu hỏi, các lựa chọn và đáp án đúng qua nút radio màu xanh",
+          "Các câu hỏi trùng lặp được lọc và khử trùng",
+          "Ngân hàng đề thi chuẩn tại 'D:\\HOC TAP\\ON THI 2026.09' được cập nhật đầy đủ danh sách câu hỏi đã bóc tách và chuẩn hóa"
+        ],
+        "specifier": "ai"
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-09-24 00:58",
+          "msg": "created by user"
+        },
+        {
+          "ts": "2026-09-24 02:08",
+          "msg": "claimed by worker:21372:aa2ea5c0"
+        },
+        {
+          "ts": "2026-09-24 02:08",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-09-24 02:08",
+          "msg": "claimed by worker:21372:ce501018"
+        },
+        {
+          "ts": "2026-09-24 02:09",
+          "msg": "worker cancelled"
+        },
+        {
+          "ts": "2026-09-27 09:27",
+          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
+        }
+      ]
+    },
+    {
+      "id": "t_665a47f28f8d",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Brain Default",
+      "title": "Bóc tách kiểm soát 30 bộ đề thi Đợt 2",
+      "intent": "Bóc tách 1.800 câu hỏi từ ảnh chụp 30 bộ đề thi Đợt 2, đối soát đáp án theo ký hiệu radio xanh và cập nhật đầy đủ dữ liệu đã chuẩn hoá vào ngân hàng câu hỏi Master",
+      "route": "auto",
+      "capability": "files",
+      "execution_mode": "auto",
+      "priority": 2,
+      "status": "archived",
+      "needs_approval": false,
+      "block_kind": "",
+      "block_reason": "",
+      "created_by": "user",
+      "chat_id": "web:6e9ed04fdbe04175a73aec0eace85874",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "last_heartbeat_at": 1790191065.0615396,
+      "current_run_id": "",
+      "result": "Đang kiểm tra dữ liệu và vị trí các bộ đề thi, ảnh chụp Đợt 2 cùng file ngân hàng câu hỏi Master trên hệ thống...\nĐang rà soát đường dẫn thư mục bộ đề thi Đợt 2 và ngân hàng Master...\nĐang kiểm tra các ổ đĩa trên máy...\nĐang quét thư mục trên ổ D và G...\nĐang kiểm tra thư mục hệ thống để tìm thông tin task Kanban...\nĐang kiểm tra thư mục scratch...\nĐang tìm kiếm thông tin về Đợt 2 trong các kịch bản...\nĐang kiểm tra môi trường Python thực thi...\nĐang kiểm tra quyền truy cập đường dẫn thư mục Đợt 2...\nĐang kiểm tra môi trường PaddleOCR venv...\nĐang kiểm tra kết quả nhận diện mẫu ảnh và radio xanh...",
+      "created_at": 1790189136.8293083,
+      "updated_at": 1790476041.02514,
+      "not_before": 0.0,
+      "metadata": {
+        "route": "auto",
+        "capability": "files",
+        "execution_mode": "auto",
+        "tool_calls": [],
+        "provider": "antigravity-cli"
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-09-24 01:45",
+          "msg": "created by user"
+        },
+        {
+          "ts": "2026-09-24 02:08",
+          "msg": "claimed by worker:21372:322558e7"
+        },
+        {
+          "ts": "2026-09-24 02:08",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-09-24 02:09",
+          "msg": "claimed by worker:21372:e2b5dfe6"
+        },
+        {
+          "ts": "2026-09-24 02:17",
+          "msg": "done"
+        },
+        {
+          "ts": "2026-09-27 09:27",
+          "msg": "done -> archived: đã kết thúc quá 3 ngày"
+        }
+      ]
+    }
+  ],
+  "updated": 1790476041.0334363
+}

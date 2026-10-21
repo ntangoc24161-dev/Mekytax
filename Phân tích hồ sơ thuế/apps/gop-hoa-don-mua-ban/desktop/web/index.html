@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gộp hóa đơn mua vào - bán ra</title>
+  <style>
+    :root {
+      --navy: #1b365d;
+      --teal: #0f6c8c;
+      --ink: #1c2833;
+      --muted: #5d6d7e;
+      --line: #d5d8dc;
+      --bg: #f3f6f8;
+      --card: #ffffff;
+      --ok: #1e8449;
+      --warn: #9a3412;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", "Noto Sans", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+    header {
+      background: linear-gradient(120deg, var(--navy), var(--teal));
+      color: #fff;
+      padding: 22px 20px 20px;
+    }
+    header h1 { margin: 0 0 6px; font-size: 22px; font-weight: 700; }
+    header p { margin: 0; opacity: 0.92; font-size: 14px; }
+    main { max-width: 980px; margin: 0 auto; padding: 18px 16px 48px; }
+    .grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 14px; }
+    @media (max-width: 800px) { .grid { grid-template-columns: 1fr; } }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    h2 { margin: 0 0 10px; font-size: 16px; color: var(--navy); }
+    label.field { display: block; font-size: 13px; color: var(--muted); margin: 8px 0 4px; }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .checks { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; font-size: 14px; }
+    .drop {
+      border: 2px dashed #9bb0c4;
+      border-radius: 12px;
+      padding: 22px 12px;
+      text-align: center;
+      background: #f8fbfd;
+      cursor: pointer;
+    }
+    .drop.hot { background: #eaf4fb; border-color: var(--teal); }
+    .drop strong { color: var(--navy); }
+    .row-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .btn {
+      appearance: none;
+      border: 0;
+      background: var(--navy);
+      color: #fff;
+      padding: 9px 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .btn.ghost { background: #e8eef4; color: var(--navy); }
+    .btn.teal { background: var(--teal); }
+    .muted { color: var(--muted); font-size: 13px; }
+    #fileList { margin: 8px 0 0; padding-left: 18px; font-size: 13px; max-height: 160px; overflow: auto; }
+    .progress {
+      height: 8px;
+      background: #e4e8ec;
+      border-radius: 99px;
+      overflow: hidden;
+      margin-top: 12px;
+    }
+    #bar { height: 100%; width: 0; background: var(--teal); }
+    #progressText { font-size: 12px; color: var(--muted); margin-top: 6px; min-height: 16px; }
+    #companies { display: grid; gap: 10px; }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+      background: #fff;
+    }
+    .card .meta, .card .nums { font-size: 13px; color: var(--muted); margin-top: 4px; }
+    .card .nums { display: flex; flex-direction: column; gap: 2px; }
+    .card b { color: var(--ink); }
+    .warn-mini { color: var(--warn); font-size: 12px; margin-top: 4px; }
+    #log { font-size: 13px; max-height: 220px; overflow: auto; }
+    .log-line { padding: 2px 0; }
+    .log-line.ok { color: var(--ok); }
+    .log-line.warn { color: var(--warn); }
+    footer { margin-top: 14px; font-size: 12px; color: var(--muted); }
+    code { font-size: 12px; background: #eef2f5; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gộp hóa đơn mua vào - bán ra</h1>
+    <p>Chạy ngay trên trình duyệt, không cần cài Python hay Excel. Mỗi công ty ra 1 file, 2 sheet có tiêu đề.</p>
+  </header>
+  <main>
+    <div class="grid">
+      <section class="panel">
+        <h2>1. Chọn file nguồn</h2>
+        <div class="drop" id="drop">
+          <strong>Kéo thả file .xlsx vào đây</strong>
+          <p class="muted">Hoặc chọn nhiều file / cả thư mục xuất từ portal HĐĐT, bảng kê quý.</p>
+          <div class="row-btns" style="justify-content:center">
+            <label class="btn ghost">Chọn file
+              <input id="filePick" type="file" accept=".xlsx,.xlsm" multiple hidden>
+            </label>
+            <label class="btn ghost">Chọn thư mục
+              <input id="folderPick" type="file" webkitdirectory directory multiple hidden>
+            </label>
+          </div>
+        </div>
+        <p class="muted" id="fileCount">Chưa chọn file</p>
+        <ul id="fileList"></ul>
+        <div class="row-btns">
+          <button class="btn" id="btnScan" disabled>Đọc và phân loại</button>
+          <button class="btn ghost" id="btnClear" disabled>Xóa danh sách</button>
+        </div>
+        <div class="progress"><div id="bar"></div></div>
+        <div id="progressText"></div>
+      </section>
+      <section class="panel">
+        <h2>2. Công ty (tuỳ chọn)</h2>
+        <p class="muted">Để trống MST thì app tự nhận diện từng công ty trong lô file. Điền MST khi tất cả file thuộc đúng 1 doanh nghiệp.</p>
+        <label class="field" for="tenCty">Tên đơn vị</label>
+        <input id="tenCty" type="text" placeholder="Ví dụ: CÔNG TY TNHH NAM HUY HOÀNG">
+        <label class="field" for="mst">Mã số thuế</label>
+        <input id="mst" type="text" placeholder="Ví dụ: 3602218182" inputmode="numeric">
+        <div class="checks">
+          <label><input type="checkbox" id="optTongCong" checked> Lọc dòng nhãn Tổng cộng (giữ tên TỔNG CÔNG TY)</label>
+          <label><input type="checkbox" id="optDedupe" checked> Khử trùng hóa đơn (số HĐ + ký hiệu + ngày + MST)</label>
+        </div>
+      </section>
+    </div>
+    <section class="panel" style="margin-top:14px">
+      <h2>3. Kết quả theo công ty</h2>
+      <div id="companies"><p class="muted">Chưa chạy. Chọn file rồi bấm Đọc và phân loại.</p></div>
+      <div class="row-btns">
+        <button class="btn teal" id="btnZip" disabled>Tải file đã chọn (zip nếu nhiều công ty)</button>
+      </div>
+    </section>
+    <section class="panel" style="margin-top:14px">
+      <h2>Nhật ký</h2>
+      <div id="log"></div>
+      <footer>
+        File kết quả: 2 sheet <code>Mua vào</code> / <code>Bán ra</code>, tiêu đề đơn vị - MST - thời gian,
+        sắp Ngày lập rồi Ký hiệu rồi Số HĐ, font Times New Roman, in A4 ngang co 1 trang rộng.
+        Map cột theo tên header (kể cả chữ đ). Không gửi file ra ngoài máy.
+        <button type="button" class="btn ghost" id="btnQuit" style="margin-left:8px;display:none">Thoát app</button>
+      </footer>
+    </section>
+  </main>
+  <script src="./vendor/jszip.min.js"></script>
+  <script src="./vendor/exceljs.min.js"></script>
+  <script src="./core.js"></script>
+  <script src="./excel-out.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
