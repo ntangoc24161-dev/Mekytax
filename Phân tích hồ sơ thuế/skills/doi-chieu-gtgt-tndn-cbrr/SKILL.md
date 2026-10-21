@@ -5,8 +5,10 @@ group: "Tài chính"
 origin: javis-learned
 status: active
 created: 2026-10-01
-updated: 2026-10-01
+updated: '2026-10-09'
 ---
+> **Hợp đồng đầu ra v1.4:** module nội bộ. Kết quả ghi vào sheet đích của sáu tệp KQ (xem skills/phan-tich-ho-so-thue/playbook-lenh-theo-buoc.md). Không giao tệp chuyên đề Tong_hop_*/Doi_chieu_* / Master 8 sheet như sản phẩm.
+
 ## Khi nào dùng
 
 - Đối chiếu toàn diện nghĩa vụ thuế **GTGT** (từng tháng/quý) và **Quyết toán TNDN** (theo năm) giữa Bảng kê mua vào/bán ra, Tờ khai thuế (Mẫu 01/GTGT, Mẫu 03/TNDN) và Hóa đơn điện tử (HĐĐT) qua nhiều năm (ví dụ 10 năm: 2016 - 2025).
@@ -99,8 +101,10 @@ Toàn bộ báo cáo được tích hợp trên 2 sheet đồng bộ:
 ## Kỹ thuật Excel & Tránh bẫy XML
 
 1. **Tuyệt đối tránh lỗi Formula XML**: Không bao giờ để nội dung ô văn bản bắt đầu bằng dấu `=`, `+`, `-` (ví dụ `> KẾT LUẬN...` thay vì `=> KẾT LUẬN...` hoặc set tường minh `cell.data_type = 's'`). Nếu bắt đầu bằng `=`, openpyxl sẽ lưu thành thẻ formula `<f>` và Excel sẽ báo lỗi *Removed Records: Formula from /xl/worksheets/sheet1.xml part*.
-2. **Định dạng**: Font **Times New Roman** 100% file; tiêu đề cột in đậm; số tiền định dạng phân cách hàng nghìn chuẩn VN (`#,##0`); dòng CỘNG dùng hàm `SUM(...)`.
+2. **Định dạng**: Font **Times New Roman** 100% file; tiêu đề cột in đậm; số tiền theo chuẩn VN - hiển thị `1.234.567,89` (Excel `number_format` `#,##0` / `#,##0.00`); dòng CỘNG dùng hàm `SUM(...)`.
 3. **Hiển thị đầy đủ**: Bật `wrap_text = True` cho các cột diễn giải/ghi chú, tự căn chỉnh chiều cao hàng và độ rộng cột để không bị khuất chữ.
+4. **Làm sạch khóa trước đối chiếu (CD1):** Chuẩn hóa MST (10/13 số, thêm 0 đầu và dấu `-` nhánh); quét HĐ trùng bằng COUNTIFS(Số HĐ + MST + giá trị chưa thuế); bỏ 0 đầu Số HĐ khi ghép khóa HĐĐT ↔ bảng kê. Công thức chi tiết: skill `lam-sach-cd1-mst-hoa-don` → `references/excel-cd1-hv-bt5-bt9.md`.
+5. **Đối chiếu thuế mua vào với sổ:** Khi có NKC, đối chiếu theo tháng tổng thuế BKMV với PS Nợ TK `133*`; DN thương mại sổ 1 Nợ 1 Có dùng thêm khóa `SoHD|GiaTri` / `SoHD|TienThue`.
 
 ## Bẫy thường gặp & Bài học rút ra
 
@@ -108,4 +112,22 @@ Toàn bộ báo cáo được tích hợp trên 2 sheet đồng bộ:
 - **Lọc hóa đơn hủy / thay thế**: Luôn áp dụng bộ lọc từ khóa (`CANCEL_KEYWORDS = ['thay thế', 'xóa bỏ', 'hủy', 'bị thay thế']`) để loại trừ hóa đơn không hợp lệ khỏi số liệu HĐĐT đối chiếu.
 - **Lỗi gõ phím trên tờ khai**: Kiểm tra chéo giữa ct23 và ct24 (nếu ct24 khớp đúng số thuế nhưng ct23 lệch do gõ sót số thì đây là lỗi hình thức, số thuế khấu trừ vẫn chính xác).
 - **Kỳ thiếu tờ khai XML**: Sử dụng Bảng kê bán ra và HĐĐT hợp lệ để làm căn cứ đối chiếu số liệu, ghi chú rõ để yêu cầu NNT bổ sung tờ khai chính thức.
-- **Chuẩn hóa MST**: Loại bỏ ký tự thừa, so khớp cả MST 10 số và MST chi nhánh 13 số khi đối chiếu Sổ CVCBRR và Danh bạ NNT.
+- **Chuẩn hóa MST**: Loại bỏ ký tự thừa, so khớp cả MST 10 số và MST chi nhánh 13 số khi đối chiếu Sổ CVCBRR và Danh bạ NNT; MST 9/12 số phải bổ sung 0 đầu trước khi khớp.
+- **HĐ trùng trước khi cộng**: Không cộng doanh số/thuế khi COUNTIFS khóa HĐ+MST+giá trị > 1 chưa được bóc tách hoặc giải trình.
+
+## Định dạng số tiền (bắt buộc)
+
+- **Hiển thị** (chat, Markdown, báo cáo, ô text): chuẩn Việt Nam - dấu `.` phân cách hàng nghìn, dấu `,` phần lẻ. Ví dụ: `1.234.567` hoặc `1.234.567,89`.
+- **Excel số thật** (openpyxl `number_format`): dùng mã invariant `#,##0` (nguyên) hoặc `#,##0.00` (có phần lẻ). Excel locale VN sẽ hiện thành dấu `.` / `,`. Không mô tả nhầm là "dấu phẩy ngăn cách hàng nghìn".
+- **Tỷ lệ %**: hiển thị `12,34%` (dấu `,` phần lẻ).
+- Cấm dạng Mỹ `1,234,567.89` trong câu trả lời / báo cáo tiếng Việt.
+
+## Liên kết quy trình hồ sơ
+
+Playbook lệnh: `playbook-lenh.md`.
+
+Skill này là phân hệ chuyên sâu của `phan-tich-ho-so-thue` tại **Bước 4.1 / playbook Bước 2**. Đầu vào: XML GTGT/TNDN ở `1.1`, HĐĐT portal ở `1.2`, bảng kê đã gộp ở `2.5` (`tong-hop-dau-vao-hddt-bang-ke-nld`). Làm sạch MST/HĐ trước khi ghép khóa: `lam-sach-cd1-mst-hoa-don`. Sheet NCC CVCBRR trên file 2 sheet CBRR vẫn xuất kèm, nhưng rà soát NCC đầy đủ (Bảng 2.1/2.2/2.3, cột nguồn) dùng `doi-chieu-ncc-mua-vao-rui-ro`. Kết quả nhúng Master sheet `Tong_hop_GTGT_TNDN`.
+
+## Lịch sử (tự học)
+- [2026-10-15] Gắn vào skill trục `phan-tich-ho-so-thue` Bước 4.1; trỏ CD1 sang `lam-sach-cd1-mst-hoa-don`.
+- [2026-10-09] Chốt định dạng số tiền chuẩn VN đồng loạt: hiển thị dấu `.` hàng nghìn và `,` phần lẻ; Excel `#,##0` / `#,##0.00`.

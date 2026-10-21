@@ -2,11 +2,12 @@
 name: Quản lý rủi ro tuân thủ thuế
 description: "QLRR tuân thủ thuế: Luật 108/2025, TT 31/2021, phân loại rủi ro, bộ chỉ số TCT, 5 bước xử lý rủi ro."
 group: Tài chính
+updated: '2026-10-09'
 ---
 
 # Quản lý rủi ro tuân thủ thuế (QLRRTT)
 
-Khung chọn đối tượng và phân bổ biện pháp quản lý thuế theo mức tuân thủ / rủi ro. Nguồn chính: slide QLRR 29-30/12/2025, TT 31/2021/TT-BTC, Luật QLT 38/2019 và Luật QLT 108/2025.
+Khung chọn đối tượng và phân bổ biện pháp quản lý thuế theo mức tuân thủ / rủi ro. Nguồn chính: slide QLRR 29-30/12/2025, TT 31/2021/TT-BTC, Luật QLT 38/2019 và Luật QLT 108/2025. Playbook lệnh: `playbook-lenh.md`.
 
 ## Khi nào dùng
 
@@ -42,6 +43,13 @@ Khung chọn đối tượng và phân bổ biện pháp quản lý thuế theo 
 - Đánh giá phân loại thực hiện tự động; công chức làm đúng quy định được miễn trừ trách nhiệm cá nhân.
 - Kết quả dùng để chọn biện pháp nghiệp vụ và xây kế hoạch nâng cao tuân thủ, không phải công bố xếp hạng cho NNT theo mặc định.
 
+## Định dạng số tiền (bắt buộc)
+
+- **Hiển thị** (chat, Markdown, báo cáo, ô text): chuẩn Việt Nam - dấu `.` phân cách hàng nghìn, dấu `,` phần lẻ. Ví dụ: `1.234.567` hoặc `1.234.567,89`.
+- **Excel số thật** (openpyxl `number_format`): dùng mã invariant `#,##0` (nguyên) hoặc `#,##0.00` (có phần lẻ). Excel locale VN sẽ hiện thành dấu `.` / `,`. Không mô tả nhầm là "dấu phẩy ngăn cách hàng nghìn".
+- **Tỷ lệ %**: hiển thị `12,34%` (dấu `,` phần lẻ).
+- Cấm dạng Mỹ `1,234,567.89` trong câu trả lời / báo cáo tiếng Việt.
+
 ## Bẫy
 
 - Chọn DN kiểm tra cảm tính, bỏ qua kết quả QLRR khi không có thông tin mới.
@@ -54,3 +62,6 @@ Khung chọn đối tượng và phân bổ biện pháp quản lý thuế theo 
 - Nêu đúng nghiệp vụ + số quyết định bộ chỉ số/quy trình đang dùng.
 - Có mức tuân thủ/rủi ro (hoặc nói rõ hệ thống chưa trả mức).
 - Biện pháp đề xuất khớp mức rủi ro; có bước cập nhật ngược.
+
+## Lịch sử (tự học)
+- [2026-10-09] Chốt định dạng số tiền chuẩn VN đồng loạt: hiển thị dấu `.` hàng nghìn và `,` phần lẻ; Excel `#,##0` / `#,##0.00`.

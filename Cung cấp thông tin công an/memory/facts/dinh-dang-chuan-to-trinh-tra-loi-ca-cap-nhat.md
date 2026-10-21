@@ -3,7 +3,7 @@ type: preference
 provenance: user
 origin: javis-learned
 created: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-07
 ---
 Quy chuẩn định dạng chuẩn Công văn trả lời và Tờ trình lãnh đạo cung cấp thông tin Công an:
 
@@ -15,7 +15,7 @@ Quy chuẩn định dạng chuẩn Công văn trả lời và Tờ trình lãnh 
   + Dòng 'Số:          ': Giữ nguyên chữ 'Số:', không chèn ký hiệu lạ.
   + Trích yếu: 'V/v cung cấp thông tin, hồ sơ DN theo Công văn....' đặt chữ đứng (không in nghiêng, không in đậm, cỡ chữ 12–13).
   + Cột phải: Dòng 'CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM' đặt cỡ chữ 13 (in đậm, nằm trên 1 dòng duy nhất); dòng 'Độc lập - Tự do - Hạnh phúc' đặt cỡ chữ 14 (in đậm, nằm trên 1 dòng duy nhất), có nét gạch ngang liền dưới vừa hết chiều dài chữ (~5.6 cm, 23 ký tự `─`).
-  + Dòng địa danh ngày tháng: *Đồng Nai, ngày       tháng       năm 2026* (chữ nghiêng).
+  + Dòng địa danh ngày tháng: *Trấn Biên, ngày       tháng       năm 2026* (chữ nghiêng).
 - **Kính gửi:** Canh chính giữa trang, in đậm hoặc chữ thường chuẩn, cách trên 14pt.
 - **Nội dung văn bản (đoạn văn bản):** Cỡ chữ 14, giãn dòng 1.15, space before 3pt, thụt lề 1.25 cm.
 - **Bảng cuối trang (Nơi nhận & Chữ ký):** Bảng 2 cột không viền rộng đúng 16.5 cm (lề 2.5 - 2.0 cm), top-aligned. Cột chữ ký cách chức danh đúng 5 dòng trống.

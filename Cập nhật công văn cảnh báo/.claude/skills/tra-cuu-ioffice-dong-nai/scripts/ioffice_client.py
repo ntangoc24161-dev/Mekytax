@@ -146,6 +146,13 @@ class IOfficeClient:
         except Exception:
             pass
 
+        # Kích hoạt hiển thị tìm kiếm nâng cao (chứa các ô lọc ngày)
+        try:
+            self.page.evaluate('if (typeof showDivTimKiem === "function") { showDivTimKiem(); }')
+            self.page.wait_for_timeout(1000)
+        except Exception:
+            pass
+
         print(f"Thiết lập điều kiện tra cứu: trích yếu='{trich_yeu}', số KH='{so_ky_hieu}', từ={from_date}, đến={to_date}")
 
         if trich_yeu:
@@ -156,15 +163,27 @@ class IOfficeClient:
 
         if from_date:
             if self.page.query_selector("#txt_start_date_banhanh"):
-                self.page.fill("#txt_start_date_banhanh", from_date)
+                try:
+                    self.page.fill("#txt_start_date_banhanh", from_date)
+                except Exception:
+                    self.page.evaluate(f'document.getElementById("txt_start_date_banhanh").value = "{from_date}"')
             if self.page.query_selector("#txt_start_date_ngayden"):
-                self.page.fill("#txt_start_date_ngayden", from_date)
+                try:
+                    self.page.fill("#txt_start_date_ngayden", from_date)
+                except Exception:
+                    self.page.evaluate(f'document.getElementById("txt_start_date_ngayden").value = "{from_date}"')
 
         if to_date:
             if self.page.query_selector("#txt_end_date_banhanh"):
-                self.page.fill("#txt_end_date_banhanh", to_date)
+                try:
+                    self.page.fill("#txt_end_date_banhanh", to_date)
+                except Exception:
+                    self.page.evaluate(f'document.getElementById("txt_end_date_banhanh").value = "{to_date}"')
             if self.page.query_selector("#txt_end_date_ngayden"):
-                self.page.fill("#txt_end_date_ngayden", to_date)
+                try:
+                    self.page.fill("#txt_end_date_ngayden", to_date)
+                except Exception:
+                    self.page.evaluate(f'document.getElementById("txt_end_date_ngayden").value = "{to_date}"')
 
         # Chọn số bản ghi hiển thị nếu có
         try:

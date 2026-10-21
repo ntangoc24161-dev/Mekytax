@@ -1,14 +1,15 @@
 {
   "enabled": [
     "hoa-don-dien-tu",
+    "lap-ho-so-kiem-tra",
+    "luat-phong-chong-tham-nhung",
     "paddleocr",
     "pdf-sang-md",
+    "soan-thao-van-ban",
     "thue-gtgt",
     "thue-tncn",
     "thue-tndn",
-    "luat-phong-chong-tham-nhung",
-    "xem-ho-so-thue",
-    "lap-ho-so-kiem-tra"
+    "xem-ho-so-thue"
   ],
   "disabled": []
 }

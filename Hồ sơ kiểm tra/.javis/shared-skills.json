@@ -1,7 +1,8 @@
 {
   "enabled": [
-    "xem-ho-so-thue",
-    "lap-ho-so-kiem-tra"
+    "lap-ho-so-kiem-tra",
+    "soan-thao-van-ban",
+    "xem-ho-so-thue"
   ],
   "disabled": []
 }

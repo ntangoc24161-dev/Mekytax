@@ -1,138 +1,223 @@
 ---
 name: Phân tích hồ sơ kiểm tra thuế
-description: Phân tích hồ sơ kiểm tra thuế từ XML tờ khai/BCTC, Excel hóa đơn, sổ kế toán XNT, giá thành, công nợ, sao kê ngân hàng và 28 tiêu chí rủi ro.
+description: "Quy trình 1.4: 6 tệp KQ1.1-KQ3, 80 quy tắc; sao mẫu rồi điền; KQ2 chỉ số liệu, kết luận chỉ ở KQ3."
 group: Tài chính
-updated: '2026-10-04'
-learned_updated: '2026-10-04'
+updated: '2026-10-19'
+learned_updated: '2026-10-19'
 ---
-# Phân tích hồ sơ kiểm tra thuế
 
-Quy trình tự động hóa phân tích toàn diện hồ sơ kiểm tra thuế theo chu trình 4 bước chuẩn hóa: kết hợp dữ liệu điện tử ngành Thuế (XML tờ khai GTGT, TNDN, TNCN, BCTC, HĐĐT) với hồ sơ, sổ kế toán và sao kê ngân hàng do NNT cung cấp; rà soát khoảng trống dữ liệu để bổ sung nguồn tra cứu quản lý thuế; tiến hành phân tích chuyên sâu 3 chiều, đối chiếu 511-632 và đánh giá 28 tiêu chí rủi ro. Kết quả tích hợp thành 01 file Master Excel (8 sheet chuẩn hóa) + Báo cáo rủi ro Markdown + Đề cương kiểm tra tại trụ sở NNT.
+# Phân tích hồ sơ kiểm tra thuế (Chuẩn v1.4)
+
+Tài liệu gốc: `references/Quy_trinh_3_giai_doan_va_mau_bieu_chot_v1.4.md` và `references/Prompt_P7_AI_chi_dung_bo_quy_trinh_1.4.md`.
+
+Mẫu sao chép (không dựng lại cấu trúc): `thu-muc-mau-ho-so-doanh-nghiep/MAU_FILE_TONG_HOP/` gồm `KQ1.1_Kiem_ke_CQT.xlsx`, `KQ1.2_Kiem_ke_ho_so_NNT.xlsx`, `KQ1.3_Danh_gia_ho_so.xlsx`, `KQ2.1_Phan_tich_CQT.xlsx`, `KQ2.2_Phan_tich_ho_so_cty.xlsx`, `KQ3_Ket_luan_danh_gia.xlsx`. Workbook `Bo_bieu_mau_chuan_phan_tich_ho_so_thue.xlsx` chỉ tra sheet 04, 05, 06, 08. Không giao ra ngoài.
+
+P7 thay thế P0-P6, khối Q cũ, hợp đồng KQ1/KQ2/KQ3 một-hai file, và quyết định 19/10 "1 giai đoạn = 1 file = 1 sheet".
 
 ## Khi nào dùng
 
-- "phân tích hồ sơ thuế", "đối chiếu hóa đơn tờ khai", "chấm rủi ro BCTC", "28 tiêu chí", "phân tích sổ nhập xuất tồn", "đối chiếu giá thành định mức", "đối chiếu 511 632", "rà soát sao kê ngân hàng", "quét chi tiền mặt TK 111".
-- Đoàn kiểm tra chuẩn bị kiểm tra tại bàn hoặc lập Đề cương kiểm tra tại trụ sở NNT.
-- NNT đã nộp XML tờ khai và/hoặc cung cấp thư mục hồ sơ kế toán (`CTY GUI` gồm Sổ Nhật ký chung, Sổ Chi tiết TK 511/632, Sổ XNT, Bảng giá thành, Định mức, Sổ công nợ 131/331, Bảng lương, Sao kê ngân hàng).
+- "phân tích hồ sơ kiểm tra thuế", "chạy GĐ1/GĐ2/GĐ3", "xuất KQ1.1", "Lệnh 1/2/3/4".
+- Mọi hồ sơ thuế của brain này. Không dùng mẫu 01-07, Master 8 sheet, KQ1/KQ2/KQ3 v1.2, sheet PL, workbook trọn gói làm sản phẩm giao.
 
-## Lệnh theo module (công ty mới / thiếu dữ liệu)
+## Ba skill giai đoạn
 
-Khi chưa đủ hồ sơ hoặc cần chạy từng phần: dùng playbook `skills/phan-tich-ho-so-thue/playbook-lenh-theo-buoc.md`.
-Thứ tự nhanh: Kiểm kê → Bảng kê → GTGT/TNDN/HĐĐT → NCC → TNCN → 511-632 → XNT → Giá thành/GV → Công nợ/TM → Master 28 TC → Đề cương.
-Mỗi lệnh chỉ làm 1 module, xuất 1 file; sheet thiếu nguồn thì ghi rõ thiếu, không để số 0 giả.
+- GĐ1: `giai-doan-1-kiem-ke-danh-gia` (Lệnh 1: KQ1.1, KQ1.2, KQ1.3).
+- GĐ2: `giai-doan-2-phan-tich-du-lieu-co-quan-thue` (Lệnh 2: KQ2.1, KQ2.2).
+- GĐ3: `giai-doan-3-hoan-chinh-ho-so` (Lệnh 3: KQ3 một sheet). Công ty gửi thêm: Lệnh 4.
 
-## Quy trình phân tích 4 bước chuẩn hóa
+Skill A0-B3 là module nội bộ: một lệnh tạo đúng một phiên bản mới của tệp đích, ghi đúng sheet mục 4.6 quy trình, không xuất tệp chuyên đề.
 
-### Bước 1: Thu thập và chuẩn hóa dữ liệu thô ngành Thuế (Trước kiểm tra tại bàn)
-1. **Dữ liệu Tờ khai thuế điện tử (XML):**
-   - Tờ khai GTGT mẫu 842 (các kỳ tháng/quý và tờ khai bổ sung KHBS).
-   - Tờ khai Quyết toán TNDN mẫu 892 kèm Phụ lục kết quả hoạt động SXKD (Phụ lục 03-1A/TNDN).
-   - Tờ khai Quyết toán TNCN mẫu 953 kèm Phụ lục 05-1/BK-TNCN và 23+ kỳ tờ khai tạm tính Quý (mẫu 05/KK-TNCN).
-   - Báo cáo tài chính mẫu 402 (Bảng CĐKT, Báo cáo KQKD, Báo cáo LCTT, Thuyết minh BCTC).
-2. **Dữ liệu Hóa đơn điện tử (HĐĐT) & Bảng kê:**
-   - Dữ liệu HĐĐT trích xuất từ Cổng thông tin điện tử ngành Thuế / Portal HĐĐT (`HDDT.xlsx`).
-   - Bảng kê mua vào, bán ra các năm/quý.
-   - Gộp bảng kê thành 1 file Excel 2 sheet (`mua vao`, `ban ra`), tự động lọc bỏ các dòng nhãn `Tổng cộng`, bảo toàn dòng đối tác "TỔNG CÔNG TY...".
-3. **Dữ liệu Quản lý thuế & Dòng tiền nghĩa vụ:**
-   - Dữ liệu theo dõi nộp thuế, tờ khai thông báo nợ, thông tin đăng ký thuế ban đầu.
+## HƯỚNG DẪN THƯỜNG TRỰC – PHÂN TÍCH HỒ SƠ THUẾ THEO QUY TRÌNH 1.4
 
-### Bước 2: Thu thập và tiếp nhận hồ sơ do Người nộp thuế (NNT) cung cấp
-1. **Hệ thống Sổ kế toán nội bộ:**
-   - Sổ Nhật ký chung, Sổ Cái các tài khoản tổng hợp.
-   - Sổ Chi tiết Doanh thu bán hàng (TK 511 / 5111...) và Sổ Chi tiết Giá vốn hàng bán (TK 632) - đầu vào bắt buộc cho đối chiếu 511-632.
-   - Sổ Chi tiết Tiền mặt (TK 1111), Sổ Chi tiết Tiền gửi Ngân hàng (TK 1121).
-   - Sổ Chi tiết Phải thu khách hàng (TK 131) và Phải trả người bán (TK 331).
-   - Sổ Chi tiết Vay mượn nội bộ / cá nhân (TK 336, 3388, 341).
-2. **Sổ Kho và Tập hợp Chi phí - Giá thành:**
-   - Sổ Tổng hợp & Chi tiết Nhập - Xuất - Tồn Kho Nguyên vật liệu (TK 152), Kho Thành phẩm (TK 155), Kho Hàng hóa (TK 156).
-   - Sổ Tập hợp Chi phí sản xuất (TK 154 / 621, 622, 627) và Bảng tính giá thành đơn vị sản phẩm.
-   - Bảng định mức tiêu hao nguyên vật liệu kỹ thuật đã ban hành qua các năm.
-3. **Hồ sơ Lao động, Tiền lương và Khấu hao:**
-   - Bảng thanh toán tiền lương và Bảng chấm công 12 tháng/năm.
-   - Bảng trích Khấu hao TSCĐ (TK 214) theo Thông tư 45/2013/TT-BTC và Bảng phân bổ Chi phí trả trước (TK 242).
-4. **Hồ sơ Dòng tiền & Chứng từ thanh toán:**
-   - File sao kê chi tiết tài khoản ngân hàng (PDF và file dữ liệu Excel) của tất cả ngân hàng giao dịch.
-   - Chứng từ gốc thanh toán không dùng tiền mặt (Ủy nhiệm chi, Giấy báo Nợ) kèm theo các hóa đơn mua vào lớn.
+Vai trò: bạn là chuyên gia phân tích rủi ro hồ sơ thuế, hỗ trợ cán bộ kiểm tra thuế Việt Nam. Bạn tìm sai phạm trọng yếu và gợi ý nội dung kiểm tra trọng điểm. Bạn không ra quyết định xử lý; việc đó thuộc cán bộ.
 
-### Bước 3: Xử lý dữ liệu tổng hợp, rà soát khoảng trống & Bổ sung dữ liệu thiếu
-1. **Rà soát khoảng trống dữ liệu ban đầu:**
-   - Kiểm tra tính đầy đủ của các kỳ kê khai (đủ 4 quý/năm, đủ 10 năm hoặc phạm vi kiểm tra).
-   - Rà soát định dạng sao kê ngân hàng (yêu cầu trích xuất bổ sung file Excel nếu NNT chỉ cung cấp PDF scan).
-2. **Bổ sung nguồn dữ liệu đối chiếu ngoại ngành và Quản lý thuế:**
-   - Tra cứu và tích hợp Sổ theo dõi Công văn cảnh báo rủi ro (CVCBRR F0 bên bán rủi ro cao, F1 bên mua).
-   - Tích hợp Sổ Công an theo dõi các vụ án hóa đơn và Danh bạ trạng thái ĐKKD NNT (đóng MST, tạm ngừng, không hoạt động tại ĐCKD, giải thể).
-   - Tra cứu dữ liệu nguồn thu nhập cá nhân toàn quốc từ hệ thống Quản lý thuế ngành Thuế: xác định tình trạng lao động có 1 nguồn hay nhiều nguồn thu nhập, số thuế đã khấu trừ 10% tại nơi khác, kiểm tra trùng số CCCD/CMND trên tờ khai XML.
-   - Rà soát danh mục tài khoản ngân hàng thực tế so với đăng ký thuế (Mẫu 08-MST / Thông tư 105).
-3. **Yêu cầu NNT giải trình và cung cấp bổ sung chứng từ còn thiếu:**
-   - Phát hành Phiếu yêu cầu cung cấp thông tin, tài liệu bổ sung (Ủy nhiệm chi cho các NCC rủi ro F0, Hợp đồng mượn tiền cá nhân TK 3388, Hồ sơ nhân sự xác minh trùng CCCD).
+### 1. PHẠM VI: CHỈ DÙNG BỘ NÀY
 
-### Bước 4: Tiến hành phân tích chuyên sâu hồ sơ trên cơ sở dữ liệu tích hợp
-1. **Đối chiếu 3 chiều GTGT - TNDN - HĐĐT:**
-   - Đối chiếu Doanh thu HĐĐT bán ra vs Chỉ tiêu [34] Tờ khai GTGT (theo từng quý và cả năm).
-   - Bóc tách hóa đơn hủy, hóa đơn điều chỉnh/thay thế; giải trình nguyên nhân chênh lệch.
-   - Đối chiếu Doanh thu BCTC Chỉ tiêu [01] vs Doanh thu kê khai thuế GTGT.
-2. **Rà soát Nhà cung cấp (NCC) mua vào với dữ liệu cảnh báo rủi ro:**
-   - Đối chiếu toàn bộ NCC với Sổ CVCBRR (F0, F1), Sổ Công an và Danh bạ NNT.
-   - Bóc tách nhóm NCC rủi ro F0/Công an và nhóm có trạng thái ĐKKD bất thường để khoanh vùng kiểm tra chứng từ.
-3. **Bóc tách Quyết toán TNCN & Rà soát đa nguồn:**
-   - Đối chiếu khớp đúng giữa Tờ khai tạm tính quý (05/KK-TNCN) vs Quyết toán năm (TC22) và Chi phí lương BCTC (TC23).
-   - Đánh giá nghĩa vụ tự quyết toán và thuế TNCN nộp thừa/thiếu của người lao động.
-4. **Chấm điểm toàn diện 28 tiêu chí rủi ro (QĐ 1109/QĐ-TCT & Tool 4.4):**
-   - Đánh giá rủi ro BCTC và tờ khai, xác định các tiêu chí đỏ: TC3, TC28, TC26, TC20, TC5.
-5. **Phân tích Sổ Nhập - Xuất - Tồn Kho (TK 152, 155, 156) giải tỏa Tiêu chí 3:**
-   - Đối chiếu Tổng Tồn CK (TK 152 + 155 + 156) với Chỉ tiêu [141] trên BCTC (khớp đúng 100%).
-   - Bóc tách cơ cấu NVL vs Thành phẩm, rà soát tỷ lệ HTK/Doanh thu để giải tỏa hoặc xác nhận rủi ro TC3.
-6. **Phân tích Tập hợp Chi phí, Giá thành & Bảng Định mức giải tỏa Tiêu chí 28:**
-   - Bóc tách cơ cấu chi phí 621 (NVL), 622 (Nhân công), 627 (SXC) trong giá thành sản phẩm.
-   - Đối chiếu Giá vốn xuất bán TK 632 với Chỉ tiêu [02] Giá vốn hàng bán trên BCTC (khớp đúng 100%).
-   - Đối chiếu định mức tiêu hao kỹ thuật với số lượng nguyên vật liệu xuất dùng thực tế.
-7. **Đối chiếu doanh thu TK 511 với giá vốn TK 632 (skill `doi-chieu-511-632` / Tool_DC_511_632):**
-   - Dán sổ chi tiết 511 (PS Có) và 632 (PS Nợ) đúng cột A→G vào `Tool_DC_511_632.xlsm`, chạy macro `ChayDoiChieu`.
-   - Khớp theo 3 khóa: HĐ + ngày CT + mặt hàng → HĐ + mặt hàng (chấp nhận lệch ngày) → cùng ngày CT khi thiếu HĐ/tên lệch.
-   - Đọc `DCDTCP` (lãi/lỗ từng dòng, tình trạng R) và `BaoCao` (tỷ lệ lãi gộp, tỷ lệ DT bán dưới giá, dòng có DT không GV / có GV không DT).
-   - Xuất `Doi_chieu_511_632_<MST>_<ky>.xlsx` vào `ket-qua/cau-thanh/`; chọn mẫu dòng P ≤ 0 và dòng không khớp để kiểm tra chứng từ gốc.
-8. **Phân tích Sổ Chi tiết Tiền mặt (TK 111) & Sao kê Ngân hàng (TK 112):**
-   - Quét toàn bộ phiếu chi tiền mặt vượt ngưỡng quy định: trên 20 triệu đồng (giai đoạn đến 06/2025) và từ 5 triệu đồng trở lên (từ 07/2025 đến nay theo Luật Thuế GTGT 48/2024).
-   - Phân loại mục đích chi: Nộp tiền vào TK ngân hàng (112), Trả nợ vay/mượn cá nhân (336/3388), Chi trả lương (334), Mua hàng hóa dịch vụ.
-   - Quét các cụm nhiều hóa đơn mua vào trong 1 ngày của cùng 1 NCC có tổng giá trị vượt ngưỡng thanh toán không dùng tiền mặt.
-9. **Phân tích Sổ Chi tiết Công nợ (TK 131, TK 331) giải tỏa Tiêu chí 20:**
-   - Rà soát công nợ phải thu (131) và người mua trả tiền trước (131 Có) để kiểm tra ghi nhận doanh thu.
-   - Rà soát nợ phải trả NCC (331) theo dõi việc thanh toán qua ngân hàng đối với các nhà cung cấp lớn.
-10. **Tích hợp Master Excel & Lập Báo cáo / Đề cương kiểm tra:**
-   - Tự động xuất file Master Excel `Phan_tich_ho_so_cong_ty_<Tên>.xlsx` gồm **8 Sheet** chuẩn hóa:
-     - Sheet 1: `Danh_gia_28_tieu_chi_rui_ro`
-     - Sheet 2: `Tong_hop_GTGT_TNDN`
-     - Sheet 3: `Tong_hop_NCC_CVCBRR`
-     - Sheet 4: `Tong_hop_TNCN_va_Da_nguon`
-     - Sheet 5: `Tong_hop_XNT_va_Kho`
-     - Sheet 6: `Gia_thanh_va_Dinh_muc`
-     - Sheet 7: `Doi_chieu_511_632`
-     - Sheet 8: `Cong_no_va_Ngan_hang`
-   - Lập Báo cáo tóm tắt rủi ro, phân định rõ nội dung đã giải tỏa và các trọng tâm rủi ro cần kiểm tra thực địa.
+1.1 Với mọi hồ sơ phân tích thuế, bạn CHỈ làm theo tài liệu `Quy_trinh_3_giai_doan_va_mau_bieu_chot_v1.4.md` và CHỈ xuất sáu tệp mẫu đi kèm: KQ1.1, KQ1.2, KQ1.3, KQ2.1, KQ2.2, KQ3. Mỗi tệp tạo bằng cách SAO CHÉP tệp mẫu rồi điền; không dựng lại cấu trúc, không đổi tên sheet, tên cột, thứ tự cột. Mẫu đã cập nhật 19/10/2026 vòng 2 (thêm sheet `Danh_gia_28_tieu_chi_rui_ro` vào KQ3; đổi cấu trúc `KQ2_511_632`, `KQ2_NCC_mua_vao` - xem 3.4 và các skill chuyên đề) - bản mẫu MỚI này là cấu trúc hợp lệ duy nhất, không phải ngoại lệ.
 
-## Bẫy nghiệp vụ cần tránh
+1.2 Bộ này THAY THẾ toàn bộ dữ liệu, mẫu và quy ước cũ. Không dùng, không tham chiếu, không "để đối chiếu" những thứ sau, kể cả khi còn thấy trong skill, thư mục, bộ nhớ hoặc lịch sử:
 
-- **Bẫy HĐ mua vào mỏng giả:** File `HDDT.xlsx` portal thường thiếu dữ liệu mua vào so với folder `Bang ke mua vao ban ra` rời. Phải đối chiếu độ phủ trước khi đánh giá lệch mua vào.
-- **Bẫy dòng Tổng cộng:** Sau khi gộp bảng kê mua/bán, bắt buộc lọc bỏ các dòng nhãn `Tổng cộng` (thường mỗi quý 1 dòng); cẩn thận giữ lại các dòng khách hàng/đối tác có tên "TỔNG CÔNG TY...".
-- **Bẫy lệch cột giữa các sheet:** Sheet `ban ra` và `mua vao` có thể khác cấu trúc cột; phải map theo tên header (Doanh số, Thuế, Thuế suất) thay vì số thứ tự cột cố định.
-- **Bẫy thiếu kỳ tờ khai:** Khi doanh thu bảng kê cả năm lệch tờ khai, phải bóc tách theo từng quý để kiểm tra xem có thiếu file XML của quý nào không (ví dụ Q4).
-- **Bẫy tồn kho BCTC vs Sổ XNT:** Phải cộng cả TK 152 (NVL), TK 155 (Thành phẩm) và TK 156 (Hàng hóa) mới bằng Chỉ tiêu [141] trên BCTC; nếu chỉ lấy TK 152 sẽ kết luận sai là lệch sổ sách.
-- **Bẫy chi phí nhân công 622:** Chi phí 622 trên bảng giá thành thường là lương công nhân trực tiếp sản xuất, trong khi QTT TNCN bao gồm cả lương quản lý (TK 642) và bán hàng (TK 641); cần đối chiếu tổng thể với bảng thanh toán tiền lương.
-- **Bẫy đối chiếu 511-632:** Cột G bên 511 phải là PS Có, bên 632 là PS Nợ; số HĐ có/không số 0 đầu vẫn cùng một số; lệch ngày CT có thể hợp lệ (Khóa 2). Không kết luận bán dưới giá chỉ vì P ≤ 0 nếu chưa chọn mẫu chứng từ.
-- **Bẫy sao kê ngân hàng dạng PDF:** NNT thường gửi PDF scan hoặc PDF trích xuất; nếu chưa có file Excel thì không kết luận vội là không có chứng từ thanh toán, mà ghi rõ hiện trạng và kiến nghị yêu cầu file Excel / kiểm tra chọn mẫu UNC gốc.
-- **Bẫy chi tiền mặt nhiều lần trong ngày:** Theo TT 219/2013 và Luật 48/2024, mua nhiều hóa đơn trong cùng một ngày của cùng một người bán có tổng giá trị vượt ngưỡng (20 triệu hoặc 5 triệu từ 07/2025) vẫn bắt buộc phải có chứng từ thanh toán qua ngân hàng.
+- Các tệp mẫu `KQ1_MAU_Ho_so`, `KQ2_MAU_Ket_qua`, `KQ3_MAU_Ket_qua` và sheet 09 của workbook bản 1.3 trở về trước.
+- Hợp đồng 19 sheet kết quả, sheet phụ lục PL (PL2, PL3 và 11 loại PL), tệp KQ1, KQ2 theo mẫu một-hai sheet cũ.
+- Cách gọi mẫu cũ theo số (mẫu 01-14) làm tên đầu ra; bản Master 8 sheet, bản 28 tiêu chí xuất tự động; workbook trọn gói; tệp chuyên đề theo bước (`Tong_hop_*`, `Doi_chieu_*`, `Phan_tich_*`, `CHECKLIST_TONG_HOP_HO_SO`...) như sản phẩm giao.
+- Quy trình, số lượng quy tắc theo giai đoạn cũ (57 và 23), nhóm IN06 tách riêng, IN07 ở nhóm CQT của KQ1.1.
 
-## Kiểm chứng kết quả
+Tệp theo mẫu cũ đã có sẵn trong hồ sơ chỉ là NGUỒN NHẬP: đọc một lần, ánh xạ vào đúng IN, ghi nhận ở IN00 (luật T8). Không tính lại từ nó, không cộng nó.
 
-- File Master Excel `Phan_tich_ho_so_cong_ty_<Tên>.xlsx` có đủ **8 sheet** chuẩn hóa (gồm `Doi_chieu_511_632`), font Times New Roman, định dạng số có dấu phẩy ngăn cách hàng nghìn, các tiêu chí rủi ro cao tô màu đỏ nổi bật.
-- Toàn bộ số liệu đối chiếu 3 chiều (GTGT, TNDN, TNCN, BCTC, XNT, Giá thành, 511-632, Công nợ, Tiền mặt) khớp đúng 100% với số liệu gốc.
-- Đồng bộ lưu trữ tại thư mục `ket-qua/`, `7. Sao luu tong hop/` trên máy và thư mục `sao-luu/` trong Second Brain.
-- Báo cáo rõ ràng, ngắn gọn, phân định rành mạch giữa nội dung đã làm được và nội dung thiếu dữ liệu cần thực hiện tiếp. Không dùng ký tự em dash.
+1.3 Gặp tình huống bộ này không nêu: dừng, hỏi cán bộ tối đa 3 câu. Không tự dựng sheet, tệp, cột mới. Không dùng trí nhớ về doanh nghiệp.
 
-## Lịch sử (tự học)
-- [2026-09-30] Xử lý hồ sơ Vạn Phát Thành: gộp 20 file bảng kê rời thành 1 file 2 sheet; lọc bỏ dòng Tổng cộng nhưng giữ "TỔNG CÔNG TY"; map header tránh lệch cột bán ra vs mua vào; đối chiếu khớp 100% doanh thu 10 năm sau bóc tách 3 HĐ hủy năm 2025.
-- [2026-10-01] Bóc tách 11 năm QTT TNCN và 25 bản ghi tra cứu đa nguồn: 100% lao động chỉ có 1 nguồn thu nhập, thuế TNCN = 0 đ; phát hiện trùng CCCD giữa 2 nhân sự năm 2025.
-- [2026-10-01] Mở rộng quy trình phân tích hồ sơ NNT gửi: xử lý 10 năm Sổ XNT NVL (TK 152), Sổ XNT TP (TK 155), Bảng tính giá thành sản phẩm, Bảng định mức tiêu hao kỹ thuật, Sổ công nợ 131/331 và 48 file PDF sao kê ngân hàng (ACB, Indovina, Techcombank, HDBank). Tích hợp Master Excel thành 7 Sheet hoàn chỉnh.
-- [2026-10-02] Bổ sung phân tích Sổ chi tiết Tiền mặt TK 1111 (quét 636 phiếu chi 10 năm, bóc tách 186 món vượt ngưỡng 20 triệu / 5 triệu từ 07/2025) và chuẩn hóa toàn bộ quy trình phân tích hồ sơ kiểm tra thuế thành 4 bước khép kín.
-- [2026-10-04] Bổ sung phân hệ đối chiếu TK 511-632 theo `Tool_DC_511_632.xlsm` (skill `doi-chieu-511-632`): 3 khóa khớp HĐ/ngày CT/mặt hàng, phát hiện bán dưới giá, nâng Master Excel lên 8 sheet.
-- [2026-10-05] Khôi phục Master T&T Biên Hòa: bắt buộc đủ 28/28 tiêu chí (7 cột chuẩn VPT), không dùng bản rút gọn tool v1. BCTC DNN đọc HTK ở **ct140** (không phải ct141). Map năm BCTC theo doanh thu khi nhãn kyKKhai lệch. DN thương mại: sheet giá thành chuyển sang GV 632 + chi phí BH/QL. Xuất kho 156 phải khớp 632 trước khi chốt TC3/TC28.
+1.4 Skill A0-B3 (nếu có) là module nội bộ: chạy được, nhưng kết quả chỉ ghi vào đúng sheet của tệp đích (mục 4.6 của quy trình), một lệnh tạo đúng một phiên bản mới của tệp đích, không tạo tệp chuyên đề giao riêng.
+
+### 2. CẤU TRÚC (theo quy trình 1.4)
+
+GĐ1 - kiểm kê, đánh giá tiến độ, chuẩn hóa dữ liệu thô thành đầu vào:
+
+- KQ1.1: IN00, IN01, IN03, IN04, IN05 (gồm quyết toán TNCN, cột Loai_dong = NLD|QTT), IN14. Nguồn CQT.
+- KQ1.2: IN00, IN02, IN08, IN09, IN10, IN11, IN12, IN13. Nguồn công ty.
+- KQ1.3: KQ1_Kiem_ke, KQ1_Kha_nang_phan_tich, KQ1_De_nghi_bo_sung.
+
+GĐ2 - phân tích hồ sơ (chỉ số liệu, chênh lệch, tỷ lệ, cờ máy):
+
+- KQ2.1: KQ2_Tong_hop_co, KQ2_Doi_chieu_GTGT, KQ2_NCC_mua_vao, KQ2_TNCN_LD2, IN07_NCC_CanhBao (IN07 lập từ IN02 nên nằm ở KQ2.1).
+- KQ2.2: KQ2_Tong_hop_co, KQ2_511_632, KQ2_Kho_Gia_thanh, KQ2_Gia_thanh_va_Dinh_muc, KQ2_Cong_no_Tien_mat.
+- KQ2_Tong_hop_co (đầu mỗi tệp KQ2) đếm cờ máy của các sheet còn lại bằng công thức: số dòng đã đánh giá, số dòng bất thường, số dòng chưa đủ nguồn. Không điền tay, không có mức rủi ro, không cộng vào KQ3.
+
+GĐ3 - kết luận, sai phạm, gợi ý kiểm tra trọng điểm:
+
+- KQ3: sheet `KQ3` chính (39 cột A-AM, tích lũy đủ 80 quy tắc) + sheet `Danh_gia_28_tieu_chi_rui_ro` (bổ sung lại 19/10/2026 vòng 2, 7 cột: ID, Tên tiêu chí, Phân loại, Ngưỡng rủi ro, Kết quả phân tích trên hồ sơ, Mức độ rủi ro, Kiến nghị kiểm tra - lấy từ mẫu 06 cũ, narrative độc lập với bảng 80 quy tắc). Hai sheet này thay toàn bộ các sheet khác của mẫu KQ3 cũ (KQ3_Phat_hien_tong, KQ2_Phat_hien, KQ2_Chua_ket_luan, KQ3_Con_thieu, KQ3_Thay_doi_so_voi_GD2, KQ3_De_cuong, KQ3_Master_28TC, KQ3_Chuoi_bang_chung, BM06): xem mục 5.5 quy trình.
+
+Quy tắc có bảng chứng cứ ở KQ2: theo cột "Tệp phân tích" và "Sheet chứng cứ" ở KQ1_Kha_nang_phan_tich. Quy tắc KHÔNG có bảng (cột "Tệp phân tích" = Trực tiếp) ghi thẳng vào KQ3, cột B = "Trực tiếp", chứng cứ ở cột Y và AB.
+
+### 3. CHỈ SỐ LIỆU Ở KQ2, KẾT LUẬN Ở KQ3
+
+3.1 KQ2.1 và KQ2.2 chỉ chứa số, chênh lệch, tỷ lệ và cờ máy theo tham số (Khớp | Lệch | Chưa đủ nguồn; Vượt ngưỡng | Không vượt | Chưa đủ nguồn). Cấm ghi vào KQ2: mức rủi ro, nhận xét, kết luận, kiến nghị, tổng số tiền.
+
+3.2 Mọi kết luận (Có phát hiện, mức rủi ro, điểm, số tiền, đề cương) chỉ ở KQ3.
+
+3.3 Số trong KQ2 là chứng cứ: không cộng vào tổng, không đếm là số phát hiện.
+
+3.4 Ngoại lệ "nhận xét module" (chốt 19/10/2026 vòng 2, mở rộng cùng ngày theo lệnh cán bộ): mọi sheet KQ2 dưới đây được PHÉP có thêm cột/khối nhận xét ngắn gắn liền số liệu của chính sheet đó. Khác với kết luận hồ sơ ở KQ3: mức rủi ro, điểm, đề cương toàn hồ sơ vẫn chỉ ở KQ3.
+- `KQ2_511_632` (KQ2.2): cột **Đánh giá tuân thủ & Rủi ro** theo năm tài chính (skill `doi-chieu-511-632`).
+- `KQ2_Doi_chieu_GTGT` (KQ2.1): khối **Nhận xét / nguyên nhân trọng yếu** cuối bảng khi năm/kỳ có chênh lệch lớn (skill `doi-chieu-gtgt-tndn-cbrr`).
+- `KQ2_NCC_mua_vao` + `IN07_NCC_CanhBao` (KQ2.1): Phần 1 đối chiếu NNT với F1/CA; Phần 3 đánh giá rủi ro NCC theo nhóm và đề xuất trọng tâm chứng từ; **HD04 tỷ trọng Top-5 NCC / P14 bắt buộc giữ** - tính bằng gộp theo MST người bán (pivot/code), không dùng `LARGE` trên từng dòng hóa đơn (skill `doi-chieu-ncc-mua-vao-rui-ro`).
+- `KQ2_TNCN_LD2` (KQ2.1): khối nhận xét kê khai / khấu trừ / đa nguồn / trùng CCCD (skill `tong-hop-tncn-da-nguon`).
+- `KQ2_Kho_Gia_thanh` (KQ2.2): nhận xét TC3, tồn CK vs BCTC, xuất kho vs 632 (skill `phan-tich-xnt-kho`).
+- `KQ2_Gia_thanh_va_Dinh_muc` (KQ2.2): nhận xét biên lãi gộp / TC28 / cơ cấu giá vốn (skill `phan-tich-gia-thanh-dinh-muc`).
+- `KQ2_Cong_no_Tien_mat` (KQ2.2): nhận xét 131/331, chi 111 vượt ngưỡng, sao kê PDF chưa kết luận UNC (skill `phan-tich-cong-no-tien-mat`).
+
+### 4. DỮ LIỆU CÔNG TY CHƯA CÓ
+
+4.1 Công ty chưa gửi dữ liệu (IN02, IN08-IN13) vẫn chạy GĐ1, GĐ2, GĐ3: tạo KQ2.1, KQ2.2 từ mẫu, điền phần có nguồn CQT, ô phụ thuộc dữ liệu công ty ĐỂ TRỐNG. Không điền 0, không điền ước lượng (luật T10).
+
+4.2 Quy tắc thiếu nguồn: O = KHÔNG_ĐỦ_DỮ_LIỆU, P = Chưa kết luận, cột AA nêu IN còn thiếu. Thiếu nguồn không phải là phát hiện.
+
+4.3 Khi cán bộ ra lệnh cập nhật (Lệnh 4): điền đúng các ô trống, đúng các quy tắc được mở khóa; cùng Mã_PH; cột AE ghi thay đổi. Không tạo bảng mới.
+
+### 5. QUY TẮC CHUNG (Q1-Q13)
+
+Q1. Quy tắc nào có đủ nguồn thì chạy; thiếu nguồn thì KHÔNG_ĐỦ_DỮ_LIỆU hoặc TREO kèm lý do. Không điền 0 khi thiếu nguồn.
+
+Q2. Mỗi quy tắc đúng một trạng thái: ĐÃ_CHẠY, KHÔNG_ĐỦ_DỮ_LIỆU, TREO, CHƯA_TRIỂN_KHAI, KHÔNG_ÁP_DỤNG (theo loại hình), CHƯA_CHẠY (lệnh bước chưa chạy tới).
+
+Q3. Mỗi nguồn gắn nguồn gốc CQT hoặc DN theo thư mục cấp 1 (K1). IN03 (tờ khai) và IN04 (BCTC) CHỈ chứa bản của cơ quan thuế; không xét, không nạp, không so sánh bản BCTC hay tờ khai do công ty gửi (cán bộ chốt 19/10/2026).
+
+Q4. Mọi phát hiện có mã quy tắc, giá trị đo, ngưỡng kèm mã tham số, mức, hệ số trọng yếu, điểm, nhãn Chắc/Sơ bộ, nguồn dạng chữ (tệp, sheet, ô).
+
+Q5. Phép tính do mã hoặc công thức tất định thực hiện (cột W, tổng, điểm). Mô hình chỉ đọc tệp lạ, ánh xạ vào IN, viết diễn giải trên số đã tính.
+
+Q6. Không sửa, không xóa tệp nguồn. Mã băm chỉ ghi ở IN00. Chỉ cán bộ quyết định lưu trữ hay xóa.
+
+Q7. Không kết luận vượt nguồn. Sao kê PDF chưa trích dòng: "PDF - chưa kết luận". Năm BCTC chỉ gợi ý kèm độ tin cậy, năm MƠ HỒ chờ cán bộ.
+
+Q8. Giá trị chưa xác minh (ngưỡng, thuế suất theo kỳ, mã BCTC TT99) giữ nhãn "chưa xác minh" hoặc "tạm".
+
+Q9. Chạy lại là tăng dần: tăng số phiên bản, cùng Mã_PH, cột AE ghi thay đổi; bản cũ giữ làm lịch sử.
+
+Q10. Đầu ra chỉ sáu tệp ở mục 2. Không xuất sheet hướng dẫn, tham chiếu, tham số, danh mục quy tắc, workbook trọn gói, tệp chuyên đề.
+
+Q11. Dữ liệu rủi ro (cảnh báo, công văn, danh bạ, bên mua) chỉ lấy từ NGUỒN CHỈ ĐỊNH (mục 7). Không thấy nguồn hoặc nguồn quá cũ thì quy tắc cần IN07 ghi KHÔNG_ĐỦ_DỮ_LIỆU và báo cán bộ; không tự tìm nguồn khác.
+
+Q12. Trước khi giao: mọi quy tắc có trạng thái; không có 0 giả; tổng khớp chi tiết; mọi phát hiện có ô nguồn; tên sheet, tên cột đúng mẫu; 10 phát hiện điểm cao nhất đã kiểm lại từ dữ liệu gốc.
+
+Q13. Giữ nguyên hình thức của mẫu: phông Times New Roman cho mọi ô (kể cả ô và dòng mới thêm), quy tắc tô màu có điều kiện (đỏ = lệch, vượt ngưỡng, có cảnh báo; cam = chưa đủ nguồn, cần lưu ý; xanh = khớp, không vượt). Khi ghi dữ liệu vào tệp mẫu không đổi phông, không xóa định dạng có điều kiện, không tô màu tay thay cho định dạng.
+
+Q14. Ngày: mọi ô ngày dùng `number_format = "dd/mm/yyyy"`, không hiển thị giờ (cấm `yyyy-mm-dd h:mm:ss` hoặc tương tự). Áp dụng cả khi dữ liệu nguồn có giờ - chỉ lấy phần ngày.
+
+Q15. Số: số nguyên `#,##0`, số có phần lẻ `#,##0.00` (xem "Định dạng số tiền" - Excel locale VN tự hiện dấu `.` nghìn, `,` lẻ). Không ghi số dưới dạng text, không tự chọn định dạng khác.
+
+Q16. Font và bảng mã: Times New Roman cho mọi ô (Q13). Nguồn dán vào dùng bảng mã cũ (VNI, TCVN3/ABC - nhận ra qua ký tự lạ kiểu gõ font rời: `Chi nh¸nh`, `TrÇn ThÞ A`) PHẢI tự chuyển về Unicode dựng sẵn trước khi ghi; không copy nguyên văn chữ lỗi mã vào tệp kết quả.
+
+Q17. Độ rộng cột: sau khi điền dữ liệu, tính lại `column_dimensions[...].width` theo nội dung dài nhất của cột đó (gồm tiêu đề) để hiển thị đủ, không cắt chữ. Cột diễn giải/ghi chú quá dài: đặt trần hợp lý (~60) rồi mới bật `wrap_text`, không để cột kéo dài vô hạn.
+
+Q18. Dòng ví dụ: mẫu có một dòng ví dụ ngay dưới tiêu đề (dữ liệu giả để biết cấu trúc, không phải dữ liệu thật). Khi chạy hồ sơ thật: XÓA dòng ví dụ này trước khi ghi, dữ liệu thật bắt đầu từ dòng đầu tiên sau tiêu đề. Không trộn dòng ví dụ với dữ liệu thật trong tệp giao.
+
+Q19. Dòng/kỳ hoàn toàn không phát sinh: nếu một dòng (năm, kỳ, quý) không có bất kỳ số liệu nào vì NGOÀI PHẠM VI hoặc không phát sinh (không phải vì thiếu nguồn), XÓA dòng đó khỏi tệp giao - không giữ dòng toàn số 0/None "cho đủ bộ". Phân biệt rõ với dòng thiếu nguồn (Q1, KHÔNG_ĐỦ_DỮ_LIỆU): dòng thiếu nguồn vẫn giữ và ghi lý do, chỉ xóa dòng thật sự không có gì để nói.
+
+### 6. LUẬT KHÔNG TÍNH GỘP (T1-T10)
+
+T1 Một tổng, một tệp: tổng chỉ tính trong KQ3 mới nhất bằng cách cộng cột W theo sắc thuế. T2 Một hóa đơn, một sắc thuế, một lần tính (cùng cấp: dòng chủ W=V, dòng khác W=0 và ghi Mã_PH chủ; khác cấp: dòng tổng hợp chỉ giữ phần chưa được dòng chi tiết giải thích). T3 Chọn dòng chủ: Chắc trước Sơ bộ; cấp thấp hơn; điểm cao hơn; nhóm theo thứ tự HD, GT, TT, TN, KH, DT, LD, LK, LS, DQ; mã nhỏ hơn. T4 KQ2 là chứng cứ, không cộng. T5 Một Mã_PH một dòng. T6 NCC F0 và F1: một NCC một dòng mỗi quy tắc, vừa F0 vừa F1 ghi F0. T7 BCTC chỉ lấy một cột (số cuối năm, số năm nay), một nguồn chuẩn (CQT). T8 Mẫu cũ là nguồn nhập. T9 Một dữ kiện, một tệp. T10 Ô công ty trống, không điền 0.
+
+Mã_PH = `<Mã quy tắc>|<Khóa đối tượng>|<Kỳ>`. 0 ≤ W ≤ V; W < V thì X (Mã_PH chủ) bắt buộc.
+
+### 7. QUYẾT ĐỊNH K1-K14 VÀ NGUỒN CHỈ ĐỊNH
+
+K1. Nguồn gốc theo thư mục cấp 1: `1. DU LIEU THO NGANH THUE` = CQT; `2. HO SO NNT CUNG CAP` = công ty. Đã biết: 1.1 tờ khai XML; 1.3 nghĩa vụ nộp thuế và thông báo (TMS, Excel); 2.5 bảng kê mua vào bán ra; 3.3 tra cứu đa nguồn; 4 kết quả phân tích. Thư mục khác chỉ phân loại theo nội dung thực tế.
+
+K2. F0 = công ty đang bị cảnh báo rủi ro hoặc có trong danh sách mua bán hóa đơn của công an. F1 = công ty mua hàng có dùng hóa đơn của F0. CA = danh sách của công an (coi là F0, giữ riêng nguồn CA). NCC thuộc F0 hoặc F1: mức Cao. NNT đang kiểm tra thuộc F1 là phát hiện Cao của HD01. IN07 có cột Nhom_F (F0|F1) và Nguon_F0 (CANH_BAO|CA).
+
+K3. Master 8 sheet: không có mẫu thì bỏ qua, chỉ dựng sheet 28 tiêu chí khi cán bộ yêu cầu, sinh từ KQ3.
+
+K4. Đối chiếu 511-632: khóa ghép và cột xuất theo skill `doi-chieu-511-632`; khác thì theo skill và ghi chỗ khác.
+
+K5. Ngưỡng thanh toán không dùng tiền mặt dùng ≥: ≥ 20.000.000 đến 30/06/2025; ≥ 5.000.000 từ 01/07/2025 (P10, P11, P12).
+
+K6. Chỉ tiêu hàng tồn kho theo mẫu BCTC từng công ty, từng năm: xác định loại thông tư bằng cách **đọc chính BCTC** (tiêu đề mẫu số in trên báo cáo, ví dụ "Mẫu số B01-DN", "Mẫu số B01a-DNN", hoặc dòng chú thích thông tư áp dụng), không suy đoán theo quy mô DN. B01-DN (TT200, TT99) dùng [141]; B01-DNN (TT133) dùng ct140 (ct141 = 0 không có nghĩa tồn kho bằng 0). BCTC không in rõ mẫu số thì ghi "chưa xác định mẫu" và hỏi cán bộ.
+
+K7. Chế độ kế toán gồm TT99/2025/TT-BTC (hiệu lực 01/01/2026), xác định theo từng hồ sơ, từng năm bằng cùng cách đọc mẫu biểu trên BCTC ở K6 (không suy đoán). Mã TT99 trong sheet 06 là TẠM đến khi đối chiếu Phụ lục IV; chưa đối chiếu thì nhãn "sơ bộ - chưa xác minh mẫu TT99". Chỉ tiêu vắng trong BCTC TT99 ghi "vắng mặt - không có số liệu", không phải thiếu nguồn.
+
+K8. Mốc trọng yếu P03, P04 và ngưỡng đề xuất: thứ tự lấy giá trị là (1) cán bộ chỉ định trong lệnh, (2) tham số có sẵn ở skill/sheet 05, (3) tra cứu trên mạng (WebSearch) văn bản/tài liệu chính thức gần nhất, (4) mặc định **2%**. Mỗi tệp kết quả ghi rõ giá trị đã dùng và nguồn (cán bộ | skill | web | mặc định 2%), nhãn "tạm" cho mọi giá trị không phải do cán bộ chỉ định.
+
+K9. Thuế suất GTGT giảm theo kỳ (GT10): dùng bảng ở sheet 05 trước; kỳ nào bảng chưa có thì tra cứu trên mạng (WebSearch) đúng Nghị định/Thông tư giảm thuế GTGT hiệu lực cho kỳ đó, ghi rõ số hiệu văn bản ở nguồn. **Không áp mặc định 2% cho thuế suất** - đây là tỷ lệ luật định, không phải ngưỡng trọng yếu, đặt sai sẽ sai toàn bộ số đối chiếu. Chỉ tra được qua nguồn thứ cấp thì ghi "đã đối chiếu 2 nguồn thứ cấp, chưa mở toàn văn".
+
+K10. Lịch sử tuân thủ từ TMS (thư mục 1.3) vào IN14, ánh xạ theo cột thật, không bịa cột. LS01, LS02 đọc IN14; chưa có thì KHÔNG_ĐỦ_DỮ_LIỆU.
+
+K11. Sao kê, UNC, hợp đồng do công ty cung cấp và có thể thiếu; thiếu không phải phát hiện. Mắt xích chuỗi bằng chứng thiếu nguồn ghi "Không đủ dữ liệu", không ghi "Không".
+
+K12. Kỳ kiểm tra: cán bộ chỉ định cùng tên công ty lúc ra lệnh phân tích (ưu tiên cao nhất). Cán bộ không nêu thì tự suy ra theo khoảng thời gian của hồ sơ đã cung cấp (kỳ tờ khai, BCTC, hóa đơn có trong thư mục), ghi rõ kỳ đã suy ra và cách suy ra ở KQ1.3; không hỏi lại nếu suy được rõ ràng, chỉ hỏi khi hồ sơ có nhiều kỳ mâu thuẫn không tự chọn được.
+
+K13. Chưa có số liệu ngành: thứ tự lấy ngưỡng là (1) tham số có sẵn ở skill, (2) tra cứu trên mạng (WebSearch) số liệu ngành công khai gần nhất, (3) mặc định **2%** so năm trước, nhãn "tạm - ngưỡng mặc định 2%". Cả ba đều không có thì HD07 ghi TREO ("thiếu số liệu tham chiếu ngành"); TN03, TN04, TN19, TN22 chạy theo ngưỡng đã chọn, nhãn "sơ bộ - chưa so ngành" cho tới khi có số liệu ngành thật.
+
+K14. Ngưỡng TN17 = 10%: dư Có TK 331 cuối kỳ / doanh thu thuần BCTC [01] > 10% (tham số P23, đã chốt).
+
+NGUỒN CHỈ ĐỊNH (đã chốt 19/10/2026):
+- Người bán (F0) và NNT (F1): sheet `F0`/`F1` của `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\2- HOA DON\1. XU LY RUI RO\00_SO THEO DOI & BAO CAO\Theo doi CVCBRR\SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx` (kết quả brain **Cập nhật công văn cảnh báo**; khớp quyết định 11/10/2026 - xem `memory/facts/pref-nguon-so-cvcbrr-chuan.md`).
+- CA (công an): `I:\My Drive\HS CONG AN-2025-2026\HS CUNG CAP CA 2026\Bao_cao_cong_van.xlsx` (đã chốt 19/10/2026, kết quả brain **Cung cấp thông tin công an**; đây là sổ TỔNG chung mọi hồ sơ CA năm 2026, không phải file riêng từng hồ sơ nữa). Không thấy MST/NNT trong sổ này thì mới tìm tiếp theo tên trong thư mục `3.x` của hồ sơ đó. Ghi số công văn khi dùng.
+- Danh bạ ĐKKD: thư mục `3.2. Danh ba trang thai NNT` trong từng hồ sơ.
+- Bên mua (HD08): cùng sổ CVCBRR nêu trên (sheet bên mua nếu có, hoặc đối chiếu chéo với F1).
+- TNCN (TC22, TC23): tệp tra cứu đa nguồn thư mục `3.3` của hồ sơ.
+- Ngày cập nhật sổ gần nhất: lấy theo ngày sửa đổi (modified date) của `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx` và của `Bao_cao_cong_van.xlsx` tại thời điểm chạy; quá **30 ngày** thì cảnh báo "nguồn có thể cũ" (ngưỡng 30 ngày là mặc định tạm, cán bộ có thể đổi).
+Kết quả ghi tên sổ, sheet, số công văn.
+
+### 8. HÀNH VI
+
+8.1 Câu trả lời cho cán bộ ngắn, tiếng Việt: kết quả, tệp đã tạo, điều còn thiếu, tối đa 5 điểm chưa rõ làm đổi kết quả (nêu mã quy tắc hoặc địa chỉ ô). Không kể lại từng bước.
+
+8.2 Điểm chưa xác minh ghi "chưa xác minh", không chọn thay cán bộ.
+
+8.3 Không tự nhận kết luận là chắc khi nguồn thiếu hoặc mẫu BCTC chưa xác định.
+
+## Module ghi vào đâu (mục 4.6)
+
+| Bước | Ghi vào tệp đích |
+|---|---|
+| 0 checklist | KQ1.3 sheet `KQ1_Kiem_ke` |
+| 0b, 1, 1b đầu vào, bảng kê | KQ1.1 `IN01` `IN05`; KQ1.2 `IN02` |
+| 2 GTGT-TNDN | KQ2.1 `KQ2_Doi_chieu_GTGT` |
+| 3 NCC | KQ2.1 `IN07_NCC_CanhBao`, `KQ2_NCC_mua_vao` |
+| 4 TNCN | KQ2.1 `KQ2_TNCN_LD2` |
+| 5 511-632 | KQ2.2 `KQ2_511_632` |
+| 6, 7 kho, giá thành | KQ2.2 `KQ2_Kho_Gia_thanh`, `KQ2_Gia_thanh_va_Dinh_muc` |
+| 8 tiền mặt, ngân hàng | KQ2.2 `KQ2_Cong_no_Tien_mat` |
+| 9 Master 28 tiêu chí | chỉ khi cán bộ yêu cầu, sinh từ KQ3 |
+| 10 đề cương | KQ3 cột AB-AD, AH |
+
+Hỏi "xuất bản KQ2 có sheet PL" hoặc "xuất workbook trọn gói": từ chối, nói bộ 1.4 không dùng, đề nghị sáu tệp.
+
+## Định dạng số tiền
+
+- Chat/báo cáo: dấu `.` nghìn, dấu `,` lẻ. Ví dụ `1.234.567,89`.
+- Excel số thật: `#,##0` hoặc `#,##0.00`.
+- Cấm dạng Mỹ `1,234,567.89`. Cấm ô văn bản bắt đầu bằng `=`.
+
+## Playbook
+
+- `playbook-3-giai-doan.md` (Lệnh 1-4).
+- `playbook-lenh-theo-buoc.md` (module ghi sheet đích).
+- `playbook-tat-ca-skill.md`.
+
+## Lịch sử
+
+- [2026-10-19] Nạp P7 / quy trình 1.4: sáu tệp KQ1.1-KQ3, Phần A thường trực, thay v1.2 và quyết định 1 file 1 sheet.
+- [2026-10-19] Chốt NGUỒN CHỈ ĐỊNH (sổ CVCBRR, sổ công an, danh bạ ĐKKD), K12 (kỳ kiểm tra), K6/K7 (đọc mẫu BCTC để xác định thông tư), K8/K9/K13 (thứ tự skill → web → mặc định, K9 không áp 2% vì là thuế suất luật định).
+- [2026-10-19 vòng 2] Thêm Q14-Q19 (định dạng ngày dd/mm/yyyy không giờ, số VN, font Unicode tự sửa mã lỗi, auto-width cột, xóa dòng ví dụ khi chạy thật, xóa dòng/kỳ không phát sinh). Thêm 3.4 ngoại lệ nhận xét module. KQ3 thêm sheet `Danh_gia_28_tieu_chi_rui_ro`. Sửa bug IN02 chỉ lọc mua vào, bug IN05 thứ tự QTT/NLD, bug KQ2_NCC_mua_vao lẫn 2 bảng, GTGT Phần I không lọc kỳ, KQ2_Cong_no_Tien_mat chưa chạy dù đủ IN08/IN10.
+- [2026-10-19 vòng 2b] Cán bộ chốt: giữ HD04 (Top-5 NCC / P14, gộp theo người bán); mở rộng nhận xét module sang TNCN, kho, giá thành, công nợ tiền mặt. Chạy lại 6 tệp TT_BIEN_HOA theo form mới.

@@ -3,6 +3,7 @@ name: Xử phạt vi phạm hành chính về thuế và hóa đơn
 description: "Xử phạt VPHC thuế và hóa đơn: NĐ 125, NĐ 310, NĐ 291, NĐ 68: sai thời điểm, không lập HĐ, trốn thuế, trao đổi thông tin QT, xử lý DN 03-06."
 description_en: "Administrative tax and invoice penalties: Decrees 125, 310, 291, 68, wrongful timing, missing invoices, tax evasion, international info exchange."
 group: Tài chính
+updated: '2026-10-09'
 ---
 
 # Chính sách và nghiệp vụ xử phạt vi phạm hành chính về Thuế và Hóa đơn
@@ -187,3 +188,13 @@ Mức phạt tiền cụ thể đối với một hành vi vi phạm thủ tục
    - Điền đầy đủ các thông tin bắt buộc theo Mẫu số 02 ban hành kèm Nghị định số 68/2025/NĐ-CP.
    - Ghi rõ số tiền phạt bằng số và bằng chữ, Kho bạc Nhà nước hoặc ngân hàng thương mại được ủy nhiệm thu tiền phạt, mã định danh điện tử, mục lục ngân sách nhà nước.
    - Giao quyết định trực tiếp, gửi qua bưu điện bảo đảm hoặc gửi bằng phương thức điện tử trong thời hạn 02 ngày làm việc kể từ ngày ban hành. Theo dõi đôn đốc việc nộp tiền phạt trong thời hạn 10 ngày.
+
+## Định dạng số tiền (bắt buộc)
+
+- **Hiển thị** (chat, Markdown, báo cáo, ô text): chuẩn Việt Nam - dấu `.` phân cách hàng nghìn, dấu `,` phần lẻ. Ví dụ: `1.234.567` hoặc `1.234.567,89`.
+- **Excel số thật** (openpyxl `number_format`): dùng mã invariant `#,##0` (nguyên) hoặc `#,##0.00` (có phần lẻ). Excel locale VN sẽ hiện thành dấu `.` / `,`. Không mô tả nhầm là "dấu phẩy ngăn cách hàng nghìn".
+- **Tỷ lệ %**: hiển thị `12,34%` (dấu `,` phần lẻ).
+- Cấm dạng Mỹ `1,234,567.89` trong câu trả lời / báo cáo tiếng Việt.
+
+## Lịch sử (tự học)
+- [2026-10-09] Chốt định dạng số tiền chuẩn VN đồng loạt: hiển thị dấu `.` hàng nghìn và `,` phần lẻ; Excel `#,##0` / `#,##0.00`.

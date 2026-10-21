@@ -7,10 +7,11 @@
     "pdf-sang-md",
     "phan-tich-ho-so-thue",
     "quy-che-phoi-hop-kiem-tra-thue",
-    "quy-trinh-kiem-tra-thue",
     "quy-trinh-hoan-thue",
-    "xu-ly-rui-ro-thue-hoa-don",
-    "xem-ho-so-thue"
+    "quy-trinh-kiem-tra-thue",
+    "soan-thao-van-ban",
+    "xem-ho-so-thue",
+    "xu-ly-rui-ro-thue-hoa-don"
   ],
   "disabled": []
 }

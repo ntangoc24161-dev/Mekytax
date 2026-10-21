@@ -1,61 +1,75 @@
 ---
 name: Tra cứu NNT và phân Tổ Kiểm tra tự động
-description: Tra cứu MST qua DB NNT.xls và cổng thông tin, chuẩn hóa địa chỉ, phân Tổ KT1-KT2-KT3 và xác định cán bộ quản lý KT1 tự động.
+description: "Tra cứu MST, CQ thuế quản lý; chỉ phân KT1-KT3/CBQL nếu thuộc TCS3 (Vĩnh Cửu=KT2); CQ khác ghi tên vào ô Tổ KT."
 group: Tài chính
-updated: '2026-09-26'
-learned_updated: '2026-09-26'
+updated: '2026-10-16'
+learned_updated: '2026-10-16'
 ---
 ## Khi nào dùng
 - Khi tiếp nhận công văn điều tra của cơ quan Công an có danh sách MST hoặc Doanh nghiệp cần tra cứu thông tin pháp lý, tình trạng hoạt động và phân Tổ Kiểm tra phụ trách.
 - Khi bóc tách công văn mới trong thư mục `CV MOI` hoặc nhận qua Zalo.
-- Khi cần hoàn thiện dữ liệu thông tin NNT (địa chỉ, người đại diện theo pháp luật, CCCD, tình trạng đóng/mở MST, số tài khoản...) để cập nhật sổ theo dõi `Bao_cao_cong_van.xlsx` (sheet `NHAP_HO_SO`) hoặc lập hồ sơ dự thảo Word trả lời Công an.
+- Khi cần hoàn thiện dữ liệu thông tin NNT (địa chỉ, người đại diện theo pháp luật, CCCD, tình trạng đóng/mở MST, số tài khoản, cơ quan thuế quản lý) để cập nhật sổ theo dõi `Bao_cao_cong_van.xlsx` (sheet `NHAP_HO_SO`) hoặc lập hồ sơ dự thảo Word trả lời Công an.
 
 ## Chuẩn bị
 - **Nguồn CSDL nội bộ chính:**
   + File cơ sở dữ liệu NNT: `I:\My Drive\DB NNT.xls` (hoặc `DB NNT.xlsx`, `DB NNT 03.06.2026.xls`).
-  + Sheet `NNT`: CSDL tổng thể về NNT (MST, Tên NNT, Địa chỉ trụ sở, Phường/Xã, Tình trạng hoạt động, Trạng thái đóng MST, Số & Ngày Thông báo đóng MST/bỏ địa chỉ, Người đại diện PL, CCCD, Kế toán trưởng, Cán bộ quản lý...).
+  + Sheet `NNT`: CSDL tổng thể về NNT. Cột bắt buộc khi phân tổ: `Cơ quan thuế`, `Tên cơ quan thuế`, `Tên Phường Xã`, `Tên Quận/Huyện`, `Tổ kiểm tra quản lý`, `CBQL`, MST, Tên NNT, địa chỉ, Trạng thái ĐKT tổ chức, Lý do đóng MST tổ chức.
   + Sheet `KTR1`: Bảng phân công chi tiết Cán bộ quản lý (CBQL) cho các doanh nghiệp thuộc Tổ Kiểm tra 1 (Tổ QLDN 1).
 - **Nguồn Cổng thông tin trực tuyến (Fallback / Bù đắp dữ liệu):**
-  + Cổng tra cứu thông tin doanh nghiệp & MST: `https://masothue.com/`.
+  + Cổng tra cứu thông tin doanh nghiệp & MST: `https://masothue.com/` (trường **Cơ quan thuế quản lý**).
   + Cổng thông tin Đăng ký doanh nghiệp quốc gia: `https://dangkykinhdoanh.gov.vn/`.
   + Cổng thông tin Người nộp thuế ngành Thuế: `https://tracuunnt.gdt.gov.vn/`.
-- **Bảng phân công địa bàn quản lý kiểm tra doanh nghiệp:**
-  + **Tổ KT1 (Tổ QL Doanh nghiệp 1):** Địa bàn mới gồm Long Bình, Hố Nai, Long Hưng, Phước Tân, Tam Phước (gồm các địa bàn cũ: Hố Nai, Long Bình, Tân Biên, Tân Hòa, Hố Nai 3, An Hòa, Long Bình Tân, Long Hưng, Phước Tân, Tam Phước).
-  + **Tổ KT2 (Tổ QL Doanh nghiệp 1):** Địa bàn mới gồm Tam Hiệp, Trảng Dài, Trị An, Tân An, Tân Triều, Phú Lý (gồm các địa bàn cũ: Bình Đa, Tam Hiệp, Tam Hòa, Tân Hiệp, Tân Mai, Tân Tiến, Trảng Dài, Thiện Tân, TT Vĩnh An, Hiếu Liêm, Mã Đà, Trị An, Tân An, Vĩnh Tân, Tân Phong, Bình Hòa, Bình Lợi, Tân Bình, Thạnh Phú, Phú Lý).
-  + **Tổ KT3 (Tổ QL Doanh nghiệp 2):** Địa bàn mới gồm Biên Hòa, Trấn Biên (gồm các địa bàn cũ: Bửu Hòa, Hóa An, Tân Hạnh, Tân Vạn, An Bình, Bửu Long, Hiệp Hòa, Hòa Bình, Quang Vinh, Quyết Thắng, Thanh Bình, Thống Nhất, Trung Dũng).
+- **Tên CQ thuộc Thuế cơ sở 3 thành phố Đồng Nai (Biên Hòa - Vĩnh Cửu):** khớp một trong các dạng (không phân biệt hoa thường):
+  + `TP.Biên Hòa-TCS3 Đồng Nai` (đúng tên cột `Tên cơ quan thuế` trong DB NNT)
+  + `Thuế cơ sở 3 thành phố Đồng Nai`, `TCS3`
+  + `Chi cục Thuế khu vực Biên Hòa - Vĩnh Cửu` (tên cũ)
+- **Bảng phân công địa bàn (chỉ dùng sau khi đã xác nhận CQ thuộc TCS3):**
+  + **Tổ KT1 (Tổ QL Doanh nghiệp 1):** Long Bình, Hố Nai, Long Hưng, Phước Tân, Tam Phước (địa bàn cũ: Tân Biên, Tân Hòa, Hố Nai 3, An Hòa, Long Bình Tân...).
+  + **Tổ KT2 (Tổ QL Doanh nghiệp 1):** Tam Hiệp, Trảng Dài, Trị An, Tân An, Tân Triều, Phú Lý (địa bàn cũ: Bình Đa, Tam Hòa, Tân Hiệp, Tân Mai, Tân Tiến, Thiện Tân, Vĩnh An, Hiếu Liêm, Mã Đà, Vĩnh Tân, Tân Phong, Bình Hòa, Bình Lợi, Tân Bình, Thạnh Phú...). **Toàn bộ địa bàn Vĩnh Cửu gán KT2.**
+  + **Tổ KT3 (Tổ QL Doanh nghiệp 2):** Biên Hòa, Trấn Biên (địa bàn cũ: Bửu Hòa, Hóa An, Tân Hạnh, Tân Vạn, An Bình, Bửu Long, Hiệp Hòa, Hòa Bình, Quang Vinh, Quyết Thắng, Thanh Bình, Thống Nhất, Trung Dũng).
 
 ## Quy trình
 1. **Bước 1: Tra cứu CSDL nội bộ `DB NNT.xls` (Ưu tiên số 1):**
    - Đọc và tìm kiếm theo `MST` trên sheet `NNT`.
-   - Trích xuất các trường thông tin: Tên NNT, Địa chỉ trụ sở, Phường/Xã, Tình trạng hoạt động (Đang hoạt động / Ngừng hoạt động / Tạm ngừng KD), Người ĐDPL, CCCD/CMND, Kế toán, Số và ngày Thông báo không hoạt động tại địa chỉ đăng ký (từ cột Lý do đóng MST tổ chức).
-2. **Bước 2: Bù đắp dữ liệu qua Cổng thông tin (Fallback khi CSDL thiếu dữ liệu):**
-   - Nếu `MST` không có trong file `DB NNT.xls` hoặc bị thiếu thông tin địa chỉ/pháp lý:
-   - Tự động tra cứu trực tuyến trên cổng thông tin `https://masothue.com/` (hoặc cổng đăng ký kinh doanh).
-   - Trích xuất: Tên doanh nghiệp chuẩn hóa, Địa chỉ chi tiết (xác định Phường/Xã), Người đại diện pháp luật, Trạng thái hoạt động.
-   - *Nguyên tắc trung thực dữ liệu:* Tuyệt đối không suy đoán hay bịa đặt thông tin; nếu cả CSDL và cổng thông tin đều không có thì để trống địa chỉ và ghi chú cần xác minh bổ sung.
-3. **Bước 3: Chuẩn hóa địa chỉ và Phân Tổ Kiểm tra (KT1, KT2, KT3):**
+   - Trích xuất: Tên NNT, địa chỉ trụ sở, `Tên Phường Xã`, `Tên Quận/Huyện`, **`Tên cơ quan thuế`**, `Tổ kiểm tra quản lý`, `CBQL`, tình trạng ĐKT tổ chức, Người ĐDPL, CCCD/CMND, Kế toán, Số và ngày Thông báo không hoạt động tại địa chỉ đăng ký (cột Lý do đóng MST tổ chức).
+2. **Bước 2: Bù đắp dữ liệu qua Cổng thông tin (khi CSDL thiếu):**
+   - Nếu MST không có trong `DB NNT.xls` hoặc thiếu địa chỉ / **thiếu cơ quan thuế quản lý**:
+   - Tra `https://masothue.com/` (hoặc cổng ĐKKD / tra cứu NNT).
+   - Trích xuất: tên DN, địa chỉ (Phường/Xã, Quận/Huyện), Người ĐDPL, trạng thái, **Cơ quan thuế quản lý**.
+   - Không suy đoán. Cả hai nguồn đều trống thì để trống và ghi `[CHƯA XÁC ĐỊNH]`.
+3. **Bước 3: Cửa kiểm cơ quan thuế quản lý (BẮT BUỘC trước khi phân Tổ KT):**
+   - Lấy tên CQ từ cột `Tên cơ quan thuế` (DB) hoặc trường Cơ quan thuế quản lý (cổng).
+   - **Không thuộc TCS3** (tên CQ không khớp danh sách TCS3 ở mục Chuẩn bị): ghi **nguyên văn tên cơ quan thuế quản lý** vào ô **Tổ KT** (Cột L sheet `NHAP_HO_SO`). Để trống CBQL (Cột M). **Không** gán KT1/KT2/KT3, **không** tra sheet `KTR1`. DN này không đưa vào gói bàn giao Soạn thảo.
+   - **Thuộc TCS3:** mới sang Bước 4.
+   - Thiếu tên CQ ở cả DB và cổng: ô Tổ KT ghi `[CHƯA XÁC ĐỊNH]`, không phân tổ.
+4. **Bước 4: Chuẩn hóa địa chỉ và Phân Tổ Kiểm tra (chỉ DN thuộc TCS3):**
    - Rút gọn địa chỉ về cấp Phường/Xã (Cột K trên sheet `NHAP_HO_SO`).
-   - Đối chiếu Phường/Xã với Bảng phân công địa bàn quản lý để xác định Tổ KT:
-     + Khớp địa bàn KT1 -> Gán `KT1` (Cột L).
-     + Khớp địa bàn KT2 -> Gán `KT2` (Cột L).
-     + Khớp địa bàn KT3 -> Gán `KT3` (Cột L).
-     + Trường hợp địa bàn ngoài tỉnh/thành phố hoặc hộ kinh doanh -> Ghi rõ ngoài địa bàn / chuyển Tổ HKD.
-4. **Bước 4: Xác định Cán bộ quản lý và Ngày phân công (Áp dụng cho Tổ KT1):**
-   - Nếu doanh nghiệp thuộc **Tổ KT1**:
-     + Tra cứu `MST` trên sheet `KTR1` của file `DB NNT.xls` để lấy tên Cán bộ quản lý trực tiếp (Cột M trên sheet `NHAP_HO_SO`).
-     + Gán Ngày phân công / Ngày giao CBXL (Cột O, P) là **ngày thực hiện lệnh** (ngày hiện tại).
-   - Nếu thuộc Tổ KT2, KT3: Cột cán bộ xử lý để trống theo phân cấp quản lý nội bộ.
+   - **Nếu địa bàn Vĩnh Cửu** (`Tên Quận/Huyện` chứa `Vĩnh Cửu`, kể cả dạng `Huyện Vĩnh Cửu(Hết HL)`, hoặc phường/xã thuộc danh sách Vĩnh Cửu trong bảng KT2): gán `KT2` (Cột L). Không xét tiếp bảng KT1/KT3.
+   - **Nếu địa bàn Biên Hòa / Trấn Biên / còn lại thuộc TCS3:** đối chiếu Phường/Xã với bảng phân công:
+     + Khớp KT1 -> `KT1` (Cột L).
+     + Khớp KT2 -> `KT2` (Cột L).
+     + Khớp KT3 -> `KT3` (Cột L).
+   - Cột `Tổ kiểm tra quản lý` trong DB chỉ dùng để đối chiếu khi đã xác nhận TCS3; nếu lệch với bước này thì theo cửa kiểm + bảng địa bàn, ghi chú lệch.
+5. **Bước 5: Cán bộ quản lý và Ngày phân công (chỉ Tổ KT1 thuộc TCS3):**
+   - Chỉ khi ô Tổ KT = `KT1`: tra MST trên sheet `KTR1` lấy CBQL (Cột M); Ngày phân công / Ngày giao CBXL (Cột O, P) = ngày thực hiện lệnh.
+   - KT2, KT3: để trống cột cán bộ xử lý.
+   - Ô Tổ KT đang là tên CQ khác: không gán CBQL.
 
 ## Bẫy
-- Nhầm lẫn giữa mã số thuế doanh nghiệp (10 số) và mã số thuế chi nhánh (13 số): cần tra cứu đúng mã số để lấy địa chỉ thực tế của đơn vị trực thuộc.
-- Bỏ qua dữ liệu Thông báo đóng MST: Đối với doanh nghiệp ngừng hoạt động, bắt buộc lấy chính xác Số và Ngày ban hành Thông báo không hoạt động tại địa chỉ đã đăng ký từ cột Lý do đóng MST tổ chức trong sheet `NNT`.
-- Sai lệch địa bàn do thay đổi địa giới hành chính: Luôn đối chiếu danh sách đối ứng giữa tên phường mới và tên phường cũ trước khi phân Tổ KT.
-- Bịa đặt thông tin khi thiếu dữ liệu: Nghiêm cấm tự điền địa chỉ hoặc phân tổ khi không có căn cứ từ CSDL hoặc cổng thông tin.
+- Phân KT1/KT2/KT3 theo phường khi CQ quản lý không phải TCS3: sai. Phải đọc `Tên cơ quan thuế` trước.
+- Ghi `ngoài địa bàn` chung chung vào ô Tổ KT khi đã biết tên CQ: phải ghi đúng tên cơ quan thuế quản lý.
+- Nhầm MST chi nhánh 13 số với MST 10 số: tra đúng mã để lấy CQ và địa chỉ đơn vị trực thuộc.
+- Bỏ qua Thông báo đóng MST: DN ngừng hoạt động phải lấy Số và Ngày TB từ cột Lý do đóng MST tổ chức.
+- Sai địa giới hành chính: đối chiếu tên phường mới/cũ; Vĩnh Cửu luôn KT2 khi đã thuộc TCS3.
+- Bịa địa chỉ, CQ hoặc tổ khi thiếu dữ liệu.
 
 ## Kiểm chứng
-- 100% doanh nghiệp có MST được tra cứu đầy đủ tên, địa chỉ rút gọn Phường/Xã, Tổ KT.
-- Doanh nghiệp thuộc Tổ KT1 có đầy đủ tên Cán bộ quản lý từ sheet `KTR1` và ngày phân công là ngày thực hiện lệnh.
-- Dữ liệu chuẩn hóa sẵn sàng nhập vào sheet `NHAP_HO_SO` của `Bao_cao_cong_van.xlsx` và cung cấp tham số cho tệp dự thảo Word.
+- 100% MST có tên CQ quản lý (từ DB hoặc cổng) hoặc nhãn `[CHƯA XÁC ĐỊNH]`.
+- Ô Tổ KT chỉ mang `KT1`/`KT2`/`KT3` khi CQ là TCS3; các dòng khác là tên CQ nguyên văn.
+- DN Vĩnh Cửu thuộc TCS3 đều là `KT2`.
+- DN KT1 (TCS3) có CBQL từ sheet `KTR1` và ngày phân công = ngày thực hiện lệnh.
+- Dữ liệu sẵn sàng nhập `NHAP_HO_SO`; chỉ DN `KT1`/`KT2`/`KT3` vào gói Soạn thảo.
 
 ## Lịch sử (tự học)
+- [2026-10-16] Bổ sung cửa kiểm cơ quan thuế quản lý trước khi phân tổ: chỉ chia KT1-KT3 và gán CBQL khi CQ là Thuế cơ sở 3 TP Đồng Nai (Biên Hòa-Vĩnh Cửu); Vĩnh Cửu gán KT2; CQ khác ghi nguyên văn tên CQ vào ô Tổ KT. Nguồn: cột `Tên cơ quan thuế` trên DB NNT.xls.
 - [2026-09-26] Khởi tạo kỹ năng tra cứu NNT tự động: chuẩn hóa quy trình tra cứu ưu tiên CSDL nội bộ DB NNT.xls (sheet NNT và KTR1), tự động fallback tra cứu cổng thông tin (masothue.com) khi thiếu dữ liệu, phân Tổ KT1-KT2-KT3 theo địa bàn và gán CBQL Tổ KT1.

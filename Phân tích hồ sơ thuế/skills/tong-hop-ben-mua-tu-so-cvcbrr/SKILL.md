@@ -5,12 +5,17 @@ group: "Tài chính"
 origin: javis-learned
 status: active
 created: 2026-09-30
+updated: '2026-10-09'
 ---
+> **Hợp đồng đầu ra v1.4:** module nội bộ. Kết quả ghi vào sheet đích của sáu tệp KQ (xem skills/phan-tich-ho-so-thue/playbook-lenh-theo-buoc.md). Không giao tệp chuyên đề Tong_hop_*/Doi_chieu_* / Master 8 sheet như sản phẩm.
+
 ## Khi nào dùng
 
 - User hỏi tổng hợp / liệt kê **đơn vị bên mua** trong sổ `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx`.
 - Câu kiểu: "tổng hợp bên mua trong sổ", "các công ty mua trên CVCBRR".
 - Không dùng để đối chiếu NCC bên bán trên bảng kê mua vào của một hồ sơ TTKT → `doi-chieu-ncc-mua-vao-rui-ro`.
+
+Playbook lệnh: `playbook-lenh.md`.
 
 ## Chuẩn bị
 
@@ -33,6 +38,13 @@ created: 2026-09-30
 3. Ghi chú nếu doanh thu/thuế trên sổ gần như trống: không bịa số mua.
 4. Lưu ví dụ `Tong_hop_ben_mua_CVCBRR.xlsx` cạnh sổ hoặc đúng path user yêu cầu.
 
+## Định dạng số tiền (bắt buộc)
+
+- **Hiển thị** (chat, Markdown, báo cáo, ô text): chuẩn Việt Nam - dấu `.` phân cách hàng nghìn, dấu `,` phần lẻ. Ví dụ: `1.234.567` hoặc `1.234.567,89`.
+- **Excel số thật** (openpyxl `number_format`): dùng mã invariant `#,##0` (nguyên) hoặc `#,##0.00` (có phần lẻ). Excel locale VN sẽ hiện thành dấu `.` / `,`. Không mô tả nhầm là "dấu phẩy ngăn cách hàng nghìn".
+- **Tỷ lệ %**: hiển thị `12,34%` (dấu `,` phần lẻ).
+- Cấm dạng Mỹ `1,234,567.89` trong câu trả lời / báo cáo tiếng Việt.
+
 ## Bẫy
 
 - Coi đối chiếu NCC mua vào của hồ sơ TTKT như đã làm xong phần bên mua trên sổ.
@@ -45,3 +57,6 @@ created: 2026-09-30
 - `Chi_tiet` chỉ gồm dòng có bên mua; sắp theo ngày CV.
 - `Tong_hop` theo MST gốc; số MST và số dòng khớp bộ lọc.
 - Trả lời rõ MST được hỏi có/không có trong cột bên mua kèm số dòng.
+
+## Lịch sử (tự học)
+- [2026-10-09] Chốt định dạng số tiền chuẩn VN đồng loạt: hiển thị dấu `.` hàng nghìn và `,` phần lẻ; Excel `#,##0` / `#,##0.00`.

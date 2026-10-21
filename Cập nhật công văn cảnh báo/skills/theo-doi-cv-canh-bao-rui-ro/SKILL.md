@@ -2,8 +2,8 @@
 name: Theo dõi công văn cảnh báo rủi ro
 description: Bóc tách công văn cảnh báo thuế/HĐĐT, cập nhật độc lập sheet F0 bên bán và F1 bên mua sổ SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx.
 group: Tài chính
-updated: '2026-10-01'
-learned_updated: '2026-10-01'
+updated: '2026-10-09'
+learned_updated: '2026-10-09'
 ---
 
 # Theo dõi công văn cảnh báo rủi ro
@@ -24,36 +24,60 @@ Kỹ năng tự động bóc tách thông tin từ các công văn cảnh báo r
 
 ### 2. Cấu trúc 2 sheet dữ liệu độc lập
 Sổ theo dõi đã được tối ưu hóa dung lượng (giảm từ 2,76 MB xuống 2,12 MB) và lược bỏ hoàn toàn các sheet cũ (`THEO_DOI`, `TONG_HOP`, `DANH_MUC`, `HUONG_DAN`), chia thành 2 sheet độc lập:
-- **Sheet `F0` (Danh sách bên bán):** Quản lý toàn bộ danh sách người nộp thuế bán hàng có dấu hiệu rủi ro, xuất hóa đơn bất hợp pháp do Thuế và Công an cảnh báo (hiện có 17.333 dòng, 19 cột, đã bỏ nhóm mua/hóa đơn).
-- **Sheet `F1` (Danh sách bên mua):** Quản lý toàn bộ danh sách người nộp thuế mua hàng hóa, dịch vụ liên quan đến hóa đơn rủi ro cần rà soát, giải trình (hiện có 7.282 dòng nguồn cũ; sau làm sạch TB DO KT1 MOI + CV 33 còn 3.704 dòng, 25 cột).
+- **Sheet `F0` (Danh sách bên bán):** Quản lý toàn bộ danh sách người nộp thuế bán hàng có dấu hiệu rủi ro, xuất hóa đơn bất hợp pháp do Thuế và Công an cảnh báo (khoảng 17.018 dòng dữ liệu, 19 cột; MST + tên công ty đứng trước thông tin công văn).
+- **Sheet `F1` (Danh sách bên mua):** Quản lý toàn bộ danh sách người nộp thuế mua hàng hóa, dịch vụ liên quan đến hóa đơn rủi ro cần rà soát, giải trình (3.704 dòng, 25 cột; cùng nguyên tắc MST/tên bên bán trước thông tin công văn).
 
-### 3. Quy chuẩn 25 cột dữ liệu thống nhất (áp dụng cho cả F0 và F1)
-Mỗi dòng dữ liệu được chuẩn hóa đúng 25 cột:
-1. `STT`: Số thứ tự tăng dần theo STT cuối của từng sheet.
-2. `SoCV`: Số ký hiệu công văn cảnh báo (ví dụ: `1370/TCS7-QLDN1`).
-3. `NgayCV`: Ngày ban hành văn bản (kiểu Date).
-4. `DonViBH`: Cơ quan ban hành (chuẩn hóa tên đầy đủ).
-5. `TenBan`: Tên doanh nghiệp bên bán.
-6. `MSTBan`: Mã số thuế bên bán.
-7. `NoiDung`: Tóm tắt hành vi/dấu hiệu rủi ro cốt lõi.
-8. `TenMua`: Tên doanh nghiệp bên mua.
-9. `MSTMua`: Mã số thuế bên mua.
-10. `TamNgung`: Trạng thái NNT (Tạm ngưng, Bỏ trốn, Đóng MST...).
-11. `KyKK`: Kỳ kê khai (Tháng/Quý/Năm).
-12. `SoHD`: Ký hiệu và số hóa đơn liên quan.
-13. `DoanhThu`: Doanh thu chưa thuế (số nguyên/thực).
-14. `ThueGTGT`: Tiền thuế GTGT (số nguyên/thực).
-15. `NhomND`: Nhóm nội dung rủi ro.
-16. `DiaChi`: Địa chỉ trụ sở doanh nghiệp.
-17. `NgayNhan`: Ngày cơ quan thuế tiếp nhận văn bản.
-18. `TinhTrang`: Tình trạng xử lý/giải trình hồ sơ.
-19. `GhiChu`: Ghi chú nghiệp vụ bổ sung.
-20. `File`: Tên tệp hồ sơ đính kèm hoặc văn bản scan gốc.
-21. `NamCV`: Năm ban hành công văn.
-22. `Trung`: Cờ đánh dấu trùng lặp.
-23. `KhoaCV`: Khóa liên kết công văn (`SoCV_Nam`).
-24. `CVDau`: Đánh dấu `1` tại dòng đầu tiên của công văn, các dòng sau để trống.
-25. `MSTDau`: Đánh dấu `1` tại dòng đầu tiên của MST, các dòng sau để trống.
+### 3. Quy chuẩn cột dữ liệu (MST + tên công ty đứng trước thông tin công văn)
+
+**Nguyên tắc đọc (từ 2026-10-09):** `STT → MST bên bán → Tên công ty bán → Số CV → Ngày CV → Đơn vị ban hành → ...`
+
+#### Sheet `F0` (19 cột - bên bán)
+1. `STT`
+2. `MSTBan`: Mã số thuế bên bán
+3. `TenBan`: Tên doanh nghiệp bên bán
+4. `SoCV`: Số ký hiệu công văn cảnh báo
+5. `NgayCV`: Ngày ban hành văn bản
+6. `DonViBH`: Cơ quan ban hành
+7. `NoiDung`: Tóm tắt hành vi/dấu hiệu rủi ro
+8. `TamNgung`: Trạng thái NNT
+9. `NhomND`: Nhóm nội dung rủi ro
+10. `DiaChi`: Địa chỉ trụ sở
+11. `NgayNhan`: Ngày tiếp nhận văn bản
+12. `TinhTrang`: Tình trạng xử lý
+13. `GhiChu`
+14. `File`
+15. `NamCV`
+16. `Trung`
+17. `KhoaCV`
+18. `CVDau`
+19. `MSTDau`
+
+#### Sheet `F1` (25 cột - bên mua)
+1. `STT`
+2. `MSTBan`: MST bên bán liên quan
+3. `TenBan`: Tên bên bán liên quan
+4. `SoCV`
+5. `NgayCV`
+6. `DonViBH`
+7. `NoiDung`
+8. `TenMua`: Tên doanh nghiệp bên mua (đối tượng rà soát)
+9. `MSTMua`: MST bên mua
+10. `TamNgung`
+11. `KyKK`
+12. `SoHD`
+13. `DoanhThu`
+14. `ThueGTGT`
+15. `NhomND`
+16. `DiaChi`
+17. `NgayNhan`
+18. `TinhTrang`
+19. `GhiChu`
+20. `File`
+21. `NamCV`
+22. `Trung`
+23. `KhoaCV`
+24. `CVDau`
+25. `MSTDau`
 
 ## Quy trình bóc tách & Nạp dữ liệu chuẩn
 
@@ -129,3 +153,4 @@ python "skills/theo-doi-cv-canh-bao-rui-ro/scripts/update_so_theo_doi.py" "recor
 - [2026-10-01] Làm sạch lại dữ liệu nguồn xlsb: thay 3.351 dòng CBRR cũ trên F0 bằng 2.939 dòng map đúng A/B/E/F; thay 3.649 dòng TB DO KT1 MOI cũ trên F1 bằng 3.087 dòng map đúng B/C/M/N (không gán bên mua vào cột bên bán). F0 còn 19.638 dòng, F1 còn 7.282 dòng.
 - [2026-10-01] Tiếp tục không làm lại toàn sổ: xóa 1 MST ngoài `524.xlsx` (`0314123789` trên CV 1798/TCT-TTKT), gộp 2.115 dòng 524 trùng (1770 / 1798.0 / 1798/TCT-TTKT / HDRR trống số CV) thành 637 dòng chuẩn. F0 còn 17.333 dòng, F1 giữ 3.704 dòng.
 - [2026-10-01] Bổ sung F0 từ CBRR/HDRR-cuc/CV cong an: điền 521 dòng trống SoCV từ nguồn (CBRR dùng E/F đúng header, không dùng C/D), thêm 3 dòng mới, gộp 407 trùng; còn 372 dòng nguồn không có số CV (chủ yếu CV cong an chỉ ghi tên cơ quan). F0 còn 16.931 dòng.
+- [2026-10-09] Đổi cấu trúc cột: đưa `MSTBan` + `TenBan` lên trước thông tin công văn (`SoCV`/`NgayCV`/`DonViBH`). F0 còn 19 cột (bỏ cột công thức hack), F1 giữ 25 cột theo thứ tự mới. Script: `scripts/reorder_mst_ten_truoc_cv.py`.

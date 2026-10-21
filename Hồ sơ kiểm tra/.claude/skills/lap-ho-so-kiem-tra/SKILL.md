@@ -16,9 +16,19 @@ Chuỗi nghiệp vụ từ sổ theo dõi Excel (JAVIS PRO) tới xuất bộ Wo
 
 ## Chuẩn bị
 
+**Thư mục `0. BIEN BAN` và file `Bang tinh.xlsx` (làm trước khi nhập liệu / xuất hồ sơ đi):**
+
+Đường gốc vụ theo năm, ví dụ:
+`G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\2026\1. TD\<số>. <TÊN CÔNG TY>\`
+
+1. Trong thư mục công ty, tạo `0. BIEN BAN\` nếu chưa có (nơi lưu chung `Bang tinh.xlsx`, `TONG HOP.docx`, QĐ riêng, `hoso.zip`).
+2. Nhân bản file mẫu chung `1. TD\BIEN BAN\Bang tinh.xlsx` vào `0. BIEN BAN\Bang tinh.xlsx` (đủ 18 sheet: `KQKDSXKD`, `DTCHEP`, `KQKD`, `CĐKT`, `GTGT`...). Không tạo file trống từ đầu.
+3. Sau đó mới chạy `nhap-bang-tinh-tu-bao-cao-hdkd` → `boc-tach-bang-tinh-phan-tich` / `dien-bien-ban-tu-bang-tinh` → xuất hồ sơ đi.
+4. Việc này thuộc **Trợ lý khởi tạo hồ sơ** (`khoi-tao-ho-so`), không phải bước xuất Word của agent Lập hồ sơ kiểm tra.
+
 **Sổ Excel JAVIS PRO** (thư mục sổ theo dõi):
 
-`G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\`
+`G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\`
 
 - Làm việc: `Danh sach kiem tra quyet toan - JAVIS PRO.xlsm` (bật Enable Content).
 - Bản không macro: `Danh sach kiem tra quyet toan - JAVIS PRO.xlsx`.

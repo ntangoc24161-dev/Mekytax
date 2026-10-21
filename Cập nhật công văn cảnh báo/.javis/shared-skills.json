@@ -1,13 +1,14 @@
 {
   "enabled": [
     "hoa-don-dien-tu",
+    "pdf-sang-md",
     "quy-che-phoi-hop-kiem-tra-thue",
     "quy-trinh-kiem-tra-thue",
+    "soan-thao-van-ban",
+    "theo-doi-cv-canh-bao-rui-ro",
     "thue-gtgt",
     "thue-tncn",
     "thue-tndn",
-    "pdf-sang-md",
-    "theo-doi-cv-canh-bao-rui-ro",
     "xem-ho-so-thue"
   ],
   "disabled": []

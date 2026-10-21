@@ -17,7 +17,7 @@ Tài liệu tham chiếu chi tiết cấu trúc các cột và quy tắc nhập 
 | **H** | 8 | 7 | Mã số thuế CTY CẦN CUNG CẤP HS | Chuỗi 10 hoặc 13 số | Mã số thuế của người nộp thuế được yêu cầu cung cấp hồ sơ. Tuyệt đối không để định dạng số khoa học (scientific notation). |
 | **I** | 9 | 8 | Tên NNT | Chuỗi văn bản | Tên đầy đủ của doanh nghiệp / người nộp thuế theo đăng ký kinh doanh. |
 | **J** | 10 | 9 | Địa chỉ | Chuỗi văn bản | Địa chỉ trụ sở doanh nghiệp rút gọn về cấp Phường/Xã để phân Tổ KT. Nếu thiếu địa chỉ: tra cứu MST trên `masothue.com`; không có thì để trống, tuyệt đối không bịa đặt. |
-| **K** | 11 | 10 | Tổ KT | Chuỗi văn bản | Tổ kiểm tra phụ trách thụ lý (ví dụ: `KT1`, `KT2`, `KT3`). Phân bổ theo địa bàn Phường/Xã. |
+| **K** | 11 | 10 | Tổ KT | Chuỗi văn bản | Chỉ ghi `KT1`/`KT2`/`KT3` khi CQ quản lý là TCS3 (Vĩnh Cửu = `KT2`). CQ khác: ghi nguyên văn tên cơ quan thuế quản lý. Sheet `NHAP_HO_SO` hiện hành: ô này là **cột L**. |
 | **L** | 12 | 11 | CÁN BỘ XỬ LÝ | Chuỗi văn bản | Tên cán bộ thuế được phân công xử lý hồ sơ. Đối với Tổ KT1: tra cứu MST trong sheet `KTR1` của file `DB NNT 03.06.2026.xlsx` để lấy tên CBQL. |
 | **M** | 13 | 12 | NGÀY GIAO CBXL | Ngày / Serial Date | Ngày bàn giao hồ sơ cho cán bộ xử lý: Ghi nhận ngày phân công là **ngày thực hiện lệnh**. |
 | **N** | 14 | 13 | Tình trạng xử lý | Chuỗi văn bản | Ký hiệu trạng thái theo dõi hồ sơ (ví dụ: `R` - đã phân công / đang rà soát). |

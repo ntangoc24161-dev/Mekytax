@@ -11,6 +11,8 @@ source: [[wiki/Quy trình phân tích toàn diện hồ sơ kiểm tra thuế 4 
 
 Bộ thư mục mẫu chuẩn hóa theo **Quy trình 4 bước khép kín** giúp Đoàn kiểm tra dễ dàng tiếp nhận, lưu trữ, tự động rà soát tính đầy đủ của hồ sơ kiểm tra thuế và in ấn các biểu mẫu checklist phục vụ lưu trữ hồ sơ.
 
+Khi làm việc trên hồ sơ thật (dựng folder, phân loại file, xuất checklist, xóa nguồn cũ): skill `to-chuc-ho-so-kiem-tra-thue`. Trang này giữ cây mẫu; cây sống mới nhất cũng nằm tại `skills/to-chuc-ho-so-kiem-tra-thue/references/cay-thu-muc-4-buoc.md` (`1.2` = HĐĐT portal, `2.5` = bảng kê NNT).
+
 ## 1. Cấu trúc cây thư mục mẫu chuẩn
 
 Thư mục mẫu được lưu tại `thu-muc-mau-ho-so-doanh-nghiep/` trong Second Brain:

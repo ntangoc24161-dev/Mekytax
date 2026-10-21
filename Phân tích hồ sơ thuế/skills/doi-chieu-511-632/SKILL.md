@@ -2,8 +2,10 @@
 name: Đối chiếu doanh thu 511 và giá vốn 632
 description: "Đối chiếu sổ chi tiết TK 511 với TK 632 theo Tool_DC_511_632: khớp HĐ/ngày CT/mặt hàng, lãi gộp và bán dưới giá."
 group: Tài chính
-updated: '2026-10-04'
+updated: '2026-10-09'
 ---
+> **Hợp đồng đầu ra v1.4:** module nội bộ. Kết quả ghi vào sheet đích của sáu tệp KQ (xem skills/phan-tich-ho-so-thue/playbook-lenh-theo-buoc.md). Không giao tệp chuyên đề Tong_hop_*/Doi_chieu_* / Master 8 sheet như sản phẩm.
+
 # Đối chiếu doanh thu 511 và giá vốn 632
 
 Đối chiếu từng dòng **sổ chi tiết TK 511 (Phát sinh Có)** với **sổ chi tiết TK 632 (Phát sinh Nợ)** bằng mini-app Excel `Tool_DC_511_632.xlsm` (macro `ChayDoiChieu`). Mục tiêu: xác định khớp chứng từ, lãi/lỗ từng món, bán dưới giá, và tổng hợp theo năm chứng từ để phục vụ kiểm tra thuế tại bàn / thực địa.
@@ -95,9 +97,18 @@ Công thức `BaoCao` loại dòng bắt đầu bằng `TỔNG`/`TONG` để tr�
 
 ### 6. Xuất vào hồ sơ kiểm tra
 
-1. Lưu file kết quả vào `ket-qua/cau-thanh/` với tên dạng `Doi_chieu_511_632_<MST>_<ky>.xlsx` (hoặc `.xlsm` nếu cần giữ macro).
-2. Đưa chỉ tiêu trọng yếu (tỷ lệ lãi gộp, tỷ lệ DT dưới giá, dòng Không khớp 632 / Có GV không DT) vào Master Excel sheet `Doi_chieu_511_632` và Báo cáo rủi ro / Đề cương kiểm tra.
-3. Sao lưu bản chạy vào `ket-qua/sao-luu/` và `7. Sao luu tong hop/` theo quy chuẩn hồ sơ.
+1. `DCDTCP` (chi tiết từng chứng từ) là bảng làm việc trung gian, giữ nội bộ (không phải sheet giao cuối trong bộ v1.4) - dùng để kiểm chứng và truy ngược khi cần.
+2. Chép `BaoCao` (tổng hợp theo năm chứng từ) thành sheet `KQ2_511_632` của `KQ2.2_Phan_tich_ho_so_cty_<MST>_<KY>_v<n>.xlsx` (bổ sung 19/10/2026 vòng 2 - thay cho bản liệt kê từng dòng chứng từ trước đó). Cấu trúc: "I. BẢNG TỔNG HỢP ĐỐI CHIẾU THEO NĂM TÀI CHÍNH" - cột `Chỉ tiêu` | `Tổng cộng (kỳ kiểm tra)` | một cột mỗi năm trong kỳ kiểm tra | **`Đánh giá tuân thủ & Rủi ro`** (ngoại lệ 3.4 của skill `phan-tich-ho-so-thue` - sheet này được phép có cột đánh giá). Chỉ tiêu tối thiểu: doanh thu 511, giá vốn 632, lãi gộp, tỷ lệ lãi gộp, số dòng theo từng `Tình trạng đối chiếu` R, tổng PS Nợ 632 theo tình trạng, DT/GV/lỗ nhóm bán dưới giá (P ≤ 0), tỷ lệ DT dưới giá/tổng DT. Chỉ lấy các năm trong kỳ kiểm tra (K12) - năm ngoài phạm vi không in dòng toàn 0 (Q19).
+3. Cột `Đánh giá tuân thủ & Rủi ro`: câu ngắn theo số đã tính (vd "lãi gộp 2023 giảm mạnh so 2022, 14 HĐ bán dưới giá tổng 320tr - cần đối chứng từ gốc"), không gán mức rủi ro/điểm (việc đó vẫn ở KQ3).
+4. Nếu cần giữ bản chi tiết từng chứng từ để tham khảo: lưu riêng vào `ket-qua/cau-thanh/Doi_chieu_511_632_<MST>_<ky>.xlsx` (hoặc `.xlsm`), KHÔNG phải sản phẩm giao chính.
+5. Sao lưu bản chạy vào `ket-qua/sao-luu/` và `7. Sao luu tong hop/` theo quy chuẩn hồ sơ.
+
+## Định dạng số tiền (bắt buộc)
+
+- **Hiển thị** (chat, Markdown, báo cáo, ô text): chuẩn Việt Nam - dấu `.` phân cách hàng nghìn, dấu `,` phần lẻ. Ví dụ: `1.234.567` hoặc `1.234.567,89`.
+- **Excel số thật** (openpyxl `number_format`): dùng mã invariant `#,##0` (nguyên) hoặc `#,##0.00` (có phần lẻ). Excel locale VN sẽ hiện thành dấu `.` / `,`. Không mô tả nhầm là "dấu phẩy ngăn cách hàng nghìn".
+- **Tỷ lệ %**: hiển thị `12,34%` (dấu `,` phần lẻ).
+- Cấm dạng Mỹ `1,234,567.89` trong câu trả lời / báo cáo tiếng Việt.
 
 ## Bẫy nghiệp vụ cần tránh
 
@@ -119,4 +130,10 @@ Công thức `BaoCao` loại dòng bắt đầu bằng `TỔNG`/`TONG` để tr�
 
 ## Liên kết quy trình hồ sơ
 
+Playbook lệnh: `playbook-lenh.md`.
+
 Skill này là phân hệ chuyên sâu của `phan-tich-ho-so-thue` tại **Bước 4 - đối chiếu 511/632**. Đầu vào thuộc **Bước 2** (sổ chi tiết TK 511, 632 trong `2.1. So ke toan tong hop va chi tiet/` hoặc `2.2. Kho - Chi phi - Gia thanh/`).
+
+## Lịch sử (tự học)
+- [2026-10-19 vòng 2] Đổi sheet giao `KQ2_511_632`: không còn liệt kê từng chứng từ, chuyển sang `BaoCao` tổng hợp theo năm + cột `Đánh giá tuân thủ & Rủi ro` (ngoại lệ 3.4). `DCDTCP` chi tiết giữ nội bộ/tham khảo, không phải sheet giao cuối.
+- [2026-10-09] Chốt định dạng số tiền chuẩn VN đồng loạt: hiển thị dấu `.` hàng nghìn và `,` phần lẻ; Excel `#,##0` / `#,##0.00`.

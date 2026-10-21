@@ -20,3 +20,9 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-10-05) [[Quy trình phân tích toàn diện hồ sơ kiểm tra thuế 4 bước và Bộ checklist hồ sơ]]: mâu thuẫn với quan điểm mới - status: open
 
 - [ ] (2026-10-05) [[Đối chiếu NCC mua vào với CVCBRR và danh bạ trạng thái]]: mâu thuẫn với quan điểm mới - status: open
+
+- [ ] (2026-10-07) [[Kỹ năng sử dụng Excel trong xử lý dữ liệu kế toán phục vụ kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-10-07 (dedup) - status: open
+
+- [ ] (2026-10-07) [[Đối chiếu mua vào ba nguồn độc lập và xử lý mã số thuế trên Excel]]: đề xuất bổ sung từ chat 2026-10-07 (dedup) - status: open
+
+- [ ] (2026-10-15) [[Quy trình phân tích toàn diện hồ sơ kiểm tra thuế 3 giai đoạn]]: đề xuất bổ sung từ chat 2026-10-15 (dedup) - status: open

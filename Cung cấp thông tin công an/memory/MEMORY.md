@@ -3,6 +3,7 @@
 > Chỉ mục bộ nhớ dài hạn của Javis. Mỗi dòng = 1 ký ức, trỏ tới file trong `facts/`.
 > Nội dung file này được nạp vào đầu mỗi câu hỏi để Javis nhớ ngữ cảnh.
 
+- [Phòng làm việc cung cấp hồ sơ Công an](facts/phong-lam-viec-cung-cap-cong-an.md) - 2 trục Điều phối + Soạn thảo; 2 hỗ trợ Khai thác dữ liệu và Pháp chế; workflow 2 bước; không đưa ôn thi vào phòng này.
 - [Tài liệu công tác kiểm tra thuế của người dùng](facts/tai-lieu-kiem-tra-thue-qd-1161.md) - Người dùng lưu trữ và tra cứu tài liệu quy trình kiểm tra thuế tại thư mục công tác kiểm tra
 - [File theo dõi hồ sơ cung cấp công an](facts/ho-so-theo-doi-cung-cap-cong-an.md) - Người dùng quản lý danh sách và phân công hồ sơ cung cấp công an qua file Excel theo dõi.
 - [Quy tắc chuẩn hóa Địa chỉ và Tổ kiểm tra trên sheet Phan cong](facts/dia-chi-va-phan-to-kt-sheet-phan-cong.md) - Cột J (Địa chỉ) rút gọn về cấp Phường/Xã để phân bổ về Tổ kiểm tra (KT1, KT2, KT3).
@@ -33,7 +34,8 @@
 - [Quy chuẩn thể thức chi tiết Công văn và Tờ trình trả lời Công an mới nhất](facts/chuan-hoa-the-thuc-cong-van-va-to-trinh-tra-loi-cong-an-moi.md) - Quy định chi tiết về cỡ chữ, giãn dòng, căn lề, đường kẻ tiêu ngữ, bố cục Header và nguyên tắc chỉ lập thông tin DN khi công văn Công an có yêu cầu.
 - [Quy chuẩn kỹ năng xuất danh sách tổng hợp chi tiết hồ sơ Công an](facts/skill-xuat-danh-sach-tong-hop-ho-so-ca.md) - Tự động xuất Excel 24 cột tiêu chí tài liệu kèm kỳ thuế lưu tại CV MOI.
 - [Quy chuẩn kỹ năng rà soát và đồng bộ thư mục Công văn hoàn tất](facts/skill-dong-bo-thu-muc-cong-van-hoan-tat-duoi-r.md) - Quét tệp ký số công văn trả lời và tự động thêm hậu tố -R vào tên thư mục năm 2026.
-- [Quy chuẩn kỹ năng tra cứu NNT và phân Tổ Kiểm tra tự động](facts/skill-tra-cuu-nnt-tu-dong.md) - Tra cứu MST qua CSDL DB NNT.xls và cổng thông tin, phân Tổ KT1-KT2-KT3 và gán CBQL KT1.
+- [Quy chuẩn kỹ năng tra cứu NNT và phân Tổ Kiểm tra tự động](facts/skill-tra-cuu-nnt-tu-dong.md) - Tra MST và CQ thuế quản lý trước; chỉ phân KT1-KT3/CBQL nếu thuộc TCS3 (Vĩnh Cửu=KT2); CQ khác ghi tên vào ô Tổ KT.
+- [Cửa kiểm cơ quan thuế quản lý trước khi phân Tổ KT](facts/cua-kiem-cq-thue-quan-ly-truoc-phan-to-kt.md) - Chỉ chia tổ và CBQL khi CQ là Thuế cơ sở 3 TP Đồng Nai (Biên Hòa-Vĩnh Cửu); Vĩnh Cửu vào KT2; CQ khác ghi tên vào ô Tổ KT.
 - [Canh dòng Số trên Công văn trả lời cách lề trái 2 cm](facts/canh-so-cong-van-cach-le-trai-2cm.md) - Dòng Số trên Công văn trả lời căn trái, cách lề trái 2 cm; Trích yếu vẫn ở dòng phụ căn giữa ô.
 - [Cấu trúc 2 đoạn căn cứ mở đầu Công văn trả lời Công an](facts/cau-truc-can-cu-mo-dau-cong-van-tra-loi-ca.md) - Mở đầu 2 đoạn cố định; có CV Thuế TP (DON-KTr1) thì kính gửi/căn cứ theo Thuế TP, không thì trả lời thẳng Công an.
 - [Dự thảo trả lời đủ doanh nghiệp của KT1, KT2, KT3](facts/du-thao-tra-loi-du-dn-cac-to-kt.md) - Nội dung trả lời phải dự thảo đủ mọi doanh nghiệp trong công văn thuộc KT1/KT2/KT3, bám sát từng yêu cầu.
@@ -49,3 +51,6 @@
 - [Đường dẫn file chính Bao_cao_cong_van.xlsx cập nhật Sổ Công văn Công an](facts/duong-dan-file-bao-cao-cong-van-chinh.md) - File Bao_cao_cong_van.xlsx cập nhật Sổ Công văn Công an và kết quả iOffice lưu tại I:\My Drive\HS CONG AN-2025-2026\HS CUNG CAP CA 2026\Bao_cao_cong_van.xlsx
 - [Quy chuẩn nội dung trạng thái hoạt động và xử lý vi phạm khi dự thảo công văn](facts/trang-thai-hoat-dong-va-xu-ly-vi-pham-du-thao-cv.md) - Tình trạng hoạt động lấy nguyên văn Trạng thái ĐKT tổ chức từ DB NNT.xls và tình hình vi phạm ghi chưa bị xử phạt về thuế và hóa đơn.
 - [Quy chuẩn canh bảng Header tên cơ quan ban hành không bị rớt dòng](facts/canh-header-co-quan-ban-hanh-cong-van-khong-xuong-dong.md) - Dòng THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI và THUẾ THÀNH PHỐ ĐỒNG NAI phải nằm trên 1 dòng duy nhất.
+- [Tài khoản GitHub và kho mã nguồn Mekytax](facts/tai-khoan-github-va-repo-mekytax.md) - Tài khoản GitHub của người dùng là ntangoc24161-dev và quản lý kho mã nguồn Mekytax.
+- [Quy chuẩn địa danh Trấn Biên và thể thức NĐ 30/2020 trên dự thảo Công văn và Tờ trình](facts/dia-danh-tran-bien-du-thao-cong-van-to-trinh.md) - Địa danh chuyển sang Trấn Biên, áp dụng toàn diện thể thức soạn thảo văn bản chuẩn NĐ 30/2020/NĐ-CP.
+- [Quy tắc tra cứu cơ quan thuế quản lý trước khi phân Tổ Kiểm tra](facts/phan-to-kt-theo-co-quan-thue-quan-ly.md) - Tra cứu cơ quan thuế quản lý trước; chỉ phân Tổ KT và CBQL nếu thuộc Thuế cơ sở 3 (Biên Hòa - Vĩnh Cửu), Vĩnh Cửu vào KT2, khác thì ghi tên cơ quan vào ô Tổ KT.

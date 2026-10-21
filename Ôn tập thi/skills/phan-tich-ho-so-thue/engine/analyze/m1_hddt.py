@@ -13,13 +13,25 @@ def run_m1(hs: HoSoChuan) -> list[Finding]:
     return out
 
 
+def _year(ngay: str) -> int | None:
+    """Chỉ nhận năm dạng YYYY; bỏ qua giá trị lệch cột (vd ký hiệu HĐ)."""
+    if not ngay:
+        return None
+    s = str(ngay).strip()
+    if len(s) >= 4 and s[:4].isdigit():
+        y = int(s[:4])
+        if 1990 <= y <= 2100:
+            return y
+    return None
+
+
 def _anomalies(hs: HoSoChuan) -> list[Finding]:
     out: list[Finding] = []
     by_key: dict[tuple, list] = defaultdict(list)
     for hd in hs.hoa_don:
         by_key[(hd.chieu, hd.so, hd.mst_dt, hd.ngay, round(hd.doanh_so, 0))].append(hd)
-        nam_ok = (not hd.ngay) or (len(hd.ngay) >= 4 and int(hd.ngay[:4]) in (hs.nam or [int(hd.ngay[:4])]))
-        if hd.ngay and hs.nam and int(hd.ngay[:4]) not in hs.nam:
+        y = _year(hd.ngay)
+        if y is not None and hs.nam and y not in hs.nam:
             out.append(_f(
                 "m1-ngay-ngoai-ky", "medium", "hddt",
                 "Hóa đơn ngoài năm hồ sơ",
@@ -27,7 +39,7 @@ def _anomalies(hs: HoSoChuan) -> list[Finding]:
                 f"{hd.file} / {hd.sheet} dòng {hd.row}",
                 "Bảng kê HĐ",
                 "Hóa đơn này thuộc kỳ nào? Đã kê khai kỳ đó chưa?",
-                nam=int(hd.ngay[:4]) if hd.ngay[:4].isdigit() else None,
+                nam=y,
             ))
         if hd.thue_suat not in (0, 0.05, 0.08, 0.1) and hd.doanh_so:
             out.append(_f(
@@ -47,7 +59,6 @@ def _anomalies(hs: HoSoChuan) -> list[Finding]:
                 "Hóa đơn điều chỉnh/thay thế",
                 "Đây là HĐ điều chỉnh hay hủy? Đã lập biên bản điều chỉnh chưa?",
             ))
-        _ = nam_ok
     for key, group in by_key.items():
         if len(group) > 1:
             hd = group[0]
@@ -70,8 +81,8 @@ def _vs_to_khai(hs: HoSoChuan) -> list[Finding]:
     hd_ban = defaultdict(lambda: [0.0, 0.0])
     hd_mua = defaultdict(lambda: [0.0, 0.0])
     for hd in hs.hoa_don:
-        nam = int(hd.ngay[:4]) if hd.ngay[:4].isdigit() else 0
-        if nam < 1990 or nam > 2100:
+        nam = _year(hd.ngay) or 0
+        if not nam:
             continue
         bag = hd_ban if hd.chieu == "ban" else hd_mua
         bag[nam][0] += hd.doanh_so

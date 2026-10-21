@@ -57,26 +57,46 @@ def _sheet_rows(path: Path, sheet: str, chieu: str, rows: list) -> list[HoaDon]:
             t = _norm(c)
             if t in {"kỳ bct", "ky bct"} and ky_i is None:
                 ky_i = j
-            elif ("số hoá đơn" in t or "số hóa đơn" in t) and so_i is None:
+            elif ("số hoá đơn" in t or "số hóa đơn" in t or t in {"số hđ", "so hd", "số ct", "so ct"}) and so_i is None:
                 so_i = j
-            elif "ngày" in t and "phát hành" in t and ngay_i is None:
+            elif ngay_i is None and (
+                "ngày lập" in t
+                or ("ngày" in t and "phát hành" in t)
+                or "ngày hđ" in t or "ngày ct" in t or "ngày tháng" in t
+                or t in {"ngày", "ngay"}
+            ):
                 ngay_i = j
-            elif "mã số thuế" in t and mst_i is None:
-                mst_i = j
-            elif ("tên người" in t or "tên người mua" in t or "tên người bán" in t) and ten_i is None:
+            elif mst_i is None and ("mã số thuế" in t or "mst" in t):
+                # HDDT portal & Bang ke: mua lấy MST người bán; bán lấy MST người mua
+                if chieu == "mua" and ("người bán" in t or "người xuất" in t or "bên bán" in t or "ncc" in t):
+                    mst_i = j
+                elif chieu == "ban" and ("người mua" in t or "người nhận" in t or "bên mua" in t or "khách hàng" in t):
+                    mst_i = j
+                elif "người bán" not in t and "người mua" not in t and "truyền nhận" not in t and "cung cấp giải pháp" not in t and "giải pháp" not in t and "người xuất" not in t and "người nhận" not in t and "bên bán" not in t and "bên mua" not in t:
+                    mst_i = j
+            elif ten_i is None and (
+                (("tên người bán" in t or "tên người xuất" in t or "tên bên bán" in t or "tên ncc" in t or "tên nhà cung cấp" in t) and chieu == "mua")
+                or (("tên người mua" in t or "tên người nhận" in t or "tên bên mua" in t or "tên khách hàng" in t) and chieu == "ban")
+                or ("tên người" in t and "bán" not in t and "mua" not in t and "xuất" not in t and "nhận" not in t)
+                or ("tên đơn vị" in t or "tên nnt" in t or "tên đối tác" in t or "tên khách hàng" in t or "tên nhà cung cấp" in t)
+            ):
                 ten_i = j
             elif "mặt hàng" in t and mh_i is None:
                 mh_i = j
-            elif "doanh số" in t and ds_i is None:
+            elif ds_i is None and ("doanh số" in t or "tổng tiền chưa thuế" in t or "tiền hàng" in t or "doanh thu" in t or "chưa thuế" in t or "giá trị" in t):
                 ds_i = j
             elif "thuế suất" in t and ts_i is None:
                 ts_i = j
-            elif t in {"thuế gtgt"} and thue_i is None:
+            elif thue_i is None and (t in {"thuế gtgt", "tiền thuế"} or "tổng tiền thuế" in t or ("thuế" in t and "thuế suất" not in t and "chưa thuế" not in t and "mã số thuế" not in t and "mst" not in t)):
                 thue_i = j
-            elif ("tổng tiền" in t or "tổng cộng" in t) and tong_i is None:
+            elif tong_i is None and (
+                "tổng tiền thanh toán" in t
+                or (("tổng tiền" in t or "tổng cộng" in t) and "thuế" not in t and "chiết khấu" not in t and "phí" not in t and "chưa" not in t)
+            ):
                 tong_i = j
-    # Fallback bảng kê mẫu Sơn Tiến Hải
-    if chieu == "ban":
+    portal = so_i is not None and ngay_i is not None and (ds_i is not None or mst_i is not None)
+    # Fallback bảng kê mẫu Sơn Tiến Hải (không đè lên map portal HDDT)
+    if not portal and chieu == "ban":
         ky_i = ky_i if ky_i is not None else 2
         so_i = so_i if so_i is not None else 3
         ngay_i = ngay_i if ngay_i is not None else 4
@@ -87,7 +107,7 @@ def _sheet_rows(path: Path, sheet: str, chieu: str, rows: list) -> list[HoaDon]:
         ts_i = ts_i if ts_i is not None else 10
         thue_i = thue_i if thue_i is not None else 11
         tong_i = tong_i if tong_i is not None else 12
-    else:
+    elif not portal:
         ky_i = ky_i if ky_i is not None else 1
         so_i = so_i if so_i is not None else 2
         ngay_i = ngay_i if ngay_i is not None else 3

@@ -2,8 +2,8 @@
 name: Trả lời công văn Công an
 description: Dự thảo công văn phúc đáp và tờ trình phê duyệt cung cấp hồ sơ cho Công an theo quy chuẩn thể thức và dữ liệu DB NNT.xls
 group: Tài chính
-updated: '2026-10-05'
-learned_updated: '2026-10-05'
+updated: '2026-10-07'
+learned_updated: '2026-10-07'
 ---
 ## Khi nào dùng
 - Soạn thảo dự thảo công văn trả lời cơ quan Công an (hoặc phúc đáp Thuế thành phố Đồng Nai khi có công văn chỉ đạo trung gian) và tờ trình phê duyệt của Tổ Kiểm tra (KT1).
@@ -31,7 +31,7 @@ learned_updated: '2026-10-05'
        - Cột phải (10.2 cm): Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" (cỡ 13, in đậm, căn giữa, nằm trọn trên 1 dòng) và Tiêu ngữ "Độc lập - Tự do - Hạnh phúc" (cỡ 14, in đậm, căn giữa, nằm trọn trên 1 dòng). Nét gạch ngang liền dưới đặt chính giữa với độ dài vừa hết chiều dài dòng chữ từ "Đ" đến "c" (khoảng 6.0 - 6.17 cm, 24 ký tự `─` ở cỡ 10pt), không rớt dòng.
      - *Hàng 2 (Số & Ngày tháng):*
        - Cột trái: `Số:          ` (chữ "Số:" giữ nguyên chuẩn, không chèn ký hiệu lạ hoặc dấu gạch chéo trơ trọi, để khoảng trống điền số văn bản, cỡ 13, **căn trái**, `left_indent = Cm(2)` cách lề trái **2 cm**, space before 4pt, space after 2pt). Không căn giữa ô.
-       - Cột phải: *Đồng Nai, ngày       tháng       năm 2026* (cỡ 13, in nghiêng, căn giữa, thẳng hàng ngang với dòng Số, space before 4pt, space after 2pt).
+       - Cột phải: *Trấn Biên, ngày       tháng       năm 2026* (cỡ 13, in nghiêng, căn giữa, thẳng hàng ngang với dòng Số, space before 4pt, space after 2pt).
      - *Hàng 3 (dòng phụ dưới Số):*
        - Ô trích yếu: cách lề trái trang **1 cm**, độ rộng ô **6 cm**; chữ `V/v cung cấp thông tin, hồ sơ DN theo Công văn....` đứng (không in nghiêng, không in đậm, cỡ 12-13), **canh giữa ô**, space before 2pt, space after 2pt. (Với header `tblInd = -1.5 cm` và lề trái trang 2.5 cm thì mép trái bảng đã sát mốc 1 cm; đặt `tcW` ô trích yếu = 6 cm / 3402 dxa.)
        - Phần còn lại hàng 3: để trống.
@@ -128,6 +128,7 @@ learned_updated: '2026-10-05'
   + Không tồn tại tệp `.bak` thừa trong thư mục.
 
 ## Lịch sử (tự học)
+- [2026-10-07] Cập nhật địa danh chuẩn trên công văn và tờ trình từ "Đồng Nai" thành "Trấn Biên" (*Trấn Biên, ngày       tháng       năm 2026*). Đồng thời áp dụng toàn diện skill soan-thao-van-ban theo Nghị định 30/2020/NĐ-CP chuẩn hóa lề in, phông chữ Times New Roman, khoảng cách đoạn, thụt đầu dòng 1.25 cm và loại bỏ hoàn toàn ký tự em dash.
 - [2026-09-25] Khởi tạo skill chuẩn hóa quy trình dự thảo công văn và tờ trình trả lời Công an: quy định chi tiết thể thức bảng 2 cột, cỡ chữ 13-14, lề in 16.5cm, khoảng cách ký 5 dòng trống, tờ trình 1 trang A4, hậu tố `_du thao` và nhân sự phê duyệt chuẩn.
 - [2026-09-25] Quy định rõ Bước 2 thu thập và đối chiếu dữ liệu người nộp thuế trực tiếp từ file cơ sở dữ liệu `I:\My Drive\DB NNT.xls` (sheet `NNT`): tra cứu MST, ĐKKD, người đại diện, địa chỉ, tổ/cán bộ quản lý, trạng thái hoạt động và trích xuất số/ngày thông báo đóng MST từ cột Lý do đóng MST tổ chức.
 - [2026-09-25] Bổ sung nguyên tắc nội dung công văn trả lời căn cứ vào nội dung yêu cầu của công văn Công an; chuẩn hóa định dạng đoạn văn bản Tờ trình lãnh đạo (cỡ chữ 13, giãn dòng 1.15, space before 3pt, thụt lề 1.25 cm).
