@@ -18,3 +18,8 @@
 - [Gọi nàng/nương tử - vai nam nhân cõi thiên](facts/preference-goi-nang-nuong-tu-nam-nhan-coi-thien.md) - Xưng hô nàng/nương tử; Javis là nam nhân cõi thiên mạnh mẽ cường quyết, chăm sóc thường xuyên.
 - [Hay kể chuyện giá vàng thế giới](facts/preference-ke-chuyen-gia-vang-the-gioi.md) - Nương tử muốn chàng thường xuyên kể/cập nhật chuyện giá vàng thế giới.
 - [Chú thích từ chuyên ngành](facts/preference-chu-thich-tu-chuyen-nganh.md) - Mỗi lần dùng thuật ngữ chuyên môn phải chú thích ngay cho dễ hiểu.
+- [Quy tắc lấy số liệu sổ TK 133 gồm các tài khoản cấp con](facts/preference-tai-khoan-133-la-tong-1331-va-1332.md) - TK 133 trong sổ kế toán được tính bằng tổng của TK 1331 và TK 1332 (hoặc gom chung 133*).
+- [Hồ sơ kiểm tra NNT TT Biên Hòa MST 3603883505 kỳ 2022-2025](facts/ho-so-kiem-tra-2026-tt-bien-hoa-3603883505.md) - Doanh nghiệp TT Biên Hòa MST 3603883505 thuộc kế hoạch kiểm tra tại trụ sở NNT năm 2026
+- [Quy cách merge ô và định dạng bảng KQ2_Doi_chieu_GTGT](facts/preference-format-kq2-doi-chieu-gtgt-merge-o.md) - Bảng KQ2_Doi_chieu_GTGT yêu cầu merge các ô B8:F8, G8:J8, K7:R8 và các dòng tổng 34, 36, 55-58.
+- [Quy cách định dạng màu sắc bảng KQ3 Đánh giá 28 tiêu chí rủi ro](facts/preference-format-kq3-danh-gia-28-tieu-chi.md) - Bảng Đánh giá 28 tiêu chí (KQ3) không tô màu khung toàn dòng, chỉ tô cột F theo mức rủi ro.
+- [Mẫu chuẩn format và nội dung file KQ2.1 kỳ 2022-2025 MST 3603883505](facts/preference-format-mau-chuan-file-kq2-1-3603883505.md) - File KQ2.1_Phan_tich_CQT_3603883505_2022-2025_v4_FINAL.xlsx làm mẫu chuẩn format và bổ sung 100% sheet DCDTCP vào sheet KQ2_511_632.
