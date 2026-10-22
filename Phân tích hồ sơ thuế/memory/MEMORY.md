@@ -72,3 +72,5 @@
 - [Path trong giai the thì lập hồ sơ giải thể tại bàn](facts/pref-path-giai-the-thi-lap-ho-so-giai-the.md) - Khi user chỉ folder dưới giai the, làm hồ sơ giải thể thay vì mặc định phân tích Master.
 - [Tiến độ sắp xếp mẫu và phân tích sơ bộ Kiến Thành Tân](facts/user-tien-do-sap-xep-va-phan-tich-so-bo-kien-thanh-tan.md) - Đã sắp cây mẫu 4 bước + Drive 20/20; checklist 5/13; chưa đủ Master 8 sheet.
 - [Sau giải thể vẫn sắp mẫu 4 bước và phân tích phần đủ](facts/pref-sau-giai-the-van-sap-xep-mau-va-phan-tich.md) - Lập Word giải thể xong, nếu user bảo sắp xếp mẫu + phân tích thì làm tiếp, không dừng.
+- [Yêu cầu tổng hợp IN02 từ thư mục 2.5 hồ sơ Phát Hoàng Long](facts/user-yeu-cau-tong-hop-in02-phat-hoang-long.md) - Đã tạo IN02 (5.263 dòng) từ 5 file Drive ntangoc2416.1; ghi cách lấy dữ liệu và bẫy lọc Tổng cộng.
+- [Kết quả đối chiếu NCC mua vào với CVCBRR Phát Hoàng Long (MST 3600974507)](facts/user-ket-qua-doi-chieu-ncc-cvcbrr-phat-hoang-long.md) - PHL không có trong F0/F1/sổ Công an; 198 NCC 165,74 tỷ; 3 NCC dính cảnh báo; 166 NCC chưa có danh bạ.
