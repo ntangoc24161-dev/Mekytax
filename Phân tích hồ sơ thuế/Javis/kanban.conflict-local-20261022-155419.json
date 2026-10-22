@@ -1,0 +1,48 @@
+{
+  "schema": 2,
+  "source": "kanban.sqlite3",
+  "orchestration": "auto",
+  "tasks": [
+    {
+      "id": "t_5a9ac33e90ae",
+      "brain_root": "/brains/Phân tích hồ sơ thuế",
+      "title": "NCC CVCBRR 6 DN đợt 1",
+      "intent": "Chạy playbook Bước 3 nạp skill doi-chieu-ncc-mua-vao-rui-ro đối chiếu 100% NCC mua vào với CVCBRR F0/F1, sổ Công an và danh bạ cho 6 doanh nghiệp đợt 1 (SON_TIEN_HAI, TAM_HOANG_PHAT, HUNG_ANH_PHAT, AN_PHUONG_TAM, NHAT_VINH, TRI_QUYEN), xuất file Tong_hop_NCC_mua_vao_CV_trang_thai.xlsx (đủ 2 sheet Tong_hop_doi_chieu và Chi_tiet_hoa_don, font Times New Roman theo chuẩn Vạn Phát Thành) đồng bộ vào các thư mục kết quả/sao lưu quy định.",
+      "route": "auto",
+      "capability": "files",
+      "execution_mode": "full",
+      "priority": 2,
+      "status": "archived",
+      "needs_approval": false,
+      "block_kind": "cancelled",
+      "block_reason": "worker cancelled",
+      "created_by": "chat",
+      "chat_id": "web:b70cf214e52d40a797eb3f96fc719aaf",
+      "idempotency_key": "",
+      "attempts": 0,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "not_before": 0.0,
+      "last_heartbeat_at": 0.0,
+      "current_run_id": "",
+      "result": "",
+      "created_at": 1791140933.6063669,
+      "updated_at": 1791417960.3425293,
+      "metadata": {},
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-10-05 14:10",
+          "msg": "created by chat"
+        },
+        {
+          "ts": "2026-10-08 00:06",
+          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
+        }
+      ]
+    }
+  ],
+  "updated": 1791417960.3665938
+}

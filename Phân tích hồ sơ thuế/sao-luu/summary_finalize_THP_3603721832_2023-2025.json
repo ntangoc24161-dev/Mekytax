@@ -1,0 +1,32 @@
+{
+  "mst": "3603721832",
+  "ky": "2023-2025",
+  "updated": "2026-10-14",
+  "done": [
+    "BT5-BT9 + Tong_hop_doi_chieu + Chuan MST BK + DC_HDDT_vs_BangKe",
+    "NCC CVCBRR F0/F1",
+    "28 TC fill+color",
+    "Master TNCN/NCC/511-632(CDPS)/XNT(CDPS)/Gia thanh/Cong no notes"
+  ],
+  "pending": [
+    "Tool_DC_511_632 dòng (cần xuất đủ sổ chi tiết 511/632)",
+    "XNT số lượng (folder 2.2 trống)",
+    "Sao kê ngân hàng (folder 2.3 trống)",
+    "GDLK/NĐ 132 (TC16-18 chưa đủ)"
+  ],
+  "cdps_511": {
+    "2023": 7132401954.0,
+    "2024": 19842128261.0,
+    "2025": 32010324283.0
+  },
+  "cdps_632": {
+    "2023": 5277262515.076922,
+    "2024": 17755047871.76321,
+    "2025": 29774722552.01467
+  },
+  "tncn_nld": {
+    "2023": 14,
+    "2024": 20,
+    "2025": 45
+  }
+}

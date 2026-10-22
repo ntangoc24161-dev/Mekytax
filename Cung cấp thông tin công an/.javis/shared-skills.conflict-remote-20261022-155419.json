@@ -1,0 +1,21 @@
+{
+  "enabled": [
+    "hoa-don-dien-tu",
+    "huong-dan-kiem-tra-chuyen-de",
+    "luat-phong-chong-tham-nhung",
+    "luat-quan-ly-thue",
+    "pdf-sang-md",
+    "phan-tich-ho-so-thue",
+    "quy-che-phoi-hop-kiem-tra-thue",
+    "quy-trinh-hoan-thue",
+    "quy-trinh-kiem-tra-thue",
+    "soan-thao-van-ban",
+    "theo-doi-cung-cap-ca",
+    "thue-gtgt",
+    "thue-tncn",
+    "thue-tndn",
+    "xem-ho-so-thue",
+    "xu-ly-rui-ro-thue-hoa-don"
+  ],
+  "disabled": []
+}
