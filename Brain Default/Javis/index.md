@@ -2,10 +2,10 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 0 agents · 33 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 15 plugins (14 chạy)
+**Tổng quan:** 1 agents · 40 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 15 plugins (14 chạy)
 
 ## Agents
-_(chưa có)_
+- **Van thu bot** (`van-thu-bot`) - 
 
 ## Skills
 ### AI
@@ -14,11 +14,19 @@ _(chưa có)_
 - **Lint Wiki** (`lint-wiki`) - Rà soát sức khoẻ wiki của Second Brain, trả về danh sách vấn đề. Không tự sửa hàng loạt.
 - **Notes** (`notes`) - Lưu tin nhắn hiện tại nguyên văn vào sources/ (kèm ảnh), tự chưng cất lên wiki nếu note đáng.
 - **Query Wiki** (`query-wiki`) - Khai thác tri thức trong Second Brain: tổng hợp, so sánh, giả thuyết. Trả lời có trích dẫn.
+### Claude · Channels
+- **discord-access** (`discord-access`) - Manage Discord access: approve pairings, edit allowlists, set DM/group policy.
+- **discord-configure** (`discord-configure`) - Set up the Discord channel: save the bot token and review access policy.
+- **imessage-access** (`imessage-access`) - Manage iMessage access: approve pairings, edit allowlists, set DM/group policy.
+- **imessage-configure** (`imessage-configure`) - Check iMessage channel setup and review its access policy.
+- **telegram-access** (`telegram-access`) - Manage Telegram access: approve pairings, edit allowlists, set DM/group policy.
+- **telegram-configure** (`telegram-configure`) - Set up the Telegram channel: save the bot token and review access policy.
 ### Marketing
 - **HTML sang Webcake** (`html-to-webcake`) · [TẮT] - Chuyển trang HTML thành file .pke mở được trong trình dựng Webcake, giữ đúng màu, cỡ chữ, ảnh và bố cục của bản gốc.
 ### Năng suất
 - **PaddleOCR** (`paddleocr`) - OCR ảnh và PDF bằng PaddleOCR qua MCP (tool ocr). Bảng/layout: đổi model PP-StructureV3.
 - **PDF sang Markdown** (`pdf-sang-md`) - Chuyển PDF/ảnh scan thành file Markdown (.md) cho Second Brain, giữ heading/bảng, lọc header/footer.
+- **Tổng hợp chứng nhận thi app Thanh niên Việt Nam** (`tong-hop-chung-nhan-thi-app-thanh-nien`) - Tổng hợp ảnh chứng nhận app Thanh niên Việt Nam thành báo cáo đoàn viên đã thi: gộp ảnh trùng người, đếm phần thi, đối chiếu danh sách.
 - **Trạm tài liệu** (`tram-tai-lieu`) - Chuyển PDF/ảnh scan ra Word, Excel, TXT, PDF tìm kiếm được; xoay/ghép/tách trang; so chữ hai file; theo dõi thư mục.
 - **Phân tích câu hỏi sinh đôi và Cheat Sheet ôn thi** (`phan-tich-cau-hoi-sinh-doi-cheat-sheet`) · [TẮT] - Phân tích câu hỏi sinh đôi, tìm keyword cốt lõi, bóc tách bẫy đáp án, lập Cheat Sheet mapping và tóm tắt siêu tốc < 300 từ dạng Word/Excel ôn thi.
 - **Soạn thảo và chuẩn hóa văn bản hành chính** (`soan-thao-van-ban`) · [TẮT] - Dự thảo, rà soát thể thức 29 loại VB hành chính theo NĐ 30/2020, viết hoa, chữ ký số và ký hiệu trình ký TCS3.
@@ -27,7 +35,7 @@ _(chưa có)_
 ### Tài chính
 - **Đối chiếu doanh thu 511 và giá vốn 632** (`doi-chieu-511-632`) · [TẮT] - Đối chiếu sổ chi tiết TK 511 với TK 632 theo Tool_DC_511_632: khớp HĐ/ngày CT/mặt hàng, lãi gộp và bán dưới giá.
 - **Đối chiếu tờ khai GTGT và TNDN chuẩn CBRR** (`doi-chieu-gtgt-tndn-cbrr`) · [TẮT] - Đối chiếu Bảng kê - Tờ khai GTGT - Quyết toán TNDN - HĐĐT gom 1 sheet chuẩn 5 bảng CBRR, bóc tách chênh lệch và xuất Excel.
-- **Đối chiếu NCC mua vào với CVCBRR và danh bạ** (`doi-chieu-ncc-mua-vao-rui-ro`) · [TẮT] - Đối chiếu NCC từ Bảng kê + HĐĐT với CVCBRR F0/F1, Công an, danh bạ; ghi nguồn Bảng kê/HĐĐT/Chung; Bảng 2.3 theo kỳ.
+- **Đối chiếu NCC mua vào với CVCBRR và danh bạ** (`doi-chieu-ncc-mua-vao-rui-ro`) · [TẮT] - Đối chiếu NCC bảng kê mua vào với sổ CVCBRR (F0, F1), sổ Công an và danh bạ NNT gom 1 sheet kèm chi tiết hóa đơn.
 - **Giai đoạn 1 - Kiểm kê & Đánh giá hồ sơ thuế** (`giai-doan-1-kiem-ke-danh-gia`) · [TẮT] - Kiểm kê manifest IN00-IN13, xác định mức hồ sơ A-E, rà soát khả năng chạy 80 quy tắc, xếp danh mục đề nghị DN bổ sung (KQ1).
 - **Giai đoạn 2 - Phân tích dữ liệu cơ quan thuế** (`giai-doan-2-phan-tich-du-lieu-co-quan-thue`) · [TẮT] - Phân tích 57 quy tắc thuế khi chưa có sổ DN: chuẩn hóa IN01-IN07/12, đối chiếu GTGT-TNDN-BCTC, 100% NCC rủi ro, phân loại Chắc/Sơ bộ (KQ2).
 - **Giai đoạn 3 - Hoàn chỉnh hồ sơ & Sổ sách DN** (`giai-doan-3-hoan-chinh-ho-so`) · [TẮT] - Hoàn chỉnh hồ sơ khi có sổ sách DN: 23 quy tắc GĐ3, chuỗi bằng chứng 5 mắt xích, Master 28 tiêu chí 7 cột, đề cương kiểm tra (KQ3).
@@ -70,4 +78,5 @@ _(chưa có)_
 - **Gửi ảnh & file qua Zalo** (`zalo-image`) - bundled/chạy · tools: zalo_send_image · Gửi ẢNH hoặc FILE qua Zalo kèm lời nhắn, bằng chính tài khoản đã quét QR ở trang Kết nối. Bù đúng chỗ MCP chuẩn của zalo-agent-cli còn thiếu - tool zalo_send_message của nó chỉ nhận chữ.
 
 ## Cờ sức khoẻ
+- Agent chưa workflow nào dùng: van-thu-bot
 - Skill đang tắt: doi-chieu-511-632, doi-chieu-gtgt-tndn-cbrr, doi-chieu-ncc-mua-vao-rui-ro, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so, hoa-don-dien-tu, html-to-webcake, luat-phong-chong-tham-nhung, mo-ho-so-ttkt, phan-tich-cau-hoi-sinh-doi-cheat-sheet, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, quan-ly-rui-ro-tuan-thu-thue, soan-thao-van-ban, thue-gtgt, thue-tncn, thue-tndn, tien-trinh-supervisor-tu-dong, tong-hop-ben-mua-tu-so-cvcbrr, tra-cuu-ioffice-dong-nai, tra-loi-cong-van, xu-phat-vphc-thue-hoa-don, lap-ho-so-kiem-tra, xem-ho-so-thue

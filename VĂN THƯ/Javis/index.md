@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 26 agents · 57 skills · 9 workflows (6 bật) · 1 loops (1 bật) · 15 plugins (14 chạy)
+**Tổng quan:** 26 agents · 58 skills · 9 workflows (6 bật) · 2 loops (2 bật) · 15 plugins (14 chạy)
 
 ## Agents
 ### AI
@@ -55,6 +55,7 @@
 - **Trạm tài liệu** (`tram-tai-lieu`) - Chuyển PDF/ảnh scan ra Word, Excel, TXT, PDF tìm kiếm được; xoay/ghép/tách trang; so chữ hai file; theo dõi thư mục.
 ### Tài chính
 - **Bóc tách Bảng tính phân tích tài chính NNT** (`boc-tach-bang-tinh-phan-tich`) - Bóc tách Bảng tính NNT (sheet KQKDSXKD): lấy KQKD theo năm, tính tỷ lệ chi phí/doanh thu, điền phân tích Mục III và đề xuất nội dung kiểm tra DI-01.
+- **Cập nhật sheet GTGT Bảng tính từ tờ khai GTGT quý** (`cap-nhat-sheet-gtgt-bang-tinh-tu-to-khai`) - Đổ số tờ khai GTGT quý vào sheet GTGT của Bảng tính vụ kiểm tra; khớp số dư khấu trừ chuyển kỳ, xóa quý chưa đến hạn, vá merge cell.
 - **Điền biên bản từ Bảng tính** (`dien-bien-ban-tu-bang-tinh`) - Điền BBXN/BBKT từ Bảng tính (DTCHEP), đồng bộ QĐ riêng, chèn ngày công bố/báo cáo và dọn bak/backup.
 - **Đối chiếu doanh thu 511 và giá vốn 632** (`doi-chieu-511-632`) - Đối chiếu sổ chi tiết TK 511 với TK 632 theo Tool_DC_511_632: khớp HĐ/ngày CT/mặt hàng, lãi gộp và bán dưới giá.
 - **Đối chiếu CUP GDLK** (`doi-chieu-cup-gdlk`) - Đối chiếu giao dịch liên kết và độc lập theo phương pháp CUP, kiểm tra giá mua bán và lệch xuất nhập tồn kho.
@@ -112,6 +113,7 @@
 - **Quy trình tiếp nhận và xử lý công văn đến** (`quy-trinh-tiep-nhan-va-xu-ly-cong-van-den`) - active · 2 bước [so-hoa-ocr-cong-van -> phong-van-thu] · OCR công văn đến, vào sổ Văn thư, phân phòng thụ lý và đặt hạn theo độ khẩn
 
 ## Loops
+- **Văn thư điều phối và đôn đốc** (`van-thu-dieu-phoi-don-doc.conflict-remote-20261102-231000`) - bật · custom/full · mỗi 180 phút
 - **Văn thư điều phối và đôn đốc** (`van-thu-dieu-phoi-don-doc`) - bật · custom/full · mỗi 180 phút
 
 ## Plugins (tool/hook native cho mọi engine)
