@@ -5,9 +5,9 @@ origin: javis-learned
 created: 2026-11-02
 updated: 2026-11-02
 ---
-Tính đến ngày 02/11/2026, connector Composio đang hoạt động ở mức quyền `full` và liên kết 4 alias Google Drive:
-- `googledrive_ralph-urbane`: `cungcapthongtin.tcs3tdn@gmail.com` (tài khoản mặc định khi gọi tool không chỉ định account).
-- `googledrive_amala-ensign`: `ntangoc2416.1@gmail.com`.
-- `googledrive_ceile-idly`: `ntangoc2416.1@gmail.com` (trùng tài khoản với amala-ensign).
-- `googledrive_wrack-scale`: Token lỗi 403 thiếu scope quyền đọc profile.
-Khi gọi các tác vụ Google Drive qua Composio cần chỉ định rõ tham số `account` để tránh ghi nhầm vào tài khoản mặc định TCS3.
+Tính đến ngày 02/11/2026, toolkit Google Drive trên Composio có 5 alias:
+- `googledrive_attach-speos`: ntangoc2416@gmail.com (tài khoản mặc định hiện tại, ACTIVE).
+- `googledrive_ralph-urbane`: cungcapthongtin.tcs3tdn@gmail.com (TCS3, ACTIVE).
+- `googledrive_amala-ensign`: ntangoc2416.1@gmail.com (ACTIVE).
+- `googledrive_ceile-idly`: ntangoc2416.1@gmail.com (trùng tài khoản, ACTIVE).
+- `googledrive_wrack-scale`: chưa rõ email do thiếu quyền scope, ACTIVE.
