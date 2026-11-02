@@ -7,9 +7,9 @@ from datetime import datetime
 
 import openpyxl
 
-EXCEL_XLSM = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\Danh sach kiem tra quyet toan - JAVIS PRO.xlsm"
-EXCEL_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\Danh sach kiem tra quyet toan - JAVIS PRO.xlsx"
-FALLBACK_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\Danh sach kiem tra quyet toan.xlsx"
+EXCEL_XLSM = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsm"
+EXCEL_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsx"
+FALLBACK_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan.xlsx"
 
 TRACK_SHEETS = ("01_DA_BAN_HANH", "02_DANG_THUC_HIEN")
 

@@ -21,3 +21,18 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Phạm vi thời gian cung cấp hồ sơ thuế theo giai đoạn cơ quan quản lý]]
+
+## [2026-10-12] ingest | tự học từ chat
+
+Đã tạo:
+- [[Phân loại công văn iOffice khi nhập sổ cung cấp hồ sơ Công an]]
+
+## [2026-10-14] ingest | tự học từ chat
+
+Đã tạo:
+- [[Phân Tổ Kiểm tra phải kiểm tra cơ quan thuế quản lý]]
+
+## [2026-10-15] ingest | tự học từ chat
+
+Đã tạo:
+- [[Ổ I: Google Drive Desktop và đường /mnt/i trên Javis VPS]]

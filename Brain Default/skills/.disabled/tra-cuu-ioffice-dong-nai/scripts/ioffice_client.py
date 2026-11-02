@@ -8,7 +8,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright, Page, BrowserContext
 
 DEFAULT_URL = "https://dongnai.vnptioffice.vn/qlvbdh_dni/main?lang=vi"
-DEFAULT_SESSION_FILE = Path(__file__).resolve().parent.parent / "ioffice_session.json"
+DEFAULT_SESSION_FILE = Path(__file__).resolve().parent.parent.parent.parent / "ioffice_session.json"
 CHROME_PATH = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 
 class IOfficeClient:

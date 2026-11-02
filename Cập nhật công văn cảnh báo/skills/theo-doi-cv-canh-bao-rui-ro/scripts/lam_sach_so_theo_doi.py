@@ -600,11 +600,11 @@ def build_f0_sheet(wb: Workbook, recs):
 
     headers_vn = [
         "STT",
-        "MST bên bán",
-        "Tên công ty bán",
         "Số công văn",
         "Ngày công văn",
         "Đơn vị ban hành",
+        "Tên công ty bán",
+        "MST bên bán",
         "Nội dung chính",
         "Tạm ngưng kê khai",
         "Nhóm nội dung",
@@ -621,11 +621,11 @@ def build_f0_sheet(wb: Workbook, recs):
     ]
     headers_code = [
         "STT",
-        "MSTBan",
-        "TenBan",
         "SoCV",
         "NgayCV",
         "DonViBH",
+        "TenBan",
+        "MSTBan",
         "NoiDung",
         "TamNgung",
         "NhomND",
@@ -646,8 +646,8 @@ def build_f0_sheet(wb: Workbook, recs):
     ws.merge_cells(f"A1:{last_letter}1")
     ws.merge_cells(f"A2:{last_letter}2")
     ws.merge_cells(f"A4:{last_letter}4")
-    ws.merge_cells("B5:C5")
-    ws.merge_cells("D5:F5")
+    ws.merge_cells("B5:D5")
+    ws.merge_cells("E5:F5")
     ws.merge_cells("I5:N5")
     ws.merge_cells("O5:S5")
 
@@ -656,19 +656,19 @@ def build_f0_sheet(wb: Workbook, recs):
     c = ws.cell(2, 1, "Danh sách doanh nghiệp rủi ro bán hàng (F0) do cơ quan thuế và công an cảnh báo.")
     apply_fill(c, FILL_SUB, FONT_SUB, ALIGN_L)
     ws.cell(3, 1, "Đơn vị sử dụng sổ: Chi cục Thuế").font = FONT_TNR
-    ws.cell(3, 4, "Người lập:").font = FONT_TNR
+    ws.cell(3, 6, "Người lập:").font = FONT_TNR
     c = ws.cell(
         4,
         1,
-        "Đọc từ trái sang phải: MST → tên công ty bán → số công văn → ngày → đơn vị ban hành → nội dung → xử lý. "
+        "Đọc từ trái sang phải: số công văn → ngày → đơn vị ban hành → bên bán → nội dung → xử lý. "
         "Đã bỏ cột thông tin bên mua và chi tiết hóa đơn. Phông Times New Roman.",
     )
     c.font = FONT_HINT
 
     groups = [
         (1, "STT", FILL_STT),
-        (2, "ĐƠN VỊ BÁN (F0)", FILL_BAN),
-        (4, "THÔNG TIN CÔNG VĂN", FILL_CV),
+        (2, "THÔNG TIN CÔNG VĂN", FILL_CV),
+        (5, "ĐƠN VỊ BÁN (F0)", FILL_BAN),
         (7, "NỘI DUNG", FILL_ND),
         (8, "TẠM NGƯNG KÊ KHAI", FILL_TN),
         (9, "THEO DÕI XỬ LÝ & LƯU TRỮ", FILL_XL),
@@ -679,8 +679,8 @@ def build_f0_sheet(wb: Workbook, recs):
 
     fills_row6 = (
         [FILL_STT]
-        + [FILL_BAN] * 2
         + [FILL_CV] * 3
+        + [FILL_BAN] * 2
         + [FILL_ND]
         + [FILL_TN]
         + [FILL_XL] * 6
@@ -692,11 +692,11 @@ def build_f0_sheet(wb: Workbook, recs):
 
     widths = {
         1: 8,
-        2: 17,
-        3: 55,
-        4: 23,
-        5: 15,
-        6: 29,
+        2: 23,
+        3: 15,
+        4: 29,
+        5: 55,
+        6: 17,
         7: 45,
         8: 21,
         9: 29,
@@ -720,11 +720,11 @@ def build_f0_sheet(wb: Workbook, recs):
         ngay_nhan = r.get("ngay_nhan")
         vals = [
             idx,
-            r.get("mst") or None,
-            r.get("ten") or None,
             r.get("so_cv") or None,
             ngay if isinstance(ngay, datetime) else None,
             r.get("don_vi_bh") or None,
+            r.get("ten") or None,
+            r.get("mst") or None,
             r.get("noi_dung") or None,
             r.get("tam_ngung") or None,
             r.get("nhom_nd") or None,
@@ -742,9 +742,9 @@ def build_f0_sheet(wb: Workbook, recs):
         for c, v in enumerate(vals, 1):
             cell = ws.cell(row, c, v)
             cell.font = FONT_TNR
-            if c in (5, 11) and isinstance(v, datetime):
+            if c in (3, 11) and isinstance(v, datetime):
                 cell.number_format = "DD/MM/YYYY"
-            if c in (1, 2, 15, 18, 19):
+            if c in (1, 6, 15, 18, 19):
                 cell.alignment = Alignment(horizontal="center", vertical="center")
         if idx % 4000 == 0:
             log(f"  F0 wrote {idx}/{len(recs)}")
@@ -765,11 +765,11 @@ def build_f1_sheet(wb: Workbook, recs):
 
     headers_vn = [
         "STT",
-        "MST bên bán",
-        "Tên công ty bán",
         "Số công văn",
         "Ngày công văn",
         "Đơn vị ban hành",
+        "Tên công ty bán",
+        "MST bên bán",
         "Nội dung chính",
         "Tên công ty mua",
         "MST bên mua",
@@ -792,11 +792,11 @@ def build_f1_sheet(wb: Workbook, recs):
     ]
     headers_code = [
         "STT",
-        "MSTBan",
-        "TenBan",
         "SoCV",
         "NgayCV",
         "DonViBH",
+        "TenBan",
+        "MSTBan",
         "NoiDung",
         "TenMua",
         "MSTMua",
@@ -821,8 +821,8 @@ def build_f1_sheet(wb: Workbook, recs):
     ws.merge_cells("A1:Y1")
     ws.merge_cells("A2:Y2")
     ws.merge_cells("A4:Y4")
-    ws.merge_cells("B5:C5")
-    ws.merge_cells("D5:F5")
+    ws.merge_cells("B5:D5")
+    ws.merge_cells("E5:F5")
     ws.merge_cells("H5:I5")
     ws.merge_cells("K5:N5")
     ws.merge_cells("O5:T5")
@@ -833,19 +833,19 @@ def build_f1_sheet(wb: Workbook, recs):
     c = ws.cell(2, 1, "Danh sách doanh nghiệp mua hàng liên quan đến hóa đơn rủi ro (F1) cần rà soát, kiểm tra.")
     apply_fill(c, FILL_SUB, FONT_SUB, ALIGN_L)
     ws.cell(3, 1, "Đơn vị sử dụng sổ: Chi cục Thuế").font = FONT_TNR
-    ws.cell(3, 4, "Người lập:").font = FONT_TNR
+    ws.cell(3, 6, "Người lập:").font = FONT_TNR
     c = ws.cell(
         4,
         1,
-        "Đọc từ trái sang phải: MST/tên bên bán → số công văn → ngày → đơn vị ban hành → nội dung → bên mua rà soát → xử lý. "
+        "Đọc từ trái sang phải: số công văn → ngày → đơn vị ban hành → bên bán liên quan → bên mua rà soát → xử lý. "
         "Phông Times New Roman.",
     )
     c.font = FONT_HINT
 
     groups = [
         (1, "STT", FILL_STT),
-        (2, "ĐƠN VỊ BÁN LIÊN QUAN (F0)", FILL_BAN),
-        (4, "THÔNG TIN CÔNG VĂN", FILL_CV),
+        (2, "THÔNG TIN CÔNG VĂN", FILL_CV),
+        (5, "ĐƠN VỊ BÁN LIÊN QUAN (F0)", FILL_BAN),
         (7, "NỘI DUNG", FILL_ND),
         (8, "ĐƠN VỊ MUA — ĐỐI TƯỢNG RÀ SOÁT (F1)", FILL_MUA),
         (10, "TẠM NGƯNG KÊ KHAI", FILL_TN),
@@ -858,8 +858,8 @@ def build_f1_sheet(wb: Workbook, recs):
 
     fills_row6 = (
         [FILL_STT]
-        + [FILL_BAN] * 2
         + [FILL_CV] * 3
+        + [FILL_BAN] * 2
         + [FILL_ND]
         + [FILL_MUA] * 2
         + [FILL_TN]
@@ -873,11 +873,11 @@ def build_f1_sheet(wb: Workbook, recs):
 
     widths = {
         1: 8,
-        2: 17,
-        3: 45,
-        4: 23,
-        5: 15,
-        6: 29,
+        2: 23,
+        3: 15,
+        4: 29,
+        5: 45,
+        6: 17,
         7: 40,
         8: 46,
         9: 17,
@@ -907,11 +907,11 @@ def build_f1_sheet(wb: Workbook, recs):
         ngay_nhan = r.get("ngay_nhan")
         vals = [
             idx,
-            r.get("mst_ban") or None,
-            r.get("ten_ban") or None,
             r.get("so_cv") or None,
             ngay if isinstance(ngay, datetime) else None,
             r.get("don_vi_bh") or None,
+            r.get("ten_ban") or None,
+            r.get("mst_ban") or None,
             r.get("noi_dung") or None,
             r.get("ten") or None,
             r.get("mst") or None,
@@ -935,7 +935,7 @@ def build_f1_sheet(wb: Workbook, recs):
         for c, v in enumerate(vals, 1):
             cell = ws.cell(row, c, v)
             cell.font = FONT_TNR
-            if c in (5, 17) and isinstance(v, datetime):
+            if c in (3, 17) and isinstance(v, datetime):
                 cell.number_format = "DD/MM/YYYY"
             if c in (1, 6, 9, 21, 24, 25):
                 cell.alignment = Alignment(horizontal="center", vertical="center")

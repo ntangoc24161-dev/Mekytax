@@ -70,79 +70,71 @@ def append_records_to_sheet(ws, records, font_tnr):
         "THUẾ THÀNH PHỐ ĐỒNG NAI": "Thuế thành phố Đồng Nai",
     }
 
-    # Layout moi (2026-10-09): MSTBan + TenBan dung truoc thong tin cong van.
-    # F0 (19 cot): STT MSTBan TenBan SoCV NgayCV DonViBH NoiDung TamNgung NhomND
-    #              DiaChi NgayNhan TinhTrang GhiChu File NamCV Trung KhoaCV CVDau MSTDau
-    # F1 (25 cot): STT MSTBan TenBan SoCV NgayCV DonViBH NoiDung TenMua MSTMua TamNgung
-    #              KyKK SoHD DoanhThu ThueGTGT NhomND DiaChi NgayNhan TinhTrang GhiChu
-    #              File NamCV Trung KhoaCV CVDau MSTDau
-    is_f0 = (ws.title or "").upper() == "F0"
-
     for rec in records:
+        # Cột 1: STT
+        ws.cell(current_row, 1, current_stt)
+        # Cột 2: Số công văn (SoCV)
+        ws.cell(current_row, 2, rec.get("so_cv") or rec.get("SoCV"))
+        # Cột 3: Ngày công văn (NgayCV)
         ngay_cv = parse_date(rec.get("ngay_cv") or rec.get("NgayCV"))
+        ws.cell(current_row, 3, ngay_cv)
+        # Cột 4: Đơn vị ban hành (DonViBH)
         dv_raw = str(rec.get("don_vi_bh") or rec.get("DonViBH") or "").strip()
         dv_val = MAP_DON_VI.get(dv_raw.upper(), dv_raw)
+        ws.cell(current_row, 4, dv_val)
+        # Cột 5: Tên công ty bán (TenBan)
+        ws.cell(current_row, 5, rec.get("ten_ban") or rec.get("TenBan"))
+        # Cột 6: MST bên bán (MSTBan)
+        ws.cell(current_row, 6, rec.get("mst_ban") or rec.get("MSTBan"))
+        # Cột 7: Nội dung chính (NoiDung)
+        ws.cell(current_row, 7, rec.get("noi_dung") or rec.get("NoiDung"))
+        # Cột 8: Tên công ty mua (TenMua)
+        ws.cell(current_row, 8, rec.get("ten_mua") or rec.get("TenMua"))
+        # Cột 9: MST bên mua (MSTMua)
+        ws.cell(current_row, 9, rec.get("mst_mua") or rec.get("MSTMua"))
+        # Cột 10: Tạm ngưng kê khai (TamNgung)
+        ws.cell(current_row, 10, rec.get("tam_ngung") or rec.get("TamNgung"))
+        # Cột 11: Kỳ kê khai (KyKK)
+        ws.cell(current_row, 11, rec.get("ky_kk") or rec.get("KyKK"))
+        # Cột 12: Số hóa đơn (SoHD)
+        ws.cell(current_row, 12, rec.get("so_hd") or rec.get("SoHD"))
+        # Cột 13: Doanh thu (DoanhThu)
+        ws.cell(current_row, 13, parse_number(rec.get("doanh_thu") or rec.get("DoanhThu")))
+        # Cột 14: Tiền thuế GTGT (ThueGTGT)
+        ws.cell(current_row, 14, parse_number(rec.get("thue_gtgt") or rec.get("ThueGTGT")))
+        # Cột 15: Nhóm nội dung (NhomND)
+        ws.cell(current_row, 15, rec.get("nhom_nd") or rec.get("NhomND") or "Dấu hiệu rủi ro về thuế")
+        # Cột 16: Địa chỉ bên bán (DiaChi)
+        ws.cell(current_row, 16, rec.get("dia_chi") or rec.get("DiaChi"))
+        # Cột 17: Ngày nhận (NgayNhan)
         ngay_nhan = parse_date(rec.get("ngay_nhan") or rec.get("NgayNhan"))
+        ws.cell(current_row, 17, ngay_nhan)
+        # Cột 18: Tình trạng rà soát (TinhTrang)
+        ws.cell(current_row, 18, rec.get("tinh_trang") or rec.get("TinhTrang"))
+        # Cột 19: Ghi chú (GhiChu)
+        ws.cell(current_row, 19, rec.get("ghi_chu") or rec.get("GhiChu"))
+        # Cột 20: Đường dẫn file (File)
+        ws.cell(current_row, 20, rec.get("file") or rec.get("File"))
+        # Cột 21: Năm công văn (NamCV)
         nam_cv = rec.get("nam_cv") or rec.get("NamCV")
         if not nam_cv and isinstance(ngay_cv, datetime):
             nam_cv = ngay_cv.year
+        ws.cell(current_row, 21, nam_cv)
+        # Cột 22: Dòng trùng (Trung)
+        ws.cell(current_row, 22, rec.get("trung") or rec.get("Trung"))
+        # Cột 23: Khóa công văn (KhoaCV)
+        ws.cell(current_row, 23, rec.get("khoa_cv") or rec.get("KhoaCV"))
+        # Cột 24: CV đầu tiên (CVDau) - 1 hoặc None
         cv_dau = rec.get("cv_dau") if "cv_dau" in rec else rec.get("CVDau")
+        ws.cell(current_row, 24, 1 if cv_dau in (1, "1", True) else None)
+        # Cột 25: MST đầu tiên (MSTDau) - 1 hoặc None
         mst_dau = rec.get("mst_dau") if "mst_dau" in rec else rec.get("MSTDau")
+        ws.cell(current_row, 25, 1 if mst_dau in (1, "1", True) else None)
 
-        if is_f0:
-            vals = [
-                current_stt,
-                rec.get("mst_ban") or rec.get("MSTBan") or rec.get("mst"),
-                rec.get("ten_ban") or rec.get("TenBan") or rec.get("ten"),
-                rec.get("so_cv") or rec.get("SoCV"),
-                ngay_cv,
-                dv_val,
-                rec.get("noi_dung") or rec.get("NoiDung"),
-                rec.get("tam_ngung") or rec.get("TamNgung"),
-                rec.get("nhom_nd") or rec.get("NhomND") or "Dấu hiệu rủi ro về thuế",
-                rec.get("dia_chi") or rec.get("DiaChi"),
-                ngay_nhan,
-                rec.get("tinh_trang") or rec.get("TinhTrang"),
-                rec.get("ghi_chu") or rec.get("GhiChu"),
-                rec.get("file") or rec.get("File"),
-                nam_cv,
-                rec.get("trung") or rec.get("Trung"),
-                rec.get("khoa_cv") or rec.get("KhoaCV"),
-                1 if cv_dau in (1, "1", True) else None,
-                1 if mst_dau in (1, "1", True) else None,
-            ]
-        else:
-            vals = [
-                current_stt,
-                rec.get("mst_ban") or rec.get("MSTBan"),
-                rec.get("ten_ban") or rec.get("TenBan"),
-                rec.get("so_cv") or rec.get("SoCV"),
-                ngay_cv,
-                dv_val,
-                rec.get("noi_dung") or rec.get("NoiDung"),
-                rec.get("ten_mua") or rec.get("TenMua"),
-                rec.get("mst_mua") or rec.get("MSTMua"),
-                rec.get("tam_ngung") or rec.get("TamNgung"),
-                rec.get("ky_kk") or rec.get("KyKK"),
-                rec.get("so_hd") or rec.get("SoHD"),
-                parse_number(rec.get("doanh_thu") or rec.get("DoanhThu")),
-                parse_number(rec.get("thue_gtgt") or rec.get("ThueGTGT")),
-                rec.get("nhom_nd") or rec.get("NhomND") or "Dấu hiệu rủi ro về thuế",
-                rec.get("dia_chi") or rec.get("DiaChi"),
-                ngay_nhan,
-                rec.get("tinh_trang") or rec.get("TinhTrang"),
-                rec.get("ghi_chu") or rec.get("GhiChu"),
-                rec.get("file") or rec.get("File"),
-                nam_cv,
-                rec.get("trung") or rec.get("Trung"),
-                rec.get("khoa_cv") or rec.get("KhoaCV"),
-                1 if cv_dau in (1, "1", True) else None,
-                1 if mst_dau in (1, "1", True) else None,
-            ]
-
-        for c, v in enumerate(vals, 1):
-            cell = ws.cell(current_row, c, v)
-            if v is not None:
+        # Định dạng phông chữ Times New Roman
+        for c in range(1, 26):
+            cell = ws.cell(current_row, c)
+            if cell.value is not None:
                 cell.font = font_tnr
 
         current_row += 1

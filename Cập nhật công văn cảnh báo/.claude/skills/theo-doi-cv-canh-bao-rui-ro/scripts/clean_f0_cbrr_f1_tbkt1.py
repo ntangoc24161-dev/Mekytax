@@ -332,17 +332,16 @@ def read_data_rows(ws):
 
 
 def rec_to_row(rec: dict) -> list:
-    # Layout moi: STT MSTBan TenBan SoCV NgayCV DonViBH NoiDung TenMua MSTMua ...
     ngay = rec.get("NgayCV")
     nam = ngay.year if isinstance(ngay, datetime) else None
     socv = rec.get("SoCV") or ""
     khoa = f"{socv}_{nam}" if socv and nam else (socv or None)
     row = [None] * NCOLS
-    row[1] = rec.get("MSTBan")
-    row[2] = rec.get("TenBan")
-    row[3] = rec.get("SoCV")
-    row[4] = rec.get("NgayCV")
-    row[5] = rec.get("DonViBH")
+    row[1] = rec.get("SoCV")
+    row[2] = rec.get("NgayCV")
+    row[3] = rec.get("DonViBH")
+    row[4] = rec.get("TenBan")
+    row[5] = rec.get("MSTBan")
     row[6] = rec.get("NoiDung")
     row[7] = rec.get("TenMua")
     row[8] = rec.get("MSTMua")
@@ -365,14 +364,14 @@ def recompute_flags(rows, mst_col_idx: int):
         if len(r) < NCOLS:
             r.extend([None] * (NCOLS - len(r)))
         r[0] = i
-        socv = as_text(r[3]).upper()
-        ngay = r[4]
+        socv = as_text(r[1]).upper()
+        ngay = r[2]
         nam = r[20]
         if not nam and isinstance(ngay, datetime):
             nam = ngay.year
             r[20] = nam
         if socv and nam and not r[22]:
-            r[22] = f"{as_text(r[3])}_{nam}"
+            r[22] = f"{as_text(r[1])}_{nam}"
         if socv and socv not in seen_cv:
             seen_cv.add(socv)
             r[23] = 1
@@ -392,8 +391,8 @@ def write_rows(ws, rows):
     tmpl = [ws.cell(HEADER_ROWS + 1, c) for c in range(1, NCOLS + 1)]
     old_n = ws.max_row - HEADER_ROWS
     new_n = len(rows)
-    date_cols = {5, 17}
-    mst_cols = {2, 9}
+    date_cols = {3, 17}
+    mst_cols = {6, 9}
     for i, row in enumerate(rows):
         r = HEADER_ROWS + 1 + i
         for c in range(1, NCOLS + 1):
@@ -454,8 +453,8 @@ def main():
 
     new_f0 = keep_f0 + [rec_to_row(x) for x in cbrr]
     new_f1 = keep_f1 + [rec_to_row(x) for x in tb]
-    new_f0, cv0, mst0 = recompute_flags(new_f0, 1)  # MSTBan
-    new_f1, cv1, mst1 = recompute_flags(new_f1, 8)  # MSTMua
+    new_f0, cv0, mst0 = recompute_flags(new_f0, 5)
+    new_f1, cv1, mst1 = recompute_flags(new_f1, 8)
 
     log("[4] Ghi lai sheet F0 / F1...")
     o0, n0 = write_rows(ws0, new_f0)

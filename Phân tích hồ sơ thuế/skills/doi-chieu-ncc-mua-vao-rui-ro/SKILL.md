@@ -1,108 +1,81 @@
 ---
 name: Đối chiếu NCC mua vào với CVCBRR và danh bạ
-description: Đối chiếu NCC từ Bảng kê + HĐĐT với CVCBRR F0/F1, Công an, danh bạ; ghi nguồn Bảng kê/HĐĐT/Chung; Bảng 2.3 theo kỳ.
+description: Đối chiếu NCC bảng kê mua vào với sổ CVCBRR (F0, F1), sổ Công an và danh bạ NNT gom 1 sheet kèm chi tiết hóa đơn.
 group: Tài chính
 origin: javis-learned
 status: active
 created: 2026-09-30
-updated: '2026-10-09'
-learned_updated: '2026-10-07'
+updated: '2026-10-29'
+learned_updated: '2026-10-29'
 ---
-> **Hợp đồng đầu ra v1.4:** module nội bộ. Kết quả ghi vào sheet đích của sáu tệp KQ (xem skills/phan-tich-ho-so-thue/playbook-lenh-theo-buoc.md). Không giao tệp chuyên đề Tong_hop_*/Doi_chieu_* / Master 8 sheet như sản phẩm.
-
 ## Khi nào dùng
 
-- Đối chiếu nhà cung cấp / bên bán trên **Bảng kê mua vào** và **HĐĐT mua vào (CQ thuế)** với Sổ CVCBRR (F0, F1), Sổ Công an (`Bao_cao_cong_van.xlsx`) và Danh bạ NNT.
-- Xuất Master sheet `Tong_hop_NCC_CVCBRR` hoặc file riêng `Tong_hop_NCC_mua_vao_CV_trang_thai_*.xlsx` (có Bảng 2.1 / 2.2 / 2.3 + Phần 3).
+- Đối chiếu nhà cung cấp / bên bán trên bảng kê **mua vào** với Sổ CVCBRR (F0, F1), Sổ Công an (`Bao_cao_cong_van.xlsx`) và Danh bạ NNT.
+- Kiểm tra công ty đang xét có nằm trong báo cáo công văn (F0, F1, sổ Công an) hay không.
+- Xuất file Excel chuẩn 2 sheet: `Tong_hop_doi_chieu` + `Chi_tiet_hoa_don`.
 - So khớp với bản chuẩn Vạn Phát Thành khi nghi file bị rút gọn.
+- User báo danh bạ đã cập nhật và yêu cầu chạy lại.
+- User hỏi vì sao một NCC bị xếp F0/Công an: mở lại file kết quả, dẫn đúng dòng, cột nguồn và số công văn.
 
 ## Chuẩn bị
 
-1. **Bảng kê mua vào**: `Bang_ke_mua_vao_ban_ra_tong_hop_*.xlsx` (sheet `mua vao` đã gộp, đã lọc dòng Tổng cộng).
-2. **HĐĐT mua vào**: file HĐĐT portal / hệ thống CQ thuế (sheet mua vào đã lọc HĐ hủy/thay thế khi cần).
-3. **Sổ CVCBRR**: `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx` (F0 bên bán, F1 bên mua).
-4. **Sổ Công an**: `Bao_cao_cong_van.xlsx`.
-5. **Danh bạ NNT**: trạng thái ĐKKD.
+1. **Bảng kê mua vào**: `Bang_ke_mua_vao_ban_ra_tong_hop_*.xlsx` (sheet `mua vao` đã gộp, đã lọc dòng Tổng cộng), hoặc file **IN02** (`IN02_BangKe_*.xlsx`) nếu hồ sơ đã tổng hợp theo mẫu IN02. Với IN02 chỉ lấy dòng có `Tinh_vao_tong` = Có.
+2. **Sổ CVCBRR**: `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx` (F0 bên bán, F1 bên mua).
+3. **Sổ Công an**: `Bao_cao_cong_van.xlsx`.
+4. **Danh bạ NNT** (thư mục 3.2): trạng thái ĐKKD, ngày đóng MST và ngày tạm ngừng.
+5. Nếu thư mục 3.1 của hồ sơ trống, dùng sổ CVCBRR và sổ Công an dùng chung trên Drive của user, rồi ghi rõ nguồn trong báo cáo.
 
-## Quy tắc nguồn dữ liệu (bắt buộc)
+## Cách chạy / Quy trình xuất
 
-- Chạy rủi ro NCC trên **cả hai nguồn**: Bảng kê và HĐĐT.
-- **Một bảng duy nhất** cho danh sách NCC (không tách 2 bảng riêng theo nguồn).
-- Cột **`Nguồn dữ liệu`** ghi đúng một trong ba giá trị:
-  - `Bảng kê` - chỉ có trên bảng kê công ty
-  - `HĐĐT` - chỉ có trên HĐĐT CQ thuế
-  - `Chung` - có ở cả hai nguồn
-- Có thêm cột đếm `Số dòng BK` / `Số dòng HĐĐT` (và/hoặc checkbox Có trong Bảng kê? / Có trong HĐĐT?) để kiểm chứng nhanh.
+File Excel gồm 2 sheet, font **Times New Roman**:
 
-## Cách chạy / Quy trình xuất (v1.4 vòng 2, 19/10/2026)
+### 1. Sheet `Tong_hop_doi_chieu`
+- **Phần 1:** Đối chiếu NNT đang xét với F0, F1 và Sổ Công an, tra theo cả MST và tên; ghi kết luận an toàn/có cảnh báo. Nếu danh bạ không có MST của chính NNT, ghi "cần tra riêng trạng thái ĐKKD".
+- **Phần 2:**
+  - **Bảng 2.1 (F0):** NCC dính công văn cảnh báo (khoảng 18 cột: Số dòng BK, Năm phát sinh, Từ/Đến ngày HĐ, Mặt hàng chính, Tình trạng F0, Số CV, Ngày CV, Đơn vị ban hành, Nội dung cảnh báo, Trạng thái ĐKKD...).
+  - **Bảng 2.2:** Liệt kê **100% NCC** trên bảng kê mua vào (bình thường + bất thường), có dòng **Tổng cộng toàn bộ**; đánh dấu nhóm trạng thái ĐKKD bất thường. **Cấm** chỉ giữ nhóm bất thường.
+  - Phân nhóm NCC: A dính cảnh báo; B ĐKKD bất thường; C là bên mua trong F1; D không có MST (cá nhân); E **chưa có dữ liệu danh bạ**; G đang hoạt động, không cảnh báo.
+  - Nhóm A phải ghi **nguồn cụ thể từng NCC** ("F0 - sổ CVCBRR" hoặc "Công an - sổ Công an", kèm số và ngày công văn). Nhãn nhóm không được gộp kiểu "F0/Công an"; nếu cần tách thành A1 - F0 và A2 - Công an.
+- **Phần 3 (bắt buộc):** (1) Đánh giá rủi ro NNT, (2) Đánh giá rủi ro NCC theo nhóm, (3) Đề xuất trọng tâm kiểm tra chứng từ, (4) Hạn chế dữ liệu (độ phủ danh bạ, nguồn sổ đã dùng).
 
-Font **Times New Roman**, chữ đứng (không in nghiêng), tiêu đề cột in đậm. Ghi vào hai sheet của bộ KQ1.4: `IN07_NCC_CanhBao` (KQ2.1, tổng hợp theo NCC) và `KQ2_NCC_mua_vao` (KQ2.1, chi tiết theo hóa đơn). Không còn xuất `Tong_hop_NCC_CVCBRR`/`BM04`/file riêng làm sản phẩm giao.
+### 2. Sheet `Chi_tiet_hoa_don`
+- Toàn bộ dòng HĐ mua vào trong kỳ, sắp **`Ngay_HD` tăng dần**.
+- Đủ khoảng **20 cột**, gồm nhóm chứng từ kế toán (`Loại chứng từ`, `Số chứng từ`, `Ngày chứng từ`), nhóm F0 (`Cảnh báo F0`, `Số CV F0`, `Đơn vị ban hành`, `Nội dung cảnh báo`) và cột `Trạng thái hoạt động ĐKKD` riêng (không gộp nhầm vào ghi chú số tiền).
+- Đầu vào là IN02 hoặc bảng kê thì không có sổ chứng từ. Khi đó để trống nhóm chứng từ và ghi rõ lý do trong Phần 3, không bịa số chứng từ.
 
-### 1. `IN07_NCC_CanhBao` - tổng hợp theo NCC (một dòng/NCC)
-
-- **Quy tắc xếp mức K2 (15/10/2026):**
-  - F0 = công ty bị cảnh báo rủi ro hoặc trong danh sách mua bán hóa đơn của Công an (CA).
-  - F1 = công ty mua hàng có sử dụng hóa đơn của F0 (tầng hai).
-  - **Mức rủi ro:** NCC thuộc F0 xếp **Cao**; NCC thuộc F1 (tầng hai) cũng xếp mức **Cao**. NNT đang kiểm tra thuộc F1 nghĩa là đã mua hàng từ F0 → ghi nhận phát hiện **Cao** của quy tắc `HD01`.
-  - Cột `Nhom_F` (F0/F1) và `Nguon_F0` (CANH_BAO/CA).
-- Liệt kê **100% NCC** (union Bảng kê ∪ HĐĐT), có dòng **Tổng cộng toàn bộ** ở CUỐI bảng (cách 1 dòng trống, không chèn giữa dữ liệu - Q19/lỗi dòng 147 TT_BIEN_HOA); đánh dấu nhóm trạng thái ĐKKD bất thường. **Cấm** chỉ giữ nhóm bất thường.
-- Cột `Nguồn dữ liệu` ∈ {Bảng kê, HĐĐT, Chung}; thêm `Số dòng BK` / `Số dòng HĐĐT`.
-
-### 2. `KQ2_NCC_mua_vao` - MỘT bảng chi tiết hóa đơn duy nhất (bổ sung/thay thế 19/10/2026 vòng 2)
-
-Thay cho Bảng 2.1/2.2/2.3 cũ (gây lẫn 2 bảng không phân cách - lỗi dòng 147/148 TT_BIEN_HOA): một bảng phẳng, **mỗi dòng = một hóa đơn mua vào**, lấy **100% hóa đơn hợp lệ** (không chỉ NCC rủi ro) - đây là bảng khai triển chi tiết của `IN07_NCC_CanhBao`.
-
-Cột bắt buộc: MST người bán (chuẩn hóa), Tên người bán, Số HĐ, Ngày HĐ (`dd/mm/yyyy`, không giờ), Mặt hàng, Giá trị chưa thuế, Thuế GTGT, Nguồn dữ liệu (Bảng kê/HĐĐT/Chung), Có công văn cảnh báo? (Có/Không + số CV nếu có), Nhóm rủi ro (F0/F1/Không, lấy từ IN07 của chính người bán đó), Trạng thái ĐKKD (Đang hoạt động/Bỏ địa chỉ kinh doanh/Ngừng kinh doanh/Khác).
-
-Sắp **`Ngày HĐ` tăng dần** theo từng người bán, hoặc theo người bán rồi theo ngày (nêu rõ cách sắp ở đầu sheet). Nếu cần dòng Tổng cộng: cuối bảng, cách 1 dòng trống.
-
-**HD04 - tỷ trọng Top-5 NCC (P14, mặc định 50%) bắt buộc giữ.** Không dùng công thức `LARGE` trên cột giá trị của bảng chi tiết hóa đơn (sai vì Top-5 là theo người bán, không theo dòng HĐ). Cách tính đúng: gộp tổng mua theo MST người bán (pivot/code), lấy 5 NCC lớn nhất / tổng mua kỳ kiểm tra, ghi số vào ô tỷ trọng Top-5 và cờ `Vượt ngưỡng` | `Không vượt` | `Chưa đủ nguồn` (ô H5 để `KQ2_Tong_hop_co` đọc). Được thêm một bảng Top-5 ngắn (MST, tên, giá trị, tỷ trọng) cách bảng hóa đơn bằng 1 dòng trống.
-
-### 3. Phần đánh giá (ngoại lệ 3.4 skill trục, bắt buộc có ở `KQ2_NCC_mua_vao`)
-
-Khối narrative ở đầu hoặc cuối sheet `KQ2_NCC_mua_vao` (cách bảng chi tiết bằng dòng trống rõ ràng):
-- **Phần 1:** Đối chiếu NNT đang xét với F1 và Sổ Công an; ghi kết luận an toàn/có cảnh báo.
-- **Phần 3:** (1) Đánh giá rủi ro NNT, (2) Đánh giá rủi ro NCC theo nhóm, (3) Đề xuất trọng tâm kiểm tra chứng từ (ưu tiên NCC lệch số liệu giữa 2 nguồn, NCC chỉ có một phía, cụm HĐ cùng ngày vượt ngưỡng tiền mặt). Đây là nhận xét module (3.4), KHÔNG phải kết luận hồ sơ - mức rủi ro/điểm/đề cương cuối cùng vẫn chỉ ở KQ3.
-
-## Định dạng số tiền (bắt buộc)
-
-- **Hiển thị** (chat, Markdown, báo cáo, ô text): chuẩn Việt Nam - dấu `.` phân cách hàng nghìn, dấu `,` phần lẻ. Ví dụ: `1.234.567` hoặc `1.234.567,89`.
-- **Excel số thật** (openpyxl `number_format`): dùng mã invariant `#,##0` (nguyên) hoặc `#,##0.00` (có phần lẻ). Excel locale VN sẽ hiện thành dấu `.` / `,`. Không mô tả nhầm là "dấu phẩy ngăn cách hàng nghìn".
-- **Tỷ lệ %**: hiển thị `12,34%` (dấu `,` phần lẻ).
-- Cấm dạng Mỹ `1,234,567.89` trong câu trả lời / báo cáo tiếng Việt.
+### 3. Khi user yêu cầu chạy lại với danh bạ mới
+- Trước khi chạy, so file danh bạ trên Drive với bản đã dùng (thời gian sửa, md5). Giống hệt thì báo user là chưa có bản mới, đừng chạy lại ra kết quả cũ.
+- Có bản mới thì chạy lại, ghi đè file kết quả và báo bảng so sánh từng nhóm A-G trước/sau, kèm độ phủ danh bạ mới (số MST tra được).
 
 ## Bẫy
 
-- **Bẫy rút gọn:** `KQ2_NCC_mua_vao` chỉ xuất NCC bất thường thay vì 100% hóa đơn, hoặc cắt Phần 1/3 -> mất dấu vết lệch giữa Bảng kê và HĐĐT.
-- Chỉ chạy trên Bảng kê mà bỏ HĐĐT (hoặc ngược lại) khi cả hai nguồn đều có.
-- Tách `KQ2_NCC_mua_vao` thành nhiều bảng rời theo nguồn hoặc theo nhóm rủi ro thay vì 1 bảng phẳng + cột `Nguồn dữ liệu`/`Nhóm rủi ro`.
-- Chèn dòng Tổng cộng hoặc header phụ giữa vùng dữ liệu không có dòng trống ngăn cách (lỗi dòng 147/148 TT_BIEN_HOA 19/10) - dòng Tổng cộng (nếu có) luôn ở cuối, cách 1 dòng trống.
-- Nhầm F1 (bên mua) với F0 (bên bán).
-- Khớp sót MST có/không gạch nhánh (chuẩn hóa 10 và 13 số; bổ sung 0 đầu theo CD1 BT6 trước khi map F0/danh bạ).
-- Sort chi tiết theo MST thay vì `Ngày HĐ` khi mục tiêu là truy ngược thời gian.
+- **Bẫy rút gọn:** chỉ xuất NCC bất thường / cắt Phần 3 / thiếu cột chứng từ-F0 -> mất NCC chủ lực (ví dụ T&T từng thiếu 108 NCC ~99,5% doanh số).
+- Nhầm F1 (bên mua) với F0 (bên bán). Một NCC vừa có ĐKKD bất thường vừa nằm trong F1 (vd Điện Lực Trảng Bom ở hồ sơ PHL) phải nêu cả hai.
+- **Gộp F0 với Công an trong một nhãn:** nhãn "A - Có công văn cảnh báo (F0/Công an)" khiến người đọc hiểu NCC có công văn F0 trong khi thực tế chỉ có trong sổ Công an (vd Toàn Việt 3601946862 ở hồ sơ PHL, CV 2808/YC-CSKT ngày 03/04/2026 của Cơ quan CSĐT Công an tỉnh Đồng Nai). Khi trả lời user, nói đúng nguồn từng NCC; nếu chưa đối chiếu hết sổ CVCBRR thì nói rõ là chưa loại trừ F0.
+- Khớp sót MST có/không gạch nhánh (chuẩn hóa 10 và 13 số).
+- **Danh bạ không phủ hết NCC:** NCC không tra được thì xếp nhóm E "chưa có dữ liệu", **không** coi là đang hoạt động. Ví dụ PHL: danh bạ cũ chỉ có 86 MST, 166/198 NCC (104,76 tỷ) chưa rõ trạng thái; danh bạ mới phủ 193/197 thì nhóm E còn 4 NCC.
+- **Không dùng cột trạng thái trong file tổng hợp đối tác của NNT** (vd `Tong_hop_danh_sach_doi_tac...` ghi "Đang hoạt động (Khớp danh bạ)") vì có thể mâu thuẫn với danh bạ thật. Luôn lấy trạng thái từ danh bạ gốc.
+- **HĐ lập sau ngày đóng/ngừng:** so `Ngay_HD` với ngày đóng trong danh bạ và liệt kê riêng các HĐ lập sau ngày đó.
+- **Ngày đóng MST khác ngày tạm ngừng:** danh bạ có thể cho cả ngày đóng MST lẫn ngày bắt đầu tạm ngừng. Đừng gộp vào một cột "Ngày đóng/ngừng" rồi chỉ kiểm theo ngày đóng: HĐ lập trong thời gian tạm ngừng sẽ bị sót. Tách 2 cột và kiểm cả hai, hoặc ghi rõ trong Phần 3 là chưa kiểm phần tạm ngừng.
+- **Ngày đóng đổi giữa các bản danh bạ:** ví dụ Điện Lực Trảng Bom từ 25/06/2025 sang 17/09/2025 làm số HĐ sau ngày đóng từ 2 về 0. Luôn ghi bản danh bạ đã dùng.
+- **NCC cá nhân không MST:** sổ Công an tra theo MST nên không khớp tự động; phải dò thêm theo tên và ghi "cần xác minh".
+- Sort `Chi_tiet` theo MST thay vì `Ngay_HD`.
 - Ô text bắt đầu bằng `=` gây lỗi Removed Records Formula.
-- Bỏ qua cụm nhiều HĐ cùng ngày cùng NCC vượt ngưỡng thanh toán không dùng tiền mặt (20tr đến 06/2025, 5tr từ 07/2025) khi đề xuất trọng tâm kiểm tra UNC.
 
 ## Kiểm chứng
 
-- Tổng doanh số mọi NCC trên `IN07_NCC_CanhBao` khớp union nguồn đã dùng (ghi rõ nếu một phía thiếu phủ).
-- `KQ2_NCC_mua_vao` có đủ 100% hóa đơn mua vào (không chỉ nhóm rủi ro) + khối Phần 1 + Phần 3.
-- Mọi dòng `IN07_NCC_CanhBao`/`KQ2_NCC_mua_vao` có `Nguồn dữ liệu` ∈ {Bảng kê, HĐĐT, Chung}.
-- MST đã qua chuẩn hóa 10/13 số trước khi gắn nhãn F0/ĐKKD.
-- Không có dòng Tổng cộng hoặc header phụ lẫn giữa vùng dữ liệu (kiểm bằng mắt dòng ngay trước/sau mỗi "Tổng cộng").
-- Font Times New Roman, chữ đứng, tiêu đề đậm, ngày `dd/mm/yyyy` không giờ.
-
-## Liên kết quy trình hồ sơ
-
-Playbook lệnh: `playbook-lenh.md`.
-
-Skill này là phân hệ chuyên sâu của `phan-tich-ho-so-thue` tại **Bước 3 GĐ2** (xem `giai-doan-2-phan-tich-du-lieu-co-quan-thue`). Đầu vào: bảng kê + HĐĐT đã gộp (`tong-hop-dau-vao-hddt-bang-ke-nld`), MST đã chuẩn (`lam-sach-cd1-mst-hoa-don`). Cụm HĐ cùng ngày vượt ngưỡng tiền mặt khi đề xuất UNC: `phan-tich-cong-no-tien-mat`. Kết quả ghi vào `IN07_NCC_CanhBao` + `KQ2_NCC_mua_vao` của `KQ2.1_Phan_tich_CQT`.
+- Tổng doanh số mọi NCC trên Bảng 2.2 = tổng bảng kê/IN02 mua vào sau lọc.
+- Tổng số NCC các nhóm A-G = tổng NCC trên Bảng 2.2.
+- Có đủ Phần 1 + 2.1 + 2.2 (100% NCC) + Phần 3 (kèm hạn chế dữ liệu).
+- Mỗi NCC nhóm A có cột nguồn ghi rõ F0 hay Công an, kèm số/ngày CV; không còn nhãn gộp "F0/Công an".
+- `Chi_tiet_hoa_don` đủ dòng HĐ, đủ cột chuẩn, font Times New Roman.
+- Phần kiểm HĐ sau ngày đóng ghi rõ đã kiểm ngày đóng MST, ngày tạm ngừng hay cả hai.
 
 ## Lịch sử (tự học)
-- [2026-10-19 vòng 2] Bỏ cấu trúc Bảng 2.1/2.2/2.3 lồng nhau (gây lẫn dữ liệu dòng 147/148 TT_BIEN_HOA); `KQ2_NCC_mua_vao` đổi thành 1 bảng chi tiết hóa đơn duy nhất (100%, không chỉ rủi ro) là bảng khai triển của `IN07_NCC_CanhBao`; Phần 1/3 chuyển thành khối narrative trong `KQ2_NCC_mua_vao` (ngoại lệ 3.4). Định dạng tiêu đề: đậm, chữ đứng.
-- [2026-10-19 vòng 2b] Cán bộ chốt giữ HD04 (Top-5 NCC / P14): tính bằng gộp theo MST người bán, không `LARGE` trên dòng hóa đơn.
-- [2026-10-15] Gắn Liên kết quy trình vào skill trục; nhắc đầu vào đầu-vào / CD1 / công nợ.
-- [2026-10-09] Chốt định dạng số tiền chuẩn VN đồng loạt: hiển thị dấu `.` hàng nghìn và `,` phần lẻ; Excel `#,##0` / `#,##0.00`.
 - [2026-10-05] User chỉ ra file Tong_hop_NCC của T&T thiếu thông tin so với Vạn Phát Thành; skill cũ mô tả Bảng 2.2 như chỉ liệt kê NCC bất thường, dễ dẫn tới bản rút gọn. Cập nhật bắt buộc 100% NCC, Phần 3 và đủ cột Chi_tiet.
-- [2026-10-07] Bổ sung chuẩn hóa MST CD1 BT6 và nhắc quét cụm HĐ cùng ngày vượt ngưỡng tiền mặt khi đề xuất trọng tâm kiểm tra chứng từ.
-- [2026-10-07] Bổ sung nguồn HĐĐT ngang hàng Bảng kê; cột `Nguồn dữ liệu` = Bảng kê / HĐĐT / Chung (1 bảng duy nhất); thêm Bảng 2.3 đối chiếu theo kỳ kê khai cho NCC rủi ro (chi tiết HĐ, mặt hàng, giá trị, thuế).
+- [2026-10-22] Hồ sơ Phát Hoàng Long: đầu vào là IN02, danh bạ chỉ phủ 86 MST, file tổng hợp đối tác 3.2 ghi trạng thái mâu thuẫn danh bạ, có NCC cá nhân không MST trong sổ Công an, có HĐ lập sau ngày đóng. Bổ sung nhóm E, bẫy độ phủ danh bạ và cách xử lý IN02.
+- [2026-10-22] Khi chạy cho Phát Hoàng Long (22/10/2026), skill cũ có 4 chỗ thiếu. (1) Chỉ nêu đầu vào là Bang_ke tổng hợp, chưa nêu IN02, mà IN02 không có cột chứng từ. (2) Không có nhóm 'chưa có dữ liệu danh bạ', trong khi danh bạ chỉ phủ 86 MST nên 166 NCC (104,76 tỷ) dễ bị xếp nhầm vào nhóm bình thường. (3) Kh
+- [2026-10-22] Chạy lại PHL với danh bạ mới: cột "Ngày đóng/ngừng" gộp ngày đóng MST với ngày tạm ngừng nên phép kiểm chỉ tính ngày đóng. Lần yêu cầu chạy lại đầu tiên, danh bạ trên Drive giống hệt bản cũ (cùng md5). Bổ sung bước kiểm bản danh bạ trước khi chạy lại và bẫy tách ngày tạm ngừng.
+- [2026-10-22] Khi chạy lại cho Phát Hoàng Long ngày 22/10/2026 lộ ra 2 chỗ thiếu. (1) Cột ngày đóng/ngừng gộp ngày đóng MST với ngày tạm ngừng, và phép kiểm 'HĐ sau ngày đóng' chỉ tính ngày đóng, nên HĐ lập trong thời gian tạm ngừng bị sót. Javis phải tự ghi đây là hạn chế. (2) Lần đầu user bảo chạy lại, danh bạ
+- [2026-10-29] User hỏi vì sao Toàn Việt (hồ sơ PHL) bị xác định có công văn F0. Thực tế nguồn là sổ Công an; nhãn nhóm A "F0/Công an" gây hiểu nhầm. Bổ sung quy tắc ghi nguồn từng NCC nhóm A, tách nhãn F0 và Công an, kèm bước kiểm chứng.
+- [2026-10-29] Ngày 29/10/2026 user hỏi vì sao Toàn Việt 3601946862 trong hồ sơ Phát Hoàng Long bị xác định có công văn F0. Javis mở lại file thì thấy nguồn là sổ Công an (CV 2808/YC-CSKT), nhưng nhãn nhóm A 'A - Có công văn cảnh báo (F0/Công an)' gộp hai nguồn nên gây hiểu nhầm. Skill cũ chỉ ghi 'A dính cảnh báo

@@ -9,8 +9,8 @@ from pathlib import Path
 
 import win32com.client as win32
 
-XLSX_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\Danh sach kiem tra quyet toan - JAVIS PRO.xlsx"
-XLSM_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\Danh sach kiem tra quyet toan - JAVIS PRO.xlsm"
+XLSX_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsx"
+XLSM_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsm"
 
 XL_OPEN_XML_WORKBOOK_MACRO = 52
 VB_EXT_CT_STD_MODULE = 1
@@ -23,7 +23,7 @@ Private Const COL_STATUS As Long = 2
 Private Const COL_MST As Long = 4
 Private Const COL_TEN As Long = 5
 Private Const HEADER_ROW As Long = 4
-Private Const COL_LAST As Long = 52
+Private Const COL_LAST As Long = 50
 Private Const SHEET_BAN_HANH As String = "01_DA_BAN_HANH"
 Private Const SHEET_DANG_THUC_HIEN As String = "02_DANG_THUC_HIEN"
 
@@ -118,7 +118,7 @@ Public Sub MoveRowByStatus(ByVal sheetName As String, ByVal srcRow As Long, ByVa
     Set destWs = ThisWorkbook.Worksheets(destName)
     destRow = NextEmptyDataRow(destWs)
 
-    For c = 1 To 52
+    For c = 1 To 50
         destWs.Cells(destRow, c).Value = sh.Cells(srcRow, c).Value
         destWs.Cells(destRow, c).NumberFormat = sh.Cells(srcRow, c).NumberFormat
     Next c
@@ -126,10 +126,115 @@ Public Sub MoveRowByStatus(ByVal sheetName As String, ByVal srcRow As Long, ByVa
     destWs.Cells(destRow, 2).Value = newStatus
     destWs.Cells(destRow, 1).Formula = "=IF(D" & destRow & "<>"""",ROW()-4,"""")"
     destWs.Cells(destRow, 8).Formula = "=IFERROR(VLOOKUP(G" & destRow & ",DANH_MUC!$A$3:$B$15,2,FALSE),"""")"
-    destWs.Cells(destRow, 42).Formula = "=IF(OR(AN" & destRow & "<>"""",AO" & destRow & "<>""""),AN" & destRow & "+AO" & destRow & ","""")"
-    destWs.Cells(destRow, 45).Formula = "=IF(OR(AQ" & destRow & "<>"""",AR" & destRow & "<>""""),AQ" & destRow & "+AR" & destRow & ","""")"
-    destWs.Cells(destRow, 48).Formula = "=IF(OR(AT" & destRow & "<>"""",AU" & destRow & "<>""""),AT" & destRow & "+AU" & destRow & ","""")"
-    destWs.Cells(destRow, 49).Formula = "=IF(OR(AP" & destRow & "<>"""",AS" & destRow & "<>"""",AV" & destRow & "<>""""),IF(AP" & destRow & "="""",0,AP" & destRow & ")+IF(AS" & destRow & "="""",0,AS" & destRow & ")+IF(AV" & destRow & "="""",0,AV" & destRow & "),"""")"
+    destWs.Cells(destRow, 40).Formula = "=IF(OR(AL" & destRow & "<>"""",AM" & destRow & "<>""""),AL" & destRow & "+AM" & destRow & ","""")"
+    destWs.Cells(destRow, 43).Formula = "=IF(OR(AO" & destRow & "<>"""",AP" & destRow & "<>""""),AO" & destRow & "+AP" & destRow & ","""")"
+    destWs.Cells(destRow, 46).Formula = "=IF(OR(AR" & destRow & "<>"""",AS" & destRow & "<>""""),AR" & destRow & "+AS" & destRow & ","""")"
+    destWs.Cells(destRow, 47).Formula = "=IF(OR(AN" & destRow & "<>"""",AQ" & destRow & "<>"""",AT" & destRow & "<>""""),IF(AN" & destRow & "="""",0,AN" & destRow & ")+IF(AQ" & destRow & "="""",0,AQ" & destRow & ")+IF(AT" & destRow & "="""",0,AT" & destRow & "),"""")"
+
+    sh.Rows(srcRow).Delete
+    Application.StatusBar = "Javis: moved to [" & destName & "] row " & destRow
+    Application.EnableEvents = eventsWas
+End Sub
+
+Private Function NextEmptyDataRow(ByVal ws As Worksheet) As Long
+    Dim r As Long
+    Dim lastRow As Long
+    lastRow = ws.Cells(ws.Rows.Count, 5).End(xlUp).Row
+    If lastRow < 5 Then
+        NextEmptyDataRow = 5
+        Exit Function
+    End If
+    For r = 5 To lastRow + 50
+        If Trim$(CStr(ws.Cells(r, 4).Value & "")) = "" And Trim$(CStr(ws.Cells(r, 5).Value & "")) = "" Then
+            NextEmptyDataRow = r
+            Exit Function
+        End If
+    Next r
+    NextEmptyDataRow = lastRow + 1
+End Function
+
+Public Sub TestMoveFirstDthToBanHanh()
+    Dim ws As Worksheet
+    Dim r As Long
+    Set ws = ThisWorkbook.Worksheets(JAVIS_SHEET_DANG_THUC_HIEN)
+    For r = 5 To 50
+        If Trim$(CStr(ws.Cells(r, 5).Value & "")) <> "" Then
+            ' Keep Vietnamese status text from the cell dropdown list on destination sheet
+            Call MoveRowByStatus(JAVIS_SHEET_DANG_THUC_HIEN, r, ws.Range("B5").Validation.Formula1, False)
+            ' Fallback explicit: use current row status rewritten as Ban hanh via Left match path
+            ws.Cells(r, 2).Value = ws.Cells(r, 2).Value
+            Call MoveRowByStatus(JAVIS_SHEET_DANG_THUC_HIEN, r, "1. BAN_HANH", True)
+            Exit Sub
+        End If
+    Next r
+End Sub
+'''
+
+
+def build_module_vba():
+    """Module VBA ASCII-safe; status compare by prefix 1./2."""
+    return r'''
+Option Explicit
+
+Public Const JAVIS_SHEET_BAN_HANH As String = "01_DA_BAN_HANH"
+Public Const JAVIS_SHEET_DANG_THUC_HIEN As String = "02_DANG_THUC_HIEN"
+
+Public Function IsBanHanh(ByVal statusText As String) As Boolean
+    IsBanHanh = (Left$(Trim$(statusText), 2) = "1.")
+End Function
+
+Public Function IsDangThucHien(ByVal statusText As String) As Boolean
+    IsDangThucHien = (Left$(Trim$(statusText), 2) = "2.")
+End Function
+
+Public Sub MoveRowByStatus(ByVal sheetName As String, ByVal srcRow As Long, ByVal newStatus As String, Optional ByVal setStatus As Boolean = True)
+    Dim sh As Worksheet
+    Dim destName As String
+    Dim destWs As Worksheet
+    Dim destRow As Long
+    Dim c As Long
+    Dim eventsWas As Boolean
+
+    Set sh = ThisWorkbook.Worksheets(sheetName)
+    eventsWas = Application.EnableEvents
+    Application.EnableEvents = False
+
+    If setStatus Then
+        sh.Cells(srcRow, 2).Value = newStatus
+    End If
+
+    destName = ""
+    If sheetName = JAVIS_SHEET_DANG_THUC_HIEN And IsBanHanh(newStatus) Then
+        destName = JAVIS_SHEET_BAN_HANH
+    ElseIf sheetName = JAVIS_SHEET_BAN_HANH And IsDangThucHien(newStatus) Then
+        destName = JAVIS_SHEET_DANG_THUC_HIEN
+    End If
+
+    If destName = "" Then
+        Application.EnableEvents = eventsWas
+        Exit Sub
+    End If
+
+    If Trim$(CStr(sh.Cells(srcRow, 4).Value & "")) = "" And Trim$(CStr(sh.Cells(srcRow, 5).Value & "")) = "" Then
+        Application.EnableEvents = eventsWas
+        Exit Sub
+    End If
+
+    Set destWs = ThisWorkbook.Worksheets(destName)
+    destRow = NextEmptyDataRow(destWs)
+
+    For c = 1 To 50
+        destWs.Cells(destRow, c).Value = sh.Cells(srcRow, c).Value
+        destWs.Cells(destRow, c).NumberFormat = sh.Cells(srcRow, c).NumberFormat
+    Next c
+
+    destWs.Cells(destRow, 2).Value = newStatus
+    destWs.Cells(destRow, 1).Formula = "=IF(D" & destRow & "<>"""",ROW()-4,"""")"
+    destWs.Cells(destRow, 8).Formula = "=IFERROR(VLOOKUP(G" & destRow & ",DANH_MUC!$A$3:$B$15,2,FALSE),"""")"
+    destWs.Cells(destRow, 40).Formula = "=IF(OR(AL" & destRow & "<>"""",AM" & destRow & "<>""""),AL" & destRow & "+AM" & destRow & ","""")"
+    destWs.Cells(destRow, 43).Formula = "=IF(OR(AO" & destRow & "<>"""",AP" & destRow & "<>""""),AO" & destRow & "+AP" & destRow & ","""")"
+    destWs.Cells(destRow, 46).Formula = "=IF(OR(AR" & destRow & "<>"""",AS" & destRow & "<>""""),AR" & destRow & "+AS" & destRow & ","""")"
+    destWs.Cells(destRow, 47).Formula = "=IF(OR(AN" & destRow & "<>"""",AQ" & destRow & "<>"""",AT" & destRow & "<>""""),IF(AN" & destRow & "="""",0,AN" & destRow & ")+IF(AQ" & destRow & "="""",0,AQ" & destRow & ")+IF(AT" & destRow & "="""",0,AT" & destRow & "),"""")"
 
     sh.Rows(srcRow).Delete
     Application.StatusBar = "Javis: moved to [" & destName & "] row " & destRow
@@ -247,7 +352,7 @@ def inject():
                 break
         mod = ensure_std_module(wb, "JavisStatusMove")
         clear_component_code(mod)
-        mod.CodeModule.AddFromString(VBA_MODULE)
+        mod.CodeModule.AddFromString(build_module_vba())
 
         if xlsm.exists():
             try:
