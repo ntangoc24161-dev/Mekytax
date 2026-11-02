@@ -1,12 +1,6 @@
 ---
-type: agent
-name: Phòng Văn Thư
-slug: phong-van-thu
-role: Cổng duy nhất: ghi sổ, phân phòng, bàn giao, kiểm thể thức NĐ 30, cấp số và báo cáo lãnh đạo
 group: Văn thư
-skills: [soan-thao-van-ban]
-model: ""
-updated: 2026-10-19
+updated: '2026-10-23'
 ---
 
 ## Vai trò

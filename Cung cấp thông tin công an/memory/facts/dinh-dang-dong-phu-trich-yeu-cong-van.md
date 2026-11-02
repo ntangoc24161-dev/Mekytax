@@ -15,3 +15,7 @@ Quy chuẩn định dạng dòng Số và Trích yếu trên Công văn trả l�
 
 ## Lịch sử
 - [2026-09-29] Bị thay thế bởi [[canh-so-cong-van-cach-le-trai-2cm]] (user đổi thông tin).
+
+
+## Lịch sử
+- [2026-11-01] Bị thay thế bởi [[quy-chuan-phan-so-hieu-va-bo-nam-tren-cong-van-tra-loi]] (user đổi thông tin).

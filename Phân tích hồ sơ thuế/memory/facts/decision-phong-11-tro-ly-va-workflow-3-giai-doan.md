@@ -1,18 +1,15 @@
 ---
-superseded_by: decision-mot-giai-doan-mot-file-mot-sheet
+superseded_by: decision-phong-6-thu-ky-dong-bo-skill-gd3
 type: decision
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-23
 ---
-Ngày 16/10/2026 người dùng chốt phương án khuyến nghị: phòng **11 trợ lý** (không dùng phương án 4 trợ lý gộp) và **1 workflow 3 giai đoạn**.
+Ngày 16/10/2026 người dùng chốt phương án khuyến nghị: phòng **11 trợ lý** và **1 workflow 3 giai đoạn**.
 
-**Vì sao:** Mỗi vai khớp một cụm skill sẵn có, tránh một trợ lý ôm cả 80 quy tắc. Workflow nối KQ1-KQ2-KQ3 theo mức A-E.
+**Vì sao (lúc đó):** Mỗi vai khớp một cụm skill sẵn có, tránh một trợ lý ôm cả 80 quy tắc.
 
-**Áp dụng:**
-- Agent phẳng tại `agents/`: truong-phong-phan-tich-ho-so, thu-ho-so-kiem-ke, phan-tich-vien-cqt, phan-tich-vien-so-sach-dn, chuyen-vien-du-lieu-dau-vao, chuyen-vien-gtgt-tndn, chuyen-vien-ncc-hoa-don, chuyen-vien-tncn, chuyen-vien-doanh-thu-gia-von, chuyen-vien-kho-gia-thanh, chuyen-vien-cong-no-tien-mat.
-- Workflow `workflows/phan-tich-ho-so-thue-3-giai-doan.md`, group Tài chính, 12 bước (trưởng phòng xuất hiện 2 lần: công bố mức rồi chốt Master). Ngày 16/10/2026 người dùng bảo "làm luôn": đổi `status: active`.
-- Chạy một DN vẫn cần folder tuyệt đối + MST + kỳ. Không tự chọn DN trong 13 hồ sơ kế hoạch 2026.
-
+**Áp dụng (bản 16/10, đã thay):** 11 agent module + workflow 12 bước.
 
 ## Lịch sử
-- [2026-10-19] Bị thay thế bởi [[decision-mot-giai-doan-mot-file-mot-sheet]] (user đổi thông tin).
+- [2026-10-19] Từng bị gắn superseded bởi decision một giai đoạn một file (sau đó cấu trúc 1.4 sáu tệp vẫn giữ).
+- [2026-10-23] Thay bằng [[decision-phong-6-thu-ky-dong-bo-skill-gd3]]: gộp module theo KQ2.1/KQ2.2, đồng bộ GĐ3 mới.

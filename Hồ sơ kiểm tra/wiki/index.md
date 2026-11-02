@@ -1,4 +1,7 @@
-# Wiki Index
+﻿# Wiki Index
+
+## Vận hành
+- [[Cat-token-2026-10-23]] - Tắt 11 skill lệch phòng; orch/workflow off.
 
 Catalog nội dung wiki (cập nhật mỗi lần INGEST). Đọc file này trước khi trả lời câu hỏi.
 
@@ -25,3 +28,9 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Quy trình phối hợp 4 trợ lý chuyên trách kiểm tra thuế]] - Quy trình xử lý hồ sơ kiểm tra thuế vận hành theo dây chuyền nối tiếp qua các tr
 - [[Cấu trúc cột và phân công đoàn kiểm tra trên sổ theo dõi JAVIS PRO]] - Sổ theo dõi kiểm tra thuế JAVIS PRO gồm 52 cột quản lý trên các sheet theo dõi t
 - [[Quy trình khởi tạo Bảng tính và thư mục Biên bản vụ kiểm tra thuế]] - Trước khi lập hồ sơ đi và nhập liệu kiểm tra, kiểm tra viên phải tạo thư mục `0.
+- [[Quy chuẩn thể hiện số văn bản khi xuất hồ sơ kiểm tra thuế chưa có số quyết định]] - Khi xuất hồ sơ kiểm tra thuế để trình ký trước khi được cấp số quyết định chính
+- [[Giải trình loại chi phí lương trong Biên bản xác nhận số liệu kiểm tra thuế]] - Khi phát hiện chi phí tiền lương không đủ điều kiện hạch toán, đoàn kiểm tra thu
+- [[Kỹ thuật căn chỉnh chữ ký trong ô và chống rớt trang theo Nghị định 30]] - Khi định dạng văn bản hành chính và hồ sơ kiểm tra theo Nghị định 30/2020/NĐ-CP,
+- [[Diễn giải loại chi phí giá vốn không tương ứng doanh thu]] - Khi kiểm tra thuế phát hiện giá vốn hàng bán kê khai không phù hợp hoặc không có
+- [[Chuẩn hóa tên chỉ tiêu chi phí quản lý doanh nghiệp trong hồ sơ kiểm tra]] - Trong các biểu mẫu Biên bản xác nhận số liệu, Biên bản kiểm tra và tài liệu liên
+- [[Hồ sơ đề xuất hoàn thuế kiêm bù trừ thu ngân sách đối với doanh nghiệp giải thể]] - Hồ sơ giải quyết hoàn thuế GTGT kiêm bù trừ nghĩa vụ tài chính phát sinh sau kiể

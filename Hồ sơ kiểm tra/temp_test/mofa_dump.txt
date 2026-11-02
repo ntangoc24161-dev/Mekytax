@@ -1,0 +1,1727 @@
+    3|[TBL]
+    4|THUẾ THÀNH PHỐ ĐỒNG NAI
+    5|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+    6|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+    7|Độc lập - Tự do - Hạnh phúc
+    8||
+   10||
+   11||
+   12|Số:
+   13|| Trấn Biên, ngày         tháng        năm 2026
+   14||
+   16|[/TBL]
+   18|QUYẾT ĐỊNH
+   19|Về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+   21|TRƯỞNG THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+   23|Căn cứ Luật Quản lý thuế ngày 10 tháng 12 năm 2025 và các văn bản hướng dẫn thi hành;
+   24|Căn cứ các luật thuế và các văn bản hướng dẫn thi hành;
+   25|Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2025 của Cục trưởng Cục Thuế ban hành quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sở thuộc Thuế tỉnh, thành phố;
+   26|Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+   27|Căn cứ Thông báo số 19279/TB-TCS3 ngày 12/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai Về việc người nộp thuế ngừng hoạt động và đang làm thủ tục chấm dứt hiệu lực mã số thuế;
+   28|Căn cứ Quyết định số 2618/QĐ-TCS3 ngày 20/05/2026 của Trưởng Thuế cơ sở 3 thành phố Đồng Nai về việc giao quyền ra Quyết định Kiểm tra thuế tại trụ sở của người nộp thuế;
+   29|Theo đề nghị của Tổ trưởng Tổ Kiểm tra số 1;
+   30|QUYẾT ĐỊNH:
+   31|Điều 1: Kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa, Mã số thuế: 3603961087 về các nội dung sau:
+   32|- Thuế giá trị gia tăng;
+   33|- Thuế thu nhập doanh nghiệp.
+   34|Thời kỳ kiểm tra: Từ năm 2024 đến 2026.
+   35|Thời hạn kiểm tra là 03 ngày làm việc, kể từ ngày công bố Quyết định kiểm tra.
+   36|Điều 2: Thành lập Đoàn kiểm tra để thực hiện nhiệm vụ ghi tại Điều 1 gồm có:
+   37|- Ông	: Nguyễn Thành Đồng	- Chức vụ:		- Trưởng đoàn;
+   38|- Bà	: Nguyễn Thị Ánh Ngọc	- Chức vụ:	- Thành viên.
+   39|Đoàn kiểm tra có nhiệm vụ, quyền hạn quy định tại Điều 22 của Luật Quản lý thuế.
+   40|Điều 3: Quyết định này có hiệu lực kể từ ngày ký. Tổ chức được kiểm tra có tên tại Điều 1 và Đoàn kiểm tra chịu trách nhiệm thi hành Quyết định này./.
+   43|[TBL]
+   44|Nơi nhận:
+   45|- Như Điều 3;
+   46|- Lưu: VT; KTr1 (04b).
+   47|| KT. TRƯỞNG THUẾ CƠ SỞ
+   48|PHÓ TRƯỞNG THUẾ CƠ SỞ
+   53|Phạm Đồng Xuân
+   54||
+   56|[/TBL]
+   60|[TBL]
+   62||
+   63||
+   66|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+   67|TỔ KIỂM TRA SỐ 1
+   68|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+   69|Độc lập - Tự do - Hạnh phúc
+   70||
+   72|[/TBL]
+   74|TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ
+   75|V/v: Ban hành quyết định kiểm tra;
+   76|Quyết định giám sát hoạt động của Đoàn kiểm tra
+   78|- Nội dung công việc:
+   79|Kiểm tra thuế và giám sát hoạt động của Đoàn kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa – MST: 3603961087.
+   80|- Lý do kiểm tra: Kiểm tra quyết toán giải thể.
+   81|- Nội dung kiểm tra:
+   82|+ Thuế giá trị gia tăng;
+   83|+ Thuế thu nhập doanh nghiệp.
+   84|- Thời kỳ kiểm tra: Từ năm 2024 đến 2026
+   85|- Căn cứ pháp lý để giải quyết:
+   86|Căn cứ Thông báo số 19279/TB-TCS3 ngày 12/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai Về việc người nộp thuế ngừng hoạt động và đang làm thủ tục chấm dứt hiệu lực mã số thuế;
+   87|Căn cứ Quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám sát hoạt động của Đoàn thanh tra, kiểm tra thuế.
+   88|- Ý kiến tham gia của các đơn vị liên quan: Không.
+   89|- Đề xuất của cán bộ giải quyết:
+   90|Kiến nghị BLĐ Thuế cơ sở 3 thành phố Đồng Nai ký duyệt quyết định kiểm tra, quyết định giám sát hoạt động đoàn kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa – MST: 3603961087 (có dự thảo quyết định kèm theo).
+   91|Trấn Biên, ngày ….. tháng ….. năm 2026
+   92|CÁN BỘ ĐỀ XUẤT
+   96|Nguyễn Thành Đồng
+   97|Ý kiến của Tổ trưởng: 	Kính đề nghị Lãnh đạo Thuế cơ sở ký duyệt theo đề xuất.
+   98|Trấn Biên, ngày ….. tháng ….. năm 2026
+   99|TỔ TRƯỞNG
+  104|Nguyễn Trường Giang
+  105|Ý kiến phê duyệt của Lãnh đạo Thuế cơ sở: ……………………………………………
+  106|Trấn Biên, ngày ….. tháng ….. năm 2026
+  107|KT. TRƯỞNG THUẾ CƠ SỞ
+  108|PHÓ TRƯỞNG THUẾ CƠ SỞ
+  113|Phạm Đồng Xuân
+  115|Mẫu số 04/QTKT
+  118|[TBL]
+  119|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  120|ĐOÀN KIỂM TRA
+  121|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  122|Độc lập - Tự do - Hạnh phúc
+  123||
+  125|| Trấn Biên, ngày ….. tháng …. năm 2026
+  126||
+  128|[/TBL]
+  130|PHÂN TÍCH THÔNG TIN CHUYÊN SÂU NGƯỜI NỘP THUẾ
+  132|I. THÔNG TIN CHUNG:
+  133|1. Đoàn kiểm tra (Nhóm phân tích):
+  134|a) Trưởng đoàn: Nguyễn Thành Đồng. Chức vụ: Kiểm tra viên. Bộ phận kiểm tra: Tổ kiểm tra số 1, Thuế cơ sở 3 thành phố Đồng Nai.
+  135|b) Thành viên: Nguyễn Thị Ánh Ngọc. Chức vụ: Chuyên viên. Bộ phận kiểm tra: Tổ kiểm tra số 1, Thuế cơ sở 3 thành phố Đồng Nai.
+  136|2. Đối tượng được kiểm tra:
+  137|a) Tên người nộp thuế: Công Ty TNHH Sản Xuất Kim Loại Mo Fa;
+  138|b) Mã số thuế: 3603961087.
+  139|c) Địa chỉ: Đường D2, Cụm Công nghiệp Hố Nai 3, Phường Hố Nai, TP Đồng Nai.
+  140|d) Số chi nhánh, cơ sở phụ thuộc: 0.
+  141|e) Niên độ kế toán: Từ ngày 01 tháng 01 đến ngày 31 tháng 12.
+  142|f) Mục lục Ngân sách (cấp, chương, loại, khoản): 3, 855, 03, 165.
+  143|h) Ngành nghề kinh doanh: Sản xuất, xuất khẩu gang hợp kim ...
+  144|II. TÌNH HÌNH CHẤP HÀNH PHÁP LUẬT THUẾ:
+  145|1. Tình hình chấp hành và các vi phạm trong các năm gần nhất:
+  146|a) Tình hình nộp các tờ khai thuế: Tờ khai GTGT đủ; Báo cáo hóa đơn đủ;
+  147|b) Tình hình nộp báo cáo quyết toán thuế: Quyết toán thuế TNDN đủ; Quyết toán thuế TNCN đủ.
+  148|c) Quyết định xử lý vi phạm hành chính:
+  149|d) Vi phạm về chế độ hóa đơn:
+  150|e) Nộp thuế quá hạn:
+  151|f) Lỗ liên tục từ 2 năm trở lên:
+  152|g) Có hoàn thuế GTGT: Không.
+  153|h) Tình hình kiểm tra, thanh tra của cơ quan thuế:
+  154|i) Đối chiếu các khoản thuế đã nộp trong các năm:
+  155|2. Thông tin thu thập được ngoài cơ quan thuế:
+  156|III. PHÂN TÍCH THEO CÁC YẾU TỐ RỦI RO:
+  157|1) Phân tích các chỉ tiêu trên báo cáo tài chính:
+  158|a/ Báo cáo kết quả hoạt động kinh doanh:
+  159|- Doanh nghiệp kê khai lãi năm 2025, năm 2026 không phát sinh.
+  160|- Doanh thu bán hàng và cung cấp dịch vụ năm 2025 tăng 3,07%.
+  161|- Tỷ lệ giá vốn hàng bán trên doanh thu năm 2025 là 84,53	%.
+  162|- Tỷ lệ chi phí quản lý doanh nghiệp trên doanh thu năm 2025 là 12,4	%.
+  163|- Tỷ lệ chi phí tài chính trên doanh thu năm 2025 là 0,09%.
+  164|- Tỷ lệ giá vốn hàng bán, chi phí tài chính và chi phí quản lý doanh nghiệp trên doanh thu biến động không đều qua các năm, không tương ứng biến động doanh thu.
+  165|b/ Bảng cân đối kế toán:
+  166|2) Phân tích các chỉ tiêu trên tờ khai thuế:
+  167|3) Phân tích mức độ tuân thủ nộp thuế (nếu có):
+  168|4) Phân tích các yếu tố về sự thay đổi chính sách thuế làm ảnh hưởng đến số thuế phải nộp (nếu có).
+  169|IV. CÁC NGHI NGỜ QUA PHÂN TÍCH:
+  170|- Tỷ lệ giá vốn hàng bán, chi phí tài chính và chi phí quản lý doanh nghiệp trên doanh thu biến động không đều qua các năm, không tương ứng biến động doanh thu.
+  171|V. ĐỀ XUẤT NỘI DUNG KIỂM TRA:
+  172|- Thuế GTGT đầu ra, đầu vào được khấu trừ từ năm 2024 đến 2026.
+  173|- Doanh thu bán hàng và cung cấp dịch vụ từ năm 2024 đến 2026.
+  174|- Giá vốn hàng bán từ năm 2024 đến 2026.
+  175|- Chi phí quản lý doanh nghiệp từ năm 2024 đến 2026.
+  176|- Chi phí tài chính từ năm 2024 đến 2026.
+  178|TRƯỞNG ĐOÀN KIỂM TRA/PHÂN TÍCH
+  183|Nguyễn Thành Đồng
+  187|[TBL]
+  188|THUẾ THÀNH PHỐ ĐỒNG NAI
+  189|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  190|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  191|Độc lập - Tự do - Hạnh phúc
+  192||
+  194||
+  195||
+  196|Số:
+  197|| Trấn Biên, ngày      tháng     năm 2026
+  198||
+  200|[/TBL]
+  202|QUYẾT ĐỊNH
+  203|Về việc giám sát hoạt động của Đoàn kiểm tra
+  204|tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+  206|TRƯỞNG THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  207|Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025;
+  208|Căn cứ Luật Thanh tra ngày 25 tháng 06 năm 2025 và các văn bản hướng dẫn thi hành;
+  209|Căn cứ Quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám sát hoạt động của Đoàn thanh tra, kiểm tra thuế;
+  210|Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2025 của Cục trưởng Cục Thuế ban hành quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sở thuộc Thuế tỉnh, thành phố;
+  211|Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+  212|Căn cứ Thông báo số 19279/TB-TCS3 ngày 12/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai Về việc người nộp thuế ngừng hoạt động và đang làm thủ tục chấm dứt hiệu lực mã số thuế;
+  213|Căn cứ Quyết định số 2618/QĐ-TCS3 ngày 20/05/2026 của Trưởng Thuế cơ sở 3 thành phố Đồng Nai về việc giao quyền ra Quyết định Kiểm tra thuế tại trụ sở của người nộp thuế;
+  214|Căn cứ Quyết định kiểm tra số .............../QĐ-TCS3 ngày ...../...../2026;
+  215|Xét đề nghị của Tổ trưởng Tổ Kiểm tra số 1,
+  216|QUYẾT ĐỊNH:
+  217|Điều 1. Thực hiện giám sát đối với hoạt động kiểm tra của Đoàn kiểm tra được thành lập theo Quyết định số ................./QĐ-TCS3 ngày ...../...../2026.
+  218|Thời hạn giám sát được tính kể từ ngày công bố quyết định kiểm tra đến thời điểm kết thúc việc kiểm tra tại trụ sở người nộp thuế.
+  219|Điều 2: Giao Ông Nguyễn Trường Giang – Chức vụ: Tổ trưởng Tổ Kiểm tra số 1 giám sát hoạt động của Đoàn kiểm tra để thực hiện nhiệm vụ tại Điều 1.
+  220|Điều 3: Ông Nguyễn Trường Giang có nhiệm vụ giám sát hoạt động của Đoàn kiểm tra theo quy định tại Quy chế giám sát hoạt động của Đoàn kiểm tra thuế.
+  221|Điều 4: Ông Nguyễn Trường Giang, Đoàn Kiểm tra, Công Ty TNHH Sản Xuất Kim Loại Mo Fa và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành quyết định này./.
+  223|[TBL]
+  224|Nơi nhận:
+  225|- Như Điều 4;
+  226|- Lưu: VT; KTr1 (03b).
+  227|| KT. TRƯỞNG THUẾ CƠ SỞ
+  228|PHÓ TRƯỞNG THUẾ CƠ SỞ
+  233|Phạm Đồng Xuân
+  234||
+  236|[/TBL]
+  241|[TBL]
+  242|THUẾ THÀNH PHỐ ĐỒNG NAI
+  243|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  244|| 	CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  245|Độc lập - Tự do - Hạnh phúc
+  246||
+  248||
+  249||
+  251|| Trấn Biên, ngày      tháng     năm 2026
+  252||
+  254|[/TBL]
+  256|THƯ TRAO ĐỔI THÔNG TIN
+  258|Kính gửi: Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+  260|Thuế cơ sở 3 thành phố Đồng Nai xin gửi lời chào trân trọng và cảm ơn sự hợp tác của Quý Doanh nghiệp, Người nộp thuế trong việc thực hiện chính sách pháp luật thuế.
+  261|Với mục tiêu xây dựng cơ quan thuế Văn hóa – Hiện đại, đội ngũ cán bộ công chức Thuế chuyên nghiệp – liêm chính, Thuế cơ sở 3 thành phố Đồng Nai đã, đang và sẽ tiếp tục phối hợp, hỗ trợ, tạo điều kiện tốt nhất để Người nộp thuế thực hiện tốt chính sách pháp luật thuế; Tiếp tục nâng cao chất lượng nguồn nhân lực và xây dựng đội ngũ có tính kỷ luật cao trong thực thi công vụ.
+  262|Thuế cơ sở 3 thành phố Đồng Nai cam kết luôn lắng nghe, nắm bắt các khó khăn, vướng mắc trong quá trình thực hiện chính sách pháp luật của người nộp thuế để hỗ trợ, hướng dẫn hoặc đề xuất, kiến nghị với cơ quan có thẩm quyền kịp thời tháo gỡ khó khăn vướng mắc trong việc thực hiện nghĩa vụ thuế của Người nộp thuế.
+  263|Chúng tôi mong muốn Người nộp thuế luôn thực hiện tốt chính sách pháp luật thuế, đặc biệt là phối hợp, trao đổi thường xuyên, kịp thời các thông tin có liên quan tới công tác quản lý thuế và ý thức, trách nhiệm của công chức thuế nhằm góp phần nâng cao hiệu lực, hiệu quả công tác quản lý thuế và chất lượng phục vụ Người nộp thuế của Cơ quan thuế.
+  264|Thuế cơ sở 3 thành phố Đồng Nai đề nghị Người nộp thuế: Trong quá trình thực hiện các thủ tục hành chính thuế, nếu có vướng mắc đề nghị liên hệ với Cơ quan thuế để được hỗ trợ, đồng thời phản ánh kịp thời về đạo đức, tác phong, thái độ ứng xử chưa văn hóa của cán bộ thuế; không tiếp tay cho các hành vi thông đồng sách nhiễu, tiêu cực của cán bộ thuế.
+  265|Mọi thông tin phản ánh của Người nộp thuế xin gửi về hòm thư điện tử và số điện thoại của Lãnh đạo bộ phận kiểm tra thuế; Tổ trưởng tổ giám sát hoặc người giám sát là người được người ra quyết định kiểm tra thuế giao thực hiện nhiệm vụ giám sát, Cụ thể:
+  266|- Phó trưởng thuế cơ sở: Ông Phạm Đồng Xuân. Số điện thoại: 0913.327.749. Email: pdxuanbho.don@gdt.gov.vn;
+  267|- Tổ trưởng Tổ Kiểm tra số 1 (giám sát đoàn kiểm tra): Ông Nguyễn Trường Giang. Số điện thoại: 0916.369.389. Email: giangnt1802@gmail.com.
+  268|Thuế cơ sở 3 thành phố Đồng Nai trân trọng cảm ơn sự hợp tác của Quý Doanh nghiệp, Người nộp thuế!
+  271|[TBL]
+  272|Nơi nhận:
+  273|Như trên;
+  274|- Lưu Đội KTr1 (02b).
+  275|| KT. TRƯỞNG THUẾ CƠ SỞ
+  276|PHÓ TRƯỞNG THUẾ CƠ SỞ
+  281|Phạm Đồng Xuân
+  284||
+  286|[/TBL]
+  290|[TBL]
+  291|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  292|ĐOÀN KIỂM TRA
+  294|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  295|Độc lập - Tự do - Hạnh phúc
+  297||
+  299|[/TBL]
+  300|Mẫu số: 08/KTT
+  301|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+  302|chính)
+  304|BIÊN BẢN
+  305|Công bố quyết định kiểm tra
+  307|Căn cứ Luật Quản lý thuế ngày 10/12/2025 và các văn bản hướng dẫn thi hành;
+  308|Căn cứ Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa;
+  309|Hôm nay, hồi ....... giờ ....... ngày ....... tháng ....... năm 2026;
+  310|Tại: văn phòng Công Ty TNHH Sản Xupất Kim Loại Mo Fa;
+  311|Chúng tôi gồm:
+  312|I. Đoàn kiểm tra thuế:
+  313|- Ông	: Nguyễn Thành Đồng	- Chức vụ : .........................	- Trưởng đoàn;
+  314|- Bà	: Nguyễn Thị Ánh Ngọc	- Chức vụ : .........................	- Thành viên;
+  315|II. Người nộp thuế (hoặc đại diện hợp pháp của người nộp thuế):
+  316|Ông/Bà: Yang, Ruilin
+  317|CMND/CCCD/Định danh cá nhân/hộ chiếu số:
+  318|Chức vụ: Giám đốc; đại diện cho Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+  319|Ông/Bà: Vũ Thị Yến Chi
+  320|CMND/CCCD/Định danh cá nhân/hộ chiếu số:
+  321|Chức vụ: Kế toán.
+  322|Người nộp thuế đã được nghe Đoàn kiểm tra công bố nội dung Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+  323|Biên bản này gồm có 01 trang, được lập thành 02 bản có nội dung và giá trị pháp lý như nhau. 01 (một) bản được giao người nộp thuế.
+  324|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến bổ sung khác (nếu có) như sau: …………………..........................
+  325|.................................................................................................................................
+  327|[TBL]
+  328|NGƯỜI NỘP THUẾ hoặc
+  329|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+  330|| ĐẠI DIỆN ĐOÀN KIỂM TRA
+  331||
+  336|Yang, Ruilin
+  337||
+  341|Nguyễn Thành Đồng
+  342||
+  344|[/TBL]
+  349|[TBL]
+  350|THUẾ THÀNH PHỐ ĐỒNG NAI
+  351|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  352|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  353|Độc lập - Tự do - Hạnh phúc
+  354||
+  356|[/TBL]
+  358|BIÊN BẢN
+  359|Giao, nhận văn bản
+  361|Hôm nay, vào lúc ..... giờ ..... ngày ..... tháng ..... năm 2026 tại văn phòng Tổ Kiểm tra số 1.
+  362|Chúng tôi gồm có:
+  363|1. Đại diện cơ quan thuế
+  364|Ông: Nguyễn Thành Đồng	Chức vụ: ……….……….
+  365|Bà: Nguyễn Thị Ánh Ngọc	Chức vụ: ……….……….
+  366|2. Đại diện hợp pháp người nộp thuế
+  367|Ông/Bà: Yang, Ruilin	Chức vụ: ……….……….
+  368|Đã tiến hành giao, nhận văn bản số ……………/…………..……. ngày …../…../………...
+  369|Việc giao nhận hoàn thành vào lúc ..... giờ ..... ngày ..... tháng ..... năm .........
+  370|Biên bản giao, nhận hồ sơ, tài liệu đã được đọc lại cho những người có tên nêu trên nghe và ký xác nhận; biên bản được lập thành 02 bản, mỗi bên giữ 01 bản./.
+  372|ĐẠI DIỆN BÊN NHẬN	ĐẠI DIỆN BÊN GIAO
+  373|(Ký và ghi rõ họ tên)	(Ký và ghi rõ họ tên)
+  378|Yang, Ruilin	Nguyễn Thành Đồng
+  381|Mẫu số: 02-TTKT
+  382|(Ban hành kèm theo Quy chế
+  383|Giám sát hoạt động của đoàn  thanh tra, kiểm tra thuế)
+  387|[TBL]
+  390|THUẾ THÀNH PHỐ ĐỒNG NAI
+  391|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  392|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  393|Độc lập - Tự do - Hạnh phúc
+  394||
+  396||
+  397||
+  399|| Trấn Biên, ngày ..... tháng ..... năm 2026
+  400||
+  402|[/TBL]
+  404|KẾ HOẠCH GIÁM SÁT HOẠT ĐỘNG CỦA ĐOÀN KIỂM TRA THUẾ
+  406|Thực hiện Quyết định số 6687/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 Thành phố Đồng Nai về việc giám sát đoàn kiểm tra theo QĐ kiểm tra tại doanh nghiệp số 6686/QĐ-TCS3 ngày 06/10/2026 do ông Nguyễn Trường Giang làm giám sát đoàn kiểm tra, lập kế hoạch tiến hành giám sát như sau:
+  407|I. Mục đích, yêu cầu
+  408|Căn cứ theo Quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám, sát hoạt động của Đoàn thanh tra, kiểm tra thuế.
+  409|II. Nội dung giám sát
+  410|1. Giám sát việc chấp hành pháp luật của người được giám sát bao gồm các nội dung sau:
+  411|a. Việc thực hiện các quy định của pháp luật về trình tự, thủ tục, thời hạn tiến hành một cuộc kiểm tra thuế theo quy trình kiểm tra thuế bao gồm: việc thu thập, tổng hợp, đánh giá thông tin; thực hiện chế độ thông tin, báo cáo; ghi nhật ký Đoàn kiểm tra;
+  412|b. Việc thực hiện các quyền trong hoạt động kiểm tra thuế đối với người được giám sát, bao gồm: căn cứ, thẩm quyền, trình tự, thủ tục và kết quả thực hiện; việc xử lý ý kiến của đối tượng kiểm tra và các cơ quan, tổ chức, cá nhân có liên quan đến việc thực hiện các quyền trong hoạt động kiểm tra;
+  413|c. Việc thực hiện các quy định của pháp luật đối với người được giám sát, bao gồm: quy định về những điều cấm trong hoạt động kiểm tra thuế; quy tắc ứng xử của công chức thực hiện nhiệm vụ kiểm tra thuế; ý thức chấp hành kỷ luật kiểm tra thuế và các quy định khác có liên quan.
+  414|2. Giám sát việc thực hiện nhiệm vụ và triển khai hoạt động kiểm tra thuế của Đoàn kiểm tra bao gồm các nội dung sau:
+  415|a. Tiến độ và kết quả đã đạt được so với yêu cầu theo quyết định kiểm tra thuế, kế hoạch tiến hành kiểm tra;
+  416|b. Khó khăn, vướng mắc phát sinh trong hoạt động kiểm tra thuế và tác động đối với việc hoàn thành kế hoạch tiến hành kiểm tra;
+  417|c. Việc thực hiện nhiệm vụ, triển khai hoạt động kiểm tra thuế của người được giám sát;
+  418|d. Việc xử lý ý kiến khác nhau giữa Trưởng đoàn và thành viên Đoàn kiểm tra về những vấn đề liên quan đến nội dung kiểm tra;
+  419|e. Các nội dung tại Khoản 6, điều 7 Quy chế này;
+  420|f. Các nội dung khác có liên quan đến việc thực hiện nhiệm vụ, triển khai hoạt động kiểm tra của Đoàn kiểm tra thuế.
+  421|3. Các nội dung giám sát hoạt động của Đoàn kiểm tra thuế được thực hiện theo mẫu 05-TTr ban hành kèm theo Quy chế này.
+  422|III. Hình thức giám sát
+  423|- Theo điều 14 của QĐ 1614 (tùy trường hợp)
+  424|IV. Tổ chức thực hiện
+  425|- Tiến độ thực hiện:
+  426|+ Chậm nhất 05 ngày làm việc sau khi quyết định giám sát hoạt động của Đoàn kiểm tra thuế được ký, người được phân công giám sát thực hiện nhiệm vụ giám sát của mình theo quy chế giám sát của QĐ 1614.
+  427|+ Yêu cầu Đoàn kiểm tra thực hiện theo khoản 1 Điều 7 của QĐ 1614
+  428|- Chế độ thông tin báo cáo: Người được giám sát thực hiện tại khoản 2 Điều 16 của QĐ 1562 (nếu có).
+  429|- Điều kiện vật chất đảm bảo hoạt động giám sát.
+  430|- Những vấn đề khác (nếu có).
+  433|[TBL]
+  434|Phê duyệt của Lãnh đạo Thuế cơ sở
+  437|Phạm Đồng Xuân
+  438|| Tổ trưởng Tổ giám sát hoặc công chức
+  441|Nguyễn Trường Giang
+  442||
+  443|Nơi nhận:
+  444|- Đoàn kiểm tra;
+  445|- Lưu: Đội KTr1.
+  446||
+  449||
+  451|[/TBL]
+  456|Mẫu số 04-TTKT
+  457|(Ban hành kèm theo Quy chế
+  458|Giám sát hoạt động của đoàn  thanh tra thuế)
+  462|[TBL]
+  463|THUẾ THÀNH PHỐ ĐỒNG NAI
+  464|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  465|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  466|Độc lập - Tự do - Hạnh phúc
+  467||
+  469||
+  470||
+  472|| Trấn Biên, ngày ..... tháng ..... năm 2026
+  473||
+  475|[/TBL]
+  477|BIÊN BẢN LÀM VIỆC
+  479|Vào hồi ..... giờ ..... ngày ...../...../2026 tại Văn phòng Thuế cơ sở 3 thành phố Đồng Nai, ông Nguyễn Trường Giang làm việc với Đoàn kiểm tra theo quyết định kiểm tra tại doanh nghiệp số 6686/QĐ-TCS3 ngày 06/10/2026 về việc giám sát Đoàn kiểm tra theo quyết định giám sát số 6687/QĐ-TCS3 ngày 06/10/2026.
+  480|1. Đại diện Đoàn giám sát:
+  481|- Ông:	Nguyễn Trường Giang	- Chức vụ: Tổ trưởng Tổ kiểm tra số 1.
+  482|2. Đại diện Đoàn kiểm tra :
+  483|- Ông:	Nguyễn Thành Đồng		- Chức vụ: ..................................
+  484|- Bà:	Nguyễn Thị Ánh Ngọc		- Chức vụ: ..................................
+  485|3. Nội dung làm việc
+  486|Đánh giá về thực hiện nhiệm vụ của đoàn kiểm tra: Đoàn kiểm tra đã thực hiện đúng quy trình, nội dung trong quyết định kiểm tra, thực hiện đúng tiến độ kiểm tra và đã báo cáo tiến độ cho người phân công giám sát kịp thời.
+  487|Người giám sát đã thực hiện theo đúng quy trình giám sát tại quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế, số liệu kiểm tra theo nội dung quyết định đoàn kiểm tra chịu trách nhiệm giải trình với người ra quyết định kiểm tra, người ra quyết định giám sát khi có yêu cầu.
+  488|Các nội dung tại biên bản này được thống nhất giữa các bên tham dự.
+  489|Biên bản kết thúc vào hồi ..... giờ ..... ngày ...../...../2026.
+  490|Biên bản đã được đọc lại cho những người có tên nêu trên nghe và ký xác nhận; biên bản được lập thành 02 bản có giá trị như nhau, mỗi bên giữa 01 bản.
+  493|[TBL]
+  494|Người giám sát
+  495|(Ký, ghi rõ họ tên)
+  500|Nguyễn Trường Giang
+  501|| Đoàn kiểm tra
+  502|(Ký, ghi rõ họ tên)
+  507|Nguyễn Thành Đồng
+  508||
+  510|[/TBL]
+  514|Mẫu số 05-TTr
+  515|(Ban hành kèm theo Quy chế
+  516|Giám sát hoạt động của đoàn  thanh tra thuế)
+  520|[TBL]
+  521|THUẾ THÀNH PHỐ ĐỒNG NAI
+  522|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  523|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  524|Độc lập - Tự do - Hạnh phúc
+  525||
+  527|| Trấn Biên, ngày ..... tháng ..... năm 2026
+  528||
+  530|[/TBL]
+  532|BÁO CÁO
+  533|Nội dung và Kết quả giám sát hoạt động của Đoàn kiểm tra
+  534|Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+  536|Thực hiện Quyết định số 6687/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai về việc giám sát hoạt động của Đoàn kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa, từ ngày 08/10/2026 đến ngày 11/10/2026 Đoàn giám sát do ông Nguyễn Trường Giang thực hiện đã tiến hành triển khai công việc.
+  537|Quá trình giám sát, ông Nguyễn Trường Giang đã làm việc với Đoàn kiểm tra và tiến hành xem xét, đối chiếu, đánh giá về nội dung giám sát.
+  538|Sau đây là nội dung và kết quả giám sát:
+  539|I. VỀ THỦ TỤC THỰC HIỆN KIỂM TRA TẠI TRỤ SỞ NGƯỜI NỘP THUẾ:
+  540|1. Việc công bố Quyết định kiểm tra có đúng thời hạn theo quy định (theo biên bản công bố Quyết định kiểm tra) và báo cáo người giám sát về việc biên bản công bố Quyết định kiểm tra theo thời hạn quy định:
+  541|Công bố đúng thời hạn ☑			                   Công bố không đúng thời hạn □
+  542|Báo cáo người giám sát đúng thời hạn ☑
+  543|Báo cáo người giám sát không đúng thời hạn □
+  544|2. Giao và giải thích tài liệu những điều người nộp thuế cần biết trong kiểm tra thuế và thông tin người giám sát tại trụ sở người nộp thuế (theo biên bản công bố Quyết định kiểm tra):
+  545|Có ☑						Không □
+  546|3. Thời hạn tiến hành cuộc kiểm tra tại doanh nghiệp (từ khi công bố quyết định kiểm tra đến khi kết thúc thời gian kiểm tra tại trụ sở NNT) thực hiện đúng quy định:
+  547|Đúng ☑	Không đúng □
+  548|4. Về thái độ ứng xử, tác phong làm việc của Đoàn (theo phản ánh của NNT tới người giám sát):
+  549|Tốt ☑	Không tốt □
+  550|5. Đoàn kiểm tra vi phạm yêu cầu cung cấp thông tin, tài liệu không liên quan đến nội dung, thời kỳ kiểm tra, hoặc yêu cầu những thông tin, tài liệu người nộp thuế đã nộp cho CQT theo quy định hiện hành (theo phản ánh của NNT):
+  551|Không có phản ánh ☑
+  552|Không vi phạm □
+  553|Có vi phạm □
+  554|6. Về việc thực hiện theo quy chế giải quyết trước khi ký biên bản kiểm tra thuế tại trụ sở người nộp thuế đối với những trường hợp có khả năng khiếu nại ban hành kèm theo Quyết định số 1276/QĐ-TCT ngày 16/7/2015 của Tổng cục trưởng Tổng cục Thuế:
+  555|Không phát sinh ☑
+  556|Có thực hiện khi phát sinh □
+  557|Không thực hiện khi phát sinh □
+  558|7. Đoàn kiểm tra có thực hiện kiểm tra theo các tiêu chí rủi ro để Xây dựng kế hoạch kiểm tra:
+  559|Có ☑					Không □
+  560|8. Đoàn kiểm tra có thực hiện kiểm tra theo các tiêu chí lựa chọn phân tích rủi ro trước khi ban hành Quyết định kiểm tra thuế:
+  561|Có ☑ 					Không □
+  562|9. Đoàn kiểm tra có thực hiện kiểm tra theo các thông tin thụ thập từ các nguồn bên ngoài (nếu có):
+  563|Có thực hiện kiểm tra □		Không thực hiện kiểm tra □
+  564|Không có thông tin thu thập từ bên ngoài ☑
+  565|II. NHỮNG NỘI DUNG KHÁC PHÁT SINH TRONG QUÁ TRÌNH GIÁM SÁT (nếu có):
+  566|.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+  567|III. Ý KIẾN ĐÁNH GIÁ VÀ ĐỀ XUẤT CỦA NGƯỜI SÁT ĐỐI VỚI KẾT QUẢ kiểm TRA VÀ ĐỀ XUẤT XỬ LÝ CỦA TRƯỞNG ĐOÀN (trên cơ sở hồ sơ trình của Đoàn kiểm tra):
+  568|.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+  569|Trên đây là Báo cáo kết quả giám sát hoạt động của Đoàn kiểm tra về Công Ty TNHH Sản Xuất Kim Loại Mo Fa, kính xin ý kiến chỉ đạo của Lãnh đạo Thuế cơ sở.
+  571|Tổ trưởng Tổ giám sát hoặc công chức
+  572|(Ký, ghi rõ họ tên)
+  573|Nơi nhận:
+  574|Lãnh đạo Cục;
+  575|Đoàn kiểm tra;
+  576|- Lưu: KTr1.
+  578|Nguyễn Trường Giang
+  581|Mẫu số: 11/QTKT-TC
+  582|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  586|[TBL]
+  587|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  588|ĐOÀN KIỂM TRA
+  589|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  590|Độc lập - Tự do - Hạnh phúc
+  591||
+  593|[/TBL]
+  596|BIÊN BẢN
+  597|Xác nhận số liệu kiểm tra
+  598|tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+  600|Căn cứ Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Trưởng Thuế cơ sở 3 thành phố Đồng Nai về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa; Địa chỉ: Đường D2, Cụm Công nghiệp Hố Nai 3, Phường Hố Nai, TP Đồng Nai; Mã số thuế: 3603961087.
+  601|Hôm nay, ngày ..... tháng ..... năm ......... tại văn phòng Công Ty TNHH Sản Xuất Kim Loại Mo Fa, địa chỉ: Đường D2, Cụm Công nghiệp Hố Nai 3, Phường Hố Nai, TP Đồng Nai, chúng tôi gồm:
+  602|Thành viên đoàn kiểm tra:
+  603|- Bà	: Nguyễn Thị Ánh Ngọc	- Chức danh: ...........................
+  604|Đại diện Người nộp thuế được kiểm tra:
+  605|- Ông	: Yang, Ruilin	- Chức vụ: Giám đốc.
+  606|- Bà	: Vũ Thị Yến Chi	- Chức vụ: Kế toán.
+  607|Căn cứ sổ sách kế toán, chứng từ tài liệu do Công Ty TNHH Sản Xuất Kim Loại Mo Fa xuất trình, hai bên cùng nhau tiến hành xác nhận số liệu kiểm tra về việc kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa như sau:
+  608|Nội dung:
+  609|* NĂM 2024:	Đơn vị tính: Đồng
+  611|[TBL]
+  612|TT
+  613|| CHỈ TIÊU
+  614|| SỐ BÁO CÁO
+  615|| SỐ KIỂM TRA
+  616|| CHÊNH LỆCH
+  617||
+  618|1
+  619|| Doanh thu bán hàng và cung cấp dịch vụ
+  620|| 10.113.773.047
+  621|| 10.113.773.047
+  622|| -
+  623||
+  624|2
+  625|| Thuế GTGT đầu ra
+  626|| -
+  627|| -
+  628|| -
+  629||
+  631|[/TBL]
+  632|*/ Không chênh lệch.
+  633|* NĂM 2025:	Đơn vị tính: Đồng
+  635|[TBL]
+  636|TT
+  637|| CHỈ TIÊU
+  638|| SỐ BÁO CÁO
+  639|| SỐ KIỂM TRA
+  640|| CHÊNH LỆCH
+  641||
+  642|1
+  643|| Doanh thu bán hàng và cung cấp dịch vụ
+  644|| 8.194.422.034
+  645|| 8.194.422.034
+  646|| -
+  647||
+  648|2
+  649|| Thuế GTGT đầu ra
+  650|| -
+  651|| -
+  652|| -
+  653||
+  655|[/TBL]
+  656|*/ Không chênh lệch.
+  657|* NĂM 2026:	Đơn vị tính: Đồng
+  659|[TBL]
+  660|TT
+  661|| CHỈ TIÊU
+  662|| SỐ BÁO CÁO
+  663|| SỐ KIỂM TRA
+  664|| CHÊNH LỆCH
+  665||
+  666|1
+  667|| Doanh thu bán hàng và cung cấp dịch vụ
+  668|| 7.691.694.066
+  669|| 7.691.694.066
+  670|| -
+  671||
+  672|2
+  673|| Thuế GTGT đầu ra
+  674|| 728.755.073
+  675|| 728.755.073
+  676|| -
+  677||
+  679|[/TBL]
+  680|*/ Không chênh lệch.
+  682|Biên bản này được lập ... bản, bao gồm .... trang …… bản có nội dung và giá trị pháp lý như nhau. 01 bản được giao người nộp thuế.
+  683|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến khác như sau:
+  684|Ý kiến bổ sung khác (nếu có): ……………………………………………… ……………..……………………………………………………………………./.
+  687|[TBL]
+  688|NGƯỜI NỘP THUẾ hoặc
+  689|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+  690|| THÀNH VIÊN ĐOÀN KIỂM TRA
+  691||
+  693||
+  694||
+  695|(Ký, ghi rõ họ tên)
+  701|Yang, Ruilin
+  702|| (Ký, ghi rõ họ tên)
+  708|Nguyễn Thị Ánh Ngọc
+  709||
+  711|[/TBL]
+  714|Mẫu số: 11/QTKT-TC
+  715|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  719|[TBL]
+  720|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  721|ĐOÀN KIỂM TRA
+  722|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  723|Độc lập - Tự do - Hạnh phúc
+  724||
+  726|[/TBL]
+  729|BIÊN BẢN
+  730|Xác nhận số liệu kiểm tra
+  731|tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+  733|Căn cứ Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Trưởng Thuế cơ sở 3 thành phố Đồng Nai về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa; Địa chỉ: Đường D2, Cụm Công nghiệp Hố Nai 3, Phường Hố Nai, TP Đồng Nai; Mã số thuế: 3603961087.
+  734|Hôm nay, ngày ..... tháng ..... năm ......... tại văn phòng Công Ty TNHH Sản Xuất Kim Loại Mo Fa, địa chỉ: Đường D2, Cụm Công nghiệp Hố Nai 3, Phường Hố Nai, TP Đồng Nai, chúng tôi gồm:
+  735|Thành viên đoàn kiểm tra:
+  736|- Ông	: Nguyễn Thành Đồng	- Chức danh: ...........................
+  737|Đại diện Người nộp thuế được kiểm tra:
+  738|- Ông	: Yang, Ruilin	- Chức vụ: Giám đốc.
+  739|- Bà	: Vũ Thị Yến Chi	- Chức vụ: Kế toán.
+  740|Căn cứ sổ sách kế toán, chứng từ tài liệu do Công Ty TNHH Sản Xuất Kim Loại Mo Fa xuất trình, hai bên cùng nhau tiến hành xác nhận số liệu kiểm tra về việc kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa như sau:
+  741|Nội dung:
+  742|* NĂM 2024:	Đơn vị tính: Đồng
+  744|[TBL]
+  745|TT
+  746|| CHỈ TIÊU
+  747|| SỐ BÁO CÁO
+  748|| SỐ KIỂM TRA
+  749|| CHÊNH LỆCH
+  750||
+  751|1
+  752|| Thuế GTGT đầu vào được khấu trừ
+  753|| 1.541.022.639
+  754|| 1.541.022.639
+  755|| -
+  756||
+  757|2
+  758|| Giá vốn hàng bán
+  759|| 9.573.570.927
+  760|| 9.573.570.927
+  761|| -
+  762||
+  763|3
+  764|| Chi phí bán hàng
+  765|| 413.086.148
+  766|| 413.086.148
+  767|| -
+  768||
+  769|4
+  770|| Chi phí quản lý doanh nghiệp
+  771|| 149.856.269
+  772|| 149.856.269
+  773|| -
+  774||
+  775|5
+  776|| Chi phí tài chính
+  777|| 76.234.613
+  778|| 76.234.613
+  779|| -
+  780||
+  782|[/TBL]
+  783|*/ Không chênh lệch.
+  784|* NĂM 2025:	Đơn vị tính: Đồng
+  786|[TBL]
+  787|TT
+  788|| CHỈ TIÊU
+  789|| SỐ BÁO CÁO
+  790|| SỐ KIỂM TRA
+  791|| CHÊNH LỆCH
+  792||
+  793|1
+  794|| Thuế GTGT đầu vào được khấu trừ
+  795|| 1.179.224.044
+  796|| 1.179.224.044
+  797|| -
+  798||
+  799|2
+  800|| Giá vốn hàng bán
+  801|| 7.815.972.318
+  802|| 7.815.972.318
+  803|| -
+  804||
+  805|3
+  806|| Chi phí bán hàng
+  807|| 180.971.300
+  808|| 180.971.300
+  809|| -
+  810||
+  811|4
+  812|| Chi phí quản lý doanh nghiệp
+  813|| 734.774.555
+  814|| 734.774.555
+  815|| -
+  816||
+  817|5
+  818|| Chi phí tài chính
+  819|| 106.670.742
+  820|| 106.670.742
+  821|| -
+  822||
+  824|[/TBL]
+  825|*/ Không chênh lệch.
+  826|* NĂM 2026:	Đơn vị tính: Đồng
+  828|[TBL]
+  829|TT
+  830|| CHỈ TIÊU
+  831|| SỐ BÁO CÁO
+  832|| SỐ KIỂM TRA
+  833|| CHÊNH LỆCH
+  834||
+  835|1
+  836|| Thuế GTGT đầu vào được khấu trừ
+  837|| 613.642.197
+  838|| 613.642.197
+  839|| -
+  840||
+  841|2
+  842|| Giá vốn hàng bán
+  843|| 10.292.325.053
+  844|| 5.858.250.427
+  845|| (4.434.074.626)
+  846||
+  847|3
+  848|| Chi phí bán hàng
+  849|| 51.745.361
+  850|| 51.745.361
+  851|| -
+  852||
+  853|4
+  854|| Chi phí quản lý doanh nghiệp
+  855|| 258.812.571
+  856|| 258.812.571
+  857|| -
+  858||
+  859|5
+  860|| Chi phí tài chính
+  861|| 40.660.605
+  862|| 40.660.605
+  863|| -
+  864||
+  866|[/TBL]
+  867|*/ Giá vốn hàng bán giảm 4.434.074.626 đồng, do Công ty kết chuyển chi phí không tương ứng doanh thu. Căn cứ Điều 10 Chương II Nghị định số 320/2025/NĐ-CP ngày 15/12/2025 của Chính Phủ.
+  869|Biên bản này được lập ... bản, bao gồm .... trang …… bản có nội dung và giá trị pháp lý như nhau. 01 bản được giao người nộp thuế.
+  870|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến khác như sau:
+  871|Ý kiến bổ sung khác (nếu có): ……………………………………………… ……………..……………………………………………………………………./.
+  874|[TBL]
+  875|NGƯỜI NỘP THUẾ hoặc
+  876|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+  877|| TRƯỞNG ĐOÀN KIỂM TRA
+  878||
+  880||
+  881||
+  882|(Ký, ghi rõ họ tên)
+  888|Yang, Ruilin
+  889|| (Ký, ghi rõ họ tên)
+  895|Nguyễn Thành Đồng
+  896||
+  898|[/TBL]
+  901|Mẫu số: 14/KTT
+  902|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+  906|[TBL]
+  907|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  908|ĐOÀN KIỂM TRA
+  909|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  910|Độc lập - Tự do - Hạnh phúc
+  911||
+  913|[/TBL]
+  916|BIÊN BẢN KIỂM TRA
+  918|Căn cứ Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+  919|Đoàn kiểm tra đã tiến hành kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+  920|Thời kỳ kiểm tra: Năm 2024 đến 2026.
+  921|Hôm nay, hồi ...... giờ ...... ngày ..... tháng ..... năm ........., tại văn phòng Thuế cơ sở 3 thành phố Đồng Nai,
+  922|Chúng tôi gồm:
+  923|1. Đoàn kiểm tra:
+  924|- Ông	: Nguyễn Thành Đồng	- Trưởng đoàn.
+  925|- Bà	: Nguyễn Thị Ánh Ngọc	- Thành viên.
+  926|2. Người nộp thuế:
+  927|- Ông	: Yang, Ruilin	- Giám đốc.
+  928|- Bà	: Vũ Thị Yến Chi		- Kế toán trưởng.
+  929|Tiến hành lập biên bản xác nhận kết quả kiểm tra như sau:
+  930|I. ĐẶC ĐIỂM, TÌNH HÌNH CHUNG CỦA NGƯỜI NỘP THUẾ
+  931|- Giấy chứng nhận đăng ký kinh doanh số 3603961087 ngày 08/05/2024 do Sở Kế hoạch và Đầu tư tỉnh Đồng Nai (nay là Sở Tài chính thành phố Đồng Nai) cấp.
+  932|- Ngành nghề kinh doanh chủ yếu: Sản xuất, xuất khẩu gang hợp kim ...
+  933|- Hình thức hạch toán kế toán: hạch toán độc lập.
+  934|- Niên độ kế toán: Từ ngày 01 tháng 01 đến ngày 31 tháng 12.
+  935|- Đăng ký kê khai nộp thuế tại: Thuế cơ sở 3 thành phố Đồng Nai.
+  936|- Hình thức kê khai nộp thuế Giá trị gia tăng: khấu trừ.
+  937|- Mục lục Ngân sách: Cấp 3 Chương 855 Loại 03 Khoản 194.
+  938|- Tài khoản số 050153102098 mở tại Ngân hàng Sacombank - PGD Trảng Bom.
+  939|- Các đơn vị thành viên (nếu có): Không.
+  940|II. NỘI DUNG KIỂM TRA TẠI TRỤ SỞ CỦA NGƯỜI NỘP THUẾ
+  941|* NĂM 2024:	Đơn vị tính: Đồng
+  943|[TBL]
+  944|STT
+  945|| Chỉ tiêu
+  946|| Số báo cáo của người nộp thuế
+  947|| Số kiểm tra
+  948|| Chênh lệch
+  949||
+  951|| THUẾ GTGT
+  952||
+  953||
+  954||
+  955||
+  956|1
+  957|| Thuế GTGT đầu ra
+  958|| -
+  959|| -
+  960|| -
+  961||
+  962|2
+  963|| Thuế GTGT đầu vào
+  964|| 1.541.022.639
+  965|| 1.541.022.639
+  966|| -
+  967||
+  968|3
+  969|| Thuế GTGT phải nộp
+  970|| -
+  971|| -
+  972|| -
+  973||
+  974|4
+  975|| Thuế GTGT chưa khấu trừ hết chuyển kỳ sau
+  976|| -
+  977|| -
+  978|| -
+  979||
+  981|| THUẾ TNDN
+  982||
+  983||
+  984||
+  985||
+  986|1
+  987|| Doanh thu bán hàng và cung cấp dịch vụ
+  988|| 10.113.773.047
+  989|| 10.113.773.047
+  990|| -
+  991||
+  992|2
+  993|| Giá vốn hàng bán
+  994|| 9.573.570.927
+  995|| 9.573.570.927
+  996|| -
+  997||
+  998|3
+  999|| Chi phí bán hàng
+ 1000|| 413.086.148
+ 1001|| 413.086.148
+ 1002|| -
+ 1003||
+ 1004|4
+ 1005|| Chi phí quản lý doanh nghiệp
+ 1006|| 149.856.269
+ 1007|| 149.856.269
+ 1008|| -
+ 1009||
+ 1010|5
+ 1011|| Chi phí tài chính
+ 1012|| 76.234.613
+ 1013|| 76.234.613
+ 1014|| -
+ 1015||
+ 1016|6
+ 1017|| Thu nhập chịu thuế
+ 1018|| (8.155.777)
+ 1019|| (8.155.777)
+ 1020|| -
+ 1021||
+ 1023|[/TBL]
+ 1024|Giải trình số liệu chênh lệch qua kiểm tra:
+ 1025|Thuế GTGT:
+ 1026|Không chênh lệch.
+ 1027|Thuế TNDN:
+ 1028|Không chênh lệch.
+ 1029|* NĂM 2025:	Đơn vị tính: Đồng
+ 1031|[TBL]
+ 1032|STT
+ 1033|| Chỉ tiêu
+ 1034|| Số báo cáo của người nộp thuế
+ 1035|| Số kiểm tra
+ 1036|| Chênh lệch
+ 1037||
+ 1039|| THUẾ GTGT
+ 1040||
+ 1041||
+ 1042||
+ 1043||
+ 1044|1
+ 1045|| Thuế GTGT đầu ra
+ 1046|| -
+ 1047|| -
+ 1048|| -
+ 1049||
+ 1050|2
+ 1051|| Thuế GTGT đầu vào
+ 1052|| 1.179.224.044
+ 1053|| 1.179.224.044
+ 1054|| -
+ 1055||
+ 1056|3
+ 1057|| Thuế GTGT phải nộp
+ 1058|| -
+ 1059|| -
+ 1060|| -
+ 1061||
+ 1062|4
+ 1063|| Thuế GTGT chưa khấu trừ hết chuyển kỳ sau
+ 1064|| 2.720.246.683
+ 1065|| 2.720.246.683
+ 1066|| -
+ 1067||
+ 1069|| THUẾ TNDN
+ 1070||
+ 1071||
+ 1072||
+ 1073||
+ 1074|1
+ 1075|| Doanh thu bán hàng và cung cấp dịch vụ
+ 1076|| 8.194.422.034
+ 1077|| 8.194.422.034
+ 1078|| -
+ 1079||
+ 1080|2
+ 1081|| Giá vốn hàng bán
+ 1082|| 7.815.972.318
+ 1083|| 7.815.972.318
+ 1084|| -
+ 1085||
+ 1086|3
+ 1087|| Chi phí bán hàng
+ 1088|| 180.971.300
+ 1089|| 180.971.300
+ 1090|| -
+ 1091||
+ 1092|4
+ 1093|| Chi phí quản lý doanh nghiệp
+ 1094|| 734.774.555
+ 1095|| 734.774.555
+ 1096|| -
+ 1097||
+ 1098|5
+ 1099|| Chi phí tài chính
+ 1100|| 106.670.742
+ 1101|| 106.670.742
+ 1102|| -
+ 1103||
+ 1104|6
+ 1105|| Thu nhập chịu thuế
+ 1106|| (446.471.795)
+ 1107|| (446.471.795)
+ 1108|| -
+ 1109||
+ 1111|[/TBL]
+ 1112|Giải trình số liệu chênh lệch qua kiểm tra:
+ 1113|Thuế GTGT:
+ 1114|Không chênh lệch.
+ 1115|Thuế TNDN:
+ 1116|Không chênh lệch.
+ 1117|* NĂM 2026:	Đơn vị tính: Đồng
+ 1119|[TBL]
+ 1120|STT
+ 1121|| Chỉ tiêu
+ 1122|| Số báo cáo của người nộp thuế
+ 1123|| Số kiểm tra
+ 1124|| Chênh lệch
+ 1125||
+ 1127|| THUẾ GTGT
+ 1128||
+ 1129||
+ 1130||
+ 1131||
+ 1132|1
+ 1133|| Thuế GTGT đầu ra
+ 1134|| 728.755.073
+ 1135|| 728.755.073
+ 1136|| -
+ 1137||
+ 1138|2
+ 1139|| Thuế GTGT đầu vào
+ 1140|| 613.642.197
+ 1141|| 613.642.197
+ 1142|| -
+ 1143||
+ 1144|3
+ 1145|| Thuế GTGT phải nộp
+ 1146|| -
+ 1147|| -
+ 1148|| -
+ 1149||
+ 1150|4
+ 1151|| Thuế GTGT chưa khấu trừ hết chuyển kỳ sau
+ 1152|| 2.605.133.807
+ 1153|| 2.605.133.807
+ 1154|| -
+ 1155||
+ 1157|| THUẾ TNDN
+ 1158||
+ 1159||
+ 1160||
+ 1161||
+ 1162|1
+ 1163|| Doanh thu bán hàng và cung cấp dịch vụ
+ 1164|| 6.837.444.066
+ 1165|| 6.837.444.066
+ 1166|| -
+ 1167||
+ 1168|2
+ 1169|| Giá vốn hàng bán
+ 1170|| 10.292.325.053
+ 1171|| 5.858.250.427
+ 1172|| (4.434.074.626)
+ 1173||
+ 1174|3
+ 1175|| Chi phí bán hàng
+ 1176|| 51.745.361
+ 1177|| 51.745.361
+ 1178|| -
+ 1179||
+ 1180|4
+ 1181|| Chi phí quản lý doanh nghiệp
+ 1182|| 258.812.571
+ 1183|| 258.812.571
+ 1184|| -
+ 1185||
+ 1186|5
+ 1187|| Chi phí tài chính
+ 1188|| 40.660.605
+ 1189|| 40.660.605
+ 1190|| -
+ 1191||
+ 1192|6
+ 1193|| Thu nhập chịu thuế
+ 1194|| (3.805.048.917)
+ 1195|| 629.025.709
+ 1196|| 4.434.074.626
+ 1197||
+ 1198|7
+ 1199|| Chuyển lỗ
+ 1200|| -
+ 1201|| 446.471.795
+ 1202|| 446.471.795
+ 1203||
+ 1204|8
+ 1205|| Thu nhập tính thuế
+ 1206|| (3.805.048.917)
+ 1207|| 182.553.914
+ 1208|| 3.987.602.831
+ 1209||
+ 1210|9
+ 1211|| Thuế suất thuế TNDN
+ 1212|| 17%
+ 1213|| 17%
+ 1214||
+ 1215||
+ 1216|10
+ 1217|| Thuế TNDN từ hoạt động SXKD
+ 1218|| -
+ 1219|| 31.034.165
+ 1220|| 31.034.165
+ 1221||
+ 1222|11
+ 1223|| Thuế TNDN được miễn, giảm
+ 1224|| -
+ 1225|| 31.034.165
+ 1226|| 31.034.165
+ 1227||
+ 1228|12
+ 1229|| Thuế TNDN còn phải nộp
+ 1230|| -
+ 1231|| -
+ 1232|| -
+ 1233||
+ 1235|[/TBL]
+ 1236|Giải trình số liệu chênh lệch qua kiểm tra:
+ 1237|Thuế GTGT:
+ 1238|Không chênh lệch.
+ 1239|Thuế TNDN:
+ 1240|Công ty báo cáo thu nhập tính thuế -3.805.048.917 đồng, Đoàn kiểm tra xác định thu nhập tính thuế 182.553.914 đồng, tăng 3.987.602.831 đồng, nguyên nhân:
+ 1241|*/ Giá vốn hàng bán giảm 4.434.074.626 đồng, do Công ty kết chuyển chi phí không tương ứng doanh thu. Căn cứ Điều 10 Chương II Nghị định số 320/2025/NĐ-CP ngày 15/12/2025 của Chính Phủ.
+ 1242|*/ Tăng chuyển lỗ: 446.471.795 đồng.
+ 1243|Công ty được miễn thuế TNDN theo quy định tại khoản 3 Điều 7 Chương III Nghị định số 20/2026/NĐ-CP ngày 15/01/2026 của Chính Phủ.
+ 1244|Giảm lỗ: 3.805.048.917 đồng./.
+ 1245|III. TÌNH HÌNH THỰC HIỆN NGHĨA VỤ VỚI NGÂN SÁCH NHÀ NƯỚC
+ 1247|[TBL]
+ 1248|STT
+ 1249|| CHỈ TIÊU
+ 1250|| Số kỳ trước chuyển sang
+ 1251|| Số phát sinh trong kỳ
+ 1252|| Số đã nộp
+ 1253|| Số còn phải nộp
+ 1254||
+ 1256||
+ 1257||
+ 1258|| Số báo cáo phát sinh phải nộp trong kỳ
+ 1259|| Số xử lý qua kiểm tra
+ 1260||
+ 1261||
+ 1262||
+ 1263|(1)
+ 1264|| (2)
+ 1265|| (3)
+ 1266|| (4)
+ 1267|| (5)
+ 1268|| (6)
+ 1269|| (7)=(3)+(4)+(5)-(6)
+ 1270||
+ 1271|1
+ 1272|| Thuế môn bài
+ 1273||
+ 1274||
+ 1275||
+ 1276||
+ 1277||
+ 1279|| 2024
+ 1280|| -
+ 1281|| -
+ 1282|| -
+ 1283|| -
+ 1284|| -
+ 1285||
+ 1287|| 2025
+ 1288|| -
+ 1289|| 2.000.000
+ 1290|| -
+ 1291|| 2.000.000
+ 1292|| -
+ 1293||
+ 1295|| 2026
+ 1296|| -
+ 1297|| -
+ 1298|| -
+ 1299|| -
+ 1300|| -
+ 1301||
+ 1302|2
+ 1303|| Thuế TNCN
+ 1304||
+ 1305||
+ 1306||
+ 1307||
+ 1308||
+ 1310|| 2024
+ 1311|| -
+ 1312|| -
+ 1313|| -
+ 1314|| -
+ 1315|| -
+ 1316||
+ 1318|| 2025
+ 1319|| -
+ 1320|| -
+ 1321|| -
+ 1322|| -
+ 1323|| -
+ 1324||
+ 1326|| 2026
+ 1327|| -
+ 1328|| -
+ 1329|| -
+ 1330|| -
+ 1331|| -
+ 1332||
+ 1333|3
+ 1334|| Thuế GTGT
+ 1335||
+ 1336||
+ 1337||
+ 1338||
+ 1339||
+ 1341|| 2024
+ 1342|| -
+ 1343|| -
+ 1344|| -
+ 1345|| -
+ 1346|| -
+ 1347||
+ 1349|| 2025
+ 1350|| -
+ 1351|| -
+ 1352|| -
+ 1353|| -
+ 1354|| -
+ 1355||
+ 1357|| 2026
+ 1358|| -
+ 1359|| -
+ 1360|| -
+ 1361|| -
+ 1362|| -
+ 1363||
+ 1364|4
+ 1365|| Thuế TNDN
+ 1366||
+ 1367||
+ 1368||
+ 1369||
+ 1370||
+ 1372|| 2024
+ 1373|| -
+ 1374|| -
+ 1375|| -
+ 1376|| -
+ 1377|| -
+ 1378||
+ 1380|| 2025
+ 1381|| -
+ 1382|| -
+ 1383|| -
+ 1384|| -
+ 1385|| -
+ 1386||
+ 1388|| 2026
+ 1389|| -
+ 1390|| -
+ 1391|| -
+ 1392|| -
+ 1393|| -
+ 1394||
+ 1396|[/TBL]
+ 1397|IV. KẾT LUẬN, KIẾN NGHỊ VÀ YÊU CẦU
+ 1398|1/ Kết luận:
+ 1399|1.1. Về việc mở, ghi chép, hạch toán trên sổ sách kế toán và hóa đơn chứng từ:
+ 1400|Công ty đã thực hiện mở sổ sách kế toán, lưu trữ đầy đủ chứng từ, sổ sách kế toán.
+ 1401|1.2. Về việc kê khai thuế, nộp thuế:
+ 1402|Doanh nghiệp thực hiện kê khai thuế đúng thời hạn quy định, nộp thuế kịp thời và đầy đủ theo kê khai.
+ 1403|1.4. Về xử phạt vi phạm hành chính (nếu có):
+ 1404|- Hành vi vi phạm hành chính về:
+ 1405|+ Hành vi khai sai nhưng không dẫn đến thiếu số tiền thuế phải nộp đối với kỳ tính thuế TNDN năm 2026 theo quy định tại khoản 3 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính Phủ.
+ 1406|- Tình tiết tăng nặng, giảm nhẹ (nếu có): Không.
+ 1407|- Hình thức xử phạt: phạt tiền theo quy định tại khoản 5 Điều 1 Nghị định số 310/2025/NĐ-CP ngày 02/12/2025 của Chính Phủ.
+ 1408|1.4. Về việc xử lý hóa đơn, tài sản cố định, hàng tồn kho:
+ 1409|- Công ty đã hoàn thành nghĩa vụ nộp thuế và không còn nợ thuế theo đúng quy định.
+ 1410|- Về việc xử lý hóa đơn: Do Công Ty sử dụng hóa đơn điện tử theo Thông tư số 78/2021/TT-BTC ngày 17/9/2021 của Bộ Tài chính nên không thực hiện hủy hóa đơn.
+ 1411|- Công ty đã hoàn tất thanh lý tài sản cố định.
+ 1412|- Công ty không còn tồn hàng tồn kho.
+ 1413|2. Kiến nghị và yêu cầu:
+ 1414|2.1. Kiến nghị Thuế cơ sở 3 thành phố Đồng Nai tiến hành xử lý vi phạm về thuế đã được phát hiện qua kiểm tra, như sau:
+ 1415|a) Hình thức xử phạt hành chính:
+ 1416|- Phạt tiền với số tiền: 6.500.000 đồng (Bằng chữ: Sáu triệu, năm trăm ngàn đồng), trong đó:
+ 1417|+ Phạt về hành vi khai sai nhưng không dẫn đến thiếu số thuế phải nộp, tăng số thuế được miễn, giảm hoặc chưa được hoàn thuế: 6.500.000 đồng;
+ 1418|b) Biện pháp khắc phục hậu quả:
+ 1419|- Giảm lỗ: 3.805.048.917 đồng.
+ 1420|2.2. Yêu cầu người nộp thuế nộp đầy đủ, kịp thời vào tài khoản của cơ quan thuế khi có quyết định xử lý của cơ quan quản lý thuế
+ 1421|- Yêu cầu người nộp thuế thực hiện đóng mã số thuế theo quy định.
+ 1422|- Đối với các vi phạm về chế độ mở, ghi chép, hạch toán trên sổ sách kế toán và hoá đơn chứng từ phải yêu cầu người nộp thuế chấn chỉnh kịp thời.
+ 1423|Do thời gian kiểm tra hạn chế và chứng từ, số liệu kiểm tra rất nhiều, vì vậy một vài nội dung kiểm tra Đoàn kiểm tra chỉ chọn mẫu để kiểm tra. Các chứng từ, số liệu không kiểm tra Đoàn kiểm tra ghi nhận theo số liệu từ sổ sách kế toán, hồ sơ khai thuế và Báo cáo tài chính do Công ty xuất trình. Trường hợp sau kiểm tra, cơ quan có thẩm quyền phát hiện các chứng từ, số liệu chưa được kiểm tra có sai sót hoặc có sự chênh lệch giữa các liên hóa đơn mua hàng, hóa đơn tài chính hoặc hóa đơn không hợp pháp thì đơn vị phải hoàn toàn chịu trách nhiệm và bị xử phạt theo quy định của pháp luật.
+ 1424|- Đoàn kiểm tra không kiểm tra về giao dịch liên kết, nếu sau này phát hiện có sự chênh lệch khác ngoài kết quả nêu trên thì đơn vị phải chịu hoàn toàn trách nhiệm trước Pháp luật và các cơ quan quản lý Nhà nước.
+ 1425|V. Ý KIẾN CỦA NGƯỜI NỘP THUẾ (nếu có):
+ 1426|......................................................................................................................... ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. ................................................................................................................................. .................................................................................................................................................................................................................................................................. .................................................................................................................................
+ 1427|VI. QUYỀN VÀ THỜI HẠN GIẢI TRÌNH CỦA NGƯỜI NỘP THUẾ:
+ 1428|Trong thời hạn không quá 02 ngày làm việc, kể từ ngày lập biên bản này, Công Ty TNHH Sản Xuất Kim Loại Mo Fa gửi yêu cầu giải trình trực tiếp hoặc trong thời hạn không quá 05 ngày, kể từ ngày lập được biên bản này Công Ty TNHH Sản Xuất Kim Loại Mo Fa gửi văn bản giải trình đến Tổ Kiểm tra số 1 để thực hiện quyền giải trình.
+ 1429|Biên bản được thông qua vào hồi .... giờ ..... cùng ngày, gồm .... trang được lập thành ...... bản có nội dung và giá trị như nhau; biên bản được giao cho Công Ty TNHH Sản Xuất Kim Loại Mo Fa, Đoàn kiểm tra, Tổ Quản lý, hỗ trợ doanh nghiệp số 1; 01 bản lưu hồ sơ./.
+ 1432|[TBL]
+ 1433|NGƯỜI NỘP THUẾ hoặc
+ 1434|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+ 1435|(Ký, ghi rõ họ tên; chức vụ và đóng dấu (nếu có)/Ký điện tử/Xác nhận điện tử)
+ 1441|Yang, Ruilin
+ 1442|| 			ĐẠI DIỆN ĐOÀN KIỂM TRA
+ 1443|TRƯỞNG ĐOÀN
+ 1444|(Ký, ghi rõ họ tên/Ký điện tử)
+ 1451|Nguyễn Thành Đồng
+ 1452||
+ 1454|[/TBL]
+ 1458|Mẫu số: 15/KTT
+ 1459|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+ 1462|[TBL]
+ 1463|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1464|ĐOÀN KIỂM TRA
+ 1465|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1466|Độc lập - Tự do - Hạnh phúc
+ 1467||
+ 1469|[/TBL]
+ 1471|BIÊN BẢN
+ 1472|Công khai và bàn giao dự thảo biên bản kiểm tra
+ 1474|Căn cứ Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+ 1475|Đoàn kiểm tra đã tiến hành kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa và kết thúc kiểm tra ngày …../…../2026.
+ 1476|Hôm nay, hồi ..... giờ..... ngày …../…../2026,
+ 1477|Tại: văn phòng Tổ kiểm tra số 1, Thuế cơ sở 3 thành phố Đồng Nai,
+ 1478|Chúng tôi gồm:
+ 1479|I. Đoàn kiểm tra thuế:
+ 1480|- Ông	: Nguyễn Thành Đồng	- Chức vụ: ........................	- Trưởng đoàn.
+ 1481|- Bà	: Nguyễn Thị Ánh Ngọc	- Chức vụ: ........................	- Thành viên.
+ 1482|II. Người nộp thuế:
+ 1483|- Ông/Bà: Yang, Ruilin
+ 1484|- Chức vụ: Giám đốc, đại diện cho Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+ 1485|- Ông/Bà: Vũ Thị Yến Chi
+ 1486|- Chức vụ: kế toán.
+ 1487|Nội dung
+ 1488|Đoàn kiểm tra tiến hành công khai và bàn giao dự thảo Biên bản kiểm tra giữa Đoàn kiểm tra theo Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai và Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+ 1489|Đại diện Công Ty TNHH Sản Xuất Kim Loại Mo Fa và Đoàn kiểm tra đã được nghe toàn bộ dự thảo Biên bản và Đại diện Công Ty TNHH Sản Xuất Kim Loại Mo Fa đã nhận bàn giao dự thảo Biên bản kiểm tra giữa Đoàn kiểm tra và Công Ty TNHH Sản Xuất Kim Loại Mo Fa nêu trên.
+ 1490|Công Ty TNHH Sản Xuất Kim Loại Mo Fa có trách nhiệm rà soát dự thảo Biên bản, có ý kiến giải trình (nếu có) và ký Biên bản kiểm tra trong thời hạn 05 ngày làm việc, kể từ ngày kết thúc kiểm tra.
+ 1491|Biên bản này gồm có ….. trang, được lập thành 02 bản có nội dung và giá trị pháp lý như nhau. 01 bản được giao cho đại diện Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+ 1492|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và ký biên bản hoặc có ý kiến bổ sung khác (nếu có) như sau: …………………………………………………………………………………………...
+ 1495|[TBL]
+ 1496|NGƯỜI NỘP THUẾ hoặc
+ 1497|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+ 1498|| ĐẠI DIỆN ĐOÀN KIỂM TRA
+ 1499|TRƯỞNG ĐOÀN
+ 1500||
+ 1501|(Ký, ghi rõ họ tên; chức vụ và đóng dấu (nếu có)/Ký điện tử/Xác nhận điện tử)
+ 1506|Yang, Ruilin
+ 1507|| (Ký, ghi rõ họ tên/Ký điện tử)
+ 1513|Nguyễn Thành Đồng
+ 1514||
+ 1516|[/TBL]
+ 1520|[TBL]
+ 1521|Mẫu số: 12/QTKT-TC
+ 1522|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+ 1523||
+ 1525|[/TBL]
+ 1527|[TBL]
+ 1528|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1529|ĐOÀN KIỂM TRA THEO QUYẾT ĐỊNH SỐ 6686/QĐ-TCS3
+ 1530|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1531|Độc lập - Tự do - Hạnh phúc
+ 1532||
+ 1534|| Trấn Biên, ngày 12 tháng 10 năm 2026
+ 1535||
+ 1537|[/TBL]
+ 1540|BÁO CÁO
+ 1541|Kết quả kiểm tra
+ 1542|tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+ 1544|Thực hiện Quyết định kiểm tra số 6686/QĐ-TCS3 ngày 06/10/2026 của Trưởng Thuế cơ sở 3 thành phố Đồng Nai. Từ ngày 08/10/2026 đến ngày 11/10/2026 Đoàn kiểm tra đã tiến hành kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+ 1545|Căn cứ Biên bản kiểm tra ký ngày 12/10/2026 giữa Trưởng đoàn kiểm tra và đại diện người nộp thuế được kiểm tra và các hồ sơ, tài liệu có liên quan.
+ 1546|Đoàn kiểm tra báo cáo kết quả kiểm tra:
+ 1547|I. ĐẶC ĐIỂM TÌNH HÌNH CHUNG:
+ 1548|- Giấy chứng nhận đăng ký kinh doanh số 3603961087 ngày 08/05/2024 do Sở Kế hoạch và Đầu tư tỉnh Đồng Nai (nay là Sở Tài chính thành phố Đồng Nai) cấp.
+ 1549|- Ngành nghề kinh doanh chủ yếu: Sản xuất, xuất khẩu gang hợp kim ...
+ 1550|- Hình thức hạch toán kế toán: hạch toán độc lập.
+ 1551|- Niên độ kế toán: Từ ngày 01 tháng 01 đến ngày 31 tháng 12.
+ 1552|- Đăng ký kê khai nộp thuế tại: Thuế cơ sở 3 thành phố Đồng Nai.
+ 1553|- Hình thức kê khai nộp thuế Giá trị gia tăng: khấu trừ.
+ 1554|- Mục lục Ngân sách: Cấp 3 Chương 855 Loại 03 Khoản 194.
+ 1555|- Tài khoản số 050153102098 mở tại Ngân hàng Sacombank - PGD Trảng Bom.
+ 1556|- Các đơn vị thành viên (nếu có): Không.
+ 1557|II. NỘI DUNG KIỂM TRA:
+ 1558|1/. Nội dung: Thuế GTGT năm 2024:
+ 1559|Không chênh lệch.
+ 1560|2/. Nội dung: Thuế GTGT năm 2025:
+ 1561|Không chênh lệch.
+ 1562|3/. Nội dung: Thuế GTGT năm 2026:
+ 1563|Không chênh lệch.
+ 1564|4/. Nội dung: Thuế TNDN năm 2024:
+ 1565|Không chênh lệch.
+ 1566|5/. Nội dung: Thuế TNDN năm 2025:
+ 1567|Không chênh lệch.
+ 1568|6/. Nội dung: Thuế TNDN năm 2026:
+ 1569|Công ty báo cáo thu nhập tính thuế -3.805.048.917 đồng, Đoàn kiểm tra xác định thu nhập tính thuế 182.553.914 đồng, tăng 3.987.602.831 đồng, nguyên nhân:
+ 1570|*/ Giá vốn hàng bán giảm 4.434.074.626 đồng, do Công ty kết chuyển chi phí không tương ứng doanh thu. Căn cứ Điều 10 Chương II Nghị định số 320/2025/NĐ-CP ngày 15/12/2025 của Chính Phủ.
+ 1571|*/ Tăng chuyển lỗ: 446.471.795 đồng.
+ 1572|Công ty được miễn thuế TNDN theo quy định tại khoản 3 Điều 7 Chương III Nghị định số 20/2026/NĐ-CP ngày 15/01/2026 của Chính Phủ.
+ 1573|Giảm lỗ: 3.805.048.917 đồng./.
+ 1574|III. KIẾN NGHỊ XỬ LÝ:
+ 1575|- Kiến nghị xử lý truy thu: Không.
+ 1576|- Kiến nghị xử phạt:
+ 1577|+ Hình thức xử phạt: Không.
+ 1578|+ Quy định xử phạt: phạt tiền theo quy định tại khoản 5 Điều 1 Nghị định số 310/2025/NĐ-CP ngày 02/12/2025 của Chính Phủ
+ 1579|+ Phạt về hành vi khai sai nhưng không dẫn đến thiếu số thuế phải nộp, tăng số thuế được miễn, giảm hoặc chưa được hoàn thuế: 6.500.000 đồng;
+ 1580|Trên đây là báo cáo kết quả kiểm tra tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa, Đoàn kiểm tra báo cáo và trình dự thảo Kết luận kiểm tra/Quyết định xử phạt vi phạm hành chính để Trưởng Thuế cơ sở 3 thành phố Đồng Nai xem xét, ký duyệt
+ 1582|TRƯỞNG ĐOÀN KIỂM TRA
+ 1583|(Ký và ghi rõ họ tên)
+ 1587|Nguyễn Thành Đồng
+ 1589|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1590|TỔ KIỂM TRA SỐ 1
+ 1592|NHẬT KÝ THANH TRA KIỂM TRA
+ 1594|I. THÔNG TIN CHUNG:
+ 1595|1. Đoàn kiểm tra:
+ 1596|- Ông/Bà	: Nguyễn Thành Đồng	- Chức vụ: Trưởng đoàn
+ 1597|- Ông/Bà	: Nguyễn Thị Ánh Ngọc	- Chức vụ: Thành Viên
+ 1598|2. Đối tượng được kiểm tra:
+ 1599|- Tên doanh nghiệp: Công Ty TNHH Sản Xuất Kim Loại Mo Fa;
+ 1600|- Mã số thuế: 3603961087;
+ 1601|- Địa chỉ: Đường D2, Cụm Công nghiệp Hố Nai 3, Phường Hố Nai, TP Đồng Nai;
+ 1602|- Ngành nghề KD hiện tại: Sản xuất, xuất khẩu gang hợp kim
+ 1603|II. NHẬT KÝ THANH TRA KIỂM TRA:
+ 1604|1/ Công việc chính:
+ 1606|[TBL]
+ 1607|Số TT
+ 1608|| Nội dung công việc
+ 1609|| Số hiệu văn bản
+ 1610|| Ngày tháng thực hiện
+ 1611|| Ghi chú
+ 1612||
+ 1613|1
+ 1614|| Ban hành quyết định
+ 1615|| 6686/QĐ-TCS3
+ 1616|| 06/10/2026
+ 1617||
+ 1618||
+ 1619|2
+ 1620|| Thông báo quyết định KT
+ 1621||
+ 1622|| 07/10/2026
+ 1623||
+ 1624||
+ 1625|3
+ 1626|| Thu hồi quyết định KT
+ 1627||
+ 1628||
+ 1629||
+ 1630||
+ 1631|4
+ 1632|| Tiến hành kiểm tra
+ 1633||
+ 1634|| 08/10/2026
+ 1635|| Công bố
+ 1636||
+ 1637|5
+ 1638|| Kết thúc kiểm tra
+ 1639||
+ 1640|| 11/10/2026
+ 1641||
+ 1642||
+ 1643|6
+ 1644|| Lập biên bản thông báo kết quả KT
+ 1645||
+ 1646|| 12/10/2026
+ 1647||
+ 1648||
+ 1649|7
+ 1650|| Báo cáo kết quả kiểm tra
+ 1651||
+ 1652|| 12/10/2026
+ 1653||
+ 1654||
+ 1655|8
+ 1656|| Chuyển kết quả KT chờ xử lý
+ 1657||
+ 1658|| 12/10/2026
+ 1659||
+ 1660||
+ 1662|[/TBL]
+ 1663|2/ Phân công nhiệm vụ kiểm tra:
+ 1665|[TBL]
+ 1666|Số TT
+ 1667|| Tên cán bộ thực hiện
+ 1668|| Nội dung công việc được giao
+ 1669|| Ngày tháng thực hiện
+ 1670|| Kết quả &amp; ý kiến đề xuất
+ 1671||
+ 1672|1
+ 1673|| Nguyễn Thành Đồng
+ 1674|| Thuế GTGT đầu vào được khấu trừ; Giá vốn hàng bán; Chi phí bán hàng; Chi phí quản lý doanh nghiệp; Chi phí tài chính
+ 1675|| 08/10-11/10/2026
+ 1676||
+ 1677||
+ 1678|2
+ 1679|| Nguyễn Thị Ánh Ngọc
+ 1680|| Thuế GTGT đầu ra; Doanh thu bán hàng và cung cấp dịch vụ
+ 1681|| 08/10-11/10/2026
+ 1682||
+ 1683||
+ 1685|[/TBL]
+ 1686|3/ Nội dung khác nếu có: Không
+ 1688|Người lập	Trưởng đoàn	Thành viên
+ 1693|Nguyễn Thành Đồng	Nguyễn Thị Ánh Ngọc
+ 1696|Mẫu số: 09/QTKT-TC
+ 1697|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+ 1702|[TBL]
+ 1703|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1704|ĐOÀN KIỂM TRA
+ 1705||
+ 1706|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1707|Độc lập - Tự do - Hạnh phúc
+ 1708||
+ 1710|[/TBL]
+ 1713|BIÊN BẢN
+ 1714|phân công công việc
+ 1716|- Căn cứ Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 của Thuế cơ sở 3 thành phố Đồng Nai về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa;
+ 1717|- Căn cứ nội dung phân tích rủi ro về hồ sơ thuế người nộp thuế.
+ 1718|- Hôm nay, ngày …../…../2026 tại văn phòng Công Ty TNHH Sản Xuất Kim Loại Mo Fa, Trưởng đoàn kiểm tra phân công công việc cho các thành viên trong đoàn như sau:
+ 1719|1. Trưởng đoàn kiểm tra:
+ 1720|Nội dung công việc thực hiện:
+ 1721|- Thuế GTGT đầu vào được khấu trừ;
+ 1722|- Giá vốn hàng bán;
+ 1723|- Chi phí bán hàng;
+ 1724|- Chi phí quản lý doanh nghiệp;
+ 1725|- Chi phí tài chính.
+ 1726|2. Thành viên đoàn kiểm tra:
+ 1727|Nội dung công việc thực hiện:
+ 1728|- Thuế GTGT đầu ra;
+ 1729|- Doanh thu bán hàng và cung cấp dịch vụ.
+ 1730|Biên bản này được lập thành 02 (hai) bản và đọc cho các thành viên Đoàn kiểm tra nghe và thống nhất thông qua.
+ 1731|Trong trường hợp cần thiết, Trưởng đoàn kiểm tra căn cứ vào thực tế công việc kiểm tra tại trụ sở người nộp thuế có thể điều chỉnh phân công công việc cho các thành viên Đoàn kiểm tra./.
+ 1733|THÀNH VIÊN	TRƯỞNG ĐOÀN KIỂM TRA
+ 1737|Nguyễn Thị Ánh Ngọc	Nguyễn Thành Đồng
+ 1741|[TBL]
+ 1742|THUẾ THÀNH PHỐ ĐỒNG NAI
+ 1743|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1744|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1745|Độc lập - Tự do - Hạnh phúc
+ 1747||
+ 1749||
+ 1750||
+ 1751|Số:
+ 1752|| Trấn Biên, ngày       tháng       năm 2026
+ 1753||
+ 1755|[/TBL]
+ 1757|QUYẾT ĐỊNH
+ 1758|Xử phạt vi phạm hành chính về thuế
+ 1760|TRƯỞNG THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1762|Căn cứ Điều 57, Điều 68, Điều 70, Điều 78 và Điều 85 Luật Xử lý vi phạm hành chính (sửa đổi, bổ sung năm 2020);
+ 1763|Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10/12/2025;
+ 1764|Căn cứ Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định về xử phạt vi phạm hành chính về thuế, hóa đơn;
+ 1765|Căn cứ Nghị định số 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 125/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về xử phạt vi phạm hành chính về thuế, hóa đơn
+ 1766|Căn cứ Nghị định 118/2021/NĐ-CP ngày 23/12/2021 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xử lý vi phạm hành chính;
+ 1767|Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2025 của Cục trưởng Cục Thuế ban hành quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sở thuộc Thuế tỉnh, thành phố;
+ 1768|Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+ 1769|Căn cứ Biên bản kiểm tra thuế ký ngày 12/10/2026 tại trụ sở Người nộp thuế của Đoàn kiểm tra Thuế cơ sở 3 thành phố Đồng Nai theo Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026 về việc kiểm tra thuế tại Công Ty TNHH Sản Xuất Kim Loại Mo Fa;
+ 1770|Căn cứ Quyết định số 2956/QĐ-GQXP ngày 01/06/2026 Trưởng Thuế cơ sở 3 thành phố Đồng Nai về việc giao quyền xử phạt vi phạm hành chính về thuế và hóa đơn;
+ 1771|QUYẾT ĐỊNH:
+ 1772|Điều 1.
+ 1773|1. Xử phạt vi phạm hành chính về thuế đối với tổ chức có tên sau đây:
+ 1774|Công Ty TNHH Sản Xuất Kim Loại Mo Fa;
+ 1775|Địa chỉ trụ sở chính: Đường D2, Cụm Công nghiệp Hố Nai 3, Phường Hố Nai, TP Đồng Nai.
+ 1776|Mã số doanh nghiệp: 3603961087.
+ 1777|Số GCN đăng ký đầu tư/doanh nghiệp hoặc GP thành lập/đăng ký hoạt động: 3603961087; ngày cấp: 08/05/2024	; nơi cấp: Sở Kế hoạch và Đầu tư tỉnh Đồng Nai (nay là Sở Tài chính thành phố Đồng Nai);
+ 1778|Người đại diện theo pháp luật: Yang, Ruilin; Giới tính: Nam.
+ 1779|Chức danh: đại diện  pháp luật.
+ 1780|2. Đã thực hiện hành vi vi phạm hành chính: khai sai nhưng không dẫn đến thiếu số tiền thuế phải nộp đối với kỳ tính thuế TNDN năm 2026.
+ 1781|3. Quy định tại: khoản 3 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ.
+ 1782|4. Các tình tiết tăng nặng (nếu có): Không.
+ 1783|5. Các tình tiết giảm nhẹ (nếu có): Không.
+ 1784|6. Bị áp dụng hình thức xử phạt, biện pháp khắc phục hậu quả như sau:
+ 1785|a) Hình thức xử phạt chính: phạt tiền
+ 1786|Cụ thể:	 6.500.000 đồng. Tiểu mục: 4254 (Bằng chữ:	 Sáu triệu, năm trăm ngàn đồng.
+ 1787|b) Hình thức xử phạt bổ sung: Không.
+ 1788|c) Biện pháp khắc phục hậu quả: Không.
+ 1789|Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký;
+ 1790|Điều 3. Quyết định này được:
+ 1791|1.	Giao cho ông/bà Yang, Ruilin là người đại diện theo pháp luật của tổ chức bị xử phạt có tên tại Điều 1 Quyết định này để chấp hành.
+ 1792|Tổ chức có tên tại Điều 1 phải nghiêm chỉnh chấp hành Quyết định xử phạt này. Nếu quá thời hạn mà Công Ty TNHH Sản Xuất Kim Loại Mo Fa không tự nguyện chấp hành thì sẽ bị cưỡng chế thi hành theo quy định của pháp luật và cứ mỗi ngày chậm nộp tiền phạt thì cá nhân, tổ chức vi phạm phải nộp thêm 0,05% tính trên tổng số tiền phạt chưa nộp.
+ 1793|a) Công Ty TNHH Sản Xuất Kim Loại Mo Fa bị xử phạt phải nộp tiền phạt và tiền khắc phục hậu quả vào tài khoản số 7111.1140967 của phường Hố Nai - Thuế cơ sở 3 thành phố Đồng Nai mở tại Kho bạc nhà nước khu vực XVII theo đúng các tiểu mục trên trong thời hạn 10 ngày, kể từ ngày nhận được Quyết định này.
+ 1794|b) Công Ty TNHH Sản Xuất Kim Loại Mo Fa có quyền khiếu nại hoặc khởi kiện hành chính đối với Quyết định này theo quy định của pháp luật.
+ 1795|2. Gửi cho Kho bạc nhà nước khu vực XVII để thu tiền phạt.
+ 1796|3. Gửi cho Tổ Kiểm tra số 1, Tổ Quản lý, hỗ trợ doanh nghiệp số 1 để tổ chức thực hiện và phối hợp thực hiện quyết định này./.
+ 1798|[TBL]
+ 1799|Nơi nhận:
+ 1800|- Như Điều 3;
+ 1801|- Lãnh đạo Thuế cơ sở;
+ 1802|- Lưu: VT, KTr1 (05b).
+ 1803|| KT. TRƯỞNG THUẾ CƠ SỞ
+ 1804|PHÓ TRƯỞNG THUẾ CƠ SỞ
+ 1809|Phạm Đồng Xuân
+ 1811||
+ 1813|[/TBL]
+ 1817|Quyết định đã giao trực tiếp cho Công Ty TNHH Sản Xuất Kim Loại Mo Fa bị xử phạt vào hồi .... giờ .... phút, ngày .…../….../..........
+ 1819|[TBL]
+ 1821|| NGƯỜI NHẬN QUYẾT ĐỊNH
+ 1822|(Ký, ghi rõ họ và tên)
+ 1823||
+ 1825|[/TBL]
+ 1830|[TBL]
+ 1831|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1832|TỔ KIỂM TRA SỐ 1
+ 1834|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1835|Độc lập - Tự do - Hạnh phúc
+ 1836||
+ 1838|[/TBL]
+ 1840|TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ
+ 1841|Về việc: ban hành Quyết Định xử phạt vi phạm trong lĩnh vực thuế.
+ 1843|Nội dung công việc: Ban hành Quyết định xử phạt vi phạm hành chính trong lĩnh vực thuế đối với Công Ty TNHH Sản Xuất Kim Loại Mo Fa, MST: 3603961087 theo kiến nghị tại Biên bản kiểm tra ngày 12/10/2026 của Đoàn kiểm tra của theo quyết định số 6686/QĐ-TCS3 ngày 06/10/2026.
+ 1844|Căn cứ pháp lý để giải quyết: khoản 3 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ.
+ 1845|Ý kiến tham gia của các đơn vị liên quan:…………………………………………...  …….…………………………………………………………………………………...
+ 1846|Đề xuất của cán bộ giải quyết: Đề nghị Lãnh đạo Thuế cơ sở 3 thành phố Đồng Nai ban hành quyết định xử lý đối với Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+ 1847|Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1848|CÁN BỘ ĐỀ XUẤT
+ 1852|Nguyễn Thành Đồng
+ 1853|Ý kiến của Tổ trưởng:  Kính đề nghị Lãnh đạo Thuế cơ sở 3 thành phố Đồng Nai ban hành Quyết định xử phạt nêu trên./.
+ 1854|Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1855|TỔ TRƯỞNG
+ 1860|Nguyễn Trường Giang
+ 1861|Ý kiến phê duyệt của Lãnh đạo Thuế cơ sở ……………………………………....
+ 1862|…………………………………………………………………………………….....
+ 1863|Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1864|KT. TRƯỞNG THUẾ CƠ SỞ
+ 1865|PHÓ TRƯỞNG THUẾ CƠ SỞ
+ 1871|Phạm Đồng Xuân
+ 1878|[TBL]
+ 1879|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1880|TỔ KIỂM TRA SỐ 1
+ 1881|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1882|Độc lập - Tự do - Hạnh phúc
+ 1883||
+ 1885||
+ 1886||
+ 1888|| Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1889||
+ 1891|[/TBL]
+ 1892|Mẫu số 01
+ 1894|VĂN BẢN ĐỀ NGHỊ THAM GIA Ý KIẾN PHÁP LÝ
+ 1895|Kính gửi: Tổ Nghiệp vụ, Dự toán, Pháp chế.
+ 1896|Tổ Kiểm tra số 1 đề nghị Tổ Nghiệp vụ, Dự toán, Pháp chế nghiên cứu và tham gia ý kiến pháp lý đối với dự thảo: Quyết định xử phạt vi phạm hành chính về thuế theo kết quả kiểm tra đối với Công Ty TNHH Sản Xuất Kim Loại Mo Fa.
+ 1897|Hồ sơ thẩm định gồm:
+ 1899|[TBL]
+ 1900|STT
+ 1901|| Trích yếu văn bản, tài liệu
+ 1902|| Số văn bản, tài liệu
+ 1903|| Ngày ban hành
+ 1904|| Bút lục
+ 1905||
+ 1906|01
+ 1907|| Dự thảo Quyết định xử phạt vi phạm hành chính về thuế (2 bản)
+ 1908||
+ 1909||
+ 1910||
+ 1911||
+ 1912|02
+ 1913|| Tờ trình xử lý kết quả kiểm tra
+ 1914||
+ 1915|| 12/10/2026
+ 1916||
+ 1917||
+ 1918|03
+ 1919|| Báo cáo kết quả kiểm tra
+ 1920||
+ 1921|| 12/10/2026
+ 1922||
+ 1923||
+ 1924|04
+ 1925|| Biên bản kiểm tra
+ 1926||
+ 1927|| 12/10/2026
+ 1928||
+ 1929||
+ 1930|05
+ 1931|| Biên bản xác nhận số liệu
+ 1932||
+ 1933|| 11/10/2026
+ 1934||
+ 1935||
+ 1936|06
+ 1937|| Phiếu phân công công việc
+ 1938||
+ 1939|| 08/10/2026
+ 1940||
+ 1941||
+ 1942|07
+ 1943|| Biên bản công bố Quyết định kiểm tra
+ 1944||
+ 1945|| 08/10/2026
+ 1946||
+ 1947||
+ 1948|08
+ 1949|| Quyết định kiểm tra
+ 1950|| 6686/QĐ-TCS3
+ 1951|| 06/10/2026
+ 1952||
+ 1953||
+ 1954|09
+ 1955|| Hồ sơ phân tích thông tin
+ 1956||
+ 1957|| 06/10/2026
+ 1958||
+ 1959||
+ 1961||
+ 1962||
+ 1963||
+ 1964||
+ 1965||
+ 1967||
+ 1968||
+ 1969||
+ 1970||
+ 1971||
+ 1973|[/TBL]
+ 1975|TỔ TRƯỞNG
+ 1980|Nguyễn Trường Giang
+ 1983|Mẫu số: 06/QTKT-MC
+ 1984|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+ 1987|[TBL]
+ 1988|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1989|ĐOÀN KIỂM TRA
+ 1990|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1991|Độc lập - Tự do - Hạnh phúc
+ 1992||
+ 1994|[/TBL]
+ 1996|BIÊN BẢN
+ 1997|Giao, nhận hồ sơ, tài liệu cuộc kiểm tra theo
+ 1998|Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026
+ 2000|Hôm nay, vào lúc ..... giờ ..... ngày ..... tháng ..... năm 2026 tại văn phòng Tổ Kiểm tra số 1.
+ 2001|Chúng tôi gồm có:
+ 2002|1. Đại diện Đoàn kiểm tra
+ 2003|Ông: Nguyễn Thành Đồng	- Chức vụ: ………….
+ 2004|Bà: Nguyễn Thị Ánh Ngọc	- Chức vụ: ………….
+ 2005|2. Bộ phận tiếp nhận hồ sơ, tài liệu
+ 2006|Bà: Nguyễn Thị Ánh Ngọc	- Chức vụ: ………….
+ 2007|Đã tiến hành giao, nhận hồ sơ, tài liệu cuộc kiểm tra theo Quyết định số 6686/QĐ-TCS3 ngày 06/10/2026.
+ 2008|Hồ sơ gồm có......................trang, gồm các tài liệu sau:
+ 2009|- Bản sao giấy phép kinh doanh;
+ 2010|- Bản nhận xét phân tích hồ sơ ;
+ 2011|- Quyết định kiểm tra;
+ 2012|- Công bố quyết định kiểm tra
+ 2013|- Phiếu phân công
+ 2014|- Báo cáo kết quả cuộc kiểm tra;
+ 2015|- Biên bản xác nhận số liệu kiểm tra;
+ 2016|- Biên bản kiểm tra;
+ 2017|- Quyết định xử phạt vi phạm hành chính.
+ 2018|Việc giao nhận hoàn thành vào lúc ... giờ ... ngày ...../...../2026.
+ 2019|Việc giao nhận hoàn thành vào lúc ..... giờ ..... ngày ..... tháng ..... năm .........
+ 2020|Biên bản giao, nhận hồ sơ, tài liệu đã được đọc lại cho những người có tên nêu trên nghe và ký xác nhận; biên bản được lập thành 02 bản, mỗi bên giữ 01 bản./.
+ 2022|ĐẠI DIỆN BÊN NHẬN	ĐẠI DIỆN BÊN GIAO
+ 2023|(Ký và ghi rõ họ tên)	(Ký và ghi rõ họ tên)
+ 2027|Nguyễn Thị Ánh Ngọc	Nguyễn Thành Đồng
+ 2030|Mẫu số: 01/ĐNKHT
+ 2031|(Ban hành kèm theo Thông tư số
+ 2032|80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính)
+ 2035|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 2036|Độc lập - Tự do - Hạnh phúc
+ 2039|VĂN BẢN TỪ CHỐI NHẬN LẠI SỐ TIỀN NỘP THỪA
+ 2041|Kính gửi: Thuế cơ sở 3 thành phố Đồng Nai
+ 2046|[TBL]
+ 2047|Tên người nộp thuế: Công Ty TNHH Sản Xuất Kim Loại Mo Fa
+ 2048||
+ 2049|Mã số thuế:
+ 2050|| 3
+ 2051|| 6
+ 2052|| 0
+ 2053|| 0
+ 2054|| 2
+ 2055|| 7
+ 2056|| 5
+ 2057|| 6
+ 2058|| 1
+ 2059|| 1
+ 2060||
+ 2061||
+ 2062||
+ 2063||
+ 2064||
+ 2066|[/TBL]
+ 2068|1. Thông tin về khoản nộp thừa của người nộp thuế từ chối nhận lại:
+ 2070|[TBL]
+ 2071|S
+ 2072|T
+ 2073|T
+ 2074|| Số chứng từ nộp NSNN
+ 2075|| Ngày chứng từ nộp NSNN
+ 2076||
+ 2078|Chương
+ 2079|| Tiểu mục
+ 2080|| Tên cơ quan thu
+ 2081|| Loại tiền
+ 2082|| Số tiền thuế, tiền chậm nộp, tiền phạt phải nộp
+ 2083|| Số tiền thuế, tiền chậm nộp, tiền phạt đã nộp
+ 2084|| Số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa
+ 2085||
+ 2086|1
+ 2087||
+ 2088||
+ 2089||
+ 2090||
+ 2091|| Thuế cơ sở 3 thành phố Đồng Nai
+ 2092|| VND
+ 2093||
+ 2094||
+ 2095||
+ 2096||
+ 2097|2
+ 2098||
+ 2099||
+ 2100||
+ 2101||
+ 2102||
+ 2103|| VND
+ 2104||
+ 2105||
+ 2106||
+ 2107||
+ 2108|3
+ 2109||
+ 2110||
+ 2111||
+ 2112||
+ 2113||
+ 2114|| VND
+ 2115||
+ 2116||
+ 2117||
+ 2118||
+ 2119|4
+ 2120||
+ 2121||
+ 2122||
+ 2123||
+ 2124||
+ 2125||
+ 2126||
+ 2127||
+ 2128||
+ 2129||
+ 2131|| TỔNG CỘNG:
+ 2132|(Chi tiết theo từng loại tiền)
+ 2133||
+ 2134||
+ 2135||
+ 2136||
+ 2137||
+ 2139|[/TBL]
+ 2140|2. Lý do đề nghị từ chối nhận lại số tiền nộp thừa:
+ 2141|…………………………………………………………………………………………………………………………………………………………………………
+ 2142|3. Thông tin, tài liệu gửi kèm (ghi rõ tên tài liệu, bản chính, bản sao):
+ 2143|…………………………………………………………………………………………………………………………………………………………………………
+ 2146|[TBL]
+ 2148|| NGƯỜI NỘP THUẾ hoặc ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+ 2149|(Chữ ký, ghi rõ họ tên; chức vụ và đóng dấu (nếu có)/Ký điện tử)
+ 2154|Yang, Ruilin
+ 2155||
+ 2157|[/TBL]

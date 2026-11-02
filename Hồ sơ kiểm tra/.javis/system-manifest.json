@@ -90,7 +90,7 @@
     },
     "skills/soan-thao-van-ban": {
       "hash": "fcf3347545705e3be39b2889e6ea1782f7036634d2601fd3ef6dd53204a85772",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/doi-chieu-ncc-mua-vao-rui-ro": {
       "hash": "7a26ffdbaa5e23f2f6c921973680519543f39079e2c9a8856b5aae4a4dc01d91",
@@ -3990,5 +3990,5 @@
     }
   },
   "app_version": "0.64.21",
-  "synced_at": "2026-10-15T20:08:22+07:00"
+  "synced_at": "2026-10-27T20:10:23+07:00"
 }

@@ -1,78 +1,134 @@
 ---
 name: Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế
-description: 'Điền sheet KQKDSXKD của Bảng tính từ báo cáo phân tích HĐKD ngành thuế (PTDN02) theo mã chỉ tiêu; năm hoặc ô thiếu thì bù bằng BCTC sau cùng.'
+description: 'Điền KQKDSXKD từ PTDN02 (thiếu thì bù BCTC NamNay); có KQ2.1 thì đổ thêm GTGT và EBITDA.'
 group: Tài chính
-updated: '2026-10-15'
+updated: '2026-10-23'
 ---
 # Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế
 
-Chiều NHẬP LIỆU đứng trước [[boc-tach-bang-tinh-phan-tich]]: lấy số liệu kết quả hoạt động kinh doanh theo năm từ **báo cáo phân tích HĐKD của ngành thuế (mẫu PTDN02, xuất từ TMS)** rồi điền vào sheet `KQKDSXKD` của file `Bang tinh <kỳ>.xlsx`. Khi báo cáo thiếu năm hoặc ô, bù bằng **báo cáo tài chính (BCTC) sau cùng** của năm đó. Điền xong mới chuyển sang skill phân tích để viết DI-01.
+Chiều NHẬP LIỆU đứng trước [[boc-tach-bang-tinh-phan-tich]]: lấy số liệu kết quả hoạt động kinh doanh theo năm từ **báo cáo phân tích HĐKD của ngành thuế (mẫu PTDN02, xuất từ TMS)** rồi điền vào sheet `KQKDSXKD` của file `Bang tinh.xlsx`. Khi báo cáo thiếu năm hoặc ô, bù bằng **BCTC sau cùng** (khối `NamNay` trong XML). Nếu đã có `KQ2.1_Phan_tich_CQT_*.xlsx` thì đổ thêm sheet `GTGT` và `EBITDA` từ KQ2.1. Điền xong mới chuyển sang skill phân tích để viết DI-01.
 
 ## Khi nào dùng
 
 - "bóc tờ khai điền vào bảng tính", "hoàn chỉnh file bảng tính", "nhập số liệu KQKD".
-- Có file `PTDN02_*.xlsx` trong thư mục `1. DU LIEU THO NGANH THUE\1.3. Nghia vu nop thue & Thong bao\` của NNT.
+- "nhập GTGT/EBITDA từ KQ2.1", "đổ KQ2 vào Bảng tính".
+- Có file `PTDN02_*.xlsx` trong `1. DU LIEU THO NGANH THUE\1.3. Nghia vu nop thue & Thong bao\` của NNT.
 - Cần dựng số liệu nhiều năm cho một MST trước khi tính tỷ lệ và chọn chuyên đề kiểm tra.
+
+## Chuẩn bị (trước khi nhập)
+
+1. Thư mục vụ đã có `0. BIEN BAN\` và file `Bang tinh.xlsx` nhân bản từ mẫu `1. TD\BIEN BAN\Bang tinh.xlsx` (xem mục Chuẩn bị của skill `lap-ho-so-kiem-tra`; thuộc Trợ lý khởi tạo hồ sơ).
+2. Xác định MST, tên NNT, thời kỳ kiểm tra (ví dụ 2022-2025).
+3. Backup trước khi ghi: copy `Bang tinh.xlsx` → `Bang tinh_backup_before_nhap_YYYYMMDD_HHMMSS.xlsx` trong cùng `0. BIEN BAN\`.
 
 ## Nguồn dữ liệu
 
-**Nguồn chính - PTDN02** (Phân tích báo cáo kết quả hoạt động kinh doanh), ví dụ:
-`G:\...\10. TAM HOANG PHAT\1. DU LIEU THO NGANH THUE\1.3. Nghia vu nop thue & Thong bao\PTDN02_20260828084112.xlsx`
+| Sheet đích | Nguồn chính | Nguồn bù / bổ sung |
+| :--- | :--- | :--- |
+| `KQKDSXKD` | `PTDN02_*.xlsx` (TMS) | BCTC XML/`QTT 03` năm thiếu - **chỉ lấy khối `NamNay`**, không lấy `NamTruoc` |
+| `GTGT` | `KQ2.1_*_FINAL.xlsx` sheet `KQ2_Doi_chieu_GTGT` (Phần I theo quý) | Để trống quý không có tờ khai; không ghi 0 giả |
+| `EBITDA` | `KQ2.1_*_FINAL.xlsx` sheet `KQ2_EBITDA_Phan_tich` | Giữ đúng số KQ2.1 dù lệch `KQKDSXKD` (báo lệch cho user) |
 
-**Nguồn bù khi thiếu - BCTC sau cùng:** báo cáo tài chính (bảng KQKD) hoặc QTT 03/TNDN của năm bị thiếu, lấy bản nộp sau cùng.
+Đọc bằng `openpyxl` `read_only=True, data_only=True`. Ghi bằng `openpyxl` (hoặc Excel COM), không sửa file nguồn.
 
-Đọc bằng `openpyxl` `read_only=True, data_only=True`.
+Ví dụ đường dẫn vụ TT Biên Hòa:
+`...\KE HOACH\TT_BIEN_HOA_3603883505\0. BIEN BAN\Bang tinh.xlsx`
 
 ## Cấu trúc file PTDN02
 
-- Hàng 5-8: kỳ báo cáo, MST, tên NNT, cơ quan thuế. Lấy để đối chiếu đúng MST và kỳ.
-- Hàng 10: nhãn cột (Tên chỉ tiêu ở cột 4, Mã chỉ tiêu ở cột 8, Số liệu trên BCTC từ cột 10).
-- Hàng 11: **năm** nằm ở cột 10..13 (ví dụ 10=2022, 11=2023, 12=2024, 13=2025). Phải đọc hàng này để định vị cột năm, không đếm mò.
-- Từ hàng 12 trở đi: **mỗi chỉ tiêu chiếm 2 hàng**. Hàng trên có số liệu (cột 2 = STT, cột 4 = tên, cột 8 = mã, cột 10..13 = số theo năm); hàng dưới chỉ là phân tích Dọc/Ngang (%). **Chỉ lấy hàng số liệu, bỏ hàng %.**
+- Hàng 5-8: kỳ báo cáo, MST, tên NNT, cơ quan thuế. Đối chiếu đúng MST và kỳ.
+- Hàng 10: nhãn cột (Tên chỉ tiêu ở cột 4, Mã chỉ tiêu ở cột 8).
+- Hàng 11: **năm** nằm rải theo cột (có thể từ 2015 đến 2025, có cột trống xen kẽ). **Đọc hàng 11 để lập `năm -> cột`**, không giả định cố định cột 10..13.
+- Từ hàng 12 trở đi: **mỗi chỉ tiêu chiếm 2 hàng**. Hàng trên có số liệu (cột 2 = STT, cột 4 = tên, cột 8 = mã); hàng dưới là % Dọc/Ngang. **Chỉ lấy hàng số liệu** (có STT dạng `000001`...), bỏ hàng %.
+- Giá trị thường là chuỗi có dấu phẩy (`205,622,500.00`) - parse về số trước khi ghi.
 
-## Bản đồ mã chỉ tiêu (PTDN02 -> KQKDSXKD)
+## Bản đồ mã chỉ tiêu (PTDN02 / BCTC -> KQKDSXKD)
 
-Cùng bộ mã ở cả hai file nên map thẳng theo mã, không map theo vị trí dòng:
+Map theo **mã**, không theo vị trí dòng:
 
-| Mã | Chỉ tiêu |
-| :---: | :--- |
-| 01 | Doanh thu bán hàng và cung cấp dịch vụ |
-| 02 | Các khoản giảm trừ doanh thu |
-| 10 | Doanh thu thuần |
-| 11 | Giá vốn hàng bán |
-| 20 | Lợi nhuận gộp |
-| 21 | Doanh thu hoạt động tài chính |
-| 22 | Chi phí tài chính |
-| 23 | Trong đó: chi phí lãi vay |
-| 25 | Chi phí bán hàng |
-| 26 | Chi phí quản lý doanh nghiệp |
-| 30 | Lợi nhuận thuần từ HĐKD |
-| 31 | Thu nhập khác |
-| 32 | Chi phí khác |
-| 40 | Lợi nhuận khác |
-| 50 | Tổng lợi nhuận kế toán trước thuế |
-| 51 | Chi phí thuế TNDN hiện hành |
-| 52 | Chi phí thuế TNDN hoãn lại |
-| 60 | Lợi nhuận sau thuế |
+| Mã nguồn | Chỉ tiêu | Ghi vào KQKDSXKD |
+| :---: | :--- | :--- |
+| 01 | Doanh thu bán hàng và cung cấp dịch vụ | 01 |
+| 02 | Các khoản giảm trừ doanh thu | 02 |
+| 10 | Doanh thu thuần | 10 |
+| 11 | Giá vốn hàng bán | 11 |
+| 20 | Lợi nhuận gộp | 20 |
+| 21 | Doanh thu hoạt động tài chính | 21 |
+| 22 | Chi phí tài chính | 22 |
+| 23 | Trong đó: chi phí lãi vay | 23 |
+| **24** | Chi phí quản lý kinh doanh (gộp, form cũ/TT133) | **26** (CP QLDN); mã **25** = 0 nếu không tách được CP bán hàng |
+| 25 | Chi phí bán hàng (khi PTDN có tách) | 25 |
+| 26 | Chi phí quản lý doanh nghiệp | 26 |
+| 30 | Lợi nhuận thuần từ HĐKD | 30 |
+| 31 | Thu nhập khác | 31 |
+| 32 | Chi phí khác | 32 |
+| 40 | Lợi nhuận khác | 40 |
+| 50 | Tổng lợi nhuận kế toán trước thuế | 50 |
+| 51 | Chi phí thuế TNDN hiện hành | 51 |
+| 52 | Chi phí thuế TNDN hoãn lại | 52 (không có thì 0) |
+| 60 | Lợi nhuận sau thuế | 60 |
+
+Cột năm trên `KQKDSXKD`: đọc hàng 11 sheet đích (thường 2022=cột 15 ... 2025=cột 18). Sửa mã `20` nếu ô mã bị hỏng thành `0`.
 
 ## Quy trình
 
-1. **Xác định MST và kỳ** từ hàng 6 và 5 của PTDN02; đối chiếu với thời kỳ kiểm tra đang làm.
-2. **Định vị cột năm** ở hàng 11; lập ánh xạ `năm -> cột`.
-3. **Duyệt từng chỉ tiêu theo mã** (cột 8 hàng số liệu), đọc giá trị các năm ở cột 10..13. Bỏ qua hàng phân tích Dọc/Ngang.
-4. **Phát hiện năm thiếu:** cột để trống hoặc toàn 0 ở năm mà DN thực tế có hoạt động (ví dụ năm cuối chưa vào TMS). Đánh dấu năm đó là thiếu, KHÔNG ghi 0 giả.
-5. **Bù từ BCTC sau cùng:** với năm thiếu, mở BCTC/QTT 03 năm đó lấy đúng chỉ tiêu KQKD rồi điền. Ghi nguồn bù (BCTC ngày nộp nào) để truy vết.
-6. **Ghi vào `KQKDSXKD`** đúng cột năm theo mã chỉ tiêu, giữ giá trị thô (đồng), không làm tròn. Dùng Excel COM hoặc `openpyxl` ghi, lưu lại file.
-7. **Bàn giao** cho [[boc-tach-bang-tinh-phan-tich]] để tính tỷ lệ chi phí/doanh thu và viết Mục III, Mục IV của DI-01.
+### A. Sheet `KQKDSXKD`
+
+1. **Đổi header vụ** ngay (tránh sót tên công ty mẫu như Hoàng Danh Phát):
+   - `F5` = `Từ năm YYYY đến năm YYYY`
+   - `F6` = MST
+   - `F7` = tên NNT đúng vụ
+2. Đọc PTDN02: MST/kỳ (hàng 5-6), map năm (hàng 11), lấy số theo mã.
+3. Năm PTDN = trống hoặc toàn 0 trong khi DN có hoạt động → đánh dấu thiếu, **không ghi 0 giả**.
+4. Bù BCTC XML năm thiếu: trong `PL_KQHDSXKD` chỉ lấy con của **`NamNay`** (năm báo cáo). `NamTruoc` là số so sánh năm trước - **cấm** ghi vào cột năm hiện tại.
+5. Ghi số thô (đồng) đúng cột năm theo mã. Xóa số liệu công ty mẫu còn sót ở các năm ngoài kỳ (nếu đang làm vụ mới từ file nhân bản).
+6. Báo rõ năm nào lấy PTDN02, năm nào lấy BCTC.
+
+### B. Sheet `GTGT` (khi có KQ2.1)
+
+1. Mở `KQ2_Doi_chieu_GTGT` Phần I (theo tờ khai GTGT).
+2. Khối năm trên Bảng tính: `Năm 2022` ~ hàng 92, `2023` ~ 106, `2024` ~ 120, `2025` ~ 134 (Q1-Q4 ngay dưới header năm).
+3. Map cột nhập (giữ công thức F/G/H/J nếu có):
+   - E = doanh thu chịu 8%/10%
+   - I = thuế GTGT đầu ra 8%/10%
+   - K = giá trị mua vào
+   - L = thuế GTGT đầu vào được khấu trừ
+   - M/N = điều chỉnh giảm/tăng; O = nộp vãng lai; P = đề nghị hoàn
+4. Quý không có tờ khai trên KQ2 → **để trống**, không điền 0.
+5. Xóa số mẫu công ty cũ trong các khối năm thuộc kỳ trước khi đổ số mới.
+
+### C. Sheet `EBITDA` (khi có KQ2.1)
+
+1. Đổi header cột năm cho khớp kỳ (ví dụ `Năm 2022` ... `Năm 2025`, cột Tổng).
+2. Copy từng dòng STT 1-9 từ `KQ2_EBITDA_Phan_tich` sang các hàng tương ứng trên sheet `EBITDA` (LN, khấu hao, lãi vay, lãi tiền gửi, tổng, EBITDA 30%, lãi vay không hợp lệ, đã loại trừ, chênh lệch).
+3. Nếu lãi vay trên EBITDA (KQ2) khác mã 22/23 trên `KQKDSXKD` (BCTC) → **giữ đúng nguồn từng sheet** và nói rõ lệch cho user, không tự hòa.
+
+### D. Bàn giao
+
+Chạy [[boc-tach-bang-tinh-phan-tich]] để tính tỷ lệ chi phí/doanh thu và viết Mục III/IV DI-01.
 
 ## Ràng buộc
 
-- Khối Q: không bịa số, không điền 0 giả cho năm thiếu nguồn; thiếu cả PTDN02 lẫn BCTC thì ghi "chưa có dữ liệu" và nói rõ.
-- Ưu tiên số liệu PTDN02 (ngành thuế); chỉ dùng BCTC khi PTDN02 thiếu, và ghi rõ dòng nào lấy từ BCTC.
-- Không sửa file nguồn PTDN02/BCTC; chỉ ghi vào `KQKDSXKD` của Bảng tính.
+- Khối Q: không bịa số; không điền 0 giả cho năm/quý thiếu nguồn; thiếu cả PTDN02 lẫn BCTC thì ghi "chưa có dữ liệu".
+- Ưu tiên PTDN02 cho `KQKDSXKD`; chỉ dùng BCTC khi PTDN thiếu/0; ghi rõ nguồn từng năm.
+- Không sửa file nguồn PTDN02 / BCTC / KQ2.1.
+- File Bảng tính đích nằm trong `0. BIEN BAN\` của đúng vụ đang làm.
 
 ## Pitfalls
 
-- Mỗi chỉ tiêu 2 hàng: lấy nhầm hàng % Dọc/Ngang sẽ ra số sai hoàn toàn. Luôn khóa theo hàng có mã ở cột 8.
-- Năm cuối kỳ thường = 0 trong PTDN02 vì quyết toán chưa chốt: đây đúng là ca phải bù BCTC sau cùng, không bỏ qua.
-- PTDN02 và `KQKDSXKD` cùng mã nhưng khác vị trí cột năm: map theo mã + năm, không theo chỉ số dòng/cột cứng.
+- Lấy nhầm hàng % Dọc/Ngang của PTDN02 → số sai hoàn toàn. Khóa theo hàng có mã cột 8 + STT.
+- Năm cuối kỳ = 0 trên PTDN02 vì chưa chốt TMS → phải bù BCTC, không bỏ qua.
+- BCTC XML: lấy nhầm `NamTruoc` sẽ ghi trùng số năm trước vào năm hiện tại (đã xảy ra vụ TT Biên Hòa 2025).
+- PTDN form cũ chỉ có mã **24** gộp: phải đổ sang **26**, không để trống cả 25 và 26.
+- File nhân bản còn header/số của công ty mẫu (Hoàng Danh Phát...) → bắt buộc đổi `F5/F6/F7` và xóa số ngoài kỳ trước khi bàn giao.
+- Cột năm PTDN và `KQKDSXKD` lệch nhau: luôn map theo mã + năm đọc từ hàng 11.
+- Đổ GTGT/EBITDA từ bản KQ2 không phải `*_FINAL` / bản cũ hơn sẽ lệch tờ khai mới nhất.
+
+## Kiểm chứng
+
+- `KQKDSXKD!F6` = MST vụ; `F7` = tên NNT vụ; không còn tên công ty mẫu.
+- Các năm trong kỳ có đủ mã 01/10/11/26/30/50/60 (hoặc đã ghi rõ năm thiếu nguồn).
+- Năm bù BCTC: đối chiếu nhanh 1 chỉ tiêu (ví dụ mã 10 hoặc 50) với `NamNay` XML.
+- `GTGT`: ít nhất các quý có số trên KQ2.1 đã vào đúng khối năm; quý trống vẫn trống.
+- `EBITDA`: header năm đúng kỳ; dòng 1 và dòng lãi vay khớp KQ2.1.
+- Có file backup `_before_nhap_` trong `0. BIEN BAN\`.

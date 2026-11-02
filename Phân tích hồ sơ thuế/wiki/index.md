@@ -2,7 +2,8 @@
 
 Catalog nội dung wiki (cập nhật mỗi lần INGEST). Đọc file này trước khi trả lời câu hỏi.
 
-_(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "tiêu hoá giúp tôi" để bắt đầu tích luỹ tri thức.)_
+## Vận hành
+- [[Cat-token-2026-10-23]] - Tắt orchestration Kanban, huỷ việc blocked, tắt 8 skill ngoài phạm vi; giữ workflow 3 giai đoạn.
 
 ## Tự học
 - [[Giáo trình Xử phạt VPHC trong lĩnh vực thuế (TS. Nguyễn Công Chiến)]] - Đây là giáo trình nghiệp vụ nội ngành thuế, không phải văn bản quy phạm pháp luậ
@@ -46,3 +47,5 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Căn cứ đánh giá và giới hạn năng lực phân tích hồ sơ thuế v1.4]] - ### 1. Căn cứ đánh giá kết quả phân tích hồ sơ thuế
 Kết quả phân tích trong bộ 6
 - [[Quy chuẩn định dạng và chuẩn hóa hiển thị biểu mẫu Excel kiểm tra thuế]] - Trong công tác xử lý và xuất biểu mẫu phân tích hồ sơ kiểm tra thuế, quy chuẩn h
+- [[Xử lý dữ liệu sao kê ngân hàng dạng PDF scan trong kiểm tra thuế]] - Trong quy trình phân tích hồ sơ kiểm tra thuế, dữ liệu sao kê ngân hàng/sổ phụ n
+- [[Kỹ thuật phân tích EBITDA trong kiểm tra thuế theo Nghị định 132/2020/NĐ-CP]] - Phân tích EBITDA phục vụ kiểm tra thuế tập trung vào việc xác định mức trần chi

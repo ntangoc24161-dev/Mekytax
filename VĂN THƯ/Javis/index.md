@@ -2,13 +2,11 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 26 agents · 57 skills · 9 workflows (6 bật) · 1 loops (1 bật) · 14 plugins (13 chạy)
+**Tổng quan:** 26 agents · 57 skills · 9 workflows (6 bật) · 1 loops (1 bật) · 15 plugins (14 chạy)
 
 ## Agents
 ### AI
 - **Trợ lý tri thức** (`tri-thuc-second-brain`) - Người giữ wiki Second Brain sống và trả lời có trích dẫn. · skills: ingest-source, query-wiki, lint-wiki
-### Chung
-- **phong-van-thu** (`phong-van-thu`) - 
 ### Tài chính
 - **Chuyên viên công nợ và tiền mặt** (`chuyen-vien-cong-no-tien-mat`) - Quét chi tiền mặt 111, cụm HĐ cùng ngày, công nợ 131/331, sao kê 112. Ngưỡng K5 dùng >=. · skills: phan-tich-cong-no-tien-mat
 - **Chuyên viên doanh thu giá vốn** (`chuyen-vien-doanh-thu-gia-von`) - Đối chiếu sổ 511 với 632 theo khóa HĐ/ngày/mặt hàng, lãi gộp, bán dưới giá (K4). · skills: doi-chieu-511-632
@@ -34,6 +32,8 @@
 - **Thủ hồ sơ và Kiểm kê GĐ1** (`thu-ho-so-kiem-ke`) - Tổ chức cây thư mục 4 bước, checklist A4, manifest IN00-IN14, mức A-E, xuất KQ1. Cấm phân tích rủi ro. · skills: to-chuc-ho-so-kiem-tra-thue, giai-doan-1-kiem-ke-danh-gia
 - **Tra cứu và tải công văn iOffice** (`tra-cuu-tai-cv-ioffice`) - Đăng nhập VNPT iOffice Đồng Nai, lọc công văn cảnh báo, tải tệp đính kèm về thư mục lưu trữ · skills: tra-cuu-ioffice-dong-nai
 - **Trưởng phòng Phân tích hồ sơ thuế** (`truong-phong-phan-tich-ho-so`) - Điều phối P0-P5, chọn giai đoạn theo mức A-E, chốt Master 28 tiêu chí và đề cương, áp K1-K13. · skills: phan-tich-ho-so-thue, query-wiki
+### Văn thư
+- **phong-van-thu** (`phong-van-thu`) - 
 
 ## Skills
 ### AI
@@ -112,7 +112,7 @@
 - **Quy trình tiếp nhận và xử lý công văn đến** (`quy-trinh-tiep-nhan-va-xu-ly-cong-van-den`) - active · 2 bước [so-hoa-ocr-cong-van -> phong-van-thu] · OCR công văn đến, vào sổ Văn thư, phân phòng thụ lý và đặt hạn theo độ khẩn
 
 ## Loops
-- **Văn thư điều phối và đôn đốc** (`van-thu-dieu-phoi-don-doc`) - bật · custom/full · mỗi 60 phút
+- **Văn thư điều phối và đôn đốc** (`van-thu-dieu-phoi-don-doc`) - bật · custom/full · mỗi 180 phút
 
 ## Plugins (tool/hook native cho mọi engine)
 - **Thời gian & ngày** (`datetime-vn`) - bundled/chạy · tools: javis_now, javis_date_add · Xem ngày giờ hiện tại theo múi giờ đã cấu hình và tính ngày tương đối (mai, mốt, N ngày nữa, tuần trước). Thuần stdlib, chỉ đọc, không cần mạng.
@@ -127,6 +127,7 @@
 - **Meta Ads (Graph API)** (`meta-ads-graph`) - bundled/chạy · tools: meta_ads_accounts, meta_ads_insights, meta_ads_campaigns, meta_ads_get · Đọc số liệu quảng cáo Facebook/Instagram (tài khoản ads, chiến dịch, hiệu suất) qua Graph API, dùng token của kết nối "Meta Ads (tự tạo app)". CHỈ ĐỌC, không tiêu tiền.
 - **Facebook Trang (Graph API)** (`meta-pages-graph`) - bundled/chạy · tools: fb_pages_list, fb_page_posts, fb_page_comments, fb_page_post, fb_page_photo, fb_page_album, fb_page_video, fb_page_edit, fb_page_delete, fb_page_reply · Quản lý Trang/Fanpage Facebook qua Graph API - liệt kê Trang, đọc bài và bình luận (chỉ đọc), đăng bài/ảnh/video/album, sửa chữ, xoá bài và trả lời bình luận (toàn quyền). Dùng token của kết nối "Facebook Trang (tự tạo app)".
 - **Nhật ký dùng tool** (`tool-audit`) - bundled/tắt · tools: javis_tool_stats · hooks: post_tool_call · Đếm số lần MỖI tool được engine gọi (qua hook post_tool_call) và cho xem thống kê tool hay dùng. Đây là ví dụ minh hoạ cơ chế HOOK của plugin. Mặc định TẮT - bật qua POST /plugins/toggle (slug=tool-audit) để thử.
+- **Trạm tài liệu** (`tram-tai-lieu`) - bundled/chạy · tools: javis_tram_tai_lieu · OCR và chuyển đổi PDF/ảnh scan sang Word, Excel, Markdown, TXT hoặc PDF tìm kiếm được; xoay, tách, ghép, xóa trang; so sánh nội dung 2 file. Chạy local bằng Python venv .venv-paddleocr.
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
 - **Gửi ảnh & file qua Zalo** (`zalo-image`) - bundled/chạy · tools: zalo_send_image · Gửi ẢNH hoặc FILE qua Zalo kèm lời nhắn, bằng chính tài khoản đã quét QR ở trang Kết nối. Bù đúng chỗ MCP chuẩn của zalo-agent-cli còn thiếu - tool zalo_send_message của nó chỉ nhận chữ.
 

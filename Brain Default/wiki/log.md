@@ -21,3 +21,12 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Quy chế công tác văn thư ngành Thuế]]
+
+## [2026-10-23] update | Cắt token Brain Default
+- Tạo: [[Cat-token-2026-10-23]]
+- orchestration=off; reminder r_24e0350726 cancelled; 23 skill -> skills/.disabled/; còn 8 skill bật.
+
+## [2026-11-02] ingest | tự học từ chat
+
+Đã tạo:
+- [[Quy trình thêm tài khoản Google Drive trên Composio qua Javis]]

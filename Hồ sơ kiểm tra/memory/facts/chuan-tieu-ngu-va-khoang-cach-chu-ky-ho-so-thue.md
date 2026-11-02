@@ -12,3 +12,7 @@ updated: 2026-10-08
 
 ## Lịch sử
 - [2026-10-08] Bị thay thế bởi [[quy-tac-tieu-ngu-lon-hon-quoc-hieu-va-khong-nghieng]] (user đổi thông tin).
+
+
+## Lịch sử
+- [2026-10-23] Bị thay thế bởi [[quy-tac-khoang-cach-chu-ky-va-chong-tach-trang-quyet-dinh]] (user đổi thông tin).

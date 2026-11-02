@@ -10,7 +10,7 @@
       "cron": "0 7 * * *",
       "script": "",
       "label": "",
-      "status": "pending",
+      "status": "cancelled",
       "muc_quyen": "full",
       "created_by": "user",
       "created_at": 1792580163.6343257,
@@ -19,5 +19,5 @@
       "error": ""
     }
   ],
-  "updated": 1792682256.0300868
+  "updated": 1792695367.4589846
 }

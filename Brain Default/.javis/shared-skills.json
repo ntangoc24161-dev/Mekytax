@@ -1,7 +1,6 @@
 {
   "enabled": [
     "hoa-don-dien-tu",
-    "lap-ho-so-kiem-tra",
     "luat-phong-chong-tham-nhung",
     "paddleocr",
     "pdf-sang-md",
@@ -9,7 +8,10 @@
     "thue-gtgt",
     "thue-tncn",
     "thue-tndn",
-    "xem-ho-so-thue"
+    "tram-tai-lieu"
   ],
-  "disabled": []
+  "disabled": [
+    "lap-ho-so-kiem-tra",
+    "xem-ho-so-thue"
+  ]
 }

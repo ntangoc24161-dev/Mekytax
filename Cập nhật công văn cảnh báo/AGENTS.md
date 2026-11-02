@@ -55,3 +55,11 @@ Source: `type: source`, `source_kind: article|book|podcast|video|own-note|screen
 - Nhóm chủ đề trong `wiki/` MỌC DẦN theo source thực tế (tạo subfolder khi một chủ đề đủ dày), không định sẵn theo ngành.
 - Cần bộ khung sẵn (vd Bullet Journal, nghiên cứu, đọc sách) -> người dùng áp "gói mẫu" (opt-in), không seed mặc định.
 - Viết bằng ngôn ngữ ghi ở khối `# === NGÔN NGỮ ===` của prompt (mặc định tiếng Việt); code/tag/frontmatter key luôn dùng tiếng Anh. Tone thực tế, ngắn gọn. KHÔNG dùng ký tự em dash.
+
+## Xử lý file PDF và ảnh scan (Mặc định 3 skill)
+Khi gặp file PDF, ảnh chụp tài liệu hoặc file scan cần OCR:
+- **Chỉ đọc chữ ra chat**: Mặc định dùng skill paddleocr (MCP tool ocr).
+- **Ghi file Markdown giữ heading/bảng vào sources/**: Mặc định dùng skill pdf-sang-md (	ools.doc2md).
+- **Xuất Office (Word/Excel/TXT/searchable PDF), xoay/tách/ghép trang, so chữ**: Mặc định dùng skill 	ram-tai-lieu (	ools.doctram).
+- Tuyệt đối không bịa số liệu/thông tin khi file scan không đọc được chữ; nói rõ tình trạng cho người dùng.
+

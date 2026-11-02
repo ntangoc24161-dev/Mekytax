@@ -2,7 +2,7 @@
 name: Điền biên bản từ Bảng tính
 description: 'Điền BBXN/BBKT từ Bảng tính (DTCHEP), đồng bộ QĐ riêng, chèn ngày công bố/báo cáo và dọn bak/backup.'
 group: Tài chính
-updated: '2026-10-15'
+updated: '2026-10-27'
 ---
 
 # Điền biên bản từ Bảng tính
@@ -34,13 +34,14 @@ Chi tiết cấu trúc từng năm BBXN/BBKT: `references/cau-truc-bbxn-bbkt.md`
 
 1. Đọc sheet **`DTCHEP`** (còn gọi `DCHEP`) bằng `openpyxl` `data_only=True`: số báo cáo / số kiểm tra / chênh lệch theo năm và theo chỉ tiêu chi phí.
 2. Khớp chỉ tiêu với phân công đoàn:
-   - Thành viên (BBXN TV): Chi phí tài chính.
-   - Trưởng đoàn (BBXN TD): Chi phí QLDN và Chi phí bán hàng (mỗi ý một dòng).
+   - Thành viên (BBXN TV): Chi phí tài chính (1 chỉ tiêu/năm).
+   - Trưởng đoàn (BBXN TD): Chi phí QLDN và Chi phí bán hàng - **2 chỉ tiêu/năm trong cùng một bảng**, đánh **TT = 1** cho QLDN và **TT = 2** cho bán hàng (không tách hai bảng riêng theo chỉ tiêu).
+   - Tên chỉ tiêu trong cột CHỈ TIÊU (và trong mục I/II nói chung) **không gạch đầu dòng `-`**, chỉ ghi thẳng tên nội dung (ví dụ `Chi phí quản lý doanh nghiệp`, không phải `- Chi phí quản lý doanh nghiệp`).
 3. Với **mỗi năm** trong thời kỳ kiểm tra, trên BBXN giữ đúng khối phôi:
    - Dòng năm **đậm không nghiêng** + tab + `Đơn vị tính: Đồng` nghiêng cùng dòng (tab right ~8931); không tách ĐVT ra dòng riêng.
-   - Bảng 5 cột phôi: `TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH`.
-   - Có chênh: `*/` giải trình + căn cứ pháp lý theo năm (xem dưới).
-   - Không chênh: chỉ `*/ Không chênh lệch.` - không giữ khung giải trình của năm có chênh.
+   - Bảng phôi: `TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH` (TT là số thứ tự chỉ tiêu trong năm đó, 1/2 như trên - không phải số thứ tự năm).
+   - Có chênh: thêm dòng tiêu đề **`Giải trình số liệu chênh lệch qua kiểm tra:`**, xuống hàng mới bắt đầu bằng `*/` rồi nội dung giải trình + căn cứ pháp lý theo năm (xem dưới).
+   - Không chênh: chỉ một dòng `*/ Không chênh lệch.` viết thường - không có dòng tiêu đề "Giải trình..." phía trên, không giữ khung giải trình của năm có chênh.
 4. **BBXN không ghi** TNTT tăng / thuế TNDN truy thu (phần đó thuộc BBKT).
 5. Trên **BBKT**, năm có chênh: khối Giải trình → diễn giải TNTT → `*/` nguyên nhân → `=>Thuế TNDN truy thu...` (+ giảm lỗ nếu có). Năm không chênh: chỉ `*/ Không chênh lệch.`
 6. Câu loại **chi phí tài chính** thống nhất: `Công ty hạch toán chi phí lãi vay không tương ứng doanh thu` (không dùng cụm cũ "không đúng quy định", không EBITDA).
@@ -70,7 +71,10 @@ Lấy mốc từ sổ JAVIS PRO hoặc từ user, rồi điền đúng chỗ tro
 | Ngày kết thúc / ký BBKT | BBKT, chỗ kết thúc kiểm tra |
 | Ngày báo cáo | Báo cáo kết quả, Báo cáo giám sát, Biên bản làm việc 04-TTKT |
 
-Không tự bịa ngày. Thiếu mốc thì hỏi hoặc ghi chỗ trống theo phôi. Sau khi chèn, rà lại checkbox BCGS: **giữ** trạng thái đã tích; mục 5 thường tích "Không có phản ánh", để trống "Không vi phạm" / "Có vi phạm" trừ khi user chốt khác.
+Không tự bịa ngày. Thiếu mốc thì hỏi hoặc ghi chỗ trống theo phôi. Sau khi chèn, rà lại checkbox BCGS:
+- **Chuẩn ô hiện tại (từ 2026-10-27, phôi `MAUTONG HOP.docx` đã cập nhật sẵn): ☐ (trống) / ☑ (đã chọn)**, ký tự Unicode đặt **ngay sau nhãn chữ** đúng vị trí phôi gốc. Không dùng lại Wingdings (`¨`/`þ`), không đặt ô ở đầu chữ.
+- **Giữ nguyên trạng thái đã tích** của bản cũ khi sửa/chèn thêm nội dung; mục 5 thường tích "Không có phản ánh", để trống "Không vi phạm" / "Có vi phạm" trừ khi user chốt khác.
+- Mục 9 có **3 lựa chọn** cùng hàng: "Có thực hiện kiểm tra", "Không thực hiện kiểm tra", "Không có thông tin thu thập từ bên ngoài" - cả 3 đều phải có ô riêng (phôi cũ từng thiếu ô ở lựa chọn thứ 3, đã vá).
 
 ### 4. Dọn bak / backup
 
@@ -87,12 +91,17 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - Đồng bộ QĐ từ bản TONG cũ hơn bản tay vừa canh.
 - Normalize NĐ 30 hàng loạt lên biên bản/kế hoạch/báo cáo (phá floating, giãn dòng).
 - Thay checkbox BCGS mà reset hết ô đã tích.
+- Dùng lại Wingdings hoặc đặt ô checkbox ở đầu chữ - chuẩn từ 2026-10-27 là ☐/☑ Unicode nằm sau chữ.
+- BBXN trưởng đoàn chỉ ghi 1 chỉ tiêu/năm hoặc tách 2 chỉ tiêu thành 2 bảng riêng - phải là 1 bảng, TT 1/2.
+- Gạch đầu dòng `-` trước tên chỉ tiêu trong BBXN/BBKT - phôi không gạch đầu dòng.
 - Xóa nhầm `Bang tinh 2021-2025.xlsx` / PDF đã ký khi dọn backup.
 
 ## Kiểm chứng
 
-- Mỗi năm trong thời kỳ có đủ khối năm + bảng (nếu có số) + `*/` đúng loại (giải trình hoặc Không chênh lệch).
+- Mỗi năm trong thời kỳ có đủ khối năm + bảng (nếu có số) + `*/` đúng loại (`Giải trình số liệu chênh lệch qua kiểm tra:` + `*/` hoặc `*/ Không chênh lệch.`).
+- BBXN trưởng đoàn mỗi năm: 1 bảng, TT 1 = QLDN, TT 2 = bán hàng; tên chỉ tiêu không gạch đầu dòng.
 - BBXN không có dòng truy thu TNDN; BBKT năm chênh có `=>Thuế TNDN truy thu`.
+- Checkbox BCGS toàn bộ là ☐/☑ Unicode sau chữ, không còn Wingdings/`□`; mục 9 đủ 3 ô.
 - Hai file QĐ riêng khớp khối trong TONG HOP và mỗi file 1 trang.
 - Ngày công bố/báo cáo khớp sổ (hoặc đúng số user chốt).
 - Thư mục vụ không còn `*.bak*` / `*_backup*` sau bước dọn; còn đủ file live.

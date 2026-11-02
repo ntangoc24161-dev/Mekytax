@@ -1,12 +1,14 @@
 ---
 type: wiki
 title: Playbook tất cả skill phân tích hồ sơ thuế
-updated: 2026-10-19
+updated: 2026-10-23
 ---
 
 # Playbook tất cả skill phân tích hồ sơ thuế
 
-Catalog lệnh copy-paste. **Chuẩn v1.4:** đầu ra giao chỉ sáu tệp KQ1.1, KQ1.2, KQ1.3, KQ2.1, KQ2.2, KQ3. Skill A0-B3 là module nội bộ, ghi đúng sheet đích, không giao tệp chuyên đề.
+Catalog lệnh copy-paste. **Chuẩn v1.4 vòng 2:** đầu ra giao sáu tệp KQ1.1-KQ3; GĐ3 thêm 2 file phụ (dấu hiệu + giải trình NNT 10 sheet). Skill A0-B3 là module nội bộ, ghi đúng sheet đích, không giao tệp chuyên đề kiểu cũ.
+
+**Phòng 6 thư ký:** Thủ hồ sơ GĐ1, Dữ liệu đầu vào, KQ2.1 CQT, KQ2.2 sổ công ty, Kết luận GĐ3, Trưởng phòng. Workflow 7 bước `phan-tich-ho-so-thue-3-giai-doan`.
 
 Thay placeholder:
 
@@ -29,7 +31,7 @@ Song song được khi đã có dữ liệu: **GTGT + NCC + TNCN**; **511-632 + 
 |---|---|---|---|
 | **1** | `giai-doan-1-kiem-ke-danh-gia` | Kiểm kê IN00-IN14, mức A-E, 80 quy tắc, đề nghị bổ sung | KQ1.1, KQ1.2, KQ1.3 |
 | **2** | `giai-doan-2-phan-tich-du-lieu-co-quan-thue` | Số liệu, chênh lệch, tỷ lệ, cờ máy; lập IN07 | KQ2.1, KQ2.2 |
-| **3** | `giai-doan-3-hoan-chinh-ho-so` | 80 quy tắc, chống trùng T1-T10, đề cương và chuỗi bằng chứng ở cột | KQ3 một sheet |
+| **3** | `giai-doan-3-hoan-chinh-ho-so` | 80 quy tắc + 28 tiêu chí, chống trùng T1-T10, dấu hiệu + giải trình NNT | KQ3 2 sheet + 2 file phụ |
 
 Chi tiết lệnh 3 giai đoạn: `skills/phan-tich-ho-so-thue/playbook-3-giai-doan.md`.
 
@@ -143,7 +145,7 @@ Tham chiếu skills/lam-sach-cd1-mst-hoa-don/references/excel-cd1-hv-bt5-bt9.md.
 ```
 Đối chiếu tờ khai GTGT - QTT TNDN - bảng kê - HĐĐT chuẩn CBRR
 cho <TEN> MST <MST> tại <FOLDER> kỳ <KY>.
-Ghi KQ2.1!KQ2_Doi_chieu_GTGT (số, chênh lệch, cờ máy).
+Ghi KQ2.1!KQ2_Doi_chieu_GTGT (số, chênh lệch, cờ máy; nhận xét nguyên nhân trọng yếu khi lệch lớn - 3.4).
 Bóc tách kỳ BS, HĐ hủy/thay thế. Không xuất Tong_hop_doi_chieu_GTGT_TNDN.
 Nếu có HĐĐT mua + BKMV + NKC: đối chiếu thêm khóa SoHD|MST và thuế BKMV vs PS Nợ 133* theo tháng (CD1 BT8/BT9).
 ```
@@ -162,7 +164,7 @@ Nếu có HĐĐT mua + BKMV + NKC: đối chiếu thêm khóa SoHD|MST và thu�
 Đối chiếu NCC mua vào với CVCBRR và danh bạ cho <FOLDER>
 Phần 1: NNT <MST> với sheet F1 và Bao_cao_cong_van.xlsx, ghi số CV + nguồn trích.
 Phần 2: người bán sheet mua vao với sheet F0.
-Ghi KQ2.1!IN07_NCC_CanhBao và KQ2_NCC_mua_vao. 100% NCC. Không nhận xét trên KQ2.
+Ghi KQ2.1!IN07_NCC_CanhBao và KQ2_NCC_mua_vao. 100% NCC. Giữ HD04 Top-5 gộp theo người bán. Nhận xét module Phần 1/3 (3.4); mức Cao chỉ ở KQ3.
 Không xuất Tong_hop_NCC_mua_vao_CV_trang_thai. Không rút gọn.
 ```
 
@@ -179,7 +181,7 @@ Không xuất Tong_hop_NCC_mua_vao_CV_trang_thai. Không rút gọn.
 ```
 Tổng hợp QTT TNCN và danh sách NLĐ MST <MST> kỳ <KY>
 từ XML tại <FOLDER>\1. DU LIEU THO NGANH THUE\1.1. To khai XML
-Ghi KQ2.1!KQ2_TNCN_LD2.
+Ghi KQ2.1!KQ2_TNCN_LD2. Kèm nhận xét module ngắn (3.4).
 Nếu có file tra cứu đa nguồn ở 3.3 thì đối chiếu TC22/TC23, trùng CCCD.
 Không xuất Tong_hop_TNCN_va_Da_nguon.
 ```
@@ -197,7 +199,7 @@ Không xuất Tong_hop_TNCN_va_Da_nguon.
 ```
 Đối chiếu tự động doanh thu - giá vốn theo skill doi-chieu-511-632
 cho công ty <TEN> MST <MST> tại <FOLDER> kỳ <KY>.
-Ghi KQ2.2!KQ2_511_632. Không xuất Doi_chieu_511_632_*.
+Ghi KQ2.2!KQ2_511_632 (tổng hợp năm + Đánh giá tuân thủ) và KQ2_511_632_Chi_tiet (bán dưới giá). Không xuất Doi_chieu_511_632_*.
 Báo lãi gộp theo năm, dòng P<=0, dòng không khớp 632 (cờ máy).
 ```
 
@@ -264,28 +266,20 @@ Ghi KQ2.2!KQ2_Cong_no_Tien_mat bằng số liệu thật. Không xuất file chu
 
 ---
 
-## A9 - 28 tiêu chí (`phan-tich-ho-so-thue`)
+## A9-A11 - GĐ3 đầy đủ (`giai-doan-3-hoan-chinh-ho-so`)
 
-Chỉ khi cán bộ yêu cầu (K3). Sinh từ KQ3 cột F. Không xuất Master 8 sheet mặc định.
-
-**Lệnh:**
-```
-Sinh bảng 28 tiêu chí từ KQ3 của <FOLDER> MST <MST> kỳ <KY> (chỉ khi cán bộ yêu cầu).
-Không dựng 7 sheet Master cũ.
-```
-
-**Ra:** bản trình bày 28 TC sinh từ KQ3, không thay KQ3.
-
----
-
-## A10 - Đề cương (`giai-doan-3-hoan-chinh-ho-so`)
+Sheet `Danh_gia_28_tieu_chi_rui_ro` nằm trong KQ3 là chuẩn vòng 2. Không xuất Master 8 sheet tách ngoài.
 
 **Lệnh:**
 ```
-Điền đề cương trên KQ3 của <FOLDER> MST <MST>:
-cột AB nội dung kiểm tra, AC chứng từ, AD để trống cho cán bộ, AH câu hỏi chất vấn.
-Không tách sheet KQ3_De_cuong.
+Hoàn chỉnh GĐ3 hồ sơ <FOLDER> MST <MST> kỳ <KY> xuất KQ3 và chi tiết giải trình.
+1) Sheet KQ3 80 quy tắc + sheet Danh_gia_28_tieu_chi_rui_ro.
+2) Đề cương cột AB, AC, AH; AD để trống cho cán bộ. Không tách KQ3_De_cuong kiểu cũ.
+3) Xuất KQ3_Danh_gia_Dau_hieu_Bat_thuong và KQ3_NNT_Giai_trinh_Chi_tiet (10 sheet có số liệu thật).
+Áp Q14-Q20.
 ```
+
+**Ra:** KQ3 2 sheet + 2 file phụ GĐ3.
 
 ---
 
@@ -353,8 +347,7 @@ Không chạy đối chiếu XML/HĐĐT của một MST cụ thể.
 | `phan-tich-cong-no-tien-mat` | `Quét 111, cụm cùng ngày NCC và công nợ 131/331 <FOLDER>` |
 | `giai-doan-1-kiem-ke-danh-gia` | `Kiểm kê GĐ1 <FOLDER> MST <MST> kỳ <KY> xuất KQ1.1 KQ1.2 KQ1.3` |
 | `giai-doan-2-phan-tich-du-lieu-co-quan-thue` | `Phân tích GĐ2 <FOLDER> xuất KQ2.1 KQ2.2` |
-| `giai-doan-3-hoan-chinh-ho-so` | `Hoàn chỉnh GĐ3 <FOLDER> xuất KQ3` |
-| `phan-tich-ho-so-thue` | `Sinh 28 TC từ KQ3 khi cán bộ yêu cầu <FOLDER>` |
+| `giai-doan-3-hoan-chinh-ho-so` | `Hoàn chỉnh GĐ3 <FOLDER> xuất KQ3 và chi tiết giải trình` |
 | `mo-ho-so-ttkt` | `Checklist mở hồ sơ TTKT A-F <FOLDER>` |
 | `tong-hop-ben-mua-tu-so-cvcbrr` | `Tổng hợp bên mua sổ CVCBRR` |
 | `quan-ly-rui-ro-tuan-thu-thue` | `Khung QLRR chọn đối tượng nghiệp vụ <X>` |
@@ -366,4 +359,4 @@ Không chạy đối chiếu XML/HĐĐT của một MST cụ thể.
 1. **Không chờ đủ mới chạy** - module nào đủ đầu vào thì chạy trước.
 2. **Một lệnh = một phiên bản mới của tệp đích** trong sáu tệp 1.4.
 3. **Thiếu thì ô trống**; không để 0 giả.
-4. Skill trục `phan-tich-ho-so-thue` giữ Hướng dẫn thường trực P7. Không giao mẫu cũ, PL, workbook trọn gói, Master 8 sheet trừ khi cán bộ yêu cầu.
+4. Skill trục `phan-tich-ho-so-thue` giữ Hướng dẫn thường trực P7. Không giao mẫu cũ, PL, workbook trọn gói, Master 8 sheet tách ngoài. Sheet 28 tiêu chí nằm trong KQ3 là chuẩn.

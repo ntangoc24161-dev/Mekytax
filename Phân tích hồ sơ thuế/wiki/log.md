@@ -273,3 +273,17 @@ File vận hành: `skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md` + `play
 
 Đã tạo:
 - [[Quy chuẩn định dạng và chuẩn hóa hiển thị biểu mẫu Excel kiểm tra thuế]]
+
+## [2026-10-22] ingest | tự học từ chat
+
+Đã tạo:
+- [[Xử lý dữ liệu sao kê ngân hàng dạng PDF scan trong kiểm tra thuế]]
+
+## [2026-10-23] ingest | tự học từ chat
+
+Đã tạo:
+- [[Kỹ thuật phân tích EBITDA trong kiểm tra thuế theo Nghị định 132/2020/NĐ-CP]]
+
+## [2026-10-23] update | Cắt token phòng
+- Tạo: [[Cat-token-2026-10-23]]
+- orchestration=off; cancel t_62548b57a135; 8 skill -> .disabled; còn 24 skill + 6 agent + 1 workflow.

@@ -62,3 +62,10 @@ Source: `type: source`, `source_kind: article|book|podcast|video|own-note|screen
 - **File Session/Cache đúng vị trí:** File session (như cookie, token iOffice) phải nằm trong thư mục của skill tương ứng hoặc `.javis/`, không để vương vãi.
 - **Không tạo file `.bak` bừa bãi:** Không tạo các bản sao lưu `.bak` cạnh file gốc. Cần backup thì gom vào thư mục chuyên biệt `sao-luu/` hoặc `D:\tmp\backup\`.
 
+## Xử lý file PDF và ảnh scan (Mặc định 3 skill)
+Khi gặp file PDF, ảnh chụp tài liệu hoặc file scan cần OCR:
+- **Chỉ đọc chữ ra chat**: Mặc định dùng skill paddleocr (MCP tool ocr).
+- **Ghi file Markdown giữ heading/bảng vào sources/**: Mặc định dùng skill pdf-sang-md (	ools.doc2md).
+- **Xuất Office (Word/Excel/TXT/searchable PDF), xoay/tách/ghép trang, so chữ**: Mặc định dùng skill 	ram-tai-lieu (	ools.doctram).
+- Tuyệt đối không bịa số liệu/thông tin khi file scan không đọc được chữ; nói rõ tình trạng cho người dùng.
+

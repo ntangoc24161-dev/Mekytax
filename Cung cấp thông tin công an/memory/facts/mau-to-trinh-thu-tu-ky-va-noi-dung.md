@@ -1,4 +1,5 @@
 ---
+superseded_by: cau-truc-chuan-to-trinh-cung-cap-ca-to-kt1
 type: preference
 provenance: user
 origin: javis-learned
@@ -16,3 +17,7 @@ Mẫu Tờ trình lãnh đạo trả lời Công an (chuẩn theo CV 30291/30236
 - Dòng `Về việc: ...` giữ nguyên theo mẫu hồ sơ, **viết thường, không in đậm**.
 - Mục `- Nội dung công việc:` chỉ ghi căn cứ số/ngày công văn và trích yếu ngắn; **không** liệt kê dài danh sách doanh nghiệp dự thảo / ngoài địa bàn trong tờ trình.
 ---
+
+
+## Lịch sử
+- [2026-10-29] Bị thay thế bởi [[cau-truc-chuan-to-trinh-cung-cap-ca-to-kt1]] (user đổi thông tin).

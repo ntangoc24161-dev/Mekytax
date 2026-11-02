@@ -2,8 +2,8 @@
 name: Phân tích hồ sơ kiểm tra thuế
 description: "Quy trình 1.4: 6 tệp KQ1.1-KQ3, 80 quy tắc; sao mẫu rồi điền; KQ2 chỉ số liệu, kết luận chỉ ở KQ3."
 group: Tài chính
-updated: '2026-10-19'
-learned_updated: '2026-10-19'
+updated: '2026-10-23'
+learned_updated: '2026-10-23'
 ---
 
 # Phân tích hồ sơ kiểm tra thuế (Chuẩn v1.4)
@@ -23,7 +23,8 @@ P7 thay thế P0-P6, khối Q cũ, hợp đồng KQ1/KQ2/KQ3 một-hai file, và
 
 - GĐ1: `giai-doan-1-kiem-ke-danh-gia` (Lệnh 1: KQ1.1, KQ1.2, KQ1.3).
 - GĐ2: `giai-doan-2-phan-tich-du-lieu-co-quan-thue` (Lệnh 2: KQ2.1, KQ2.2).
-- GĐ3: `giai-doan-3-hoan-chinh-ho-so` (Lệnh 3: KQ3 một sheet). Công ty gửi thêm: Lệnh 4.
+- GĐ3: `giai-doan-3-hoan-chinh-ho-so` (Lệnh 3: KQ3 2 sheet + dấu hiệu + giải trình NNT 10 sheet). Công ty gửi thêm: Lệnh 4.
+- Phòng điều phối: 6 thư ký (`thu-ho-so-kiem-ke`, `chuyen-vien-du-lieu-dau-vao`, `phan-tich-vien-cqt`, `phan-tich-vien-so-cty`, `phan-tich-vien-so-sach-dn`, `truong-phong-phan-tich-ho-so`); workflow 7 bước.
 
 Skill A0-B3 là module nội bộ: một lệnh tạo đúng một phiên bản mới của tệp đích, ghi đúng sheet mục 4.6 quy trình, không xuất tệp chuyên đề.
 
@@ -58,13 +59,15 @@ GĐ1 - kiểm kê, đánh giá tiến độ, chuẩn hóa dữ liệu thô thàn
 
 GĐ2 - phân tích hồ sơ (chỉ số liệu, chênh lệch, tỷ lệ, cờ máy):
 
-- KQ2.1: KQ2_Tong_hop_co, KQ2_Doi_chieu_GTGT, KQ2_NCC_mua_vao, KQ2_TNCN_LD2, IN07_NCC_CanhBao (IN07 lập từ IN02 nên nằm ở KQ2.1).
-- KQ2.2: KQ2_Tong_hop_co, KQ2_511_632, KQ2_Kho_Gia_thanh, KQ2_Gia_thanh_va_Dinh_muc, KQ2_Cong_no_Tien_mat.
+- KQ2.1: KQ2_Tong_hop_co, KQ2_EBITDA_Phan_tich (phân tích EBITDA 4 thành phần theo NĐ 132/2020), KQ2_Doi_chieu_GTGT, KQ2_NCC_mua_vao, KQ2_TNCN_LD2, IN07_NCC_CanhBao (IN07 lập từ IN02 nên nằm ở KQ2.1).
+- KQ2.2: KQ2_Tong_hop_co, KQ2_511_632 (tổng hợp theo năm), KQ2_511_632_Chi_tiet (chi tiết dòng đối chiếu 511-632, phát hiện bán dưới giá), KQ2_Kho_Gia_thanh, KQ2_Gia_thanh_va_Dinh_muc, KQ2_Cong_no_Tien_mat.
 - KQ2_Tong_hop_co (đầu mỗi tệp KQ2) đếm cờ máy của các sheet còn lại bằng công thức: số dòng đã đánh giá, số dòng bất thường, số dòng chưa đủ nguồn. Không điền tay, không có mức rủi ro, không cộng vào KQ3.
 
 GĐ3 - kết luận, sai phạm, gợi ý kiểm tra trọng điểm:
 
-- KQ3: sheet `KQ3` chính (39 cột A-AM, tích lũy đủ 80 quy tắc) + sheet `Danh_gia_28_tieu_chi_rui_ro` (bổ sung lại 19/10/2026 vòng 2, 7 cột: ID, Tên tiêu chí, Phân loại, Ngưỡng rủi ro, Kết quả phân tích trên hồ sơ, Mức độ rủi ro, Kiến nghị kiểm tra - lấy từ mẫu 06 cũ, narrative độc lập với bảng 80 quy tắc). Hai sheet này thay toàn bộ các sheet khác của mẫu KQ3 cũ (KQ3_Phat_hien_tong, KQ2_Phat_hien, KQ2_Chua_ket_luan, KQ3_Con_thieu, KQ3_Thay_doi_so_voi_GD2, KQ3_De_cuong, KQ3_Master_28TC, KQ3_Chuoi_bang_chung, BM06): xem mục 5.5 quy trình.
+- KQ3_Ket_luan_danh_gia: sheet `KQ3` chính (39 cột A-AM, tích lũy đủ 80 quy tắc) + sheet `Danh_gia_28_tieu_chi_rui_ro` (bổ sung lại 19/10/2026 vòng 2, 7 cột: ID, Tên tiêu chí, Phân loại, Ngưỡng rủi ro, Kết quả phân tích trên hồ sơ, Mức độ rủi ro, Kiến nghị kiểm tra - lấy từ mẫu 06 cũ, narrative độc lập với bảng 80 quy tắc).
+- KQ3_Danh_gia_Dau_hieu_Bat_thuong: bảng tổng hợp các dấu hiệu bất thường trọng yếu, gợi ý hướng kiểm tra và chứng từ cần chuẩn bị.
+- KQ3_NNT_Giai_trinh_Chi_tiet: bảng tổng hợp chi tiết toàn bộ các dấu hiệu bất thường bóc tách từ KQ2.1 và KQ2.2 thành số liệu thật (10 sheet: gồm sheet `00_Tong_hop_chi_tiet` và 9 sheet chuyên đề), phục vụ đối chiếu và NNT giải trình trực tiếp.
 
 Quy tắc có bảng chứng cứ ở KQ2: theo cột "Tệp phân tích" và "Sheet chứng cứ" ở KQ1_Kha_nang_phan_tich. Quy tắc KHÔNG có bảng (cột "Tệp phân tích" = Trực tiếp) ghi thẳng vào KQ3, cột B = "Trực tiếp", chứng cứ ở cột Y và AB.
 
@@ -113,7 +116,7 @@ Q8. Giá trị chưa xác minh (ngưỡng, thuế suất theo kỳ, mã BCTC TT9
 
 Q9. Chạy lại là tăng dần: tăng số phiên bản, cùng Mã_PH, cột AE ghi thay đổi; bản cũ giữ làm lịch sử.
 
-Q10. Đầu ra chỉ sáu tệp ở mục 2. Không xuất sheet hướng dẫn, tham chiếu, tham số, danh mục quy tắc, workbook trọn gói, tệp chuyên đề.
+Q10. Đầu ra chuẩn: sáu tệp KQ1.1-KQ3 ở mục 2; GĐ3 thêm đúng 2 file phụ đã nêu (dấu hiệu bất thường và giải trình NNT). Không xuất sheet hướng dẫn, tham chiếu, tham số, danh mục quy tắc, workbook trọn gói, tệp chuyên đề module cũ.
 
 Q11. Dữ liệu rủi ro (cảnh báo, công văn, danh bạ, bên mua) chỉ lấy từ NGUỒN CHỈ ĐỊNH (mục 7). Không thấy nguồn hoặc nguồn quá cũ thì quy tắc cần IN07 ghi KHÔNG_ĐỦ_DỮ_LIỆU và báo cán bộ; không tự tìm nguồn khác.
 
@@ -133,6 +136,8 @@ Q18. Dòng ví dụ: mẫu có một dòng ví dụ ngay dưới tiêu đề (d�
 
 Q19. Dòng/kỳ hoàn toàn không phát sinh: nếu một dòng (năm, kỳ, quý) không có bất kỳ số liệu nào vì NGOÀI PHẠM VI hoặc không phát sinh (không phải vì thiếu nguồn), XÓA dòng đó khỏi tệp giao - không giữ dòng toàn số 0/None "cho đủ bộ". Phân biệt rõ với dòng thiếu nguồn (Q1, KHÔNG_ĐỦ_DỮ_LIỆU): dòng thiếu nguồn vẫn giữ và ghi lý do, chỉ xóa dòng thật sự không có gì để nói.
 
+Q20. Quy chuẩn định dạng bảng biểu và màu sắc nhận diện: áp dụng thống nhất cho toàn bộ các file kết quả và file giải trình chi tiết: phông Times New Roman, Unicode dựng sẵn; tiêu đề bảng nền xanh Navy đậm (`#1F4E78`), chữ trắng in đậm, căn giữa; tiêu đề phân đoạn nền xanh nhạt (`#D9E1F2`), chữ xanh đậm; kẻ viền bảng mảnh (`#D9D9D9`), hiển thị đường lưới (`showGridLines = True`) trên 100% sheet; ngày `dd/mm/yyyy` không giờ (căn giữa); số tiền `#,##0` (căn phải), tỷ lệ phần trăm `0.00%` (căn phải); tự động giãn cột theo nội dung (trần ~60 có wrap text). Tô màu cảnh báo rủi ro: đỏ đào (`#FCE4D6` / chữ đỏ `#C00000`) cho NCC F0/Công an và HĐ bán dưới giá vốn; vàng cam (`#FFF2CC` / chữ cam `#B25900`) cho NCC ĐKKD bất thường; xanh lá nhạt (`#E2EFDA` / chữ xanh `#385723`) cho thông tin tích cực / tuân thủ an toàn (không vay nợ, khớp 100%).
+
 ### 6. LUẬT KHÔNG TÍNH GỘP (T1-T10)
 
 T1 Một tổng, một tệp: tổng chỉ tính trong KQ3 mới nhất bằng cách cộng cột W theo sắc thuế. T2 Một hóa đơn, một sắc thuế, một lần tính (cùng cấp: dòng chủ W=V, dòng khác W=0 và ghi Mã_PH chủ; khác cấp: dòng tổng hợp chỉ giữ phần chưa được dòng chi tiết giải thích). T3 Chọn dòng chủ: Chắc trước Sơ bộ; cấp thấp hơn; điểm cao hơn; nhóm theo thứ tự HD, GT, TT, TN, KH, DT, LD, LK, LS, DQ; mã nhỏ hơn. T4 KQ2 là chứng cứ, không cộng. T5 Một Mã_PH một dòng. T6 NCC F0 và F1: một NCC một dòng mỗi quy tắc, vừa F0 vừa F1 ghi F0. T7 BCTC chỉ lấy một cột (số cuối năm, số năm nay), một nguồn chuẩn (CQT). T8 Mẫu cũ là nguồn nhập. T9 Một dữ kiện, một tệp. T10 Ô công ty trống, không điền 0.
@@ -145,7 +150,7 @@ K1. Nguồn gốc theo thư mục cấp 1: `1. DU LIEU THO NGANH THUE` = CQT; `2
 
 K2. F0 = công ty đang bị cảnh báo rủi ro hoặc có trong danh sách mua bán hóa đơn của công an. F1 = công ty mua hàng có dùng hóa đơn của F0. CA = danh sách của công an (coi là F0, giữ riêng nguồn CA). NCC thuộc F0 hoặc F1: mức Cao. NNT đang kiểm tra thuộc F1 là phát hiện Cao của HD01. IN07 có cột Nhom_F (F0|F1) và Nguon_F0 (CANH_BAO|CA).
 
-K3. Master 8 sheet: không có mẫu thì bỏ qua, chỉ dựng sheet 28 tiêu chí khi cán bộ yêu cầu, sinh từ KQ3.
+K3. Master 8 sheet tách ngoài: không dùng. Sheet `Danh_gia_28_tieu_chi_rui_ro` nằm trong KQ3 là chuẩn vòng 2.
 
 K4. Đối chiếu 511-632: khóa ghép và cột xuất theo skill `doi-chieu-511-632`; khác thì theo skill và ghi chỗ khác.
 
@@ -193,13 +198,15 @@ Kết quả ghi tên sổ, sheet, số công văn.
 | 0 checklist | KQ1.3 sheet `KQ1_Kiem_ke` |
 | 0b, 1, 1b đầu vào, bảng kê | KQ1.1 `IN01` `IN05`; KQ1.2 `IN02` |
 | 2 GTGT-TNDN | KQ2.1 `KQ2_Doi_chieu_GTGT` |
+| 2b EBITDA | KQ2.1 `KQ2_EBITDA_Phan_tich` |
 | 3 NCC | KQ2.1 `IN07_NCC_CanhBao`, `KQ2_NCC_mua_vao` |
 | 4 TNCN | KQ2.1 `KQ2_TNCN_LD2` |
-| 5 511-632 | KQ2.2 `KQ2_511_632` |
+| 5 511-632 | KQ2.2 `KQ2_511_632` (tổng hợp năm) |
+| 5b 511-632 chi tiết | KQ2.2 `KQ2_511_632_Chi_tiet` (dòng bán dưới giá) |
 | 6, 7 kho, giá thành | KQ2.2 `KQ2_Kho_Gia_thanh`, `KQ2_Gia_thanh_va_Dinh_muc` |
 | 8 tiền mặt, ngân hàng | KQ2.2 `KQ2_Cong_no_Tien_mat` |
-| 9 Master 28 tiêu chí | chỉ khi cán bộ yêu cầu, sinh từ KQ3 |
-| 10 đề cương | KQ3 cột AB-AD, AH |
+| 9-10 KQ3 + 28 tiêu chí + đề cương | KQ3 sheet `KQ3` + `Danh_gia_28_tieu_chi_rui_ro`; cột AB-AD, AH |
+| 11 dấu hiệu bất thường & chi tiết giải trình | `KQ3_Danh_gia_Dau_hieu_Bat_thuong`, `KQ3_NNT_Giai_trinh_Chi_tiet` (10 sheet) |
 
 Hỏi "xuất bản KQ2 có sheet PL" hoặc "xuất workbook trọn gói": từ chối, nói bộ 1.4 không dùng, đề nghị sáu tệp.
 
@@ -221,3 +228,5 @@ Hỏi "xuất bản KQ2 có sheet PL" hoặc "xuất workbook trọn gói": từ
 - [2026-10-19] Chốt NGUỒN CHỈ ĐỊNH (sổ CVCBRR, sổ công an, danh bạ ĐKKD), K12 (kỳ kiểm tra), K6/K7 (đọc mẫu BCTC để xác định thông tư), K8/K9/K13 (thứ tự skill → web → mặc định, K9 không áp 2% vì là thuế suất luật định).
 - [2026-10-19 vòng 2] Thêm Q14-Q19 (định dạng ngày dd/mm/yyyy không giờ, số VN, font Unicode tự sửa mã lỗi, auto-width cột, xóa dòng ví dụ khi chạy thật, xóa dòng/kỳ không phát sinh). Thêm 3.4 ngoại lệ nhận xét module. KQ3 thêm sheet `Danh_gia_28_tieu_chi_rui_ro`. Sửa bug IN02 chỉ lọc mua vào, bug IN05 thứ tự QTT/NLD, bug KQ2_NCC_mua_vao lẫn 2 bảng, GTGT Phần I không lọc kỳ, KQ2_Cong_no_Tien_mat chưa chạy dù đủ IN08/IN10.
 - [2026-10-19 vòng 2b] Cán bộ chốt: giữ HD04 (Top-5 NCC / P14, gộp theo người bán); mở rộng nhận xét module sang TNCN, kho, giá thành, công nợ tiền mặt. Chạy lại 6 tệp TT_BIEN_HOA theo form mới.
+- [2026-10-23] Chuẩn hóa bộ file giải trình NNT và dấu hiệu bất thường: bổ sung sheet EBITDA vào KQ2.1; sheet KQ2_511_632_Chi_tiet vào KQ2.2; bổ sung 2 file chi tiết GĐ3 (`KQ3_Danh_gia_Dau_hieu_Bat_thuong` và `KQ3_NNT_Giai_trinh_Chi_tiet` 10 sheet gồm sheet 00 tổng hợp chung); thêm Q20 quy chuẩn định dạng màu sắc nhận diện (#1F4E78) và cảnh báo rủi ro chuyên nghiệp.
+- [2026-10-23] Đồng bộ phòng 6 thư ký + playbook 3 giai đoạn / lệnh theo bước / tất cả skill; bỏ mô tả KQ3 một sheet và "28 TC chỉ khi yêu cầu".

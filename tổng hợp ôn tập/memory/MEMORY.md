@@ -14,3 +14,4 @@
 - [Đóng gói skill chung và riêng xử lý ngân hàng đề thi](facts/dong-goi-skill-chung-va-rieng-de-thi.md) - Tách bạch skill chuẩn hóa trắc nghiệm tổng quát và skill chuyên sâu ôn thi nghiệp vụ thuế tháng 09/2026.
 - [Chuẩn hóa và đánh dấu câu mở rộng ngân hàng 1.429 câu thuế](facts/chuan-hoa-va-danh-dau-ngan-hang-1429-cau-thue.md) - Ngân hàng 1.429 câu được phân vào 14 chuyên đề, gom câu sinh đôi, tô xanh đáp án đúng và đánh dấu '*' cho 210 câu mở rộng.
 - [Tổng hợp câu 1 của 40 bộ đề thi nghiệp vụ thuế tháng 09/2026](facts/tong-hop-cau-1-40-de-thi-thue.md) - Trích xuất và tổng hợp câu số 1 của 40 bộ đề thi vào file Excel phân tích mẫu đề và chuyên đề.
+- [Quy tắc mặc định xử lý file PDF và ảnh scan (OCR)](facts/preference-mac-dinh-skill-ocr.md) - Mặc định dùng paddleocr (đọc ra chat), pdf-sang-md (ghi sources/) và tram-tai-lieu (Office/searchable PDF/thao tác trang).

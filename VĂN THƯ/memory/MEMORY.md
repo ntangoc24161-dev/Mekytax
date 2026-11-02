@@ -9,3 +9,5 @@
 - [Điều chỉnh Agent Yêu cầu Tài liệu chuẩn nghiệp vụ TCS3 Đồng Nai](facts/dieu-chinh-agent-yeu-cau-tai-lieu-chuan-tcs3.md) - Viết lại agent Yêu cầu Tài liệu làm cửa bàn giao văn bản giữa Văn thư và các phòng chuyên môn TCS3 thay vì doanh nghiệp chung.
 - [Sắp xếp lớp Văn thư gọn, rẻ](facts/sap-xep-lop-van-thu-gon.md) - Gộp bàn giao vào Phòng Văn Thư, tắt workflow trùng 6 bước, không tạo trợ lý mới; xóa hẳn khi người dùng gật.
 - [Xóa agent Yêu cầu Tài liệu khỏi lớp Văn thư](facts/xoa-agent-yeu-cau-tai-lieu-tcs3.md) - Người dùng quyết định xóa hẳn agent Yêu cầu Tài liệu, tinh gọn lớp Văn thư thành một cửa duy nhất.
+- [Quy tắc mặc định xử lý file PDF và ảnh scan (OCR)](facts/preference-mac-dinh-skill-ocr.md) - Mặc định dùng paddleocr (đọc ra chat), pdf-sang-md (ghi sources/) và tram-tai-lieu (Office/searchable PDF/thao tác trang).
+- [Quyết định giãn chu kỳ loop Văn thư điều phối lên 180 phút](facts/gian-loop-van-thu-180-phut.md) - Người dùng quyết định giãn chu kỳ loop Văn thư điều phối và đôn đốc lên 180 phút để tiết kiệm token.

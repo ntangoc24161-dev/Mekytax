@@ -69,3 +69,4 @@
 - [Người dùng xác nhận làm sạch và phân tách độc lập dữ liệu đề thi](facts/xac-nhan-lam-sach-va-phan-tach-du-lieu-de-thi.md) - Người dùng đồng ý triển khai quy trình làm sạch metadata, xóa mã kíp thi và phân tách độc lập file đề thi.
 - [Tài liệu ôn thi thuế làm sạch 1.204 câu](facts/tai-lieu-on-thi-thue-sach-1204-cau.md) - Ngân hàng câu hỏi trắc nghiệm đã được bóc tách làm sạch 1.204 câu 14 chuyên đề lưu tại D:\HOC TAP\ON THI 2026.09 và Desktop
 - [Gom và phân loại file kỹ thuật ôn thi vào thư mục _Tong_Hop_Ky_Thuat](facts/tong-hop-file-ky-thuat-thu-muc-on-thi.md) - Toàn bộ file script, json, log, md, cache tại D:\HOC TAP\ON THI 2026.09 được gom vào _Tong_Hop_Ky_Thuat.
+- [Quy tắc mặc định xử lý file PDF và ảnh scan (OCR)](facts/preference-mac-dinh-skill-ocr.md) - Mặc định dùng paddleocr (đọc ra chat), pdf-sang-md (ghi sources/) và tram-tai-lieu (Office/searchable PDF/thao tác trang).

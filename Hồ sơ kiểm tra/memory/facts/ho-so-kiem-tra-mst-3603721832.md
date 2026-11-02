@@ -24,3 +24,7 @@ Hồ sơ kiểm tra Công ty TNHH Thương mại Dịch vụ Tâm Hoàng Phát (
 
 ## Lịch sử
 - [2026-10-16] Bị thay thế bởi [[phan-cong-nhiem-vu-doan-kiem-tra-tam-hoang-phat]] (user đổi thông tin).
+
+
+## Lịch sử
+- [2026-10-26] Bị thay thế bởi [[ho-so-kiem-tra-mst-3603721832-chot-ho-so-ve-loai-luong-qldn]] (user đổi thông tin).

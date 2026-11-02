@@ -26,3 +26,7 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-10-07) [[Đối chiếu mua vào ba nguồn độc lập và xử lý mã số thuế trên Excel]]: đề xuất bổ sung từ chat 2026-10-07 (dedup) - status: open
 
 - [ ] (2026-10-15) [[Quy trình phân tích toàn diện hồ sơ kiểm tra thuế 3 giai đoạn]]: đề xuất bổ sung từ chat 2026-10-15 (dedup) - status: open
+
+- [ ] (2026-10-22) [[Xử lý dữ liệu sao kê ngân hàng dạng PDF scan trong kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-10-22 (dedup) - status: open
+
+- [ ] (2026-10-23) [[Quy chuẩn định dạng và chuẩn hóa hiển thị biểu mẫu Excel kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-10-23 (dedup) - status: open

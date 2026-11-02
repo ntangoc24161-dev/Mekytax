@@ -2,8 +2,8 @@
 name: Theo dõi cung cấp hồ sơ Công an
 description: Bóc tách CV điều tra, tra cứu CQT quản lý, phân tổ KT (Vĩnh Cửu vào KT2; CQT khác ghi tên vào Tổ KT), gán CBQL KT1 và cập nhật Bao_cao_cong_van.xlsx.
 group: Tài chính
-updated: '2026-10-16'
-learned_updated: '2026-10-16'
+updated: '2026-11-01'
+learned_updated: '2026-11-01'
 ---
 ## Khi nào dùng
 - Khi tiếp nhận file PDF công văn yêu cầu cung cấp hồ sơ từ cơ quan Công an trong thư mục `CV MOI`.
@@ -43,6 +43,7 @@ learned_updated: '2026-10-16'
    - Di chuyển file PDF vào thư mục tương ứng.
 5. **Cập nhật dữ liệu:**
    - Ghi thông tin công văn và danh sách doanh nghiệp vào file `Bao_cao_cong_van.xlsx` tại sheet `NHAP_HO_SO`.
+   - Trước khi ghi giá trị cột MST, ép định dạng cột đó thành Text (chữ); không ghi trực tiếp bằng kiểu số.
    - Tự động tạo bản sao lưu tại `D:\HSO CONG AN FILE MD\Bao_cao_cong_van_backup.xlsx`.
 6. **Tự động lập dự thảo hồ sơ trả lời (nếu có phân công Tổ KT1):**
    - Nếu công văn có doanh nghiệp được phân công cho Tổ KT1, tự động kích hoạt kỹ năng `tra-loi-cong-van` để soạn thảo 02 file chuẩn thể thức: Công văn trả lời và Tờ trình lãnh đạo, lưu trực tiếp vào thư mục công văn tương ứng.
@@ -54,11 +55,14 @@ learned_updated: '2026-10-16'
 - Quên quy tắc địa bàn Vĩnh Cửu: Mọi đơn vị thuộc Vĩnh Cửu do Thuế cơ sở 3 quản lý đều phân công cho Tổ KT2.
 - Nhầm lẫn file theo dõi: Đảm bảo ghi đúng vào `Bao_cao_cong_van.xlsx` (sheet `NHAP_HO_SO`).
 - File gộp nhiều công văn: nếu không bóc tách từng công văn sẽ bị sót việc và sai STT theo dõi.
+- **Cột MST bị Excel tự chuyển sang số:** MST có số 0 đầu hoặc MST chi nhánh có dấu gạch ngang nếu ghi trực tiếp sẽ bị Excel tự rút gọn/làm mất ký tự. Luôn ép định dạng cột MST thành Text (chữ) trước khi ghi giá trị.
+- **Cột STT (cột A sheet NHAP_HO_SO) dùng công thức tự tính:** khi chèn dòng mới không theo đúng thứ tự, công thức có thể tính ra STT trùng với dòng khác (thực tế gặp: STT 1740 trùng STT 202). Sau khi ghi dòng mới, luôn kiểm tra lại giá trị STT và sửa công thức cột A nếu phát hiện trùng.
 
 ## Kiểm chứng
 - Kiểm tra cột Tổ KT: NNT ngoài địa bàn quản lý hiển thị rõ tên CQT quản lý; NNT thuộc Thuế cơ sở 3 hiển thị đúng KT1, KT2, KT3 (Vĩnh Cửu là KT2).
 - Cán bộ quản lý chỉ gán cho doanh nghiệp thuộc KT1; các trường hợp khác để trống.
 - File `.md` xuất hiện đầy đủ trong `D:\HSO CONG AN FILE MD`.
+- Cột MST hiển thị đúng số 0 đầu/dấu gạch ngang như công văn gốc, không bị rút gọn thành số; cột STT không trùng giữa 2 dòng.
 
 ## Lịch sử (tự học)
 - [2026-09-17] Chuẩn hóa toàn bộ quy trình: bóc tách độc lập file PDF đa công văn; trích xuất địa chỉ từ phụ lục hoặc tra cứu masothue.com; tra cứu cán bộ quản lý Tổ KT1 qua sheet KTR1 file DB NNT; quy định ngày phân công là ngày thực hiện lệnh; lưu PDF vào folder riêng theo STT và tập trung toàn bộ file .md tại D:\HSO CONG AN FILE MD.
@@ -68,3 +72,5 @@ learned_updated: '2026-10-16'
 - [2026-09-26] Bổ sung quy trình xuất danh sách tổng hợp chi tiết hồ sơ tài liệu ra Excel tại thư mục CV MOI (kỹ năng `xuat-danh-sach-ho-so-ca`) và quy trình rà soát đồng bộ hậu tố `-R` cho toàn bộ thư mục công văn đã có bản ký số scan (kỹ năng `dong-bo-thu-muc-ca`).
 - [2026-09-26] Tích hợp kỹ năng `tra-cuu-nnt-tu-dong`: chuẩn hóa cơ chế tra cứu 2 tầng ưu tiên CSDL nội bộ DB NNT.xls (sheet NNT và KTR1), fallback cổng thông tin khi thiếu dữ liệu để phân Tổ KT và gán CBQL KT1.
 - [2026-10-16] Cửa kiểm CQ thuế quản lý trước khi phân tổ: chỉ chia KT1-KT3 và gán CBQL khi thuộc TCS3 (tên DB `TP.Biên Hòa-TCS3 Đồng Nai`); Vĩnh Cửu -> KT2; CQ khác ghi nguyên văn tên CQ vào ô Tổ KT.
+- [2026-11-01] Phát hiện 2 lỗi thực tế khi ghi sổ NHAP_HO_SO cho các CV 1740/2301/7267: cột MST bị Excel tự chuyển sang số làm mất số 0 đầu hoặc dấu gạch ngang (MST chi nhánh), và cột STT dùng công thức tự tính gây trùng STT khi chèn dòng ngoài thứ tự (1740 trùng 202). Bổ sung bước ép Text cho cột MST và bước kiểm tra lại STT sau khi ghi.
+- [2026-11-01] Phiên làm việc 2026-10-27 đến 2026-11-01 xử lý các CV 1740, 2301, 7267 phát hiện 2 lỗi thực tế khi ghi sổ NHAP_HO_SO mà skill cũ chưa cảnh báo: (1) Excel tự chuyển cột MST có số 0 đầu hoặc MST chi nhánh có dấu gạch ngang thành số, làm mất ký tự - phải ép cột MST thành Text trước khi ghi; (2) cột STT

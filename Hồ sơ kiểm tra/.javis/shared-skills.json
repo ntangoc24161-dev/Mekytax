@@ -1,7 +1,10 @@
 {
   "enabled": [
     "lap-ho-so-kiem-tra",
+    "paddleocr",
+    "pdf-sang-md",
     "soan-thao-van-ban",
+    "tram-tai-lieu",
     "xem-ho-so-thue"
   ],
   "disabled": []
