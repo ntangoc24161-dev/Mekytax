@@ -5,8 +5,8 @@ group: Tài chính
 origin: javis-learned
 status: active
 created: 2026-09-30
-updated: '2026-10-22'
-learned_updated: '2026-10-22'
+updated: '2026-10-29'
+learned_updated: '2026-10-29'
 ---
 ## Khi nào dùng
 
@@ -15,6 +15,7 @@ learned_updated: '2026-10-22'
 - Xuất file Excel chuẩn 2 sheet: `Tong_hop_doi_chieu` + `Chi_tiet_hoa_don`.
 - So khớp với bản chuẩn Vạn Phát Thành khi nghi file bị rút gọn.
 - User báo danh bạ đã cập nhật và yêu cầu chạy lại.
+- User hỏi vì sao một NCC bị xếp F0/Công an: mở lại file kết quả, dẫn đúng dòng, cột nguồn và số công văn.
 
 ## Chuẩn bị
 
@@ -33,7 +34,8 @@ File Excel gồm 2 sheet, font **Times New Roman**:
 - **Phần 2:**
   - **Bảng 2.1 (F0):** NCC dính công văn cảnh báo (khoảng 18 cột: Số dòng BK, Năm phát sinh, Từ/Đến ngày HĐ, Mặt hàng chính, Tình trạng F0, Số CV, Ngày CV, Đơn vị ban hành, Nội dung cảnh báo, Trạng thái ĐKKD...).
   - **Bảng 2.2:** Liệt kê **100% NCC** trên bảng kê mua vào (bình thường + bất thường), có dòng **Tổng cộng toàn bộ**; đánh dấu nhóm trạng thái ĐKKD bất thường. **Cấm** chỉ giữ nhóm bất thường.
-  - Phân nhóm NCC: A dính cảnh báo (F0, Công an); B ĐKKD bất thường; C là bên mua trong F1; D không có MST (cá nhân); E **chưa có dữ liệu danh bạ**; G đang hoạt động, không cảnh báo.
+  - Phân nhóm NCC: A dính cảnh báo; B ĐKKD bất thường; C là bên mua trong F1; D không có MST (cá nhân); E **chưa có dữ liệu danh bạ**; G đang hoạt động, không cảnh báo.
+  - Nhóm A phải ghi **nguồn cụ thể từng NCC** ("F0 - sổ CVCBRR" hoặc "Công an - sổ Công an", kèm số và ngày công văn). Nhãn nhóm không được gộp kiểu "F0/Công an"; nếu cần tách thành A1 - F0 và A2 - Công an.
 - **Phần 3 (bắt buộc):** (1) Đánh giá rủi ro NNT, (2) Đánh giá rủi ro NCC theo nhóm, (3) Đề xuất trọng tâm kiểm tra chứng từ, (4) Hạn chế dữ liệu (độ phủ danh bạ, nguồn sổ đã dùng).
 
 ### 2. Sheet `Chi_tiet_hoa_don`
@@ -49,6 +51,7 @@ File Excel gồm 2 sheet, font **Times New Roman**:
 
 - **Bẫy rút gọn:** chỉ xuất NCC bất thường / cắt Phần 3 / thiếu cột chứng từ-F0 -> mất NCC chủ lực (ví dụ T&T từng thiếu 108 NCC ~99,5% doanh số).
 - Nhầm F1 (bên mua) với F0 (bên bán). Một NCC vừa có ĐKKD bất thường vừa nằm trong F1 (vd Điện Lực Trảng Bom ở hồ sơ PHL) phải nêu cả hai.
+- **Gộp F0 với Công an trong một nhãn:** nhãn "A - Có công văn cảnh báo (F0/Công an)" khiến người đọc hiểu NCC có công văn F0 trong khi thực tế chỉ có trong sổ Công an (vd Toàn Việt 3601946862 ở hồ sơ PHL, CV 2808/YC-CSKT ngày 03/04/2026 của Cơ quan CSĐT Công an tỉnh Đồng Nai). Khi trả lời user, nói đúng nguồn từng NCC; nếu chưa đối chiếu hết sổ CVCBRR thì nói rõ là chưa loại trừ F0.
 - Khớp sót MST có/không gạch nhánh (chuẩn hóa 10 và 13 số).
 - **Danh bạ không phủ hết NCC:** NCC không tra được thì xếp nhóm E "chưa có dữ liệu", **không** coi là đang hoạt động. Ví dụ PHL: danh bạ cũ chỉ có 86 MST, 166/198 NCC (104,76 tỷ) chưa rõ trạng thái; danh bạ mới phủ 193/197 thì nhóm E còn 4 NCC.
 - **Không dùng cột trạng thái trong file tổng hợp đối tác của NNT** (vd `Tong_hop_danh_sach_doi_tac...` ghi "Đang hoạt động (Khớp danh bạ)") vì có thể mâu thuẫn với danh bạ thật. Luôn lấy trạng thái từ danh bạ gốc.
@@ -64,6 +67,7 @@ File Excel gồm 2 sheet, font **Times New Roman**:
 - Tổng doanh số mọi NCC trên Bảng 2.2 = tổng bảng kê/IN02 mua vào sau lọc.
 - Tổng số NCC các nhóm A-G = tổng NCC trên Bảng 2.2.
 - Có đủ Phần 1 + 2.1 + 2.2 (100% NCC) + Phần 3 (kèm hạn chế dữ liệu).
+- Mỗi NCC nhóm A có cột nguồn ghi rõ F0 hay Công an, kèm số/ngày CV; không còn nhãn gộp "F0/Công an".
 - `Chi_tiet_hoa_don` đủ dòng HĐ, đủ cột chuẩn, font Times New Roman.
 - Phần kiểm HĐ sau ngày đóng ghi rõ đã kiểm ngày đóng MST, ngày tạm ngừng hay cả hai.
 
@@ -73,3 +77,5 @@ File Excel gồm 2 sheet, font **Times New Roman**:
 - [2026-10-22] Khi chạy cho Phát Hoàng Long (22/10/2026), skill cũ có 4 chỗ thiếu. (1) Chỉ nêu đầu vào là Bang_ke tổng hợp, chưa nêu IN02, mà IN02 không có cột chứng từ. (2) Không có nhóm 'chưa có dữ liệu danh bạ', trong khi danh bạ chỉ phủ 86 MST nên 166 NCC (104,76 tỷ) dễ bị xếp nhầm vào nhóm bình thường. (3) Kh
 - [2026-10-22] Chạy lại PHL với danh bạ mới: cột "Ngày đóng/ngừng" gộp ngày đóng MST với ngày tạm ngừng nên phép kiểm chỉ tính ngày đóng. Lần yêu cầu chạy lại đầu tiên, danh bạ trên Drive giống hệt bản cũ (cùng md5). Bổ sung bước kiểm bản danh bạ trước khi chạy lại và bẫy tách ngày tạm ngừng.
 - [2026-10-22] Khi chạy lại cho Phát Hoàng Long ngày 22/10/2026 lộ ra 2 chỗ thiếu. (1) Cột ngày đóng/ngừng gộp ngày đóng MST với ngày tạm ngừng, và phép kiểm 'HĐ sau ngày đóng' chỉ tính ngày đóng, nên HĐ lập trong thời gian tạm ngừng bị sót. Javis phải tự ghi đây là hạn chế. (2) Lần đầu user bảo chạy lại, danh bạ
+- [2026-10-29] User hỏi vì sao Toàn Việt (hồ sơ PHL) bị xác định có công văn F0. Thực tế nguồn là sổ Công an; nhãn nhóm A "F0/Công an" gây hiểu nhầm. Bổ sung quy tắc ghi nguồn từng NCC nhóm A, tách nhãn F0 và Công an, kèm bước kiểm chứng.
+- [2026-10-29] Ngày 29/10/2026 user hỏi vì sao Toàn Việt 3601946862 trong hồ sơ Phát Hoàng Long bị xác định có công văn F0. Javis mở lại file thì thấy nguồn là sổ Công an (CV 2808/YC-CSKT), nhưng nhãn nhóm A 'A - Có công văn cảnh báo (F0/Công an)' gộp hai nguồn nên gây hiểu nhầm. Skill cũ chỉ ghi 'A dính cảnh báo

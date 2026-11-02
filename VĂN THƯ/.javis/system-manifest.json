@@ -61,7 +61,7 @@
       "status": "managed"
     },
     "skills/javis-builder": {
-      "hash": "407a1eebf9248304be7d7d9db11d627afb38ef2fdb446661f8a68df776acd8f2",
+      "hash": "614d78decdd8501f983bbb1fc14a7de491f1bdbc28817b062c87a3dfaaec8b8e",
       "status": "managed"
     },
     "skills/lint-wiki": {
@@ -3989,6 +3989,6 @@
       "status": "managed"
     }
   },
-  "app_version": "0.64.21",
-  "synced_at": "2026-10-18T20:10:11+07:00"
+  "app_version": "0.269.0",
+  "synced_at": "2026-10-26T16:46:04+07:00"
 }

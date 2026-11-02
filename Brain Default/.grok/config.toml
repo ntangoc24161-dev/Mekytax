@@ -3,5 +3,5 @@ url = "http://127.0.0.1:7777/hub/mcp"
 
 [mcp_servers.javis.headers]
 Authorization = "Bearer 2pZvHd1k5iwnuD7dClmfQkxH5zz-eyqipoX42HRmIrQ"
-X-Javis-Mode = "full"
+X-Javis-Mode = "suggest"
 X-Javis-Vault = "/brains/Brain Default"

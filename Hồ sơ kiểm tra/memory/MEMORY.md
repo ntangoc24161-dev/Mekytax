@@ -18,3 +18,6 @@
 - [Quyết định kiểm tra và Quyết định giám sát chuẩn đúng 1 trang A4](facts/dinh-dang-quyet-dinh-kiem-tra-va-giam-sat-1-trang-a4.md) - Quy cách trình bày Quyết định kiểm tra và Quyết định giám sát gọn trong 1 trang A4 để trình ký.
 - [Khung mẫu biểu trên cùng bên phải và loại bỏ trang trắng thừa trong hồ sơ](facts/dinh-dang-khung-mau-va-loai-bo-trang-trang-file-tong-hop.md) - Khung mẫu biểu phải nằm trên cùng bên phải và không bị đẩy sang trang riêng, tự động xóa trang trắng thừa.
 - [Hồ sơ kiểm tra MST 3603216935 - Kiến Thành Tân](facts/ho-so-kiem-tra-mst-3603216935.md) - Vụ kiểm tra giải thể Kiến Thành Tân (2021-2026), đã có Bang tinh.xlsx trên Drive.
+- [Quy ước soạn biên bản và hồ sơ về từ Bảng tính](facts/quy-uoc-soan-bien-ban-ho-so-ve.md) - Bảng tính lấy trên Drive ntangoc2416.1@gmail.com, ngày mốc lấy từ sổ JAVIS PRO .xlsm, QĐ chưa có số thì để trống
+- [Đọc file Google Drive qua Composio, không cần tải tay](facts/doc-file-google-drive-qua-composio.md) - Drive đã đấu sẵn; phải truyền account googledrive_amala-ensign (ntangoc2416.1), googlesheets chưa đấu
+- [Hồ sơ kiểm tra MST 3603859012 - Sơn Tiền Hải](facts/ho-so-kiem-tra-mst-3603859012.md) - Vụ Sơn Tiền Hải (2022-2026, giải thể), soạn biên bản và hồ sơ về theo mẫu DNTN Thúy Hồng; nhiều mốc và số còn chờ user chốt.

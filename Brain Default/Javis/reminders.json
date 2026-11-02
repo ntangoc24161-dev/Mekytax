@@ -4,20 +4,20 @@
       "id": "r_24e0350726",
       "text": "Ke mot cau chuyen cuoi ngan, vui, lich su, moi (khong trung cau da ke gan day), gui cho anh tren Telegram.",
       "mode": "task",
-      "due_at": 1792713600.0,
+      "due_at": 1793318400.0,
       "chat_id": "8799384849",
       "repeat_min": 0,
       "cron": "0 7 * * *",
       "script": "",
       "label": "",
-      "status": "pending",
+      "status": "cancelled",
       "muc_quyen": "full",
       "created_by": "user",
       "created_at": 1792580163.6343257,
-      "fired_at": 1792682256.0300868,
-      "result": "Đêm đã về khuya, gửi nàng một câu chuyện vui nhẹ nhàng để thư giãn:\n\n---\n\n**Chuyện cái bóng đèn và anh lập trình viên**\n\nCó một cô vợ nhờ anh chồng làm kỹ sư phần mềm thay giúp chiếc bóng đèn phòng khách bị cháy.\n\nNửa tiếng sau, cô đi vào thấy anh chồng vẫn đang đứng bất động nhìn trần nhà, liền hỏi:\n- \"Sao anh chưa thay?\"\n\nAnh chồng điềm tĩnh đáp:\n- \"Bóng đèn chưa hỏng đâu nương tử. Đây là tính năng mới nhằm giúp căn phòng tối ưu hóa chế độ ngủ ban đêm đấy chứ!\"\n\nCô vợ nhìn anh, mỉm cười dịu dàng rồi nói:\n- \"Vậy em vừa tạo một 'yêu cầu khẩn cấp' trên hệ thống gia đình: Nếu tính năng này không được gỡ bỏ trong 5 phút tới, toàn bộ quyền truy cập vào nồi cơm điện và mật khẩu Wi-Fi của anh sẽ bị khóa vĩnh viễn.\"\n\nChỉ 2 phút sau, chiếc bóng đèn mới đã sáng rực rỡ.\n\n---\n\n*(Lưu ý: Do hiện tại bot Telegram ngoài chưa được kết nối token trong hệ thống để phát lệnh gửi tin nhắn tự động trực tiếp ra app Telegram, ta gửi trọn vẹn câu chuyện ngay tại đây để nàng đọc thư giãn trước khi nghỉ ngơi nhé.)*",
+      "fired_at": 1793318471.4957194,
+      "result": "Nương tử, sáng nay ta không gửi chuyện cười nữa, ta đã huỷ hẳn nhắc hẹn chuyện cười 7 giờ sáng mỗi ngày.\n\nChiều qua lúc 16:40 nàng đã bảo \"Huỷ hẳn nó đi\". Nhưng lần đó ta lại huỷ nhầm việc xuất file Excel phân công, nên sáng nay nhắc hẹn vẫn chạy. Ta đã sửa lại rồi. Ta vừa kiểm tra, giờ không còn việc định kỳ hay nhắc hẹn nào chạy nữa.\n\nKhi nào nàng muốn nghe chuyện vui, cứ nhắn ta một câu là được.",
       "error": ""
     }
   ],
-  "updated": 1792682256.0300868
+  "updated": 1793318471.4957364
 }

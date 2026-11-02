@@ -2,8 +2,8 @@
 name: Trả lời công văn Công an
 description: Dự thảo công văn phúc đáp và tờ trình phê duyệt cung cấp hồ sơ cho Công an theo quy chuẩn thể thức và dữ liệu DB NNT.xls
 group: Tài chính
-updated: '2026-10-05'
-learned_updated: '2026-10-05'
+updated: '2026-11-02'
+learned_updated: '2026-11-02'
 ---
 ## Khi nào dùng
 - Soạn thảo dự thảo công văn trả lời cơ quan Công an (hoặc phúc đáp Thuế thành phố Đồng Nai khi có công văn chỉ đạo trung gian) và tờ trình phê duyệt của Tổ Kiểm tra (KT1).
@@ -12,7 +12,8 @@ learned_updated: '2026-10-05'
 - File dữ liệu `DB NNT.xls` tại `I:\My Drive\DB NNT.xls` (sheet `NNT` tra cứu hồ sơ doanh nghiệp, trạng thái đóng MST; sheet `KTR1` tra cứu cán bộ quản lý) để trích xuất thông tin NNT.
 - Số công văn đến, ngày nhận, nội dung yêu cầu của cơ quan Công an.
 - Nếu thư mục hồ sơ có công văn chỉ đạo của **Thuế thành phố Đồng Nai** (thường dạng `.../DON-KTr1`, V/v tạm ngừng / cung cấp theo yêu cầu Công an): lấy đủ **số, ngày** công văn Thuế TP và số/ngày công văn Công an gốc.
-- Thư mục lưu trữ hồ sơ công văn tại `I:\My Drive\HS CONG AN-2025-2026\HS CUNG CAP CA 2026\1. CUNG CAP CONG AN NAM 2026\<STT>. CV...`.
+- Thư mục lưu trữ hồ sơ công văn tại `I:\My Drive\HS CONG AN-2025-2026\HS CUNG CAP CA 2026\1. CUNG CAP CONG AN NAM 2026\<STT>. CV...` (trên máy user ổ Drive có thể mang chữ `H:`; cùng cấu trúc).
+- **Kiểm tra trên Drive (không chỉ local) trước khi soạn:** thư mục CV đã có dự thảo `TRA LOI CV <Số CV>_..._du thao.docx` chưa; có thư mục con (vd `CV <Số CV>`) chứa văn bản trả lời Công an trước đó của từng DN hay không.
 
 ## Quy trình
 1. **Phân tích yêu cầu công văn Công an & trích xuất dữ liệu:**
@@ -20,6 +21,8 @@ learned_updated: '2026-10-05'
    - **Tên doanh nghiệp:** Giữ nguyên bản tên doanh nghiệp từ CSDL `DB NNT.xls`, tuyệt đối **không gắn kèm bất kỳ ghi chú khởi tố nào** (như `*(Đã khởi tố)*` hoặc chú thích tương tự).
    - **Tình trạng hoạt động:** Trích xuất và ghi đúng nguyên văn giá trị theo cột **"Trạng thái ĐKT tổ chức"** từ file `DB NNT.xls` (ví dụ: *NNT đang hoạt động*, *NNT không hoạt động tại địa chỉ đã đăng ký*, *NNT tạm ngừng KD có thời hạn*, *NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực*, *NNT ngừng hoạt động và đã hoàn thành thủ tục chấm dứt hiệu lực*...), tuyệt đối **không tự thêm nội dung giải thích hoặc ghi tình trạng hoạt động khác**.
    - Nếu doanh nghiệp ngừng hoạt động: trích xuất chính xác số và ngày Thông báo không hoạt động tại địa chỉ đã đăng ký từ cột *Lý do đóng MST tổ chức*.
+   - **DN đã được trả lời Công an trước đó:** đọc văn bản trả lời cũ (thư mục con `CV <Số CV>` hoặc thư mục CV cũ của DN) làm nền nội dung, rồi đối chiếu lại `DB NNT.xls` để cập nhật phần đã thay đổi.
+   - **Đã có dự thảo cũ:** sửa trên file đó (ghi đè, không tạo bản sao); rà lại tổ phụ trách theo DB NNT, DN có thật trong bảng của CV, hướng kính gửi và dòng Số.
    - Đọc kỹ nội dung yêu cầu của công văn Công an để phân loại:
      + *Có yêu cầu thông tin doanh nghiệp / pháp lý:* (yêu cầu cung cấp thông tin ĐKKD, người đại diện theo pháp luật, tình trạng hoạt động, cán bộ quản lý...). Khi đó mới trích xuất chi tiết từ `DB NNT.xls` để lập mục "Thông tin cung cấp:".
      + *Không yêu cầu thông tin doanh nghiệp:* (chỉ yêu cầu sao lục hồ sơ khai thuế, hóa đơn, BCTC, rà soát xử phạt vi phạm hành chính, xác minh hóa đơn cụ thể, tạm ngừng kê khai...). Tuyệt đối không lập mục "Thông tin cung cấp:", chỉ lập mục danh mục hồ sơ tài liệu hoặc trả lời đúng câu hỏi.
@@ -30,8 +33,8 @@ learned_updated: '2026-10-05'
        - Cột trái (9.1 – 9.5 cm): Cơ quan ban hành gồm dòng trên "THUẾ THÀNH PHỐ ĐỒNG NAI" (cỡ 13, chữ đứng, căn giữa) và dòng dưới "THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI" (cỡ 13, in đậm, căn giữa). **Cả 2 dòng tên đơn vị bắt buộc nằm trọn vẹn trên từng dòng riêng biệt, tuyệt đối không bị ngắt rớt dòng.** Đường kẻ ngang dưới đơn vị ban hành đặt chính giữa với độ dài bằng đúng 1/3 dòng tên đơn vị (khoảng 2.8 - 3.0 cm, 12 ký tự `─` ở cỡ 10pt).
        - Cột phải (10.2 cm): Quốc hiệu "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM" (cỡ 13, in đậm, căn giữa, nằm trọn trên 1 dòng) và Tiêu ngữ "Độc lập - Tự do - Hạnh phúc" (cỡ 14, in đậm, căn giữa, nằm trọn trên 1 dòng). Nét gạch ngang liền dưới đặt chính giữa với độ dài vừa hết chiều dài dòng chữ từ "Đ" đến "c" (khoảng 6.0 - 6.17 cm, 24 ký tự `─` ở cỡ 10pt), không rớt dòng.
      - *Hàng 2 (Số & Ngày tháng):*
-       - Cột trái: `Số:          ` (chữ "Số:" giữ nguyên chuẩn, không chèn ký hiệu lạ hoặc dấu gạch chéo trơ trọi, để khoảng trống điền số văn bản, cỡ 13, **căn trái**, `left_indent = Cm(2)` cách lề trái **2 cm**, space before 4pt, space after 2pt). Không căn giữa ô.
-       - Cột phải: *Đồng Nai, ngày       tháng       năm 2026* (cỡ 13, in nghiêng, căn giữa, thẳng hàng ngang với dòng Số, space before 4pt, space after 2pt).
+       - Cột trái: `Số:                 /TCS3-KTr1` (chữ "Số:" rồi 17 khoảng trắng để điền số văn bản, tiếp theo là **ký hiệu cố định `/TCS3-KTr1`**; cỡ 13, chữ đứng, không in đậm, **căn trái**, `left_indent = Cm(2)` cách lề trái **2 cm**, space before 4pt, space after 2pt). Không căn giữa ô.
+       - Cột phải: *Trấn Biên, ngày       tháng       năm* (cỡ 13, in nghiêng, căn giữa, thẳng hàng ngang với dòng Số, space before 4pt, space after 2pt). Địa danh là **Trấn Biên**, **không ghi sẵn năm** - để trống cho người ký điền đủ ngày, tháng, năm. (Quy định bỏ năm này CHỈ áp cho công văn trả lời, không áp cho tờ trình.)
      - *Hàng 3 (dòng phụ dưới Số):*
        - Ô trích yếu: cách lề trái trang **1 cm**, độ rộng ô **6 cm**; chữ `V/v cung cấp thông tin, hồ sơ DN theo Công văn....` đứng (không in nghiêng, không in đậm, cỡ 12-13), **canh giữa ô**, space before 2pt, space after 2pt. (Với header `tblInd = -1.5 cm` và lề trái trang 2.5 cm thì mép trái bảng đã sát mốc 1 cm; đặt `tcW` ô trích yếu = 6 cm / 3402 dxa.)
        - Phần còn lại hàng 3: để trống.
@@ -67,6 +70,7 @@ learned_updated: '2026-10-05'
        + Số tài khoản ngân hàng: cột `Số tài khoản` + `Tên ngân hàng` trong `DB NNT.xls` (đăng ký với CQT). Trống → ghi "NNT không đăng ký với Cơ quan Thuế".
        + Nợ thuế / nghĩa vụ NSNN: kết xuất TMS hoặc sổ theo dõi nợ của đơn vị. Không có file/kết xuất → không bịa số; hỏi user hoặc ghi đúng theo bằng chứng vừa kiểm.
        + Thanh tra / kiểm tra / VPHC: hồ sơ quyết định, biên bản trong thư mục CV hoặc trên hệ thống. Chưa vi phạm → ghi "Công ty chưa bị xử phạt về thuế và hóa đơn.".
+       + DN đã trả lời trước: văn bản trả lời cũ trong thư mục con `CV <Số CV>` hoặc thư mục CV trước đó; dữ liệu cá nhân lấy lại từ văn bản cũ mà DB NNT không có thì báo user kiểm lại trước khi ký.
      - **Đánh dấu chữ đỏ khi thiếu / chưa xác định (bắt buộc):**
        + Mọi giá trị còn thiếu, chưa chính xác, hoặc chưa có bằng chứng live phải tô **chữ đỏ** (RGB 255,0,0) trên file Word để tách khỏi phần đã kiểm chứng (chữ đen).
        + Chat Dashboard: dùng nhãn **`[CHƯA XÁC ĐỊNH]`** (in đậm) trước nội dung đó; khi ghi Word vẫn tô đỏ thật.
@@ -93,11 +97,13 @@ learned_updated: '2026-10-05'
    - Khung Header mở rộng (cột 8.5 cm & 10.1 cm) để tên đơn vị và Quốc hiệu nằm trọn trên 1 dòng duy nhất.
    - Đường kẻ dưới tiêu ngữ chuẩn 5.5 - 5.6 cm (23 ký tự ─).
    - Tiêu đề `TỜ TRÌNH LÃNH ĐẠO` in đậm cỡ 14.
-   - **Trích yếu tờ trình** dòng `Về việc: ...` cỡ 13, chữ đứng, **viết thường, không in đậm**; giữ nguyên nội dung theo mẫu hồ sơ, không tự đổi.
+   - **Trích yếu tờ trình** dòng `Về việc: ...` cỡ 13, chữ đứng, **viết thường, in đậm**; giữ nguyên nội dung theo mẫu hồ sơ, không tự đổi.
    - Có CV Thuế TP: `Về việc` và mục `- Nội dung công việc:` nêu **Công văn Thuế TP** trước, rồi nêu Công văn Công an gốc là căn cứ yêu cầu cung cấp.
    - Mục `- Nội dung công việc:` chỉ ghi căn cứ số/ngày công văn và trích yếu ngắn; **không** liệt kê dài danh sách doanh nghiệp dự thảo hay doanh nghiệp ngoài địa bàn trong tờ trình.
    - Nội dung cỡ chữ 13, giãn dòng 1.15, before 3pt, thụt lề đầu dòng 1.25 cm.
    - **Thứ tự khối ký (bắt buộc, mẫu CV 30291):** bảng 3 hàng gồm CÁN BỘ ĐỀ XUẤT → dòng **Ý kiến của lãnh đạo Tổ KTR1:** (ô gộp, nằm **ngay dưới** cán bộ đề xuất) → TỔ TRƯỞNG; sau đó đoạn **Ý kiến phê duyệt của Lãnh đạo TCS3:** rồi bảng chữ ký Phó Trưởng thuế cơ sở. Tuyệt đối không đặt ý kiến Tổ KTR1 lên trên cán bộ đề xuất.
+   - **Khoảng cách chữ ký:** giữa chức danh (CÁN BỘ ĐỀ XUẤT, TỔ TRƯỞNG, Phó Trưởng thuế cơ sở) và họ tên người ký để đúng **4 dòng trống**.
+   - **Dòng ngày tháng trong cả 3 khối ký:** `Trấn Biên, ngày     tháng     năm <YYYY>` (in nghiêng, căn giữa ô) - **giữ năm**, năm lấy theo năm tại thời điểm lập tờ trình (vd `năm 2026`).
    - Nhân sự ký duyệt: Cán bộ đề xuất Nguyễn Thị Ánh Ngọc, Tổ trưởng Tổ KT1 Nguyễn Trường Giang, Lãnh đạo phê duyệt Phó Trưởng thuế cơ sở Phạm Đồng Xuân.
 4. **Quản lý tệp:** Lưu trực tiếp cả 2 file Word vào thư mục công văn tương ứng trên Drive, không tạo file sao lưu `.bak` tạm thời.
 
@@ -111,43 +117,38 @@ learned_updated: '2026-10-05'
 - Không tự ý thêm ghi chú khởi tố vào tên doanh nghiệp (như `*(Đã khởi tố)*`).
 - Không tự ý thêm bớt hay diễn giải sai khác nội dung tình trạng hoạt động; bắt buộc ghi đúng nguyên văn theo cột "Trạng thái ĐKT tổ chức" tại `DB NNT.xls`.
 - Không ghi sai lệch nội dung rà soát xử lý vi phạm; chuẩn hóa câu: "Công ty chưa bị xử phạt về thuế và hóa đơn." khi chưa có vi phạm.
-- Không chèn ký hiệu lạ hoặc dấu gạch chéo trơ trọi sau mục 'Số:          '; không căn giữa dòng Số - phải căn trái và cách lề trái đúng 2 cm.
+- Không bỏ trống ký hiệu sau dòng Số: bắt buộc `Số:                 /TCS3-KTr1`; không căn giữa dòng Số - phải căn trái và cách lề trái đúng 2 cm.
+- Công văn trả lời: không ghi địa danh "Đồng Nai" và không điền sẵn năm ở dòng ngày tháng; đúng chuẩn là *Trấn Biên, ngày       tháng       năm*.
+- Tờ trình: ngược lại với công văn, KHÔNG bỏ năm ở 3 khối ký; phải ghi năm lập tờ trình.
 - Không dùng đoạn căn cứ kiểu liệt kê "Căn cứ Công văn...; Căn cứ CSDL...; phúc đáp như sau:" - bắt buộc đúng 2 đoạn mở đầu chuẩn ở trên.
 - Có công văn Thuế thành phố Đồng Nai trong hồ sơ mà vẫn kính gửi / câu kết thẳng Công an là sai hướng trả lời.
-- Trích yếu bắt buộc đặt chữ đứng, không in nghiêng, không in đậm, căn giữa ô ở hàng 3.
-- Toàn bộ thân bài tuân thủ: cỡ chữ 14, giãn dòng 1.15, space before 3pt, thụt đầu dòng 1.25 cm.
+- Trích yếu công văn (hàng 3 header) bắt buộc đặt chữ đứng, không in nghiêng, không in đậm, căn giữa ô.
+- Toàn bộ thân bài công văn tuân thủ: cỡ chữ 14, giãn dòng 1.15, space before 3pt, thụt đầu dòng 1.25 cm.
 - Không tạo hoặc để lại file `.bak` sao lưu tạm trong thư mục lưu trữ.
 - Tờ trình không được tràn sang trang thứ 2; không chia cột dòng ý kiến Lãnh đạo.
 - Không đặt dòng "Ý kiến của lãnh đạo Tổ KTR1" lên trên khối CÁN BỘ ĐỀ XUẤT; phải nằm ngay dưới cán bộ đề xuất rồi mới tới TỔ TRƯỞNG.
-- Không in đậm dòng `Về việc:` trên tờ trình; không nhồi danh sách dài doanh nghiệp vào mục Nội dung công việc của tờ trình.
+- Dòng `Về việc:` trên tờ trình phải in đậm (khác trích yếu công văn); không nhồi danh sách dài doanh nghiệp vào mục Nội dung công việc của tờ trình.
+- Khoảng cách chữ ký tờ trình là 4 dòng trống, khác 5 dòng trống của bảng chữ ký công văn; đừng dùng chung một giá trị.
+- Chỉ tra thư mục local rồi kết luận "chưa có dự thảo" là sai (sự cố CV 34662 ngày 02/11/2026: Drive đã có dự thảo từ 07/10/2026). Luôn tra thư mục CV trên Drive, kể cả thư mục con.
+- Bỏ qua thư mục con `CV <Số CV>` chứa văn bản trả lời cũ của từng DN thì dự thảo lệch với nội dung đã cung cấp trước đó.
+- Dự thảo cũ có thể ghi sai tổ (vd ghi KT1 trong khi DB NNT ghi KT2) hoặc chứa DN không có trong bảng của CV; phải đối chiếu lại trước khi giữ.
+- Sửa skill này tại file chuẩn `skills/tra-loi-cong-van/SKILL.md`; chỉ sửa bản mirror `.claude/skills/...` thì có thể bị ghi đè khi đồng bộ.
 
 ## Kiểm chứng
 - Mở kiểm tra hiển thị văn bản trên Word:
-  + Công văn: Đúng người nhận (Thuế TP khi có DON-KTr1; Công an khi không có), căn cứ 2 đoạn khớp hướng trả lời, bám sát nội dung yêu cầu (chỉ có thông tin DN khi được yêu cầu), Header 3 hàng cân đối, không rớt dòng chữ cơ quan và Quốc hiệu, đường kẻ 1/3 và gạch dưới tiêu ngữ ôm khít chữ, trích yếu chữ đứng, dòng Kính gửi giãn 18pt/12pt căn giữa, các nhãn thông tin NNT viết thường, thụt đầu dòng 1.25 cm.
-  + Tờ trình: Trọn vẹn trong đúng 01 trang A4, đúng 3 vị trí ký (Ngọc - Giang - Xuân).
+  + Công văn: Đúng người nhận (Thuế TP khi có DON-KTr1; Công an khi không có), căn cứ 2 đoạn khớp hướng trả lời, bám sát nội dung yêu cầu (chỉ có thông tin DN khi được yêu cầu), Header 3 hàng cân đối, không rớt dòng chữ cơ quan và Quốc hiệu, đường kẻ 1/3 và gạch dưới tiêu ngữ ôm khít chữ, trích yếu chữ đứng, dòng Kính gửi giãn 18pt/12pt căn giữa, các nhãn thông tin NNT viết thường, thụt đầu dòng 1.25 cm, dòng ngày tháng bỏ năm.
+  + Tờ trình: Trọn vẹn trong đúng 01 trang A4, đúng 3 vị trí ký (Ngọc - Giang - Xuân), dòng `Về việc` in đậm, 4 dòng trống giữa chức danh và họ tên, cả 3 dòng ngày tháng có năm lập tờ trình.
+  + Mọi DN trong dự thảo có trong bảng của CV Công an, đúng tổ theo DB NNT; DN đã trả lời trước khớp văn bản cũ trừ phần DB NNT đã đổi.
   + Không tồn tại tệp `.bak` thừa trong thư mục.
 
 ## Lịch sử (tự học)
-- [2026-09-25] Khởi tạo skill chuẩn hóa quy trình dự thảo công văn và tờ trình trả lời Công an: quy định chi tiết thể thức bảng 2 cột, cỡ chữ 13-14, lề in 16.5cm, khoảng cách ký 5 dòng trống, tờ trình 1 trang A4, hậu tố `_du thao` và nhân sự phê duyệt chuẩn.
-- [2026-09-25] Quy định rõ Bước 2 thu thập và đối chiếu dữ liệu người nộp thuế trực tiếp từ file cơ sở dữ liệu `I:\My Drive\DB NNT.xls` (sheet `NNT`): tra cứu MST, ĐKKD, người đại diện, địa chỉ, tổ/cán bộ quản lý, trạng thái hoạt động và trích xuất số/ngày thông báo đóng MST từ cột Lý do đóng MST tổ chức.
-- [2026-09-25] Bổ sung nguyên tắc nội dung công văn trả lời căn cứ vào nội dung yêu cầu của công văn Công an; chuẩn hóa định dạng đoạn văn bản Tờ trình lãnh đạo (cỡ chữ 13, giãn dòng 1.15, space before 3pt, thụt lề 1.25 cm).
-- [2026-09-25] Chuẩn hóa canh lề Tờ trình (trái 3.0 cm, trên 2.5 cm, dưới 1.0 cm, phải 2.0 cm), tự động canh khung header mở rộng sang lề (cột 8.5 cm & 10.1 cm) để Cơ quan ban hành và Quốc hiệu nằm trọn vẹn trên 1 dòng duy nhất, không bị rớt dòng.
-- [2026-09-25] Điều chỉnh cấu trúc Tờ trình: các phần ý kiến của Tổ trưởng và Lãnh đạo là các dòng văn bản độc lập thụt lề đầu dòng 1.25 cm trải rộng toàn dòng, không chia cột; các khối chữ ký được bố trí ở nửa bên phải căn giữa theo trục dọc.
-- [2026-09-25] Chuẩn hóa Header Công văn trả lời: mở rộng ra ngoài định dạng trang in (cột 1 rộng 9.1 cm, cột 2 rộng 10.2 cm, tblInd -1.5 cm) để THUẾ THÀNH PHỐ ĐỒNG NAI (13, đứng), THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI (13, đậm), CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM (13, đậm) và Độc lập - Tự do - Hạnh phúc (14, đậm) nằm trọn vẹn trên từng dòng không rớt chữ; kẻ ngang đơn vị bằng đúng 1/3 dòng tên (12 ký tự ─); gạch dưới tiêu ngữ vừa hết chiều dài chữ từ "Đ" đến "c" (24 ký tự ─); trích yếu chữ đứng căn giữa; toàn bộ thân bài cỡ 14, giãn dòng 1.15, before 3pt, thụt lề đầu dòng 1.25 cm (`first_line_indent = Cm(1.25)`).
-- [2026-09-25] Cập nhật chuẩn hóa chi tiết thể thức: mục Số giữ nguyên chuẩn không chèn ký hiệu lạ, dòng Kính gửi viết thường ở giữa trang, các mục thông tin NNT viết thường không in đậm và gạch dưới tiêu ngữ trọn vẹn chiều dài từ "Đ" đến "c".
-- [2026-09-25] Hoàn thiện cấu trúc Header 3 hàng độc lập: tách hàng riêng cho trích yếu căn giữa ô chữ đứng (không in nghiêng/đậm), giữ mục Số ở hàng 2 tạo khoảng cách thoáng so với dòng tên đơn vị ở trên, loại bỏ hoàn toàn các ký hiệu lạ; áp dụng thụt đầu dòng chuẩn `first_line_indent = Cm(1.25)` cho thân bài và hoàn thiện bộ hồ sơ CV 21295/VPCQCSĐT.
-- [2026-09-25] Cập nhật chuẩn hóa toàn diện theo chỉ đạo: Cơ quan ban hành (THUẾ THÀNH PHỐ ĐỒNG NAI chữ đứng cỡ 13, THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI in đậm cỡ 13, nằm trọn trên từng dòng; đường kẻ 1/3 đặt chính giữa); Quốc hiệu & Tiêu ngữ (CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM in đậm cỡ 13 trên 1 dòng; Độc lập - Tự do - Hạnh phúc in đậm cỡ 14 trên 1 dòng; nét gạch ngang liền dưới vừa hết chiều dài chữ; bảng header mở rộng ngoài định dạng trang in); Số công văn giữ nguyên chuẩn không chèn ký hiệu lạ; Trích yếu chữ đứng không in nghiêng không in đậm; Toàn bộ thân bài tuân thủ nghiêm ngặt cỡ chữ 14, giãn dòng 1.15, before 3pt, thụt đầu dòng 1.25 cm.
-- [2026-09-25] Chuẩn hóa nguyên tắc nội dung: Chỉ lập mục thông tin người nộp thuế / doanh nghiệp khi công văn cơ quan Công an có yêu cầu cung cấp thông tin pháp lý / ĐKKD; nếu công văn chỉ yêu cầu sao lục hồ sơ, rà soát nợ / vi phạm hoặc xác minh hóa đơn thì không lập phần thông tin này mà chỉ cung cấp đúng tài liệu hoặc nội dung yêu cầu.
-- [2026-09-29] Cập nhật theo CV 29931: dòng `Số:` căn trái, `left_indent = Cm(2)`; đoạn mở đầu đổi sang 2 câu chuẩn "nhận được Công văn... / Căn cứ dữ liệu quản lý thuế... trả lời như sau:"; dự thảo đủ toàn bộ DN thuộc KT1+KT2+KT3 trong cùng công văn; trạng thái hoạt động lấy live từ DB NNT.xls.
-- [2026-09-29] Chuẩn nội dung theo mẫu 29938: không tự thêm Giám đốc/CBQL khi công văn không yêu cầu; TKNH lấy DB NNT; nợ thuế lấy TMS/sổ nợ (có bằng chứng mới ghi số); thanh tra lấy hồ sơ QĐ/biên bản hoặc "Không có"; ưu tiên file `LICH SU <MST>.XLSX` trong thư mục CV để cập nhật trạng thái/chuyển cơ quan quản lý.
-- [2026-09-29] Preference: thông tin thiếu / chưa chính xác / chưa xác định tô chữ đỏ trên Word; chat dùng nhãn `[CHƯA XÁC ĐỊNH]`. Áp dụng ngay cho nợ thuế chưa TMS và thanh tra/VPHC chưa có QĐ-biên bản.
-- [2026-09-29] Phạm vi hồ sơ cung cấp chỉ trong giai đoạn Thuế cơ sở 3 quản lý: NNT chuyển về giữa kỳ thì cắt từ kỳ bắt đầu quản lý (vd tháng 07/2025 → quý 03/2025 và năm 2025) đến quý/năm cuối thuộc giai đoạn TCS3; ghi rõ giai đoạn trước chuyển TCS3 không có dữ liệu.
-- [2026-09-29] Mốc thời gian chỉ ghi đến quý/năm, không ghi "khóa MST"; GTGT/bảng kê theo quý, TNDN/TNCN/BCTC theo năm trong giai đoạn cung cấp.
-- [2026-09-30] Không nhồi đoạn giải thích thời kỳ yêu cầu/ngày thành lập vào danh mục hồ sơ. Nếu CV yêu cầu thông báo phát hành hóa đơn / báo cáo tình hình sử dụng hóa đơn và giai đoạn cung cấp có phần từ 2022 về trước thì bổ sung các mục hóa đơn giấy tương ứng.
-- [2026-09-30] Nếu CV yêu cầu tài liệu liên quan thanh tra/kiểm tra thì bổ sung dòng `+ Tình hình thanh tra, kiểm tra, xử lý vi phạm về thuế`.
-- [2026-09-30] Ô trích yếu hàng 3: cách lề trái trang 1 cm, độ rộng 6 cm, chữ canh giữa ô; các phần header khác giữ nguyên.
-- [2026-09-30] Trích yếu tờ trình dòng "Về việc: ..." (cỡ 13); đã cập nhật lại ngày 05/10/2026: viết thường, không in đậm.
-- [2026-09-30] Nếu hồ sơ có công văn chỉ đạo Thuế thành phố Đồng Nai (`.../DON-KTr1`): kính gửi Thuế TP; căn cứ đoạn 1 là "nhận được Công văn Thuế TP ... theo yêu cầu Công an tại Công văn ..."; trích yếu, tờ trình và câu kết khớp Thuế TP (mẫu CV 30291).
-- [2026-10-02] Đối với công văn trả lời cho Thuế Thành phố Đồng Nai nếu căn cứ công văn của Công an thì phần trích yếu của công văn (`V/v ...`) ghi theo số công văn của Công an.
-- [2026-10-05] Cập nhật 5 chuẩn hóa nghiệp vụ & thể thức: (1) Header mở rộng Cột 1 (9.1 - 9.5 cm) đảm bảo "THUẾ THÀNH PHỐ ĐỒNG NAI" và "THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI" nằm trọn vẹn trên 1 dòng duy nhất không rớt dòng; (2) Phạm vi cung cấp chỉ gồm doanh nghiệp thuộc địa bàn Thuế cơ sở 3 (KT1, KT2, KT3), loại bỏ hoàn toàn DN ngoài địa bàn; (3) Tên doanh nghiệp nguyên bản từ CSDL, không kèm ghi chú khởi tố; (4) Tình trạng hoạt động ghi đúng nguyên văn theo cột "Trạng thái ĐKT tổ chức" tại DB NNT.xls, không thêm nội dung khác; (5) Tình hình rà soát xử lý vi phạm chuẩn hóa: "Công ty chưa bị xử phạt về thuế và hóa đơn."
-- [2026-10-05] Tờ trình: dòng `Về việc` viết thường không in đậm; ý kiến lãnh đạo Tổ KTR1 nằm dưới cán bộ đề xuất (bảng 3 hàng mẫu 30291); mục Nội dung công việc không liệt kê dài danh sách DN.
+- [2026-09-30] Có công văn chỉ đạo Thuế TP (`.../DON-KTr1`): kính gửi Thuế TP; căn cứ, trích yếu, tờ trình và câu kết khớp Thuế TP (mẫu CV 30291).
+- [2026-10-02] Công văn trả lời Thuế TP căn cứ CV Công an thì trích yếu ghi theo số CV Công an.
+- [2026-10-05] Header cột 1 9.1 - 9.5 cm; chỉ DN thuộc TCS3; tên DN nguyên bản; tình trạng hoạt động nguyên văn; câu chuẩn "Công ty chưa bị xử phạt về thuế và hóa đơn."
+- [2026-10-05] Tờ trình: ý kiến lãnh đạo Tổ KTR1 nằm dưới cán bộ đề xuất (bảng 3 hàng mẫu 30291); mục Nội dung công việc không liệt kê dài danh sách DN.
+- [2026-10-29] Header công văn: dòng Số kèm ký hiệu `/TCS3-KTr1`, căn trái cách lề 2 cm; dòng ngày tháng địa danh *Trấn Biên*, bỏ hẳn năm.
+- [2026-10-29] Tờ trình theo yêu cầu user: dòng `Về việc: ...` cỡ 13, chữ đứng, viết thường, IN ĐẬM (thay "không in đậm"); 4 dòng trống giữa chức danh (CÁN BỘ ĐỀ XUẤT, TỔ TRƯỞNG, Phó Trưởng thuế cơ sở) và họ tên; dòng ngày tháng ở cả 3 khối ký GIỮ năm, lấy năm lập tờ trình (thay quy định bỏ năm cùng ngày). Công văn trả lời vẫn bỏ năm và giữ 5 dòng trống chữ ký.
+- [2026-10-29] User yêu cầu 3 thay đổi cho tờ trình (Về việc in đậm, 4 dòng trống giữa chức danh và họ tên, giữ năm lập ở dòng ngày tháng 3 khối ký). Javis chỉ sửa bản mirror .claude/skills, còn file chuẩn skills/tra-loi-cong-van/SKILL.md vẫn ghi 'không in đậm' và 'bỏ hẳn năm' (dòng 96, 101, 124), nên làm theo bản
+- [2026-10-29] Tờ trình theo yêu cầu user: dòng `Về việc: ...` cỡ 13, chữ đứng, viết thường, IN ĐẬM (thay "không in đậm"); 4 dòng trống giữa chức danh (CÁN BỘ ĐỀ XUẤT, TỔ TRƯỞNG, Phó Trưởng thuế cơ sở) và họ tên; dòng ngày tháng ở cả 3 khối ký GIỮ năm, lấy năm lập tờ trình. Công văn trả lời vẫn bỏ năm và giữ 5 dòng trống chữ ký.
+- [2026-11-02] Trước khi soạn phải tra dự thảo có sẵn và thư mục con văn bản trả lời cũ trên Drive (sự cố CV 34662: báo nhầm "chưa có dự thảo" vì chỉ tra local).
+- [2026-11-02] Ngày 02/11/2026 Javis báo thư mục 249 (CV 34662) 'chưa có dự thảo nào' vì chỉ tra thư mục local, trong khi Drive đã có dự thảo từ 07/10/2026; user còn chỉ ra thư mục con 'CV 34662' chứa văn bản đã trả lời trước của một số công ty mà Javis chưa đọc. Thêm bước tra dự thảo có sẵn trên Drive và đọc thư
