@@ -16,13 +16,25 @@ Chuỗi nghiệp vụ từ sổ theo dõi Excel (JAVIS PRO) tới xuất bộ Wo
 
 ## Chuẩn bị
 
-**Sổ Excel JAVIS PRO** (thư mục sổ theo dõi):
+**Thư mục `0. BIEN BAN` và file `Bang tinh.xlsx` (làm trước khi nhập liệu / xuất hồ sơ đi):**
 
-`G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\`
+Đường gốc vụ theo năm, ví dụ:
+`G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\2026\1. TD\<số>. <TÊN CÔNG TY>\`
+hoặc thư mục kế hoạch `...\KE HOACH\<TEN>_<MST>\`.
 
-- Làm việc: `Danh sach kiem tra quyet toan - JAVIS PRO.xlsm` (bật Enable Content).
-- Bản không macro: `Danh sach kiem tra quyet toan - JAVIS PRO.xlsx`.
-- File gốc giữ nguyên: `Danh sach kiem tra quyet toan.xlsx`.
+1. Trong thư mục công ty, tạo `0. BIEN BAN\` nếu chưa có (nơi lưu chung `Bang tinh.xlsx`, `TONG HOP.docx`, QĐ riêng, `hoso.zip`).
+2. Nhân bản mẫu `1. TD\BIEN BAN\Bang tinh.xlsx` vào `0. BIEN BAN\Bang tinh.xlsx`; đổi header `F5/F6/F7`, xóa số công ty mẫu. Chi tiết: skill `tao-bang-tinh-tu-ptdn`. Không tạo file trống.
+3. Sau đó chạy `nhap-bang-tinh-tu-bao-cao-hdkd` → `boc-tach-bang-tinh-phan-tich` / `dien-bien-ban-tu-bang-tinh` → xuất hồ sơ đi.
+4. Việc tạo phôi Bang tinh thuộc **Trợ lý khởi tạo hồ sơ** (`khoi-tao-ho-so`), không phải bước xuất Word của agent Lập hồ sơ kiểm tra.
+
+**Sổ Excel theo dõi** (thư mục sổ theo dõi):
+
+`G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\`
+
+- File làm việc: **`Danh sach kiem tra quyet toan pro.xlsm`** (bật Enable Content).
+- File gốc tham chiếu (giữ nguyên): `Danh sach kiem tra quyet toan.xlsx`.
+- **Không tạo** file `.bak` / bản sao sổ trong `00. Theo doi chung\`.
+- Không dùng tên cũ `Danh sach kiem tra quyet toan - JAVIS PRO.xlsm` / `.xlsx`.
 
 **DB NNT:** `I:\My Drive\DB NNT.xls` (file lớn; ưu tiên parse SpreadsheetML / openpyxl, tránh Excel COM nếu chậm).
 
@@ -60,7 +72,7 @@ Chi tiết cột sheet: `references/so-excel-javis-pro.md`. Danh mục mẫu Wor
 ```
 
 5. Điền Trưởng đoàn, Thành viên, các cột thông tin công ty còn thiếu theo mẫu (xem reference).
-6. Lưu cả `.xlsm` và `.xlsx`. File đang mở bị khóa thì lưu bản tạm rồi thay thế khi Excel nhả file.
+6. Chỉ lưu `Danh sach kiem tra quyet toan pro.xlsm`. File đang mở bị khóa thì lưu bản tạm **ngoài** `00. Theo doi chung\` rồi thay thế khi Excel nhả file; không để bak trong thư mục sổ.
 7. Báo dòng sheet đã ghi và các trường còn trống (Số QĐKT, ngày ban hành...).
 
 ### B. Xuất bộ hồ sơ đi (Word)

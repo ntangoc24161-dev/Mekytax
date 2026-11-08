@@ -13,13 +13,15 @@
     "quy-che-phoi-hop-kiem-tra-thue",
     "quy-trinh-hoan-thue",
     "quy-trinh-kiem-tra-thue",
+    "soan-thao-van-ban",
     "theo-doi-cung-cap-ca",
     "theo-doi-cv-canh-bao-rui-ro",
     "thue-gtgt",
     "thue-tncn",
     "thue-tndn",
-    "xu-ly-rui-ro-thue-hoa-don",
-    "xem-ho-so-thue"
+    "tram-tai-lieu",
+    "xem-ho-so-thue",
+    "xu-ly-rui-ro-thue-hoa-don"
   ],
   "disabled": []
 }

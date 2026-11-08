@@ -2,35 +2,15 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 26 agents · 58 skills · 9 workflows (6 bật) · 1 loops (1 bật) · 20 plugins (19 chạy)
+**Tổng quan:** 4 agents · 59 skills · 4 workflows (3 bật) · 2 loops (1 bật) · 15 plugins (14 chạy)
 
 ## Agents
-- **Chuyên viên công nợ và tiền mặt** (`chuyen-vien-cong-no-tien-mat`) - Quét chi tiền mặt 111, cụm HĐ cùng ngày, công nợ 131/331, sao kê 112. Ngưỡng K5 dùng >=. · skills: phan-tich-cong-no-tien-mat · tags: Tài chính
-- **Chuyên viên doanh thu giá vốn** (`chuyen-vien-doanh-thu-gia-von`) - Đối chiếu sổ 511 với 632 theo khóa HĐ/ngày/mặt hàng, lãi gộp, bán dưới giá (K4). · skills: doi-chieu-511-632 · tags: Tài chính
-- **Chuyên viên dữ liệu đầu vào** (`chuyen-vien-du-lieu-dau-vao`) - Gộp HĐĐT, bảng kê, NLĐ theo mẫu 02; làm sạch CD1 BT5-BT9; không trộn nguồn. · skills: tong-hop-dau-vao-hddt-bang-ke-nld, lam-sach-cd1-mst-hoa-don · tags: Tài chính
-- **Chuyên viên GTGT-TNDN** (`chuyen-vien-gtgt-tndn`) - Đối chiếu bảng kê, tờ khai GTGT, QTT TNDN, HĐĐT theo 2 sheet chuẩn CBRR, bóc nguyên nhân trọng yếu. · skills: doi-chieu-gtgt-tndn-cbrr · tags: Tài chính
-- **Chuyên viên kho và giá thành** (`chuyen-vien-kho-gia-thanh`) - Đối chiếu XNT 152/155/156 với BCTC, xuất kho với 632, bóc giá thành/định mức, giải tỏa TC3 và TC28. · skills: phan-tich-xnt-kho, phan-tich-gia-thanh-dinh-muc · tags: Tài chính
-- **Chuyên viên NCC và hóa đơn** (`chuyen-vien-ncc-hoa-don`) - Đối chiếu 100% NCC với CVCBRR F0/F1, Công an, danh bạ; F0 và F1 đều mức Cao (K2). · skills: doi-chieu-ncc-mua-vao-rui-ro, tong-hop-ben-mua-tu-so-cvcbrr · tags: Tài chính
-- **Chuyên viên TNCN** (`chuyen-vien-tncn`) - Tổng hợp QTT TNCN, danh sách NLĐ, đối chiếu đa nguồn TC22/TC23, trùng CCCD. · skills: tong-hop-tncn-da-nguon · tags: Tài chính
-- **Cập nhật công văn cảnh báo rủi ro** (`cập-nhật-công-văn-cảnh-báo-rủi-ro`) - Bóc tách công văn cảnh báo đã số hóa và nạp dòng mới vào sheet F0 bên bán, F1 bên mua · skills: theo-doi-cv-canh-bao-rui-ro · tags: Tài chính
-- **Đối chiếu rủi ro NCC** (`doi-chieu-rui-ro-ncc`) - Soi nhà cung cấp mua vào với F0/F1, danh sách Công an và danh bạ NNT, lập Bảng 2.3 theo kỳ · skills: doi-chieu-ncc-mua-vao-rui-ro, theo-doi-cv-canh-bao-rui-ro · tags: Tài chính
-- **Khai thác dữ liệu hồ sơ** (`khai-thac-du-lieu-ho-so`) - trợ lý hỗ trợ - xuất bảng kê tiêu chí cung cấp và đối chiếu số liệu thuế khi công văn hoặc soạn thảo cần bằng chứng · skills: xuat-danh-sach-ho-so-ca, doi-chieu-ncc-mua-vao-rui-ro, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
-- **Trợ lý khởi tạo hồ sơ** (`khoi-tao-ho-so`) - Chuyên viên văn bản khởi tạo hồ sơ kiểm tra và cập nhật dữ liệu công ty. · skills: lap-ho-so-kiem-tra, nhap-bang-tinh-tu-bao-cao-hdkd, boc-tach-bang-tinh-phan-tich, xem-ho-so-thue · tags: Tài chính
-- **Lập hồ sơ kiểm tra** (`lap-ho-so-kiem-tra`) - Cán bộ Thuế cơ sở 3 lập hồ sơ kiểm tra trên app nội bộ và xuất bộ Word. · skills: lap-ho-so-kiem-tra · tags: Tài chính
-- **Phân tích viên dữ liệu CQT** (`phan-tich-vien-cqt`) - Chạy 57 quy tắc khi chưa có sổ DN, nhãn Chắc/Sơ bộ, xuất KQ2. Chỉ sau mức A hoặc B, hoặc để giữ phần Chắc từ CQT. · skills: giai-doan-2-phan-tich-du-lieu-co-quan-thue · tags: Tài chính
-- **Phân tích viên sổ sách DN** (`phan-tich-vien-so-sach-dn`) - Chạy 23 quy tắc sổ DN, chuỗi 5 mắt xích, nâng sơ bộ thành chắc hoặc giải tỏa, xuất KQ3. Chỉ khi mức C/D/E. · skills: giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
-- **Pháp chế & chính sách thuế** (`phap-che-chinh-sach-thue`) - trợ lý hỗ trợ - trả lời câu hỏi luật/chính sách có trích dẫn điều khoản khi Điều phối hoặc Soạn thảo vướng căn cứ · skills: thue-gtgt, thue-tncn, thue-tndn, hoa-don-dien-tu, luat-quan-ly-thue, xu-ly-rui-ro-thue-hoa-don, xu-phat-vphc-thue-hoa-don, quy-trinh-hoan-thue, quy-trinh-kiem-tra-thue, huong-dan-kiem-tra-chuyen-de, kiem-tra-thue-thuong-mai-dien-tu, luat-thuong-mai-dien-tu, quy-che-phoi-hop-kiem-tra-thue, luat-phong-chong-tham-nhung · tags: Tài chính
-- **phong-van-thu** (`phong-van-thu`) - 
-- **Tiếp nhận & Điều phối công văn** (`quản-lý-hồ-sơ-công-an`) - đầu vào phòng cung cấp hồ sơ Công an - tiếp nhận, bóc tách, tra cứu NNT, phân Tổ KT, cập nhật sổ và đóng thư mục · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-cuu-ioffice-dong-nai, pdf-sang-md, dong-bo-thu-muc-ca · tags: Tài chính
-- **Số hóa OCR công văn** (`so-hoa-ocr-cong-van`) - Chuyển PDF và ảnh scan công văn cảnh báo thành Markdown sạch, giữ heading và bảng · skills: pdf-sang-md · tags: Tài chính
-- **Trợ lý soạn thảo biên bản và hồ sơ về** (`soan-bien-ban-ho-so-ve`) - Chuyên viên văn bản soạn biên bản, hồ sơ về và quyết định xử phạt trình ký. · skills: soan-thao-van-ban, dien-bien-ban-tu-bang-tinh, xu-phat-vphc-thue-hoa-don · tags: Tài chính
-- **Trợ lý soạn thảo hồ sơ đi** (`soan-ho-so-di`) - Chuyên viên văn bản soạn hồ sơ đi và trình ký theo đúng thể thức. · skills: ho-so-kiem-tra-ke-hoach, soan-thao-van-ban · tags: Tài chính
-- **Soạn thảo trả lời Công an** (`soan-thao-tra-loi-cong-an`) - đầu ra giấy tờ của phòng - dự thảo công văn phúc đáp và tờ trình đúng thể thức NĐ 30/2020 từ gói bàn giao của Điều phối · skills: tra-loi-cong-van, soan-thao-van-ban · tags: Tài chính
-- **Soạn thảo văn bản** (`soan-thao-van-ban`) - Chuẩn hóa thể thức NĐ 30 và soạn văn bản hành chính TCS3; phúc đáp Công an để soan-thao-tra-loi-cong-an · skills: soan-thao-van-ban · tags: Tài chính
-- **Thủ hồ sơ và Kiểm kê GĐ1** (`thu-ho-so-kiem-ke`) - Tổ chức cây thư mục 4 bước, checklist A4, manifest IN00-IN14, mức A-E, xuất KQ1. Cấm phân tích rủi ro. · skills: to-chuc-ho-so-kiem-tra-thue, giai-doan-1-kiem-ke-danh-gia · tags: Tài chính
-- **Tra cứu và tải công văn iOffice** (`tra-cuu-tai-cv-ioffice`) - Đăng nhập VNPT iOffice Đồng Nai, lọc công văn cảnh báo, tải tệp đính kèm về thư mục lưu trữ · skills: tra-cuu-ioffice-dong-nai · tags: Tài chính
-- **Trợ lý tri thức** (`tri-thuc-second-brain`) - Người giữ wiki Second Brain sống và trả lời có trích dẫn. · skills: ingest-source, query-wiki, lint-wiki · tags: AI
-- **Trưởng phòng Phân tích hồ sơ thuế** (`truong-phong-phan-tich-ho-so`) - Điều phối P0-P5, chọn giai đoạn theo mức A-E, chốt Master 28 tiêu chí và đề cương, áp K1-K13. · skills: phan-tich-ho-so-thue, query-wiki · tags: Tài chính
+### Chung
+- **so-hoa-ocr-cong-van** (`so-hoa-ocr-cong-van`) - 
+- **soan-thao-van-ban** (`soan-thao-van-ban`) - 
+- **tri-thuc-second-brain** (`tri-thuc-second-brain`) - 
+### Văn thư
+- **phong-van-thu** (`phong-van-thu`) -  · model haiku
 
 ## Skills
 ### AI
@@ -95,45 +75,35 @@
 - **Quản lý rủi ro thuế và hóa đơn điện tử** (`xu-ly-rui-ro-thue-hoa-don`) - Quản lý rủi ro thuế và HĐĐT: QĐ 1264/2026 hệ số K, CV 1125/2026 siết cảnh báo, CV 1873/2022 25 dấu hiệu vi phạm, CV 2383/2021 giám sát HĐ.
 - **Xử phạt vi phạm hành chính về thuế và hóa đơn** (`xu-phat-vphc-thue-hoa-don`) - Xử phạt VPHC thuế và hóa đơn: NĐ 125, NĐ 310, NĐ 291, NĐ 68: sai thời điểm, không lập HĐ, trốn thuế, trao đổi thông tin QT, xử lý DN 03-06.
 - **Xuất danh sách tổng hợp chi tiết hồ sơ Công an** (`xuat-danh-sach-ho-so-ca`) - Xuất Excel tổng hợp chi tiết hồ sơ công văn Công an theo từng cột tiêu chí tờ khai, BCTC, hóa đơn, vi phạm, nợ thuế tại thư mục CV MOI.
+### Vận hành
+- **Bàn giao liên phòng** (`ban-giao-lien-phong`) - Checklist bàn giao việc giữa các brain/phòng: đường dẫn, MST, brain đích, agent/workflow, đầu ra.
 
 ## Workflows
-### Tài chính
-- **Dây chuyền hồ sơ kiểm tra** (`day-chuyen-ho-so-kiem-tra`) - off · 3 bước [khoi-tao-ho-so -> soan-ho-so-di -> soan-bien-ban-ho-so-ve] · Nối 3 trợ lý văn bản theo vòng đời vụ kiểm tra: khởi tạo dữ liệu công ty, soạn hồ sơ đi trình ký, rồi soạn biên bản và hồ sơ về.
-- **Dây chuyền xử lý công văn cảnh báo** (`day-chuyen-xu-ly-cv-canh-bao`) - active · 5 bước [tra-cuu-tai-cv-ioffice -> so-hoa-ocr-cong-van -> cập-nhật-công-văn-cảnh-báo-rủi-ro -> doi-chieu-rui-ro-ncc -> soan-thao-van-ban] · Tải iOffice, OCR, nạp sổ F0/F1, đối chiếu NCC rồi soạn văn bản cảnh báo.
-- **Lập hồ sơ kiểm tra** (`lap-ho-so-kiem-tra`) - off · 5 bước [lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra] · Nhập hoặc import một vụ kiểm tra thuế rồi xuất bộ Word hồ sơ đi, biên bản, phát sinh và hồ sơ về.
-- **Phân tích hồ sơ thuế 3 giai đoạn** (`phan-tich-ho-so-thue-3-giai-doan`) - active · 12 bước [thu-ho-so-kiem-ke -> truong-phong-phan-tich-ho-so -> chuyen-vien-du-lieu-dau-vao -> chuyen-vien-gtgt-tndn -> chuyen-vien-ncc-hoa-don -> chuyen-vien-tncn -> phan-tich-vien-cqt -> chuyen-vien-doanh-thu-gia-von -> chuyen-vien-kho-gia-thanh -> chuyen-vien-cong-no-tien-mat -> phan-tich-vien-so-sach-dn -> truong-phong-phan-tich-ho-so] · Chuỗi KQ1-KQ2-KQ3 theo mức A-E, bộ mẫu v1.2, 11 trợ lý phòng phân tích.
-- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 2 bước [quản-lý-hồ-sơ-công-an -> soan-thao-tra-loi-cong-an] · Tiếp nhận-phân tổ-ghi sổ rồi dự thảo công văn và tờ trình cho DN thuộc KT1-KT2-KT3.
-### Văn thư
-- **Quy trình điều khiển tài liệu** (`quy-trinh-dieu-khien-tai-lieu`) - off · 6 bước [yeu-cau-tai-lieu -> phong-van-thu -> yeu-cau-tai-lieu -> phong-van-thu -> yeu-cau-tai-lieu -> phong-van-thu] · TẮT. Trùng ban hành văn bản đi. Dùng quy-trinh-soan-thao-va-ban-hanh-van-ban-di.
+- **Quy trình điều khiển tài liệu** (`quy-trinh-dieu-khien-tai-lieu`) - False · 6 bước [yeu-cau-tai-lieu -> phong-van-thu -> yeu-cau-tai-lieu -> phong-van-thu -> yeu-cau-tai-lieu -> phong-van-thu] · TẮT. Trùng ban hành văn bản đi. Dùng quy-trinh-soan-thao-va-ban-hanh-van-ban-di.
 - **Quy trình lưu trữ và số hóa hồ sơ** (`quy-trinh-luu-tru-va-so-hoa-ho-so`) - active · 3 bước [phong-van-thu -> so-hoa-ocr-cong-van -> tri-thuc-second-brain] · Thu hồi, kiểm kê, số hóa OCR và lưu trữ hồ sơ tài liệu vào Second Brain phục vụ tra cứu
 - **Quy trình soạn thảo và ban hành văn bản đi** (`quy-trinh-soan-thao-va-ban-hanh-van-ban-di`) - active · 3 bước [phong-van-thu -> soan-thao-van-ban -> phong-van-thu] · Kiểm thể thức NĐ 30, chuẩn hóa Word TCS3, cấp số và phát hành văn bản đi
 - **Quy trình tiếp nhận và xử lý công văn đến** (`quy-trinh-tiep-nhan-va-xu-ly-cong-van-den`) - active · 2 bước [so-hoa-ocr-cong-van -> phong-van-thu] · OCR công văn đến, vào sổ Văn thư, phân phòng thụ lý và đặt hạn theo độ khẩn
 
 ## Loops
+- **Văn thư điều phối và đôn đốc** (`van-thu-dieu-phoi-don-doc.conflict-remote-20261102-231000`) - tắt · custom/full · mỗi 180 phút
 - **Văn thư điều phối và đôn đốc** (`van-thu-dieu-phoi-don-doc`) - bật · custom/full · mỗi 180 phút
 
 ## Plugins (tool/hook native cho mọi engine)
 - **Thời gian & ngày** (`datetime-vn`) - bundled/chạy · tools: javis_now, javis_date_add · Xem ngày giờ hiện tại theo múi giờ đã cấu hình và tính ngày tương đối (mai, mốt, N ngày nữa, tuần trước). Thuần stdlib, chỉ đọc, không cần mạng.
 - **Điều khiển app trên máy** (`desktop-apps`) - bundled/chạy · tools: javis_app_list, javis_app_open, javis_app_close · Mở, đóng và liệt kê ứng dụng trên CHÍNH MÁY đang chạy Javis (Windows, macOS, Linux có màn hình) theo lời người dùng, ví dụ "mở Chrome", "tắt Excel", "đang mở app nào". Tự chặn và nói rõ khi Javis chạy trong Docker trên máy chủ, vì khi đó máy chạy Javis không phải máy của người dùng.
 - **Theo dõi Facebook (Apify)** (`fb-monitor-apify`) - bundled/chạy · tools: fb_monitor · Theo dõi Trang/Nhóm CÔNG KHAI Facebook tìm bài nhiều share qua dịch vụ Apify. Chỉ đọc, không đụng tài khoản cá nhân, chạy tốt trên VPS. Dùng token của kết nối "facebook-monitor".
-- **Tạo và xem ảnh (ChatGPT)** (`image-chatgpt`) - bundled/chạy · tools: javis_generate_image, javis_describe_image · Tạo ảnh từ mô tả bằng GÓI ChatGPT đang đăng nhập (OAuth) - không cần OpenAI API key. Dùng Codex Responses API + tool image_generation (gpt-image-2). Ảnh lưu vào attachments/ của vault để nhúng thẳng vào chat. Kèm tool XEM ảnh, để ChatGPT nhìn ảnh trong brain rồi tả lại bằng chữ, để cả engine không tự xem được ảnh (OpenRouter, Gemini API...) cũng biết trong ảnh có gì. Cần đã kết nối ChatGPT ở trang Model.
+- **Tạo ảnh (ChatGPT)** (`image-chatgpt`) - bundled/chạy · tools: javis_generate_image · Tạo ảnh từ mô tả bằng GÓI ChatGPT đang đăng nhập (OAuth) - không cần OpenAI API key. Dùng Codex Responses API + tool image_generation (gpt-image-2). Ảnh lưu vào attachments/ của vault để nhúng thẳng vào chat. Cần đã kết nối ChatGPT ở trang Model.
 - **Đấu thêm MCP** (`javis-connect`) - bundled/chạy · tools: javis_add_mcp · Đấu một MCP server vào kho Kết nối của Javis ngay từ chat, để nó HIỆN ra trang Kết nối như mọi tài khoản khác. Trước tool này Javis chỉ còn đường `claude mcp add` - thứ rơi vào config riêng của Claude Code, không bộ não nào khác thấy và người dùng cũng không thấy trên trang Kết nối.
-- **Việc chạy nền** (`javis-job`) - bundled/chạy · tools: javis_job · Theo dõi lệnh chạy ngầm engine bỏ lại (render, build, tải về). Dặn trước "xong thì làm tiếp gì", xem việc đang chạy, dừng một việc. Xong là Javis tự báo về đúng khung chat và tự làm tiếp.
-- **Cookies** (`javis-login`) - bundled/chạy · tools: javis_login · Mở trang web cần đăng nhập bằng phiên đăng nhập chủ đã cất ở trang Cookies. Chỉ trả nội dung trang, không bao giờ trả cookie.
-- **Trí nhớ qua chat** (`javis-memory`) - bundled/chạy · tools: javis_memory · Cho Javis xem, sửa, quên ghi nhớ của brain, bật tắt việc lưu ghi nhớ mới, sửa hồ sơ chung và thu hồi bài học của trợ lý khi người dùng nhắn. Thay cho các danh sách trí nhớ và bài học từng nằm ở cột Cài đặt. Chỉ phiên của chủ thấy tool này.
-- **Bộ phán xử của bot nhóm** (`javis-reply-policy`) - bundled/chạy · tools: javis_reply_policy, javis_reply_policy_tune · Cho Javis đọc số liệu bộ phán xử (bot nói hay im trong nhóm, vì sao, bị chấm sai ở đâu) và chỉnh nó khi chủ nhờ, rồi hoàn lại được. Chỉ phiên của chủ thấy hai tool này, bot chăm khách không bao giờ thấy.
 - **Đặt việc định kỳ & nhắc hẹn** (`javis-schedule`) - bundled/chạy · tools: javis_schedule · Tạo/liệt kê/huỷ việc chạy định kỳ và nhắc hẹn ngay từ chat. Tự chọn kho - việc lặp và bền thì ghi Javis/loops/<slug>.md để sửa được trong Obsidian; nhắc một lần hoặc lịch cron thì vào kho nhắc hẹn (đã có sẵn cron 5 trường). Thay cho việc gõ YAML tay hoặc curl.
 - **Giao việc Kanban** (`javis-task`) - bundled/chạy · tools: javis_task · Giao một việc nền vào hàng đợi Kanban và xem việc đang chạy tới đâu, ngay từ chat. Trước tool này chỉ engine chạy được lệnh máy (Claude Code, Codex) mới giao việc được, vì đường duy nhất là curl POST /kanban/task - năm engine API đứng ngoài.
-- **Quản lý nhóm chat** (`javis-team`) - bundled/chạy · tools: javis_team · Tạo, sửa, lưu trữ và xoá nhóm chat, thêm bớt trợ lý, chọn trưởng nhóm, tạo trợ lý mới với model riêng rồi ghép vào nhóm, ngay từ chat và trên mọi engine. Trước tool này phải vào trang Nhóm bấm tay, hoặc điều khiển trình duyệt.
 - **Điều khiển dashboard** (`javis-ui`) - bundled/chạy · tools: javis_ui · Mở trang, mở file trong brain, mở một việc Kanban hoặc cuộn khung chat trên dashboard đang mở, theo lời người dùng nói hoặc gõ. Dashboard xác nhận đã làm xong ngay trong lượt; không có tab nào mở thì tool nói rõ.
-- **Theo dõi trang web** (`javis-watch`) - bundled/chạy · tools: javis_watch · Canh một trang web theo lịch mà không tốn token - báo khi trang đổi, khi xuất hiện một cụm chữ hoặc khi có giá dưới ngưỡng (hiểu 1.250.000đ, 1,5 triệu, 250k, $20). Chỉ gọi AI khi bật tóm tắt.
 - **Lịch sử quy trình** (`javis-workflow`) - bundled/chạy · tools: javis_workflow · Xem các lần chạy quy trình gần đây và kết quả từng lần, ngay từ chat. Trước tool này, chạy quy trình xong là kết quả mất, hỏi "quy trình chạy gần nhất ra sao" Javis không có gì để tra.
 - **Meta Ads (Graph API)** (`meta-ads-graph`) - bundled/chạy · tools: meta_ads_accounts, meta_ads_insights, meta_ads_campaigns, meta_ads_get · Đọc số liệu quảng cáo Facebook/Instagram (tài khoản ads, chiến dịch, hiệu suất) qua Graph API, dùng token của kết nối "Meta Ads (tự tạo app)". CHỈ ĐỌC, không tiêu tiền.
 - **Facebook Trang (Graph API)** (`meta-pages-graph`) - bundled/chạy · tools: fb_pages_list, fb_page_posts, fb_page_comments, fb_page_post, fb_page_photo, fb_page_album, fb_page_video, fb_page_edit, fb_page_delete, fb_page_reply · Quản lý Trang/Fanpage Facebook qua Graph API - liệt kê Trang, đọc bài và bình luận (chỉ đọc), đăng bài/ảnh/video/album, sửa chữ, xoá bài và trả lời bình luận (toàn quyền). Dùng token của kết nối "Facebook Trang (tự tạo app)".
 - **Nhật ký dùng tool** (`tool-audit`) - bundled/tắt · tools: javis_tool_stats · hooks: post_tool_call · Đếm số lần MỖI tool được engine gọi (qua hook post_tool_call) và cho xem thống kê tool hay dùng. Đây là ví dụ minh hoạ cơ chế HOOK của plugin. Mặc định TẮT - bật qua POST /plugins/toggle (slug=tool-audit) để thử.
-- **Tin thoại** (`voice-note`) - bundled/chạy · tools: javis_voice_note · Javis ghi một đoạn nói ngắn (tối đa 1000 ký tự) thành file mp3 trong attachments/voice/ rồi nhúng vào câu trả lời. Khung chat hiện trình phát, Telegram nhận file âm thanh. Dùng giọng Edge miễn phí theo ngôn ngữ của câu.
+- **Trạm tài liệu** (`tram-tai-lieu`) - bundled/chạy · tools: javis_tram_tai_lieu · OCR và chuyển đổi PDF/ảnh scan sang Word, Excel, Markdown, TXT hoặc PDF tìm kiếm được; xoay, tách, ghép, xóa trang; so sánh nội dung 2 file. Chạy local bằng Python venv .venv-paddleocr.
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
+- **Gửi ảnh & file qua Zalo** (`zalo-image`) - bundled/chạy · tools: zalo_send_image · Gửi ẢNH hoặc FILE qua Zalo kèm lời nhắn, bằng chính tài khoản đã quét QR ở trang Kết nối. Bù đúng chỗ MCP chuẩn của zalo-agent-cli còn thiếu - tool zalo_send_message của nó chỉ nhận chữ.
 
 ## Cờ sức khoẻ
 - Workflow trỏ agent KHÔNG tồn tại: yeu-cau-tai-lieu
-- Agent chưa workflow nào dùng: khai-thac-du-lieu-ho-so, phap-che-chinh-sach-thue

@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "source": "kanban.sqlite3",
-  "orchestration": "auto",
+  "orchestration": "off",
   "tasks": [
     {
       "id": "t_cc3f211a25e2",
@@ -162,10 +162,10 @@
       "capability": "research",
       "execution_mode": "full",
       "priority": 2,
-      "status": "blocked",
+      "status": "archived",
       "needs_approval": false,
-      "block_kind": "needs_input",
-      "block_reason": "_(Lưu ý của Javis: `agy` có thử mở file ngữ cảnh nhưng KHÔNG đọc được (thường là do mức quyền hoặc sandbox chặn), nên lượt vừa rồi trả lời mà chưa có system prompt và bộ nhớ của Javis. Nâng cấp `agy` ",
+      "block_kind": "",
+      "block_reason": "",
       "created_by": "chat",
       "chat_id": "web:4bf6a2a0014c4e19a6e4100903b51876",
       "idempotency_key": "",
@@ -177,7 +177,7 @@
       "current_run_id": "",
       "result": "[[NEEDS_INPUT]]\nKíp thi P3-39917 trên cổng taxedu (`api-e3.khaothi.online`) chỉ có quy mô cố định tối đa đúng **40 mẫu đề thi** (toàn bộ 40 đề này đã được thu thập, thẩm định đủ 90 câu/đề và lưu trữ tại `D:\\HOC TAP\\ON THI 2026.09\\40 DE THI\\`). Qua đối soát thực nghiệm liên tục trên 340+ phiên thi mới phát sinh từ máy chủ, 100% các phiên thi đều quay vòng trùng khớp với 40 mẫu đề đã có, không tồn tại đề mới thứ 41 đến 50 thuộc kíp P3-39917 để bóc tách. Cần quyết định của anh về việc chuyển sang kíp thi/mã nhóm thi khác hoặc điều chỉnh mục tiêu nghiệp vụ.\n\n_(Lưu ý của Javis: `agy` có thử mở file ngữ cảnh nhưng KHÔNG đọc được (thường là do mức quyền hoặc sandbox chặn), nên lượt vừa rồi trả lời mà chưa có system prompt và bộ nhớ của Javis. Nâng cấp `agy` lên bản nhận prompt qua stdin là hết hẳn đường vòng này.)_",
       "created_at": 1790404237.4289548,
-      "updated_at": 1790404519.8589401,
+      "updated_at": 1793018776.9212155,
       "not_before": 0.0,
       "metadata": {
         "acceptance": [
@@ -210,9 +210,17 @@
         {
           "ts": "2026-09-26 13:35",
           "msg": "_(Lưu ý của Javis: `agy` có thử mở file ngữ cảnh nhưng KHÔNG đọc được (thường là do mức quyền hoặc sandbox chặn), nên lượt vừa rồi trả lời mà chưa có system prompt và bộ nhớ của Javis. Nâng cấp `agy` "
+        },
+        {
+          "ts": "2026-10-23 02:06",
+          "msg": "blocked -> cancelled: operator cancel"
+        },
+        {
+          "ts": "2026-10-26 19:46",
+          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
         }
       ]
     }
   ],
-  "updated": 1790694653.8777776
+  "updated": 1793018776.9237275
 }

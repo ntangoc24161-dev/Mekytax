@@ -1,15 +1,16 @@
 ## Bài học (tự học)
-- Khi nhận công văn mới (qua Zalo hoặc thư mục CV MOI), tự động trích xuất nội dung lưu file .md tại D:\HSO CONG AN FILE MD, tra cứu CSDL NNT để phân Tổ KT và cập nhật sheet Phan cong trong file Excel theo dõi.
-- Thư mục lưu trữ công văn tại 1. CUNG CAP CONG AN NAM 2026 phải đặt tên theo chuẩn 'STT. CV SO CV-CQBAN HANH-TO KT XU LY' với STT nối tiếp liên tục từ thư mục gần nhất trước khi chuyển file PDF vào.
-- Thư mục mới tạo tại 1. CUNG CAP CONG AN NAM 2026 chỉ lưu file PDF gốc, toàn bộ file .md trích xuất lưu trực tiếp tập trung tại D:\HSO CONG AN FILE MD.
-- Nếu công văn không có địa chỉ NNT và không có dữ liệu lịch sử, tra cứu MST trên masothue.com để lấy phường phân Tổ KT, tuyệt đối không bịa đặt và để trống nếu không có.
-- Khi một file PDF chứa nhiều công văn đính kèm, bóc tách và theo dõi riêng từng công văn độc lập từ khâu trích xuất file .md, cấp thư mục STT đến ghi nhận trên sheet Phan cong.
-- Khi phân công cho Tổ KT1, tra cứu cán bộ quản lý từ sheet KTR1 của file DB NNT và điền ngày giao là ngày thực hiện lệnh.
-- File Bao_cao_cong_van.xlsx dùng công thức tính STT dựa trên cột MST (cột I), khi nhập trước thông tin công văn thì STT sẽ tự động kích hoạt ngay sau khi điền MST ở bước cập nhật công ty.
-- File sao lưu Bao_cao_cong_van_backup.xlsx phải được lưu trữ tập trung tại D:\HSO CONG AN FILE MD cùng các file .md, không lưu trong thư mục công văn.
-- Đối chiếu địa bàn phân Tổ KT: KT1 (Hố Nai, Long Bình, Tân Biên/Hòa, Phước Tân, Tam Phước, Hố Nai 3, Long Hưng), KT2 (Trảng Dài, Tam/Tân Hiệp, Tân Mai, Tân Phong, Tân Tiến, Bình Đa, các xã Vĩnh Cửu), KT3 (An Bình, Bửu Hòa/Long, Hóa An, Tân Hạnh/Vạn, Hiệp Hòa, Hòa Bình, Quyết Thắng, Thống Nhất).
 - Khi cập nhật công văn công an có doanh nghiệp phân công cho Tổ KT1, tự động tạo đủ bộ hồ sơ dự thảo gồm công văn trả lời ('TRA LOI CV..._du thao.docx') và tờ trình lãnh đạo ('to trinh...docx') lưu vào thư mục công văn trên Drive.
 - Khi tra cứu DB NNT.xls cho hồ sơ doanh nghiệp ngừng hoạt động, bắt buộc lấy chính xác số và ngày Thông báo không hoạt động tại địa chỉ đã đăng ký từ cột Lý do đóng MST tổ chức.
 - Tờ trình lãnh đạo phải đặt các dòng ý kiến là đoạn văn bản độc lập toàn dòng thụt lề 1.25 cm trước từng khối ký, tuyệt đối không đưa vào cột để đảm bảo trọn vẹn trong 01 trang A4.
 - Bảng header công văn trả lời cần mở rộng ngoài lề trang in (cột 1 rộng 9.1 cm, cột 2 rộng 10.2 cm, tblInd -1.5 cm) để tên đơn vị và Quốc hiệu nằm trọn 1 dòng không rớt chữ, kẻ ngang đơn vị bằng đúng 1/3 dòng tên và gạch dưới tiêu ngữ vừa hết chữ.
 - Header công văn mở rộng ngoài lề (cột 9.1 và 10.2 cm, tblInd -1.5 cm) giữ trọn tên đơn vị và Quốc hiệu trên 1 dòng; trích yếu đặt chữ đứng, thân bài đồng bộ cỡ 14, giãn dòng 1.15, before 3pt và thụt đầu dòng 1.25 cm.
+- PDF scan trong CV MOI OCR ra lỗi dấu nặng, nên phải đối chiếu lại bằng đọc ảnh trang hoặc OCR lại trước khi ghi sổ; không ghi MST từ OCR chưa kiểm.
+- masothue.com chặn tra tự động (403), nên MST ngoài DB NNT phải tra bằng công cụ tìm kiếm web và ghi chú "cần xác minh" vào sổ.
+- Bao_cao_cong_van.xlsx có biểu đồ DASHBOARD, nên ghi bằng Excel COM (win32com) và bỏ qua openpyxl để khỏi mất chart; STT cột A tự nhảy sau khi điền MST.
+- Công văn kiến nghị xử lý hành chính hàng trăm DN (kèm phụ lục dài) khác loại với công văn yêu cầu cung cấp hồ sơ, nên hỏi chủ trước khi nhập sổ.
+- Công văn kiến nghị xử lý hành chính hàng trăm DN thì ghi sổ một dòng, cột MST và tên công ty ghi chung "N cty đính kèm", không bóc từng MST, không phân Tổ KT.
+- CV kiến nghị XLHC ghi sổ 1 dòng "N cty đính kèm"; khi chủ yêu cầu danh sách thì OCR phụ lục xuất Excel riêng, không ghi từng MST vào NHAP_HO_SO.
+- Khi ghi ngày dạng 08/10 hoặc 09/10 vào Excel COM, Excel hiểu kiểu Mỹ; phải gán datetime Python (năm, tháng, ngày) rồi NumberFormat dd/mm/yyyy.
+- CV đề nghị hủy ngăn chặn kê khai bổ sung cho hàng trăm DN ghi sổ 1 dòng "N DN/HKD đính kèm", không bóc từng MST, không phân Tổ KT.
+- Khi đóng hồ sơ TRA LOI từ CV MOI, chuyển PDF vào thư mục STT khớp số CV rồi mới gắn -R; cập nhật cột tình trạng Đã hoàn thành cho mọi dòng phụ cùng STT.
+- Dòng sổ không có MST (HKD một dòng) phải ghi placeholder cột J (ví dụ "HKD đính kèm"), nếu không công thức COUNTIFS STT sẽ trùng số với công văn kế tiếp.

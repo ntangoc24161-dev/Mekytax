@@ -1,7 +1,7 @@
 ---
 type: wiki
 title: Playbook tất cả skill phân tích hồ sơ thuế
-updated: 2026-10-15
+updated: 2026-11-05
 ---
 
 # Playbook tất cả skill phân tích hồ sơ thuế
@@ -58,6 +58,10 @@ Chi tiết lệnh 3 giai đoạn: `skills/phan-tich-ho-so-thue/playbook-3-giai-d
 | `quan-ly-rui-ro-tuan-thu-thue` | Khung chọn đối tượng / bộ chỉ số TCT, không mổ 1 bộ sổ |
 | `xem-ho-so-thue` | Mở XML, dựng tờ khai iTax Viewer (shared-skills) |
 | `thue-tncn` | Chính sách TNCN (shared-skills); số liệu DN dùng `tong-hop-tncn-da-nguon` |
+| `doi-chieu-mat-hang-mua-ban` | HĐĐT mua vs bán theo mặt hàng, SL, đơn giá; bắt chuỗi trung gian. Khác `doi-chieu-ncc-mua-vao-rui-ro` / `doi-chieu-511-632` / `phan-tich-xnt-kho`. Playbook: `skills/doi-chieu-mat-hang-mua-ban/playbook-lenh.md` |
+| `tao-bang-tinh-tu-ptdn` | Tạo phôi `0. BIEN BAN\Bang tinh.xlsx` từ mẫu, đổi F5/F6/F7, xóa số mẫu |
+| `nhap-bang-tinh-tu-bao-cao-hdkd` | Nhập KQKDSXKD từ PTDN02 (+ BCTC NamNay); GTGT/EBITDA từ KQ2.1 `*_FINAL` |
+| `boc-tach-bang-tinh-phan-tich` | Tỷ lệ chi phí/doanh thu, phân tích Mục III DI-01 từ Bang tinh |
 
 Không dùng cho phân tích số liệu 1 DN: `xu-phat-vphc-thue-hoa-don`, `tra-loi-cong-van`, `soan-thao-van-ban`.
 

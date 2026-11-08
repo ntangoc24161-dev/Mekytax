@@ -3,7 +3,7 @@
 
 Nguồn dữ liệu:
 - Phôi: templates/MAUTONG HOP.docx
-- Sổ: Danh sach kiem tra quyet toan - JAVIS PRO.xlsm (sheet 01_DA_BAN_HANH)
+- Sổ: Danh sach kiem tra quyet toan pro.xlsm (sheet 01_DA_BAN_HANH)
 - Bảng tính phân tích (DI-01): Bang tinh.xlsx trong thư mục vụ
 
 Quy cách xuất: TONG HOP.docx + 02 Quyết định độc lập + hoso.zip.
@@ -39,7 +39,7 @@ BANG_TINH_PATH = TARGET_DIR / "Bang tinh.xlsx"
 EXCEL_SO = Path(
     r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA"
     r"\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung"
-    r"\Danh sach kiem tra quyet toan - JAVIS PRO.xlsm"
+    r"\Danh sach kiem tra quyet toan pro.xlsm"
 )
 
 MST = "3603721832"
@@ -117,9 +117,9 @@ def load_company_from_so() -> dict:
         "tv": str(v(24) or "").strip(),
         "cv_tv": str(v(25) or "").strip(),
         "noi_dung": str(v(26) or "").strip(),
-        "so_qdkt": str(v(27) or "").strip() if v(27) else "",
-        "so_qdgs": str(v(28) or "").strip() if v(28) else "",
-        "ngay_ban_hanh": v(29),
+        "so_qdkt": str(v(29) or "").strip() if v(29) else "",
+        "so_qdgs": str(v(30) or "").strip() if v(30) else "",
+        "ngay_ban_hanh": v(31),
     }
 
 
@@ -162,6 +162,8 @@ def build_reps(info: dict) -> dict:
     ngay_qd = "..../..../2026"
     if info["ngay_ban_hanh"] and hasattr(info["ngay_ban_hanh"], "strftime"):
         ngay_qd = info["ngay_ban_hanh"].strftime("%d/%m/%Y")
+    elif isinstance(info["ngay_ban_hanh"], str) and info["ngay_ban_hanh"].strip():
+        ngay_qd = info["ngay_ban_hanh"].strip()
 
     ngay_cap = "..../..../...."
     if info["ngay_cap_cccd"] and hasattr(info["ngay_cap_cccd"], "strftime"):

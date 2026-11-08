@@ -1,10 +1,12 @@
 ---
 type: wiki
 title: Playbook lệnh theo bước - Phân tích hồ sơ thuế
-updated: 2026-10-05
+updated: 2026-10-15
 ---
 
 # Playbook lệnh theo bước (công ty mới)
+
+Catalog mọi skill (kèm skill cạnh QLRR / mở hồ sơ / bên mua CVCBRR): `playbook-tat-ca-skill.md`.
 
 Mục tiêu: làm **từng module riêng** khi chưa đủ hồ sơ, không chờ đủ 100% dữ liệu rồi mới chạy. Mỗi bước có đầu vào tối thiểu, câu lệnh copy-paste, file ra, và điều kiện bỏ qua.
 
@@ -13,13 +15,21 @@ Thay placeholder:
 - `<MST>`, `<TEN>`, `<KY>` = mã số thuế, tên ngắn, niên độ (vd `2022-2025`)
 
 Chuẩn Master cuối: **8 sheet**, 28 tiêu chí đủ 7 cột, font Times New Roman. Không dùng bản rút gọn.
+Kỹ thuật Excel CD1 (MST, HĐ trùng, cụm cùng ngày, BKMV-NKC 133): skill `lam-sach-cd1-mst-hoa-don` và `skills/phan-tich-ho-so-thue/references/excel-cd1-hv-bt5-bt9.md`.
 
-## Thứ tự tối ưu (đường nhanh)
+## Thứ tự tối ưu (đường nhanh) và Ánh xạ 3 giai đoạn
+
+Quy trình module hóa được ánh xạ vào **3 giai đoạn** (chi tiết xem `playbook-3-giai-doan.md`):
+
+- **Giai đoạn 1 (Kiểm kê & Đánh giá mức A–E):** Bước 0. Skill chủ: `giai-doan-1-kiem-ke-danh-gia`. Xuất `KQ1_<MST>_<KY>_v1.xlsx`.
+- **Giai đoạn 2 (Dữ liệu CQT, 57 quy tắc khi chưa có sổ DN):** Bước 0b, 1, 1b, 2, 3, 4. Skill chủ: `giai-doan-2-phan-tich-du-lieu-co-quan-thue`. Xuất `KQ2_<MST>_<KY>_v1.xlsx`.
+- **Giai đoạn 3 (Hoàn chỉnh hồ sơ & Sổ sách DN, 23 quy tắc):** Bước 5, 6, 7, 8, 9, 10. Skill chủ: `giai-doan-3-hoan-chinh-ho-so`. Xuất `KQ3_<MST>_<KY>_v1.xlsx`.
 
 ```
-0 Kiểm kê → 1 Bảng kê → 2 GTGT/TNDN/HĐĐT → 3 NCC rủi ro
-→ 4 TNCN → 5 511-632 → 6 XNT → 7 Giá vốn/Giá thành
-→ 8 Công nợ/Tiền mặt → 9 Master 28 TC → 10 Đề cương
+0 Kiểm kê (GĐ1) → 0b Tổng hợp đầu vào (HĐĐT + Bảng kê + NLĐ)
+→ 1 Bảng kê (nếu chưa gộp) → 1b Làm sạch MST/HĐ trùng → 2 GTGT/TNDN/HĐĐT → 3 NCC rủi ro
+→ 4 TNCN (Hết GĐ2) → 5 511-632 → 6 XNT → 7 Giá vốn/Giá thành
+→ 8 Công nợ/Tiền mặt (cụm cùng ngày) → 9 Master 28 TC → 10 Đề cương (Hết GĐ3)
 ```
 
 Làm song song được khi đã có dữ liệu: **(2)+(3)+(4)**; **(5)+(6)+(8)**.
@@ -28,23 +38,50 @@ Làm song song được khi đã có dữ liệu: **(2)+(3)+(4)**; **(5)+(6)+(8)
 
 ## Bước 0 - Kiểm kê & checklist (luôn làm trước)
 
-**Cần:** `<FOLDER>` đã theo cấu trúc 4 bước.
+**Skill:** `to-chuc-ho-so-kiem-tra-thue` (dựng folder 4 bước, phân loại file, 1 checklist A4, xóa nguồn cũ). Playbook này không lặp lại cây thư mục.
+
+**Cần:** đường dẫn tuyệt đối; nếu folder chưa chuẩn thì skill kia tạo `<TEN>_<MST>` trước.
 
 **Lệnh:**
 ```
-Kiểm kê hồ sơ tại <FOLDER>
-MST <MST>, kỳ <KY>.
-Liệt kê đủ/thiếu theo checklist 4 bước.
-Xuất/cập nhật CHECKLIST_TONG_HOP_HO_SO.xlsx tại 4. KET QUA PHAN TICH.
-Nêu rõ module nào chạy được ngay, module nào đang thiếu đầu vào.
+Tổ chức / kiểm kê hồ sơ tại <FOLDER>
+MST <MST>, kỳ <KY> theo skill to-chuc-ho-so-kiem-tra-thue.
+Xuất 1 checklist A4 tại 4. KET QUA PHAN TICH/CHECKLIST_TONG_HOP_HO_SO.xlsx.
+Nêu module phân tích nào chạy được ngay.
 ```
 
-**Ra:** checklist + danh sách module sẵn sàng.
+**Ra:** folder chuẩn + checklist + danh sách module sẵn sàng.
 **Thiếu gì thì dừng:** chưa có folder tuyệt đối / chưa biết MST-kỳ.
 
 ---
 
+## Bước 0b - Tổng hợp dữ liệu đầu vào (HĐĐT + Bảng kê + NLĐ)
+
+**Skill:** `tong-hop-dau-vao-hddt-bang-ke-nld` (gộp 3 nguồn độc lập, mẫu 02; không trộn HĐĐT với bảng kê trên 1 sheet chi tiết).
+
+**Cần tối thiểu:** folder `1.2` (HĐĐT) và/hoặc `2.5` (bảng kê); XML/phụ lục TNCN nếu có NLĐ.
+
+**Lệnh:**
+```
+Tổng hợp dữ liệu đầu vào trước phân tích cho <FOLDER>
+MST <MST> kỳ <KY> theo mẫu 02_Tong_hop_dau_vao_HDDT_BangKe_NLD_MAU.xlsx:
+1) HĐĐT CQ thuế → 2 sheet HDDT_Mua_vao, HDDT_Ban_ra (lọc HĐ hủy/thay thế).
+2) Bảng kê công ty → 2 sheet Bang_ke_Mua_vao, Bang_ke_Ban_ra (bỏ dòng Tổng cộng).
+3) NLĐ qua các năm → 1 sheet Tong_hop_NLD; ghi nguồn 05-1 hoặc 05-2.
+   Nếu nguồn 05-2 mà công ty không trích 10% → Đề xuất kiểm tra cam kết = Có.
+4) Điền Tom_tat_kiem_tra (Đủ/Thiếu/Mỏng).
+Lưu Tong_hop_dau_vao_HDDT_BangKe_NLD_<MST>_<KY>.xlsx vào cau-thanh.
+Không trộn HĐĐT với Bảng kê chung một sheet chi tiết.
+```
+
+**Ra:** 1 file 7 sheet (Huong_dan, Tom_tat, 4 sheet HĐ/BK, Tong_hop_NLD).
+**Thiếu một nguồn:** vẫn xuất các sheet có dữ liệu; đánh Thiếu/Mỏng trên Tom_tat, không để số 0 giả.
+
+---
+
 ## Bước 1 - Gộp bảng kê mua vào / bán ra
+
+**Skill:** `tong-hop-dau-vao-hddt-bang-ke-nld` (phần bảng kê 2 sheet; lọc Tổng cộng).
 
 **Cần tối thiểu:** file bảng kê quý/tháng trong `1.2` hoặc `2.5`.
 
@@ -64,7 +101,37 @@ Sao lưu thêm vào 4. KET QUA PHAN TICH\cau-thanh\
 
 ---
 
+## Bước 1b - Làm sạch MST & đối chiếu HĐ (CD1 BT5-BT9, không tách mẫu 03)
+
+**Skill:** `lam-sach-cd1-mst-hoa-don`. Công thức đầy đủ: `skills/lam-sach-cd1-mst-hoa-don/references/excel-cd1-hv-bt5-bt9.md`.
+
+**Cần:** bảng kê hoặc HĐĐT đã gộp; tốt hơn có NKC/sổ cái để BT8/BT9.
+
+**Chốt 2026-10-11:** không xuất riêng file `03_Lam_sach_CD1_BT5_BT9` làm kết quả DN. Gắn kỹ thuật vào bảng biểu nghiệp vụ:
+- **BT6** → cột `MST_chuan` trên bảng kê mua vào/bán ra (và mọi hồ sơ có MST công ty gửi).
+- **BT5** → đối chiếu HĐĐT CQ thuế ↔ bảng kê NNT: cột `KHOP` / `CHI_CO_BANG_KE` / `CHI_CO_HDDT` + thống kê không khớp.
+- **BT7** → cụm cùng ngày cùng MST vượt ngưỡng, gắn sheet `Cong_no_va_Ngan_hang` (sao kê NH nếu có).
+- **BT8/BT9** → thuế GTGT mua vào theo tháng/năm: bảng kê ↔ HĐĐT (loại HĐ hủy/thay thế) ↔ PS Nợ TK `133*`; gắn `Tong_hop_GTGT_TNDN` Phần III.
+
+**Lệnh:**
+```
+Chạy CD1 BT5-BT9 tại <FOLDER> kỳ <KY> và gắn vào bảng biểu (không tạo mẫu 03 tách):
+1) BT6 chuẩn hóa MST trên bảng kê + HĐĐT.
+2) BT5 đối chiếu HĐĐT ↔ bảng kê: cột trùng khớp / không khớp + thống kê.
+3) BT7 cụm cùng ngày cùng NCC (ngưỡng 20tr đến 06/2025; 5tr từ 07/2025).
+4) BT8/BT9 thuế theo tháng BKMV vs HĐĐT vs Nợ 133 NKC; khóa SoHD|MST / SoHD.
+Lưu Doi_chieu_BT5_BT9_<MST>_<KY>.xlsx vào cau-thanh; nhúng tóm tắt vào Master.
+Tham chiếu references/excel-cd1-hv-bt5-bt9.md.
+```
+
+**Ra:** file chuyên đề trong `cau-thanh/` + cột/phụ lục trên Master; không cần file 03 riêng.
+**Bỏ qua khi:** đã chuẩn hóa/đối chiếu trong pipeline trước đó và ghi rõ trong báo cáo.
+
+---
+
 ## Bước 2 - Đối chiếu GTGT / TNDN / HĐĐT (CBRR)
+
+**Skill:** `doi-chieu-gtgt-tndn-cbrr` (2 sheet chuẩn CBRR). CD1 BT8/BT9 mua vào vs 133: `lam-sach-cd1-mst-hoa-don`.
 
 **Cần:** XML GTGT + TNDN (+ Bảng kê hoặc HĐĐT).
 
@@ -76,6 +143,7 @@ kỳ <KY>.
 Xuất Tong_hop_doi_chieu_GTGT_TNDN_<MST>.xlsx
 (2 sheet chuẩn CBRR nếu đủ dữ liệu).
 Bóc tách kỳ BS, HĐ hủy/thay thế, nguyên nhân lệch.
+Nếu có HĐĐT mua + BKMV + NKC: đối chiếu thêm khóa SoHD|MST và thuế BKMV vs PS Nợ 133* theo tháng (CD1 BT8/BT9).
 ```
 
 **Ra:** bảng đối chiếu theo quý/năm + chênh lệch.
@@ -84,6 +152,8 @@ Bóc tách kỳ BS, HĐ hủy/thay thế, nguyên nhân lệch.
 ---
 
 ## Bước 3 - Đối chiếu NCC rủi ro (F0/F1/Công an/Danh bạ)
+
+**Skill:** `doi-chieu-ncc-mua-vao-rui-ro`.
 
 **Cần:** bảng kê mua vào (hoặc HĐĐT mua) + sổ CVCBRR + (tuỳ chọn) Công an + danh bạ.
 
@@ -105,6 +175,8 @@ Không rút gọn chỉ lấy NCC bất thường.
 
 ## Bước 4 - TNCN & (nếu có) đa nguồn
 
+**Skill:** `tong-hop-tncn-da-nguon`. Chính sách TNCN: skill chung `thue-tncn`.
+
 **Cần:** XML QTT TNCN; tốt hơn có tờ khai quý + bảng lương + file tra cứu đa nguồn.
 
 **Lệnh:**
@@ -121,6 +193,8 @@ Nếu có file tra cứu đa nguồn ở 3.3 thì đối chiếu TC22/TC23.
 ---
 
 ## Bước 5 - Đối chiếu 511-632 (DN thương mại / có sổ)
+
+**Skill:** `doi-chieu-511-632`.
 
 **Cần:** sổ chi tiết 511 (PS Có), 632 (PS Nợ); tốt hơn có bảng kê bán ra để chuẩn tên hàng.
 
@@ -140,6 +214,8 @@ Báo lãi gộp theo năm, dòng P<=0, dòng không khớp 632.
 
 ## Bước 6 - XNT & Kho (TC3)
 
+**Skill:** `phan-tich-xnt-kho`.
+
 **Cần:** sổ XNT 152/155 (SX) hoặc 156 (thương mại) + BCTC.
 
 **Lệnh:**
@@ -157,6 +233,8 @@ Xuất/cập nhật sheet Tong_hop_XNT_va_Kho, không để giá trị 0 nếu �
 ---
 
 ## Bước 7 - Giá thành / cơ cấu chi phí (TC28)
+
+**Skill:** `phan-tich-gia-thanh-dinh-muc`.
 
 **Cần (SX):** sổ 154/621/622/627 + bảng giá thành + định mức.
 **Cần (thương mại):** GV 632 + chi phí BH/QL từ TNDN/BCTC (+ kết quả 511-632).
@@ -179,12 +257,15 @@ không bắt buộc 621/622/627.
 
 ## Bước 8 - Công nợ & tiền mặt / ngân hàng
 
+**Skill:** `phan-tich-cong-no-tien-mat`. Cụm cùng ngày CD1 BT7: `lam-sach-cd1-mst-hoa-don`.
+
 **Cần:** sổ 131/331/111/112; sao kê NH (Excel tốt hơn PDF).
 
 **Lệnh:**
 ```
 Phân tích công nợ 131/331 và quét chi tiền mặt TK 111 tại <FOLDER> kỳ <KY>.
-Ngưỡng: >20 triệu đến 06/2025; >=5 triệu từ 07/2025.
+Ngưỡng: >= 20 triệu đến 06/2025; >= 5 triệu từ 07/2025 (K5 đã chốt >=).
+Quét cụm HĐ mua cùng ngày cùng NCC bằng SUMIFS (CD1 BT7A/BT7B); flag nhóm vượt ngưỡng.
 Phân loại mục đích chi; nêu rõ sao kê đang PDF thì chưa kết luận thiếu UNC.
 Cập nhật sheet Cong_no_va_Ngan_hang bằng số liệu thật.
 ```
@@ -192,6 +273,8 @@ Cập nhật sheet Cong_no_va_Ngan_hang bằng số liệu thật.
 ---
 
 ## Bước 9 - Tái lập Master 8 sheet + đủ 28 tiêu chí
+
+**Quyết định K3:** Nếu không tìm thấy mẫu thì bỏ qua, chỉ dựng sheet 28 tiêu chí (`08_Master_28TC`), không tự dựng 7 sheet còn lại và không báo như lỗi.
 
 **Cần:** tối thiểu đã có Bước 2 (và càng nhiều bước trước càng tốt). Có thể lập khung 28 TC sớm rồi cập nhật dần.
 
@@ -210,6 +293,8 @@ Map năm BCTC theo doanh thu nếu kyKKhai lệch.
 
 **Ra:** `Phan_tich_ho_so_cong_ty_<TEN>_<MST>.xlsx`
 
+**Bắt buộc trên Master (chuẩn Vạn Phát Thành):** mỗi sheet chuyên đề phải có khối **đánh giá / nhận xét / kết luận / trọng tâm kiểm tra / hồ sơ cần giải trình** - không chỉ bảng số. Thiếu dữ liệu thì viết hiện trạng `thiếu/chưa đủ đầu vào`, không bỏ trống cả khối kết luận. Mẫu `06_*_MAU.xlsx` đã có sẵn các khung này.
+
 ---
 
 ## Bước 10 - Đề cương / trọng tâm kiểm tra thực địa
@@ -227,19 +312,22 @@ NCC/HĐ trọng điểm, nội dung đã giải tỏa.
 
 ## Gói lệnh siêu ngắn (khi đã quen)
 
-| Module | Câu siêu ngắn |
-|---|---|
-| Kiểm kê | `Kiểm kê checklist <FOLDER>` |
-| Bảng kê | `Gộp bảng kê <FOLDER> vào 2.5` |
-| GTGT-TNDN | `Đối chiếu CBRR GTGT-TNDN-HĐĐT <FOLDER>` |
-| NCC | `Đối chiếu NCC F0/F1/CA chuẩn VPT <FOLDER>` |
-| TNCN | `Tổng hợp TNCN <MST> <FOLDER>` |
-| 511-632 | `Đối chiếu 511-632 skill mới <FOLDER>` |
-| XNT | `Phân tích XNT kho <FOLDER>` |
-| Giá thành | `Phân tích giá thành/định mức <FOLDER>` hoặc `Cơ cấu GV thương mại <FOLDER>` |
-| Công nợ/TM | `Quét 111 và công nợ 131/331 <FOLDER>` |
-| Master 28 | `Tái lập Master 8 sheet đủ 28 TC chuẩn VPT <FOLDER>` |
-| Đề cương | `Lập đề cương từ Master <FOLDER>` |
+| Module | Skill | Câu siêu ngắn |
+|---|---|---|
+| Kiểm kê | `to-chuc-ho-so-kiem-tra-thue` | `Tổ chức / kiểm kê checklist <FOLDER>` |
+| Đầu vào HĐĐT+BK+NLĐ | `tong-hop-dau-vao-hddt-bang-ke-nld` | `Tổng hợp đầu vào HĐĐT-Bảng kê-NLĐ <FOLDER>` |
+| Bảng kê | `tong-hop-dau-vao-hddt-bang-ke-nld` | `Gộp bảng kê <FOLDER> vào 2.5` |
+| Làm sạch khóa | `lam-sach-cd1-mst-hoa-don` | `Chuẩn hóa MST + quét HĐ trùng <FOLDER>` |
+| GTGT-TNDN | `doi-chieu-gtgt-tndn-cbrr` | `Đối chiếu CBRR GTGT-TNDN-HĐĐT <FOLDER>` |
+| BKMV-NKC 133 | `lam-sach-cd1-mst-hoa-don` | `Đối chiếu BKMV vs HĐĐT vs Nợ 133 <FOLDER>` |
+| NCC | `doi-chieu-ncc-mua-vao-rui-ro` | `Đối chiếu NCC F0/F1/CA chuẩn VPT <FOLDER>` |
+| TNCN | `tong-hop-tncn-da-nguon` | `Tổng hợp TNCN <MST> <FOLDER>` |
+| 511-632 | `doi-chieu-511-632` | `Đối chiếu 511-632 skill mới <FOLDER>` |
+| XNT | `phan-tich-xnt-kho` | `Phân tích XNT kho <FOLDER>` |
+| Giá thành | `phan-tich-gia-thanh-dinh-muc` | `Phân tích giá thành/định mức <FOLDER>` hoặc `Cơ cấu GV thương mại <FOLDER>` |
+| Công nợ/TM | `phan-tich-cong-no-tien-mat` | `Quét 111, cụm cùng ngày NCC và công nợ 131/331 <FOLDER>` |
+| Master 28 | `phan-tich-ho-so-thue` | `Tái lập Master 8 sheet đủ 28 TC chuẩn VPT <FOLDER>` |
+| Đề cương | `phan-tich-ho-so-thue` | `Lập đề cương từ Master <FOLDER>` |
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+superseded_by: quy-cach-xuat-ho-so-di-chi-giu-tong-hop-docx
 type: preference
 provenance: user
 origin: javis-learned
@@ -9,3 +10,7 @@ Người dùng yêu cầu đối với hồ sơ kiểm tra thuế theo kế ho�
 - File tổng hợp toàn bộ (`TONG HOP.docx`): chứa đầy đủ tất cả các phần/biểu mẫu của quy trình kiểm tra (Bản phân tích, Tờ trình, Giấy xác nhận, Kế hoạch giám sát, Thư trao đổi, Biên bản, Nhật ký, Báo cáo, Quyết định xử phạt...).
 - Chỉ xuất riêng các file Quyết định độc lập để phục vụ in ấn, trình ký (`QD Kiem tra tai cty...docx`, `QDgiam sat tai cty...docx`).
 - Không xuất các file hồ sơ đơn lẻ khác (DI-01, DI-02, DI-04, DI-06, DI-07) và không cần file `TONG HOP HO SO DI.docx` riêng lẻ nếu người dùng yêu cầu giữ gọn thư mục.
+
+
+## Lịch sử
+- [2026-10-23] Bị thay thế bởi [[quy-cach-xuat-ho-so-di-chi-giu-tong-hop-docx]] (user đổi thông tin).

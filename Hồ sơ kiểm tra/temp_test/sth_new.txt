@@ -1,0 +1,1769 @@
+    1|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+    2|123761521463000TỔ KIỂM TRA 1
+    3|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+    4|70675523304500Độc lập - Tự do - Hạnh phúc
+    5||
+    6|TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ
+    7|V/v: Ban hành quyết định kiểm tra quyết toán giải thể;
+    8|Quyết định giám sát hoạt động của Đoàn kiểm tra
+    9|23380703048000
+   10|- Nội dung công việc:
+   11|Kiểm tra việc chấp hành pháp luật về thuế và giám sát hoạt động của Đoàn kiểm tra tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải– MST: 3603859012; thời kỳ kiểm tra Từ năm 2022 đến tháng 10/2026.
+   12|- Căn cứ pháp lý để giải quyết:
+   13|Căn cứ điểm c, khoản 3, Điều 22 Luật Quản lý thuế số 108/2025-QH15 ngày 10/12/2025;
+   14|Căn cứ Quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám sát hoạt động của Đoàn thanh tra, kiểm tra thuế.
+   15|- Ý kiến tham gia của các đơn vị liên quan: Không.
+   16|- Đề xuất của cán bộ giải quyết:
+   17|Kiến nghị BLĐ Thuế Cơ sở 3 Thành phố Đồng Nai ký duyệt quyết định kiểm tra, quyết định giám sát hoạt động đoàn kiểm tra tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải– MST: 3603859012 (có dự thảo quyết định kèm theo).
+   18|Trấn Biên, ngày ….. tháng ….. năm 2026
+   19|CÁN BỘ ĐỀ XUẤT
+   20|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+   21|Ý kiến của lãnh đạo Đội thuế:
+   22|Kính đề nghị Lãnh đạo Tổ kiểm tra ký duyệt theo đề xuất.
+   23|Trấn Biên, ngày ….. tháng ….. năm 2026
+   24|TỔ TRƯỞNG
+   25|Nguyễn Trường Giang
+   26|Ý kiến phê duyệt của Lãnh đạo Thuế Cơ sở 3: ..……………………………………………………………………………………
+   27|Trấn Biên, ngày ….. tháng ….. năm 2026
+   28|KT. TRƯỞNG THUẾ CƠ SỞ
+   29|PHÓ TRƯỞNG THUẾ CƠ SỞ
+   30|Phạm Đồng Xuân
+   31|THUẾ THÀNH PHỐ ĐỒNG NAI
+   32|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+   33|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+   34|69596021399500Độc lập - Tự do - Hạnh phúc
+   35||
+   36|9721853556000
+   37||
+   38||
+   39|Số:                 /QĐ-TCS3
+   40|| Trấn Biên, ngày       tháng       năm
+   41||
+   42|QUYẾT ĐỊNH
+   43|Về việc kiểm tra thuế
+   44|tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+   45|19970754445000TRƯỞNG THUẾ CƠ SỞ  3 THÀNH PHỐ ĐỒNG NAI
+   46|Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025 và các văn bản hướng dẫn thi hành;
+   47|Căn cứ các Luật thuế và các văn bản hướng dẫn thi hành;
+   48|Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2025 của Cục trưởng Cục Thuế quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sở thuộc Thuế tỉnh, thành phố;
+   49|Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+   50|Căn cứ điểm c, khoản 3, Điều 22 Luật Quản lý thuế số 108/2025-QH15 ngày 10/12/2025;
+   51|Căn cứ Quyết định số 2618/QĐ-TCS3 ngày 20/05/2026 của Trưởng Thuế Cơ sở 3 Thành phố Đồng Nai về việc giao quyền ra Quyết định Kiểm tra thuế tại trụ sở của người nộp thuế;
+   52|QUYẾT ĐỊNH:
+   53|Điều 1. Kiểm tra chấp hành pháp luật thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải, mã số thuế: 3603859012, về các nội dung sau:
+   54|MERGEFIELD "Nội_dung_kiểm_tra" - Giá vốn hàng bán; - Chi phí quản lý kinh doanh; - Doanh thu bán hàng và cung cấp dịch vụ; - Thuế GTGT phải nộp.
+   55|Thời kỳ kiểm tra: Từ năm 2022 đến tháng 10/2026.
+   56|Thời hạn kiểm tra là  MERGEFIELD "Thời_hạn_kiểm_tra_" 20 ngày, kể từ ngày công bố Quyết định kiểm tra.
+   57|Điều 2. Thành lập Đoàn kiểm tra để thực hiện nhiệm vụ ghi tại Điều 1 gồm có:
+   58|- Ông (Bà)	:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc	- Chức vụ:  MERGEFIELD "CVTĐ" Chuyên viên	- Trưởng đoàn;
+   59|- Ông (Bà)	:  MERGEFIELD "TV" Nguyễn Thành Đồng	- Chức vụ:  MERGEFIELD "CVTV" Kiểm tra viên thuế	- Thành viên.
+   60|Đoàn kiểm tra có nhiệm vụ, quyền hạn quy định tại Điều 22 của Luật Quản lý thuế.
+   61|Điều 3. Quyết định này có hiệu lực kể từ ngày ký. Công ty được kiểm tra có tên tại Điều 1 và Đoàn kiểm tra chịu trách nhiệm thi hành Quyết định này./.
+   62|Nơi nhận:
+   63|- Như Điều 3;
+   64|- Lưu: VT; Tổ KTR1.
+   65|| KT. TRƯỞNG THUẾ CƠ SỞ
+   66|PHÓ TRƯỞNG THUẾ CƠ SỞ
+   67|Phạm Đồng Xuân
+   68||
+   69|THUẾ THÀNH PHỐ ĐỒNG NAI
+   70|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+   71|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+   72|Độc lập - Tự do - Hạnh phúc
+   73||
+   74|8470903556000
+   75|| 7486654508500
+   76||
+   77|Số:                /QĐ-TCS3
+   78|| Trấn Biên, ngày       tháng      năm
+   79||
+   80|QUYẾT ĐỊNH
+   81|Về việc giám sát hoạt động của Đoàn kiểm tra tại
+   82|Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+   83|17672056921500TRƯỞNG THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+   84|Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025 và các văn bản hướng dẫn thi hành;
+   85|Căn cứ Luật Thanh tra ngày 25 tháng 06 năm 2025 và các văn bản hướng dẫn thi hành;
+   86|Căn cứ điểm c, khoản 3, Điều 22 Luật Quản lý thuế số 108/2025-QH15 ngày 10/12/2025;
+   87|Căn cứ Quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám sát hoạt động của Đoàn thanh tra, kiểm tra thuế;
+   88|Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+   89|Căn cứ Quyết định kiểm tra số              /QĐ-TCS3 ngày ...../...../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải;
+   90|QUYẾT ĐỊNH:
+   91|Điều 1. Thực hiện giám sát đối với hoạt động kiểm tra của Đoàn kiểm tra được thành lập theo Quyết định số              /QĐ-TCS3 ngày ...../...../2026.
+   92|Thời hạn giám sát được tính kể từ ngày công bố quyết định kiểm tra đến thời điểm kết thúc việc kiểm tra tại trụ sở người nộp thuế.
+   93|Điều 2. Giao Ông Nguyễn Trường Giang – Chức vụ: Tổ trưởng Tổ Kiểm tra thuế 1 giám sát hoạt động của Đoàn kiểm tra để thực hiện nhiệm vụ tại Điều 1.
+   94|Điều 3. Ông Nguyễn Trường Giang có nhiệm vụ giám sát hoạt động của Đoàn kiểm tra theo quy định tại Quy chế giám sát hoạt động của Đoàn kiểm tra thuế.
+   95|Điều 4. Ông Nguyễn Trường Giang, Đoàn Kiểm tra, Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành quyết định này./.
+   96|Nơi nhận:
+   97|- Như Điều 4;
+   98|- Lưu: VT; Tổ KTR1.
+   99|| KT. TRƯỞNG THUẾ CƠ SỞ
+  100|PHÓ TRƯỞNG THUẾ CƠ SỞ
+  101|Phạm Đồng Xuân
+  102||
+  103|3672840-443865Mẫu số: 08/QTKT-TC
+  104|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  105|00Mẫu số: 08/QTKT-TC
+  106|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  107|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  108|ĐOÀN KIỂM TRA
+  109|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  110|65722522733000Độc lập - Tự do - Hạnh phúc
+  111||
+  112|11125203619500
+  113||
+  114||
+  115|PHÂN TÍCH THÔNG TIN, XÁC ĐỊNH NỘI DUNG CUỘC KIỂM TRA
+  116|I. THÔNG TIN CHUNG:
+  117|1. Đoàn kiểm tra (Nhóm phân tích):
+  118|a) Trưởng đoàn:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc. Chức vụ:  MERGEFIELD "CVTĐ" Chuyên viên. Bộ phận kiểm tra: Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai.
+  119|b) Thành viên:  MERGEFIELD "TV" Nguyễn Thành Đồng. Chức vụ:  MERGEFIELD "CVTV" Kiểm tra viên thuế. Bộ phận kiểm tra: Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai.
+  120|2. Đối tượng được kiểm tra:
+  121|a) Tên người nộp thuế: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải;
+  122|b) Mã số thuế: 3603859012.
+  123|c) Địa chỉ: Số 23, Tổ 1, KP 3A, phường Long Hưng, Thành phố Đồng Nai.
+  124|d) Số chi nhánh, cơ sở phụ thuộc: 01.
+  125|đ) Niên độ kế toán: Từ ngày 01 tháng 01 đến ngày 31 tháng 12.
+  126|e) Ngành nghề kinh doanh: Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng….
+  127|II. TÌNH HÌNH CHẤP HÀNH PHÁP LUẬT THUẾ:
+  128|1. Tình hình chấp hành và các vi phạm trong các năm gần nhất:
+  129|a) Tình hình nộp các tờ khai thuế: Tờ khai GTGT đủ; Báo cáo hóa đơn đủ;
+  130|b) Tình hình nộp báo cáo quyết toán thuế: Quyết toán thuế TNDN đủ; Quyết toán thuế TNCN đủ.
+  131|c) Quyết định xử lý vi phạm hành chính:
+  132|d) Vi phạm về chế độ hóa đơn:
+  133|e) Nộp thuế quá hạn:
+  134|f) Lỗ liên tục từ 2 năm trở lên: Không
+  135|g) Có hoàn thuế GTGT: Có
+  136|2. Tình hình kiểm tra, thanh tra của cơ quan thuế:
+  137|3. Thông tin thu thập được ngoài cơ quan thuế:
+  138|III. PHÂN TÍCH, ĐÁNH GIÁ THÔNG TIN:
+  139|1. Đối với các trường hợp theo kế hoạch, chuyên đề (trừ hoàn thuế):
+  140|a) Phân tích các chỉ tiêu rủi ro trên báo cáo tài chính.:
+  141|+/ Báo cáo kết quả hoạt động kinh doanh:
+  142|- Doanh nghiệp kê khai lỗ năm 2022, 2023, 2025; lãi năm 2024; doanh thu thuần năm 2022: 1.356.457.502 đ, năm 2023: 2.550.607.100 đ, năm 2024: 4.888.008.900 đ, năm 2025: 5.832.577.595 đ.
+  143|Tỷ lệ giá vốn hàng bán trên doanh thu năm 2022 là 88,50%, năm 2023 là 105,93%, năm 2024 là 88,69%, năm 2025 là 84,18%.
+  144|Tỷ lệ chi phí quản lý kinh doanh trên doanh thu năm 2022 là 6,01%, năm 2023 là 7,99%, năm 2024 là 4,12%, năm 2025 là 5,49%.
+  145|- Tỷ lệ giá vốn hàng bán, Chi phí quản lý kinh doanh trên doanh thu biến động không đều qua các năm, không tương ứng biến động doanh thu.
+  146|+/ Bảng cân đối kế toán:
+  147|b) Phân tích các chỉ tiêu rủi ro trên tờ khai thuế:
+  148|2. Đối với các trường hợp hoàn thuế: thực hiện phân tích thông tin theo nội dung đề nghị hoàn thuế (kiểm tra trước hoàn thuế) hoặc quyết định hoàn thuế (kiểm tra sau hoàn thuế).
+  149|3. Các trường hợp khác:
+  150|a) Phân tích mức độ tuân thủ nộp thuế (nếu có):
+  151|b) Phân tích các yếu tố về sự thay đổi chính sách thuế làm ảnh hưởng đến số thuế phải nộp (nếu có).
+  152|IV. ĐỀ XUẤT NỘI DUNG KIỂM TRA:
+  153|- Giá vốn hàng bán từ năm 2022 đến tháng 10/2026.
+  154|- Chi phí quản lý kinh doanh từ năm 2022 đến tháng 10/2026.
+  155|Trấn Biên, ngày ….. tháng …. năm 2026
+  156|NGƯỜI PHÂN TÍCH	TRƯỞNG ĐOÀN KIỂM TRA hoặc
+  157|TRƯỞNG NHÓM PHÂN TÍCH
+  158|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+  159|THUẾ THÀNH PHỐ ĐỒNG NAI
+  160|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  161|| 	CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  162|82931024193500Độc lập - Tự do - Hạnh phúc
+  163||
+  164|12115803556000
+  165||
+  166||
+  167|| Trấn Biên, ngày      tháng     năm 2026
+  168||
+  169|THƯ TRAO ĐỔI THÔNG TIN
+  170|Kính gửi: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+  171|Thuế Cơ sở 3 Thành phố Đồng Nai xin gửi lời chào trân trọng và cảm ơn sự hợp tác của Quý Doanh nghiệp, Người nộp thuế trong việc thực hiện chính sách pháp luật thuế.
+  172|Với mục tiêu xây dựng cơ quan thuế Văn hóa – Hiện đại, đội ngũ cán bộ công chức Thuế chuyên nghiệp – liêm chính, Thuế Cơ sở 3 Thành phố Đồng Nai đã, đang và sẽ tiếp tục phối hợp, hỗ trợ, tạo điều kiện tốt nhất để Người nộp thuế thực hiện tốt chính sách pháp luật thuế; Tiếp tục nâng cao chất lượng nguồn nhân lực và xây dựng đội ngũ có tính kỷ luật cao trong thực thi công vụ.
+  173|Thuế Cơ sở 3 Thành phố Đồng Nai cam kết luôn lắng nghe, nắm bắt các khó khăn, vướng mắc trong quá trình thực hiện chính sách pháp luật của người nộp thuế để hỗ trợ, hướng dẫn hoặc đề xuất, kiến nghị với cơ quan có thẩm quyền kịp thời tháo gỡ khó khăn vướng mắc trong việc thực hiện nghĩa vụ thuế của Người nộp thuế.
+  174|Chúng tôi mong muốn Người nộp thuế luôn thực hiện tốt chính sách pháp luật thuế, đặc biệt là phối hợp, trao đổi thường xuyên, kịp thời các thông tin có liên quan tới công tác quản lý thuế và ý thức, trách nhiệm của công chức thuế nhằm góp phần nâng cao hiệu lực, hiệu quả công tác quản lý thuế và chất lượng phục vụ Người nộp thuế của Cơ quan thuế.
+  175|Thuế Cơ sở 3 Thành phố Đồng Nai đề nghị Người nộp thuế: Trong quá trình thực hiện các thủ tục hành chính thuế, nếu có vướng mắc đề nghị liên hệ với Cơ quan thuế để được hỗ trợ, đồng thời phản ánh kịp thời về đạo đức, tác phong, thái độ ứng xử chưa văn hóa của cán bộ thuế; không tiếp tay cho các hành vi thông đồng sách nhiễu, tiêu cực của cán bộ thuế.
+  176|Mọi thông tin phản ánh của Người nộp thuế xin gửi về hòm thư điện tử và số điện thoại của Lãnh đạo bộ phận thanh tra, kiểm tra thuế; Lãnh đạo bộ phận kiểm tra nội bộ và Tổ trưởng tổ giám sát hoặc người giám sát là người được người ra quyết định thanh tra, kiểm tra thuế giao thực hiện nhiệm vụ giám sát, Cụ thể:
+  177|- Phó Trưởng Thuế cơ sở: Ông Phạm Đồng Xuân. Số điện thoại: 0913.327.749. Email: pdxuanbho.don@gdt.gov.vn;
+  178|- Tổ trưởng Tổ Kiểm tra thuế 1 (giám sát đoàn kiểm tra): Ông Nguyễn Trường Giang. Số điện thoại: 0916.369.389. Email: giangnt1802@gmail.com.
+  179|Thuế Cơ sở 3 Thành phố Đồng Nai trân trọng cảm ơn sự hợp tác của Quý Doanh nghiệp, Người nộp thuế!
+  180|Nơi nhận:
+  181|Như trên;
+  182|- Lưu: KTR1 (02b).
+  183|| KT. TRƯỞNG THUẾ CƠ SỞ
+  184|PHÓ TRƯỞNG THUẾ CƠ SỞ
+  185|Phạm Đồng Xuân
+  186||
+  187|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  188|ĐOÀN KIỂM TRA
+  189|12484105334000
+  190|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  191|Độc lập - Tự do - Hạnh phúc
+  192|7137403873500
+  193||
+  194|3755390-375920Mẫu số: 08/KTT
+  195|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+  196|00Mẫu số: 08/KTT
+  197|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+  198|BIÊN BẢN
+  199|Công bố quyết định kiểm tra
+  200|24485605461000
+  201|Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025 và các văn bản hướng dẫn thi hành;
+  202|Căn cứ Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải;
+  203|Hôm nay, hồi 8 giờ 00 ngày 30/10/2026;
+  204|Tại: văn phòng Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải;
+  205|Chúng tôi gồm:
+  206|I. Đoàn kiểm tra thuế:
+  207|- Ông/Bà:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc	- Chức vụ :  MERGEFIELD "CVTĐ" Chuyên viên	-  Trưởng đoàn;
+  208|- Ông/Bà:  MERGEFIELD "TV" Nguyễn Thành Đồng	- Chức vụ :  MERGEFIELD "CVTV" Kiểm tra viên thuế	-  Thành viên;
+  209|II. Người nộp thuế (hoặc đại diện hợp pháp của người nộp thuế):
+  210|Ông/Bà: Phan Thế Hanh
+  211|CMND/CCCD/hộ chiếu số:  MERGEFIELD "CCCD" 034083000616
+  212|Chức vụ: Giám đốc; đại diện cho Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+  213|Ông/Bà:  MERGEFIELD "KT"
+  214|CMND/CCCD/hộ chiếu số:  MERGEFIELD "CCCDKT"
+  215|Chức vụ: ...........
+  216|Người nộp thuế đã được nghe Đoàn kiểm tra công bố nội dung Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+  217|Biên bản này gồm có 01 trang, được lập thành 02 bản có nội dung và giá trị pháp lý như nhau. 01 (một) bản được giao người nộp thuế.
+  218|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến bổ sung khác (nếu có) như sau:
+  219|…………………………..........................................................................................................................................................................................................................
+  220|NGƯỜI NỘP THUẾ hoặc
+  221|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+  222|| ĐẠI DIỆN
+  223|ĐOÀN KIỂM TRA
+  224||
+  225|Phan Thế Hanh
+  226||
+  227|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+  228||
+  229|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  230|Độc lập - Tự do - Hạnh phúc
+  231|18141953556000
+  232|Trấn Biên, ngày         tháng     năm 202
+  233|GIẤY XÁC NHẬN
+  234|Giao Quyết Định số ……../QĐ-TCS3 ngày …../…../202
+  235|1. Chúng tôi đại diện cơ quan quản lý thuế, gồm:
+  236|- Họ và tên:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc;
+  237|- Chức vụ:  MERGEFIELD "CVTĐ" Chuyên viên;
+  238|- Đơn vị công tác: Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai.
+  239|2. Chúng tôi đại diện bên nhận văn bản/quyết định gồm:
+  240|- Họ và tên: Phan Thế Hanh;
+  241|- Số CCCD: 034083000616 cấp ngày: 15.01.2023 tại Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+  242|- Giấy ủy quyền số …………….. ngày ……………..
+  243|- Chức vụ: Giám đốc.
+  244|Đã nhận Quyết Định số: ……../QĐ-TCS3 ngày …../…../2026 do người đại diện cơ quan thuế nói trên giao trực tiếp tại: văn phòng Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai vào  lúc: 9 giờ 00 ngày ……  tháng …… năm 202
+  245|Ý kiến của người nhận quyết định hoặc lý do không nhận (nếu có): ………… …………………………………………………………………………………………………………………………………………………………………………
+  246|Giấy xác nhận được lập thành 02 bản giống nhau, mỗi bên giao và nhận giữ 01 bản.
+  247|Người được phân công giao văn bản
+  248|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+  249|| Người nhận văn bản
+  250|Phan Thế Hanh
+  251||
+  252|4307651-216003Mẫu số: 11/QTKT-TC
+  253|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  254|00Mẫu số: 11/QTKT-TC
+  255|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  256|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  257|ĐOÀN KIỂM TRA
+  258|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  259|69151523812500Độc lập - Tự do - Hạnh phúc
+  260||
+  261|100330050546000
+  262|BIÊN BẢN
+  263|Xác nhận số liệu kiểm tra
+  264|tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+  265|21393152095500
+  266|Căn cứ Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải; địa chỉ: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai; mã số thuế: 3603859012.
+  267|Hôm nay, vào lúc 8 giờ 00 phút ngày 03/11/2026 tại Văn phòng Thuế cơ sở 3 thành phố Đồng Nai, chúng tôi gồm:
+  268|Thành viên đoàn kiểm tra:
+  269|- Ông/Bà:  MERGEFIELD "TV" Nguyễn Thành Đồng	- Thành viên.
+  270|Đại diện Người nộp thuế được kiểm tra:
+  271|- Ông/Bà	: Phan Thế Hanh	- Chức vụ: Giám đốc.
+  272|- Ông/Bà	:  MERGEFIELD "KT" 			- Chức vụ: Kế toán.
+  273|Căn cứ sổ sách kế toán, chứng từ tài liệu do Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải xuất trình, hai bên cùng nhau tiến hành xác nhận số liệu kiểm tra về việc kiểm tra tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải như sau:
+  274|I. Nội dung kiểm tra:
+  275|Thuế GTGT phải nộp
+  276|II. Kết quả kiểm tra:
+  277|+Năm 2022:
+  278|Đơn vị tính: Đồng
+  279|TT
+  280|| CHỈ TIÊU
+  281|| SỐ BÁO CÁO
+  282|| SỐ KIỂM TRA
+  283|| CHÊNH LỆCH
+  284||
+  285|1
+  286|| Thuế GTGT phải nộp
+  287|| 0
+  288|| 0
+  289|| 0
+  290||
+  291|*/ Không chênh lệch.
+  292|+Năm 2023:
+  293|Đơn vị tính: Đồng
+  294|TT
+  295|| CHỈ TIÊU
+  296|| SỐ BÁO CÁO
+  297|| SỐ KIỂM TRA
+  298|| CHÊNH LỆCH
+  299||
+  300|1
+  301|| Thuế GTGT phải nộp
+  302|| 0
+  303|| 0
+  304|| 0
+  305||
+  306|*/ Không chênh lệch.
+  307|+Năm 2024:
+  308|Đơn vị tính: Đồng
+  309|TT
+  310|| CHỈ TIÊU
+  311|| SỐ BÁO CÁO
+  312|| SỐ KIỂM TRA
+  313|| CHÊNH LỆCH
+  314||
+  315|1
+  316|| Thuế GTGT phải nộp
+  317|| 0
+  318|| 0
+  319|| 0
+  320||
+  321|*/ Không chênh lệch.
+  322|+Năm 2025:
+  323|Đơn vị tính: Đồng
+  324|TT
+  325|| CHỈ TIÊU
+  326|| SỐ BÁO CÁO
+  327|| SỐ KIỂM TRA
+  328|| CHÊNH LỆCH
+  329||
+  330|1
+  331|| Thuế GTGT phải nộp
+  332|| 40.051.890
+  333|| 40.051.890
+  334|| 0
+  335||
+  336|*/ Không chênh lệch.
+  337|+Năm 2026:
+  338|Đơn vị tính: Đồng
+  339|TT
+  340|| CHỈ TIÊU
+  341|| SỐ BÁO CÁO
+  342|| SỐ KIỂM TRA
+  343|| CHÊNH LỆCH
+  344||
+  345|1
+  346|| Thuế GTGT phải nộp
+  347|| 0
+  348|| 0
+  349|| 0
+  350||
+  351|*/ Không chênh lệch.
+  352|Biên bản này được lập thành 03 bản, bao gồm 02 trang  01 bản có nội dung và giá trị pháp lý như nhau, 01 bản được giao người nộp thuế.
+  353|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến khác như sau:
+  354|Ý kiến bổ sung khác (nếu có):
+  355|./.
+  356|NGƯỜI NỘP THUẾ hoặc
+  357|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+  358|| THÀNH VIÊN ĐOÀN KIỂM TRA
+  359||
+  360||
+  361||
+  362|Giám đốc                             Kế toán
+  363|Phan Thế Hanh
+  364||
+  365|MERGEFIELD "TV" Nguyễn Thành Đồng
+  366||
+  367||
+  368||
+  369|4498340-254000Mẫu số: 11/QTKT-TC
+  370|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  371|00Mẫu số: 11/QTKT-TC
+  372|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+  373|71183562357000
+  374|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  375|ĐOÀN KIỂM TRA
+  376|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  377|67881523495000Độc lập - Tự do - Hạnh phúc
+  378||
+  379|BIÊN BẢN
+  380|Xác nhận số liệu kiểm tra
+  381|tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+  382|21393152095500
+  383|Căn cứ Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải; địa chỉ: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai; mã số thuế: 3603859012.
+  384|Hôm nay, vào lúc 9 giờ 00 phút ngày 03/11/2026 tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải, chúng tôi gồm:
+  385|Thành viên đoàn kiểm tra:
+  386|- Ông (Bà)	:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc	- Trưởng đoàn.
+  387|Đại diện Người nộp thuế được kiểm tra:
+  388|- Ông (Bà)	: Phan Thế Hanh		- Chức vụ: Giám đốc.
+  389|- Ông (Bà)	:  MERGEFIELD "KT" 				- Chức vụ: Kế toán.
+  390|Căn cứ sổ sách kế toán, chứng từ tài liệu do Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải xuất trình, hai bên cùng nhau tiến hành xác nhận số liệu kiểm tra về việc kiểm tra tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải như sau:
+  391|I. Nội dung kiểm tra:
+  392|Giá vốn hàng bán
+  393|Chi phí bán hàng
+  394|Chi phí quản lý kinh doanh
+  395|II. Kết quả kiểm tra:
+  396|+Năm 2022:
+  397|Đơn vị tính: Đồng
+  398|TT
+  399|| CHỈ TIÊU
+  400|| SỐ BÁO CÁO
+  401|| SỐ KIỂM TRA
+  402|| CHÊNH LỆCH
+  403||
+  404|1
+  405|| Giá vốn hàng bán
+  406|| 1.200.449.571
+  407|| 1.200.449.571
+  408|| 0
+  409||
+  410|2
+  411|| Chi phí bán hàng
+  412|| 66.673.187
+  413|| 66.673.187
+  414|| 0
+  415||
+  416|3
+  417|| Chi phí quản lý kinh doanh
+  418|| 81.544.372
+  419|| 81.544.372
+  420|| 0
+  421||
+  422|*/ Không chênh lệch.
+  423|+Năm 2023:
+  424|Đơn vị tính: Đồng
+  425|TT
+  426|| CHỈ TIÊU
+  427|| SỐ BÁO CÁO
+  428|| SỐ KIỂM TRA
+  429|| CHÊNH LỆCH
+  430||
+  431|1
+  432|| Giá vốn hàng bán
+  433|| 2.701.731.176
+  434|| 2.701.731.176
+  435|| 0
+  436||
+  437|2
+  438|| Chi phí bán hàng
+  439|| 321.580.198
+  440|| 321.580.198
+  441|| 0
+  442||
+  443|3
+  444|| Chi phí quản lý kinh doanh
+  445|| 203.824.754
+  446|| 203.824.754
+  447|| 0
+  448||
+  449|*/ Không chênh lệch.
+  450|+Năm 2024:
+  451|Đơn vị tính: Đồng
+  452|TT
+  453|| CHỈ TIÊU
+  454|| SỐ BÁO CÁO
+  455|| SỐ KIỂM TRA
+  456|| CHÊNH LỆCH
+  457||
+  458|1
+  459|| Giá vốn hàng bán
+  460|| 4.335.139.322
+  461|| 4.335.139.322
+  462|| 0
+  463||
+  464|2
+  465|| Chi phí bán hàng
+  466|| 294.500.265
+  467|| 294.500.265
+  468|| 0
+  469||
+  470|3
+  471|| Chi phí quản lý kinh doanh
+  472|| 201.343.790
+  473|| 201.343.790
+  474|| 0
+  475||
+  476|*/ Không chênh lệch.
+  477|+Năm 2025:
+  478|Đơn vị tính: Đồng
+  479|TT
+  480|| CHỈ TIÊU
+  481|| SỐ BÁO CÁO
+  482|| SỐ KIỂM TRA
+  483|| CHÊNH LỆCH
+  484||
+  485|1
+  486|| Giá vốn hàng bán
+  487|| 4.910.021.268
+  488|| 4.850.137.853
+  489|| (59.883.415)
+  490||
+  491|2
+  492|| Chi phí bán hàng
+  493|| 632.470.531
+  494|| 632.470.531
+  495|| 0
+  496||
+  497|3
+  498|| Chi phí quản lý kinh doanh
+  499|| 320.094.772
+  500|| 320.094.772
+  501|| 0
+  502||
+  503|Giải trình số liệu chênh lệch qua kiểm tra:
+  504|*/ Giá vốn hàng bán giảm 59.883.415 đồng, do Công ty hạch toán giá vốn hàng bán không tương ứng doanh thu. Căn cứ Điều 10 Nghị định số 320/2025/NĐ-CP của Chính phủ.
+  505|+Năm 2026:
+  506|Đơn vị tính: Đồng
+  507|TT
+  508|| CHỈ TIÊU
+  509|| SỐ BÁO CÁO
+  510|| SỐ KIỂM TRA
+  511|| CHÊNH LỆCH
+  512||
+  513|1
+  514|| Giá vốn hàng bán
+  515|| 1.563.849.838
+  516|| 737.085.429
+  517|| (826.764.409)
+  518||
+  519|2
+  520|| Chi phí bán hàng
+  521|| 189.873.113
+  522|| 189.873.113
+  523|| 0
+  524||
+  525|3
+  526|| Chi phí quản lý kinh doanh
+  527|| 101.032.554
+  528|| 101.032.554
+  529|| 0
+  530||
+  531|Giải trình số liệu chênh lệch qua kiểm tra:
+  532|*/ Giá vốn hàng bán giảm 826.764.409 đồng, do Công ty hạch toán giá vốn hàng bán không tương ứng doanh thu. Căn cứ Điều 10 Nghị định số 320/2025/NĐ-CP của Chính phủ.
+  533|Biên bản này được lập thành 03 bản, bao gồm 03 trang  01 bản có nội dung và giá trị pháp lý như nhau. 01 bản được giao người nộp thuế.
+  534|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và cùng ký xác nhận vào từng trang của biên bản hoặc có ý kiến khác như sau:
+  535|Ý kiến bổ sung khác (nếu có):
+  536|../.
+  537|NGƯỜI NỘP THUẾ hoặc
+  538|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+  539|| THÀNH VIÊN ĐOÀN KIỂM TRA
+  540||
+  541||
+  542||
+  543|Giám đốc                         Kế toán
+  544|Phan Thế Hanh
+  545|| Trưởng đoàn
+  546|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+  547||
+  548|4101465-377190Mẫu số: 14/KTT
+  549|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+  550|00Mẫu số: 14/KTT
+  551|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+  552|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+  553|ĐOÀN KIỂM TRA
+  554|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  555|70993024066500Độc lập - Tự do - Hạnh phúc
+  556||
+  557|BIÊN BẢN KIỂM TRA (GIẢI THỂ)
+  558|Căn cứ Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải; địa chỉ: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai; mã số thuế: 3603859012.
+  559|Đoàn kiểm tra đã tiến hành kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+  560|Thời kỳ kiểm tra: Từ năm 2022 đến tháng 10/2026.
+  561|Hôm nay, vào lúc 14 giờ 00 ngày 04/11/2026 tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải,
+  562|Chúng tôi gồm:
+  563|1. Đoàn kiểm tra:
+  564|- Ông/Bà:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc	- Trưởng đoàn.
+  565|- Ông/Bà:  MERGEFIELD "TV" Nguyễn Thành Đồng	- Thành viên.
+  566|2. Người nộp thuế:
+  567|- Ông/Bà: Phan Thế Hanh			- Chức vụ: Giám đốc.
+  568|- Ông/Bà:  MERGEFIELD "KT" 			- Chức vụ: Kế toán trưởng
+  569|Tiến hành lập biên bản xác nhận kết quả kiểm tra như sau:
+  570|I. ĐẶC ĐIỂM, TÌNH HÌNH CHUNG CỦA DOANH NGHIỆP:
+  571|- Giấy chứng nhận đăng ký kinh doanh số 3603859012 ngày 09/03/2022 do Sở Tài chính Thành phố Đồng Nai cấp.
+  572|- Ngành nghề kinh doanh chủ yếu: Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+  573|- Hình thức hạch toán kế toán: hạch toán độc lập.
+  574|- Niên độ kế toán: Từ ngày 01 tháng 01 đến ngày 31 tháng 12.
+  575|- Đăng ký kê khai nộp thuế tại: Thuế Cơ sở 3 Thành phố Đồng Nai.
+  576|- Hình thức kê khai nộp thuế Giá trị gia tăng: khấu trừ.
+  577|- Mục lục Ngân sách: Cấp 3 Chương 855 Loại ...... Khoản .....
+  578|- Tài khoản số:
+  579|MERGEFIELD Tài_khoản_số
+  580|- Các đơn vị thành viên: CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI SẢN XUẤT SƠN TIỀN HẢI, mã số thuế: 3603859012-001.
+  581|II. NỘI DUNG KIỂM TRA TẠI TRỤ SỞ CỦA NGƯỜI NỘP THUẾ:
+  582|* NĂM 2022
+  583|Đơn vị tính: Đồng
+  584|STT
+  585|| 		Chỉ tiêu
+  586|| 		Số báo cáo của người nộp thuế
+  587|| 		Số kiểm tra
+  588|| 		Chênh lệch
+  589||
+  590|| 		THUẾ GTGT
+  591||
+  592||
+  593||
+  594||
+  595|1
+  596|| 		Thuế GTGT phải nộp
+  597|| 		0
+  598|| 		0
+  599|| 		0
+  600||
+  601|| 		THUẾ TNDN
+  602||
+  603||
+  604||
+  605||
+  606|1
+  607|| 		Doanh thu bán hàng và cung cấp dịch vụ
+  608|| 		1.356.457.502
+  609|| 		1.356.457.502
+  610|| 		0
+  611||
+  612|2
+  613|| 		Giá vốn hàng bán
+  614|| 		1.200.449.571
+  615|| 		1.200.449.571
+  616|| 		0
+  617||
+  618|3
+  619|| 		Chi phí bán hàng
+  620|| 		66.673.187
+  621|| 		66.673.187
+  622|| 		0
+  623||
+  624|4
+  625|| 		Chi phí quản lý kinh doanh
+  626|| 		81.544.372
+  627|| 		81.544.372
+  628|| 		0
+  629||
+  630|5
+  631|| 		Thu nhập chịu thuế
+  632|| 		(8.345.760)
+  633|| 		(8.345.760)
+  634|| 		0
+  635||
+  636|6
+  637|| 		Thuế suất thuế TNDN
+  638|| 		20%
+  639|| 		20%
+  640||
+  641||
+  642|7
+  643|| 		Thuế TNDN phải nộp
+  644|| 		0
+  645|| 		0
+  646|| 		0
+  647||
+  648|Giải trình số liệu chênh lệch qua kiểm tra:
+  649|+ Thuế GTGT:
+  650|Không chênh lệch.
+  651|+ Thuế TNDN:
+  652|Không chênh lệch.
+  653|* NĂM 2023
+  654|Đơn vị tính: Đồng
+  655|STT
+  656|| 		Chỉ tiêu
+  657|| 		Số báo cáo của người nộp thuế
+  658|| 		Số kiểm tra
+  659|| 		Chênh lệch
+  660||
+  661|| 		THUẾ GTGT
+  662||
+  663||
+  664||
+  665||
+  666|1
+  667|| 		Thuế GTGT phải nộp
+  668|| 		0
+  669|| 		0
+  670|| 		0
+  671||
+  672|| 		THUẾ TNDN
+  673||
+  674||
+  675||
+  676||
+  677|1
+  678|| 		Doanh thu bán hàng và cung cấp dịch vụ
+  679|| 		2.550.607.100
+  680|| 		2.550.607.100
+  681|| 		0
+  682||
+  683|2
+  684|| 		Giá vốn hàng bán
+  685|| 		2.701.731.176
+  686|| 		2.701.731.176
+  687|| 		0
+  688||
+  689|3
+  690|| 		Chi phí bán hàng
+  691|| 		321.580.198
+  692|| 		321.580.198
+  693|| 		0
+  694||
+  695|4
+  696|| 		Chi phí quản lý kinh doanh
+  697|| 		203.824.754
+  698|| 		203.824.754
+  699|| 		0
+  700||
+  701|5
+  702|| 		Thu nhập chịu thuế
+  703|| 		(675.305.024)
+  704|| 		(675.305.024)
+  705|| 		0
+  706||
+  707|6
+  708|| 		Thuế suất thuế TNDN
+  709|| 		20%
+  710|| 		20%
+  711||
+  712||
+  713|7
+  714|| 		Thuế TNDN phải nộp
+  715|| 		0
+  716|| 		0
+  717|| 		0
+  718||
+  719|Giải trình số liệu chênh lệch qua kiểm tra:
+  720|+ Thuế GTGT:
+  721|Không chênh lệch.
+  722|+ Thuế TNDN:
+  723|Không chênh lệch.
+  724|* NĂM 2024
+  725|Đơn vị tính: Đồng
+  726|STT
+  727|| 		Chỉ tiêu
+  728|| 		Số báo cáo của người nộp thuế
+  729|| 		Số kiểm tra
+  730|| 		Chênh lệch
+  731||
+  732|| 		THUẾ GTGT
+  733||
+  734||
+  735||
+  736||
+  737|1
+  738|| 		Thuế GTGT phải nộp
+  739|| 		0
+  740|| 		0
+  741|| 		0
+  742||
+  743|| 		THUẾ TNDN
+  744||
+  745||
+  746||
+  747||
+  748|1
+  749|| 		Doanh thu bán hàng và cung cấp dịch vụ
+  750|| 		4.888.008.900
+  751|| 		4.888.008.900
+  752|| 		0
+  753||
+  754|2
+  755|| 		Giá vốn hàng bán
+  756|| 		4.335.139.322
+  757|| 		4.335.139.322
+  758|| 		0
+  759||
+  760|3
+  761|| 		Chi phí bán hàng
+  762|| 		294.500.265
+  763|| 		294.500.265
+  764|| 		0
+  765||
+  766|4
+  767|| 		Chi phí quản lý kinh doanh
+  768|| 		201.343.790
+  769|| 		201.343.790
+  770|| 		0
+  771||
+  772|5
+  773|| 		Thu nhập chịu thuế
+  774|| 		741.609.928
+  775|| 		741.609.928
+  776|| 		0
+  777||
+  778|6
+  779|| 		Thuế suất thuế TNDN
+  780|| 		20%
+  781|| 		20%
+  782||
+  783||
+  784|7
+  785|| 		Thuế TNDN phải nộp
+  786|| 		11.591.829
+  787|| 		11.591.829
+  788|| 		0
+  789||
+  790|Giải trình số liệu chênh lệch qua kiểm tra:
+  791|+ Thuế GTGT:
+  792|Không chênh lệch.
+  793|+ Thuế TNDN:
+  794|Không chênh lệch.
+  795|* NĂM 2025
+  796|Đơn vị tính: Đồng
+  797|STT
+  798|| 		Chỉ tiêu
+  799|| 		Số báo cáo của người nộp thuế
+  800|| 		Số kiểm tra
+  801|| 		Chênh lệch
+  802||
+  803|| 		THUẾ GTGT
+  804||
+  805||
+  806||
+  807||
+  808|1
+  809|| 		Thuế GTGT phải nộp
+  810|| 		40.051.890
+  811|| 		40.051.890
+  812|| 		0
+  813||
+  814|| 		THUẾ TNDN
+  815||
+  816||
+  817||
+  818||
+  819|1
+  820|| 		Doanh thu bán hàng và cung cấp dịch vụ
+  821|| 		5.832.577.595
+  822|| 		5.832.577.595
+  823|| 		0
+  824||
+  825|2
+  826|| 		Giá vốn hàng bán
+  827|| 		4.910.021.268
+  828|| 		4.850.137.853
+  829|| 		(59.883.415)
+  830||
+  831|3
+  832|| 		Chi phí bán hàng
+  833|| 		632.470.531
+  834|| 		632.470.531
+  835|| 		0
+  836||
+  837|4
+  838|| 		Chi phí quản lý kinh doanh
+  839|| 		320.094.772
+  840|| 		320.094.772
+  841|| 		0
+  842||
+  843|5
+  844|| 		Thu nhập chịu thuế
+  845|| 		34.203.203
+  846|| 		94.086.618
+  847|| 		59.883.415
+  848||
+  849|6
+  850|| 		Thuế suất thuế TNDN
+  851|| 		17%
+  852|| 		17%
+  853||
+  854||
+  855|7
+  856|| 		Thuế TNDN phải nộp
+  857|| 		5.814.545
+  858|| 		15.994.725
+  859|| 		10.180.180
+  860||
+  861|Giải trình số liệu chênh lệch qua kiểm tra:
+  862|+ Thuế GTGT:
+  863|Không chênh lệch.
+  864|+ Thuế TNDN:
+  865|Công ty báo cáo thu nhập chịu thuế 34.203.203 đồng, Đoàn kiểm tra xác định thu nhập chịu thuế 94.086.618 đồng, tăng 59.883.415 đồng, nguyên nhân:
+  866|*/ Giá vốn hàng bán giảm 59.883.415 đồng, do Công ty hạch toán giá vốn hàng bán không tương ứng doanh thu. Căn cứ Điều 10 Nghị định số 320/2025/NĐ-CP của Chính phủ.
+  867|=&gt;Thuế TNDN truy thu qua kiểm tra: 10.180.180 đồng.
+  868|* NĂM 2026
+  869|Đơn vị tính: Đồng
+  870|STT
+  871|| 		Chỉ tiêu
+  872|| 		Số báo cáo của người nộp thuế
+  873|| 		Số kiểm tra
+  874|| 		Chênh lệch
+  875||
+  876|| 		THUẾ GTGT
+  877||
+  878||
+  879||
+  880||
+  881|1
+  882|| 		Thuế GTGT phải nộp
+  883|| 		0
+  884|| 		0
+  885|| 		0
+  886||
+  887|| 		THUẾ TNDN
+  888||
+  889||
+  890||
+  891||
+  892|1
+  893|| 		Doanh thu bán hàng và cung cấp dịch vụ
+  894|| 		997.858.720
+  895|| 		997.858.720
+  896|| 		0
+  897||
+  898|2
+  899|| 		Giá vốn hàng bán
+  900|| 		1.563.849.838
+  901|| 		737.085.429
+  902|| 		(826.764.409)
+  903||
+  904|3
+  905|| 		Chi phí bán hàng
+  906|| 		189.873.113
+  907|| 		189.873.113
+  908|| 		0
+  909||
+  910|4
+  911|| 		Chi phí quản lý kinh doanh
+  912|| 		101.032.554
+  913|| 		101.032.554
+  914|| 		0
+  915||
+  916|5
+  917|| 		Thu nhập chịu thuế
+  918|| 		(809.868.861)
+  919|| 		16.895.548
+  920|| 		826.764.409
+  921||
+  922|6
+  923|| 		Thuế suất thuế TNDN
+  924|| 		17%
+  925|| 		17%
+  926||
+  927||
+  928|7
+  929|| 		Thuế TNDN phải nộp
+  930|| 		0
+  931|| 		2.872.243
+  932|| 		2.872.243
+  933||
+  934|Giải trình số liệu chênh lệch qua kiểm tra:
+  935|+ Thuế GTGT:
+  936|Không chênh lệch.
+  937|+ Thuế TNDN:
+  938|Công ty báo cáo lỗ 809.868.861 đồng, Đoàn kiểm tra xác định thu nhập chịu thuế 16.895.548 đồng, tăng 826.764.409 đồng, nguyên nhân:
+  939|*/ Giá vốn hàng bán giảm 826.764.409 đồng, do Công ty hạch toán giá vốn hàng bán không tương ứng doanh thu. Căn cứ Điều 10 Nghị định số 320/2025/NĐ-CP của Chính phủ.
+  940|=&gt;Thuế TNDN truy thu qua kiểm tra: 2.872.243 đồng.
+  941|Giảm lỗ: 809.868.861 đồng.
+  942|III. TÌNH HÌNH THỰC HIỆN NGHĨA VỤ VỚI NGÂN SÁCH NHÀ NƯỚC:
+  943|STT
+  944|| CHỈ TIÊU
+  945|| Số kỳ trước chuyển sang
+  946|| Số phát sinh trong kỳ
+  947|| Số đã nộp
+  948|| Số còn phải nộp
+  949||
+  950||
+  951||
+  952|| Số báo cáo phát sinh phải nộp trong kỳ
+  953|| Số xử lý qua kiểm tra
+  954||
+  955||
+  956||
+  957|(1)
+  958|| (2)
+  959|| (3)
+  960|| (4)
+  961|| (5)
+  962|| (6)
+  963|| (7)=(3)+(4)+(5)-(6)
+  964||
+  965|| Thuế TNDN
+  966||
+  967||
+  968||
+  969||
+  970||
+  971||
+  972|| 2022
+  973|| 0
+  974|| 0
+  975|| 0
+  976|| 0
+  977|| 0
+  978||
+  979|| 2023
+  980|| 0
+  981|| 0
+  982|| 0
+  983|| 0
+  984|| 0
+  985||
+  986|| 2024
+  987|| 0
+  988|| 11.591.829
+  989|| 0
+  990|| 11.591.829
+  991|| 0
+  992||
+  993|| 2025
+  994|| 0
+  995|| 5.814.545
+  996|| 10.180.180
+  997|| 5.814.545
+  998|| 10.180.180
+  999||
+ 1000|| 2026
+ 1001|| 0
+ 1002|| 0
+ 1003|| 2.872.243
+ 1004|| 0
+ 1005|| 2.872.243
+ 1006||
+ 1007|(Tính đến ngày 04/11/2026	)
+ 1008|IV. KẾT LUẬN, KIẾN NGHỊ VÀ YÊU CẦU:
+ 1009|1/ Kết luận:
+ 1010|1.1. Về việc mở, ghi chép, hạch toán trên sổ sách kế toán và hóa đơn chứng từ: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải cập nhật chứng từ hoá đơn đầy đủ, ghi chép sổ sách kế toán theo quy định.
+ 1011|1.2. Về việc kê khai, nộp thuế: Công ty thực hiện kê khai thuế đúng thời hạn quy định, nộp thuế kịp thời và đầy đủ theo kê khai.
+ 1012|1.3. Về xử phạt vi phạm hành chính (nếu có):
+ 1013|-  Hành vi vi phạm hành chính về thuế theo quy định khoản 1 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ.
+ 1014|- Hình thức xử phạt: Phạt tiền theo quy định tại Luật Quản lý thuế 108/2025/QH15.
+ 1015|1.4. Về việc xử lý hóa đơn, tài sản cố định, hàng tồn kho:
+ 1016|- Công ty đã hoàn thành nghĩa vụ nộp thuế và không còn nợ thuế theo đúng quy định.
+ 1017|- Về việc xử lý hóa đơn: Công ty sử dụng hóa đơn điện tử theo quy định tại Nghị định số 123/2020/NĐ-CP ngày 19/10/2020 của Chính phủ (được sửa đổi, bổ sung tại Nghị định số 70/2025/NĐ-CP ngày 20/3/2025) và đã thực hiện thủ tục ngừng sử dụng hóa đơn điện tử theo quy định.
+ 1018|- Công ty đã hoàn tất thanh lý tài sản cố định.
+ 1019|- Công ty không còn tồn hàng tồn kho.
+ 1020|1.5. Về tình hình thực hiện nghĩa vụ ngân sách nhà nước:
+ 1021|- Công Ty không còn nợ NSNN.
+ 1022|2/ Kiến nghị và yêu cầu:
+ 1023|2.1. Kiến nghị Thuế cơ sở 3 Thành phố Đồng Nai tiến hành xử lý vi phạm về thuế đã được phát hiện qua kiểm tra, như sau:
+ 1024|a) Hình thức xử phạt hành chính:
+ 1025|- Phạt tiền với số tiền: 2.610.485 đồng (Bằng chữ: Hai triệu sáu trăm mười nghìn bốn trăm tám mươi lăm đồng), trong đó:
+ 1026|+ Phạt về hành vi vi phạm thủ tục thuế: 0 đồng;
+ 1027|+ Phạt về hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp (theo tỷ lệ 20% trên số thuế truy thu): 2.610.485 đồng;
+ 1028|b)  Biện pháp khắc phục hậu quả:
+ 1029|-  Truy thu thuế: 13.052.423 đồng (Bằng chữ: Mười ba triệu không trăm năm mươi hai nghìn bốn trăm hai mươi ba đồng), trong đó:
+ 1030|+ Thuế TNDN (TM 1052), số tiền: 13.052.423 đồng.
+ 1031|+ Thuế GTGT (TM 1701), số tiền: 0 đồng;
+ 1032|- Tiền chậm nộp: Xử phạt 0,03% mỗi ngày tính trên số tiền thuế chậm nộp được quy định tại Khoản 2 Điều 16 Luật Quản lý thuế 108/2025/QH15 của Quốc Hội, được tính từ ngày tiếp sau ngày cuối cùng của thời hạn nộp thuế đến ngày liền kề trước ngày thực nộp số tiền thuế truy thu.
+ 1033|Giảm lỗ: 809.868.861 đồng;
+ 1034|Giảm khấu trừ: 0 đồng;
+ 1035|2.2. Yêu cầu người nộp thuế nộp đầy đủ, kịp thời vào tài khoản của cơ quan thuế khi có quyết định xử lý của cơ quan quản lý thuế.
+ 1036|- Yêu cầu người nộp thuế thực hiện đóng mã số thuế theo quy định.
+ 1037|- Đối với các vi phạm về chế độ mở, ghi chép, hạch toán trên sổ sách kế toán và hoá đơn chứng từ phải yêu cầu người nộp thuế chấn chỉnh kịp thời.
+ 1038|- Về số liệu kiểm tra: Số liệu kiểm tra theo biên bản này, Đoàn kiểm tra căn cứ số liệu trên hồ sơ khai thuế, sổ sách kế toán của đơn vị xuất trình. Do thời gian kiểm tra hạn chế và chứng từ, số liệu kiểm tra rất nhiều, vì vậy một vài nội dung kiểm tra Đoàn kiểm tra chỉ chọn mẫu để kiểm tra. Các chứng từ, số liệu không kiểm tra Đoàn kiểm tra ghi nhận theo số liệu từ sổ sách kế toán, hồ sơ khai thuế và Báo cáo tài chính do Công ty xuất trình. Trường hợp sau kiểm tra, cơ quan có thẩm quyền phát hiện số liệu đơn vị xuất trình không đúng thực tế, các chứng từ, số liệu chưa được kiểm tra có sai sót hoặc có sự chênh lệch giữa các liên hóa đơn mua hàng, hóa đơn tài chính hoặc hóa đơn không hợp pháp thì đơn vị phải hoàn toàn chịu trách nhiệm và bị xử phạt theo quy định của pháp luật.
+ 1039|- Đoàn kiểm tra không kiểm tra về giao dịch liên kết, nếu sau này phát hiện có sự chênh lệch khác ngoài kết quả nêu trên thì đơn vị phải chịu hoàn toàn trách nhiệm trước Pháp luật và các cơ quan quản lý Nhà nước..
+ 1040|V. Ý KIẾN CỦA NGƯỜI NỘP THUẾ (nếu có):
+ 1041|................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+ 1042|VI. QUYỀN VÀ THỜI HẠN GIẢI TRÌNH CỦA NGƯỜI NỘP THUẾ:
+ 1043|Trong thời hạn không quá 02 ngày làm việc, kể từ ngày lập biên bản này, Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải gửi yêu cầu giải trình trực tiếp hoặc trong thời hạn không quá 05 ngày, kể từ ngày lập được biên bản này Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải gửi văn bản giải trình đến Tổ Kiểm tra thuế 1 để thực hiện quyền giải trình.
+ 1044|Biên bản được thông qua vào hồi 16 giờ 00 cùng ngày, gồm 07 trang được lập thành 05 bản có nội dung và giá trị như nhau, biên bản được giao cho Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải, Đoàn kiểm tra, Tổ quản lý, hỗ trợ doanh nghiệp 01 bản lưu hồ sơ./.
+ 1045|NGƯỜI NỘP THUẾ HOẶC
+ 1046|ĐẠI DIỆN HỢP PHÁP CỦA
+ 1047|NGƯỜI NỘP THUẾ
+ 1048|| ĐẠI DIỆN ĐOÀN KIỂM TRA
+ 1049||
+ 1050|Giám đốc
+ 1051|| Kế toán
+ 1052|| Thành viên
+ 1053|| Trưởng đoàn
+ 1054||
+ 1055|Phan Thế Hanh
+ 1056||  MERGEFIELD KT
+ 1057||
+ 1058|MERGEFIELD TV Nguyễn Thành Đồng
+ 1059||  MERGEFIELD TĐ Nguyễn Thị Ánh Ngọc
+ 1060||
+ 1061|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1062|ĐOÀN KIỂM TRA
+ 1063|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1064|79819524066500Độc lập - Tự do - Hạnh phúc
+ 1065||
+ 1066|3876040-881380Mẫu số: 15/KTT
+ 1067|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+ 1068|00Mẫu số: 15/KTT
+ 1069|(Kèm theo Thông tư số 89/2026/TT-BTC ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Tài chính)
+ 1070|7296154381500
+ 1071|BIÊN BẢN
+ 1072|Công khai và bàn giao dự thảo biên bản kiểm tra
+ 1073|23964905397500
+ 1074|Căn cứ Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+ 1075|Đoàn kiểm tra đã tiến hành kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải và kết thúc kiểm tra ngày 03/11/2026.
+ 1076|Hôm nay, hồi 16 giờ 00 ngày 03/11/2026,
+ 1077|Tại: văn phòng Tổ Kiểm tra số 1, Thuế Cơ sở 3 Thành phố Đồng Nai,
+ 1078|Chúng tôi gồm:
+ 1079|I. Đoàn kiểm tra thuế:
+ 1080|- Ông/Bà:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc	- Chức vụ:  MERGEFIELD "CVTĐ" Chuyên viên	- Trưởng đoàn.
+ 1081|- Ông/Bà:  MERGEFIELD "TV" Nguyễn Thành Đồng	- Chức vụ:  MERGEFIELD "CVTV" Kiểm tra viên thuế	- Thành viên.
+ 1082|II. Người nộp thuế:
+ 1083|- Ông/Bà: Phan Thế Hanh
+ 1084|- Chức vụ: Giám đốc, đại diện cho Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+ 1085|- Ông/Bà:  MERGEFIELD "KT" 	- Chức vụ: Kế toán.
+ 1086|Nội dung
+ 1087|Đoàn kiểm tra tiến hành công khai và bàn giao dự thảo Biên bản kiểm tra giữa Đoàn kiểm tra và Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải theo Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai.
+ 1088|Đại diện Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải và Đoàn kiểm tra đã được nghe toàn bộ dự thảo Biên bản và Đại diện Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải đã nhận bàn giao dự thảo Biên bản kiểm tra giữa Đoàn kiểm tra và Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải nêu trên.
+ 1089|Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải có trách nhiệm rà soát dự thảo Biên bản, có ý kiến giải trình (nếu có) và ký Biên bản kiểm tra trong thời hạn 05 ngày làm việc, kể từ ngày kết thúc kiểm tra.
+ 1090|Biên bản này gồm có 01 trang, được lập thành 02 bản có nội dung và giá trị pháp lý như nhau. 01 bản được giao cho đại diện Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+ 1091|Sau khi đọc lại biên bản, những người có mặt đồng ý về nội dung biên bản, không có ý kiến gì khác và ký biên bản hoặc có ý kiến bổ sung khác (nếu có) như sau: …………………………………………………………………………………………...…………………………………………………………………………………………...
+ 1092|ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+ 1093|| TRƯỞNG ĐOÀN KIỂM TRA
+ 1094||
+ 1095|GIÁM ĐỐC
+ 1096|Phan Thế Hanh
+ 1097||
+ 1098|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1099||
+ 1100|Mẫu số: 12/QTKT-TC
+ 1101|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+ 1102||
+ 1103|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1104|ĐOÀN KIỂM TRA THEO QĐ
+ 1105|SỐ              /QĐ-TCS3
+ 1106|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1107|69151523812500Độc lập - Tự do - Hạnh phúc
+ 1108||
+ 1109|84899534290009264653429000
+ 1110|| Trấn Biên, ngày       tháng       năm 2026
+ 1111||
+ 1112|BÁO CÁO
+ 1113|Kết quả kiểm tra
+ 1114|tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+ 1115|Thực hiện Quyết định kiểm tra số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai. Từ ngày 30/10/2026 đến ngày 03/11/2026 Đoàn kiểm tra đã tiến hành kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+ 1116|Căn cứ Biên bản kiểm tra ký ngày 04/11/2026 giữa Trưởng đoàn kiểm tra và đại diện người nộp thuế được kiểm tra và các hồ sơ, tài liệu có liên quan.
+ 1117|Đoàn kiểm tra báo cáo kết quả kiểm tra:
+ 1118|I. Đặc điểm tình hình chung:
+ 1119|- Tên đối tượng được kiểm tra: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+ 1120|- Mã số thuế: 3603859012
+ 1121|- Địa chỉ: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai.
+ 1122|- Mục lục Ngân sách: Chương 855
+ 1123|- Loại hình doanh nghiệp: Công ty trách nhiệm hữu hạn
+ 1124|- Hình thức hạch toán: Nhật ký chung.
+ 1125|- Ngành nghề HĐKD chủ yếu:  MERGEFIELD "NNKD" Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng
+ 1126|- Thời kỳ kiểm tra: Từ năm 2022 đến tháng 10/2026.
+ 1127|- Thời gian tiến hành kiểm tra: 20 ngày
+ 1128|+ Công bố Quyết định kiểm tra: Ngày 30/10/2026.
+ 1129|+ Thời gian bắt đầu: Ngày 30/10/2026;
+ 1130|+ Thời gian kết thúc: Ngày 03/11/2026;
+ 1131|II. Nội dung kiểm tra
+ 1132|MERGEFIELD "Nội_dung_kiểm_tra" - Giá vốn hàng bán; - Chi phí quản lý kinh doanh; - Doanh thu bán hàng và cung cấp dịch vụ; - Thuế GTGT phải nộp.
+ 1133|III. Đánh giá với kết quả phân tích
+ 1134|Căn cứ vào kết quả phân tích đánh giá rủi ro trước kiểm, Đoàn kiểm tra có đánh giá các nội dung đã phân tích với kết quả kiểm tra thực tế tại đơn vị như sau:
+ 1135|Đơn vị hạch toán kế toán theo hình thức nhật ký chung, hóa đơn chứng từ đầy đủ, sổ sách kế toán in từ máy vi tính đóng thành quyển rõ ràng đúng quy định. Tuy nhiên doanh nghiệp còn hạch toán một số chi phí không hợp lý hợp lệ, đã vi phạm quy định của Luật thuế TNDN và Luật thuế GTGT.
+ 1136|IV. Kiến nghị xử lý:
+ 1137|Doanh nghiệp còn kê khai một số chi phí không hợp lý hợp lệ, đã vi phạm quy định của Luật thuế TNDN, Luật thuế GTGT.
+ 1138|- Kiến nghị xử lý truy thu: 13.052.423 đồng, trong đó:
+ 1139|+ Thuế TNDN: 13.052.423 đồng.
+ 1140|+ Thuế GTGT: 0 đồng.
+ 1141|và số tiền phạt đối với hành vi kê khai sai và phạt chậm nộp.
+ 1142|- Kiến nghị xử phạt: Tổng cộng số tiền phạt: 3.273.215 đồng, trong đó:
+ 1143|+ Tiền chậm nộp: Xử phạt 0,03% mỗi ngày tính trên số tiền thuế chậm nộp được quy định tại Khoản 2 Điều 16 Luật Quản lý thuế 108/2025/QH15 của Quốc Hội, được tính từ ngày tiếp sau ngày cuối cùng của thời hạn nộp thuế đến ngày ký Biên bản kiểm tra, với số tiền: 662.730 đồng.
+ 1144|+ Phạt 20% đối với hành vi khai sai được quy định tại Khoản 1 Điều 16 Chương 1 Nghị Định 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ, với số tiền: 2.610.485 đồng.
+ 1145|+ Phạt vi phạm hành chính về hành vi khai sai tại Khoản 3 Điều 12 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ: 0 đồng;
+ 1146|Trên đây là báo cáo kết quả kiểm tra tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải, Đoàn kiểm tra báo cáo và trình dự thảo Kết luận kiểm tra/Quyết định xử phạt vi phạm hành chính để Lãnh đạo Thuế Cơ sở 3 xem xét, ký duyệt./.
+ 1147|TRƯỞNG ĐOÀN KIỂM TRA
+ 1148|(Ký và ghi rõ họ tên)
+ 1149|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1150|4235450-477520Mẫu số: 02-TTKT
+ 1151|(Ban hành kèm theo Quy chế
+ 1152|Giám sát hoạt động của đoàn  thanh tra, kiểm tra thuế)
+ 1153|00Mẫu số: 02-TTKT
+ 1154|(Ban hành kèm theo Quy chế
+ 1155|Giám sát hoạt động của đoàn  thanh tra, kiểm tra thuế)
+ 1156|THUẾ THÀNH PHỐ ĐỒNG NAI
+ 1157|100203021018500THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1158|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1159|58864522923500Độc lập - Tự do - Hạnh phúc
+ 1160||
+ 1161||
+ 1162||
+ 1163|| Trấn Biên, ngày       tháng          năm 2026
+ 1164||
+ 1165|KẾ HOẠCH GIÁM SÁT HOẠT ĐỘNG
+ 1166|CỦA ĐOÀN KIỂM TRA THUẾ
+ 1167|Thực hiện Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc giám sát đoàn kiểm tra theo QĐ kiểm tra tại doanh nghiệp số              /QĐ-TCS3 ngày ..../..../2026 do ông Nguyễn Trường Giang làm giám sát đoàn kiểm tra, lập kế hoạch tiến hành giám sát như sau:
+ 1168|I. Mục đích, yêu cầu
+ 1169|Căn cứ theo Quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế về việc ban hành Quy chế giám sát hoạt động của Đoàn thanh tra, kiểm tra thuế.
+ 1170|II. Nội dung giám sát
+ 1171|1. Giám sát việc chấp hành pháp luật của người được giám sát bao gồm các nội dung sau:
+ 1172|a. Việc thực hiện các quy định của pháp luật về trình tự, thủ tục, thời hạn tiến hành một cuộc kiểm tra thuế theo quy trình kiểm tra thuế bao gồm: việc thu thập, tổng hợp, đánh giá thông tin; thực hiện chế độ thông tin, báo cáo; ghi nhật ký Đoàn kiểm tra;
+ 1173|b. Việc thực hiện các quyền trong hoạt động kiểm tra thuế đối với người được giám sát, bao gồm: căn cứ, thẩm quyền, trình tự, thủ tục và kết quả thực hiện; việc xử lý ý kiến của đối tượng kiểm tra và các cơ quan, tổ chức, cá nhân có liên quan đến việc thực hiện các quyền trong hoạt động kiểm tra;
+ 1174|c. Việc thực hiện các quy định của pháp luật đối với người được giám sát, bao gồm: quy định về những điều cấm trong hoạt động kiểm tra thuế; quy tắc ứng xử của công chức thực hiện nhiệm vụ kiểm tra thuế; ý thức chấp hành kỷ luật kiểm tra thuế và các quy định khác có liên quan.
+ 1175|2. Giám sát việc thực hiện nhiệm vụ và triển khai hoạt động kiểm tra thuế của Đoàn kiểm tra bao gồm các nội dung sau:
+ 1176|a. Tiến độ và kết quả đã đạt được so với yêu cầu theo quyết định kiểm tra thuế, kế hoạch tiến hành kiểm tra;
+ 1177|b. Khó khăn, vướng mắc phát sinh trong hoạt động kiểm tra thuế và tác động đối với việc hoàn thành kế hoạch tiến hành kiểm tra;
+ 1178|c. Việc thực hiện nhiệm vụ, triển khai hoạt động kiểm tra thuế của người được giám sát;
+ 1179|d. Việc xử lý ý kiến khác nhau giữa Trưởng đoàn và thành viên Đoàn kiểm tra về những vấn đề liên quan đến nội dung kiểm tra;
+ 1180|e. Các nội dung tại Khoản 6, điều 7 Quy chế này;
+ 1181|f. Các nội dung khác có liên quan đến việc thực hiện nhiệm vụ, triển khai hoạt động kiểm tra của Đoàn kiểm tra thuế.
+ 1182|3. Các nội dung giám sát hoạt động của Đoàn kiểm tra thuế được thực hiện theo mẫu 05-TTr ban hành kèm theo Quy chế này.
+ 1183|III. Hình thức giám sát
+ 1184|- Theo điều 14 của QĐ 1614 (tùy trường hợp)
+ 1185|IV. Tổ chức thực hiện
+ 1186|- Tiến độ thực hiện:
+ 1187|+ Chậm nhất 05 ngày làm việc sau khi quyết định giám sát hoạt động của Đoàn kiểm tra thuế được ký, người được phân công giám sát thực hiện nhiệm vụ giám sát của mình theo quy chế giám sát của QĐ 1614.
+ 1188|+ Yêu cầu Đoàn kiểm tra thực hiện theo khoản 1 Điều 7 của QĐ 1614
+ 1189|- Chế độ thông tin báo cáo: Người được giám sát thực hiện tại khoản 2 Điều 16 của QĐ 1562 (nếu có).
+ 1190|- Điều kiện vật chất đảm bảo hoạt động giám sát.
+ 1191|- Những vấn đề khác (nếu có).
+ 1192|Phê duyệt của Lãnh đạo Đội Thuế
+ 1193|Phạm Đồng Xuân
+ 1194|| Tổ trưởng Tổ giám sát hoặc công chức
+ 1195|Nguyễn Trường Giang
+ 1196||
+ 1197|Nơi nhận:
+ 1198|- Đoàn kiểm tra;
+ 1199|- Lưu: Tổ KTR1.
+ 1200||
+ 1201||
+ 1202|4444365-452755Mẫu số 04-TTKT
+ 1203|(Ban hành kèm theo Quy chế
+ 1204|Giám sát hoạt động của đoàn  thanh tra thuế)
+ 1205|00Mẫu số 04-TTKT
+ 1206|(Ban hành kèm theo Quy chế
+ 1207|Giám sát hoạt động của đoàn  thanh tra thuế)
+ 1208|THUẾ THÀNH PHỐ ĐỒNG NAI
+ 1209|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1210|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1211|60325023241000Độc lập - Tự do - Hạnh phúc
+ 1212||
+ 1213|6788152794000
+ 1214||
+ 1215||
+ 1216|| Trấn Biên, ngày   MERGEFIELD "Ngày_báo_cáo"\@"dd" 09  tháng  MERGEFIELD "Ngày_báo_cáo"\@"M" 11  năm 2026
+ 1217||
+ 1218|BIÊN BẢN LÀM VIỆC
+ 1219|Vào hồi 8 giờ 00 ngày ..../..../2026 tại Văn phòng Thuế Cơ sở 3 Thành phố Đồng Nai, ông Nguyễn Trường Giang làm việc với Đoàn kiểm tra theo quyết định kiểm tra tại doanh nghiệp số              /QĐ-TCS3 ngày ..../..../2026 về việc giám sát Đoàn kiểm tra theo quyết định giám sát số              /QĐ-TCS3 ngày ..../..../2026.
+ 1220|1. Đại diện Đoàn giám sát:
+ 1221|- Ông:	Nguyễn Trường Giang	- Chức vụ: Tổ trưởng Tổ kiểm tra số 1.
+ 1222|2. Đại diện Đoàn kiểm tra :
+ 1223|- Ông/Bà: MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc		- Chức vụ: Trưởng đoàn
+ 1224|- Ông/Bà: MERGEFIELD "TV" Nguyễn Thành Đồng		- Chức vụ: Thành viên
+ 1225|3. Nội dung làm việc
+ 1226|Đánh giá về thực hiện nhiệm vụ của đoàn kiểm tra: Đoàn kiểm tra đã thực hiện đúng quy trình, nội dung trong quyết định kiểm tra, thực hiện đúng tiến độ kiểm tra và đã báo cáo tiến độ cho người phân công giám sát kịp thời.
+ 1227|Người giám sát đã thực hiện theo đúng quy trình giám sát tại quyết định số 1614/QĐ-TCT ngày 13/10/2020 của Tổng cục trưởng Tổng cục Thuế, số liệu kiểm tra theo nội dung quyết định đoàn kiểm tra chịu trách nhiệm giải trình với người ra quyết định kiểm tra, người ra quyết định giám sát khi có yêu cầu.
+ 1228|Các nội dung tại biên bản này được thống nhất giữa các bên tham dự.
+ 1229|Biên bản kết thúc vào hồi 9 giờ 00 ngày ..../..../2026.
+ 1230|Biên bản đã được đọc lại cho những người có tên nêu trên nghe và ký xác nhận; biên bản được lập thành 02  bản có giá trị như nhau, mỗi bên giữa 01 bản.
+ 1231|Người giám sát
+ 1232|(Ký, ghi rõ họ tên)
+ 1233|Nguyễn Trường Giang
+ 1234|| Đoàn kiểm tra
+ 1235|(Ký, ghi rõ họ tên)
+ 1236|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1237||
+ 1238|4413250-392430Mẫu số 05-TTr
+ 1239|(Ban hành kèm theo Quy chế
+ 1240|Giám sát hoạt động của đoàn  thanh tra thuế)
+ 1241|00Mẫu số 05-TTr
+ 1242|(Ban hành kèm theo Quy chế
+ 1243|Giám sát hoạt động của đoàn  thanh tra thuế)
+ 1244|THUẾ THÀNH PHỐ ĐỒNG NAI
+ 1245|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1246|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1247|59626523495000Độc lập - Tự do - Hạnh phúc
+ 1248||
+ 1249|9899651841500
+ 1250|| Trấn Biên,  ngày   MERGEFIELD "Ngày_báo_cáo"\@"dd" 09 tháng   MERGEFIELD "Ngày_báo_cáo"\@"MM" 11 năm 2026
+ 1251||
+ 1252|BÁO CÁO
+ 1253|Nội dung và Kết quả giám sát hoạt động của Đoàn kiểm tra
+ 1254|Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+ 1255|Thực hiện Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc giám sát hoạt động của Đoàn kiểm tra tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải, từ ngày 30/10/2026 đến ngày 03/11/2026 Đoàn giám sát do ông Nguyễn Trường Giang thực hiện đã tiến hành triển khai công việc.
+ 1256|Quá trình giám sát, ông Nguyễn Trường Giang đã làm việc với Đoàn kiểm tra và tiến hành xem xét, đối chiếu, đánh giá về nội dung giám sát.
+ 1257|Sau đây là nội dung và kết quả giám sát:
+ 1258|I. VỀ THỦ TỤC THỰC HIỆN KIỂM TRA TẠI TRỤ SỞ NGƯỜI NỘP THUẾ:
+ 1259|1. Việc công bố Quyết định kiểm tra có đúng thời hạn theo quy định (theo biên bản công bố Quyết định kiểm tra) và báo cáo người giám sát về việc biên bản công bố Quyết định kiểm tra theo thời hạn quy định:
+ 1260|2155190927100021412208572500Công bố đúng thời hạn ☑			                   Công bố không đúng thời hạn ☐
+ 1261|3221990825500032219907556500Báo cáo người giám sát đúng thời hạn ☑
+ 1262|Báo cáo người giám sát không đúng thời hạn ☐
+ 1263|2. Giao và giải thích tài liệu những điều người nộp thuế cần biết trong kiểm tra thuế và thông tin người giám sát tại trụ sở người nộp thuế (theo biên bản công bố Quyết định kiểm tra):
+ 1264|71374071120007277107810500Có ☑						Không ☐
+ 1265|3. Thời hạn tiến hành cuộc kiểm tra tại doanh nghiệp (từ khi công bố quyết định kiểm tra đến khi kết thúc thời gian kiểm tra tại trụ sở NNT) thực hiện đúng quy định:
+ 1266|9010658445500Đúng ☑	Không đúng ☐
+ 1267|4. Về thái độ ứng xử, tác phong làm việc của Đoàn (theo phản ánh của NNT tới người giám sát):
+ 1268|7550158064500Tốt ☑	Không tốt ☐
+ 1269|5. Đoàn kiểm tra vi phạm yêu cầu cung cấp thông tin, tài liệu không liên quan đến nội dung, thời kỳ kiểm tra, hoặc yêu cầu những thông tin, tài liệu người nộp thuế đã nộp cho CQT theo quy định hiện hành (theo phản ánh của NNT):
+ 1270|18916658382000Không có phản ánh ☑
+ 1271|Không vi phạm ☐
+ 1272|Có vi phạm ☐
+ 1273|6. Về việc thực hiện theo quy chế giải quyết trước khi ký biên bản kiểm tra thuế tại trụ sở người nộp thuế đối với những trường hợp có khả năng khiếu nại ban hành kèm theo Quyết định số 1276/QĐ-TCT ngày 16/7/2015 của Tổng cục trưởng Tổng cục Thuế:
+ 1274|16770357810500Không phát sinh ☑
+ 1275|Có thực hiện khi phát sinh ☐
+ 1276|Không thực hiện khi phát sinh ☐
+ 1277|7. Đoàn kiểm tra có thực hiện kiểm tra theo các tiêu chí rủi ro để Xây dựng kế hoạch kiểm tra:
+ 1278|7073908826500Có ☑					Không ☐
+ 1279|8. Đoàn kiểm tra có thực hiện kiểm tra theo các tiêu chí lựa chọn phân tích rủi ro trước khi ban hành Quyết định kiểm tra thuế:
+ 1280|7073908445500Có ☑ 					Không ☐
+ 1281|9. Đoàn kiểm tra có thực hiện kiểm tra theo các thông tin thụ thập từ các nguồn bên ngoài (nếu có):
+ 1282|43999158763000Có thực hiện kiểm tra ☐		Không thực hiện kiểm tra ☐
+ 1283|Không có thông tin thu thập từ bên ngoài ☑
+ 1284|II. NHỮNG NỘI DUNG KHÁC PHÁT SINH TRONG QUÁ TRÌNH GIÁM SÁT (nếu có):
+ 1285|.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+ 1286|III. Ý KIẾN ĐÁNH GIÁ VÀ ĐỀ XUẤT CỦA NGƯỜI SÁT ĐỐI VỚI KẾT QUẢ kiểm TRA VÀ ĐỀ XUẤT XỬ LÝ CỦA TRƯỞNG ĐOÀN (trên cơ sở hồ sơ trình của Đoàn kiểm tra):
+ 1287|.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+ 1288|Trên đây là Báo cáo kết quả giám sát hoạt động của Đoàn kiểm tra về Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải, kính xin ý kiến chỉ đạo của Lãnh đạo Thuế cơ sở.
+ 1289|Tổ trưởng Tổ giám sát hoặc công chức
+ 1290|(Ký, ghi rõ họ tên)
+ 1291|Nơi nhận:
+ 1292|- Lãnh đạo Thuế Cơ sở 3;
+ 1293|Đoàn kiểm tra;
+ 1294|- Lưu: KTr1.
+ 1295|Nguyễn Trường Giang
+ 1296|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1297|TỔ KIỂM TRA SỐ 1
+ 1298|7816855905500
+ 1299|NHẬT KÝ THANH TRA KIỂM TRA
+ 1300|I. THÔNG TIN CHUNG:
+ 1301|1. Đoàn kiểm tra:
+ 1302|- Ông/Bà	:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc	- Chức vụ: Trưởng đoàn
+ 1303|- Ông/Bà	:  MERGEFIELD "TV" Nguyễn Thành Đồng	- Chức vụ: Thành Viên
+ 1304|2. Đối tượng được kiểm tra:
+ 1305|- Tên doanh nghiệp: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải;
+ 1306|- Mã số thuế: 3603859012;
+ 1307|- Địa chỉ: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai;
+ 1308|- Ngành nghề KD hiện tại:  MERGEFIELD "NNKD" Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng
+ 1309|II. NHẬT KÝ THANH TRA KIỂM TRA:
+ 1310|1/ Công việc chính:
+ 1311|Số TT
+ 1312|| Nội dung công việc
+ 1313|| Số hiệu văn bản
+ 1314|| Ngày tháng thực hiện
+ 1315|| Ghi chú
+ 1316||
+ 1317|1
+ 1318|| Ban hành quyết định
+ 1319||               /QĐ-TCS3
+ 1320|| ..../..../2026
+ 1321||
+ 1322||
+ 1323|2
+ 1324|| Thông báo quyết định KT
+ 1325||
+ 1326|| ..../..../2026
+ 1327||
+ 1328||
+ 1329|3
+ 1330|| Thu hồi quyết định KT
+ 1331||
+ 1332||
+ 1333||
+ 1334||
+ 1335|4
+ 1336|| Tiến hành kiểm tra
+ 1337||
+ 1338|| 30/10/2026
+ 1339|| Công bố
+ 1340||
+ 1341|5
+ 1342|| Kết thúc kiểm tra
+ 1343||
+ 1344|| 03/11/2026
+ 1345||
+ 1346||
+ 1347|6
+ 1348|| Lập biên bản thông báo kết quả KT
+ 1349||
+ 1350|| 04/11/2026
+ 1351||
+ 1352||
+ 1353|7
+ 1354|| Báo cáo kết quả kiểm tra
+ 1355||
+ 1356|| 09/11/2026
+ 1357||
+ 1358||
+ 1359|8
+ 1360|| Chuyển kết quả KT chờ xử lý
+ 1361||
+ 1362|| 09/11/2026
+ 1363||
+ 1364||
+ 1365|2/ Phân công nhiệm vụ kiểm tra:
+ 1366|Số TT
+ 1367|| Tên cán bộ thực hiện
+ 1368|| Nội dung công việc được giao
+ 1369|| Ngày tháng thực hiện
+ 1370|| Kết quả &amp; ý kiến đề xuất
+ 1371||
+ 1372|1
+ 1373||  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1374||  MERGEFIELD "Phân_công_trưởng_đoàn" -Giá vốn hàng bán
+ 1375|-Chi phí quản lý kinh doanh
+ 1376|| 30/10/2026 - 03/11/2026
+ 1377||
+ 1378||
+ 1379|2
+ 1380||  MERGEFIELD "TV" Nguyễn Thành Đồng
+ 1381||  MERGEFIELD "Phân_công_thành_viên" - Doanh thu bán hàng và cung cấp dịch vụ
+ 1382|- Thuế GTGT phải nộp
+ 1383|| 30/10/2026 - 03/11/2026
+ 1384||
+ 1385||
+ 1386|3/ Nội dung khác nếu có: Không
+ 1387|Người lập	Trưởng đoàn	Thành viên
+ 1388|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc	 MERGEFIELD "TV" Nguyễn Thành Đồng
+ 1389|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1390|113284024384000ĐOÀN KIỂM TRA
+ 1391||
+ 1392|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1393|625576287187Độc lập - Tự do - Hạnh phúc
+ 1394||
+ 1395|4098257-552082Mẫu số: 09/QTKT-TC
+ 1396|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+ 1397|00Mẫu số: 09/QTKT-TC
+ 1398|(Kèm theo Quyết định số 1161/QĐ-CT ngày 14/8/2026 của Cục Thuế)
+ 1399|BIÊN BẢN
+ 1400|Phân công công việc
+ 1401|24326854190900
+ 1402|- Căn cứ Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Thuế Cơ sở 3 Thành phố Đồng Nai về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải; địa chỉ: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai,  Đồng Nai; mã số thuế: 	3603859012;
+ 1403|- Căn cứ nội dung phân tích rủi ro về hồ sơ thuế người nộp thuế
+ 1404|- Hôm nay, ngày 30/10/2026 tại Văn phòng Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải; địa chỉ: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai,  Đồng Nai; mã số thuế: 	3603859012; Trưởng đoàn kiểm tra phân công công việc cho các thành viên trong Đoàn kiểm tra như sau:
+ 1405|Trưởng đoàn kiểm tra:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1406|Nội dung công việc thực hiện:
+ 1407|MERGEFIELD "Phân_công_trưởng_đoàn" -Giá vốn hàng bán
+ 1408|-Chi phí quản lý kinh doanh.
+ 1409|2. Thành viên đoàn kiểm tra:  MERGEFIELD "TV" Nguyễn Thành Đồng
+ 1410|Nội dung công việc thực hiện:
+ 1411|MERGEFIELD "Phân_công_thành_viên" - Doanh thu bán hàng và cung cấp dịch vụ
+ 1412|- Thuế GTGT phải nộp.
+ 1413|Biên bản này được lập thành 02 (hai) bản và đọc cho các thành viên đoàn kiểm tra nghe và thống nhất thông qua.
+ 1414|Trong trường hợp cần thiết, trưởng đoàn kiểm tra căn cứ vào thực tế công việc kiểm tra tại trụ sở người nộp thuế có thể điều chỉnh phân công công việc cho các thành viên đoàn kiểm tra./.
+ 1415|TRƯỞNG ĐOÀN KIỂM TRA
+ 1416|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1417|THUẾ THÀNH PHỐ ĐỒNG NAI
+ 1418|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1419|8286752539900                Số:               /QĐ-XPHC
+ 1420||       Mẫu quyết định số 02
+ 1421|CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1422|Độc lập - Tự do - Hạnh phúc
+ 1423|6046424467500  Trấn Biên, ngày       tháng       năm
+ 1424||
+ 1425|QUYẾT ĐỊNH
+ 1426|Xử phạt vi phạm hành chính
+ 1427|21094709652000
+ 1428|TRƯỞNG THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1429|Căn cứ Luật Quản lý thuế 108/2025/QH15 ngày 10 tháng 12 năm 2025 của Quốc Hội;
+ 1430|Căn cứ Điều 57, Điều 68, Điều 70, Điều 78 và Điều 85 Luật Xử lý vi phạm hành chính (sửa đổi, bổ sung năm 2020);
+ 1431|Căn cứ Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định về xử phạt vi phạm hành chính về thuế, hóa đơn;
+ 1432|Căn cứ Nghị định 118/2021/NĐ-CP ngày 23/12/2021 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xử lý vi phạm hành chính và Nghị định 190/2025/NĐ-CP ngày 01/07/2025 của Chính phủ sửa đổi, bổ sung một số điều của nghị định số 118/2021/NĐ-CP ngày 23 tháng 12 năm 2021 của chính phủ;
+ 1433|Căn cứ Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ quy định sửa đổi, bổ sung một số điều của Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định về xử phạt vi phạm hành chính về thuế, hóa đơn;
+ 1434|Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2025 của Cục trưởng Cục Thuế quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sở thuộc Thuế tỉnh, thành phố;
+ 1435|Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục thuế quyết định quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;
+ 1436|Căn cứ Biên bản kiểm tra ký ngày 04/11/2026 tại trụ sở người nộp thuế của Đoàn kiểm tra Thuế Cơ sở 3 Thành phố Đồng Nai theo Quyết định số              /QĐ-TCS3 ngày ..../..../2026 về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải;
+ 1437|Căn cứ Quyết định số 2956/QĐ-GQXP ngày 01/6/2026 của Trưởng Thuế cơ sở Thuế Cơ sở 3 Thành phố Đồng Nai về việc giao quyền xử phạt vi phạm hành chính về thuế và hóa đơn.
+ 1438|QUYẾT ĐỊNH:
+ 1439|Điều 1.
+ 1440|1. Xử phạt vi phạm hành chính về thuế đối với ông (bà) tổ chức có tên sau đây:
+ 1441|Tên tổ chức vi phạm: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải;
+ 1442|Địa chỉ trụ sở chính: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai.
+ 1443|Mã số doanh nghiệp: 3603859012.
+ 1444|Giấy chứng nhận đăng ký doanh nghiệp số: 3603859012 Ngày cấp: 09/03/2022 Nơi cấp: Sở Tài chính Thành phố Đồng Nai;
+ 1445|Lĩnh vực hoạt động: Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+ 1446|Người đại diện theo pháp luật: Phan Thế Hanh.
+ 1447|Chức danh: Giám đốc.
+ 1448|Thời kỳ kiểm tra: Từ năm 2022 đến tháng 10/2026.
+ 1449|2. Đã thực hiện hành vi vi phạm hành chính: Khai sai dẫn đến thiếu tiền thuế phải nộp.
+ 1450|3. Hành vi vi phạm hành chính quy định tại: khoản 1 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ.
+ 1451|4. Các tình tiết tăng nặng, giảm nhẹ (nếu có): Không.
+ 1452|5. Các tình tiết liên quan đến việc giải quyết vi phạm (nếu có): Không.
+ 1453|6. Bị áp dụng hình thức xử phạt, biện pháp khắc phục hậu quả như sau:
+ 1454|a) Hình thức xử phạt hành chính: phạt tiền, mức phạt: 2.610.485 đồng.
+ 1455|Cụ thể:
+ 1456|+ Phạt kê khai sai (TM 4254): 2.610.485 đồng.
+ 1457|+ Phạt về hành vi vi phạm thủ tục thuế (TM 4254): 0 đồng;
+ 1458|b) Hình thức xử phạt bổ sung: Không.
+ 1459|c) Biện pháp khắc phục hậu quả (nếu có): Buộc nộp đủ số tiền thuế truy thu và tiền chậm nộp vào ngân sách nhà nước:
+ 1460|- Số tiền thuế truy thu:
+ 1461|+ Thuế TNDN (TM 1052), số tiền: 13.052.423 đồng;
+ 1462|+ Thuế GTGT (TM 1701), số tiền: 0 đồng;
+ 1463|- Số tiền chậm nộp:
+ 1464|+ Tiền chậm nộp thuế TNDN (TM 4918), số tiền: 662.730 đồng;
+ 1465|+ Tiền chậm nộp thuế GTGT (TM 4931), số tiền: 0 đồng;
+ 1466|Tổng số tiền truy thu, phạt: 16.325.638 đồng (bằng chữ: Mười sáu triệu ba trăm hai mươi lăm nghìn sáu trăm ba mươi tám đồng).
+ 1467|Số tiền chậm nộp tiền thuế nêu trên được tính đến hết ngày 04/11/2026, Doanh nghiệp có trách nhiệm tự tính và nộp số tiền chậm nộp tiền thuế kể từ sau ngày 04/11/2026, tiền chậm nộp tiền phạt kể từ ngày kế tiếp ngày hết thời hạn nộp tiền phạt (nếu có) đến ngày liền kề trước ngày thực nộp số tiền thuế truy thu và tiền phạt vào ngân sách Nhà nước theo quy định.
+ 1468|Giảm lỗ: 809.868.861 đồng;
+ 1469|Giảm khấu trừ: 0 đồng;
+ 1470|Mọi chi phí tổ chức thi hành biện pháp khắc phục hậu quả do tổ chức vi phạm có tên trong Điều này chi trả.
+ 1471|- Biện pháp khắc phục hậu quả khác (nếu có): Không
+ 1472|Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày ký;
+ 1473|Điều 3. Quyết định này được:
+ 1474|1.	Giao cho ông/bà Phan Thế Hanh là người đại diện của Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải để chấp hành.
+ 1475|Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải có tên trong Điều 1 phải nghiêm chỉnh chấp hành quyết định xử phạt này. Nếu quá thời hạn Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải không tự nguyện chấp hành thì sẽ bị cưỡng chế thi hành theo quy định của pháp luật và cứ mỗi ngày chậm nộp tiền phạt thì cá nhân, tổ chức vi phạm phải nộp thêm 0,05% tính trên tổng số tiền phạt chưa nộp.
+ 1476|a) Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải bị xử phạt có tên tại Điều 1 phải nộp tiền phạt tại Kho bạc Nhà nước Khu vực XVII theo thông tin nộp ngân sách nhà nước như sau:
+ 1477|Tài khoản: Tài khoản thu NSNN; Mã cơ quan ra quyết định xử phạt 7111. MERGEFIELD Ma_CQT 1140968 của  MERGEFIELD CQT Phường Long Hưng - Thuế cơ sở 3 Thành phố Đồng Nai Mã chương: 855; Mã nội dung kinh tế: mã tiểu mục như trên, trong thời hạn 10 ngày kể từ ngày nhận được Quyết định này.
+ 1478|b) Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải có quyền khiếu nại hoặc khởi kiện hành chính đối với Quyết định này theo quy định của pháp luật.
+ 1479|2. Gửi cho Kho bạc Nhà nước khu vực XVII để thu tiền phạt.
+ 1480|3. Gửi cho Tổ Kiểm tra số 1, Tổ quản lý, hỗ trợ doanh nghiệp số 1 để tổ chức thực hiện và phối hợp thực hiện quyết định này.
+ 1481|Nơi nhận:
+ 1482|- Như Điều 3;
+ 1483|- Lãnh đạo Thuế Cơ sở 3;
+ 1484|- Lưu: VT, KTR1 (05b).
+ 1485|| KT. TRƯỞNG THUẾ CƠ SỞ
+ 1486|PHÓ TRƯỞNG THUẾ CƠ SỞ
+ 1487|Phạm Đồng Xuân
+ 1488||
+ 1489|Quyết định đã giao trực tiếp cho Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải bị xử phạt vào hồi .... giờ .... phút, ngày ..../..../........
+ 1490|| NGƯỜI NHẬN QUYẾT ĐỊNH(Ký, ghi rõ họ và tên)
+ 1491||
+ 1492|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1493|TỔ KIỂM TRA SỐ 1
+ 1494|9239251714500
+ 1495|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1496|64579521844000Độc lập - Tự do - Hạnh phúc
+ 1497||
+ 1498|TỜ TRÌNH LÃNH ĐẠO THUẾ CƠ SỞ 3
+ 1499|Về việc: ban hành Quyết Định xử phạt vi phạm trong lĩnh vực thuế.
+ 1500|Nội dung công việc: Ban hành Quyết Định xử phạt vi phạm trong lĩnh vực thuế đối với Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải, MST: 3603859012 theo kiến nghị tại Biên bản kiểm tra ngày 04/11/2026 của Đoàn kiểm tra của theo quyết định số              /QĐ-TCS3 ngày ..../..../2026.
+ 1501|Căn cứ pháp lý để giải quyết: Căn cứ khoản 1 Điều 16 Mục 1 Chương II Nghị định số 125/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Nghị định 310/2025/NĐ-CP ngày 02/12/2025 của Chính phủ.
+ 1502|Ý kiến tham gia của các đơn vị liên quan:…………………………………………...  …….…………………………………………………………………………………...
+ 1503|Đề xuất của cán bộ giải quyết: Đề nghị Lãnh đạo Thuế Cơ sở 3 Thành phố Đồng Nai ban hành quyết định xử lý đối với  Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+ 1504|Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1505|CÁN BỘ ĐỀ XUẤT
+ 1506|MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1507|Ý kiến của lãnh đạo Đội thuế:  Kính đề nghị Lãnh đạo Thuế Cơ sở 3 Thành phố Đồng Nai ban hành Kết luận kiểm tra nêu trên./.
+ 1508|Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1509|TỔ TRƯỞNG
+ 1510|Nguyễn Trường Giang
+ 1511|Ý kiến phê duyệt của Lãnh đạo Thuế Cơ sở 3 Thành phố Đồng Nai:
+ 1512|…………………………………….....……………………………………………………………………………………….....…………………………………………………
+ 1513|Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1514|KT. TRƯỞNG THUẾ CƠ SỞ
+ 1515|PHÓ TRƯỞNG THUẾ CƠ SỞ
+ 1516|Phạm Đồng Xuân
+ 1517|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1518|TỔ KIỂM TRA SỐ 1
+ 1519|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1520|68643523812500Độc lập - Tự do - Hạnh phúc
+ 1521||
+ 1522|8997953556000
+ 1523||
+ 1524||
+ 1525|| Trấn Biên, ngày ..... tháng ..... năm 2026
+ 1526||
+ 1527|VĂN BẢN ĐỀ NGHỊ THAM GIA Ý KIẾN PHÁP LÝ
+ 1528|Kính gửi: Tổ Nghiệp vụ - Dự toán – Pháp chế.
+ 1529|Tổ Kiểm tra số 1 đề nghị Tổ Nghiệp vụ - Dự toán – Pháp chế nghiên cứu và tham gia ý kiến pháp lý đối với dự thảo: Quyết định xử lý vi phạm về thuế  theo kết quả kiểm tra đối với Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+ 1530|Hồ sơ đề nghị tham gia ý kiến pháp lý gồm:
+ 1531|STT
+ 1532|| Trích yếu văn bản, tài liệu
+ 1533|| Số văn bản, tài liệu
+ 1534|| Ngày ban hành
+ 1535|| Bút lục
+ 1536||
+ 1537|01
+ 1538|| Dự thảo Quyết định xử lý vi phạm về thuế  (2 bản)
+ 1539||
+ 1540|| ..../..../2026
+ 1541||
+ 1542||
+ 1543|02
+ 1544|| Tờ trình xử lý kết quả kiểm tra
+ 1545||
+ 1546|| ..../..../2026
+ 1547||
+ 1548||
+ 1549|03
+ 1550|| Báo cáo kết quả kiểm tra
+ 1551||
+ 1552|| ..../..../2026
+ 1553||
+ 1554||
+ 1555|04
+ 1556|| Biên bản kiểm tra
+ 1557||
+ 1558|| ..../..../2026
+ 1559||
+ 1560||
+ 1561|05
+ 1562|| Biên bản xác nhận số liệu
+ 1563||
+ 1564|| ..../..../2026
+ 1565||
+ 1566||
+ 1567|06
+ 1568|| Phiếu phân công công việc
+ 1569||
+ 1570|| ..../..../2026
+ 1571||
+ 1572||
+ 1573|07
+ 1574|| Biên bản công bố Quyết định kiểm tra
+ 1575||
+ 1576|| ..../..../2026
+ 1577||
+ 1578||
+ 1579|08
+ 1580|| Quyết định kiểm tra
+ 1581||               /QĐ-TCS3
+ 1582|| ..../..../2026
+ 1583||
+ 1584||
+ 1585|09
+ 1586|| Hồ sơ phân tích thông tin
+ 1587||
+ 1588|| ..../..../2026
+ 1589||
+ 1590||
+ 1591|Tổ Trưởng
+ 1592|Nguyễn Trường Giang
+ 1593|4450715-454025Mẫu số 17/QTKT
+ 1594|(Ban hành kèm theo Quyết định số 970/QĐ-TCT ngày 14/7/2023  của Tổng cục Thuế)
+ 1595|00Mẫu số 17/QTKT
+ 1596|(Ban hành kèm theo Quyết định số 970/QĐ-TCT ngày 14/7/2023  của Tổng cục Thuế)
+ 1597|THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI
+ 1598|103251021526500ĐOÀN KIỂM TRA
+ 1599|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1600|83439021526500Độc lập - Tự do - Hạnh phúc
+ 1601||
+ 1602|BIÊN BẢN
+ 1603|Giao, nhận hồ sơ, tài liệu cuộc kiểm tra theo Quyết định
+ 1604|số              /QĐ-TCS3 ngày ..../..../2026
+ 1605|22853652540000
+ 1606|Hôm nay, vào lúc ..... giờ ..... ngày ..... tháng ..... năm 2026 tại văn phòng Tổ Kiểm tra số 1 Đoàn kiểm tra theo Quyết định số:              /QĐ-TCS3 ngày ..../..../2026 của Trưởng Thuế cơ sở Thuế Cơ sở 3 về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải tiến hành bàn giao hồ sơ kiểm tra. cụ thể như sau:
+ 1607|Chúng tôi gồm có:
+ 1608|+ Đại diện Bên bàn giao (Đoàn kiểm tra):
+ 1609|Ông/Bà:  MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc 	- Chức vụ:  MERGEFIELD "CVTĐ" Chuyên viên
+ 1610|+ Đại diện Bên nhận bàn giao:
+ 1611|Ông/Bà: Nguyễn Thị Ánh Ngọc	- Chức vụ: Kiểm tra viên
+ 1612|Đã tiến hành giao, nhận hồ sơ, tài liệu cuộc kiểm tra theo Quyết định số              /QĐ-TCS3 ngày ..../..../2026 của Trưởng Thuế cơ sở Thuế Cơ sở 3 về việc kiểm tra thuế tại Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải.
+ 1613|Hồ sơ gồm các tài liệu sau:
+ 1614|1/ Hồ sơ về người nộp thuế được kiểm tra:
+ 1615|- Bản sao giấy phép kinh doanh;
+ 1616|2/ Hồ sơ. tài liệu do Đoàn kiểm tra thu thập được:
+ 1617|- Không.
+ 1618|3/ Hồ sơ. tài liệu liên quan thủ tục hành chính tại cơ quan thuế:
+ 1619|- Bản nhận xét phân tích hồ sơ ;
+ 1620|- Quyết định kiểm tra;
+ 1621|- Công bố quyết định kiểm tra
+ 1622|- Phiếu phân công
+ 1623|- Báo cáo kết quả cuộc kiểm tra;
+ 1624|- Biên bản xác nhận số liệu kiểm tra;
+ 1625|- Biên bản kiểm tra;
+ 1626|- Quyết định xử phạt vi phạm hành chính/Kết luận kiểm tra thuế.
+ 1627|(tất cả các tài liệu có liên quan đến việc xử lý sau kiểm tra)
+ 1628|Việc giao nhận hoàn thành vào lúc ... giờ ... ngày ...../...../2026.
+ 1629|Biên bản giao, nhận hồ sơ, tài liệu đã được đọc lại cho những người có tên nêu trên nghe và ký xác nhận; biên bản được lập thành 02 bản, mỗi bên giữ 01 bản./.
+ 1630|ĐẠI DIỆN BÊN NHẬN	ĐẠI DIỆN BÊN GIAO
+ 1631|(Ký và ghi rõ họ tên)	(Ký và ghi rõ họ tên)
+ 1632|Nguyễn Thị Ánh Ngọc	 MERGEFIELD "TĐ" Nguyễn Thị Ánh Ngọc
+ 1633|3914653-572606Mẫu số: 01/ĐNKHT
+ 1634|(Ban hành kèm theo Thông tư số
+ 1635|80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính)
+ 1636|00Mẫu số: 01/ĐNKHT
+ 1637|(Ban hành kèm theo Thông tư số
+ 1638|80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính)
+ 1639|CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1640|Độc lập - Tự do - Hạnh phúc
+ 1641|114300000
+ 1642|VĂN BẢN TỪ CHỐI NHẬN LẠI SỐ TIỀN NỘP THỪA
+ 1643|Kính gửi: Thuế Cơ sở 3 Thành phố Đồng Nai
+ 1644|Tên người nộp thuế: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+ 1645||
+ 1646|Mã số thuế:
+ 1647||
+ 1648||
+ 1649||
+ 1650||
+ 1651||
+ 1652||
+ 1653||
+ 1654||
+ 1655||
+ 1656||
+ 1657||
+ 1658||
+ 1659||
+ 1660||
+ 1661||
+ 1662|1. Thông tin về khoản nộp thừa của người nộp thuế từ chối nhận lại:
+ 1663|S
+ 1664|T
+ 1665|T
+ 1666|| Số chứng từ nộp NSNN
+ 1667|| Ngày chứng từ nộp NSNN
+ 1668||
+ 1669|Chương
+ 1670|| Tiểu mục
+ 1671|| Tên cơ quan thu
+ 1672|| Loại tiền
+ 1673|| Số tiền thuế, tiền chậm nộp, tiền phạt phải nộp
+ 1674|| Số tiền thuế, tiền chậm nộp, tiền phạt đã nộp
+ 1675|| Số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa
+ 1676||
+ 1677||
+ 1678||
+ 1679||
+ 1680||
+ 1681||
+ 1682||
+ 1683||
+ 1684||
+ 1685||
+ 1686||
+ 1687||
+ 1688||
+ 1689||
+ 1690||
+ 1691||
+ 1692||
+ 1693||
+ 1694||
+ 1695||
+ 1696||
+ 1697||
+ 1698||
+ 1699||
+ 1700||
+ 1701||
+ 1702||
+ 1703||
+ 1704||
+ 1705||
+ 1706||
+ 1707||
+ 1708||
+ 1709||
+ 1710||
+ 1711||
+ 1712||
+ 1713||
+ 1714||
+ 1715||
+ 1716||
+ 1717||
+ 1718||
+ 1719||
+ 1720||
+ 1721||
+ 1722||
+ 1723||
+ 1724||
+ 1725||
+ 1726||
+ 1727|| TỔNG CỘNG:
+ 1728|(Chi tiết theo từng loại tiền)
+ 1729||
+ 1730||
+ 1731||
+ 1732||
+ 1733||
+ 1734|2. Lý do đề nghị từ chối nhận lại số tiền nộp thừa:
+ 1735|…………………………………………………………………………………………………………………………………………………………………………
+ 1736|3. Thông tin, tài liệu gửi kèm (ghi rõ tên tài liệu, bản chính, bản sao):
+ 1737|…………………………………………………………………………………………………………………………………………………………………………
+ 1738|| NGƯỜI NỘP THUẾ hoặc ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ
+ 1739|(Chữ ký, ghi rõ họ tên; chức vụ và đóng dấu (nếu có)/Ký điện tử)
+ 1740||
+ 1741|Phan Thế Hanh
+ 1742|Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+ 1743|| CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ 1744|99568023558400Độc lập - Tự do - Hạnh phúc
+ 1745||
+ 1746|7321553555900
+ 1747||
+ 1748||
+ 1749|Số:         /CV
+ 1750|| Long Hưng, ngày           tháng       năm 2026
+ 1751||
+ 1752|CÔNG VĂN
+ 1753|V/v: xin được quyết toán thuế giải thể
+ 1754|Kính gửi: Thuế Cơ sở 3 Thành phố Đồng Nai
+ 1755|Tên doanh nghiệp: Công ty TNHH Thương mại Sản xuất Sơn Tiền Hải
+ 1756|Giấy chứng nhận đăng ký doanh nghiệp số: 3603859012 do Sở Tài chính Thành phố Đồng Nai cấp ngày 09/03/2022
+ 1757|Mã số thuế: 3603859012
+ 1758|Địa chỉ trụ sở chính: Số 23, Tổ 1, KP 3A, Phường Long Hưng, Thành phố Đồng Nai
+ 1759|Doanh nghiệp kính trình bày với quý Cơ quan một việc như sau:
+ 1760|Doanh nghiệp Chúng tôi được thành lập từ ngày 09/03/2022, là đơn vị do Thuế Cơ sở 3 Thành phố Đồng Nai quản lý. Do tình hình kinh doanh khó khăn nên công ty chúng tôi đã thực hiện các thủ tục giải thể theo quy định tại cơ quan thuế kể từ tháng 07/2024. Nay bằng văn bản này, Chúng tôi kính đề nghị quý Cơ quan xem xét, chấp thuận cho Công ty Chúng tôi được kiểm tra quyết toán giải thể.
+ 1761|Niên độ quyết toán Từ năm 2022 đến tháng 10/2026
+ 1762|Nội dung xin được quyết toán: Quyết toán giải thể
+ 1763|Thời gian xin được quyết toán: năm 2026
+ 1764|Rất mong nhận được sự quan tâm, chấp thuận và tạo điều kiện giúp đỡ của quý Cơ quan.
+ 1765|Trân trọng cảm ơn.
+ 1766|Nơi nhận:
+ 1767|Như trên;                                                                    GIÁM ĐỐC
+ 1768|Lưu.
+ 1769|Phan Thế Hanh

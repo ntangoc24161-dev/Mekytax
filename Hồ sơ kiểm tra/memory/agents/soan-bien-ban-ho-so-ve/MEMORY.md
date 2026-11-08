@@ -1,0 +1,16 @@
+## Bài học (tự học)
+- Điền xong bảng số DTCHEP rồi mới chèn bảng lương, vì add_table làm lệch chỉ số table phía sau.
+- File trên ổ Google Drive (G:) không save được bằng python-docx (sandbox chặn xóa file tạm khi ghi đè) - phải ghi bằng Word COM để lưu tại chỗ.
+- Word COM chạy ẩn trả wdHorizontalPositionRelativeToPage không đổi sau khi sửa indent (kể cả Repaginate) - canh vị trí glyph phải đo bề rộng chuỗi bằng System.Drawing GDI thay vì tin phép đo COM.
+- Checkbox Wingdings ¨/þ: Find COM không bắt được (Word lưu ở private-use U+F0A8); sửa thẳng XML (lưu dạng ¨ literal) rồi cp đè lên G: - cp hoạt động được trên Google Drive, chỉ python-docx bị chặn.
+- Bảng chữ ký căn đáy (vAlign bottom): chiều cao hàng do cột có nhiều dòng trống nhất quyết định; ép chức danh + tên về 1 trang bằng cantSplit + KeepWithNext row trên + giảm dòng trống cho đều cột.
+- Checkbox Báo cáo giám sát theo phôi MAUTONG HOP.docx là ô "□" (U+25A1) đặt SAU chữ, ô chọn đánh dấu X vẽ bằng VML connector (o:connectortype straight) đè lên ô; không dùng Wingdings/☐☑ ở đầu - khi sửa nên splice nguyên khối mục I từ phôi thay vì tự chuyển glyph.
+- Ghi đè file trên G: ngay sau khi Word COM đóng dễ báo "Device busy"/"not found" do còn WINWORD treo và Google Drive sync; kill WINWORD, xóa ~$lock rồi cp lại, sau đó đọc lại để xác nhận.
+- Khối X giám sát có 13 <w:pict> nhưng 20 <v:shape> (mục 3-9 gói 2 nét/1 pict); xoá nguyên run pict bằng regex để sạch nét, ô được tích = "□" đầu tiên sau mỗi group pict.
+- Khi chủ đổi ý sang ☐/☑ ký tự: giữ vị trí sau chữ, map ☑ cho ô có pict, ☐ cho ô còn lại, và nhớ dòng cuối mục 9 "Không có thông tin thu thập từ bên ngoài" vốn không có ô nên phải thêm ☑ bằng chuỗi literal trước </w:t>.
+- Chỉ số đoạn văn của python-docx không khớp Word COM (COM đếm cả đoạn trong bảng); đếm trang phải tìm bằng Find trên chuỗi duy nhất rồi kiểm dấu ngắt trang, vòng lặp qua toàn bộ đoạn sẽ timeout.
+- Ô gộp gridSpan làm python-docx đọc lặp nội dung ô, đừng vội kết luận bảng chữ ký bị lặp cột mà phải xem tcPr/gridSpan trước khi sửa.
+- Phiếu/QĐ hoàn giải thể lấy số thuế GTGT còn được khấu trừ cuối kỳ trên sheet GTGT (cột Khấu trừ), không lấy cột Đề nghị hoàn khi cột đó đang 0.
+- Phôi Mo Fa là hoàn xuất khẩu; khi lập hoàn giải thể phải viết lại khối đối chiếu (bỏ thuế suất 0%, cửa khẩu, nước nhập) và giữ Điều 32 NĐ 181/2025.
+- Canh chữ "Số" dưới "sở" phải xóa 16-21 space đầu dòng của phôi trước khi set indent, và tính indent = x(chữ SỞ) - (x đầu đoạn Số - indent cũ) một lần, vì Range.Information(5) không cập nhật sau khi sửa indent dù mở lại file.
+- Khối ký rớt trang mà giảm tới 3 dòng vẫn rớt thì giữ 5 dòng và set keep_with_next cho chức danh cùng các dòng trống để Word đẩy trọn khối sang trang sau; script giảm dòng phải nhắm khối cuối chứ không phải lần khớp đầu tiên.

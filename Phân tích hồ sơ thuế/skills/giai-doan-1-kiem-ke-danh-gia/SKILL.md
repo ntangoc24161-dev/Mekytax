@@ -1,56 +1,122 @@
 ---
 name: Giai đoạn 1 - Kiểm kê & Đánh giá hồ sơ thuế
-description: "Kiểm kê IN00-IN14 thành KQ1.1 (CQT), KQ1.2 (công ty), KQ1.3 (mức A-E, 80 quy tắc, đề nghị bổ sung)."
+description: "Kiểm kê manifest IN00-IN13, xác định mức hồ sơ A-E, rà soát khả năng chạy 80 quy tắc, xếp danh mục đề nghị DN bổ sung (KQ1)."
 group: Tài chính
-updated: '2026-10-19'
+updated: '2026-10-15'
 ---
 
-# Giai đoạn 1 - Kiểm kê hồ sơ & Đánh giá mức độ dữ liệu (v1.4)
+# Giai đoạn 1 – Kiểm kê hồ sơ & Đánh giá mức độ dữ liệu
 
-Áp dụng HƯỚNG DẪN THƯỜNG TRỰC trong skill `phan-tich-ho-so-thue` và quy trình 1.4. Sao mẫu rồi điền. Chưa phân tích rủi ro.
+Giai đoạn đầu tiên và bắt buộc đối với mọi hồ sơ kiểm tra thuế khi tiếp nhận. Quét toàn bộ thư mục hồ sơ trên đĩa (kể cả file ngoài cấu trúc chuẩn), lập bảng kiểm kê manifest (IN00), đánh giá độ bao phủ dữ liệu (IN01–IN13), xác định mức hồ sơ từ A đến E, rà soát khả năng chạy của 80 quy tắc rủi ro và lập danh mục đề nghị Người nộp thuế (NNT) bổ sung hồ sơ theo thứ tự ưu tiên mở khóa quy tắc.
 
-## Khi nào dùng
+> Áp dụng nghiêm ngặt **Khối Q** (Quy tắc chung): Không xóa file nguồn gốc; không tính toán rủi ro hoặc kết luận vi phạm ở bước này; không để số 0 giả khi thiếu nguồn.
 
-"kiểm kê hồ sơ", "chạy giai đoạn 1", "Lệnh 1", "mức A-E", "xuất KQ1.1".
+---
 
-## Đầu ra
+## Khi nào kích hoạt
 
-Ba tệp, phiên bản `v<n>`:
+- Bắt đầu tiếp nhận một thư mục hồ sơ doanh nghiệp mới hoặc khi NNT vừa nộp bổ sung tài liệu.
+- Các câu lệnh/yêu cầu: "kiểm kê hồ sơ", "đánh giá mức độ hồ sơ", "kiểm tra độ đủ dữ liệu", "chạy giai đoạn 1", "lệnh P1", "xác định mức A-E".
+- Hồ sơ ở bất kỳ trạng thái dữ liệu nào (từ chỉ có vài file XML/PDF rời rạc đến đầy đủ sổ sách).
 
-- `KQ1.1_Kiem_ke_CQT_<MST>_<KY>_v<n>.xlsx`: IN00, IN01, IN03, IN04, IN05 (cột Loai_dong = NLD|QTT), IN14. Không có sheet KQ1_*. Không có IN07.
-- `KQ1.2_Kiem_ke_ho_so_NNT_<MST>_<KY>_v<n>.xlsx`: IN00, IN02, IN08-IN13. IN00 chỉ liệt kê tệp nhóm công ty. Chưa có tệp công ty thì vẫn xuất, IN00 trống (trừ dòng hướng dẫn).
-- `KQ1.3_Danh_gia_ho_so_<MST>_<KY>_v<n>.xlsx`: KQ1_Kiem_ke (13 dòng IN), KQ1_Kha_nang_phan_tich (80 quy tắc), KQ1_De_nghi_bo_sung.
+---
 
-Mẫu: `thu-muc-mau-ho-so-doanh-nghiep/MAU_FILE_TONG_HOP/KQ1.1_Kiem_ke_CQT.xlsx` (và KQ1.2, KQ1.3).
+## Phân loại 5 mức hồ sơ (A – E)
 
-## Quy trình (Lệnh 1)
+| Mức | Dữ liệu thực tế có trong thư mục | Khả năng chạy phân tích |
+|---|---|---|
+| **A** | Chỉ có dữ liệu cơ quan thuế: HĐĐT, bảng kê, tờ khai GTGT, QTT TNDN, BCTC nộp thuế, TNCN, cảnh báo rủi ro. | Chạy Giai đoạn 2 (57 quy tắc dữ liệu CQT). |
+| **B** | Dữ liệu mức A cộng thêm BCTC, tờ khai do doanh nghiệp nộp/gửi riêng. | Chạy Giai đoạn 2 + đối chiếu bản DN vs bản CQT (phát hiện DQ). |
+| **C** | Dữ liệu mức B cộng thêm Sổ kế toán nội bộ (IN08: Nhật ký chung, Sổ Cái) và Sổ 511/632 (IN13). | Chạy Giai đoạn 3 một phần (511–632, công nợ, GT06, TN17). |
+| **D** | Dữ liệu mức C cộng thêm Sổ Nhập–Xuất–Tồn kho (TK 152/155/156) và Bảng giá thành/định mức (IN09). | Chạy Giai đoạn 3 thêm nhóm Kho & Giá thành (KH01–KH07). |
+| **E** | Dữ liệu mức D cộng thêm Sổ chi tiết tiền mặt (IN10: TK 111), Sao kê ngân hàng và UNC (IN11: TK 112). | Chạy Giai đoạn 3 toàn diện (đủ 80 quy tắc). |
 
-1. Quét toàn bộ thư mục (cả tệp ngoài cấu trúc). Gán nguồn CQT hoặc công ty theo thư mục cấp 1 (K1). Xếp mỗi tệp vào một IN; tệp không xếp được ghi riêng ở IN00 với Mã IN "-".
-2. Chuẩn hóa vào IN: nhóm CQT vào KQ1.1; nhóm công ty vào KQ1.2. Mỗi tệp có IN00 riêng. Tệp mẫu cũ là nguồn nhập (T8), ghi ở IN00, không cộng.
-3. Điền KQ1.3. Xác định mức A-E (cổng: mức cho biết quy tắc nào có số; không chặn dựng KQ2/KQ3).
-4. Báo mức hồ sơ, số quy tắc Chạy ngay / Chạy một phần / Bị chặn, tối đa 3 điều cần xin công ty.
+---
 
-IN03 và IN04 chỉ bản CQT (K8/Q3). IN05 gộp QTT, không sheet IN06. IN07 không nằm ở KQ1.1.
+## Đầu vào
 
-### IN02_BangKe (KQ1.2) - bổ sung 19/10/2026 vòng 2
+### Đầu vào bắt buộc:
+- Đường dẫn thư mục hồ sơ doanh nghiệp trên đĩa: `<FOLDER>`.
+- Thông tin định danh: Mã số thuế `<MST>`, Tên doanh nghiệp `<TEN>`, Niên độ kiểm tra `<KY>`.
 
-- Cột `Chieu` = `MUA` hoặc `BAN`. BẮT BUỘC lọc và điền CẢ HAI chiều từ bảng kê gốc, không chỉ mua vào. Thiếu lọc bán ra là lỗi (đã xảy ra ở TT_BIEN_HOA 19/10, đã sửa).
-- Hai khối phân đoạn "I. BẢNG KÊ MUA VÀO" và "II. BẢNG KÊ BÁN RA": chữ ĐỨNG (không in nghiêng), in đậm, có thể tô nền nhạt để tách khối rõ hơn thay cho in nghiêng.
-- Dòng tiêu đề cột: in đậm, chữ đứng, Times New Roman (Q13/Q16).
-- Cột `Ngay_HD`: `number_format = "dd/mm/yyyy"`, không giờ (Q14) - sửa lỗi cũ `yyyy-mm-dd h:mm:ss`.
+### Quy định phân loại nguồn gốc thư mục (Quyết định K1):
+- Nhãn CQT hoặc DN suy từ thư mục cấp 1:
+  - `1. DU LIEU THO NGANH THUE` = Dữ liệu cơ quan thuế (1.1 = tờ khai XML; 1.3 = Nghĩa vụ nộp thuế & Thông báo TMS;...).
+  - `2. HO SO NNT CUNG CAP` = Dữ liệu công ty cung cấp (2.5 = bảng kê mua vào bán ra;...).
+  - `3. THONG TIN TRA CUU` (3.3 = file tra cứu đa nguồn).
+  - `4. KET QUA PHAN TICH` = Nơi chứa kết quả.
 
-### IN05_NLD_TNCN (KQ1.1) - bổ sung 19/10/2026 vòng 2
+### Các file quét và phân loại vào 15 mẫu nhập (IN00–IN14):
+1. **IN00_Manifest**: Mọi file đầu vào (tên, ngày nhận, mã băm SHA-256, định dạng đọc, số dòng).
+2. **IN01_HDDT**: Hóa đơn điện tử portal CQT (chiều MUA và BAN).
+3. **IN02_BangKe**: Bảng kê mua vào / bán ra do NNT kê khai.
+4. **IN03_ToKhai_GTGT**: Tờ khai 01/GTGT chính thức và bổ sung (XML).
+5. **IN04_BCTC_TNDN**: BCTC (CĐKT, KQKD, LCTT) và tờ khai QTT 03/TNDN (XML).
+6. **IN05_NLD_TNCN**: Danh sách người lao động trích từ phụ lục 05-1/BK-TNCN và 05-2/BK-TNCN.
+7. **IN06_QTT_TNCN**: Tờ khai QTT 02/QTT-TNCN hoặc 05/QTT-TNCN và các kỳ tạm tính quý.
+8. **IN07_NCC_CanhBao**: Danh mục NCC thuộc diện CVCBRR (F0, F1), Công an, ĐKKD bất thường.
+9. **IN08_So_KeToan**: Sổ Nhật ký chung, Sổ Cái các tài khoản (PS Nợ 133, 111, 112, 131, 331).
+10. **IN09_Kho_GiaThanh**: Sổ XNT kho 152, 155, 156, Bảng tính giá thành 154/621/622/627, định mức.
+11. **IN10_Chi_tien_mat**: Sổ chi tiết tiền mặt TK 1111 (phiếu chi).
+12. **IN11_Sao_ke_NH**: File sao kê ngân hàng TK 1121 (dữ liệu dòng tiền và ủy nhiệm chi).
+13. **IN12_GDLK**: Phụ lục giao dịch liên kết theo Nghị định 132/2020/NĐ-CP.
+14. **IN13_So_511_632**: Sổ chi tiết doanh thu 511 và giá vốn 632 theo dòng bút toán.
+15. **IN14_TMS_Nghia_vu**: Lịch sử tuân thủ từ hệ thống TMS (nợ thuế, chậm nộp, kết luận TTKT - thư mục 1.3).
 
-- Nhóm theo năm (`Nam`); trong MỖI năm, dòng `Loai_dong = QTT` (quyết toán tổng năm đó) đứng TRƯỚC các dòng `Loai_dong = NLD` (từng người lao động) của chính năm đó. Thứ tự đúng: QTT 2022, NLD 2022 (nhiều dòng), QTT 2023, NLD 2023 (nhiều dòng)... Không xếp tất cả QTT của mọi năm lên đầu rồi mới tới NLD (lỗi cũ ở TT_BIEN_HOA 19/10: QTT 2022-2025 dồn đầu, NLD xếp sau cùng).
+---
 
-## Cổng dừng
+## Quy trình thực hiện
 
-- Folder không đọc được: dừng.
-- Thiếu MST hoặc kỳ: hỏi một câu (K12).
-- Cấm tính chênh lệch rủi ro, cấm xóa nguồn, cấm số 0 giả, cấm đổi phông Times New Roman.
+1. **Quét thư mục toàn diện:** Đọc toàn bộ cây thư mục `<FOLDER>`, tính mã băm SHA-256 cho từng file để bảo toàn tính toàn vẹn và truy vết.
+2. **Xếp loại nguồn vào IN00–IN13:** Phân loại rõ `Nguồn gốc` (CQT hay DN), `Định dạng` (`Cau_truc`, `PDF-da-trich`, `PDF-chua-trich`, `Anh-chua-doc`). Nếu có sao kê PDF scan chưa OCR thì gắn cờ `PDF-chua-trich`.
+3. **Đánh giá độ đủ từng nguồn:** Đếm số dòng thực, kiểm tra số dòng thiếu MST hoặc Ký hiệu HĐ, kiểm tra có tờ khai bổ sung không. Gán nhãn: `Đủ`, `Mỏng` (dưới 12 dòng), `Thiếu`, `PDF chưa trích`, hoặc `Chưa nhận`.
+4. **Rà soát 80 quy tắc rủi ro:** Chiếu theo cột "Dữ liệu cần" của sheet `04_Quy_tac_rui_ro` để xác định từng quy tắc: `Chạy được ngay`, `Chạy một phần`, hay `Bị chặn`. Nêu rõ quy tắc bị chặn vì thiếu nguồn IN nào.
+5. **Kết luận mức hồ sơ (A–E) & Chỉ định giai đoạn tiếp theo:**
+   - Nếu ở mức A hoặc B: Chuyển tiếp chạy **Giai đoạn 2** (`giai-doan-2-phan-tich-du-lieu-co-quan-thue`).
+   - Nếu đã đạt mức C, D hoặc E: Có thể chuyển tiếp sang **Giai đoạn 3** (`giai-doan-3-hoan-chinh-ho-so`).
+6. **Lập danh mục đề nghị bổ sung:** Gom nhóm các tài liệu DN chưa cung cấp, sắp xếp theo thứ tự giải phóng được nhiều quy tắc nhất:
+   - Ưu tiên 1: Sổ kho và giá thành IN09 (mở khóa 10 quy tắc).
+   - Ưu tiên 2: Sao kê ngân hàng và UNC IN11 (mở khóa 5 quy tắc).
+   - Ưu tiên 3: Sổ kế toán tổng hợp IN08 (mở khóa 4 quy tắc).
+   - Ưu tiên 4: Sổ chi tiết 511/632 IN13 (mở khóa 4 quy tắc).
+   - Ưu tiên 5: Sổ chi tiết tiền mặt IN10 (mở khóa 2 quy tắc).
 
-## Lệnh siêu ngắn
+---
 
+## Cổng dừng (Stop gates)
+
+- **Dừng ngay** nếu đường dẫn thư mục `<FOLDER>` không tồn tại hoặc không thể đọc được.
+- **Dừng ngay** nếu không xác định được mã số thuế `<MST>` và kỳ kiểm tra `<KY>`.
+- **Cấm tự ý phân tích số liệu hoặc tính chênh lệch rủi ro** trong giai đoạn 1.
+- **Cấm xóa hoặc sửa file nguồn gốc** của người nộp thuế (chỉ cho phép ghi nhận và lưu trữ).
+
+---
+
+## Hợp đồng đầu ra
+
+Xuất file Excel kết quả **chỉ chứa các giá trị tĩnh**:
+`KQ1_<MST>_<KY>_v<n>.xlsx` (mẫu chuẩn tại `KQ1_MAU_Kiem_ke_danh_gia.xlsx`) gồm 3 sheet:
+1. **`KQ1_Kiem_ke`**: Bảng kiểm kê chi tiết mọi nguồn nhận được (mã nguồn, định dạng, nguồn gốc, số dòng, mã SHA-256, đánh giá độ đủ).
+2. **`KQ1_Kha_nang_phan_tich`**: Danh mục 80 quy tắc với khả năng chạy tương ứng theo hiện trạng hồ sơ.
+3. **`KQ1_De_nghi_bo_sung`**: Danh mục tài liệu đề nghị NNT bổ sung xếp theo số lượng quy tắc được mở khóa.
+
+---
+
+## Câu lệnh thực thi mẫu
+
+### Lệnh đầy đủ (P1):
+```text
+Giai đoạn 1 – Kiểm kê hồ sơ <FOLDER>, MST <MST>, kỳ <KY>. Áp dụng khối Q.
+1. Quét toàn bộ thư mục, kể cả file nằm ngoài cấu trúc 4 bước. Xếp mỗi file vào một nguồn IN00–IN13. File không xếp được thì liệt kê riêng, không bỏ qua.
+2. Mỗi nguồn ghi: nguồn gốc (CQT/DN), định dạng (XML/Excel/PDF/ảnh), kỳ phủ, số dòng, số dòng thiếu MST hoặc ký hiệu HĐ, có bản bổ sung không, mã băm SHA-256. Kết luận: Đủ / Mỏng / Thiếu / PDF chưa trích / Chưa nhận.
+3. Với 80 quy tắc, nêu quy tắc nào chạy được ngay, chạy một phần, bị chặn; bị chặn vì nguồn nào.
+4. Kết luận mức hồ sơ A–E và giai đoạn chạy tiếp (2 hoặc 3).
+5. Lập danh mục đề nghị bổ sung cho công ty, xếp theo số quy tắc được mở khóa.
+Chưa phân tích rủi ro ở bước này.
+Đầu ra: KQ1_<MST>_<KY>_v1.xlsx gồm KQ1_Kiem_ke, KQ1_Kha_nang_phan_tich, KQ1_De_nghi_bo_sung.
 ```
-Kiểm kê GĐ1 hồ sơ <FOLDER> MST <MST> kỳ <KY> xuất KQ1.1 KQ1.2 KQ1.3
+
+### Lệnh siêu ngắn:
+```text
+Kiểm kê GĐ1 hồ sơ <FOLDER> MST <MST> kỳ <KY> xuất KQ1
 ```

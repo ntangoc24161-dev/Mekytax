@@ -1,6 +1,10 @@
 {
   "enabled": [
     "doi-chieu-cup-gdlk",
+    "paddleocr",
+    "pdf-sang-md",
+    "soan-thao-van-ban",
+    "tram-tai-lieu",
     "xem-ho-so-thue"
   ],
   "disabled": []

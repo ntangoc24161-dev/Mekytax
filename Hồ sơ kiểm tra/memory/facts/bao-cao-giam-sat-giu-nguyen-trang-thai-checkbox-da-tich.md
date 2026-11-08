@@ -1,4 +1,5 @@
 ---
+superseded_by: xu-ly-checkbox-bao-cao-giam-sat-o-vuong-hien-dai
 type: preference
 provenance: user
 origin: javis-learned
@@ -14,3 +15,7 @@ Khi chuẩn hóa checkbox Báo cáo giám sát trong hồ sơ kiểm tra thuế 
 **Vì sao:** Gán hàng loạt mọi ô thành trống làm mất dữ liệu tích sẵn; người dùng đã yêu cầu khôi phục.
 
 **Áp dụng:** Trước khi thay ký tự, đối chiếu bản backup/phôi để map ô đã tích; sau khi thay, kiểm chứng số ô tích khớp bản cũ. Quy tắc chung này độc lập với trạng thái cụ thể từng vụ.
+
+
+## Lịch sử
+- [2026-10-27] Bị thay thế bởi [[xu-ly-checkbox-bao-cao-giam-sat-o-vuong-hien-dai]] (user đổi thông tin).

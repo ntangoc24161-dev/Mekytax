@@ -55,3 +55,17 @@ Source: `type: source`, `source_kind: article|book|podcast|video|own-note|screen
 - Nhóm chủ đề trong `wiki/` MỌC DẦN theo source thực tế (tạo subfolder khi một chủ đề đủ dày), không định sẵn theo ngành.
 - Cần bộ khung sẵn (vd Bullet Journal, nghiên cứu, đọc sách) -> người dùng áp "gói mẫu" (opt-in), không seed mặc định.
 - Viết bằng ngôn ngữ ghi ở khối `# === NGÔN NGỮ ===` của prompt (mặc định tiếng Việt); code/tag/frontmatter key luôn dùng tiếng Anh. Tone thực tế, ngắn gọn. KHÔNG dùng ký tự em dash.
+
+## 9. Kỷ luật quản lý và dọn dẹp file tạm (BẮT BUỘC)
+- **Không sinh file tạm/nháp tại root:** Tuyệt đối không tạo script chạy thử, file json/txt nháp, hoặc file `.bak` tại thư mục gốc vault (`Brain Default`). Mọi xử lý tạm phải dùng `D:\tmp` hoặc thư mục con thích hợp.
+- **Tự dọn dẹp khi xong việc:** File markdown trung gian chuyển đổi từ PDF/OCR để đọc, file nháp, lock file phải xóa ngay sau khi kết thúc phiên. Không để tồn đọng trên máy.
+- **File Session/Cache đúng vị trí:** File session (như cookie, token iOffice) phải nằm trong thư mục của skill tương ứng hoặc `.javis/`, không để vương vãi.
+- **Không tạo file `.bak` bừa bãi:** Không tạo các bản sao lưu `.bak` cạnh file gốc. Cần backup thì gom vào thư mục chuyên biệt `sao-luu/` hoặc `D:\tmp\backup\`.
+
+## Xử lý file PDF và ảnh scan (Mặc định 3 skill)
+Khi gặp file PDF, ảnh chụp tài liệu hoặc file scan cần OCR:
+- **Chỉ đọc chữ ra chat**: Mặc định dùng skill paddleocr (MCP tool ocr).
+- **Ghi file Markdown giữ heading/bảng vào sources/**: Mặc định dùng skill pdf-sang-md (	ools.doc2md).
+- **Xuất Office (Word/Excel/TXT/searchable PDF), xoay/tách/ghép trang, so chữ**: Mặc định dùng skill 	ram-tai-lieu (	ools.doctram).
+- Tuyệt đối không bịa số liệu/thông tin khi file scan không đọc được chữ; nói rõ tình trạng cho người dùng.
+

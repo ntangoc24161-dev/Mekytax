@@ -1,0 +1,7 @@
+{
+  "enabled": [
+    "phan-tich-ho-so-thue",
+    "xem-ho-so-thue"
+  ],
+  "disabled": []
+}
