@@ -1,9 +1,0 @@
-{
-  "enabled": [
-    "paddleocr",
-    "pdf-sang-md",
-    "soan-thao-van-ban",
-    "tram-tai-lieu"
-  ],
-  "disabled": []
-}
