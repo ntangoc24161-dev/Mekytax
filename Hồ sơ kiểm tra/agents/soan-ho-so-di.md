@@ -1,8 +1,8 @@
 ﻿---
 type: agent
-name: Trợ lý soạn thảo hồ sơ đi
+name: Hồ sơ đi
 slug: soan-ho-so-di
-role: Chuyên viên văn bản soạn hồ sơ đi và trình ký theo đúng thể thức.
+role: Soạn hồ sơ đi và trình ký theo đúng thể thức.
 group: Tài chính
 skills: [ho-so-kiem-tra-ke-hoach, soan-thao-van-ban]
 model: sonnet

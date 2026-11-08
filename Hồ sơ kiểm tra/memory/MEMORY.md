@@ -79,3 +79,5 @@
 - [Chốt cập nhật TONG HOP Sơn Tiền Hải 06/11/2026](facts/ho-so-kiem-tra-mst-3603859012-chot-cap-nhat-tong-hop.md) - Sổ 48.899.062, TNDN 2026 sau miễn giảm, giữ BBXN GTGT, BBKT 09/11, STK trên QĐ thu hồi hoàn.
 - [Mốc thời gian chốt vụ Sơn Tiền Hải (MST 3603859012)](facts/ho-so-kiem-tra-mst-3603859012-moc-thoi-gian-chot.md) - Kết thúc 06/11/2026, ký BBKT 09/11/2026, báo cáo 12/11/2026.
 - [Hồ sơ hoàn thuế Sơn Tiền Hải còn dùng số bù trừ cũ, chưa khớp TONG HOP mới](facts/ho-so-hoan-thue-son-tien-hai-chua-dong-bo-so-lieu-moi.md) - MS-03-DCS và DE XUAT HOAN GIAI THE lập 31/10 dùng bù trừ 16.325.638đ, còn hoàn 118.606.120đ - đã lệch với TONG HOP mới (48.899.062đ).
+- [Tên Javis Core: Trưởng phòng Kiểm tra thuế](facts/javis-core-name.md) - Javis Core brain này được gọi là Trưởng phòng Kiểm tra thuế.
+- [Đổi tên ngắn gọn 5 trợ lý chuyên trách trong brain Hồ sơ kiểm tra](facts/doi-ten-ngan-gon-5-tro-ly-chuyen-trach-ho-so-kiem-tra.md) - 5 trợ lý chuyên trách được đổi tên ngắn gọn: Khởi tạo hồ sơ, Giám sát hồ sơ, Hồ sơ đi, Hồ sơ về, Wiki quản lý.

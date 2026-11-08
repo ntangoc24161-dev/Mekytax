@@ -1,6 +1,6 @@
 ﻿---
 type: agent
-name: Trợ lý khởi tạo hồ sơ
+name: Khởi tạo hồ sơ
 slug: khoi-tao-ho-so
 role: Chuyên viên văn bản khởi tạo hồ sơ kiểm tra và cập nhật dữ liệu công ty.
 group: Tài chính

@@ -1,4 +1,5 @@
 ---
+superseded_by: doi-ten-ngan-gon-5-tro-ly-chuyen-trach-ho-so-kiem-tra
 type: decision
 provenance: user
 origin: javis-learned
@@ -11,3 +12,7 @@ Người dùng thiết lập phòng làm việc chuyên trách cho brain Hồ s�
 - Trợ lý Soạn thảo hồ sơ đi (`agents/soan-ho-so-di.md`): tạo văn bản chuẩn thể thức hồ sơ đi trình ký, gắn `ho-so-kiem-tra-ke-hoach`, `soan-thao-van-ban`.
 - Trợ lý Soạn thảo biên bản và hồ sơ về (`agents/soan-bien-ban-ho-so-ve.md`): tạo văn bản thể thức biên bản và hồ sơ về, trình ký QĐ xử phạt VPHC/kết luận, gắn `soan-thao-van-ban`, `dien-bien-ban-tu-bang-tinh`, `xu-phat-vphc-thue-hoa-don`.
 - Trợ lý Tri thức (`agents/tri-thuc-second-brain.md`): quản trị wiki, trả lời có trích dẫn, gắn `ingest-source`, `query-wiki`, `lint-wiki`.
+
+
+## Lịch sử
+- [2026-11-08] Bị thay thế bởi [[doi-ten-ngan-gon-5-tro-ly-chuyen-trach-ho-so-kiem-tra]] (user đổi thông tin).

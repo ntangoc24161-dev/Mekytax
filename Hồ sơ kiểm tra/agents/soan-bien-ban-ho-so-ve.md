@@ -1,8 +1,8 @@
 ﻿---
 type: agent
-name: Trợ lý soạn thảo biên bản và hồ sơ về
+name: Hồ sơ về
 slug: soan-bien-ban-ho-so-ve
-role: Chuyên viên văn bản soạn biên bản, hồ sơ về và quyết định xử phạt trình ký.
+role: Soạn biên bản, hồ sơ về và quyết định xử phạt trình ký.
 group: Tài chính
 skills: [soan-thao-van-ban, dien-bien-ban-tu-bang-tinh, xu-phat-vphc-thue-hoa-don]
 model: sonnet
