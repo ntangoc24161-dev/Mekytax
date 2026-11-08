@@ -21,3 +21,4 @@
 - [Quy ước soạn biên bản và hồ sơ về từ Bảng tính](facts/quy-uoc-soan-bien-ban-ho-so-ve.md) - Bảng tính lấy trên Drive ntangoc2416.1@gmail.com, ngày mốc lấy từ sổ JAVIS PRO .xlsm, QĐ chưa có số thì để trống
 - [Đọc file Google Drive qua Composio, không cần tải tay](facts/doc-file-google-drive-qua-composio.md) - Drive đã đấu sẵn; phải truyền account googledrive_amala-ensign (ntangoc2416.1), googlesheets chưa đấu
 - [Hồ sơ kiểm tra MST 3603859012 - Sơn Tiền Hải](facts/ho-so-kiem-tra-mst-3603859012.md) - Vụ Sơn Tiền Hải (2022-2026, giải thể), soạn biên bản và hồ sơ về theo mẫu DNTN Thúy Hồng; nhiều mốc và số còn chờ user chốt.
+- [Hồ sơ kiểm tra MST 3603883505 - thư mục số 12](facts/ho-so-kiem-tra-mst-3603883505.md) - Vụ mới cần khởi tạo hồ sơ kiểm tra, MST 3603883505, thư mục số 12 trong 1. TD
