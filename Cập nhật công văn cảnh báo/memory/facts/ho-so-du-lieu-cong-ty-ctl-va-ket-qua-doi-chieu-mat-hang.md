@@ -2,9 +2,7 @@
 type: business
 provenance: user
 origin: javis-learned
-created: 2026-10-30
-updated: 2026-10-30
+created: 2026-11-03
+updated: 2026-11-03
 ---
-- **Hồ sơ doanh nghiệp:** CÔNG TY CỔ PHẦN CTL INVESTMENT (MST 3602996707, Giám đốc Trần Văn Tôn, Tổ Kiểm tra 1 - CBQL Nguyễn Vũ Quỳnh Như quản lý).
-- **Đường dẫn dữ liệu:** `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\2- HOA DON\1. XU LY RUI RO\03_BAN HANH CANH BAO RUI RO\2026\26.09\CTL`.
-- **Kết quả đối chiếu mặt hàng:** Tổng mua vào 631 tỷ đồng, bán ra 1.249,5 tỷ đồng. Lệch thiếu đầu vào 618,5 tỷ đồng (riêng nhóm thép thiếu 616,9 tỷ đồng). Giai đoạn tháng 06 - 11/2023 phát sinh doanh thu bán thép hơn 350,4 tỷ đồng nhưng không có hóa đơn mua vào nhóm thép.
+Sau khi người dùng gửi lại file HĐĐT có số lượng và thuế suất (kỳ chồng lấp 07/06/2022 - 15/11/2023), kết luận đối chiếu của Công ty cổ phần CTL Investment (MST 3602996707) đã đảo chiều: hàng hóa mua vào - bán ra khớp hiện vật thép đúng 72.892.113 kg (mua 1.227,5 tỷ / bán 1.228,8 tỷ đồng, lãi 0,10%). Đã rút lại kết luận thiếu 616 tỷ đồng đầu vào ở lượt phân tích trước (do file cũ thiếu số lượng và đứt kỳ). Phát hiện 431 cặp mua - bán cùng số lượng trong 0-2 ngày với biên chênh lệch chỉ +10/+15/+25 đ/kg, thể hiện hình thái doanh nghiệp trung gian hợp thức hóa hóa đơn.

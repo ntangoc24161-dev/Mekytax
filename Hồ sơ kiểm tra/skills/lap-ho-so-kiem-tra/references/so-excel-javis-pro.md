@@ -1,4 +1,7 @@
-# Sổ Excel JAVIS PRO - cấu trúc
+# Sổ Excel theo dõi - cấu trúc
+
+File làm việc: `Danh sach kiem tra quyet toan pro.xlsm` tại `00. Theo doi chung\`.
+File gốc tham chiếu: `Danh sach kiem tra quyet toan.xlsx`. Không tạo bak trong thư mục sổ.
 
 ## Sheet
 
@@ -11,7 +14,7 @@
 
 ## Chuyển trạng thái (macro)
 
-Mở `.xlsm`, bật Enable Content. Đổi trạng thái:
+Mở `pro.xlsm`, bật Enable Content. Đổi trạng thái:
 
 - `1. Đã ban hành` trên `02_DANG_THUC_HIEN` → chuyển sang `01_DA_BAN_HANH`.
 - `2. Đang thực hiện` trên `01_DA_BAN_HANH` → chuyển sang `02_DANG_THUC_HIEN`.

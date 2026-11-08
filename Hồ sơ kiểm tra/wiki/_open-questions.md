@@ -32,3 +32,13 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [x] (2026-10-30) Vụ Sơn Tiền Hải: lệch phạm vi và cập nhật thông tin hành chính. Đã xử lý theo chỉ đạo: đổi toàn bộ "chi phí quản lý kinh doanh" thành "chi phí quản lý doanh nghiệp", điền QĐKT 7092/QĐ-TCS3 và QĐGS 7093/QĐ-TCS3 ngày 26/10/2026, Kế toán Lê Hoài Phương, TK ngân hàng 6722949824 tại BIDV, các trường chưa cung cấp (CCCDKT) giữ để trống - status: resolved
 
 - [ ] (2026-10-30) Ngày hai văn bản nền: phôi cũ ghi QĐ 1614/QĐ-TCT ngày 13/10/2022 và QĐ 1377/QĐ-CT ngày 30/06/2026; bộ Mo Fa (MST 3603961087, ban hành 10/2026) ghi 13/10/2020 và 30/06/2025. Đã lấy theo bộ Mo Fa cho vụ Sơn Tiền Hải, **cần xác minh lại bản gốc hai quyết định** - status: open
+
+- [ ] (2026-11-06) [[Cấu trúc cột và phân công đoàn kiểm tra trên sổ theo dõi JAVIS PRO]]: đề xuất bổ sung từ chat 2026-11-06 (dedup) - status: open
+
+- [ ] (2026-11-06) [[Đối chiếu tổng tiền xử lý giữa sheet TINH PHAT và sổ theo dõi khi có thu hồi hoàn GTGT]]: model báo trùng với 'note' nhưng không tìm thấy trang đó - status: open
+
+- [ ] (2026-11-06) [[Chèn dòng miễn giảm TNDN và thuế còn phải nộp vào bảng BBKT năm có ưu đãi]]: model báo trùng với 'note' nhưng không tìm thấy trang đó - status: open
+
+- [ ] (2026-11-06) [[Giữ nguyên cấu trúc chỉ tiêu BBXN đã bổ sung khi cập nhật số liệu mới]]: model báo trùng với 'note' nhưng không tìm thấy trang đó - status: open
+
+- [ ] (2026-11-06) [[Số tài khoản ngân hàng trên Quyết định thu hồi hoàn thuế]]: model báo trùng với 'note' nhưng không tìm thấy trang đó - status: open

@@ -27,41 +27,47 @@ Bảng rỗng cả hai thì KHÔNG báo gì, kết thúc vòng ngay.
 
 ## 2. Phân việc cho dòng `Mới` trong sổ đến
 
-Với mỗi dòng trạng thái `Mới`: đọc trích yếu, chọn phòng thụ lý theo bảng dưới, rồi GHI vào
-chính dòng đó: `Phòng thụ lý`, `Hạn chót`, và đổi `Trạng thái` thành `Đã phân`.
+Với mỗi dòng trạng thái `Mới`: đọc trích yếu, chọn theo bảng dưới, rồi GHI vào chính dòng đó:
+`Phòng thụ lý`, `Hạn chót`, đổi `Trạng thái` thành `Đã phân`, và ghi vào `Kết quả báo lại` một
+dòng bàn giao theo mẫu:
+
+`Brain: <tên> · Chạy: <workflow hoặc agent> · Đầu ra: <file/sổ cần có>`
 
 Hạn chót tính từ ngày nhận: Hỏa tốc trong ngày, Thượng khẩn 1 ngày, Khẩn 2 ngày, Thường 5 ngày
 làm việc. Ngày hôm nay lấy bằng tool `javis_now`, đừng đoán.
 
-**Bảng phân việc (slug agent có thật trong `agents/`):**
+Map đầy đủ: `wiki/Ban-do-lien-ket-phong-brain.md`. Checklist: skill `ban-giao-lien-phong`.
 
-| Loại việc trong trích yếu | Phòng thụ lý |
-|---|---|
-| Công văn Công an, yêu cầu cung cấp hồ sơ NNT | `quản-lý-hồ-sơ-công-an` tiếp nhận, `soan-thao-tra-loi-cong-an` dự thảo trả lời |
-| Công văn cảnh báo rủi ro hóa đơn, NCC F0/F1 | `cập-nhật-công-văn-cảnh-báo-rủi-ro`, cần đối chiếu sâu thì `doi-chieu-rui-ro-ncc` |
-| Mở hồ sơ kiểm tra thuế, phân tích nhiều giai đoạn | `truong-phong-phan-tich-ho-so` (tự điều phối P0-P5 xuống GĐ1/2/3) |
-| Kiểm kê hồ sơ, xác định mức A-E (GĐ1) | `thu-ho-so-kiem-ke` |
-| Phân tích khi chưa có sổ DN (GĐ2) | `phan-tich-vien-cqt` |
-| Phân tích khi đã có sổ sách DN (GĐ3) | `phan-tich-vien-so-sach-dn` |
-| Đối chiếu GTGT, quyết toán TNDN, CBRR | `chuyen-vien-gtgt-tndn` |
-| Quyết toán TNCN, danh sách người lao động | `chuyen-vien-tncn` |
-| Kho, xuất nhập tồn, giá thành, định mức | `chuyen-vien-kho-gia-thanh` |
-| Doanh thu 511, giá vốn 632, lãi gộp | `chuyen-vien-doanh-thu-gia-von` |
-| Tiền mặt 111, công nợ 131/331, sao kê 112 | `chuyen-vien-cong-no-tien-mat` |
-| Nhà cung cấp, hóa đơn đầu vào rủi ro | `chuyen-vien-ncc-hoa-don` |
-| Gộp HĐĐT, bảng kê, làm sạch dữ liệu đầu vào | `chuyen-vien-du-lieu-dau-vao` |
-| Vướng căn cứ pháp lý, chính sách thuế | `phap-che-chinh-sach-thue` |
-| File scan, PDF, ảnh cần số hóa | `so-hoa-ocr-cong-van` |
-| Cần tra cứu hoặc tải văn bản trên iOffice | `tra-cuu-tai-cv-ioffice` |
-| Soạn hồ sơ đi, tờ trình trình ký | `soan-ho-so-di` |
-| Soạn biên bản, hồ sơ về, quyết định xử phạt | `soan-bien-ban-ho-so-ve` |
-| Khởi tạo hồ sơ, nhập bảng tính công ty | `khoi-tao-ho-so` |
-| Lập hồ sơ kiểm tra trên app nội bộ | `lap-ho-so-kiem-tra` |
-| Hỏi tri thức, chưng cất wiki | `tri-thuc-second-brain` |
+**Bảng phân việc (ưu tiên Brain đích; agent slug có trong VĂN THƯ hoặc brain chuyên):**
 
-Trích yếu không khớp dòng nào, hoặc thiếu thông tin để quyết: để `Trạng thái` nguyên là `Mới`,
-ghi vào `Kết quả báo lại` một câu nêu đúng chỗ còn thiếu, và nêu dòng đó trong báo cáo để người
-dùng quyết. TUYỆT ĐỐI không đoán phòng cho xong.
+| Loại việc trong trích yếu | Phòng thụ lý | Brain đích | Hướng chạy |
+|---|---|---|---|
+| Công văn Công an, cung cấp hồ sơ NNT | `quản-lý-hồ-sơ-công-an` rồi `soan-thao-tra-loi-cong-an` | Cung cấp thông tin công an | Workflow `quản-lý-công-văn-công-an` |
+| Cảnh báo rủi ro HĐ/NCC; đối chiếu mặt hàng | `cập-nhật-công-văn-cảnh-báo-rủi-ro` / `doi-chieu-rui-ro-ncc` | Cập nhật công văn cảnh báo | Workflow `day-chuyen-xu-ly-cv-canh-bao` |
+| Phân tích hồ sơ thuế nhiều giai đoạn / KQ1-3 | `truong-phong-phan-tich-ho-so` | Phân tích hồ sơ thuế | Workflow `phan-tich-ho-so-thue-3-giai-doan` |
+| Kiểm kê hồ sơ, mức A-E (GĐ1) | `thu-ho-so-kiem-ke` | Phân tích hồ sơ thuế | Agent GĐ1 hoặc workflow 3 giai đoạn |
+| Phân tích chưa có sổ DN (GĐ2) | `phan-tich-vien-cqt` | Phân tích hồ sơ thuế | Agent / workflow 3 giai đoạn |
+| Phân tích đã có sổ DN (GĐ3) | `phan-tich-vien-so-sach-dn` | Phân tích hồ sơ thuế | Agent / workflow 3 giai đoạn |
+| Đối chiếu GTGT, QTT TNDN, CBRR | `chuyen-vien-gtgt-tndn` | Phân tích hồ sơ thuế | Agent chuyên viên |
+| QTT TNCN, danh sách NLĐ | `chuyen-vien-tncn` | Phân tích hồ sơ thuế | Agent chuyên viên |
+| Kho, XNT, giá thành, định mức | `chuyen-vien-kho-gia-thanh` | Phân tích hồ sơ thuế | Agent chuyên viên |
+| Doanh thu 511, giá vốn 632 | `chuyen-vien-doanh-thu-gia-von` | Phân tích hồ sơ thuế | Agent chuyên viên |
+| Tiền mặt 111, công nợ 131/331 | `chuyen-vien-cong-no-tien-mat` | Phân tích hồ sơ thuế | Agent chuyên viên |
+| NCC / hóa đơn đầu vào rủi ro (trong hồ sơ KT) | `chuyen-vien-ncc-hoa-don` | Phân tích hồ sơ thuế | Agent chuyên viên |
+| Gộp HĐĐT, bảng kê, làm sạch đầu vào | `chuyen-vien-du-lieu-dau-vao` | Phân tích hồ sơ thuế | Agent chuyên viên |
+| Soạn hồ sơ đi / biên bản về / khởi tạo / app HS | `soan-ho-so-di` / `soan-bien-ban-ho-so-ve` / `khoi-tao-ho-so` / `lap-ho-so-kiem-tra` | Hồ sơ kiểm tra | Workflow `day-chuyen-ho-so-kiem-tra` (đang off: chạy từng agent) |
+| Vướng căn cứ pháp lý, chính sách thuế | `phap-che-chinh-sach-thue` | Cung cấp thông tin công an hoặc VĂN THƯ | Agent pháp chế |
+| File scan/PDF cần số hóa (chưa rõ phòng) | `so-hoa-ocr-cong-van` | VĂN THƯ | Workflow `quy-trinh-tiep-nhan-va-xu-ly-cong-van-den` hoặc agent OCR |
+| Tra cứu / tải văn bản iOffice cảnh báo | `tra-cuu-tai-cv-ioffice` | Cập nhật công văn cảnh báo | Đầu dây `day-chuyen-xu-ly-cv-canh-bao` |
+| Hỏi tri thức, chưng cất wiki | `tri-thuc-second-brain` | VĂN THƯ | Agent tri thức |
+| Ôn / giải đề khảo thí | (skill ôn tập) | Ôn tập thi | Skill giải đề / cheat-sheet |
+
+Trích yếu không khớp hoặc thiếu thông tin: để `Mới`, ghi chỗ thiếu vào `Kết quả báo lại`, nêu trong
+báo cáo. TUYỆT ĐỐI không đoán phòng cho xong.
+
+Sau khi phân: trong báo cáo vòng, với mỗi dòng vừa phân hãy viết thêm 1 câu
+`Đổi brain <X> → chạy <workflow/agent Y>` để người dùng biết thao tác tiếp. Không tự chạy
+workflow ở brain khác (không có cơ chế gọi chéo).
 
 ## 3. Đôn đốc
 
@@ -78,7 +84,7 @@ Chỉ báo khi vòng này CÓ thay đổi hoặc có việc quá hạn. Không c
 ### Văn thư trực sổ - <ngày giờ>
 
 **Vừa phân việc:** <N> văn bản
-- Số đến <số> · <trích yếu ngắn> -> <phòng thụ lý> · hạn <ngày>
+- Số đến <số> · <trích yếu ngắn> -> <phòng thụ lý> · Brain <tên> · chạy <workflow/agent> · hạn <ngày>
 
 **Quá hạn chưa báo kết quả:** <N>
 - Số đến <số> · <phòng> · hạn <ngày>, trễ <N> ngày

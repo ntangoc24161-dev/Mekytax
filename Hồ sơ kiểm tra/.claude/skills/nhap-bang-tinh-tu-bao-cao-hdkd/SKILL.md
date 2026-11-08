@@ -2,7 +2,7 @@
 name: Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế
 description: 'Điền KQKDSXKD từ PTDN02 (thiếu thì bù BCTC NamNay); có KQ2.1 thì đổ thêm GTGT và EBITDA.'
 group: Tài chính
-updated: '2026-10-23'
+updated: '2026-11-05'
 ---
 # Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế
 
@@ -17,7 +17,7 @@ Chiều NHẬP LIỆU đứng trước [[boc-tach-bang-tinh-phan-tich]]: lấy s
 
 ## Chuẩn bị (trước khi nhập)
 
-1. Thư mục vụ đã có `0. BIEN BAN\` và file `Bang tinh.xlsx` nhân bản từ mẫu `1. TD\BIEN BAN\Bang tinh.xlsx` (xem mục Chuẩn bị của skill `lap-ho-so-kiem-tra`; thuộc Trợ lý khởi tạo hồ sơ).
+1. Thư mục vụ đã có `0. BIEN BAN\` và file `Bang tinh.xlsx` nhân bản từ mẫu, đã đổi header `F5/F6/F7` (skill `tao-bang-tinh-tu-ptdn`; mục Chuẩn bị của `lap-ho-so-kiem-tra`; thuộc Trợ lý khởi tạo hồ sơ). Chưa có phôi thì chạy `tao-bang-tinh-tu-ptdn` trước, không nhập đè lên file mẫu chung.
 2. Xác định MST, tên NNT, thời kỳ kiểm tra (ví dụ 2022-2025).
 3. Backup trước khi ghi: copy `Bang tinh.xlsx` → `Bang tinh_backup_before_nhap_YYYYMMDD_HHMMSS.xlsx` trong cùng `0. BIEN BAN\`.
 

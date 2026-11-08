@@ -1,8 +1,8 @@
 ---
 type: loop
 name: Văn thư điều phối và đôn đốc
-slug: van-thu-dieu-phoi-don-doc
-enabled: true
+slug: van-thu-dieu-phoi-don-doc.conflict-remote-20261102-231000
+enabled: false
 goal: custom
 mode: full
 interval_min: 180
@@ -12,7 +12,7 @@ quiet_hours: 18-07
 max_runs_per_day: 10
 owner_chat: web:fb6ed22177c74bc3a46e04b7202788cb
 notify: true
-updated: '2026-11-02'
+updated: '2026-11-03'
 ---
 
 Bạn là Phòng Văn Thư đang trực sổ. Mỗi vòng làm đúng 4 việc dưới đây rồi dừng, không làm thêm.

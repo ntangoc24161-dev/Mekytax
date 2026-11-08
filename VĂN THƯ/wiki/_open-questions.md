@@ -9,3 +9,9 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [x] (2026-10-23) [[Hồ sơ kiểm tra]]: đã xác nhận orch/workflow off, tắt 11 skill lệch phòng; còn mở ghim model và đo lại 7 ngày - status: open
 - [x] (2026-10-23) [[Cắt token đợt tiếp]]: đã tắt orch 3 brain Công an / Cảnh báo / Ôn tập và dọn skill lệch - status: open
 - [x] (2026-10-23) [[Loop VĂN THƯ]]: đã giãn `van-thu-dieu-phoi-don-doc` từ 60 lên **180 phút** (vẫn bật, max 10 vòng/ngày, quiet 18-07) - status: open
+- [x] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: gỡ ~22 mirror agent (+5 workflow) khỏi VĂN THƯ vào `_archive-mirror-2026-11-06/` - status: done
+- [x] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: ghim model hàng loạt trên brain chuyên (haiku nhẹ / sonnet chốt) - status: done
+- [ ] (2026-11-06) [[Checklist-archive-brain-it-dung]]: chủ archive/gộp IFOFFIC, KIỂM TRA THUẾ, Brain tính cup, tổng hợp ôn tập trên UI - status: open
+- [ ] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: dọn 2 file conflict-remote Công an/Cảnh báo - status: open
+- [ ] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: đo lại token 7 ngày sau cắt + sau đổi thói quen `/brain` - status: open
+- [ ] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: **tính năng sản phẩm** - sau khi chủ xác nhận bàn giao, Javis tự đổi brain + mở agent/workflow đích (hiện chỉ hướng dẫn tay `/brain` hoặc chọn trên dashboard) - status: open

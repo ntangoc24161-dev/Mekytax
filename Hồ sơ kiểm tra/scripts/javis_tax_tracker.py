@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Doc va bao cao file Danh sach kiem tra quyet toan - JAVIS PRO.xlsx."""
+"""Doc va bao cao file Danh sach kiem tra quyet toan pro.xlsm."""
 
 import os
 import argparse
@@ -7,9 +7,10 @@ from datetime import datetime
 
 import openpyxl
 
-EXCEL_XLSM = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsm"
-EXCEL_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsx"
-FALLBACK_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan.xlsx"
+_SO_DIR = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung"
+EXCEL_XLSM = os.path.join(_SO_DIR, "Danh sach kiem tra quyet toan pro.xlsm")
+FALLBACK_PATH = os.path.join(_SO_DIR, "Danh sach kiem tra quyet toan.xlsx")
+EXCEL_PATH = EXCEL_XLSM  # ten cu EXCEL_PATH giu de tuong thich; chi dung pro.xlsm
 
 TRACK_SHEETS = ("01_DA_BAN_HANH", "02_DANG_THUC_HIEN")
 
@@ -17,8 +18,6 @@ TRACK_SHEETS = ("01_DA_BAN_HANH", "02_DANG_THUC_HIEN")
 def get_workbook():
     if os.path.exists(EXCEL_XLSM):
         target = EXCEL_XLSM
-    elif os.path.exists(EXCEL_PATH):
-        target = EXCEL_PATH
     else:
         target = FALLBACK_PATH
     return openpyxl.load_workbook(target, data_only=False), target

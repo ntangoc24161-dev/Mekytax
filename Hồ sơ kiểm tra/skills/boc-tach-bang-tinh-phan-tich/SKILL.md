@@ -43,14 +43,14 @@ Sheet phụ khi cần: `So sánh DThu` (đối chiếu doanh thu GTGT vs TNDN), 
 
 ## Quy trình
 
-1. **Xác định kỳ và MST** từ hàng 5-6 của `KQKDSXKD`, đối chiếu với sổ `Danh sach kiem tra quyet toan - JAVIS PRO.xlsm` để lấy đoàn, trạng thái, địa bàn.
+1. **Xác định kỳ và MST** từ hàng 5-6 của `KQKDSXKD`, đối chiếu với sổ `Danh sach kiem tra quyet toan pro.xlsm` để lấy đoàn, trạng thái, địa bàn.
 2. **Bóc số liệu từng năm** theo bản đồ mã chỉ tiêu ở trên, đúng khoảng năm của thời kỳ kiểm tra. Ghi lại giá trị thô (đồng), không làm tròn khi lưu.
 3. **Tính tỷ lệ** cho từng năm: giá vốn/DT, CPQLDN/DT, CPBH/DT, CPTC/DT (phần trăm, 2 chữ số thập phân). Mẫu số là doanh thu thuần (mã 10).
 4. **Viết Mục III - Phân tích tài chính** trong DI-01: bảng số liệu các năm + nhận xét xu hướng (doanh thu tăng/giảm, tỷ lệ giá vốn cao bất thường, chi phí biến động không tương ứng doanh thu). Mỗi khẳng định gắn số thật từ bảng tính.
 5. **Viết Mục IV - Đề xuất nội dung kiểm tra**, mỗi nội dung một dòng theo đúng cấu trúc:
    `- <tên nội dung kiểm tra>, thời kỳ kiểm tra: Từ năm <đầu> đến năm <cuối>.`
    Chọn chuyên đề từ các tỷ lệ bất thường vừa tính (ví dụ giá vốn cao → kiểm giá vốn; CPQLDN giảm sâu khó lý giải → kiểm CPQLDN).
-6. **Đồng bộ ngược sổ Excel**: cập nhật cột Nội dung kiểm tra và Thời kỳ của MST trên `Danh sach kiem tra quyet toan - JAVIS PRO.xlsm`/`.xlsx` cho khớp DI-01.
+6. **Đồng bộ ngược sổ Excel**: cập nhật cột Nội dung kiểm tra và Thời kỳ của MST trên `Danh sach kiem tra quyet toan pro.xlsm` cho khớp DI-01.
 7. **Nối sang điền biên bản / xuất hồ sơ**: bàn giao `dien-bien-ban-tu-bang-tinh` để đổ DTCHEP vào BBXN/BBKT, đồng bộ QĐ và chèn ngày; rồi `ho-so-kiem-tra-ke-hoach` để chuẩn hóa phôi, lint và xuất trọn gói.
 
 ## Ràng buộc

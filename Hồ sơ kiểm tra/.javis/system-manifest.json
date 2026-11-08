@@ -42,7 +42,7 @@
     },
     "skills/javis-builder": {
       "hash": "407a1eebf9248304be7d7d9db11d627afb38ef2fdb446661f8a68df776acd8f2",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/lint-wiki": {
       "hash": "68e678ad331e4a93bfa5fb0e8b173ea9fa9be83a0e47315d64c41346b9dd9e60",
@@ -86,7 +86,7 @@
     },
     "skills/phan-tich-ho-so-thue": {
       "hash": "beac9f64e39920c89f0def7715a5fdd9b59496a7a918db6c0b4f80ff9c4700c3",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/soan-thao-van-ban": {
       "hash": "fcf3347545705e3be39b2889e6ea1782f7036634d2601fd3ef6dd53204a85772",
@@ -94,7 +94,7 @@
     },
     "skills/doi-chieu-ncc-mua-vao-rui-ro": {
       "hash": "7a26ffdbaa5e23f2f6c921973680519543f39079e2c9a8856b5aae4a4dc01d91",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/doi-chieu-ncc-mua-vao-rui-ro/playbook-lenh.md": {
       "hash": "e4e269f57bda2d10887ab6eebd9c9ef276022c0ddbff0b0b1f4fbbb5db061b48",
@@ -193,8 +193,8 @@
       "status": "managed"
     },
     "skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md": {
-      "hash": "258b37b57df0dd38c4e0c0faccd4783edc86ac3df69a1e122d912ff6990fa9f7",
-      "status": "managed"
+      "hash": "1cf20092464abb6a3db7f2368c5384d59022464b8e4d7d49bd3e4cf327ad125b",
+      "status": "user-modified"
     },
     "skills/phan-tich-ho-so-thue/portable/build/PhanTichHoSoThue/Analysis-00.toc": {
       "hash": "08e8aafe92ca7cf68b7571d78920da4d7a61cad9517c10ac2a3d3b8adddc6944",
@@ -3990,5 +3990,5 @@
     }
   },
   "app_version": "0.64.21",
-  "synced_at": "2026-10-27T20:10:23+07:00"
+  "synced_at": "2026-11-06T09:29:28+07:00"
 }

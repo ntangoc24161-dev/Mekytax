@@ -57,3 +57,4 @@
 - [Quy tắc mặc định xử lý file PDF và ảnh scan (OCR)](facts/preference-mac-dinh-skill-ocr.md) - Mặc định dùng paddleocr (đọc ra chat), pdf-sang-md (ghi sources/) và tram-tai-lieu (Office/searchable PDF/thao tác trang).
 - [Hồ sơ công ty CTL và kết quả phân tích tương xứng hàng hóa mua bán](facts/ho-so-du-lieu-cong-ty-ctl-va-ket-qua-doi-chieu-mat-hang.md) - Dữ liệu CTL (MST 3602996707) phát hiện bán ra gấp 1,98 lần mua vào, thiếu hơn 616 tỷ đồng đầu vào nhóm thép
 - [Báo cáo Word phân tích đối chiếu mặt hàng mua bán công ty CTL](facts/ho-so-bao-cao-word-phan-tich-mat-hang-ctl.md) - Đã lập và lưu file Word báo cáo phân tích đối chiếu mặt hàng mua bán CTL tại thư mục CTL.
+- [Vị trí lưu trữ và đồng bộ skill đối chiếu mặt hàng mua bán](facts/luu-tru-va-dong-bo-skill-doi-chieu-mat-hang-mua-ban.md) - Skill doi-chieu-mat-hang-mua-ban được lưu tại brain hiện tại, shared-skills và brain Phân tích hồ sơ thuế

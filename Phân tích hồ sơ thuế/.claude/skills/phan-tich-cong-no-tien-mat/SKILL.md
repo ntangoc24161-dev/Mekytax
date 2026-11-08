@@ -4,8 +4,6 @@ description: "Quét chi tiền mặt TK 111, cụm HĐ cùng ngày, công nợ 1
 group: Tài chính
 updated: '2026-10-15'
 ---
-> **Hợp đồng đầu ra v1.4:** module nội bộ. Kết quả ghi vào sheet đích của sáu tệp KQ (xem skills/phan-tich-ho-so-thue/playbook-lenh-theo-buoc.md). Không giao tệp chuyên đề Tong_hop_*/Doi_chieu_* / Master 8 sheet như sản phẩm.
-
 # Phân tích công nợ và tiền mặt
 
 Quét phiếu chi TK 111 vượt ngưỡng, cụm nhiều HĐ cùng ngày cùng NCC (CD1 BT7), công nợ 131/331 (TC20), sao kê TK 112. Gắn BT7 từ `lam-sach-cd1-mst-hoa-don`.
@@ -31,7 +29,7 @@ Skill trục: `phan-tich-ho-so-thue` playbook Bước 8. Playbook lệnh: `playb
 3. **TK 112 / sao kê:** đối chiếu số dư / phát sinh lớn; nếu chỉ PDF thì kiến nghị Excel + chọn mẫu UNC gốc (HĐ ≥ ngưỡng, NCC F0).
 4. **TK 131:** phải thu, người mua trả trước (131 Có) vs ghi nhận DT (TC2 nếu > 5% DT).
 5. **TK 331:** nợ NCC lớn (TC20); thanh toán NH với NCC lớn / F0.
-6. Ghi sheet `KQ2_Cong_no_Tien_mat` của KQ2.2: số thật + khối nhận xét module (131/331, chi 111 vượt ngưỡng, sao kê PDF chưa kết luận UNC; ngoại lệ 3.4). Không 0 giả. Mức rủi ro/điểm vẫn chỉ ở KQ3.
+6. Master sheet `Cong_no_va_Ngan_hang`: số thật + Phần 4 báo cáo thiếu dữ liệu và kiến nghị đoàn. Không 0 giả.
 
 File: `Phan_tich_Tien_mat_va_Ngan_hang_<MST>_<KY>.xlsx` tại `cau-thanh/`.
 

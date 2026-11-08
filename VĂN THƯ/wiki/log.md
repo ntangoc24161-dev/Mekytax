@@ -21,3 +21,27 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 ## [2026-10-23] query | Ước tiết kiệm sau cắt
 - Tạo: [[Uoc-tinh-tiet-kiem-token-sau-cat]]
 - Cơ sở: background 86.3% tháng 10; orch off không xoá hết nhãn nền; loop 180 phút ~2% tổng.
+
+## [2026-10-23] update | Liên kết phòng/brain
+- Tạo: [[Ban-do-lien-ket-phong-brain]]
+- Skill mới: `skills/ban-giao-lien-phong/SKILL.md`
+- Sửa loop `van-thu-dieu-phoi-don-doc` + agent `phong-van-thu`: thêm Brain đích / hướng chạy / dòng bàn giao.
+
+## [2026-10-23] query | Ưu nhược phương pháp liên kết
+- Tạo: [[Phuong-phap-lien-ket-phong-uu-nhuoc]]
+
+## [2026-11-06] update | Backlog vận hành liên phòng
+- Tạo: [[Backlog-van-hanh-lien-phong]]
+- Skill `ban-giao-lien-phong` + agent `phong-van-thu`: bước hỏi xác nhận trước khi hướng dẫn đổi brain.
+- Ghim model hub: `phong-van-thu`/`so-hoa-ocr-cong-van` = haiku; `soan-thao-van-ban`/`tri-thuc-second-brain` = sonnet.
+- Kiểm kê mirror (22 ứng viên gỡ) + đề xuất archive 4 brain ít dùng; chưa xoá (chờ chủ).
+- Hướng dẫn `/brain` Telegram/Zalo tránh Default.
+
+## [2026-11-06] update | Duyệt backlog 1+2+3
+- Archive 22 agent mirror + 5 workflow chuyên khỏi VĂN THƯ → `_archive-mirror-2026-11-06/` (còn 4 agent hub + 4 workflow văn thư).
+- Ghim model 20 agent trên Phân tích / Hồ sơ kiểm tra / Công an / Cảnh báo (haiku nhẹ, sonnet chốt); bỏ qua 2 conflict-remote.
+- Tạo: [[Checklist-archive-brain-it-dung]] (chủ tự xoá brain trên UI).
+
+## [2026-11-06] update | Open question tự đổi brain
+- Chủ muốn: sau xác nhận bàn giao, Javis tự đổi brain + mở agent đích.
+- Ghi `_open-questions` + cập nhật mục tiêu [[Backlog-van-hanh-lien-phong]] mục 1 (vẫn là kế hoạch sản phẩm, chưa có hiện trạng).

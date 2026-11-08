@@ -51,7 +51,7 @@ Quy trình chuẩn lập, cập nhật và xuất trọn bộ hồ sơ kiểm tr
 - Thu thập số liệu doanh thu, biến động chi phí quản lý, chi phí bán hàng, chi phí tài chính qua các năm để đưa vào Mục III Bản phân tích thông tin (DI-01).
 
 ### Bước 2: Cập nhật sổ theo dõi Excel JAVIS PRO
-- Mở `Danh sach kiem tra quyet toan - JAVIS PRO.xlsm`.
+- Mở `Danh sach kiem tra quyet toan pro.xlsm`.
 - Sheet làm việc: `01_DA_BAN_HANH` (nếu xuất trình ký hoặc đã có số) hoặc `02_DANG_THUC_HIEN`.
 - Thời kỳ kiểm tra: `Từ năm YYYY đến năm YYYY`.
 - Nội dung kiểm tra: trình bày xuống dòng, có gạch đầu dòng:

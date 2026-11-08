@@ -2,8 +2,8 @@
 name: Phân tích hồ sơ kiểm tra thuế
 description: Phân tích hồ sơ kiểm tra thuế từ XML tờ khai/BCTC, Excel hóa đơn, sổ kế toán XNT, giá thành, công nợ, sao kê ngân hàng và 28 tiêu chí rủi ro.
 group: Tài chính
-updated: '2026-10-02'
-learned_updated: '2026-10-02'
+updated: '2026-11-05'
+learned_updated: '2026-11-05'
 ---
 # Phân tích hồ sơ kiểm tra thuế
 
@@ -14,6 +14,18 @@ Quy trình tự động hóa phân tích toàn diện hồ sơ kiểm tra thuế
 - "phân tích hồ sơ thuế", "đối chiếu hóa đơn tờ khai", "chấm rủi ro BCTC", "28 tiêu chí", "phân tích sổ nhập xuất tồn", "đối chiếu giá thành định mức", "rà soát sao kê ngân hàng", "quét chi tiền mặt TK 111".
 - Đoàn kiểm tra chuẩn bị kiểm tra tại bàn hoặc lập Đề cương kiểm tra tại trụ sở NNT.
 - NNT đã nộp XML tờ khai và/hoặc cung cấp thư mục hồ sơ kế toán (`CTY GUI` gồm Sổ Nhật ký chung, Sổ Chi tiết TK, Sổ XNT, Bảng giá thành, Định mức, Sổ công nợ 131/331, Bảng lương, Sao kê ngân hàng).
+
+## Chuỗi Bảng tính (skill cạnh)
+
+Khi cần phôi `Bang tinh.xlsx` cho DI-01 / biên bản (không thay sáu tệp KQ của quy trình 1.4 ở shared-skills):
+
+1. `tao-bang-tinh-tu-ptdn` - tạo `0. BIEN BAN\`, copy mẫu, đổi `F5/F6/F7`, xóa số mẫu.
+2. `nhap-bang-tinh-tu-bao-cao-hdkd` - KQKDSXKD từ PTDN02 (+ BCTC `NamNay`); GTGT/EBITDA từ `KQ2.1_*_FINAL`.
+3. `boc-tach-bang-tinh-phan-tich` - tỷ lệ chi phí, Mục III DI-01.
+
+Engine quét hồ sơ bỏ qua thư mục `BIEN BAN` và file PTDN01/PTDN02; chuỗi trên chạy bằng skill cạnh, không nhét PTDN vào IN GĐ1.
+
+**Chuẩn quy trình hiện hành:** bản shared-skills `phan-tich-ho-so-thue` (v1.4, sáu tệp KQ1.1-KQ3). Bản skill trong brain này giữ lịch sử 4 bước / Master; khi lệch ưu tiên shared + playbook 3 giai đoạn.
 
 ## Quy trình phân tích 4 bước chuẩn hóa
 

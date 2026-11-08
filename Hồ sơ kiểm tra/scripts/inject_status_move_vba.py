@@ -9,8 +9,9 @@ from pathlib import Path
 
 import win32com.client as win32
 
-XLSX_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsx"
-XLSM_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsm"
+_SO_DIR = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung"
+XLSX_PATH = rf"{_SO_DIR}\Danh sach kiem tra quyet toan.xlsx"  # file goc tham chieu
+XLSM_PATH = rf"{_SO_DIR}\Danh sach kiem tra quyet toan pro.xlsm"
 
 XL_OPEN_XML_WORKBOOK_MACRO = 52
 VB_EXT_CT_STD_MODULE = 1

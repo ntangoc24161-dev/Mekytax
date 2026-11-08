@@ -86,7 +86,7 @@ Nguồn: bảng quy định ký hiệu trình ký nội bộ. Mã cơ quan trong
 ### Quy tắc định dạng khi soạn thảo
 - **Dự thảo chưa có số:** ghi `Số:       /<ký hiệu>` (để khoảng trống giữa `Số:` và `/` để điền số sau).
 - **Đã có số phát hành:** ghi `Số: <số>/<ký hiệu>` (ví dụ: `Số: 15/QĐ-TCS3`).
-- **Công văn** không có tiền tố loại văn bản, có hậu tố đơn vị soạn thảo: ký hiệu là `/TCS3-KTr1` (ví dụ dự thảo: `Số:       /TCS3-KTr1`).
+- **Công văn** không có tiền tố loại văn bản: ký hiệu chỉ là `/TCS3` (ví dụ dự thảo: `Số:       /TCS3`).
 - Các loại còn lại: `/<viết tắt loại>-TCS3`.
 
 ### Bảng ký hiệu theo loại văn bản
@@ -94,7 +94,7 @@ Nguồn: bảng quy định ký hiệu trình ký nội bộ. Mã cơ quan trong
 | STT | Loại văn bản | Ký hiệu (mẫu dự thảo) | Người ký nháy ./. | Người trình ký | Người ký |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Quyết định | `Số:       /QĐ-TCS3` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Chi cục trưởng |
-| 2 | Công văn | `Số:       /TCS3-KTr1` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Trưởng Thuế cơ sở |
+| 2 | Công văn | `Số:       /TCS3` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Chi cục trưởng |
 | 3 | Tờ trình | `Số:       /TTr-TCS3` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Chi cục trưởng |
 | 4 | Báo cáo | `Số:       /BC-TCS3` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Chi cục trưởng |
 | 5 | Kế hoạch | `Số:       /KH-TCS3` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Chi cục trưởng |
@@ -108,26 +108,12 @@ Nguồn: bảng quy định ký hiệu trình ký nội bộ. Mã cơ quan trong
 | 13 | Phiếu báo | `Số:       /PB-TCS3` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Trưởng Thuế cơ sở |
 | 14 | Hợp đồng | `Số:       /HĐ-TCS3` | Tổ trưởng Tổ KTT số 1 | Trưởng Thuế cơ sở | Chi cục trưởng |
 
-### Luồng ký 3 cấp (áp dụng mặc định cho mọi loại văn bản)
-
-| Cấp | Người thực hiện | Hành động |
-| :--- | :--- | :--- |
-| **1** | Cán bộ đề xuất (user - Tổ Kiểm tra thuế số 1) | Soạn thảo, **ký nháy tại mục Lưu và Nơi nhận** |
-| **2** | Tổ trưởng Tổ Kiểm tra thuế số 1 | **Ký nháy/tắt sau dấu ./.** (lãnh đạo tổ trình ký) |
-| **3** | Trưởng Thuế cơ sở (hoặc KT.) | **Ký ban hành** theo thẩm quyền từng loại |
-
-> **Trường hợp cá biệt - ký thừa ủy quyền (KT.):** Khi Trưởng Thuế cơ sở vắng, khối chữ ký ghi:
-> `KT. TRƯỞNG THUẾ CƠ SỞ` (in hoa, đậm, dòng trên)
-> `PHÓ TRƯỞNG THUẾ CƠ SỞ` (in hoa, đậm, dòng dưới, căn giữa)
-> Ký KT. phải có văn bản ủy quyền, giới hạn thời gian và nội dung, không được ủy quyền lại.
-
 ### Áp dụng khi soạn
 1. Xác định đúng **loại văn bản** trong bảng trên.
 2. Chèn đúng **ký hiệu** tương ứng vào dòng Số/ký hiệu (để trống số nếu chưa cấp số).
-3. Khối chữ ký: chức vụ người ký theo cột **Người ký** trong bảng; trường hợp KT. dùng mẫu `KT. TRƯỞNG THUẾ CƠ SỞ / PHÓ TRƯỞNG THUẾ CƠ SỞ`.
-4. Cán bộ soạn thảo **ký nháy tại mục Lưu và Nơi nhận** (Cấp 1), Tổ trưởng **ký nháy/tắt sau dấu ./.** (Cấp 2), Trưởng Thuế cơ sở hoặc KT. ký ban hành (Cấp 3).
-5. Nếu loại văn bản không có trong bảng: hỏi lại hoặc dùng công thức `/<viết tắt>-TCS3`, không tự bịa tiền tố.
-
+3. Khối chữ ký: chức vụ người ký theo cột **Người ký** trong bảng.
+4. Người soạn thảo (Tổ trưởng Tổ KTT số 1) phải **ký nháy/tắt sau dấu ./.** và tại mục **Lưu, Nơi nhận** trước khi trình Trưởng Thuế cơ sở.
+5. Nếu loại văn bản không có trong bảng: hỏi lại hoặc dùng công thức `/\u003cviết tắt\u003e-TCS3`, không tự bịa tiền tố.
 
 ---
 
@@ -257,9 +243,7 @@ Nguồn: bảng quy định ký hiệu trình ký nội bộ. Mã cơ quan trong
 - **Lệch hàng bảng Footer:** Cột Nơi nhận và Cột Chức danh ký không cùng top-aligned dẫn đến chân trang bị so le, mất cân đối.
 - **Tràn trang sang trang tiếp theo:** Không khống chế giãn dòng (1.0 - 1.15) và khoảng cách đoạn (3pt), làm chữ ký rơi sang trang 2 chỉ có vài dòng chữ.
 - **Ký tự cấm em dash:** Tuyệt đối không sử dụng ký tự gạch ngang dài em dash trong toàn bộ văn bản.
-- **Sai ký hiệu TCS3:** Nhầm Công văn thành `/CV-TCS3` hoặc `/TCS3` (đúng là `/TCS3-KTr1`); nhầm Tờ trình thành `/TT-TCS3` (đúng là `/TTr-TCS3`); gắn nhầm người ký Chi cục trưởng cho Công văn (đúng là Trưởng Thuế cơ sở); gắn nhầm Chi cục trưởng cho nhóm giấy phép/phiếu (đúng là Trưởng Thuế cơ sở).
-- **Sai luồng ký 3 cấp:** Cán bộ đề xuất (Cấp 1) ký nháy tại mục **Lưu và Nơi nhận** - KHÔNG phải ký sau dấu ./. (vị trí đó dành cho Tổ trưởng - Cấp 2). Bỏ qua bất kỳ cấp nào là vi phạm Quy chế 3663/QĐ-CT.
-- **Sai mẫu KT.:** Khi ký thừa ủy quyền phải ghi đủ hai dòng `KT. TRƯỞNG THUẾ CƠ SỞ` và `PHÓ TRƯỞNG THUẾ CƠ SỞ`; không được bỏ dòng chức danh gốc hoặc ký ngay chức danh phó mà không có dòng KT.
+- **Sai ký hiệu TCS3:** Nhầm Công văn thành `/CV-TCS3` (đúng là `/TCS3`); nhầm Tờ trình thành `/TT-TCS3` (đúng là `/TTr-TCS3`); gắn nhầm người ký Chi cục trưởng cho Giấy nghỉ phép / Giấy giới thiệu / Phiếu gửi-chuyển-báo (các loại này Trưởng Thuế cơ sở vừa trình vừa ký).
 - **Thiếu ký nháy trước khi trình:** Tổ trưởng Tổ Kiểm tra thuế số 1 phải ký nháy/tắt sau dấu ./. và tại mục Lưu/Nơi nhận trước khi trình Trưởng Thuế cơ sở. Bỏ qua bước này là vi phạm Quy chế 3663/QĐ-CT.
 - **Nhầm tên cơ quan ban hành:** Tên đầy đủ chính thức là "THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI" (không phải "Chi cục Thuế khu vực III"); cơ quan cấp trên ghi là "THUẾ THÀNH PHỐ ĐỒNG NAI".
 
@@ -273,7 +257,7 @@ Trước khi xuất xưởng hoặc hoàn tất dự thảo văn bản, kiểm t
 - [ ] 2. Phông chữ Times New Roman toàn văn bản, bảng mã Unicode TCVN 6909:2001.
 - [ ] 3. Quốc hiệu, Tiêu ngữ và đường gạch ngang chuẩn quy cách, nằm trọn 1 dòng mỗi dòng.
 - [ ] 4. Tên cơ quan ban hành đúng cấp bậc, đường gạch ngang dưới bằng 1/3 đến 1/2 chiều dài.
-- [ ] 5. Số và ký hiệu đúng bảng TCS3 - Công văn dùng `/TCS3-KTr1`; đúng Người ký theo loại; trường hợp KT. ghi đủ 2 dòng.
+- [ ] 5. Số và ký hiệu đúng bảng TCS3 (`Số:       /<ký hiệu>` khi dự thảo; Công văn dùng `/TCS3`; đúng Người ký theo loại).
 - [ ] 6. Địa danh và ngày tháng năm in nghiêng, ngày/tháng nhỏ có số 0 phía trước.
 - [ ] 7. Trích yếu nội dung đúng vị trí, đúng cỡ chữ, kiểu chữ theo loại văn bản.
 - [ ] 8. Toàn bộ danh từ riêng, tên cơ quan, chức vụ tuân thủ đúng Phụ lục II viết hoa.
@@ -281,7 +265,6 @@ Trước khi xuất xưởng hoặc hoàn tất dự thảo văn bản, kiểm t
 - [ ] 10. Không có ký tự gạch ngang dài em dash, không có lỗi rớt trang chữ ký đơn độc.
 
 ## Lịch sử (tự học)
-- [2026-10-14] Cập nhật ký hiệu Công văn từ `/TCS3` thành `/TCS3-KTr1`. Đổi người ký Công văn từ Chi cục trưởng thành Trưởng Thuế cơ sở. Bổ sung luồng ký 3 cấp: Cán bộ đề xuất (ký nháy Lưu/Nơi nhận) - Tổ trưởng Tổ KTT số 1 (ký nháy sau ./.) - Trưởng Thuế cơ sở hoặc KT. (ký ban hành). Thêm mẫu khối chữ ký trường hợp cá biệt KT. TRƯỞNG THUẾ CƠ SỞ / PHÓ TRƯỞNG THUẾ CƠ SỞ.
 - [2026-10-13] Cập nhật tên cơ quan ban hành chính thức: **Thuế cơ sở 3 Thành phố Đồng Nai** (TCS3); cơ quan cấp trên: Thuế Thành phố Đồng Nai. Cập nhật luồng ký: Tổ trưởng Tổ Kiểm tra thuế số 1 ký nháy sau ./. -> Trưởng Thuế cơ sở trình ký -> Chi cục trưởng ký. Bổ sung quy trình phát hành, đóng dấu giáp lai (max 5 tờ), tiếp nhận văn bản đến (scan PDF max 10MB), lập hồ sơ và nộp lưu trữ (01 năm/giữ tối đa 2 năm) từ Quy chế 3663/QĐ-CT hiệu lực 01/01/2026.
 - [2026-10-13] Bổ sung bảng ký hiệu trình ký Chi cục Thuế khu vực III (TCS3): 14 loại văn bản, mẫu `Số:       /<ký hiệu>`, phân công Đội trưởng trình ký và Chi cục trưởng/Đội trưởng ký theo từng loại.
 - [2026-10-07] Khi áp cho `TONG HOP.docx` hồ sơ kiểm tra: tự nhận diện từng loại (tờ trình, quyết định, biên bản...); giữ floating header/Mẫu số của phôi; QĐKT/QĐGS dùng giãn dòng 1.0 để ưu tiên gọn 1 trang; script hỗ trợ `scripts/apply_soan_thao_van_ban_tong_hop.py`.

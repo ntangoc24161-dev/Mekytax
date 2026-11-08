@@ -1,5 +1,4 @@
 ## Bài học (tự học)
-- Vụ loại lương phải gắn đúng dòng QLDN trên DTCHEP; BBXN trưởng đoàn giải trình theo mẫu GVHB nhưng đổi thành chi phí quản lý doanh nghiệp, kèm bảng STT/họ tên/MST/số tiền ngay dưới câu */.
 - Điền xong bảng số DTCHEP rồi mới chèn bảng lương, vì add_table làm lệch chỉ số table phía sau.
 - File trên ổ Google Drive (G:) không save được bằng python-docx (sandbox chặn xóa file tạm khi ghi đè) - phải ghi bằng Word COM để lưu tại chỗ.
 - Word COM chạy ẩn trả wdHorizontalPositionRelativeToPage không đổi sau khi sửa indent (kể cả Repaginate) - canh vị trí glyph phải đo bề rộng chuỗi bằng System.Drawing GDI thay vì tin phép đo COM.
@@ -13,3 +12,5 @@
 - Ô gộp gridSpan làm python-docx đọc lặp nội dung ô, đừng vội kết luận bảng chữ ký bị lặp cột mà phải xem tcPr/gridSpan trước khi sửa.
 - Phiếu/QĐ hoàn giải thể lấy số thuế GTGT còn được khấu trừ cuối kỳ trên sheet GTGT (cột Khấu trừ), không lấy cột Đề nghị hoàn khi cột đó đang 0.
 - Phôi Mo Fa là hoàn xuất khẩu; khi lập hoàn giải thể phải viết lại khối đối chiếu (bỏ thuế suất 0%, cửa khẩu, nước nhập) và giữ Điều 32 NĐ 181/2025.
+- Canh chữ "Số" dưới "sở" phải xóa 16-21 space đầu dòng của phôi trước khi set indent, và tính indent = x(chữ SỞ) - (x đầu đoạn Số - indent cũ) một lần, vì Range.Information(5) không cập nhật sau khi sửa indent dù mở lại file.
+- Khối ký rớt trang mà giảm tới 3 dòng vẫn rớt thì giữ 5 dòng và set keep_with_next cho chức danh cùng các dòng trống để Word đẩy trọn khối sang trang sau; script giảm dòng phải nhắm khối cuối chứ không phải lần khớp đầu tiên.

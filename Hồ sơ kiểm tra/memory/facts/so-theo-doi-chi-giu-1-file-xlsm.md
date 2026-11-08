@@ -3,10 +3,16 @@ type: decision
 provenance: user
 origin: javis-learned
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-06
 ---
-**Quyết định (2026-10-19):** Sổ theo dõi kiểm tra quyết toán (JAVIS PRO) chỉ giữ **1 file `.xlsm`** duy nhất (có macro VBA tự chuyển dòng giữa 2 sheet trạng thái), xoá file `.xlsx` không macro cùng các bản sao lưu kèm theo, đổi tên chuẩn thành `Danh sach kiem tra quyet toan pro.xlsm`.
+**Quyết định (2026-10-19, chốt lại 2026-11-06):** Sổ theo dõi kiểm tra quyết toán chỉ làm việc trên **1 file `.xlsm`**: `Danh sach kiem tra quyet toan pro.xlsm` (có macro VBA tự chuyển dòng giữa 2 sheet trạng thái).
 
-**Vì sao:** File `.xlsx` trước đó chỉ tạo để dự phòng mở trên máy/phần mềm chặn macro, nhưng gây rủi ro 2 bản dữ liệu lệch nhau; mã VBA trong `.xlsm` không ảnh hưởng tới Word Mail Merge khi đọc trực tiếp dữ liệu từ file này.
+**Vì sao:** Tên cũ `Danh sach kiem tra quyet toan - JAVIS PRO.xlsm` / `.xlsx` đã bỏ; giữ song song nhiều bản dễ lệch dữ liệu. File gốc `Danh sach kiem tra quyet toan.xlsx` chỉ để tham chiếu, không phải file làm việc.
 
-**Áp dụng:** Khi thao tác với sổ theo dõi kiểm tra, chỉ dùng duy nhất file `Danh sach kiem tra quyet toan pro.xlsm` tại `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\`; không tạo lại bản `.xlsx` song song nữa.
+**Áp dụng:**
+- Đường dẫn: `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\`
+- File làm việc: **`Danh sach kiem tra quyet toan pro.xlsm`**
+- File gốc giữ nguyên: `Danh sach kiem tra quyet toan.xlsx`
+- **Không tạo** file `.bak` / bản sao lưu sổ trong `00. Theo doi chung\` (đã dọn sạch bak ngày 06/11/2026). Nếu cần backup tạm khi sửa, đặt ngoài thư mục này rồi xóa sau khi xong.
+- Không tạo lại bản `.xlsx` song song kiểu `- JAVIS PRO.xlsx`.
+- Skill/script/memory chỉ ghi tên `pro.xlsm`, không dùng tên `- JAVIS PRO` nữa.

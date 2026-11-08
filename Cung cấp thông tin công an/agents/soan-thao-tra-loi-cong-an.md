@@ -1,4 +1,4 @@
----
+﻿---
 type: agent
 name: Soạn thảo trả lời Công an
 slug: soan-thao-tra-loi-cong-an
@@ -8,8 +8,8 @@ group: Tài chính
 skills:
 - tra-loi-cong-van
 - soan-thao-van-ban
-model: ''
-updated: '2026-10-16'
+model: sonnet
+updated: '2026-11-06'
 reasoning: high
 ---
 

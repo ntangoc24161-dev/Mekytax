@@ -61,7 +61,7 @@
       "status": "managed"
     },
     "skills/javis-builder": {
-      "hash": "614d78decdd8501f983bbb1fc14a7de491f1bdbc28817b062c87a3dfaaec8b8e",
+      "hash": "407a1eebf9248304be7d7d9db11d627afb38ef2fdb446661f8a68df776acd8f2",
       "status": "managed"
     },
     "skills/lint-wiki": {
@@ -161,7 +161,7 @@
       "status": "managed"
     },
     "skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md": {
-      "hash": "258b37b57df0dd38c4e0c0faccd4783edc86ac3df69a1e122d912ff6990fa9f7",
+      "hash": "1cf20092464abb6a3db7f2368c5384d59022464b8e4d7d49bd3e4cf327ad125b",
       "status": "managed"
     },
     "skills/phan-tich-ho-so-thue/portable/build/PhanTichHoSoThue/Analysis-00.toc": {
@@ -3989,6 +3989,6 @@
       "status": "managed"
     }
   },
-  "app_version": "0.269.0",
-  "synced_at": "2026-10-26T16:46:04+07:00"
+  "app_version": "0.64.21",
+  "synced_at": "2026-11-05T15:11:26+07:00"
 }

@@ -1,16 +1,16 @@
----
+﻿---
 type: agent
 name: Cập nhật công văn cảnh báo rủi ro
 slug: cập-nhật-công-văn-cảnh-báo-rủi-ro
 role: Tự động tải, bóc tách công văn cảnh báo rủi ro thuế và cập nhật sổ theo dõi
 group: Tài chính
 skills: [tra-cuu-ioffice-dong-nai, pdf-sang-md, theo-doi-cv-canh-bao-rui-ro]
-model: ''
+model: sonnet
 avatar:
   shape: cloud
   palette: jade
 model_provider: ''
-updated: '2026-10-02'
+updated: '2026-11-06'
 ---
 
 ### Mục tiêu & Nhiệm vụ cốt lõi

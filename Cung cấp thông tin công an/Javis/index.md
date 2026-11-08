@@ -2,13 +2,18 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 4 agents · 39 skills · 1 workflows (1 bật) · 0 loops (0 bật) · 15 plugins (14 chạy)
+**Tổng quan:** 7 agents · 40 skills · 2 workflows (2 bật) · 1 loops (1 bật) · 15 plugins (14 chạy)
 
 ## Agents
-- **Khai thác dữ liệu hồ sơ** (`khai-thac-du-lieu-ho-so`) - trợ lý hỗ trợ - xuất bảng kê tiêu chí cung cấp và đối chiếu số liệu thuế khi công văn hoặc soạn thảo cần bằng chứng · skills: xuat-danh-sach-ho-so-ca, doi-chieu-ncc-mua-vao-rui-ro, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so
-- **Pháp chế & chính sách thuế** (`phap-che-chinh-sach-thue`) - trợ lý hỗ trợ - trả lời câu hỏi luật/chính sách có trích dẫn điều khoản khi Điều phối hoặc Soạn thảo vướng căn cứ · skills: thue-gtgt, thue-tncn, thue-tndn, hoa-don-dien-tu, luat-quan-ly-thue, xu-ly-rui-ro-thue-hoa-don, xu-phat-vphc-thue-hoa-don, quy-trinh-hoan-thue, quy-trinh-kiem-tra-thue, huong-dan-kiem-tra-chuyen-de, kiem-tra-thue-thuong-mai-dien-tu, luat-thuong-mai-dien-tu, quy-che-phoi-hop-kiem-tra-thue, luat-phong-chong-tham-nhung
-- **Tiếp nhận & Điều phối công văn** (`quản-lý-hồ-sơ-công-an`) - đầu vào phòng cung cấp hồ sơ Công an - tiếp nhận, bóc tách, tra cứu NNT, phân Tổ KT, cập nhật sổ và đóng thư mục · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-cuu-ioffice-dong-nai, pdf-sang-md, dong-bo-thu-muc-ca
-- **Soạn thảo trả lời Công an** (`soan-thao-tra-loi-cong-an`) - đầu ra giấy tờ của phòng - dự thảo công văn phúc đáp và tờ trình đúng thể thức NĐ 30/2020 từ gói bàn giao của Điều phối · skills: tra-loi-cong-van, soan-thao-van-ban
+### Chung
+- **khai-thac-du-lieu-ho-so** (`khai-thac-du-lieu-ho-so`) - 
+- **phap-che-chinh-sach-thue** (`phap-che-chinh-sach-thue`) - 
+- **quản-lý-hồ-sơ-công-an** (`quản-lý-hồ-sơ-công-an`) - 
+- **soan-thao-tra-loi-cong-an** (`soan-thao-tra-loi-cong-an`) - 
+### Tài chính
+- **Kiểm soát & Điều phối quy trình** (`kiem-soat-dieu-phoi-quy-trinh`) - quản lý chất lượng, kiểm soát chéo dữ liệu bóc tách, nghiệm thu từng bước và phân phối nhiệm vụ cho các trợ lý · model sonnet · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-loi-cong-van, in-phan-cong-kt1, soan-thao-van-ban, dong-bo-thu-muc-ca, xuat-danh-sach-ho-so-ca
+- **Tiếp nhận & Điều phối công văn** (`quản-lý-hồ-sơ-công-an.conflict-remote-20261022-155419`) - đầu vào phòng cung cấp hồ sơ Công an - tiếp nhận, bóc tách, tra cứu NNT, phân Tổ KT, cập nhật sổ và đóng thư mục · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-cuu-ioffice-dong-nai, pdf-sang-md, dong-bo-thu-muc-ca
+- **Theo dõi & Phân công công văn** (`theo-doi-phan-cong`) - theo dõi tiến độ, kiểm soát công văn mới, rà soát cán bộ xử lý và in ấn bàn giao hồ sơ Tổ KT1 · model sonnet · skills: in-phan-cong-kt1, theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong
 
 ## Skills
 ### AI
@@ -18,16 +23,17 @@
 - **Notes** (`notes`) - Lưu tin nhắn hiện tại nguyên văn vào sources/ (kèm ảnh), tự chưng cất lên wiki nếu note đáng.
 - **Query Wiki** (`query-wiki`) - Khai thác tri thức trong Second Brain: tổng hợp, so sánh, giả thuyết. Trả lời có trích dẫn.
 ### Marketing
-- **HTML sang Webcake** (`html-to-webcake`) - Chuyển trang HTML thành file .pke mở được trong trình dựng Webcake, giữ đúng màu, cỡ chữ, ảnh và bố cục của bản gốc.
+- **HTML sang Webcake** (`html-to-webcake`) · [TẮT] - Chuyển trang HTML thành file .pke mở được trong trình dựng Webcake, giữ đúng màu, cỡ chữ, ảnh và bố cục của bản gốc.
 ### Năng suất
+- **in-phan-cong-kt1** (`in-phan-cong-kt1`) - In đồng loạt công văn Công an giao Tổ KT1 trạng thái Mới, mỗi cán bộ một PDF chẵn trang, có dòng phân công đầu trang, đổi sang Đang xử lý.
 - **Luật Thương mại điện tử 2025** (`luat-thuong-mai-dien-tu`) - Luật Thương mại điện tử 2025: phân loại nền tảng số, hợp đồng điện tử, livestream, tiếp thị liên kết, logistics, thanh toán, CSDL TMĐT quốc gia.
 - **PaddleOCR** (`paddleocr`) - OCR ảnh và PDF bằng PaddleOCR qua MCP (tool ocr). Bảng/layout: đổi model PP-StructureV3.
 - **PDF sang Markdown** (`pdf-sang-md`) - Chuyển PDF/ảnh scan thành file Markdown (.md) cho Second Brain, giữ heading/bảng, lọc header/footer.
-- **Phân tích câu hỏi sinh đôi và Cheat Sheet ôn thi** (`phan-tich-cau-hoi-sinh-doi-cheat-sheet`) - Phân tích câu hỏi sinh đôi, tìm keyword cốt lõi, bóc tách bẫy đáp án, lập Cheat Sheet mapping và tóm tắt siêu tốc < 300 từ dạng Word/Excel ôn thi.
 - **Soạn thảo và chuẩn hóa văn bản hành chính** (`soan-thao-van-ban`) - Dự thảo, rà soát thể thức 29 loại VB hành chính theo NĐ 30/2020, viết hoa, chữ ký số và ký hiệu trình ký TCS3.
-- **Tiến trình supervisor tự động** (`tien-trinh-supervisor-tu-dong`) - Supervisor tự động điều phối, giám sát chu trình giải đề khảo thí cuốn chiếu, tự phục hồi khi gián đoạn mạng và kiểm kê đến khi đủ mục tiêu.
 - **Tra cứu và tải văn bản iOffice Đồng Nai** (`tra-cuu-ioffice-dong-nai`) - Tự động đăng nhập VNPT iOffice Đồng Nai, tra cứu văn bản đến/đi theo trích yếu, ngày tháng và tải tệp đính kèm về máy tính.
 - **Trạm tài liệu** (`tram-tai-lieu`) - Chuyển PDF/ảnh scan ra Word, Excel, TXT, PDF tìm kiếm được; xoay/ghép/tách trang; so chữ hai file; theo dõi thư mục.
+- **Phân tích câu hỏi sinh đôi và Cheat Sheet ôn thi** (`phan-tich-cau-hoi-sinh-doi-cheat-sheet`) · [TẮT] - Phân tích câu hỏi sinh đôi, tìm keyword cốt lõi, bóc tách bẫy đáp án, lập Cheat Sheet mapping và tóm tắt siêu tốc < 300 từ dạng Word/Excel ôn thi.
+- **Tiến trình supervisor tự động** (`tien-trinh-supervisor-tu-dong`) · [TẮT] - Supervisor tự động điều phối, giám sát chu trình giải đề khảo thí cuốn chiếu, tự phục hồi khi gián đoạn mạng và kiểm kê đến khi đủ mục tiêu.
 ### Tài chính
 - **Đối chiếu NCC mua vào với CVCBRR và danh bạ** (`doi-chieu-ncc-mua-vao-rui-ro`) - Đối chiếu NCC từ Bảng kê + HĐĐT với CVCBRR F0/F1, Công an, danh bạ; ghi nguồn Bảng kê/HĐĐT/Chung; Bảng 2.3 theo kỳ.
 - **Rà soát và đồng bộ thư mục Công văn hoàn tất** (`dong-bo-thu-muc-ca`) - Rà soát kiểm tra file công văn trả lời đã ký số trong toàn bộ thư mục công văn năm 2026 và tự động cập nhật hậu tố -R vào tên thư mục.
@@ -48,7 +54,7 @@
 - **Chính sách và kiểm tra thuế GTGT** (`thue-gtgt`) - Chính sách và kiểm tra thuế GTGT: Luật 48, Luật 149, NĐ 181, NĐ 359, NĐ 144, TT 69: thuế suất, ngưỡng 500tr, không dùng tiền mặt từ 5tr, khấu trừ…
 - **Chính sách và kiểm tra thuế TNCN** (`thue-tncn`) - Chính sách và kiểm tra thuế TNCN: Luật 109/2025, NĐ 253/2026, TT 87/2026: biểu 5 bậc, giảm trừ 15.5tr/6.2tr, khấu trừ 5tr 10%, tài sản số, vàng.
 - **Chính sách và kiểm tra thuế TNDN** (`thue-tndn`) - Chính sách và kiểm tra thuế TNDN: Luật 67/2025, NĐ 320/2025, TT 20/2026, TT 45: thuế suất 15-17%, không dùng tiền mặt từ 5tr, chi phí được trừ, ưu…
-- **Tra cứu NNT và phân Tổ Kiểm tra tự động** (`tra-cuu-nnt-tu-dong`) - Tra cứu MST, CQ thuế quản lý; chỉ phân KT1-KT3/CBQL nếu thuộc TCS3 (Vĩnh Cửu=KT2); CQ khác ghi tên vào ô Tổ KT.
+- **Tra cứu NNT và phân Tổ Kiểm tra tự động** (`tra-cuu-nnt-tu-dong`) - Tra cứu MST qua DB NNT và cổng thông tin, đọc cơ quan quản lý, phân Tổ KT1-KT3; MST ngoài TCS3 thì không gán CBQL.
 - **Trả lời công văn Công an** (`tra-loi-cong-van`) - Dự thảo công văn phúc đáp và tờ trình phê duyệt cung cấp hồ sơ cho Công an theo quy chuẩn thể thức và dữ liệu DB NNT.xls
 - **Quản lý rủi ro thuế và hóa đơn điện tử** (`xu-ly-rui-ro-thue-hoa-don`) - Quản lý rủi ro thuế và HĐĐT: QĐ 1264/2026 hệ số K, CV 1125/2026 siết cảnh báo, CV 1873/2022 25 dấu hiệu vi phạm, CV 2383/2021 giám sát HĐ.
 - **Xử phạt vi phạm hành chính về thuế và hóa đơn** (`xu-phat-vphc-thue-hoa-don`) - Xử phạt VPHC thuế và hóa đơn: NĐ 125, NĐ 310, NĐ 291, NĐ 68: sai thời điểm, không lập HĐ, trốn thuế, trao đổi thông tin QT, xử lý DN 03-06.
@@ -56,10 +62,13 @@
 - **Xem hồ sơ thuế điện tử** (`xem-ho-so-thue`) - Mở XML hồ sơ thuế, dựng tờ khai bằng mẫu iTax Viewer, kiểm chữ ký số, xuất HTML.
 
 ## Workflows
-- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 2 bước [quản-lý-hồ-sơ-công-an -> soan-thao-tra-loi-cong-an] · Tiếp nhận-phân tổ-ghi sổ rồi dự thảo công văn và tờ trình cho DN thuộc KT1-KT2-KT3.
+### Chung
+- **quản-lý-công-văn-công-an** (`quản-lý-công-văn-công-an`) - active · 0 bước []
+### Tài chính
+- **Quản lý công văn công an** (`quản-lý-công-văn-công-an.conflict-remote-20261022-155419`) - active · 2 bước [quản-lý-hồ-sơ-công-an -> soan-thao-tra-loi-cong-an] · Tiếp nhận-phân tổ-ghi sổ rồi dự thảo công văn và tờ trình cho DN thuộc KT1-KT2-KT3.
 
 ## Loops
-_(chưa có)_
+- **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an`) - bật · custom/full · mỗi 300 phút
 
 ## Plugins (tool/hook native cho mọi engine)
 - **Thời gian & ngày** (`datetime-vn`) - bundled/chạy · tools: javis_now, javis_date_add · Xem ngày giờ hiện tại theo múi giờ đã cấu hình và tính ngày tương đối (mai, mốt, N ngày nữa, tuần trước). Thuần stdlib, chỉ đọc, không cần mạng.
@@ -79,4 +88,5 @@ _(chưa có)_
 - **Gửi ảnh & file qua Zalo** (`zalo-image`) - bundled/chạy · tools: zalo_send_image · Gửi ẢNH hoặc FILE qua Zalo kèm lời nhắn, bằng chính tài khoản đã quét QR ở trang Kết nối. Bù đúng chỗ MCP chuẩn của zalo-agent-cli còn thiếu - tool zalo_send_message của nó chỉ nhận chữ.
 
 ## Cờ sức khoẻ
-- Agent chưa workflow nào dùng: khai-thac-du-lieu-ho-so, phap-che-chinh-sach-thue
+- Agent chưa workflow nào dùng: khai-thac-du-lieu-ho-so, kiem-soat-dieu-phoi-quy-trinh, phap-che-chinh-sach-thue, quản-lý-hồ-sơ-công-an.conflict-remote-20261022-155419, theo-doi-phan-cong
+- Skill đang tắt: html-to-webcake, phan-tich-cau-hoi-sinh-doi-cheat-sheet, tien-trinh-supervisor-tu-dong

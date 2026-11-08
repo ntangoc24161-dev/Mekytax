@@ -60,6 +60,7 @@ Chi tiết lệnh 3 giai đoạn: `skills/phan-tich-ho-so-thue/playbook-3-giai-d
 | `quan-ly-rui-ro-tuan-thu-thue` | Khung chọn đối tượng / bộ chỉ số TCT, không mổ 1 bộ sổ |
 | `xem-ho-so-thue` | Mở XML, dựng tờ khai iTax Viewer (shared-skills) |
 | `thue-tncn` | Chính sách TNCN (shared-skills); số liệu DN dùng `tong-hop-tncn-da-nguon` |
+| `doi-chieu-mat-hang-mua-ban` | HĐĐT mua vs bán theo mặt hàng, SL, đơn giá; bắt chuỗi trung gian. Khác `doi-chieu-ncc-mua-vao-rui-ro` / `doi-chieu-511-632` / `phan-tich-xnt-kho`. Playbook: `skills/doi-chieu-mat-hang-mua-ban/playbook-lenh.md` |
 
 Không dùng cho phân tích số liệu 1 DN: `xu-phat-vphc-thue-hoa-don`, `tra-loi-cong-van`, `soan-thao-van-ban`.
 

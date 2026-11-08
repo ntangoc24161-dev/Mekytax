@@ -11,3 +11,4 @@
 - [Xóa agent Yêu cầu Tài liệu khỏi lớp Văn thư](facts/xoa-agent-yeu-cau-tai-lieu-tcs3.md) - Người dùng quyết định xóa hẳn agent Yêu cầu Tài liệu, tinh gọn lớp Văn thư thành một cửa duy nhất.
 - [Quy tắc mặc định xử lý file PDF và ảnh scan (OCR)](facts/preference-mac-dinh-skill-ocr.md) - Mặc định dùng paddleocr (đọc ra chat), pdf-sang-md (ghi sources/) và tram-tai-lieu (Office/searchable PDF/thao tác trang).
 - [Quyết định giãn chu kỳ loop Văn thư điều phối lên 180 phút](facts/gian-loop-van-thu-180-phut.md) - Người dùng quyết định giãn chu kỳ loop Văn thư điều phối và đôn đốc lên 180 phút để tiết kiệm token.
+- [Phân bổ hồ sơ Công ty CP CTL Investment trên các Brain Javis](facts/ho-so-ctl-phan-bo-brain.md) - Hồ sơ Công ty CP CTL Investment (MST 3602996707) được xử lý phân tách theo hai brain chuyên môn: Cập nhật công văn cảnh báo và Phân tích hồ sơ thuế.

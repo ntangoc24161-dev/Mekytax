@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Tao lai file Danh sach kiem tra quyet toan - JAVIS PRO.xlsx theo cau truc moi.
+"""Tao lai / do du lieu vao Danh sach kiem tra quyet toan pro.xlsm theo cau truc moi.
 
 Thay doi chinh:
 - Bo sheet LICH_SU_2024, LICH_SU_2025, DU_LIEU_IN_AN
@@ -19,7 +19,7 @@ from openpyxl.formatting.rule import FormulaRule
 from openpyxl.worksheet.datavalidation import DataValidation
 
 SOURCE_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan.xlsx"
-TARGET_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\Danh sach kiem tra quyet toan - JAVIS PRO.xlsx"
+TARGET_PATH = r"G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\Danh sach kiem tra quyet toan pro.xlsm"
 
 FONT_NAME = "Times New Roman"
 STATUS_BAN_HANH = "1. Đã ban hành"

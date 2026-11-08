@@ -1,9 +1,9 @@
-﻿# Bộ nhớ Javis - Index
+# Bộ nhớ Javis - Index
 
 > Chỉ mục bộ nhớ dài hạn của Javis. Mỗi dòng = 1 ký ức, trỏ tới file trong `facts/`.
 > Nội dung file này được nạp vào đầu mỗi câu hỏi để Javis nhớ ngữ cảnh.
 
-- [Vị trí file Excel Danh sách kiểm tra quyết toán](facts/file-danh-sach-kiem-tra-quyet-toan.md) - Đường dẫn file Excel quản lý kiểm tra tại trụ sở người nộp thuế của người dùng.
+- [Vị trí file Excel Danh sách kiểm tra quyết toán](facts/file-danh-sach-kiem-tra-quyet-toan.md) - Sổ làm việc `Danh sach kiem tra quyet toan pro.xlsm` tại `00. Theo doi chung\`; giữ file gốc `.xlsx`.
 - [Căn cứ pháp lý kiểm tra thuế mới](facts/can-cu-phap-ly-kiem-tra-thue.md) - Quyết định 1161/QĐ-CT và Luật Quản lý thuế số 108/2025/QH15 thay thế QĐ 970/QĐ-TCT và Luật 38/2019/QH14.
 - [Cấu trúc và định dạng file Excel theo dõi kiểm tra thuế](facts/cau-truc-file-excel-theo-doi-kiem-tra-thue.md) - Yêu cầu cấu trúc sheet, phân loại trạng thái, ẩn/bỏ cột và font chữ cho file Excel theo dõi kiểm tra thuế.
 - [Vị trí file cơ sở dữ liệu Người nộp thuế](facts/vi-tri-file-db-nnt.md) - Đường dẫn file Excel DB NNT dùng để tra cứu thông tin doanh nghiệp theo MST.
@@ -41,11 +41,11 @@
 - [Ngày báo cáo và quy ước số 0 hồ sơ kiểm tra Vạn Phát Thành (MST 3601409441)](facts/ngay-bao-cao-va-gia-tri-khong-ho-so-van-phat-thanh.md) - Báo cáo giám sát, Báo cáo kết quả và Biên bản làm việc 04-TTKT lấy theo ngày báo cáo 16/10/2026; giá trị bằng 0 ghi số 0 thay vì dấu gạch ngang
 - [Thư mục lưu trữ và số thứ tự vụ Tâm Hoàng Phát (MST 3603721832)](facts/ho-so-kiem-tra-mst-3603721832-chuyen-thu-muc-va-so-thu-tu.md) - Đã chuyển xong sang `1. TD\10. TAM HOANG PHAT`; DI-01 khớp KQKD 2023-2025
 - [Kỹ năng điền biên bản từ Bảng tính, đồng bộ Quyết định và dọn dẹp file backup](facts/skill-dien-bien-ban-tu-bang-tinh-va-don-dep-ho-so.md) - Đã tạo skill dien-bien-ban-tu-bang-tinh gộp 4 bước: điền BBXN/BBKT, đồng bộ QĐ riêng, chèn ngày và dọn bak.
-- [Cấu trúc phòng làm việc các trợ lý chuyên trách trong brain Hồ sơ kiểm tra](facts/phong-lam-viec-cac-tro-ly-chuyen-trach-ho-so-kiem-tra.md) - Phòng làm việc gồm các trợ lý: Khởi tạo hồ sơ, Soạn thảo hồ sơ đi, Soạn thảo biên bản và hồ sơ về, và Tri thức
+- [Cấu trúc phòng làm việc các trợ lý chuyên trách trong brain Hồ sơ kiểm tra](facts/phong-lam-viec-cac-tro-ly-chuyen-trach-ho-so-kiem-tra.md) - Phòng làm việc gồm Quản lý kiểm soát hồ sơ, Khởi tạo hồ sơ, Soạn thảo hồ sơ đi, Soạn thảo biên bản và hồ sơ về, và Tri thức
 - [Bổ sung cột phân công nhiệm vụ đoàn kiểm tra trên sổ JAVIS PRO](facts/bo-sung-cot-phan-cong-nhiem-vu-doan-kiem-tra-excel-pro.md) - Cột 27 (AA) Phân công trưởng đoàn và cột 28 (AB) Phân công thành viên trong sổ Excel JAVIS PRO.
 - [Phân công nhiệm vụ đoàn kiểm tra vụ Tâm Hoàng Phát (MST 3603721832)](facts/phan-cong-nhiem-vu-doan-kiem-tra-tam-hoang-phat.md) - Trưởng đoàn phụ trách Chi phí QLDN và Bán hàng; Thành viên phụ trách Chi phí tài chính.
 - [Thông tin công ty Tâm Hoàng Phát (MST 3603721832)](facts/thong-tin-cong-ty-tam-hoang-phat.md) - Kế toán trưởng Phạm Thị Bích Duyên (mới thêm); GĐ Vũ Văn Sĩ, STK 114604422888 Vietinbank đã khớp sẵn; sổ đã có Số QĐKT thật 6899/QĐ-TCS3.
-- [Sổ theo dõi kiểm tra quyết toán chỉ giữ 1 file .xlsm duy nhất](facts/so-theo-doi-chi-giu-1-file-xlsm.md) - Quyết định bỏ bản .xlsx song song, chỉ dùng 1 file .xlsm đổi tên chuẩn, tránh lệch dữ liệu.
+- [Sổ theo dõi kiểm tra quyết toán chỉ giữ 1 file .xlsm duy nhất](facts/so-theo-doi-chi-giu-1-file-xlsm.md) - File chuẩn `Danh sach kiem tra quyet toan pro.xlsm`; giữ file gốc .xlsx; không tạo bak trong `00. Theo doi chung`.
 - [Thư mục 0. BIEN BAN và quy trình khởi tạo Bang tinh.xlsx cho vụ kiểm tra](facts/thu-muc-bien-ban-va-khoi-tao-bang-tinh-vu-kiem-tra.md) - Trước khi lập hồ sơ, tạo 0. BIEN BAN và copy Bang tinh.xlsx từ mẫu chung; do Trợ lý khởi tạo hồ sơ làm
 - [Quy tắc mặc định xử lý file PDF và ảnh scan (OCR)](facts/preference-mac-dinh-skill-ocr.md) - Mặc định dùng paddleocr (đọc ra chat), pdf-sang-md (ghi sources/) và tram-tai-lieu (Office/searchable PDF/thao tác trang).
 - [Hồ sơ kiểm tra Sơn Tiền Hải (MST 3603859012)](facts/ho-so-kiem-tra-mst-3603859012-son-tien-hai.md) - Sơn Tiền Hải kiểm tra kỳ 2022-10/2026, lần đầu kiểm tra để trống số QĐ, cấu trúc đoàn theo Vàng Bạc Thúy Hồng.
@@ -73,3 +73,9 @@
 - [Tiến độ hồ sơ về Sơn Tiền Hải và file dữ liệu trộn](facts/ho-so-ve-son-tien-hai-tien-do-va-file-du-lieu-tron.md) - Đã lập xong bộ hồ sơ về Sơn Tiền Hải theo phôi Mo Fa 2026, xuất file dữ liệu trộn du-lieu-tron_son-tien-hai_3603859012.xlsx
 - [Số Quyết định kiểm tra, giám sát và thông tin kế toán trưởng, tài khoản Sơn Tiền Hải](facts/so-quyet-dinh-va-thong-tin-phap-ly-son-tien-hai.md) - QĐKT 7092/QĐ-TCS3, QĐGS 7093/QĐ-TCS3 ngày 26/10/2026, Kế toán trưởng Lê Hoài Phương, STK 6722949824 BIDV.
 - [Hồ sơ hoàn thuế kiêm bù trừ giải thể Sơn Tiền Hải (MST 3603859012)](facts/ho-so-hoan-thue-giai-the-son-tien-hai-mst-3603859012.md) - Lập 2 file Word hoàn thuế giải thể Q1-Q4/2026 tại 0. BIEN BAN: thuế GTGT khấu trừ 134.931.758 đ, bù trừ 16.325.638 đ, còn hoàn 118.606.120 đ.
+- [File mẫu chung Bang tinh.xlsx đã dọn worklink ngoài và header công ty cũ (Hoàng Danh Phát)](facts/bang-tinh-mau-chung-da-don-worklink-va-header-cu.md) - Mẫu chung `1. TD\BIEN BAN\Bang tinh.xlsx` đã xoá 5 worklink ngoài + header Hoàng Danh Phát ở CDKT!F5:F8, có backup trước khi sửa.
+- [Số liệu truy thu, thu hồi hoàn GTGT và mốc ngày mới vụ Sơn Tiền Hải](facts/so-lieu-kiem-tra-moi-son-tien-hai-mst-3603859012.md) - Sơn Tiền Hải phát sinh thu hồi hoàn GTGT 25.752.960đ, tổng tiền xử lý tăng lên 48.899.062đ, ký BBKT ngày 09/11/2026.
+- [Hỏi trước khi sửa hồ sơ khi số liệu còn lệch](facts/preference-hoi-truoc-khi-sua-ho-so-lech-so.md) - Lệch Bảng tính, sổ và TONG HOP thì hỏi user rồi mới ghi file.
+- [Chốt cập nhật TONG HOP Sơn Tiền Hải 06/11/2026](facts/ho-so-kiem-tra-mst-3603859012-chot-cap-nhat-tong-hop.md) - Sổ 48.899.062, TNDN 2026 sau miễn giảm, giữ BBXN GTGT, BBKT 09/11, STK trên QĐ thu hồi hoàn.
+- [Mốc thời gian chốt vụ Sơn Tiền Hải (MST 3603859012)](facts/ho-so-kiem-tra-mst-3603859012-moc-thoi-gian-chot.md) - Kết thúc 06/11/2026, ký BBKT 09/11/2026, báo cáo 12/11/2026.
+- [Hồ sơ hoàn thuế Sơn Tiền Hải còn dùng số bù trừ cũ, chưa khớp TONG HOP mới](facts/ho-so-hoan-thue-son-tien-hai-chua-dong-bo-so-lieu-moi.md) - MS-03-DCS và DE XUAT HOAN GIAI THE lập 31/10 dùng bù trừ 16.325.638đ, còn hoàn 118.606.120đ - đã lệch với TONG HOP mới (48.899.062đ).

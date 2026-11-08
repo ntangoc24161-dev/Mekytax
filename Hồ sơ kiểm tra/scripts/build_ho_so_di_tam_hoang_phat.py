@@ -3,7 +3,7 @@
 
 Nguồn dữ liệu:
 - Phôi: templates/MAUTONG HOP.docx
-- Sổ: Danh sach kiem tra quyet toan - JAVIS PRO.xlsm (sheet 01_DA_BAN_HANH)
+- Sổ: Danh sach kiem tra quyet toan pro.xlsm (sheet 01_DA_BAN_HANH)
 - Bảng tính phân tích (DI-01): Bang tinh.xlsx trong thư mục vụ
 
 Quy cách xuất: TONG HOP.docx + 02 Quyết định độc lập + hoso.zip.

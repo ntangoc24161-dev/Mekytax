@@ -2,6 +2,6 @@
 url = "http://127.0.0.1:7777/hub/mcp"
 
 [mcp_servers.javis.headers]
-Authorization = "Bearer 2pZvHd1k5iwnuD7dClmfQkxH5zz-eyqipoX42HRmIrQ"
+Authorization = "Bearer OZhSTtNY_cs8U3S4TrxqYXgxcmqI9S47VmS2PzNVykw"
 X-Javis-Mode = "full"
-X-Javis-Vault = "/brains/Cung cấp thông tin công an"
+X-Javis-Vault = "D:\\SECOND BRAIN\\javis-os\\brains\\Cung cấp thông tin công an"
