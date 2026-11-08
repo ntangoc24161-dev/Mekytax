@@ -1,30 +1,18 @@
 ---
-superseded_by: ho-so-kiem-tra-mst-3603721832-chuyen-thu-muc-va-so-thu-tu
 type: business
-created: 2026-10-13
-updated: 2026-10-13
+provenance: source
+origin: javis-learned
+created: 2026-11-05
+updated: 2026-11-05
 ---
 Hồ sơ kiểm tra Công ty TNHH Thương mại Dịch vụ Tâm Hoàng Phát (MST: 3603721832):
-
-- Loại hình: KH (kế hoạch). Trên sổ JAVIS PRO sheet `01_DA_BAN_HANH` hàng 14: trạng thái Đã ban hành nhưng **chưa có** Số QĐKT/QĐGS và ngày ban hành.
 - Thời kỳ kiểm tra: Từ năm 2023 đến năm 2025.
 - Nội dung kiểm tra: Chi phí quản lý doanh nghiệp, Chi phí bán hàng, Chi phí tài chính.
-- Địa chỉ: 30A/5, KP4, Phường Hố Nai; Mã CQT `1140967`.
-- Giám đốc: Vũ Văn Sĩ; CCCD `075086016474`; Kế toán trưởng / CCCD KTT: trống trên sổ.
-- Chi nhánh: CHI NHÁNH CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TÂM HOÀNG PHÁT, MST: 3603721832-001.
-- TKNH: 114604422888 tại Vietinbank – CN KCN Biên Hòa, PGD Hố Nai.
-- Phân công đoàn (mặc định khi xuất hồ sơ đi): Nguyễn Thị Ánh Ngọc (Trưởng đoàn) - Chi phí QLDN và Chi phí bán hàng; Nguyễn Trần Thu Hà (Thành viên) - Chi phí tài chính.
-- Thư mục hồ sơ Word (đã chuyển 13/10/2026): `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\2026\1. TD\10. TAM HOANG PHAT\0. BIEN BAN\` (`TONG HOP.docx`, `QD Kiem tra tai cty Tam Hoang Phat.docx`, `QDgiam sat tai cty Tam Hoang Phat.docx`, `hoso.zip`, `Bang tinh.xlsx`).
-- Hồ sơ đi cập nhật 13/10/2026: header QĐ để trống `Số:` và ngày tháng trình ký; trong thân văn bản còn mã tạm `DU_THAO-TRINH-KY` vì sổ chưa có số thật. Tên công ty theo sổ: `Công Ty TNHH Thương Mại Dịch Vụ Tâm Hoàng Phát` (không viết hoa toàn bộ). Nội dung kiểm tra trên QĐKT mỗi ý 1 dòng, thụt đầu dòng 1 cm. Số liệu truy thu/phạt để `-` vì chưa chốt kết quả kiểm tra. DI-01 đã khớp `Bang tinh.xlsx` (KQKD 2023–2025).
-
-
-## Lịch sử
-- [2026-10-13] Bị thay thế bởi [[ho-so-kiem-tra-mst-3603721832-chuyen-thu-muc-va-so-thu-tu]] (user đổi thông tin).
-
-
-## Lịch sử
-- [2026-10-16] Bị thay thế bởi [[phan-cong-nhiem-vu-doan-kiem-tra-tam-hoang-phat]] (user đổi thông tin).
-
-
-## Lịch sử
-- [2026-10-26] Bị thay thế bởi [[ho-so-kiem-tra-mst-3603721832-chot-ho-so-ve-loai-luong-qldn]] (user đổi thông tin).
+- Đoàn: Nguyễn Thị Ánh Ngọc (Trưởng đoàn - Chi phí QLDN, Chi phí bán hàng), Nguyễn Trần Thu Hà (Thành viên - Chi phí tài chính).
+- Số QĐKT: `6899/QĐ-TCS3`; Số QĐGS: `6900/QĐ-TCS3`; Ngày ban hành: `15/10/2026`.
+- Định danh: địa chỉ 30A/5, KP4, Phường Hố Nai; ngành Lắp đặt hệ thống điện; GCN ĐKKD 3603721832 ngày 11/05/2020; GĐ Vũ Văn Sĩ (CCCD 075086016474); chi nhánh MST 3603721832-001.
+- Drive (`ntangoc2416.1@gmail.com`): `1. TD/10. TAM HOANG PHAT/0. BIEN BAN/` gồm Word QĐKT/QĐGS, `TONG HOP.docx`, `hoso.zip`, `Bang tinh.xlsx`. Sổ `Danh sach kiem tra quyet toan pro.xlsm` trong `00. Theo doi chung`.
+- Sổ theo dõi: dòng 14 sheet `01_DA_BAN_HANH`.
+- Số theo sheet `TINH PHAT + CHAM NOP (C T)` của Bảng tính (Drive 05/11/2026 03:40), thực tế tính đến 05/11/2026: ngày ký BBKT 12/11/2026; truy thu TNDN 19.719.634, GTGT 0; chậm nộp TNDN 4.747.340 (sổ cũ 4.670.434, đã sửa ô AR14), chậm nộp GTGT 0; phạt khai sai 20% 3.943.927; phạt thủ tục 0; tổng phát sinh 28.410.901 (khớp ô Q67 = 28.410.900,95).
+- Còn mở: cột AX giảm lỗ đang 0, Bảng tính không có chỉ tiêu giảm lỗ, chờ user cho số (lấy từ DTCHEP nếu có).
+- Bản vault: `exports/tam-hoang-phat-3603721832/` (gồm sổ .xlsm đã cập nhật). Bản sổ trên Drive chưa được ghi đè vì Composio không upload được file vault; user sửa tay AR14 hoặc tải bản vault lên. PDF trên Drive còn bản cũ chưa mang số QĐ.
