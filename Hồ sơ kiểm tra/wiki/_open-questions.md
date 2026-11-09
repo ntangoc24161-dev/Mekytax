@@ -42,3 +42,5 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-11-06) [[Giữ nguyên cấu trúc chỉ tiêu BBXN đã bổ sung khi cập nhật số liệu mới]]: model báo trùng với 'note' nhưng không tìm thấy trang đó - status: open
 
 - [ ] (2026-11-06) [[Số tài khoản ngân hàng trên Quyết định thu hồi hoàn thuế]]: model báo trùng với 'note' nhưng không tìm thấy trang đó - status: open
+
+- [ ] (2026-11-08) [[Quy trình phối hợp 4 trợ lý chuyên trách kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-08 (dedup) - status: open

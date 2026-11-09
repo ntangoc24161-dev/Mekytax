@@ -1,8 +1,8 @@
 ---
 type: agent
-name: Quản lý và kiểm soát hồ sơ kiểm tra
+name: Giám sát hồ sơ
 slug: quan-ly-ho-so-kiem-tra
-role: Quản lý điều phối dây chuyền và kiểm soát chất lượng hồ sơ kiểm tra thuế.
+role: Giám sát tiến độ, kiểm soát chất lượng và điều phối dây chuyền hồ sơ kiểm tra thuế.
 group: Tài chính
 tags: [Tài chính, Vận hành]
 skills:

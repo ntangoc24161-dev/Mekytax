@@ -147,3 +147,6 @@
 - [Đã đồng bộ agent thư ký và workflow theo Skill GĐ3 mới](facts/decision-can-dong-bo-agent-thu-ky-theo-skill-gd3-moi.md) - Hoàn tất 23/10/2026; chuyển sang decision phòng 6 thư ký.
 - [Đồng bộ playbook và skill trục theo phòng 6 thư ký và biểu mẫu vòng 2](facts/decision-dong-bo-playbook-va-skill-truc-phong-6-thu-ky.md) - Rà soát và đồng bộ toàn bộ playbook và skill trục phan-tich-ho-so-thue khớp mô hình 6 thư ký
 - [Tiến độ bóc tách sổ phụ ngân hàng, hợp đồng và đối chiếu EBITDA T&T Biên Hòa](facts/user-tien-do-boc-tach-sao-ke-hop-dong-tt-bien-hoa.md) - Sổ 112/2025 lộ chi phí trả góp thuê xe và lãi vay (TK 341/635), lệch với EBITDA lãi vay = 0
+- [Đổi tên hiển thị 6 agent, giữ nguyên slug](facts/decision-doi-ten-hien-thi-6-agent-giu-slug.md) - Tên vai ngắn sát việc; slug bị workflow và skill tham chiếu nên khóa cứng.
+- [Sửa 3 chỗ rủi ro bịa số: model, câu lệnh file giải trình, soát số](facts/decision-sua-ba-diem-giup-kinh-dich-khi-bia-so.md) - Nâng model Kết luận rủi ro, sửa câu lệnh file NNT, thêm soát số cho Trưởng phòng.
+- [Người dùng yêu cầu sửa cả 3 điểm rủi ro trợ lý bịa thông tin](facts/pref-yeu-cau-khac-phuc-3-rui-ro-bia-so-tro-ly-thue.md) - User đồng ý sửa mâu thuẫn file giải trình 10 sheet, kiểm soát nhận xét narrative và nâng cấp model/chặn ảo giác.

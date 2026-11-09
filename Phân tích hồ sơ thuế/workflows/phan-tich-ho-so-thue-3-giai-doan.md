@@ -24,7 +24,7 @@ updated: 2026-10-23
 ---
 Chuỗi Lệnh 1 rồi Lệnh 2 rồi Lệnh 3 cho một doanh nghiệp, theo bộ mẫu v1.4 vòng 2.
 
-Phòng làm việc gọn **6 vai**: Thủ hồ sơ GĐ1, Dữ liệu đầu vào, Phân tích viên KQ2.1 CQT, Phân tích viên KQ2.2 sổ công ty, Phân tích viên kết luận GĐ3, Trưởng phòng.
+Phòng làm việc gọn **6 vai**: Kiểm kê hồ sơ (GĐ1), Chuẩn hóa dữ liệu, Đối chiếu dữ liệu thuế (KQ2.1), Soát sổ sách công ty (KQ2.2), Kết luận rủi ro (GĐ3), Trưởng phòng điều phối.
 
 Đầu vào bắt buộc trong {{input}}: folder tuyệt đối của DN, MST, kỳ kiểm tra. Tên DN và loại hình nếu có thì ghi luôn.
 

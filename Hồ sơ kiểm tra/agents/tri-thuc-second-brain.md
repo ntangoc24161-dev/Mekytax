@@ -1,8 +1,8 @@
 ﻿---
 type: agent
-name: Trợ lý tri thức
+name: Wiki quản lý
 slug: tri-thuc-second-brain
-role: Người giữ wiki Second Brain sống và trả lời có trích dẫn.
+role: Giữ wiki Second Brain sống, trả lời có trích dẫn và tích luỹ tri thức.
 group: AI
 skills: [ingest-source, query-wiki, lint-wiki]
 model: sonnet
