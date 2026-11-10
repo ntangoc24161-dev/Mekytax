@@ -167,3 +167,8 @@ Liên quan: [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]], [[K�
 
 Đã tạo:
 - [[Hồ sơ đề xuất hoàn thuế kiêm bù trừ thu ngân sách đối với doanh nghiệp giải thể]]
+
+## [2026-11-09] ingest | tự học từ chat
+
+Đã tạo:
+- [[Cấu trúc bộ hồ sơ xác minh NCC rủi ro và TNCN nhiều nguồn thu nhập]]

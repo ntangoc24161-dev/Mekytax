@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "source": "kanban.sqlite3",
-  "orchestration": "off",
+  "orchestration": "auto",
   "tasks": [
     {
       "id": "t_cc3f211a25e2",
@@ -29,6 +29,17 @@
       "created_at": 1790392554.368512,
       "updated_at": 1790694653.875764,
       "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
       "metadata": {
         "route": "auto",
         "capability": "files",
@@ -179,6 +190,17 @@
       "created_at": 1790404237.4289548,
       "updated_at": 1793018776.9212155,
       "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
       "metadata": {
         "acceptance": [
           "Thu thập đủ 10 đề thi mới từ Đề 41 đến Đề 50 của kíp P3-39917 từ cổng taxedu",
@@ -220,7 +242,116 @@
           "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
         }
       ]
+    },
+    {
+      "id": "t_eaa5d3a95f23",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
+      "title": "CV 7268: Thu thập → OCR → Nạp sổ F0/F1",
+      "intent": "Thu thập CV 7268 từ HO SO MOI trên Google Drive, OCR sang Markdown, trích xuất dữ liệu doanh nghiệp rủi ro nạp vào sheet F0/F1 của Sổ theo dõi Excel và chuẩn hóa sắp xếp file công văn gốc.",
+      "route": "wf:day-chuyen-xu-ly-cv-canh-bao",
+      "capability": "files",
+      "execution_mode": "full",
+      "priority": 2,
+      "status": "cancelled",
+      "needs_approval": false,
+      "block_kind": "cancelled",
+      "block_reason": "worker cancelled",
+      "created_by": "chat",
+      "chat_id": "web:2607e2eea2cd4bc48c34ac9ad92e68f6",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "last_heartbeat_at": 1794160993.7223375,
+      "current_run_id": "",
+      "result": "📌 **Đã xác minh độc lập** (đọc lại chuỗi QC bước 2 → 3 → 4 trong `memory/agents/kiem-soat-chat-luong-du-lieu/runs/2026-11-09.md` và `memory/facts/yeu-cau-xu-ly-cv-7268-ho-so-moi.md`): toàn bộ workflow CV 7268 đã bị chặn **từ bước 1 (Thu thập)** — không có 5 file nguồn nào tồn tại trên ổ D, không có folder \"HO SO MOI\". QC bước 2, 3, 4 đều đã kết luận ❌ KHÔNG ĐÁNH GIÁ ĐƯỢC vì không có artifact nào để chấm.\n\n🔍 **KẾT QUẢ KIỂM SOÁT CHẤT LƯỢNG — QC bước 5 (Soạn thảo)**\n\n📋 **Công văn:** CV 7268 (số/đơn vị ban hành/kỳ áp dụng chưa xác nhận)\n⏰ **Thời gian:** 2026-11-09\n\n=== KIỂM TRA SOẠN THẢO ===\n❌ **Không thể kiểm tra — không có công văn dự thảo nào để soát.**\n\nLý do: Nội dung nhận được từ agent `soan-thao-van-ban` không phải một dự thảo công văn, mà là yêu cầu xác nhận dữ liệu đầu vào — đúng, vì chưa từng có bước OCR/bóc tách/nạp sổ/đối chiếu nào hoàn tất cho CV 7268. 4 hạng mục kiểm tra soạn thảo (khớp F0/F1, trích dẫn luật, không bịa số, format NĐ 30) đều **không có gì để đối chiếu** — sổ F0/F1 chưa có dòng nào của CV 7268, Bảng 2.1–2.3 chưa tồn tại.\n\nViệc agent soạn thảo dừng lại và hỏi xác nhận là **đúng quy trình**, không phải lỗi soạn thảo.\n\n=== KẾT LUẬN ===\n❌ **KHÔNG PHÊ DUYỆT / KHÔNG ĐÁNH GIÁ ĐƯỢC** — trả về **bước 1 (Thu thập)**, không phải bước 4 hay 5. Yêu cầu còn treo (chưa có ai trả lời qua cả 4 vòng QC):\n\n1. Đường dẫn/nguồn thật của 5 file CV 7268 (Google Drive / iOffice / email / folder local khác tên)\n2. Số CV gốc, đơn vị ban hành, ngày gửi/kỳ áp dụng, MST NNT liên quan\n3. Tên + định dạng cụ thể của 5 file\n\n**Ghi chú quy trình:** 3 lượt QC gần nhất (#1 OCR, #2 bóc tách, #3 đối chiếu, #4 soạn thảo) đều trả về cùng một nguyên nhân gốc chưa được giải quyết. Không cần lặp lại kiểm tra riêng từng bước nữa cho đến khi chủ cung cấp 3 mục trên — một khi có nguồn file, chạy lại toàn chuỗi Thu thập → OCR → Bóc tách → Nạp F0/F1 → Đối chiếu → Soạn thảo rồi QC lại từ đầu.",
+      "created_at": 1794159451.4770765,
+      "updated_at": 1794160997.2122238,
+      "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "File Markdown kết quả OCR của CV 7268 được tạo và kiểm tra cấu trúc/bảng sạch",
+          "Dữ liệu doanh nghiệp rủi ro từ CV 7268 được nạp chính xác vào sheet F0 hoặc F1 trong file SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx (không trùng lặp)",
+          "File PDF gốc được di chuyển ra khỏi HO SO MOI, đổi tên đúng chuẩn Năm_SoCV_CoQuan_SoCongTy vào thư mục lưu trữ quy định",
+          "Báo cáo số dòng đã nạp vào F0/F1, số lỗi QC (nếu có) và đường dẫn file sau khi sắp xếp"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "name": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "key": ""
+        },
+        "route": "wf:day-chuyen-xu-ly-cv-canh-bao",
+        "capability": "files",
+        "run_seconds": 317,
+        "acceptance_from": "done",
+        "qa": [
+          {
+            "kind": "acceptance_fix",
+            "q": "Workflow bị chặn từ bước 1 do không có file nguồn CV 7268 nên chưa tạo file OCR, chưa nạp dữ liệu F0/F1 và chưa sắp xếp lưu trữ file gốc.",
+            "a": "Workflow bị chặn từ bước 1 do không có file nguồn CV 7268 nên chưa tạo file OCR, chưa nạp dữ liệu F0/F1 và chưa sắp xếp lưu trữ file gốc.",
+            "by": "checker",
+            "asked_at": 1794159828.211107,
+            "answered_at": 1794159828.211107,
+            "progress": "📌 **Đã xác minh độc lập** (đọc lại chuỗi QC bước 2 → 3 → 4 trong `memory/agents/kiem-soat-chat-luong-du-lieu/runs/2026-11-09.md` và `memory/facts/yeu-cau-xu-ly-cv-7268-ho-so-moi.md`): toàn bộ workflow CV 7268 đã bị chặn **từ bước 1 (Thu thập)** — không có 5 file nguồn nào tồn tại trên ổ D, không có folder \"HO SO MOI\". QC bước 2, 3, 4 đều đã kết luận ❌ KHÔNG ĐÁNH GIÁ ĐƯỢC vì không có artifact nào để chấm.\n\n🔍 **KẾT QUẢ KIỂM SOÁT CHẤT LƯỢNG — QC bước 5 (Soạn thảo)**\n\n📋 **Công văn:** CV 7268 (số/đơn vị ban hành/kỳ áp dụng chưa xác nhận)\n⏰ **Thời gian:** 2026-11-09\n\n=== KIỂM TRA SOẠN THẢO ===\n❌ **Không thể kiểm tra — không có công văn dự thảo nào để soát.**\n\nLý do: Nội dung nhận được từ agent `soan-thao-van-ban` không phải một dự thảo công văn, mà là yêu cầu xác nhận dữ liệu đầu vào — đúng, vì chưa từng có bước OCR/bóc tách/nạp sổ/đối chiếu nào hoàn tất cho CV 7268. 4 hạng mục kiểm tra soạn thảo (khớp F0/F1, trích dẫn luật, không bịa số, format NĐ 30) đều **không có gì để đối chiếu** — sổ F0/F1 chưa có dòng nào của CV 7268, Bảng 2.1–2.3 chưa tồn tại.\n\nViệc agent soạn thảo dừng lại và hỏi xác nhận là **đúng quy trình**, không phải lỗi soạn thảo.\n\n=== KẾT LUẬN ===\n❌ **KHÔNG PHÊ DUYỆT / KHÔNG ĐÁNH GIÁ ĐƯỢC** — trả về **bước 1 (Thu thập)**, không phải bước 4 hay 5. Yêu cầu còn treo (chưa có ai trả lời qua cả 4 vòng QC):\n\n1. Đường dẫn/nguồn thật của 5 file CV 7268 (Google Drive / iOffice / email / folder local khác tên)\n2. Số CV gốc, đơn vị ban hành, ngày gửi/kỳ áp dụng, MST NNT liên q"
+          }
+        ],
+        "acceptance_fixes": 1
+      },
+      "artifacts": [
+        {
+          "type": "file",
+          "path": "memory/agents/kiem-soat-chat-luong-du-lieu/runs/2026-11-09.md"
+        },
+        {
+          "type": "file",
+          "path": "memory/facts/yeu-cau-xu-ly-cv-7268-ho-so-moi.md"
+        }
+      ],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-09 00:37",
+          "msg": "created by chat"
+        },
+        {
+          "ts": "2026-11-09 00:38",
+          "msg": "claimed by worker:7040:688c2cc0"
+        },
+        {
+          "ts": "2026-11-09 00:38",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-11-09 00:38",
+          "msg": "claimed by worker:7040:bb053609"
+        },
+        {
+          "ts": "2026-11-09 00:43",
+          "msg": "Workflow bị chặn từ bước 1 do không có file nguồn CV 7268 nên chưa tạo file OCR, chưa nạp dữ liệu F0/F1 và chưa sắp xếp lưu trữ file gốc."
+        },
+        {
+          "ts": "2026-11-09 00:43",
+          "msg": "claimed by worker:7040:87ffb783"
+        },
+        {
+          "ts": "2026-11-09 01:03",
+          "msg": "worker cancelled"
+        }
+      ]
     }
   ],
-  "updated": 1793018776.9237275
+  "updated": 1794160998.1401448
 }

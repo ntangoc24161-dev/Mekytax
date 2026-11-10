@@ -2,12 +2,13 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 6 agents · 31 skills · 1 workflows (1 bật) · 0 loops (0 bật) · 27 plugins (26 chạy)
+**Tổng quan:** 7 agents · 31 skills · 2 workflows (1 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
 
 ## Agents
-- **Cập nhật công văn cảnh báo rủi ro** (`cập-nhật-công-văn-cảnh-báo-rủi-ro.conflict-remote-20261022-155419`) - Bóc tách công văn cảnh báo đã số hóa và nạp dòng mới vào sheet F0 bên bán, F1 bên mua · skills: theo-doi-cv-canh-bao-rui-ro · tags: Tài chính
 - **cập-nhật-công-văn-cảnh-báo-rủi-ro** (`cập-nhật-công-văn-cảnh-báo-rủi-ro`) - 
 - **doi-chieu-rui-ro-ncc** (`doi-chieu-rui-ro-ncc`) - 
+- **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
+- **Kiểm soát chất lượng dữ liệu** (`kiem-soat-chat-luong-du-lieu`) - Kiểm tra chất lượng OCR, bóc tách, đối chiếu, soạn thảo để tránh bịa số liệu và sai sót · model sonnet · skills: paddleocr, theo-doi-cv-canh-bao-rui-ro, doi-chieu-ncc-mua-vao-rui-ro · tags: Tài chính
 - **so-hoa-ocr-cong-van** (`so-hoa-ocr-cong-van`) - 
 - **soan-thao-van-ban** (`soan-thao-van-ban`) - 
 - **tra-cuu-tai-cv-ioffice** (`tra-cuu-tai-cv-ioffice`) - 
@@ -38,7 +39,7 @@
 - **Luật Phòng chống tham nhũng** (`luat-phong-chong-tham-nhung`) - Cẩm nang pháp lý và thực thi Luật Phòng, chống tham nhũng 36/2018/QH14: quy tắc ứng xử, kiểm soát TSTN, xung đột lợi ích, xử lý vi phạm.
 - **Quy chế và phối hợp kiểm tra thuế** (`quy-che-phoi-hop-kiem-tra-thue`) - Quy chế kiểm tra kiến thức công chức QĐ 58, phối hợp liên ngành tố giác tội phạm QCPH 01 và cấp HĐĐT từng lần sau giải thể.
 - **Quy trình kiểm tra thuế QĐ 1161** (`quy-trinh-kiem-tra-thue`) - Quy trình kiểm tra thuế theo QĐ 1161/QĐ-CT và Luật 108/2025: thời hạn kiểm tra, phân nhóm đối tượng, digital audit và xử lý kết quả.
-- **Theo dõi công văn cảnh báo rủi ro** (`theo-doi-cv-canh-bao-rui-ro`) - Bóc tách công văn cảnh báo thuế/HĐĐT, cập nhật độc lập sheet F0 bên bán và F1 bên mua sổ SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx.
+- **Theo dõi công văn cảnh báo rủi ro** (`theo-doi-cv-canh-bao-rui-ro`) - Bóc tách CV cảnh báo thuế và nạp độc lập sheet F0 (19 cột) và F1 (25 cột) sổ SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx.
 - **Chính sách và kiểm tra thuế GTGT** (`thue-gtgt`) - Chính sách và kiểm tra thuế GTGT: Luật 48, Luật 149, NĐ 181, NĐ 359, NĐ 144, TT 69: thuế suất, ngưỡng 500tr, không dùng tiền mặt từ 5tr, khấu trừ…
 - **Chính sách và kiểm tra thuế TNCN** (`thue-tncn`) - Chính sách và kiểm tra thuế TNCN: Luật 109/2025, NĐ 253/2026, TT 87/2026: biểu 5 bậc, giảm trừ 15.5tr/6.2tr, khấu trừ 5tr 10%, tài sản số, vàng.
 - **Chính sách và kiểm tra thuế TNDN** (`thue-tndn`) - Chính sách và kiểm tra thuế TNDN: Luật 67/2025, NĐ 320/2025, TT 20/2026, TT 45: thuế suất 15-17%, không dùng tiền mặt từ 5tr, chi phí được trừ, ưu…
@@ -51,7 +52,8 @@
 - **Xử phạt vi phạm hành chính về thuế và hóa đơn** (`xu-phat-vphc-thue-hoa-don`) · [TẮT] - Xử phạt VPHC thuế và hóa đơn: NĐ 125, NĐ 310, NĐ 291, NĐ 68: sai thời điểm, không lập HĐ, trốn thuế, trao đổi thông tin QT, xử lý DN 03-06.
 
 ## Workflows
-- **Dây chuyền xử lý công văn cảnh báo** (`day-chuyen-xu-ly-cv-canh-bao`) - active · 5 bước [tra-cuu-tai-cv-ioffice -> so-hoa-ocr-cong-van -> cập-nhật-công-văn-cảnh-báo-rủi-ro -> doi-chieu-rui-ro-ncc -> soan-thao-van-ban] · Tải iOffice, OCR, nạp sổ F0/F1, đối chiếu NCC rồi soạn văn bản cảnh báo.
+- **Dây chuyền xử lý công văn cảnh báo** (`day-chuyen-xu-ly-cv-canh-bao`) - active · 4 bước [tra-cuu-tai-cv-ioffice -> so-hoa-ocr-cong-van -> cập-nhật-công-văn-cảnh-báo-rủi-ro -> cập-nhật-công-văn-cảnh-báo-rủi-ro] · Thu thập, OCR, nạp sổ F0/F1, sắp xếp lưu trữ công văn cảnh báo. QC gác cổng từng bước, kết thúc sau sắp xếp lưu trữ.
+- **Trả lời hồ sơ Công an** (`tra-loi-ho-so-cong-an`) - off · 2 bước [doi-chieu-rui-ro-ncc -> soan-thao-van-ban] · Đối chiếu NCC mua vào rủi ro rồi soạn công văn phúc đáp và tờ trình cho hồ sơ Công an chuyển đến.
 
 ## Loops
 _(chưa có)_
@@ -64,6 +66,7 @@ _(chưa có)_
 - **Đấu thêm MCP** (`javis-connect`) - bundled/chạy · tools: javis_add_mcp · Đấu một MCP server vào kho Kết nối của Javis ngay từ chat, để nó HIỆN ra trang Kết nối như mọi tài khoản khác. Trước tool này Javis chỉ còn đường `claude mcp add` - thứ rơi vào config riêng của Claude Code, không bộ não nào khác thấy và người dùng cũng không thấy trên trang Kết nối.
 - **Tên và phong cách của Javis Core** (`javis-core-name`) - bundled/chạy · tools: javis_core_name · Cho người dùng đặt tên riêng và phong cách nói chuyện cho Javis Core của brain này, ngay trong chat. Tên hiện trên trang Cộng sự. Chỉ phiên của chủ thấy tool này.
 - **GitHub trong khung chat** (`javis-github`) - bundled/chạy · tools: javis_github · Xem trạng thái repo GitHub của khung chat (nhánh, PR, CI, merge), xếp việc kế tiếp để Javis tự làm khi PR hiện tại đã merge xong, và review chéo PR khi người dùng yêu cầu.
+- **Mục tiêu (Hệ thống cộng hưởng)** (`javis-goal`) - bundled/chạy · tools: javis_goal, javis_submit_deliverable · Cho bộ não tự lập một mục tiêu bền khi người dùng giao việc cần theo đuổi sau lượt chat, hoặc cập nhật mục tiêu đang mở khi người dùng bổ sung ý. Host kiểm đề xuất theo SMART và lưu có revision. Chỉ hiện ở brain đã bật Hệ thống cộng hưởng.
 - **Việc chạy nền** (`javis-job`) - bundled/chạy · tools: javis_job · Theo dõi lệnh chạy ngầm engine bỏ lại (render, build, tải về). Dặn trước "xong thì làm tiếp gì", xem việc đang chạy, dừng một việc. Xong là Javis tự báo về đúng khung chat và tự làm tiếp.
 - **Cookies** (`javis-login`) - bundled/chạy · tools: javis_login · Mở trang web cần đăng nhập bằng phiên đăng nhập chủ đã cất ở trang Cookies. Chỉ trả nội dung trang, không bao giờ trả cookie.
 - **Trí nhớ qua chat** (`javis-memory`) - bundled/chạy · tools: javis_memory · Cho Javis xem, sửa, quên ghi nhớ của brain, bật tắt việc lưu ghi nhớ mới, sửa hồ sơ chung và thu hồi bài học của trợ lý khi người dùng nhắn. Thay cho các danh sách trí nhớ và bài học từng nằm ở cột Cài đặt. Chỉ phiên của chủ thấy tool này.
@@ -86,5 +89,5 @@ _(chưa có)_
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
 
 ## Cờ sức khoẻ
-- Agent chưa workflow nào dùng: cập-nhật-công-văn-cảnh-báo-rủi-ro.conflict-remote-20261022-155419
+- Agent chưa workflow nào dùng: javis-core, kiem-soat-chat-luong-du-lieu
 - Skill đang tắt: giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so, html-to-webcake, phan-tich-cau-hoi-sinh-doi-cheat-sheet, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, tien-trinh-supervisor-tu-dong, xu-phat-vphc-thue-hoa-don

@@ -6,12 +6,12 @@
 
 ## Agents
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
-- **khoi-tao-ho-so** (`khoi-tao-ho-so`) - 
-- **lap-ho-so-kiem-tra** (`lap-ho-so-kiem-tra`) - 
+- **Khởi tạo hồ sơ** (`khoi-tao-ho-so`) - 
+- **Lập hồ sơ kiểm tra** (`lap-ho-so-kiem-tra`) - 
 - **Giám sát hồ sơ** (`quan-ly-ho-so-kiem-tra`) - Giám sát tiến độ, kiểm soát chất lượng và điều phối dây chuyền hồ sơ kiểm tra thuế. · model sonnet · skills: phan-tich-ho-so-thue, soan-thao-van-ban, lap-ho-so-kiem-tra · tags: Tài chính, Vận hành
-- **soan-bien-ban-ho-so-ve** (`soan-bien-ban-ho-so-ve`) - 
-- **soan-ho-so-di** (`soan-ho-so-di`) - 
-- **tri-thuc-second-brain** (`tri-thuc-second-brain`) - 
+- **Hồ sơ về** (`soan-bien-ban-ho-so-ve`) - 
+- **Hồ sơ đi** (`soan-ho-so-di`) - 
+- **Wiki quản lý** (`tri-thuc-second-brain`) - 
 
 ## Skills
 ### AI
@@ -38,7 +38,7 @@
 - **Điền biên bản từ Bảng tính** (`dien-bien-ban-tu-bang-tinh`) - Điền BBXN/BBKT từ DTCHEP, đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, chèn ngày, dọn bak.
 - **Hồ sơ kiểm tra theo kế hoạch** (`ho-so-kiem-tra-ke-hoach`) - Lập hồ sơ kiểm tra kế hoạch từ MAUTONG HOP: giữ phôi gốc nghiệp vụ, chuẩn NĐ 30 văn bản hành chính, chuẩn checkbox ☐/☑ và xuất QĐ riêng.
 - **Lập hồ sơ kiểm tra thuế** (`lap-ho-so-kiem-tra`) - Vận hành sổ Excel JAVIS PRO và app hồ sơ kiểm tra: thêm vụ từ DB NNT, xuất Word DI trình ký.
-- **Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế** (`nhap-bang-tinh-tu-bao-cao-hdkd`) - Điền KQKDSXKD từ PTDN02 (thiếu thì bù BCTC NamNay); có KQ2.1 thì đổ thêm GTGT và EBITDA.
+- **Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế** (`nhap-bang-tinh-tu-bao-cao-hdkd`) - Điền KQKDSXKD từ PTDN02 (thiếu thì bù BCTC NamNay hoặc QTT 03-1A); có KQ2.1 thì đổ GTGT và EBITDA.
 - **Tạo Bang tinh từ PTDN** (`tao-bang-tinh-tu-ptdn`) - Tạo Bang tinh.xlsx trong 0. BIEN BAN từ mẫu: đổi header F5/F6/F7, xóa số mẫu; CDKT tùy chọn.
 - **Xử phạt vi phạm hành chính về thuế và hóa đơn** (`xu-phat-vphc-thue-hoa-don`) - Xử phạt VPHC thuế và hóa đơn: NĐ 125, NĐ 310, NĐ 291, NĐ 68: sai thời điểm, không lập HĐ, trốn thuế, trao đổi thông tin QT, xử lý DN 03-06.
 - **Đối chiếu NCC mua vào với CVCBRR và danh bạ** (`doi-chieu-ncc-mua-vao-rui-ro`) · [TẮT] - Đối chiếu NCC bảng kê mua vào với sổ CVCBRR (F0, F1), sổ Công an và danh bạ NNT gom 1 sheet kèm chi tiết hóa đơn.

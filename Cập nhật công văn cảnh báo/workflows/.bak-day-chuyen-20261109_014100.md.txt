@@ -1,0 +1,64 @@
+---
+type: workflow
+name: Dây chuyền xử lý công văn cảnh báo
+slug: day-chuyen-xu-ly-cv-canh-bao
+status: active
+group: Tài chính
+description: Thu thập, OCR, nạp sổ F0/F1, sắp xếp, đối chiếu NCC, soạn công văn + QC 4 điểm chứng chất lượng dữ liệu.
+steps:
+  - agent: tra-cuu-tai-cv-ioffice
+    task: "Việc 1/3 thu thập - Ba luồng nhập:\n  A. Từ VNPT iOffice Đồng Nai: tra theo trích yếu, số CV hoặc khoảng ngày; tải tệp về D:\\HO SO CONG VAN CANH BAO (theo năm-tháng); giải nén zip.\n  B. Từ Google Drive HO SO MOI (G:\\Other computers\\My Laptop\\1. CONG TAC KIEM TRA\\2- HOA DON\\1. XU LY RUI RO\\01_HO SO CONG AN CHUYEN DEN\\2026\\HO SO MOI): quét thư mục, liệt kê danh sách file PDF/scan.\n  C. Từ Telegram/Zalo: nhận tệp đính kèm, lưu vào D:\\HO SO CONG VAN CANH BAO.\n  Kết quả: Báo danh sách Số CV/tên file, trích yếu, đường dẫn tệp gốc. Không OCR, không nạp sổ."
+    max_retries: 1
+  - agent: so-hoa-ocr-cong-van
+    task: "Việc 2/3 thu thập. Từ {{prev}} và {{input}}: chuyển PDF hoặc ảnh scan thành .md bằng pdf-sang-md (OCR offline nếu scan). Tách nhiều công văn trong một tệp. Gắn cờ PDF-da-trich hoặc PDF-chua-trich. Bàn giao đường dẫn .md. Không nạp sổ."
+    max_retries: 1
+  - agent: kiem-soat-chat-luong-du-lieu
+    task: "QC bước 2: Kiểm tra OCR. Từ {{prev}}: rà soát ký tự rác, bảng biểu sai, header/footer cắt, cấu trúc heading. Kết quả: ✅ PASS / ❌ LỖI (yêu cầu sửa). Nếu lỗi: quay lại agent {{prev}}, không tiếp bước 3."
+    max_retries: 1
+  - agent: cập-nhật-công-văn-cảnh-báo-rủi-ro
+    task: "Việc 3/3 thu thập. Từ {{prev}}: bóc tách trường chuẩn, lọc trùng bộ ba Số CV + tên bên bán + tên bên mua, nạp dòng mới vào F0 hoặc F1 của SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx, sao lưu trước khi ghi. Báo số nạp F0/F1 và số bỏ trùng."
+    max_retries: 1
+  - agent: kiem-soat-chat-luong-du-lieu
+    task: "QC bước 3: Kiểm tra bóc tách. Từ {{prev}}: rà soát số CV, ngày CV, MST, tên công ty, trùng dữ liệu, trường bắt buộc. Kết quả: ✅ PASS / ⚠️ CẢNH BÁO (trùng OK) / ❌ LỖI (yêu cầu sửa). Nếu lỗi: quay lại agent {{prev}}, không tiếp bước tiếp."
+    max_retries: 1
+  - agent: cập-nhật-công-văn-cảnh-báo-rủi-ro
+    task: "Việc 3.5 sắp xếp lưu trữ. Từ {{prev}} (biết loại cơ quan ban hành):\n  A. Nếu cơ quan thuế: di chuyển file công văn gốc vào thư mục `G:\\Other computers\\My Laptop\\1. CONG TAC KIEM TRA\\2- HOA DON\\1. XU LY RUI RO\\02_NGUON RUI RO NGANH THUE`, đổi tên file theo cấu trúc `Năm_Số CV_CO QUAN BAN HÀNH_SO CONG TY F0.pdf`.\n  B. Nếu cơ quan khác (Công an...): tạo thư mục mới trong `01_HO SO CONG AN CHUYEN DEN` với tên `Năm_Số CV_CO QUAN BAN HÀNH_SO CONG TY F0`, rồi di chuyển file công văn vào đó. Báo đường dẫn mới."
+    max_retries: 1
+  - agent: doi-chieu-rui-ro-ncc
+    task: "Nhận {{prev}}. Đối chiếu NCC mua vào (Bảng kê và HĐĐT nếu có trong {{input}}) với F0/F1, sổ Công an và danh bạ NNT. Xuất đủ Phần 1, Bảng 2.1, Bảng 2.2 (100% NCC), Bảng 2.3 theo kỳ, Phần 3. Ghi nguồn Bảng kê/HĐĐT/Chung."
+    max_retries: 1
+  - agent: kiem-soat-chat-luong-du-lieu
+    task: "QC bước 4: Kiểm tra đối chiếu. Từ {{prev}}: rà soát NCC có trong danh sách rủi ro, số tiền hợp lý, 100% NCC được liệt kê, Phần 1/2/3 đầy đủ, ghi nguồn đúng. Kết quả: ✅ PASS / ❌ LỖI (yêu cầu sửa). Nếu lỗi: quay lại agent {{prev}}, không tiếp bước 5."
+    max_retries: 1
+  - agent: soan-thao-van-ban
+    task: "Dùng {{input}} và {{prev}} soạn văn bản đúng NĐ 30 và ký hiệu TCS3. Vụ Công an: TRA LOI CV <Số CV>_<CQ>_du thao.docx và to trinh <Số CV>.docx. Cần dẫn chiếu điều khoản thì ghi chỗ trống và chuyển brain Cung cấp thông tin công an, trợ lý phap-che-chinh-sach-thue. Không bịa số liệu."
+    max_retries: 1
+  - agent: kiem-soat-chat-luong-du-lieu
+    task: "QC bước 5: Kiểm tra soạn thảo. Từ {{prev}}: rà soát dữ liệu khớp F0/F1, trích dẫn luật đầy đủ (Điều/khoản), không bịa số liệu (tất cả từ sổ hoặc iOffice), format NĐ 30 đúng, không bỏ sót dữ liệu bảng kê/doanh thu/thuế. Kết quả: ✅ PHÊ DUYỆT / ⚠️ CHỈNH SỬA NHỎ / ❌ SỬA LẠI TOÀN BỘ."
+    max_retries: 1
+updated: "2026-10-16"
+---
+
+Quy trình trục của phòng công văn cảnh báo: **thu thập từ 3 nguồn** (iOffice/Drive/Telegram) → **OCR** + QC → **nạp sổ F0/F1** + QC → **sắp xếp lưu trữ** → **đối chiếu NCC** + QC → **soạn thảo** + QC.
+
+### Ba luồng thu thập (Bước 1)
+- **iOffice:** "Tra iOffice từ ngày X đến Y" hoặc "Tra CV số XXX"
+- **Google Drive:** "Tải hồ sơ từ folder HO SO MOI" (sẽ quét G:\Other computers\My Laptop\...)
+- **Telegram/Zalo:** Gửi tệp đính kèm lên Zalo, nói "Xử lý file vừa gửi"
+
+### QC tự động dừng quy trình nếu phát hiện lỗi
+
+Nếu agent QC báo **❌ LỖI**, quy trình **dừng ngay** và yêu cầu agent chịu trách nhiệm sửa lại:
+- QC OCR lỗi → Agent "Số hoá OCR" sửa
+- QC Bóc tách lỗi → Agent "Cập nhật sổ" sửa
+- QC Đối chiếu lỗi → Agent "Đối chiếu NCC" sửa
+- QC Soạn thảo lỗi → Agent "Soạn thảo" sửa
+
+Sau khi sửa, QC sẽ recheck lại trước khi cho phép tiếp tục quy trình.
+
+**QC báo cáo cho Trưởng phòng cảnh báo:** Mỗi kết quả QC (✅/⚠️/❌) đều được báo cáo chi tiết cho Trưởng phòng (người dùng) để phê duyệt hoặc yêu cầu sửa thêm.
+
+### Điều kiện khác
+Pháp chế không nằm trong chuỗi này. Căn cứ luật, nghị định, mức phạt gọi trợ lý `phap-che-chinh-sach-thue` ở brain **Cung cấp thông tin công an**.
+
+Giao từng việc 1/2/3 khi chỉ cần một khâu (ví dụ chỉ OCR lô scan, hoặc chỉ nạp sổ từ file `.md` có sẵn). Không đưa Phân tích hồ sơ thuế hay Ôn thi công chức vào quy trình này.

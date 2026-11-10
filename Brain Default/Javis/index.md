@@ -2,9 +2,10 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 1 agents · 39 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 27 plugins (26 chạy)
+**Tổng quan:** 2 agents · 39 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
 
 ## Agents
+- **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **Van thu bot** (`van-thu-bot`) -  · tags: Chung
 
 ## Skills
@@ -68,6 +69,7 @@ _(chưa có)_
 - **Đấu thêm MCP** (`javis-connect`) - bundled/chạy · tools: javis_add_mcp · Đấu một MCP server vào kho Kết nối của Javis ngay từ chat, để nó HIỆN ra trang Kết nối như mọi tài khoản khác. Trước tool này Javis chỉ còn đường `claude mcp add` - thứ rơi vào config riêng của Claude Code, không bộ não nào khác thấy và người dùng cũng không thấy trên trang Kết nối.
 - **Tên và phong cách của Javis Core** (`javis-core-name`) - bundled/chạy · tools: javis_core_name · Cho người dùng đặt tên riêng và phong cách nói chuyện cho Javis Core của brain này, ngay trong chat. Tên hiện trên trang Cộng sự. Chỉ phiên của chủ thấy tool này.
 - **GitHub trong khung chat** (`javis-github`) - bundled/chạy · tools: javis_github · Xem trạng thái repo GitHub của khung chat (nhánh, PR, CI, merge), xếp việc kế tiếp để Javis tự làm khi PR hiện tại đã merge xong, và review chéo PR khi người dùng yêu cầu.
+- **Mục tiêu (Hệ thống cộng hưởng)** (`javis-goal`) - bundled/chạy · tools: javis_goal, javis_submit_deliverable · Cho bộ não tự lập một mục tiêu bền khi người dùng giao việc cần theo đuổi sau lượt chat, hoặc cập nhật mục tiêu đang mở khi người dùng bổ sung ý. Host kiểm đề xuất theo SMART và lưu có revision. Chỉ hiện ở brain đã bật Hệ thống cộng hưởng.
 - **Việc chạy nền** (`javis-job`) - bundled/chạy · tools: javis_job · Theo dõi lệnh chạy ngầm engine bỏ lại (render, build, tải về). Dặn trước "xong thì làm tiếp gì", xem việc đang chạy, dừng một việc. Xong là Javis tự báo về đúng khung chat và tự làm tiếp.
 - **Cookies** (`javis-login`) - bundled/chạy · tools: javis_login · Mở trang web cần đăng nhập bằng phiên đăng nhập chủ đã cất ở trang Cookies. Chỉ trả nội dung trang, không bao giờ trả cookie.
 - **Trí nhớ qua chat** (`javis-memory`) - bundled/chạy · tools: javis_memory · Cho Javis xem, sửa, quên ghi nhớ của brain, bật tắt việc lưu ghi nhớ mới, sửa hồ sơ chung và thu hồi bài học của trợ lý khi người dùng nhắn. Thay cho các danh sách trí nhớ và bài học từng nằm ở cột Cài đặt. Chỉ phiên của chủ thấy tool này.
@@ -90,5 +92,5 @@ _(chưa có)_
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
 
 ## Cờ sức khoẻ
-- Agent chưa workflow nào dùng: van-thu-bot
+- Agent chưa workflow nào dùng: javis-core, van-thu-bot
 - Skill đang tắt: doi-chieu-511-632, doi-chieu-gtgt-tndn-cbrr, doi-chieu-ncc-mua-vao-rui-ro, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so, hoa-don-dien-tu, html-to-webcake, luat-phong-chong-tham-nhung, mo-ho-so-ttkt, phan-tich-cau-hoi-sinh-doi-cheat-sheet, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, quan-ly-rui-ro-tuan-thu-thue, soan-thao-van-ban, thue-gtgt, thue-tncn, thue-tndn, tien-trinh-supervisor-tu-dong, tong-hop-ben-mua-tu-so-cvcbrr, tra-cuu-ioffice-dong-nai, tra-loi-cong-van, xu-phat-vphc-thue-hoa-don

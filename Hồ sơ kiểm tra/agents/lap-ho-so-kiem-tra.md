@@ -1,3 +1,20 @@
+---
+reasoning: medium
+type: agent
+name: Lập hồ sơ kiểm tra
+slug: lap-ho-so-kiem-tra
+role: ''
+skills: []
+model: ''
+avatar:
+  shape: square
+  palette: blue
+  eye: den
+model_provider: ''
+updated: '2026-11-08'
+tags: []
+---
+
 ﻿---
 type: agent
 name: Lập hồ sơ kiểm tra

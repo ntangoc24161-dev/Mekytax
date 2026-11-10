@@ -9,7 +9,7 @@
 - [Vị trí file cơ sở dữ liệu Người nộp thuế](facts/vi-tri-file-db-nnt.md) - Đường dẫn file Excel DB NNT dùng để tra cứu thông tin doanh nghiệp theo MST.
 - [Định dạng nội dung kiểm tra trên sổ Excel](facts/dinh-dang-noi-dung-kiem-tra-tren-excel.md) - Nội dung kiểm tra xuống hàng, gạch đầu dòng theo chuyên đề (Chi phí QLDN, chi phí bán hàng, chi phí tài chính).
 - [Hồ sơ kiểm tra MST 3601409441 - Vạn Phát Thành](facts/ho-so-kiem-tra-mst-3601409441.md) - Vụ kiểm tra Vạn Phát Thành (2021-2025), nội dung Chi phí QLDN, bán hàng, tài chính.
-- [Hồ sơ kiểm tra MST 3603721832 - Tâm Hoàng Phát](facts/ho-so-kiem-tra-mst-3603721832.md) - Vụ Tâm Hoàng Phát (2023-2025) tại `1. TD\10. TAM HOANG PHAT`, hồ sơ đi mã tạm DU_THAO-TRINH-KY, DI-01 đã khớp Bang tinh.
+- [Hồ sơ kiểm tra MST 3603721832 - Tâm Hoàng Phát](facts/ho-so-kiem-tra-mst-3603721832.md) - Vụ Tâm Hoàng Phát (2023-2025) tại `1. TD\10. TAM HOANG PHAT`, QĐKT 6899, BBKT 12/11/2026, tổng phát sinh 28.410.901 đ.
 - [Cho phép xuất hồ sơ Word trình ký trước khi có Số QĐKT](facts/xuat-ho-so-trinh-ky-truoc-khi-co-qdkt.md) - Khi cần trình ký, được xuất bộ hồ sơ đi trước dù chưa cấp Số QĐKT.
 - [Mẫu hồ sơ kiểm tra kế hoạch và file tổng hợp](facts/ho-so-kiem-tra-ke-hoach-vs-giai-the.md) - Hồ sơ kiểm tra theo kế hoạch năm dùng bộ mẫu DI-01 đến DI-07 theo QĐ 1412, phân biệt với giải thể.
 - [Chuẩn căn lề và định dạng văn bản hồ sơ kiểm tra theo Nghị định 30/2020/NĐ-CP](facts/chuan-dinh-dang-van-ban-ho-so-kiem-tra.md) - Quy cách định lề A4, font Times New Roman và giãn dòng cho bộ hồ sơ kiểm tra thuế.
@@ -59,7 +59,7 @@
 - [Quy tắc khoảng cách chức danh và tên người ký trong quyết định kiểm tra](facts/quy-tac-khoang-cach-chu-ky-va-chong-tach-trang-quyet-dinh.md) - Khoảng cách giữa chức danh và tên người ký tối thiểu 5 dòng và phải nằm trọn trong cùng 1 trang.
 - [Quy cách bàn giao hồ sơ đi: chỉ giữ file TONG HOP.docx, xóa file zip và file lẻ](facts/quy-cach-xuat-ho-so-di-chi-giu-tong-hop-docx.md) - Hồ sơ đi tại thư mục 0. BIEN BAN chỉ giữ lại duy nhất file TONG HOP.docx, xóa các file lẻ và hoso.zip.
 - [Sơn Tiền Hải (MST 3603859012) thuộc diện kiểm tra giải thể theo mẫu Thúy Hồng](facts/ho-so-kiem-tra-mst-3603859012-loai-giai-the.md) - Sơn Tiền Hải thuộc diện kiểm tra giải thể, lấy phôi TONG HOP DNTN Thúy Hồng làm chuẩn
-- [Chốt số liệu và giải trình hồ sơ về Tâm Hoàng Phát (MST 3603721832)](facts/ho-so-kiem-tra-mst-3603721832-chot-ho-so-ve-loai-luong-qldn.md) - Tâm Hoàng Phát chốt chuyển loại chi phí lương về QLDN, BBXN TV CPTC không chênh, tổng truy thu và phạt 28.333.995 đ.
+- [Chốt số liệu và giải trình hồ sơ về Tâm Hoàng Phát (MST 3603721832)](facts/ho-so-kiem-tra-mst-3603721832-chot-ho-so-ve-loai-luong-qldn.md) - Tâm Hoàng Phát loại lương về QLDN, BBXN TV CPTC không chênh, chậm nộp 4.747.340, tổng 28.410.901 đ.
 - [Yêu cầu khoảng cách chữ ký và chi tiết thể thức trên TONG HOP](facts/yeu-cau-the-thuc-khoang-cach-chu-ky-va-dinh-dang-tong-hop.md) - Quy cách khoảng cách chữ ký 5 dòng, căn chỉnh 'Số', checkbox và cấu trúc giải trình BBXN trưởng đoàn.
 - [Xử lý ô checkbox trong Báo cáo giám sát bằng ký hiệu ô vuông hiện đại](facts/xu-ly-checkbox-bao-cao-giam-sat-o-vuong-hien-dai.md) - Báo cáo giám sát dùng ô vuông hiện đại ☐ và ☑ (giữ nguyên vị trí tích chọn từ bản cũ) thay cho Wingdings.
 - [Quy tắc căn khoảng cách chức danh và tên người ký trong ô và chống tràn trang](facts/quy-tac-canh-chu-ky-trong-o-va-chong-tran-trang-theo-nd30.md) - Khoảng cách giữa chức danh và tên người ký căn nằm trong 1 ô, nếu bị rớt sang trang mới thì tự giảm dòng theo NĐ 30 để cùng trang.
@@ -81,3 +81,18 @@
 - [Hồ sơ hoàn thuế Sơn Tiền Hải còn dùng số bù trừ cũ, chưa khớp TONG HOP mới](facts/ho-so-hoan-thue-son-tien-hai-chua-dong-bo-so-lieu-moi.md) - MS-03-DCS và DE XUAT HOAN GIAI THE lập 31/10 dùng bù trừ 16.325.638đ, còn hoàn 118.606.120đ - đã lệch với TONG HOP mới (48.899.062đ).
 - [Tên Javis Core: Trưởng phòng Kiểm tra thuế](facts/javis-core-name.md) - Javis Core brain này được gọi là Trưởng phòng Kiểm tra thuế.
 - [Đổi tên ngắn gọn 5 trợ lý chuyên trách trong brain Hồ sơ kiểm tra](facts/doi-ten-ngan-gon-5-tro-ly-chuyen-trach-ho-so-kiem-tra.md) - 5 trợ lý chuyên trách được đổi tên ngắn gọn: Khởi tạo hồ sơ, Giám sát hồ sơ, Hồ sơ đi, Hồ sơ về, Wiki quản lý.
+- [Hồ sơ kiểm tra MST 3602451559 - Hùng Anh Phát](facts/ho-so-kiem-tra-mst-3602451559-hung-anh-phat.md) - Đã tạo Bảng tính vụ Hùng Anh Phát, kỳ kiểm tra 2021-2025, đổ KQKDSXKD từ PTDN02 bù BCTC 2025.
+- [Hồ sơ kiểm tra MST 3600840461 - Thanh Thanh Phương](facts/ho-so-kiem-tra-mst-3600840461-thanh-thanh-phuong.md) - Đã tạo Bảng tính vụ Thanh Thanh Phương, kỳ kiểm tra 2022-2025, đổ KQKDSXKD từ PTDN02.
+- [Hồ sơ kiểm tra MST 3602179712 - Đại Huy Hoàng](facts/ho-so-kiem-tra-mst-3602179712-dai-huy-hoang.md) - Đã tạo phôi Bảng tính vụ Đại Huy Hoàng, kỳ 2022-2025, chưa đổ KQKDSXKD.
+- [Hồ sơ kiểm tra MST 3600974507 - Phát Hoàng Long](facts/ho-so-kiem-tra-mst-3600974507-phat-hoang-long.md) - Đã tạo Bảng tính vụ Phát Hoàng Long, kỳ 2022-2025, đổ KQKDSXKD từ PTDN02 bù BCTC 2025.
+- [Hồ sơ kiểm tra MST 3601946069 - Nhất Vinh](facts/ho-so-kiem-tra-mst-3601946069-nhat-vinh.md) - Bảng tính Nhất Vinh kỳ 2018-2025, đã đổ KQKDSXKD từ PTDN02 bù QTT 03-1A năm 2025.
+- [Thanh Thanh Phương đã đổ CDKT và KQKDSXKD kỳ 2021-2025](facts/ho-so-kiem-tra-mst-3600840461-cap-nhat-cdkt-2021-2025.md) - Bang tinh MST 3600840461 đã đổ CDKT và KQKDSXKD kỳ 2021-2025; kỳ 2022-2025 chỉ là giả định lúc tạo phôi.
+- [Hồ sơ kiểm tra MST 3603755214 - Huy Khang](facts/ho-so-kiem-tra-mst-3603755214-huy-khang.md) - Huy Khang kỳ 2021-2025: đã đổ KQKDSXKD và CDKT; 2025 bù BCTC SoCuoiNam; CĐKT đã chèn cột P=2025.
+- [Hồ sơ kiểm tra MST 3603820015 - Huy Thành Phát](facts/ho-so-kiem-tra-mst-3603820015-huy-thanh-phat.md) - Phôi Bang tinh kỳ 2022-2025; KQKDSXKD 2022-2024 PTDN02, 2025 từ QTT 03-1A; CDKT 2022-2024 từ PTDN01, năm 2025 để trống vì thiếu BCTC.
+- [Hùng Anh Phát đã đổ CDKT 2021-2025 và tô đỏ mã 70-71](facts/ho-so-kiem-tra-mst-3602451559-cdkt-to-do-2021-2025.md) - MST 3602451559: CDKT 2021-2025 đã cân, KQKDSXKD mã 70 và 71 tô đỏ vì không có nguồn.
+- [Cột 2025 Thanh Thanh Phương ghi từ BCTC và khớp PTDN](facts/ho-so-kiem-tra-mst-3600840461-cot-2025-khop-bctc.md) - MST 3600840461: cột 2025 đã ghi đè từ BCTC XML, số khớp PTDN, không lệch.
+- [Ô Bảng tính chưa có nguồn thì tô đỏ](facts/preference-to-do-o-chua-co-nguon-bang-tinh.md) - Ô Bang tinh không có nguồn để trống và tô đỏ; số 0 có trên nguồn giữ chữ đen.
+- [Hồ sơ kiểm tra MST 3603403068 - Thành Sen](facts/ho-so-kiem-tra-mst-3603403068-thanh-sen.md) - Bang tinh kỳ 2024-2025 đã đổ; NNT bổ sung sổ 2024-2025 đã xếp vào 2.1/2.2/2.4.
+- [Hồ sơ kiểm tra MST 3603057410 - Nông sản Lưu Hoài Anh](facts/ho-so-kiem-tra-mst-3603057410-nong-san-luu-hoai-anh.md) - Bang tinh kỳ 2022-2025 đã đổ KQKDSXKD và CDKT; sổ chưa có MST; chưa có KQ2.1.
+- [Tiến độ hồ sơ kiểm tra Phát Hoàng Long (MST 3600974507) và điều kiện chuyển bước](facts/ho-so-kiem-tra-mst-3600974507-phat-hoang-long-tien-do-bang-t.md) - Phát Hoàng Long đã nhập xong KQKDSXKD 2022-2025, đủ điều kiện bóc tách Bảng tính Mục III DI-01
+- [Chi tiết loại lương Nguyễn Văn Kiên vụ Tâm Hoàng Phát (MST 3603721832)](facts/ho-so-kiem-tra-mst-3603721832-chi-tiet-loai-luong-nguyen-van.md) - Loại lương 3 năm 2023-2025 tổng 100.041.923 đ, CCCD 044090000152; sheet nội bộ và tờ khai lệch MST năm 2024-2025.

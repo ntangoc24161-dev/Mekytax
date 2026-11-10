@@ -2,13 +2,13 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 7 agents · 40 skills · 2 workflows (1 bật) · 1 loops (1 bật) · 27 plugins (26 chạy)
+**Tổng quan:** 7 agents · 40 skills · 3 workflows (1 bật) · 1 loops (1 bật) · 28 plugins (27 chạy)
 
 ## Agents
+- **Trưởng phòng cung cấp hồ sơ công an** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **khai-thac-du-lieu-ho-so** (`khai-thac-du-lieu-ho-so`) - 
 - **Kiểm soát & Điều phối quy trình** (`kiem-soat-dieu-phoi-quy-trinh`) - quản lý chất lượng, kiểm soát chéo dữ liệu bóc tách, nghiệm thu từng bước và phân phối nhiệm vụ cho các trợ lý · model sonnet · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-loi-cong-van, in-phan-cong-kt1, soan-thao-van-ban, dong-bo-thu-muc-ca, xuat-danh-sach-ho-so-ca · tags: Tài chính
 - **phap-che-chinh-sach-thue** (`phap-che-chinh-sach-thue`) - 
-- **Tiếp nhận & Điều phối công văn** (`quản-lý-hồ-sơ-công-an.conflict-remote-20261022-155419`) - đầu vào phòng cung cấp hồ sơ Công an - tiếp nhận, bóc tách, tra cứu NNT, phân Tổ KT, cập nhật sổ và đóng thư mục · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-cuu-ioffice-dong-nai, pdf-sang-md, dong-bo-thu-muc-ca · tags: Tài chính
 - **quản-lý-hồ-sơ-công-an** (`quản-lý-hồ-sơ-công-an`) - 
 - **soan-thao-tra-loi-cong-an** (`soan-thao-tra-loi-cong-an`) - 
 - **Theo dõi & Phân công công văn** (`theo-doi-phan-cong`) - theo dõi tiến độ, kiểm soát công văn mới, rà soát cán bộ xử lý và in ấn bàn giao hồ sơ Tổ KT1 · model sonnet · skills: in-phan-cong-kt1, theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong · tags: Tài chính
@@ -61,13 +61,14 @@
 - **Xuất danh sách tổng hợp chi tiết hồ sơ Công an** (`xuat-danh-sach-ho-so-ca`) - Xuất Excel tổng hợp chi tiết hồ sơ công văn Công an theo từng cột tiêu chí tờ khai, BCTC, hóa đơn, vi phạm, nợ thuế tại thư mục CV MOI.
 
 ## Workflows
-### Chung
-- **quản-lý-công-văn-công-an** (`quản-lý-công-văn-công-an`) - off · 0 bước []
 ### Tài chính
-- **Quản lý công văn công an** (`quản-lý-công-văn-công-an.conflict-remote-20261022-155419`) - active · 2 bước [quản-lý-hồ-sơ-công-an -> soan-thao-tra-loi-cong-an] · Tiếp nhận-phân tổ-ghi sổ rồi dự thảo công văn và tờ trình cho DN thuộc KT1-KT2-KT3.
+- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 4 bước [khai-thac-du-lieu-ho-so -> theo-doi-phan-cong -> soan-thao-tra-loi-cong-an -> quản-lý-hồ-sơ-công-an] · Tiếp nhận, bóc tách công văn, kiểm soát chéo dữ liệu, phân công in ấn KT1, lập dự thảo phúc đáp và nghiệm thu đồng bộ thư mục.
+### Vận hành
+- **Bóc tách & Phân công công văn Công an** (`boc-tach-phan-cong-cong-van`) - off · 2 bước [khai-thac-du-lieu-ho-so -> Theo dõi & Phân công công văn] · Bóc tách danh sách doanh nghiệp từ CV Công an, tra cứu DB NNT, phân công cho Tổ KT tương ứng.
+- **Soạn thảo & Quản lý hồ sơ công an** (`soan-thao-quan-ly-ho-so`) - off · 2 bước [soan-thao-tra-loi-cong-an -> quản-lý-hồ-sơ-công-an] · Soạn dự thảo công văn trả lời và tờ trình lãnh đạo theo yêu cầu, lưu file và cập nhật sổ theo dõi.
 
 ## Loops
-- **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an`) - bật · custom/full · mỗi 300 phút
+- **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an`) - bật · custom/full · mỗi 1440 phút
 
 ## Plugins (tool/hook native cho mọi engine)
 - **Thời gian & ngày** (`datetime-vn`) - bundled/chạy · tools: javis_now, javis_date_add · Xem ngày giờ hiện tại theo múi giờ chọn ở Cài đặt và tính ngày tương đối (mai, mốt, N ngày nữa, tuần trước). Thuần stdlib, chỉ đọc, không cần mạng.
@@ -77,6 +78,7 @@
 - **Đấu thêm MCP** (`javis-connect`) - bundled/chạy · tools: javis_add_mcp · Đấu một MCP server vào kho Kết nối của Javis ngay từ chat, để nó HIỆN ra trang Kết nối như mọi tài khoản khác. Trước tool này Javis chỉ còn đường `claude mcp add` - thứ rơi vào config riêng của Claude Code, không bộ não nào khác thấy và người dùng cũng không thấy trên trang Kết nối.
 - **Tên và phong cách của Javis Core** (`javis-core-name`) - bundled/chạy · tools: javis_core_name · Cho người dùng đặt tên riêng và phong cách nói chuyện cho Javis Core của brain này, ngay trong chat. Tên hiện trên trang Cộng sự. Chỉ phiên của chủ thấy tool này.
 - **GitHub trong khung chat** (`javis-github`) - bundled/chạy · tools: javis_github · Xem trạng thái repo GitHub của khung chat (nhánh, PR, CI, merge), xếp việc kế tiếp để Javis tự làm khi PR hiện tại đã merge xong, và review chéo PR khi người dùng yêu cầu.
+- **Mục tiêu (Hệ thống cộng hưởng)** (`javis-goal`) - bundled/chạy · tools: javis_goal, javis_submit_deliverable · Cho bộ não tự lập một mục tiêu bền khi người dùng giao việc cần theo đuổi sau lượt chat, hoặc cập nhật mục tiêu đang mở khi người dùng bổ sung ý. Host kiểm đề xuất theo SMART và lưu có revision. Chỉ hiện ở brain đã bật Hệ thống cộng hưởng.
 - **Việc chạy nền** (`javis-job`) - bundled/chạy · tools: javis_job · Theo dõi lệnh chạy ngầm engine bỏ lại (render, build, tải về). Dặn trước "xong thì làm tiếp gì", xem việc đang chạy, dừng một việc. Xong là Javis tự báo về đúng khung chat và tự làm tiếp.
 - **Cookies** (`javis-login`) - bundled/chạy · tools: javis_login · Mở trang web cần đăng nhập bằng phiên đăng nhập chủ đã cất ở trang Cookies. Chỉ trả nội dung trang, không bao giờ trả cookie.
 - **Trí nhớ qua chat** (`javis-memory`) - bundled/chạy · tools: javis_memory · Cho Javis xem, sửa, quên ghi nhớ của brain, bật tắt việc lưu ghi nhớ mới, sửa hồ sơ chung và thu hồi bài học của trợ lý khi người dùng nhắn. Thay cho các danh sách trí nhớ và bài học từng nằm ở cột Cài đặt. Chỉ phiên của chủ thấy tool này.
@@ -99,5 +101,6 @@
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
 
 ## Cờ sức khoẻ
-- Agent chưa workflow nào dùng: khai-thac-du-lieu-ho-so, kiem-soat-dieu-phoi-quy-trinh, phap-che-chinh-sach-thue, quản-lý-hồ-sơ-công-an.conflict-remote-20261022-155419, theo-doi-phan-cong
+- Workflow trỏ agent KHÔNG tồn tại: Theo dõi & Phân công công văn
+- Agent chưa workflow nào dùng: javis-core, kiem-soat-dieu-phoi-quy-trinh, phap-che-chinh-sach-thue
 - Skill đang tắt: html-to-webcake, phan-tich-cau-hoi-sinh-doi-cheat-sheet, tien-trinh-supervisor-tu-dong

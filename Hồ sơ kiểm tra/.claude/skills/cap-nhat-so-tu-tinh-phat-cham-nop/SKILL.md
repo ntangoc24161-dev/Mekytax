@@ -1,14 +1,17 @@
 ---
-name: "Cập nhật sổ JAVIS PRO từ sheet TINH PHAT + CHAM NOP"
-description: "Đối chiếu dòng tổng sheet TINH PHAT + CHAM NOP của Bảng tính với sổ Danh sach kiem tra quyet toan pro.xlsm, sửa ô lệch, giữ công thức và VBA."
-group: "Tài chính"
+name: Cập nhật sổ JAVIS PRO từ sheet TINH PHAT + CHAM NOP
+description: Đối chiếu dòng tổng sheet TINH PHAT + CHAM NOP của Bảng tính với sổ Danh sach kiem tra quyet toan pro.xlsm, sửa ô lệch, giữ công thức và VBA.
+group: Tài chính
 origin: javis-learned
 status: active
 created: 2026-11-05
+updated: '2026-11-05'
+learned_updated: '2026-11-05'
 ---
 ## Khi nào dùng
 - User yêu cầu: "căn cứ file bang tinh.xlsx / sheet TINH PHAT + CHAM NOP (C T) trong thư mục <VỤ>/0. BIEN BAN cập nhật lại sổ Danh sach kiem tra quyet toan pro.xlsm".
 - Sau khi đoàn chốt số truy thu, phạt, chậm nộp trên Bảng tính và cần đồng bộ sang sổ theo dõi.
+- User báo "đã đóng file excel, cập nhật lại": chạy lại toàn bộ quy trình từ bước 1 (bản Drive mới đã đè mất ô sửa lần trước).
 
 ## Chuẩn bị
 - Bảng tính của vụ: Drive `ntangoc2416.1@gmail.com`, thư mục `1. TD/<số>. <TEN VU>/0. BIEN BAN/Bang tinh.xlsx`.
@@ -33,10 +36,16 @@ created: 2026-11-05
 
 ## Bẫy
 - Sheet TINH PHAT không có chỉ tiêu giảm lỗ: không tự chốt cột AX, hỏi user hoặc lấy từ DTCHEP khi user đồng ý.
-- Chưa ghi được ngược lên Drive (Composio upload chỉ nhận s3key trong kho của nó). Báo user sửa tay ô lệch trong sổ đang mở, hoặc đóng Excel rồi tải bản vault lên thay.
+- Chưa ghi được ngược lên Drive (Composio upload chỉ nhận s3key trong kho của nó). Báo user sửa tay ô lệch trong sổ đang mở, hoặc tải bản vault lên thay bản Drive.
+- Khi sổ đang mở trong Excel, dặn user: nếu muốn dùng bản vault thì đóng Excel KHÔNG LƯU. Thực tế 05/11/2026: user đóng Excel có lưu, bản Drive mới (04:13) đè mất ô AR14 vừa sửa, phải tải lại và áp lại.
+- Không đề xuất tự đẩy file qua dịch vụ chia sẻ công khai để vòng lên Drive: đưa dữ liệu NNT ra ngoài, chỉ làm khi user duyệt rõ.
 - Không ghi đè ô công thức, kể cả khi giá trị cache trong file trông sai.
 
 ## Kiểm chứng
 - Tổng phát sinh của dòng vụ khớp ô tổng trên sheet TINH PHAT.
-- VBA của sổ còn nguyên sau khi lưu.
+- VBA của sổ còn nguyên sau khi lưu (`xl/vbaProject.bin`).
+- Ghi md5 bản sổ mới vào báo cáo để đối chiếu khi user tải lên.
 - Không còn file tạm/bak trong thư mục export.
+
+## Lịch sử (tự học)
+- [2026-11-05] Bẫy cũ chỉ khuyên 'đóng Excel rồi tải bản vault lên thay' mà không dặn đóng KHÔNG lưu; trong hội thoại user đóng Excel có lưu, bản Drive 04:13 đè mất ô AR14 đã sửa, Javis phải tải lại và áp lại. Bổ sung bẫy này, trigger chạy lại, và kiểm chứng md5/VBA.

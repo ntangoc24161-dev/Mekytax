@@ -1,0 +1,27 @@
+{
+  "reminders": [
+    {
+      "id": "r_7c63a0c056",
+      "text": "Quét thư mục CV MOI để tìm công văn Công an mới, sau đó trigger workflow quản-lý-công-văn-công-an để xử lý: bóc tách → phân công → soạn thảo → quản lý hồ sơ. Nếu không có CV mới thì báo \"không có CV mới\".",
+      "mode": "task",
+      "due_at": 1794286800.0,
+      "chat_id": "web:3e4326e5df604ecabd9c4fec2e2892ca",
+      "repeat_min": 0,
+      "cron": "0 12 * * *",
+      "script": "",
+      "label": "Quét hồ sơ công an lúc 12h00 hàng ngày",
+      "status": "pending",
+      "muc_quyen": "full",
+      "remember_last": false,
+      "speak": false,
+      "call": false,
+      "created_by": "javis_schedule",
+      "created_at": 1794156270.8227534,
+      "fired_at": 1794212822.8496995,
+      "result": "Đã quét thư mục `CV MOI` phát hiện 3 công văn Công an mới:\n- `CamScanner 9-11-26 10.28.pdf` (810 KB)\n- `21143YC-CSKT.pdf` (40 KB)\n- `4325ANĐT-D1.pdf` (44 KB)\n\nĐã kích hoạt workflow **Quản lý công văn công an** (Run ID: `f715a0c3bcf34d0f909e57f4f6b52a40`) gồm 4 bước: bóc tách → phân công & in ấn KT1 → soạn thảo dự thảo → quản lý hồ sơ và lưu trữ. Hệ thống đang tiến hành xử lý ngầm theo quy trình.",
+      "error": "",
+      "last_slot": 1794200400.0
+    }
+  ],
+  "updated": 1794212822.8496995
+}

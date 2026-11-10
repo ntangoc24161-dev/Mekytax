@@ -1,6 +1,4 @@
 ## Bài học (tự học)
-- Khi cập nhật công văn công an có doanh nghiệp phân công cho Tổ KT1, tự động tạo đủ bộ hồ sơ dự thảo gồm công văn trả lời ('TRA LOI CV..._du thao.docx') và tờ trình lãnh đạo ('to trinh...docx') lưu vào thư mục công văn trên Drive.
-- Khi tra cứu DB NNT.xls cho hồ sơ doanh nghiệp ngừng hoạt động, bắt buộc lấy chính xác số và ngày Thông báo không hoạt động tại địa chỉ đã đăng ký từ cột Lý do đóng MST tổ chức.
 - Tờ trình lãnh đạo phải đặt các dòng ý kiến là đoạn văn bản độc lập toàn dòng thụt lề 1.25 cm trước từng khối ký, tuyệt đối không đưa vào cột để đảm bảo trọn vẹn trong 01 trang A4.
 - Bảng header công văn trả lời cần mở rộng ngoài lề trang in (cột 1 rộng 9.1 cm, cột 2 rộng 10.2 cm, tblInd -1.5 cm) để tên đơn vị và Quốc hiệu nằm trọn 1 dòng không rớt chữ, kẻ ngang đơn vị bằng đúng 1/3 dòng tên và gạch dưới tiêu ngữ vừa hết chữ.
 - Header công văn mở rộng ngoài lề (cột 9.1 và 10.2 cm, tblInd -1.5 cm) giữ trọn tên đơn vị và Quốc hiệu trên 1 dòng; trích yếu đặt chữ đứng, thân bài đồng bộ cỡ 14, giãn dòng 1.15, before 3pt và thụt đầu dòng 1.25 cm.
@@ -14,3 +12,5 @@
 - CV đề nghị hủy ngăn chặn kê khai bổ sung cho hàng trăm DN ghi sổ 1 dòng "N DN/HKD đính kèm", không bóc từng MST, không phân Tổ KT.
 - Khi đóng hồ sơ TRA LOI từ CV MOI, chuyển PDF vào thư mục STT khớp số CV rồi mới gắn -R; cập nhật cột tình trạng Đã hoàn thành cho mọi dòng phụ cùng STT.
 - Dòng sổ không có MST (HKD một dòng) phải ghi placeholder cột J (ví dụ "HKD đính kèm"), nếu không công thức COUNTIFS STT sẽ trùng số với công văn kế tiếp.
+- Rà soát `-R` chỉ căn cứ file tên TRA LOI đã ký số; PDF công văn đến `.signed.pdf` và công văn phối hợp QLDN không phải căn cứ gắn `-R`; biến thể `_R` hoặc `- R` coi như đã có hậu tố.
+- File TRA LOI.signed.pdf chưa điền số văn thư thì chỉ gắn `-R` thư mục, không bịa số/ngày công văn trả lời vào cột W/X trên sổ.

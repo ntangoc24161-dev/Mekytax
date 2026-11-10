@@ -2,8 +2,8 @@
 name: Điền biên bản từ Bảng tính
 description: Điền BBXN/BBKT từ DTCHEP, đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, chèn ngày, dọn bak.
 group: Tài chính
-updated: '2026-11-06'
-learned_updated: '2026-11-06'
+updated: '2026-11-09'
+learned_updated: '2026-11-09'
 ---
 # Điền biên bản từ Bảng tính
 
@@ -118,6 +118,7 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - Tin `Range.Information(5)` sau khi vừa sửa indent trong cùng session Word: giá trị không cập nhật (kể cả Repaginate, kể cả mở lại). Tính indent = x(chữ `SỞ`) - (x(đầu đoạn `Số`) - indent cũ) rồi set một lần, không đo lặp.
 - `ExportAsFixedFormat` trên file ổ Google Drive (G:) treo vô hạn - copy về local trước nếu cần PDF, hoặc bỏ bước PDF.
 - Script giảm dòng ký nhắm "lần khớp đầu tiên": tài liệu có nhiều khối cùng chức danh, phải nhắm đúng khối rớt trang (thường là khối cuối).
+- Đoạn `Hôm nay, hồi 8 giờ 00 ngày DD/MM/YYYY` thường tách nhiều `w:t` (`Hôm nay, hồ` / `i ` / `8` / ` giờ` / `00`). Replace chuỗi liền sẽ miss; replace hàng loạt ngày ký BBKT sẽ đè nhầm ngày mở Báo cáo kết quả. Đổi ngày báo cáo theo ngữ cảnh (Tổ Kiểm tra / 8 giờ) riêng, trước khi đổi hàng loạt ngày BBKT.
 
 ## Kiểm chứng
 
@@ -145,3 +146,4 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 ## Lịch sử (tự học)
 - [2026-11-06] Lượt 06/11/2026, làm theo skill cũ sẽ cộng trùng chậm nộp GTGT từ TINH PHAT, in TNDN 2026 trước miễn giảm, và có thể thêm chỉ tiêu vào BBXN. User chốt 4 điểm: sổ 48.899.062, 2 dòng ND398 trên BBKT 2026, giữ BBXN GTGT, STK trên QĐ thu hồi hoàn. Bổ sung bước đối chiếu 3 nguồn, các bẫy đó, và kiểm chứn
 - [2026-11-06] Vụ Sơn Tiền Hải (GT giải thể): điền số xong nhưng hồ sơ vẫn thiếu chuẩn thể thức (khoảng ký 2-3 dòng, mất `năm 2026`, `Số` chưa canh). Bổ sung mục 4 rà thể thức, 5 bẫy về canh `Số`/đo Word COM/PDF trên G:, và 2 điểm kiểm chứng khối ký + quyết định.
+- [2026-11-09] Vụ Tâm Hoàng Phát: sổ đã có ngày ký BBKT 12/11 nhưng AR14 còn chậm nộp tính đến 30/10. Lấy TINH PHAT (4.747.340) vì khớp ngày BBKT; không dùng 4.670.434. Đoạn mở Báo cáo kết quả bị tách run nên replace `30/10` hàng loạt suýt đổi nhầm thành ngày BBKT.

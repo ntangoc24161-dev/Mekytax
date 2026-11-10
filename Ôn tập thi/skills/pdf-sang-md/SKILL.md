@@ -40,6 +40,7 @@ Cờ thật (đừng bịa cờ khác):
 - `--force` ghi đè `.md` đã có
 - `--backend auto|paddle|pymupdf|docling|marker` (mặc định `auto`)
 - `--lang vi` (mặc định; Latin = Việt có dấu + Anh)
+- `--no-orientation` tắt bước tự nhận hướng xoay trang và dòng chữ. Nhanh hơn khi scan đã thẳng. Ảnh lệch hoặc ngược sẽ đọc sai. Không thêm cờ thì bước này vẫn bật.
 - `--dry-run` chỉ liệt kê file
 - `--list-backends` xem backend đã cài
 
@@ -66,6 +67,7 @@ Ví dụ ghi vào brain kiểm tra thuế:
 - Cài paddleocr/pymupdf vào `.venv` Javis sẽ đụng FastAPI.
 - `--brain` sai tên thì lệnh thất bại; liệt kê thư mục `brains/` chứ đừng đoán.
 - PDF có lớp chữ: `auto` dùng PyMuPDF (nhanh). Scan mờ: `--backend paddle`.
+- Scan máy photocopy đã thẳng hướng: thêm `--no-orientation` để bớt một bước suy luận mỗi trang. Không dùng cờ này khi ảnh bị xoay lệch hoặc chụp nghiêng.
 - Không đọc được thì nói thất bại, không bịa số trên công văn/hóa đơn.
 
 ## Kiểm chứng

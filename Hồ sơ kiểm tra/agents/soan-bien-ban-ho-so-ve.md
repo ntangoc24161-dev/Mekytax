@@ -1,3 +1,20 @@
+---
+reasoning: medium
+type: agent
+name: Hồ sơ về
+slug: soan-bien-ban-ho-so-ve
+role: ''
+skills: []
+model: ''
+avatar:
+  shape: cloud
+  palette: pink
+  eye: den
+model_provider: ''
+updated: '2026-11-08'
+tags: []
+---
+
 ﻿---
 type: agent
 name: Hồ sơ về

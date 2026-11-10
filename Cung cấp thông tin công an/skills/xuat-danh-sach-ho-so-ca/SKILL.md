@@ -38,7 +38,7 @@ learned_updated: '2026-09-26'
    - **Hồ sơ tài liệu khác / Nội dung đặc thù:** Hồ sơ hoàn thuế GTGT, biên bản thanh tra/kiểm tra thuế, phiếu chuyển Tổ HKD, phương án chuyển hồ sơ xử lý hành vi trốn thuế...
 
 3. **Khởi tạo và định dạng sổ tính Excel nhiều Sheet:**
-   - **Sheet 1 (`TONG_HOP_CHI_TIET`):** Chi tiết từng Doanh nghiệp / Mã số thuế, gồm 24 cột tiêu chí: STT, Số CV, Ngày CV, Cơ quan ban hành, Điều tra viên/Cán bộ thụ lý, Tên NNT, Mã số thuế, Địa chỉ, Tổ KT, Cán bộ xử lý, Trạng thái, Tờ khai GTGT, Quyết toán TNDN, Quyết toán TNCN, BCTC, Hóa đơn điện tử, Xử phạt VPHC & Cưỡng chế, Thông báo Đóng MST, Thông tin Định danh DN, Nghĩa vụ NSNN & Nợ thuế, Hồ sơ khác, Tệp dự thảo CV trả lời, Tệp Tờ trình, Thư mục lưu trữ trên Drive.
+   - **Sheet 1 (`TONG_HOP_CHI_TIET`):** Chi tiết từng Doanh nghiệp / Mã số thuế, gồm 26 cột tiêu chí: STT, Số CV, Ngày CV, Cơ quan ban hành, Điều tra viên/Cán bộ thụ lý, Tên NNT, Mã số thuế, Địa chỉ, Tổ KT, Cán bộ xử lý, Trạng thái, Tờ khai GTGT, Quyết toán TNDN, Quyết toán TNCN, BCTC, Hóa đơn điện tử, Xử phạt VPHC & Cưỡng chế, Thông báo Đóng MST, Thông tin Định danh DN, Nghĩa vụ NSNN & Nợ thuế, Hồ sơ khác, Tệp dự thảo CV trả lời, Tệp Tờ trình, Thư mục lưu trữ trên Drive, **Ngày giao công văn (Q)**, **Hạn thực hiện (R)**.
    - **Sheet 2 (`TONG_HOP_THEO_CV`):** Tổng hợp theo từng Công văn (STT, Số CV, Ngày CV, Cơ quan, Số lượng DN, Tóm tắt yêu cầu hồ sơ, Trạng thái xử lý, Tệp dự thảo, Thư mục Drive).
    - **Sheet 3 (`TOAN_BO_HO_SO_DU_THAO`):** Danh mục toàn bộ các hồ sơ đang lưu dự thảo Word trong thư mục năm 2026.
    - **Sheet 4 (`DANH_MUC_TIEU_CHI`):** Bảng giải thích chi tiết mục đích và hướng dẫn trích xuất dữ liệu của từng cột tiêu chí.

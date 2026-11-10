@@ -7,3 +7,4 @@
 - Công văn cũ có thể chỉ cung cấp TB và tờ khai HĐĐT; CV mới xin đủ GTGT/BCTC/bảng kê thì soạn đủ danh mục theo yêu cầu mới, giữ nguyên số liệu pháp lý đã lời.
 - File `TRA CUU NGHIA VU.XLSX` là nghĩa vụ kê khai TMS, không phải sổ nợ; cột QĐ phạt trống thì VPHC chữ đen, nợ vẫn đỏ nếu chưa có sổ nợ.
 - CBQL lấy bảng HCTH `CC cong an.xlsx` trong thư mục CV; không đưa DN của công văn khác nằm chung file đó.
+- Chỗ thiếu trên Word phải vừa tô đỏ (FF0000) vừa chèn đúng chuỗi `[CHƯA XÁC ĐỊNH]` trong câu đỏ; chỉ báo nhãn trên chat thì kiểm chứng document.xml sẽ trượt.

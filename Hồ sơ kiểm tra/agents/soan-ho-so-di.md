@@ -1,3 +1,20 @@
+---
+reasoning: medium
+type: agent
+name: Hồ sơ đi
+slug: soan-ho-so-di
+role: ''
+skills: []
+model: ''
+avatar:
+  shape: triangle
+  palette: clay
+  eye: den
+model_provider: ''
+updated: '2026-11-08'
+tags: []
+---
+
 ﻿---
 type: agent
 name: Hồ sơ đi

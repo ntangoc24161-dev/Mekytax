@@ -29,6 +29,17 @@
       "created_at": 1790156989.4271903,
       "updated_at": 1790476041.02514,
       "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
       "metadata": {
         "route": "auto",
         "capability": "files",
@@ -91,6 +102,17 @@
       "created_at": 1790186335.1381893,
       "updated_at": 1790476041.02514,
       "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
       "metadata": {
         "acceptance": [
           "Toàn bộ 30 file Word trong thư mục nguồn được quét và trích xuất dữ liệu ảnh chứa câu hỏi",
@@ -155,6 +177,17 @@
       "created_at": 1790189136.8293083,
       "updated_at": 1790476041.02514,
       "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
       "metadata": {
         "route": "auto",
         "capability": "files",
@@ -192,5 +225,5 @@
       ]
     }
   ],
-  "updated": 1792695341.651997
+  "updated": 1794161094.0697067
 }
