@@ -5,6 +5,7 @@
 
 - [Vị trí file Excel Danh sách kiểm tra quyết toán](facts/file-danh-sach-kiem-tra-quyet-toan.md) - Sổ làm việc `Danh sach kiem tra quyet toan pro.xlsm` tại `00. Theo doi chung\`; giữ file gốc `.xlsx`.
 - [Căn cứ pháp lý kiểm tra thuế mới](facts/can-cu-phap-ly-kiem-tra-thue.md) - Quyết định 1161/QĐ-CT và Luật Quản lý thuế số 108/2025/QH15 thay thế QĐ 970/QĐ-TCT và Luật 38/2019/QH14.
+- [Kỹ năng lập hồ sơ kiểm tra giải thể](facts/skill-ho-so-kiem-tra-giai-the.md) - Đã tạo skill ho-so-kiem-tra-giai-the: bộ phôi 22 văn bản, Mục III NSNN, văn bản từ chối nộp thừa, bù trừ hoàn thuế NĐ 181/2025.
 - [Cấu trúc và định dạng file Excel theo dõi kiểm tra thuế](facts/cau-truc-file-excel-theo-doi-kiem-tra-thue.md) - Yêu cầu cấu trúc sheet, phân loại trạng thái, ẩn/bỏ cột và font chữ cho file Excel theo dõi kiểm tra thuế.
 - [Vị trí file cơ sở dữ liệu Người nộp thuế](facts/vi-tri-file-db-nnt.md) - Đường dẫn file Excel DB NNT dùng để tra cứu thông tin doanh nghiệp theo MST.
 - [Định dạng nội dung kiểm tra trên sổ Excel](facts/dinh-dang-noi-dung-kiem-tra-tren-excel.md) - Nội dung kiểm tra xuống hàng, gạch đầu dòng theo chuyên đề (Chi phí QLDN, chi phí bán hàng, chi phí tài chính).
@@ -96,3 +97,8 @@
 - [Hồ sơ kiểm tra MST 3603057410 - Nông sản Lưu Hoài Anh](facts/ho-so-kiem-tra-mst-3603057410-nong-san-luu-hoai-anh.md) - Bang tinh kỳ 2022-2025 đã đổ KQKDSXKD và CDKT; sổ chưa có MST; chưa có KQ2.1.
 - [Tiến độ hồ sơ kiểm tra Phát Hoàng Long (MST 3600974507) và điều kiện chuyển bước](facts/ho-so-kiem-tra-mst-3600974507-phat-hoang-long-tien-do-bang-t.md) - Phát Hoàng Long đã nhập xong KQKDSXKD 2022-2025, đủ điều kiện bóc tách Bảng tính Mục III DI-01
 - [Chi tiết loại lương Nguyễn Văn Kiên vụ Tâm Hoàng Phát (MST 3603721832)](facts/ho-so-kiem-tra-mst-3603721832-chi-tiet-loai-luong-nguyen-van.md) - Loại lương 3 năm 2023-2025 tổng 100.041.923 đ, CCCD 044090000152; sheet nội bộ và tờ khai lệch MST năm 2024-2025.
+- [Hồ sơ kiểm tra MST 3603883505 - T&T Biên Hòa](facts/ho-so-kiem-tra-mst-3603883505-tt-bien-hoa.md) - Vụ T&T Biên Hòa (MST 3603883505) tại STT 12 trong 1. TD, NNT đã nộp tờ khai điều chỉnh bổ sung TNDN và GTGT.
+- [Đoàn kiểm tra và phân công vụ T&T Biên Hòa (MST 3603883505)](facts/doan-kiem-tra-vu-tt-bien-hoa-mst-3603883505.md) - TĐ Nguyễn Thị Ánh Ngọc (CP quản lý kinh doanh), TV Mai Ngọc Lân (CP tài chính), kỳ 2022-2025
+- [Hồ sơ Phát Hoàng Long (MST 3600974507) đã lên sổ JAVIS PRO và chuyển sang 13. PHAT HOANG LONG](facts/ho-so-kiem-tra-mst-3600974507-phat-hoang-long-len-so-va-thu-.md) - Phát Hoàng Long chuyển sang `1. TD\13. PHAT HOANG LONG`, lên dòng 6 sheet 02_DANG_THUC_HIEN, đã đổ GTGT 2022-2025; đang chờ nhân sự đoàn để xuất Word.
+- [Cảnh báo số gõ cứng trên DTCHEP chỉ là lưu ý, không chặn đổ số](facts/canh-bao-so-go-cung-dtchep-khong-chan-do-so.md) - Ô chênh lệch lớn trên DTCHEP không có công thức hoặc sheet chi tiết thì chỉ báo lưu ý cho user, vẫn đổ số vào biên bản bình thường.
+- [Đoàn kiểm tra và phân công vụ Phát Hoàng Long (MST 3600974507)](facts/doan-kiem-tra-vu-phat-hoang-long-mst-3600974507.md) - TĐ Nguyễn Thị Ánh Ngọc (CP QLDN), TV Mai Ngọc Lân (CP bán hàng), kỳ 2022-2025; TONG HOP lấy mẫu Vạn Phát Thành

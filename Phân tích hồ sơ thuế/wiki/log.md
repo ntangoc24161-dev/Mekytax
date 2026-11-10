@@ -287,3 +287,8 @@ File vận hành: `skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md` + `play
 ## [2026-10-23] update | Cắt token phòng
 - Tạo: [[Cat-token-2026-10-23]]
 - orchestration=off; cancel t_62548b57a135; 8 skill -> .disabled; còn 24 skill + 6 agent + 1 workflow.
+
+## [2026-11-11] ingest | tự học từ chat
+
+Đã tạo:
+- [[Đối chiếu F0 F1 cho người nộp thuế và thứ tự ưu tiên cảnh báo rủi ro nhà cung cấp]]

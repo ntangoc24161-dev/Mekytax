@@ -351,7 +351,83 @@
           "msg": "worker cancelled"
         }
       ]
+    },
+    {
+      "id": "t_c80c52630a48",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
+      "title": "Xu ly 39 ho so cong van canh bao tai HO SO MOI",
+      "intent": "Xử lý, phân loại, bóc tách dữ liệu rủi ro từ 39 tệp công văn tại thư mục HO SO MOI, nạp vào sổ theo dõi SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx (sheet F0/F1), di chuyển lưu trữ tệp sau bóc tách và dọn sạch thư mục nhận",
+      "route": "wf:day-chuyen-xu-ly-cv-canh-bao",
+      "capability": "files",
+      "execution_mode": "auto",
+      "priority": 2,
+      "status": "blocked",
+      "needs_approval": false,
+      "block_kind": "transient",
+      "block_reason": "Bước 1 (tra-cuu-tai-cv-ioffice) chưa qua kiểm chứng sau 2 lượt: Danh sách 39 tệp khớp thực tế (tôi liệt kê lại bằng Glob: đủ 39, đúng đường dẫn). Nhưng cột Dung lượng bắt buộc chưa đủ: 8 tệp (6 XLSX, 2 DOCX) ghi 'không đo được'. 31 tệp PDF chỉ có dung lượng xấp xỉ '~', suy từ startxref chứ không đo thật. Cột Loại có 2 dòng không đúng 3 giá trị cho phép: 'DOCX (n. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_by": "user",
+      "chat_id": "web:cc88fb2d23f54f4ca053aa9076abe482",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "last_heartbeat_at": 1794302089.4021108,
+      "current_run_id": "",
+      "result": "\n[[NEEDS_INPUT]] Bước 1 (tra-cuu-tai-cv-ioffice) chưa qua kiểm chứng sau 2 lượt: Danh sách 39 tệp khớp thực tế (tôi liệt kê lại bằng Glob: đủ 39, đúng đường dẫn). Nhưng cột Dung lượng bắt buộc chưa đủ: 8 tệp (6 XLSX, 2 DOCX) ghi 'không đo được'. 31 tệp PDF chỉ có dung lượng xấp xỉ '~', suy từ startxref chứ không đo thật. Cột Loại có 2 dòng không đúng 3 giá trị cho phép: 'DOCX (n. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_at": 1794301795.28265,
+      "updated_at": 1794302089.4021108,
+      "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "Toàn bộ 39 tệp tại thư mục HO SO MOI được quét, loại bỏ tệp trùng hoặc tệp trắng",
+          "Dữ liệu doanh nghiệp rủi ro/bán ra và mua vào được bóc tách và nạp vào sheet F0, F1 của Sổ theo dõi Excel theo đúng cấu trúc cột và khóa chống trùng",
+          "Các tệp sau khi bóc tách được phân loại và lưu trữ vào đúng thư mục nghiệp vụ (01_HO SO CONG AN CHUYEN DEN hoặc 02_NGUON RUI RO NGANH THUE)",
+          "Thư mục HO SO MOI được dọn sạch sau khi hoàn tất xử lý"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "name": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "key": ""
+        }
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-10 16:09",
+          "msg": "created by user"
+        },
+        {
+          "ts": "2026-11-10 16:09",
+          "msg": "claimed by worker:28136:02e9f9c9"
+        },
+        {
+          "ts": "2026-11-10 16:10",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-11-10 16:10",
+          "msg": "claimed by worker:28136:bbcade4a"
+        },
+        {
+          "ts": "2026-11-10 16:14",
+          "msg": "Bước 1 (tra-cuu-tai-cv-ioffice) chưa qua kiểm chứng sau 2 lượt: Danh sách 39 tệp khớp thực tế (tôi liệt kê lại bằng Glob: đủ 39, đúng đường dẫn). Nhưng cột Dung lượng bắt buộc chưa đủ: 8 tệp (6 XLSX, 2 DOCX) ghi 'không đo được'. 31 tệp PDF chỉ có dung lượng xấp xỉ '~', suy từ startxref chứ không đo thật. Cột Loại có 2 dòng không đúng 3 giá trị cho phép: 'DOCX (n. Quy trình dừng ở đây, không chạy tiếp các bước sau."
+        }
+      ]
     }
   ],
-  "updated": 1794160998.1401448
+  "updated": 1794302089.5157993
 }

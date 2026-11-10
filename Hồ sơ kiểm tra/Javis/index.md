@@ -2,14 +2,14 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 7 agents · 29 skills · 3 workflows (1 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 7 agents · 30 skills · 3 workflows (1 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
 
 ## Agents
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **Khởi tạo hồ sơ** (`khoi-tao-ho-so`) - 
 - **Lập hồ sơ kiểm tra** (`lap-ho-so-kiem-tra`) - 
 - **Giám sát hồ sơ** (`quan-ly-ho-so-kiem-tra`) - Giám sát tiến độ, kiểm soát chất lượng và điều phối dây chuyền hồ sơ kiểm tra thuế. · model sonnet · skills: phan-tich-ho-so-thue, soan-thao-van-ban, lap-ho-so-kiem-tra · tags: Tài chính, Vận hành
-- **Hồ sơ về** (`soan-bien-ban-ho-so-ve`) - 
+- **Hồ sơ về** (`soan-bien-ban-ho-so-ve`) -  · skills: soan-thao-van-ban, dien-bien-ban-tu-bang-tinh, xu-phat-vphc-thue-hoa-don, ho-so-kiem-tra-giai-the
 - **Hồ sơ đi** (`soan-ho-so-di`) - 
 - **Wiki quản lý** (`tri-thuc-second-brain`) - 
 
@@ -35,7 +35,8 @@
 ### Tài chính
 - **Bóc tách Bảng tính phân tích tài chính NNT** (`boc-tach-bang-tinh-phan-tich`) - Bóc tách Bảng tính NNT (sheet KQKDSXKD): lấy KQKD theo năm, tính tỷ lệ chi phí/doanh thu, điền phân tích Mục III và đề xuất nội dung kiểm tra DI-01.
 - **Cập nhật sổ JAVIS PRO từ sheet TINH PHAT + CHAM NOP** (`cap-nhat-so-tu-tinh-phat-cham-nop`) - Đối chiếu dòng tổng sheet TINH PHAT + CHAM NOP của Bảng tính với sổ Danh sach kiem tra quyet toan pro.xlsm, sửa ô lệch, giữ công thức và VBA.
-- **Điền biên bản từ Bảng tính** (`dien-bien-ban-tu-bang-tinh`) - Điền BBXN/BBKT từ DTCHEP, đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, chèn ngày, dọn bak.
+- **Điền biên bản từ Bảng tính** (`dien-bien-ban-tu-bang-tinh`) - Điền BBXN/BBKT từ DTCHEP, kiểm tra số gõ cứng (cảnh báo mềm), đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, chèn ngày, dọn bak.
+- **Hồ sơ kiểm tra giải thể** (`ho-so-kiem-tra-giai-the`) - Lập và chuẩn hóa bộ hồ sơ kiểm tra quyết toán giải thể: bộ 22 văn bản, Mục III NSNN, văn bản từ chối nộp thừa, bù trừ hoàn thuế.
 - **Hồ sơ kiểm tra theo kế hoạch** (`ho-so-kiem-tra-ke-hoach`) - Lập hồ sơ kiểm tra kế hoạch từ MAUTONG HOP: giữ phôi gốc nghiệp vụ, chuẩn NĐ 30 văn bản hành chính, chuẩn checkbox ☐/☑ và xuất QĐ riêng.
 - **Lập hồ sơ kiểm tra thuế** (`lap-ho-so-kiem-tra`) - Vận hành sổ Excel JAVIS PRO và app hồ sơ kiểm tra: thêm vụ từ DB NNT, xuất Word DI trình ký.
 - **Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế** (`nhap-bang-tinh-tu-bao-cao-hdkd`) - Điền KQKDSXKD từ PTDN02 (thiếu thì bù BCTC NamNay hoặc QTT 03-1A); có KQ2.1 thì đổ GTGT và EBITDA.

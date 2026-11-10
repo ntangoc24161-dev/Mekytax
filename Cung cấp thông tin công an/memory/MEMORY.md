@@ -79,3 +79,6 @@
 - [Quy định cột Q và R trên sheet NHAP_HO_SO file Bao_cao_cong_van.xlsx](facts/quy-dinh-cot-q-r-sheet-nhap-ho-so.md) - Cột Q ghi Ngày giao công văn (ngày cập nhật lên sổ) và Cột R ghi Hạn thực hiện theo yêu cầu
 - [Cấu trúc cột Q (Ngày giao công văn) và cột R (Hạn thực hiện) trên sheet NHAP_HO_SO](facts/cau-truc-cot-q-r-sheet-nhap-ho-so.md) - Cột Q là Ngày giao công văn (ngày cập nhật lên file) và Cột R là Hạn thực hiện yêu cầu cung cấp thông tin.
 - [doc-ghi-com-giu-bieu-do-bao-cao-cong-van](facts/doc-ghi-com-giu-bieu-do-bao-cao-cong-van.md) - Sửa Bao_cao_cong_van.xlsx phải đọc/ghi qua COM để không mất biểu đồ Dashboard
+- [Tạo agent và workflow theo dõi CV trả lời đã ký](facts/tao-agent-va-workflow-theo-doi-cv-tra-loi-da-ky.md) - Bổ sung agent và workflow chuyên trách bóc tách CV trả lời đã ký cập nhật vào loop định kỳ
+- [Xác nhận đường dẫn sổ theo dõi Bao_cao_cong_van và thư mục lưu file MD](facts/xac-nhan-duong-dan-so-theo-doi-va-thu-muc-file-md.md) - Xác nhận chính xác đường dẫn sổ theo dõi Bao_cao_cong_van.xlsx và thư mục lưu file Markdown
+- [Số lượng công văn đã ký số và file Markdown năm 2026](facts/so-luong-cv-da-ky-so-va-file-md-nam-2026.md) - 138 thư mục -R đã ký số năm 2026, tạo 122 file markdown lưu trữ và cập nhật trạng thái sổ.

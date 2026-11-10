@@ -4,7 +4,11 @@ type: agent
 name: Hồ sơ về
 slug: soan-bien-ban-ho-so-ve
 role: ''
-skills: []
+skills:
+- soan-thao-van-ban
+- dien-bien-ban-tu-bang-tinh
+- xu-phat-vphc-thue-hoa-don
+- ho-so-kiem-tra-giai-the
 model: ''
 avatar:
   shape: cloud
@@ -21,7 +25,7 @@ name: Hồ sơ về
 slug: soan-bien-ban-ho-so-ve
 role: Soạn biên bản, hồ sơ về và quyết định xử phạt trình ký.
 group: Tài chính
-skills: [soan-thao-van-ban, dien-bien-ban-tu-bang-tinh, xu-phat-vphc-thue-hoa-don]
+skills: [soan-thao-van-ban, dien-bien-ban-tu-bang-tinh, xu-phat-vphc-thue-hoa-don, ho-so-kiem-tra-giai-the]
 model: sonnet
 updated: '2026-11-06'
 ---

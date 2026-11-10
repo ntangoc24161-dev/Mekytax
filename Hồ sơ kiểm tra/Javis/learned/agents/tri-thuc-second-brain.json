@@ -1,0 +1,56 @@
+{
+ "agent": {
+  "slug": "tri-thuc-second-brain"
+ },
+ "judge": {},
+ "kind": "agent",
+ "lessons": [
+  {
+   "created_at": 1794330610.370069,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Hồ sơ kiểm tra giải thể trên nền kế hoạch năm bắt buộc phải điền chi tiết Mục III Nghĩa vụ NSNN và bổ sung văn bản đóng mã số thuế thay vì dùng nguyên mẫu phôi kế hoạch thông thường."
+  },
+  {
+   "created_at": 1794330610.37609,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Khi phát hiện số chênh lệch lớn trên sheet DTCHEP là giá trị gõ cứng không công thức, phải lập cảnh báo xác minh chứng từ gốc ngay trước khi đổ số liệu vào biên bản kiểm tra."
+  },
+  {
+   "created_at": 1794332602.077599,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Quy tắc kiểm tra số gõ cứng trên DTCHEP hoạt động dạng cảnh báo mềm (non-blocking warning), ghi nhận để người dùng lưu ý rủi ro mà không làm gián đoạn luồng tự động đổ số vào biên bản."
+  },
+  {
+   "created_at": 1794333593.4221709,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Khi lập hồ sơ kiểm tra giải thể, phải phân biệt rõ 3 diện phát sinh (thông báo ngừng hoạt động, kế hoạch năm, hoặc giải thể kèm hoàn thuế) để chọn đúng mẫu phôi, thời hạn kiểm tra và căn cứ xử lý tài chính."
+  }
+ ],
+ "presentation": [],
+ "updated": "2026-11-10T18:01:55Z",
+ "version": 1
+}

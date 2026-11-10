@@ -1,9 +1,9 @@
 ---
 name: Điền biên bản từ Bảng tính
-description: Điền BBXN/BBKT từ DTCHEP, đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, chèn ngày, dọn bak.
+description: Điền BBXN/BBKT từ DTCHEP, kiểm tra số gõ cứng (cảnh báo mềm), đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, chèn ngày, dọn bak.
 group: Tài chính
-updated: '2026-11-09'
-learned_updated: '2026-11-09'
+updated: '2026-11-11'
+learned_updated: '2026-11-11'
 ---
 # Điền biên bản từ Bảng tính
 
@@ -14,6 +14,7 @@ Skill đứng **sau** `nhap-bang-tinh-tu-bao-cao-hdkd` / `boc-tach-bang-tinh-pha
 ## Khi nào dùng
 
 - "điền biên bản từ Bảng tính", "đổ DTCHEP vào BBXN/BBKT", "cập nhật biên bản xác nhận / biên bản kiểm tra".
+- "kiểm tra số gõ cứng trên DTCHEP", "cảnh báo mềm số liệu không công thức", "hardcoded check DTCHEP".
 - "cập nhật TONG HOP theo Bảng tính và sổ", "hỏi chỗ lệch trước khi sửa".
 - "đồng bộ QĐ riêng với TONG HOP", "xuất lại QĐ sau khi canh tay".
 - "chèn ngày công bố / ngày báo cáo vào hồ sơ".
@@ -26,7 +27,7 @@ Skill đứng **sau** `nhap-bang-tinh-tu-bao-cao-hdkd` / `boc-tach-bang-tinh-pha
 - Phân công đoàn + nội dung kiểm tra trên sổ JAVIS PRO (TD: QLDN + bán hàng; TV: tài chính - hoặc theo vụ đang làm).
 - Ngày vụ: công bố, bắt đầu, kết thúc, ký BBKT, báo cáo (từ sổ hoặc user chốt).
 - Ba nguồn số: sheet `DTCHEP`, sheet `TINH PHAT + CHAM NOP (C T)`, sổ `Danh sach kiem tra quyet toan pro.xlsm`. Lệch tổng truy thu / chậm nộp / phạt / thu hồi hoàn thì hỏi user trước khi ghi.
-- Backup `.bak-*` trước khi sửa XML/run lớn; sau khi xong mới dọn (bước 4).
+- Backup `.bak-*` trước khi sửa XML/run lớn; sau khi xong mới dọn (bước 5).
 
 Chi tiết cấu trúc từng năm BBXN/BBKT: `references/cau-truc-bbxn-bbkt.md`.
 
@@ -36,23 +37,26 @@ Chi tiết cấu trúc từng năm BBXN/BBKT: `references/cau-truc-bbxn-bbkt.md`
 
 1. Đối chiếu `TONG HOP` đang in với `DTCHEP` và sổ. Sheet `TINH PHAT` cộng trùng chậm nộp GTGT (dòng sắc thuế đã gom rồi dòng thu hồi hoàn cộng lại) thì lấy tổng trên sổ. Chỗ lệch khác: hỏi user, rồi mới ghi.
 2. Đọc sheet **`DTCHEP`** (còn gọi `DCHEP`) bằng `openpyxl` `data_only=True`: số báo cáo / số kiểm tra / chênh lệch theo năm và theo chỉ tiêu chi phí.
-3. Khớp chỉ tiêu với phân công đoàn:
+3. **Quét số gõ cứng (cảnh báo mềm, KHÔNG chặn):** mở thêm workbook `data_only=False`, với mỗi ô chênh lệch lớn của từng năm kiểm tra xem ô có công thức (bắt đầu `=`) hay có sheet bảng kê chi tiết đi kèm không. Ô là số nhập tay và không có sheet chi tiết thì ghi lại (ô, năm, chỉ tiêu, số tiền) để báo cuối lượt. **Vẫn đổ số bình thường** vào BBXN/BBKT/QĐ XPHC/TONG HOP; không sửa số, không bỏ năm đó.
+4. Khớp chỉ tiêu với phân công đoàn:
    - Thành viên (BBXN TV): mặc định Chi phí tài chính (1 chỉ tiêu/năm). Vụ đã bổ sung khối GTGT (đầu vào được khấu trừ, đầu ra) thì **giữ nguyên số chỉ tiêu đó**, không thêm "Thuế GTGT đã được hoàn".
    - Trưởng đoàn (BBXN TD): mặc định Chi phí QLDN và Chi phí bán hàng - **2 chỉ tiêu/năm trong cùng một bảng**, đánh **TT = 1** cho QLDN và **TT = 2** cho bán hàng (không tách hai bảng riêng theo chỉ tiêu). Vụ có thêm giá vốn hàng bán thì giữ đúng số chỉ tiêu đã có trên phôi/TONG HOP.
-   - Tên chỉ tiêu trong cột CHỈ TIÊU (và trong mục I/II nói chung) **không gạch đầu dòng `-`**, chỉ ghi thẳng tên nội dung (ví dụ `Chi phí quản lý doanh nghiệp`, không phải `- Chi phí quản lý doanh nghiệp`).
-4. Với **mỗi năm** trong thời kỳ kiểm tra, trên BBXN giữ đúng khối phôi:
+   - Tên chỉ tiêu trong cột CHỈ TIÊU (và trong mục I/II nói chung) **không gạch đầu dòng `-`**, chỉ ghi thẳng tên nội dung và thống nhất là **`Chi phí quản lý doanh nghiệp`** (không dùng tên cũ `Chi phí quản lý kinh doanh`).
+5. Với **mỗi năm** trong thời kỳ kiểm tra, trên BBXN giữ đúng khối phôi:
    - Dòng năm **đậm không nghiêng** + tab + `Đơn vị tính: Đồng` nghiêng cùng dòng (tab right ~8931); không tách ĐVT ra dòng riêng.
    - Bảng phôi: `TT | CHỈ TIÊU | SỐ BÁO CÁO | SỐ KIỂM TRA | CHÊNH LỆCH` (TT là số thứ tự chỉ tiêu trong năm đó, 1/2 như trên - không phải số thứ tự năm).
    - Có chênh: thêm dòng tiêu đề **`Giải trình số liệu chênh lệch qua kiểm tra:`**, xuống hàng mới bắt đầu bằng `*/` rồi nội dung giải trình + căn cứ pháp lý theo năm (xem dưới).
    - Không chênh: chỉ một dòng `*/ Không chênh lệch.` viết thường - không có dòng tiêu đề "Giải trình..." phía trên, không giữ khung giải trình của năm có chênh.
-5. **BBXN không ghi** TNTT tăng / thuế TNDN truy thu (phần đó thuộc BBKT).
-6. Trên **BBKT**, năm có chênh: khối Giải trình → diễn giải TNTT → `*/` nguyên nhân → `=>Thuế TNDN truy thu...` (+ giảm lỗ nếu có). Năm không chênh: chỉ `*/ Không chênh lệch.` Năm có miễn giảm TNDN (ND398): chèn **2 dòng** vào bảng năm đó (miễn giảm; thuế TNDN còn phải nộp); dòng truy thu lấy số **sau miễn giảm**; tổng nhiều năm lấy ô sổ khi cộng tay lệch 1 đồng. Phần GTGT user đã bổ sung trên BBKT giữ nguyên.
-7. Câu loại **chi phí tài chính** thống nhất: `Công ty hạch toán chi phí lãi vay không tương ứng doanh thu` (không dùng cụm cũ "không đúng quy định", không EBITDA).
-8. Căn cứ pháp lý theo năm:
+6. **BBXN không ghi** TNTT tăng / thuế TNDN truy thu (phần đó thuộc BBKT).
+7. Trên **BBKT**, năm có chênh: khối Giải trình → diễn giải TNTT → `*/` nguyên nhân → `=>Thuế TNDN truy thu...` (+ giảm lỗ nếu có). Năm không chênh: chỉ `*/ Không chênh lệch.` Năm có miễn giảm TNDN (ND398): chèn **2 dòng** vào bảng năm đó (miễn giảm; thuế TNDN còn phải nộp); dòng truy thu lấy số **sau miễn giảm**; tổng nhiều năm lấy ô sổ khi cộng tay lệch 1 đồng. Phần GTGT user đã bổ sung trên BBKT giữ nguyên.
+8. Câu loại **chi phí tài chính** thống nhất: `Công ty hạch toán chi phí lãi vay không tương ứng doanh thu` (không dùng cụm cũ "không đúng quy định", không EBITDA).
+9. Căn cứ pháp lý theo năm:
    - Trước 2025 (vd 2021-2022): `Điều 4 Thông tư 96/2015/TT-BTC ngày 22/06/2015`.
    - Từ 2025: `Điều 10 Nghị định số 320/2025/NĐ-CP` (+ Thông tư hướng dẫn nếu có trong hồ sơ).
-9. Giá trị bằng **0** ghi số `0` (hoặc `0 đồng`), không thay bằng gạch ngang `-`.
-10. Giữ 100% layout phôi (tab, bảng, floating Mẫu số). Chỉ điền số và lời nghiệp vụ; không normalize hàng loạt giãn dòng/font toàn file.
+10. Giá trị bằng **0** ghi số `0` (hoặc `0 đồng`), không thay bằng gạch ngang `-`.
+11. Giữ 100% layout phôi (tab, bảng, floating Mẫu số). Chỉ điền số và lời nghiệp vụ; không normalize hàng loạt giãn dòng/font toàn file.
+12. Cuối lượt, nếu bước 3 có ô bị đánh dấu, thêm vào báo cáo cho user (và ghi 1 dòng vào `wiki/_open-questions.md`) dạng:
+   > `[LƯU Ý NGHIỆP VỤ]: Ô DTCHEP!E372 (giá vốn 2026: -826.764.409 đồng) là số gõ cứng, không có công thức. Hồ sơ đã được hoàn tất và điền số bình thường; đoàn kiểm tra lưu ý chuẩn bị chứng từ chứng minh khi làm việc.`
 
 ### 2. Đồng bộ QĐ riêng sau canh tay
 
@@ -88,6 +92,9 @@ Không tự bịa ngày. Thiếu mốc thì hỏi hoặc ghi chỗ trống theo 
 2. **Chống rớt trang**: sau khi tăng dòng phải mở Word, `Repaginate`, so `Information(3)` của dòng chức danh và dòng tên. Rớt trang thì giảm 5 -> 4 -> 3; vẫn rớt thì giữ 5 dòng và set `keep_with_next` cho dòng chức danh + các dòng trống để Word đẩy trọn khối sang trang sau.
 3. **Quyết định**: `Số` thẳng dưới chữ `sở`; `Trấn Biên, ngày       tháng       năm 2026` (bỏ trống ngày tháng, **giữ năm**, canh giữa ô); các `Điều 1, 2, 3...` đậm.
 4. **Đếm lại trang thật** rồi điền đoạn kết từng biên bản (số trang đổi mỗi khi thêm/bớt dòng ký).
+5. **Đặc thù hồ sơ kiểm tra giải thể trên nền kế hoạch (vụ giải thể)**:
+   - **Mục III Nghĩa vụ NSNN**: Bắt buộc phải điền đủ số liệu các năm trong thời kỳ kiểm tra (số phát sinh phải nộp suy ra từ kết luận 1.2 và 1.5: `(3)=0`, `(6)=(4)`, `(7)=(3)+(4)+(5)-(6)`), không được để trống hay dùng gạch ngang như phôi kế hoạch thông thường.
+   - Bổ sung văn bản đóng mã số thuế / từ chối nhận lại số tiền nộp thừa (điền MST từng ô) và rà soát thủ tục hoàn/bù trừ giải thể theo quy định (Điều 32 NĐ 181/2025/NĐ-CP).
 
 ### 5. Dọn bak / backup
 
@@ -113,6 +120,9 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - Tự thêm chỉ tiêu vào BBXN khi user đã bổ sung khối GTGT.
 - Bỏ sót số tài khoản trên Quyết định thu hồi hoàn.
 - Sửa TONG HOP khi 3 nguồn lệch mà chưa hỏi user.
+- Đọc DTCHEP chỉ bằng `data_only=True` thì không phân biệt được ô công thức với số gõ tay: một ô chênh lệch rất lớn nhập tay (vd `DTCHEP!E372` vụ Sơn Tiền Hải, -826.764.409 đồng) lọt qua không ai biết. Ngược lại, cũng KHÔNG được dừng đổ số hay bỏ năm đó vì ô gõ cứng - user chốt đây chỉ là cảnh báo mềm.
+- Dùng nhầm tên cũ `chi phí quản lý kinh doanh` thay vì `chi phí quản lý doanh nghiệp` làm lệch với danh mục luật định.
+- Để trống hoặc gạch ngang Mục III Nghĩa vụ NSNN ở hồ sơ giải thể: vụ giải thể bắt buộc phải chốt đủ số phát sinh phải nộp các năm để CQT khóa mã số thuế.
 - Coi "điền xong số" là xong mà bỏ rà thể thức: vụ giải thể/hoàn thuế lập từ phôi khác hay còn khoảng ký 2-3 dòng, dòng `Trấn Biên, ngày tháng năm` mất `2026`, `Số` chưa canh dưới `sở`.
 - Canh `Số` bằng cách đổi `LeftIndent` mà **không xóa 16-21 space đầu dòng** của phôi: indent đúng nhưng chữ vẫn lệch phải. Xóa whitespace đầu dòng trước, rồi mới set indent.
 - Tin `Range.Information(5)` sau khi vừa sửa indent trong cùng session Word: giá trị không cập nhật (kể cả Repaginate, kể cả mở lại). Tính indent = x(chữ `SỞ`) - (x(đầu đoạn `Số`) - indent cũ) rồi set một lần, không đo lặp.
@@ -127,6 +137,9 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - BBXN không có dòng truy thu TNDN; BBKT năm chênh có `=>Thuế TNDN truy thu`.
 - Năm có miễn giảm TNDN: bảng BBKT đủ 2 dòng miễn giảm và còn phải nộp; truy thu = số sau miễn giảm.
 - Tổng truy thu + chậm nộp + phạt + thu hồi hoàn khớp sổ.
+- Báo cáo cuối lượt có dòng `[LƯU Ý NGHIỆP VỤ]` cho từng ô chênh lệch gõ cứng (nếu có), đã ghi nhận vào `wiki/_open-questions.md`, và các ô đó vẫn đã được đổ số đầy đủ vào biên bản.
+- Mục III Nghĩa vụ NSNN vụ giải thể có đầy đủ số phát sinh các năm.
+- Tên chỉ tiêu chi phí QLDN trên toàn bộ hồ sơ thống nhất là "Chi phí quản lý doanh nghiệp".
 - BBXN giữ đúng số chỉ tiêu bản user đã bổ sung; phần GTGT trên BBKT giữ nguyên.
 - QĐ thu hồi hoàn có STK nếu hồ sơ/sổ đã có số TK.
 - Checkbox BCGS toàn bộ là ☐/☑ Unicode sau chữ, không còn Wingdings/`□`; mục 9 đủ 3 ô.
@@ -144,6 +157,7 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 4. `ho-so-kiem-tra-ke-hoach` - font/checkbox/lint/xuất trọn gói / NĐ 30 cho hành chính.
 
 ## Lịch sử (tự học)
-- [2026-11-06] Lượt 06/11/2026, làm theo skill cũ sẽ cộng trùng chậm nộp GTGT từ TINH PHAT, in TNDN 2026 trước miễn giảm, và có thể thêm chỉ tiêu vào BBXN. User chốt 4 điểm: sổ 48.899.062, 2 dòng ND398 trên BBKT 2026, giữ BBXN GTGT, STK trên QĐ thu hồi hoàn. Bổ sung bước đối chiếu 3 nguồn, các bẫy đó, và kiểm chứn
+- [2026-11-06] Lượt 06/11/2026, làm theo skill cũ sẽ cộng trùng chậm nộp GTGT từ TINH PHAT, in TNDN 2026 trước miễn giảm, và có thể thêm chỉ tiêu vào BBXN. User chốt 4 điểm: sổ 48.899.062, 2 dòng ND398 trên BBKT 2026, giữ BBXN GTGT, STK trên QĐ thu hồi hoàn. Bổ sung bước đối chiếu 3 nguồn, các bẫy đó, và kiểm chứng.
 - [2026-11-06] Vụ Sơn Tiền Hải (GT giải thể): điền số xong nhưng hồ sơ vẫn thiếu chuẩn thể thức (khoảng ký 2-3 dòng, mất `năm 2026`, `Số` chưa canh). Bổ sung mục 4 rà thể thức, 5 bẫy về canh `Số`/đo Word COM/PDF trên G:, và 2 điểm kiểm chứng khối ký + quyết định.
 - [2026-11-09] Vụ Tâm Hoàng Phát: sổ đã có ngày ký BBKT 12/11 nhưng AR14 còn chậm nộp tính đến 30/10. Lấy TINH PHAT (4.747.340) vì khớp ngày BBKT; không dùng 4.670.434. Đoạn mở Báo cáo kết quả bị tách run nên replace `30/10` hàng loạt suýt đổi nhầm thành ngày BBKT.
+- [2026-11-11] Vụ Sơn Tiền Hải: Bổ sung quy tắc Hardcoded Data Check trên sheet DTCHEP dạng cảnh báo mềm (non-blocking warning). Khi phát hiện ô chênh lệch lớn là số gõ cứng không công thức / không sheet chi tiết (như DTCHEP!E372 = -826.764.409 đồng): hệ thống xuất dòng LƯU Ý NGHIỆP VỤ trong báo cáo và ghi vào wiki/_open-questions.md để đoàn kiểm tra chủ động chuẩn bị chứng từ, tuyệt đối không dừng luồng đổ số. Thống nhất tên 'Chi phí quản lý doanh nghiệp' (thay cho QLKD) và bổ sung quy chuẩn điền Mục III nghĩa vụ NSNN 5 năm cho hồ sơ giải thể.

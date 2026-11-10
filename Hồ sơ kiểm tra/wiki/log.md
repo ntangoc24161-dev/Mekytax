@@ -172,3 +172,21 @@ Liên quan: [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]], [[K�
 
 Đã tạo:
 - [[Cấu trúc bộ hồ sơ xác minh NCC rủi ro và TNCN nhiều nguồn thu nhập]]
+
+## [2026-11-11] update | Cập nhật quy tắc Hardcoded Data Check (cảnh báo mềm) và hồ sơ giải thể vào skill
+
+Đã cập nhật hệ thống skill liên quan đến Bảng tính và hoàn thiện hồ sơ kiểm tra thuế:
+- `dien-bien-ban-tu-bang-tinh`: Thêm bước kiểm tra số liệu gõ cứng trên sheet DTCHEP. Khi phát hiện ô chênh lệch lớn không có công thức / không sheet chi tiết, phát cảnh báo mềm (non-blocking warning), ghi vào `wiki/_open-questions.md`, hoàn toàn không chặn luồng tự động đổ số vào biên bản. Thống nhất tên "Chi phí quản lý doanh nghiệp" và quy chuẩn điền đủ Mục III Nghĩa vụ NSNN các năm cho hồ sơ giải thể.
+- `boc-tach-bang-tinh-phan-tich`: Bổ sung ràng buộc kiểm tra số gõ cứng dạng cảnh báo mềm khi rà soát Bảng tính.
+- `ho-so-kiem-tra-ke-hoach`: Ghi nhận bài học về hồ sơ giải thể trên nền kế hoạch năm.
+- Đồng bộ toàn bộ sang `.claude/skills/` và cập nhật fact memory.
+Liên quan: [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]], [[Quy cách lập Biên bản xác nhận số liệu kiểm tra thuế]]
+
+## [2026-11-11] tạo năng lực | Đóng gói quy trình và biểu mẫu tạo skill chuyên biệt cho diện Giải thể
+
+Đã tạo skill chuyên biệt `ho-so-kiem-tra-giai-the` (Hồ sơ kiểm tra giải thể):
+- Đóng gói trọn vẹn quy trình lập, bóc tách và chuẩn hóa bộ hồ sơ giải thể 22 văn bản.
+- Biểu mẫu chuẩn trong `templates/` và `skills/ho-so-kiem-tra-giai-the/templates/`: `MAUTONG HOP GIAI THE.docx`, `MAU DE XUAT HOAN GIAI THE.docx`, `MAU MS-03-DCS.docx`, `MAU QD XPHC GIAI THE.docx`.
+- Tài liệu nghiệp vụ tham chiếu trong `references/`: danh mục 22 văn bản, nghiệp vụ Mục III NSNN & hoàn bù trừ NĐ 181/2025, nền tảng pháp lý và căn cứ giải thể.
+- Đồng bộ đệ quy toàn bộ skill sang `.claude/skills/ho-so-kiem-tra-giai-the/`.
+Liên quan: [[Quy trình lập hồ sơ kiểm tra thuế đối với doanh nghiệp giải thể]], [[Hồ sơ đề xuất hoàn thuế kiêm bù trừ thu ngân sách đối với doanh nghiệp giải thể]], [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]]

@@ -160,3 +160,6 @@
 - [Đã phân tích v1.4 Thanh Thanh Phương MST 3600840461 kỳ 2020-2025](facts/user-phan-tich-v14-thanh-thanh-phuong.md) - Hoàn thành quy trình 1.4 mức D, ghi 6 tệp KQ1.1-KQ3
 - [Đã phân tích v1.4 Huy Khang MST 3603755214 kỳ 2020-2026](facts/user-phan-tich-v14-huy-khang.md) - Hoàn thành quy trình 1.4 mức A, 7 NCC F0, Top-5 72,02%
 - [Đã phân tích v1.4 Vina Minh Phát MST 3602373999 kỳ 2023-2025](facts/user-phan-tich-v14-vina-minh-phat.md) - Hồ sơ mức A, xuất 6 tệp KQ1.1-KQ3 theo v1.4; biên lãi gộp giảm 0,69% về 0,10%, Top-5 NCC 67,16%, không dính F0/F1/CA.
+- [T&T Biên Hòa nộp tờ khai bổ sung TNDN (2022-2023) và GTGT (7 kỳ 2022-2024)](facts/user-tt-bien-hoa-ke-khai-bo-sung-tndn-gtgt-2022-2024.md) - T&T Biên Hòa nộp bổ sung 9 tờ khai XML: loại chi phí và GTGT đối tác rủi ro F0 (NNM Group) cùng chi phí Q3/2022.
+- [T&T Biên Hòa phát sinh 01 lao động đa nguồn năm 2023 (Lê Tiến Trung)](facts/user-tt-bien-hoa-nld-da-nguon-le-tien-trung-2023.md) - Năm 2023 ghi nhận ông Lê Tiến Trung có thu nhập đồng thời tại T&T Biên Hòa và Công ty TNHH An Đông.
+- [Quy tắc đối chiếu F0/F1 cho người nộp thuế (NNT) - ưu tiên kiểm F0 trước](facts/pref-kiem-tra-f0-f1-cho-nnt.md) - Kiểm F0 trước: NNT có bị cảnh báo không → ghi KQ1.3/KQ3. F1 tiếp: NNT có mua HĐ F0 không → HD01 ghi KQ2.1. Phân biệt F0/F1 của NNT vs NCC.

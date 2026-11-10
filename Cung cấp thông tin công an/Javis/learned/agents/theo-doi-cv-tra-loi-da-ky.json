@@ -1,0 +1,45 @@
+{
+ "agent": {
+  "slug": "theo-doi-cv-tra-loi-da-ky"
+ },
+ "judge": {},
+ "kind": "agent",
+ "lessons": [
+  {
+   "created_at": 1794336566.7882097,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Sổ Bao_cao_cong_van.xlsx đối chiếu theo số CV (cột C), không theo \"SỐ FOLDER LƯU TRỮ\", vì số folder có thể trùng giữa các năm; sổ thường đang mở trên Excel nên kiểm tra file khóa `~$` trước khi ghi."
+  },
+  {
+   "created_at": 1794337127.5989606,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Công cụ OCR paddleocr hay timeout; PDF ký số của Thuế thường có sẵn lớp chữ, nên trích bằng PyMuPDF (fitz) trước, và tránh đặt file script tên `grp.py` vì trùng module chuẩn của Python."
+  },
+  {
+   "created_at": 1794337127.610943,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Sổ Bao_cao_cong_van.xlsx có công thức và nhóm dòng theo CV (chỉ dòng đầu nhóm có cột B), nên ghi bằng Excel COM thay vì openpyxl, sao lưu trước, và gán ngày bằng `.Value=[datetime]`."
+  }
+ ],
+ "presentation": [],
+ "updated": "2026-11-10T19:01:56Z",
+ "version": 1
+}

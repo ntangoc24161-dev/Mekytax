@@ -23,15 +23,20 @@ Mỗi ngày lúc 12:00 giờ Việt Nam, tự động kiểm thư mục CV MOI �
    - Tìm tất cả file PDF/Word có tên công văn (mẫu: `CV XXXX-...` hoặc `CV MOI XXXX`)
    - So với sổ theo dõi `I:\My Drive\HS CONG AN-2025-2026\HS CUNG CAP CA 2026\Bao_cao_cong_van.xlsx` để phát hiện CV chưa xử lý
 
-2. **Với mỗi CV mới:** Trigger **Workflow "Quản lý công văn công an"** (4 bước chính)
+2. **Với mỗi CV mới:** Trigger **Workflow "Quản lý công văn công an"** (4 bước xử lý CV yêu cầu)
    - **Bước 1:** Agent `khai-thac-du-lieu-ho-so` - Bóc tách danh sách DN, tra cứu DB NNT, phân Tổ KT, ghi CBQL
    - **Bước 2:** Agent `Theo dõi & Phân công` - Rà soát công văn, in phân công KT1 toàn văn, chốt trạng thái
    - **Bước 3:** Agent `soan-thao-tra-loi-cong-an` - Lập dự thảo công văn trả lời + tờ trình (nếu có KT1)
    - **Bước 4:** Agent `quản-lý-hồ-sơ-công-an` - Lưu trữ PDF, tự tạo dự thảo, rà soát hoàn tất
    - Mỗi bước được kiểm soát bởi: `Kiểm soát & Điều phối quy trình` (xuyên suốt)
 
+3. **Sau CV yêu cầu xong:** Trigger **Workflow "Theo dõi & cập nhật CV trả lời đã ký"** (1 bước giám sát)
+   - Agent `theo-doi-cv-tra-loi-da-ky` - Quét CV trả lời đã ký (-R), bóc tách, xác nhận DN, cập nhật trạng thái sổ
+   - Được kiểm soát bởi: `Kiểm soát & Điều phối quy trình`
+
 3. **Báo cáo kết quả**
-   - Sau Workflow xong: liệt kê CV đã xử lý đầy đủ (số hiệu, số DN, Tổ KT, CBQL, ngày)
+   - Sau Workflow "Quản lý CV yêu cầu" xong: liệt kê CV đã xử lý đầy đủ (số hiệu, số DN, Tổ KT, CBQL, ngày)
+   - Sau Workflow "Theo dõi CV trả lời đã ký" xong: liệt kê CV đã ký xong (số hiệu, số DN, trạng thái cập nhật, lỗi)
    - Nếu có lỗi tại bước nào → ghi chú lỗi cụ thể, báo cần xem lại tay
    - Báo về chat này để người dùng xác nhận
 

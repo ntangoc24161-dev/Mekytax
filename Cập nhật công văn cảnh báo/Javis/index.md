@@ -11,7 +11,7 @@
 - **Kiểm soát chất lượng dữ liệu** (`kiem-soat-chat-luong-du-lieu`) - Kiểm tra chất lượng OCR, bóc tách, đối chiếu, soạn thảo để tránh bịa số liệu và sai sót · model sonnet · skills: paddleocr, theo-doi-cv-canh-bao-rui-ro, doi-chieu-ncc-mua-vao-rui-ro · tags: Tài chính
 - **so-hoa-ocr-cong-van** (`so-hoa-ocr-cong-van`) - 
 - **soan-thao-van-ban** (`soan-thao-van-ban`) - 
-- **tra-cuu-tai-cv-ioffice** (`tra-cuu-tai-cv-ioffice`) - 
+- **Thu thập công văn cảnh báo** (`tra-cuu-tai-cv-ioffice`) - Nhận tệp từ Telegram/Zalo, đổi tên chuẩn, bàn giao OCR · model haiku · tags: Tài chính
 
 ## Skills
 ### AI
