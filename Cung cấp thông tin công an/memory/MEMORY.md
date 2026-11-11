@@ -82,3 +82,6 @@
 - [Tạo agent và workflow theo dõi CV trả lời đã ký](facts/tao-agent-va-workflow-theo-doi-cv-tra-loi-da-ky.md) - Bổ sung agent và workflow chuyên trách bóc tách CV trả lời đã ký cập nhật vào loop định kỳ
 - [Xác nhận đường dẫn sổ theo dõi Bao_cao_cong_van và thư mục lưu file MD](facts/xac-nhan-duong-dan-so-theo-doi-va-thu-muc-file-md.md) - Xác nhận chính xác đường dẫn sổ theo dõi Bao_cao_cong_van.xlsx và thư mục lưu file Markdown
 - [Số lượng công văn đã ký số và file Markdown năm 2026](facts/so-luong-cv-da-ky-so-va-file-md-nam-2026.md) - 138 thư mục -R đã ký số năm 2026, tạo 122 file markdown lưu trữ và cập nhật trạng thái sổ.
+- [Chốt hoàn thành CV 244, 245, 204 trên sổ NHAP_HO_SO ngày 11/11/2026](facts/chot-hoan-thanh-cv-244-245-204-ngay-2026-11-11.md) - Người dùng xác nhận 244 (C34300), 245 (2088), 204 (14233) hoàn thành; 5 DN TCS6/TCS17 của 244 không cần trả lời.
+- [Các CV có folder -R nhưng chưa có trong sổ NHAP_HO_SO (đợt 11/11/2026)](facts/ton-dong-9-cv-chua-co-trong-so-nhap-ho-so-2026-11-11.md) - 9 folder -R chưa có trong sổ, chia 4 nhóm; 251 (CV 14353, PSAS) cần nhập mới; 16 folder -R không có PDF trả lời.
+- [Loop tự động đã xử lý 3 CV Công an mới ngày 09/11/2026](facts/loop-tu-chay-xu-ly-3-cv-ngay-2026-11-09.md) - Người dùng xác nhận hệ thống tự chạy: CV 4325 (CA Bắc Ninh, folder 284, KT1) và CV 21143 (CA Hưng Yên, folder 283).

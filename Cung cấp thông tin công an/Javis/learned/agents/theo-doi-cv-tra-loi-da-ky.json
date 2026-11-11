@@ -37,9 +37,20 @@
    "source": "self",
    "status": "active",
    "text": "Sổ Bao_cao_cong_van.xlsx có công thức và nhóm dòng theo CV (chỉ dòng đầu nhóm có cột B), nên ghi bằng Excel COM thay vì openpyxl, sao lưu trước, và gán ngày bằng `.Value=[datetime]`."
+  },
+  {
+   "created_at": 1794368488.3072884,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Khi sổ có nhóm DN lẫn nhiều tổ KT hoặc TCS khác, ghi trạng thái cho cả nhóm theo xác nhận của chủ và ghi chú riêng ở các dòng DN không nằm trong CV trả lời."
   }
  ],
  "presentation": [],
- "updated": "2026-11-10T19:01:56Z",
+ "updated": "2026-11-11T03:42:53Z",
  "version": 1
 }
