@@ -1,0 +1,23 @@
+{
+ "agent": {
+  "slug": "soan-thao-van-ban"
+ },
+ "judge": {},
+ "kind": "agent",
+ "lessons": [
+  {
+   "created_at": 1793283851.5396788,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Ổ G: (Drive for desktop) không mount trên máy agent; dữ liệu \"Other computers\" truy được qua Google Drive connector, tìm thư mục theo tên bằng GOOGLEDRIVE_FIND_FILE với đúng tài khoản (có nhiều tài khoản, phải chỉ rõ `account`)."
+  }
+ ],
+ "presentation": [],
+ "updated": "2026-11-10T18:52:40Z",
+ "version": 1
+}

@@ -1,11 +1,11 @@
 {
   "schema": 2,
   "source": "kanban.sqlite3",
-  "orchestration": "off",
+  "orchestration": "auto",
   "tasks": [
     {
       "id": "t_cc3f211a25e2",
-      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
+      "brain_root": "/brains/Cập nhật công văn cảnh báo",
       "title": "Bóc tách công văn cảnh báo Ưu tiên 1 và 2",
       "intent": "Bóc tách thông tin công văn cảnh báo (bên bán, bên mua, thông tin công văn) từ 57 file scan tháng 08/2026 và các file số hóa tháng 07/2026, 06/2026, thực hiện đối soát chống trùng lặp theo số công văn và cặp bên bán - bên mua, sau đó nạp dữ liệu mới vào sheet THEO_DOI của file Excel Sổ theo dõi công văn cảnh báo rủi ro thuế.",
       "route": "auto",
@@ -19,143 +19,40 @@
       "created_by": "chat",
       "chat_id": "web:2fffc81f35a9420db2c134320d9f1bcb",
       "idempotency_key": "",
-      "attempts": 1,
+      "attempts": 0,
       "max_attempts": 3,
       "claimed_by": "",
       "claim_expires_at": 0.0,
-      "last_heartbeat_at": 1790393469.1809988,
+      "not_before": 0.0,
+      "last_heartbeat_at": 0.0,
       "current_run_id": "",
       "result": "Tôi đã kích hoạt lệnh kiểm tra OCR trực tiếp trên tệp `[2069_AGI-QLDN1] 2069AGI-QLDN1 12044.pdf` và đang đợi kết quả phản hồi từ tiến trình.\nTôi đang thực hiện kiểm tra trích xuất dữ liệu của tệp scan bằng hàm xử lý `process_single_scan_pdf` trong nền để đối soát tính ổn định. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy phân tích OCR các dòng văn bản của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy OCR trang 2 của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy OCR nửa dưới trang 1 của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang thực hiện kiểm tra trích xuất MST từ toàn trang 1 của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra chi tiết các dòng văn bản có chứa từ khóa thuế/mã số trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra nhận diện MST trên phần dưới trang 1 của tệp trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy thử nghiệm phương pháp OCR thích ứng (adaptive crop) trên tệp scan trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra trích xuất tên NNT trên phần nội dung trang 1 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra hàm trích xuất thích ứng (adaptive OCR) trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.",
       "created_at": 1790392554.368512,
       "updated_at": 1790694653.875764,
-      "not_before": 0.0,
-      "metadata": {
-        "route": "auto",
-        "capability": "files",
-        "execution_mode": "full",
-        "tool_calls": [
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "view_file",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "run_command",
-          "view_file",
-          "view_file",
-          "view_file",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "run_command",
-          "run_command",
-          "view_file",
-          "run_command",
-          "view_file",
-          "view_file",
-          "view_file",
-          "view_file",
-          "view_file",
-          "run_command",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "view_file",
-          "run_command",
-          "view_file",
-          "view_file",
-          "view_file",
-          "run_command",
-          "view_file",
-          "view_file",
-          "view_file",
-          "view_file",
-          "view_file",
-          "run_command",
-          "view_file",
-          "view_file",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "run_command",
-          "view_file",
-          "view_file",
-          "view_file",
-          "run_command"
-        ],
-        "provider": "antigravity-cli"
-      },
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {},
       "artifacts": [],
       "deps": [],
       "log": [
         {
-          "ts": "2026-09-26 10:15",
+          "ts": "2026-10-05 14:10",
           "msg": "created by chat"
-        },
-        {
-          "ts": "2026-09-26 10:15",
-          "msg": "claimed by worker:16744:a1fc591c"
-        },
-        {
-          "ts": "2026-09-26 10:16",
-          "msg": "capability=files"
-        },
-        {
-          "ts": "2026-09-26 10:16",
-          "msg": "claimed by worker:16744:9a24dcd7"
-        },
-        {
-          "ts": "2026-09-26 10:31",
-          "msg": "done"
-        },
-        {
-          "ts": "2026-09-29 22:10",
-          "msg": "done -> archived: đã kết thúc quá 3 ngày"
         }
       ]
     },
     {
       "id": "t_50db6f95c23a",
-      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
+      "brain_root": "/brains/Cập nhật công văn cảnh báo",
       "title": "Thu thập thêm 10 đề mới kíp P3-39917 (Đề 41 - Đề 50)",
       "intent": "Thu thập và giải cuốn chiếu 10 đề thi trắc nghiệm mới (Đề 41 đến Đề 50) kíp P3-39917 trên cổng taxedu, kiểm tra chống trùng với 40 đề đã có, thẩm định đủ 90 câu mỗi đề và xuất kết quả ra từng file Excel riêng lẻ.",
       "route": "auto",
@@ -169,58 +66,41 @@
       "created_by": "chat",
       "chat_id": "web:4bf6a2a0014c4e19a6e4100903b51876",
       "idempotency_key": "",
-      "attempts": 1,
+      "attempts": 0,
       "max_attempts": 3,
       "claimed_by": "",
       "claim_expires_at": 0.0,
-      "last_heartbeat_at": 1790404519.8589401,
+      "not_before": 0.0,
+      "last_heartbeat_at": 0.0,
       "current_run_id": "",
       "result": "[[NEEDS_INPUT]]\nKíp thi P3-39917 trên cổng taxedu (`api-e3.khaothi.online`) chỉ có quy mô cố định tối đa đúng **40 mẫu đề thi** (toàn bộ 40 đề này đã được thu thập, thẩm định đủ 90 câu/đề và lưu trữ tại `D:\\HOC TAP\\ON THI 2026.09\\40 DE THI\\`). Qua đối soát thực nghiệm liên tục trên 340+ phiên thi mới phát sinh từ máy chủ, 100% các phiên thi đều quay vòng trùng khớp với 40 mẫu đề đã có, không tồn tại đề mới thứ 41 đến 50 thuộc kíp P3-39917 để bóc tách. Cần quyết định của anh về việc chuyển sang kíp thi/mã nhóm thi khác hoặc điều chỉnh mục tiêu nghiệp vụ.\n\n_(Lưu ý của Javis: `agy` có thử mở file ngữ cảnh nhưng KHÔNG đọc được (thường là do mức quyền hoặc sandbox chặn), nên lượt vừa rồi trả lời mà chưa có system prompt và bộ nhớ của Javis. Nâng cấp `agy` lên bản nhận prompt qua stdin là hết hẳn đường vòng này.)_",
       "created_at": 1790404237.4289548,
-      "updated_at": 1793018776.9212155,
-      "not_before": 0.0,
-      "metadata": {
-        "acceptance": [
-          "Thu thập đủ 10 đề thi mới từ Đề 41 đến Đề 50 của kíp P3-39917 từ cổng taxedu",
-          "Đối soát và xác nhận toàn bộ 10 đề không bị trùng lặp với 40 đề đã thu thập trước đó",
-          "Xác thực mỗi đề thi có đủ 90 câu hỏi trắc nghiệm kèm lời giải hoàn chỉnh",
-          "Lưu trữ thành công 10 file Excel kết quả riêng lẻ tương ứng với từng đề"
-        ],
-        "specifier": "ai"
-      },
+      "updated_at": 1794339731.2481213,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {},
       "artifacts": [],
       "deps": [],
       "log": [
         {
-          "ts": "2026-09-26 13:30",
+          "ts": "2026-10-05 14:10",
           "msg": "created by chat"
         },
         {
-          "ts": "2026-09-26 13:30",
-          "msg": "claimed by worker:16744:47d95b30"
-        },
-        {
-          "ts": "2026-09-26 13:30",
-          "msg": "capability=research"
-        },
-        {
-          "ts": "2026-09-26 13:30",
-          "msg": "claimed by worker:16744:a5f0d802"
-        },
-        {
-          "ts": "2026-09-26 13:35",
-          "msg": "_(Lưu ý của Javis: `agy` có thử mở file ngữ cảnh nhưng KHÔNG đọc được (thường là do mức quyền hoặc sandbox chặn), nên lượt vừa rồi trả lời mà chưa có system prompt và bộ nhớ của Javis. Nâng cấp `agy` "
-        },
-        {
-          "ts": "2026-10-23 02:06",
-          "msg": "blocked -> cancelled: operator cancel"
-        },
-        {
-          "ts": "2026-10-26 19:46",
-          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
+          "ts": "2026-11-10 19:42",
+          "msg": "blocked -> archived: operator archive"
         }
       ]
     }
   ],
-  "updated": 1793018776.9237275
+  "updated": 1794339731.2516265
 }

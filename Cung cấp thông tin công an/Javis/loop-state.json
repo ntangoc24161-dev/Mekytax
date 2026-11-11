@@ -2,10 +2,10 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794144288.005041,
-    "last_summary": "### Báo cáo rà soát Tiếp nhận và Điều phối Công văn Công an (Chu kỳ Loop)\n\n**1. Công việc đã thực hiện:**\n- **Kiểm tra thư mục tiếp nhận mới (`CV MOI`):**\n  - Quét thư mục `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`.\n  - Kết quả: Không có tệp công văn PDF mới nào đang tồn đọng chờ bóc tách tại thư mục `CV MOI`.\n- **Rà soát tình trạng trên sổ theo dõi `Bao_cao_cong_van.xlsx` (sheet `NHAP_HO_SO`):**\n  - Đã rà soát toàn bộ các dòng hồ sơ ở trạng thái `Mới`.\n  - Các công văn phân cho **Tổ KT1** ở trạng thái `Mới`: **0 hồ sơ** (không có công văn KT1 mới cần in phân công hay dự thảo trả lời).\n  - Các hồ sơ trạng thái `Mới` hiện tại thuộc:\n    - Danh sách đính kèm kiến nghị xử lý hành chính đông DN/CN (CV 2072 - 195 cty; CV 9955 - 53 DN/CN).\n    - Các công văn phân cho **Tổ KT2**, **Tổ KT3** (CV 1740, 2301, 9372, 1738, 2612) và các cơ quan thuế ngoài địa bàn (đã hoàn thành bóc tách địa bàn và phân Tổ).\n\n**2. Tệp / Thư mục đã chạm:**\n- `I:\\My Driv",
-    "last_status": "✓ Đạt: Xác minh được: thư mục CV MOI thực sự trống (chỉ có desktop.ini), khớp đúng claim 'không có PDF mới'; file Bao_cao_cong_van.xlsx tồn tại đúng đường dẫn. Không kiểm được chi tiết số liệu từng dòng NHAP_HO_SO vì môi trường sandbox chỉ cho Read/Glob/Grep/LS (không đọc được nội dung xlsx nhị phân). Loop này chỉ ĐỌC và báo cáo, không ghi/sửa file nào nên không có rủi ro làm hỏng dữ liệu hay vượt phạm vi.",
-    "runs_today": 2,
-    "day": "2026-11-08"
+    "last_run": 1794383134.8441517,
+    "last_summary": "Vấn đề đã xác định rõ. Mọi lệnh gọi MCP javis đều bị hub định tuyến sang brain **VĂN THƯ** thay vì brain **Cung cấp thông tin công an**, do loop chạy từ Claude Code không kèm header `X-Javis-Vault`.\n\n**Nguyên nhân:** Loop này chạy trên server dưới dạng background job. Khi gọi MCP hub, không có header định danh brain nên hub lấy brain đang mở trên dashboard (VĂN THƯ).\n\n**Hậu quả:** Không thể đọc thư mục CV MOI, không đọc được `Bao_cao_cong_van.xlsx`, không xử lý công văn nào trong vòng này.\n\n**Cách khắc phục (cần người dùng thực hiện):**\n\n1. **Trên dashboard:** Mở brain **Cung cấp thông tin công an** (đảm bảo đây là brain đang hoạt động) trước khi loop chạy.\n\n2. **Hoặc cấu hình MCP client:** Thêm header `X-Javis-Vault: Cung cấp thông tin công an` vào cấu hình MCP của Claude Code để loop luôn trỏ đúng brain.\n\n3. **Chạy thủ công từ chat:** Nhắn vào chat của brain \"Cung cấp thông tin công an\" để kích hoạt quy trình - khi đó brain context đúng và tất cả file sẽ truy cập được.\n\nVòng loop này",
+    "last_status": "✓ Đạt: Chẩn đoán đúng hoàn toàn: gọi mcp__javis__javis_list_dir xác nhận hub trả về brain VĂN THƯ, không phải Cung cấp thông tin công an. Thư mục ho-so-cv-moi-2026-10/ tồn tại trên filesystem cục bộ nhưng không truy cập được qua MCP vì sai brain context. Không có file nào bị sửa/xóa. Loop đã dừng đúng chỗ, không vượt phạm vi.",
+    "runs_today": 3,
+    "day": "2026-11-11"
   }
 }

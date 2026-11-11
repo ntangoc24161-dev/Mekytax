@@ -5,14 +5,14 @@ slug: ho-so-cung-cap-cong-an
 enabled: true
 goal: custom
 mode: full
-interval_min: 300
+interval_min: 720
 workspace: vault
 tools_profile: vault-safe
 quiet_hours: ''
 max_runs_per_day: 0
 owner_chat: ''
 notify: true
-updated: '2026-11-03'
+updated: '2026-11-11'
 ---
 
 tiếp nhận và điều phối công văn công an

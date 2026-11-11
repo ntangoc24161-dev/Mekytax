@@ -1,0 +1,23 @@
+{
+ "agent": {
+  "slug": "quản-lý-hồ-sơ-công-an"
+ },
+ "judge": {},
+ "kind": "agent",
+ "lessons": [
+  {
+   "created_at": 1793851684.4969623,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Drive hồ sơ CA qua Composio dùng account `googledrive_ralph-urbane` (mail cungcapthongtin.tcs3tdn@gmail.com); luôn chỉ rõ account vì mặc định có thể là mail khác."
+  }
+ ],
+ "presentation": [],
+ "updated": "2026-11-10T18:52:40Z",
+ "version": 1
+}

@@ -1,0 +1,23 @@
+{
+ "agent": {
+  "slug": "quản-lý-hồ-sơ-công-an.conflict-remote-20261022-155419"
+ },
+ "judge": {},
+ "kind": "agent",
+ "lessons": [
+  {
+   "created_at": 1793852624.5560164,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Ghi đè Bao_cao_cong_van.xlsx trên Drive phải upload_local_file trong COMPOSIO_REMOTE_WORKBENCH rồi RESUMABLE_UPLOAD cùng phiên, vì s3key chỉ dùng được trong đúng project/session Composio."
+  }
+ ],
+ "presentation": [],
+ "updated": "2026-11-10T18:52:40Z",
+ "version": 1
+}
