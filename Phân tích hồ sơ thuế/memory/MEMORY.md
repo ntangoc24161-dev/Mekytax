@@ -3,6 +3,8 @@
 > Chỉ mục bộ nhớ dài hạn của Javis. Mỗi dòng = 1 ký ức, trỏ tới file trong `facts/`.
 > Nội dung file này được nạp vào đầu mỗi câu hỏi để Javis nhớ ngữ cảnh.
 
+- [Đã phân tích v1.4 Nông sản Lưu Hoài Anh MST 3603057410 kỳ 2022-2025](facts/user-phan-tich-v14-nong-san-luu-hoai-anh.md) - Mức A; 6 file KQ + 2 phụ lục GĐ3; 2 NCC F0 GT 3,65 tỷ; Top-5 91,27%; HTK/DT 2025 40,9%; thiếu sổ DN và một số quý XML.
+- [Đã phân tích v1.4 Đại Huy Hoàng MST 3602179712 kỳ 2021-2025](facts/user-phan-tich-v14-dai-huy-hoang.md) - Mức D; 6 file KQ + 2 phụ lục GĐ3; 511 khớp BCTC; 2 NCC F0 (Gỗ Minh Khôi 15,56 tỷ); HĐĐT thiếu 2021; 2023-2025 GV gần 0.
 - [Quy trình phân tích hồ sơ thuế v1.4 - Hoàn thành](facts/phan-tich-ho-so-thue-v14-quy-trinh-hoan-thanh.md) - Phân tích T&T Biên Hòa (21/10-23/10): 6 tệp mẫu, 3 giai đoạn, 4 năm, 80 quy tắc, EBITDA không vay nợ.
 - [Cập nhật chuẩn dấu hiệu bất thường và chi tiết giải trình vào Skill](facts/decision-cap-nhat-skill-tong-hop-chi-tiet-dau-hieu-va-giai-trinh.md) - Chuẩn hóa bộ file giải trình 10 sheet, EBITDA, 511-632 chi tiết và quy chuẩn format Q20 vào skill GĐ2, GĐ3, skill trục và shared-skills.
 - [Bài học rút ra - Phân tích hồ sơ thuế v1.4](facts/phan-tich-ho-so-thue-v14-lessons-learned.md) - Checklist kỹ thuật: IN04 cấu trúc dòng, EBITDA 4 thành phần, PDF scan vs trích, NCC F0, HĐ bán dưới giá, định dạng Excel.
@@ -150,3 +152,14 @@
 - [Đổi tên hiển thị 6 agent, giữ nguyên slug](facts/decision-doi-ten-hien-thi-6-agent-giu-slug.md) - Tên vai ngắn sát việc; slug bị workflow và skill tham chiếu nên khóa cứng.
 - [Sửa 3 chỗ rủi ro bịa số: model, câu lệnh file giải trình, soát số](facts/decision-sua-ba-diem-giup-kinh-dich-khi-bia-so.md) - Nâng model Kết luận rủi ro, sửa câu lệnh file NNT, thêm soát số cho Trưởng phòng.
 - [Người dùng yêu cầu sửa cả 3 điểm rủi ro trợ lý bịa thông tin](facts/pref-yeu-cau-khac-phuc-3-rui-ro-bia-so-tro-ly-thue.md) - User đồng ý sửa mâu thuẫn file giải trình 10 sheet, kiểm soát nhận xét narrative và nâng cấp model/chặn ảo giác.
+- [Cơ chế gating kiểm soát chất lượng qua từng Lệnh phân tích hồ sơ thuế](facts/pref-gating-kiem-soat-chat-luong-tung-lenh-phan-tich-ho-so.md) - Thống nhất cơ chế gating: vai Giám sát chất lượng kiểm duyệt KQ1, KQ2, KQ3 trước khi chuyển bước tiếp theo.
+- [Gộp đối chiếu mặt hàng vào vai Soát sổ sách công ty](facts/decision-gop-doi-chieu-mat-hang-vao-soat-so-sach-dn.md) - Quyết định gộp skill đối chiếu mặt hàng vào vai phan-tich-vien-so-sach-dn trong Lệnh 2.
+- [Tổ chức hồ sơ 4 MST bổ sung kế hoạch kiểm tra 2026](facts/user-to-chuc-4-mst-ke-hoach-bo-sung-2026.md) - Người dùng yêu cầu tổ chức hồ sơ 4 bước cho 4 MST đủ dữ liệu tại thư mục Kế hoạch bổ sung 2026.
+- [Kết quả phân tích hồ sơ Công ty Hùng Anh Phát (MST 3602451559)](facts/user-ket-qua-phan-tich-hung-anh-phat.md) - Hồ sơ Hùng Anh Phát rủi ro cao: 1 NCC F0 chiếm 20,9%, lệch DT GTGT vs BCTC 4 năm, 72 HĐ bán dưới giá
+- [Đã phân tích v1.4 Nhất Vinh MST 3601946069 kỳ 2016-2025](facts/user-phan-tich-v14-nhat-vinh.md) - Hồ sơ mức C (thiếu XNT kho và sao kê); 6 tệp KQ1.1-KQ3 v1; mua F0 672 triệu (2,23%); Top-5 NCC chiếm 69,42%.
+- [Đã phân tích v1.4 Thanh Thanh Phương MST 3600840461 kỳ 2020-2025](facts/user-phan-tich-v14-thanh-thanh-phuong.md) - Hoàn thành quy trình 1.4 mức D, ghi 6 tệp KQ1.1-KQ3
+- [Đã phân tích v1.4 Huy Khang MST 3603755214 kỳ 2020-2026](facts/user-phan-tich-v14-huy-khang.md) - Hoàn thành quy trình 1.4 mức A, 7 NCC F0, Top-5 72,02%
+- [Đã phân tích v1.4 Vina Minh Phát MST 3602373999 kỳ 2023-2025](facts/user-phan-tich-v14-vina-minh-phat.md) - Hồ sơ mức A, xuất 6 tệp KQ1.1-KQ3 theo v1.4; biên lãi gộp giảm 0,69% về 0,10%, Top-5 NCC 67,16%, không dính F0/F1/CA.
+- [T&T Biên Hòa nộp tờ khai bổ sung TNDN (2022-2023) và GTGT (7 kỳ 2022-2024)](facts/user-tt-bien-hoa-ke-khai-bo-sung-tndn-gtgt-2022-2024.md) - T&T Biên Hòa nộp bổ sung 9 tờ khai XML: loại chi phí và GTGT đối tác rủi ro F0 (NNM Group) cùng chi phí Q3/2022.
+- [T&T Biên Hòa phát sinh 01 lao động đa nguồn năm 2023 (Lê Tiến Trung)](facts/user-tt-bien-hoa-nld-da-nguon-le-tien-trung-2023.md) - Năm 2023 ghi nhận ông Lê Tiến Trung có thu nhập đồng thời tại T&T Biên Hòa và Công ty TNHH An Đông.
+- [Quy tắc đối chiếu F0/F1 cho người nộp thuế (NNT) - ưu tiên kiểm F0 trước](facts/pref-kiem-tra-f0-f1-cho-nnt.md) - Kiểm F0 trước: NNT có bị cảnh báo không → ghi KQ1.3/KQ3. F1 tiếp: NNT có mua HĐ F0 không → HD01 ghi KQ2.1. Phân biệt F0/F1 của NNT vs NCC.

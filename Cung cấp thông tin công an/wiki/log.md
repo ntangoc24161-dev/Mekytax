@@ -36,3 +36,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Ổ I: Google Drive Desktop và đường /mnt/i trên Javis VPS]]
+
+## [2026-11-08] ingest | tự học từ chat
+
+Đã tạo:
+- [[Quy trình phối hợp 4 bước xử lý hồ sơ cung cấp thông tin Công an]]

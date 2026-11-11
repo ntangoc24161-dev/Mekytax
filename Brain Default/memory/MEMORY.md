@@ -30,3 +30,4 @@
 - [Sheet KQ2_511_632 là kết quả đối chiếu cuối cùng từ tool doi-chieu-511-632](facts/preference-kq2-511-632-ket-qua-cuoi-cung-sau-doi-chieu.md) - Sheet KQ2_511_632 trong hồ sơ kiểm tra phải là kết quả cuối cùng sau khi chạy đối chiếu sổ 511 và 632
 - [Danh sách tài khoản Google Drive liên kết qua Composio](facts/tai-khoan-google-drive-lien-ket-composio.md) - Composio liên kết 4 alias Google Drive gồm cungcapthongtin.tcs3tdn@gmail.com (mặc định) và ntangoc2416.1@gmail.com.
 - [Nhu cầu sử dụng song song hai tài khoản Antigravity CLI](facts/user-nhu-cau-dung-hai-tai-khoan-antigravity-cli.md) - Người dùng muốn thêm và sử dụng song song 2 tài khoản Antigravity CLI trên hệ thống.
+- [Cả 10 brain trong hệ thống đều trang bị 3 skill OCR PaddleOCR](facts/dong-bo-3-skill-ocr-cho-tat-ca-10-brain.md) - Cả 10 brain (bao gồm CÔNG TÁC ĐẢNG) đều đã được đồng bộ đầy đủ 3 skill paddleocr, pdf-sang-md và tram-tai-lieu.

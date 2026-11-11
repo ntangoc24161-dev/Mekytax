@@ -89,7 +89,7 @@
       "status": "managed"
     },
     "skills/doi-chieu-ncc-mua-vao-rui-ro": {
-      "hash": "7a26ffdbaa5e23f2f6c921973680519543f39079e2c9a8856b5aae4a4dc01d91",
+      "hash": "7533211cceacb85abd6121937126713f0aa48d45f748b63d53b832dae886bec1",
       "status": "managed"
     },
     "skills/doi-chieu-ncc-mua-vao-rui-ro/playbook-lenh.md": {
@@ -97,7 +97,7 @@
       "status": "managed"
     },
     "skills/giai-doan-1-kiem-ke-danh-gia": {
-      "hash": "f8b9a8070db36c64fd7e12e22a1316ff4612947b1b26c4561f78c5ef08cb7bca",
+      "hash": "9d91fd456337be41018edfb59312cc78eea892ebf823b7ecc058e8c8b17d45ed",
       "status": "managed"
     },
     "skills/giai-doan-2-phan-tich-du-lieu-co-quan-thue": {
@@ -4074,5 +4074,5 @@
     }
   },
   "app_version": "0.510.1",
-  "synced_at": "2026-11-08T21:13:21+07:00"
+  "synced_at": "2026-11-11T09:51:12+07:00"
 }

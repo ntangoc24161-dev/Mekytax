@@ -1,4 +1,5 @@
 ---
+superseded_by: so-luong-dong-hien-tai-so-theo-doi-f0-f1-thang-11-2026
 type: business
 provenance: assistant
 origin: javis-learned
@@ -10,3 +11,7 @@ updated: 2026-10-01
 - Chuẩn hóa và vá lỗi 10 dòng F0 có sẵn (khắc phục lỗi tên 0x2a, bổ sung số công văn/đơn vị ban hành).
 - Bảo toàn 637 DN chuẩn thuộc nhóm 524 DN; giữ nguyên 3.704 dòng Sheet F1.
 - Tự động sao lưu và đồng bộ sang Google Drive cùng 2 thư mục lưu trữ tại `D:\SECOND BRAIN\KIEM SOAT RUI RO\QUAN LY HD RUI RO\` và `D:\Theo doi CVCBRR-ok\`.
+
+
+## Lịch sử
+- [2026-11-09] Bị thay thế bởi [[so-luong-dong-hien-tai-so-theo-doi-f0-f1-thang-11-2026]] (user đổi thông tin).

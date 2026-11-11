@@ -49,3 +49,4 @@ Kết quả phân tích trong bộ 6
 - [[Quy chuẩn định dạng và chuẩn hóa hiển thị biểu mẫu Excel kiểm tra thuế]] - Trong công tác xử lý và xuất biểu mẫu phân tích hồ sơ kiểm tra thuế, quy chuẩn h
 - [[Xử lý dữ liệu sao kê ngân hàng dạng PDF scan trong kiểm tra thuế]] - Trong quy trình phân tích hồ sơ kiểm tra thuế, dữ liệu sao kê ngân hàng/sổ phụ n
 - [[Kỹ thuật phân tích EBITDA trong kiểm tra thuế theo Nghị định 132/2020/NĐ-CP]] - Phân tích EBITDA phục vụ kiểm tra thuế tập trung vào việc xác định mức trần chi
+- [[Đối chiếu F0 F1 cho người nộp thuế và thứ tự ưu tiên cảnh báo rủi ro nhà cung cấp]] - Trong quy trình phân tích hồ sơ kiểm tra thuế, quy tắc đối chiếu rủi ro đối với

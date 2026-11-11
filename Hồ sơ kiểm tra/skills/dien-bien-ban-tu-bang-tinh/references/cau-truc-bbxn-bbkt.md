@@ -14,7 +14,7 @@ Nguồn chuẩn mắt: `templates/TONG HOP CHUAN DINH DANG.docx` và fact `chuan
 4. Không chênh: chỉ `*/ Không chênh lệch.` (viết thường, không có dòng tiêu đề "Giải trình...").
 5. Không ghi TNTT / thuế truy thu ở BBXN.
 
-Mục `I. Nội dung kiểm tra` / `II. Kết quả kiểm tra`: đậm, canh đều, thụt ~1.0 cm. Tên chỉ tiêu/chuyên đề chi phí ghi thẳng, **không gạch đầu dòng `-`** (ví dụ `Chi phí quản lý doanh nghiệp`, không phải `- Chi phí quản lý doanh nghiệp`).
+Mục `I. Nội dung kiểm tra` / `II. Kết quả kiểm tra`: đậm, canh đều, thụt ~1.0 cm. Tên chỉ tiêu/chuyên đề chi phí ghi thẳng, **không gạch đầu dòng `-`**, thống nhất dùng **`Chi phí quản lý doanh nghiệp`** (không dùng tên cũ `Chi phí quản lý kinh doanh`).
 
 ## Checkbox Báo cáo giám sát (mục I, 9 câu)
 
@@ -27,7 +27,7 @@ Mục `I. Nội dung kiểm tra` / `II. Kết quả kiểm tra`: đậm, canh đ
 - Dòng năm: `+Năm 20xx` + tab + `Đơn vị tính: Đồng` (cùng dòng).
 - Có chênh: Giải trình (đậm) → Công ty báo TNTT... → `*/` nguyên nhân → `=>Thuế TNDN truy thu...` → Giảm lỗ nếu có.
 - Không chênh: `*/ Không chênh lệch.`
-- Đủ mục III (nghĩa vụ) và IV (kết luận/kiến nghị) theo phôi.
+- Đủ mục III (nghĩa vụ) và IV (kết luận/kiến nghị) theo phôi. Với vụ kiểm tra giải thể: Mục III Nghĩa vụ NSNN bắt buộc điền đủ số phát sinh phải nộp các năm theo công thức `(3)=0`, `(6)=(4)`, `(7)=(3)+(4)+(5)-(6)`, không để trống hay gạch ngang.
 - Đoạn mở "Hôm nay, vào lúc..." canh trái, tránh giãn chữ.
 
 ## CPTC

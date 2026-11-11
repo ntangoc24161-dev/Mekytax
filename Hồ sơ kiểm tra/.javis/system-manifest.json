@@ -101,7 +101,7 @@
       "status": "managed"
     },
     "skills/giai-doan-1-kiem-ke-danh-gia": {
-      "hash": "f8b9a8070db36c64fd7e12e22a1316ff4612947b1b26c4561f78c5ef08cb7bca",
+      "hash": "9d91fd456337be41018edfb59312cc78eea892ebf823b7ecc058e8c8b17d45ed",
       "status": "managed"
     },
     "skills/giai-doan-2-phan-tich-du-lieu-co-quan-thue": {
@@ -4074,5 +4074,5 @@
     }
   },
   "app_version": "0.510.1",
-  "synced_at": "2026-11-08T21:13:07+07:00"
+  "synced_at": "2026-11-11T09:50:20+07:00"
 }

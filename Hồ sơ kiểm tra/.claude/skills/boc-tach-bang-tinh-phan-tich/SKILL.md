@@ -2,7 +2,8 @@
 name: Bóc tách Bảng tính phân tích tài chính NNT
 description: 'Bóc tách Bảng tính NNT (sheet KQKDSXKD): lấy KQKD theo năm, tính tỷ lệ chi phí/doanh thu, điền phân tích Mục III và đề xuất nội dung kiểm tra DI-01.'
 group: Tài chính
-updated: '2026-10-15'
+updated: '2026-11-11'
+learned_updated: '2026-11-11'
 ---
 # Bóc tách Bảng tính phân tích tài chính NNT
 
@@ -59,9 +60,14 @@ Sheet phụ khi cần: `So sánh DThu` (đối chiếu doanh thu GTGT vs TNDN), 
 - Giữ nguyên thứ tự nội dung kiểm tra theo yêu cầu người dùng (ví dụ giá vốn trước, hoặc theo chuyên đề chốt trong [[ho-so-kiem-tra-mst-3601409441-chot-so-lieu-va-phan-cong]]).
 - Nội dung loại chi phí tài chính: nguyên nhân thống nhất là chi phí lãi vay không tương ứng doanh thu, căn cứ pháp lý theo kỳ (xem [[loai-tru-noi-dung-chi-phi-tai-chinh-va-nam-khong-chenh-lech-]]).
 - Năm không chênh lệch thì ghi riêng `*/ Không chênh lệch.`, không đưa vào khung giải trình.
+- **Kiểm tra số liệu gõ cứng (Hardcoded Data Check)**: Khi rà soát Bảng tính phục vụ phân tích hoặc bàn giao sang điền biên bản, nếu phát hiện ô chênh lệch lớn trên sheet DTCHEP/KQKDSXKD là số nhập tay không công thức và không có sheet phụ lục chứng từ chi tiết, hệ thống phát cảnh báo mềm (non-blocking warning) ghi nhận rủi ro cần xác minh chứng từ gốc vào `wiki/_open-questions.md`; tuyệt đối không chặn tiến trình xử lý số liệu.
 
 ## Pitfalls (bài học thực tế)
 
 - File rất lớn, mở bằng Excel COM chậm: ưu tiên parse XML/`openpyxl` read-only.
 - Đếm nhầm cột năm là lỗi hay gặp nhất: luôn đọc hàng 11 để định vị cột trước khi lấy số.
 - Có 2 file (`2016-2025` và `2021-2025`): lấy đúng bản khớp thời kỳ kiểm tra đang làm.
+- Số chênh lệch nhập tay không công thức: chỉ phát cảnh báo mềm để người dùng lưu ý kiểm tra chứng từ gốc, không dừng luồng xử lý.
+
+## Lịch sử (tự học)
+- [2026-11-11] Bổ sung cơ chế cảnh báo mềm số gõ cứng (hardcoded warning): phát hiện số nhập tay không công thức trên Bảng tính thì ghi nhận vào wiki/_open-questions.md để lưu ý đoàn kiểm tra chuẩn bị chứng từ gốc, tuyệt đối không làm gián đoạn luồng bóc tách và đổ số vào hồ sơ.

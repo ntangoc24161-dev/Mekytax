@@ -34,3 +34,5 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Diễn giải loại chi phí giá vốn không tương ứng doanh thu]] - Khi kiểm tra thuế phát hiện giá vốn hàng bán kê khai không phù hợp hoặc không có
 - [[Chuẩn hóa tên chỉ tiêu chi phí quản lý doanh nghiệp trong hồ sơ kiểm tra]] - Trong các biểu mẫu Biên bản xác nhận số liệu, Biên bản kiểm tra và tài liệu liên
 - [[Hồ sơ đề xuất hoàn thuế kiêm bù trừ thu ngân sách đối với doanh nghiệp giải thể]] - Hồ sơ giải quyết hoàn thuế GTGT kiêm bù trừ nghĩa vụ tài chính phát sinh sau kiể
+- [[Cấu trúc bộ hồ sơ xác minh NCC rủi ro và TNCN nhiều nguồn thu nhập]] - Một bộ hồ sơ xác minh NCC rủi ro kết hợp xác minh TNCN nhiều nguồn thu nhập gồm
+- [[Quy trình lập hồ sơ kiểm tra thuế đối với doanh nghiệp giải thể]] - Quy trình chuẩn hóa lập và hoàn thiện bộ hồ sơ kiểm tra quyết toán giải thể: bộ 22 văn bản, Mục III NSNN, văn bản từ chối nộp thừa, bù trừ hoàn thuế.

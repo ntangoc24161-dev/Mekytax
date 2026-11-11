@@ -1,0 +1,73 @@
+# Nhận diện XML HSoThueDTu (http://kekhaithue.gdt.gov.vn/TKhaiThue) theo maTKhai.
+# Nguồn: tờ khai HTKK mẫu Sơn Tiến Hải + sheet TUDIEN tool 4.4.
+
+ma_tkhai:
+  "842": gtgt
+  "892": tndn
+  "953": tncn
+  "402": bctc
+
+loai_tkhai:
+  C: chinh_thuc
+  B: bo_sung
+
+# 01/GTGT (TT 80/2021) - chỉ tiêu dùng để đối chiếu
+gtgt_ct:
+  "22": "Thuế GTGT còn được khấu trừ kỳ trước chuyển sang"
+  "23": "Giá trị HHDV mua vào"
+  "24": "Thuế GTGT HHDV mua vào"
+  "25": "Tổng số thuế GTGT được khấu trừ kỳ này"
+  "26": "HHDV bán ra không chịu thuế GTGT"
+  "32": "DT HHDV bán ra chịu thuế 10%"
+  "33": "Thuế GTGT đầu ra 10%"
+  "34": "Tổng DT HHDV bán ra"
+  "35": "Tổng thuế GTGT đầu ra"
+  "37": "Điều chỉnh giảm"
+  "38": "Điều chỉnh tăng"
+  "40": "Thuế GTGT còn phải nộp"
+  "42": "Thuế GTGT nộp thừa"
+  "43": "Thuế GTGT còn được khấu trừ chuyển kỳ sau"
+
+# 03/TNDN PL 03-1A
+tndn_ct:
+  "04": "Doanh thu bán hàng và CCDV"
+  "12": "Doanh thu thuần"
+  "13": "Giá vốn hàng bán"
+  "14": "Chi phí bán hàng"
+  "15": "Chi phí quản lý doanh nghiệp"
+  "16": "Doanh thu hoạt động tài chính"
+  "18": "LN kế toán trước thuế"
+  "22": "Thu nhập chịu thuế TNDN"
+
+# BCTC TT200 - mã dùng trong 28 tiêu chí
+bctc_cdkt_tt200:
+  "141": "Hàng tồn kho"
+  "152": "Thuế GTGT được khấu trừ"
+  "222": "Nguyên giá TSCĐ hữu hình"
+  "231": "Nguyên giá BĐS đầu tư"
+  "241": "Chi phí SXKD dở dang dài hạn"
+  "242": "XDCB dở dang"
+  "312": "Người mua trả tiền trước ngắn hạn"
+  "318": "Doanh thu chưa thực hiện ngắn hạn"
+  "332": "Người mua trả tiền trước dài hạn"
+  "336": "Doanh thu chưa thực hiện dài hạn"
+  "311": "Phải trả người bán ngắn hạn"
+  "331": "Phải trả người bán dài hạn"
+
+bctc_kqkd:
+  "01": "Doanh thu BH và CCDV"
+  "10": "Doanh thu thuần"
+  "11": "Giá vốn hàng bán"
+  "20": "Lợi nhuận gộp"
+  "21": "Doanh thu tài chính"
+  "22": "Chi phí tài chính"
+  "25": "Chi phí bán hàng"
+
+# Ngưỡng lấy từ TUDIEN tool 4.4 (TC2_N, TC3_N). Còn lại đánh (cần xác minh) nếu không ghi số.
+nguong:
+  tc2_ung_truoc_dt: 0.05
+  tc3_htk_xdcb_dt: 0.30
+  tc23_dong_tien_tncn: 0.20
+  tc26_ty_trong_mua_03_06: 0.10   # (cần xác minh) tool không ghi số trên TUDIEN
+  lech_hd_tk_vat: 0               # mọi lệch HĐ vs tờ khai đều ghi nhận
+  lech_dt_gtgt_bctc: 0

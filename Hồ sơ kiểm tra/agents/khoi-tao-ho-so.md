@@ -1,3 +1,20 @@
+---
+reasoning: medium
+type: agent
+name: Khởi tạo hồ sơ
+slug: khoi-tao-ho-so
+role: ''
+skills: []
+model: ''
+avatar:
+  shape: square
+  palette: blue
+  eye: den
+model_provider: ''
+updated: '2026-11-08'
+tags: []
+---
+
 ﻿---
 type: agent
 name: Khởi tạo hồ sơ

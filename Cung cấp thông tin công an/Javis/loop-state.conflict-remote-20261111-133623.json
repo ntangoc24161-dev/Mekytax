@@ -1,0 +1,11 @@
+{
+  "ho-so-cung-cap-cong-an": {
+    "auto_paused_reason": "",
+    "fail_streak": 0,
+    "last_run": 1794304598.2625344,
+    "last_summary": "Hôm nay (10/11/2026) không có công văn Công an mới, nên vòng này dừng ở bước quét đầu tiên.\n\n- **Đã làm:** Quét thư mục `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`. Mình truy cập được thư mục bình thường. Trong đó chỉ có file hệ thống ẩn `desktop.ini`, không có file PDF hay Word công văn nào.\n- **Chưa chạy:** Hai workflow \"Quản lý công văn công an\" và \"Theo dõi & cập nhật CV trả lời đã ký\" không được kích hoạt, vì không có công văn nào để xử lý.\n- **File đã chạm:** Chỉ đọc danh sách file trong thư mục CV MOI. Không sửa gì trong sổ `Bao_cao_cong_van.xlsx` hay bất kỳ file nào khác.\n\nKết quả này giống các vòng ngày 06/11 và 08/11. Vòng sau sẽ quét lại lúc 12:00 như lịch.",
+    "last_status": "✓ Đạt: Mình kiểm tra lại độc lập thư mục CV MOI, kể cả các thư mục con: chỉ có desktop.ini, không có công văn PDF hay Word nào. Vì vậy dừng ở bước quét và không chạy workflow là đúng phạm vi. Báo cáo không bịa và cũng không có dấu hiệu sửa file nào.",
+    "runs_today": 1,
+    "day": "2026-11-10"
+  }
+}

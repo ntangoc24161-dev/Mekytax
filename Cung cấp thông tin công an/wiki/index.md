@@ -12,3 +12,4 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Phân loại công văn iOffice khi nhập sổ cung cấp hồ sơ Công an]] - Khi rà văn bản iOffice để nhập sổ cung cấp hồ sơ Công an, lọc ANĐT/CSKT/KTr1 rồi
 - [[Phân Tổ Kiểm tra phải kiểm tra cơ quan thuế quản lý]] - Phân Tổ Kiểm tra (KT1, KT2, KT3) theo Phường/Xã chỉ hợp lệ sau khi đã xác định n
 - [[Ổ I: Google Drive Desktop và đường /mnt/i trên Javis VPS]] - Ổ `I:` trên máy Windows là Google Drive for Desktop, ánh xạ thư mục `My Drive`.
+- [[Quy-trinh-xu-ly-CV-Cong-an|Quy trình xử lý Công văn Công an - 4 bước]] - Bóc tách → Phân công → Soạn thảo → Quản lý hồ sơ (2026), có 4 cổng kiểm soát chéo.

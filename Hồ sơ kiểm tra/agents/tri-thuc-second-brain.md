@@ -1,3 +1,20 @@
+---
+reasoning: medium
+type: agent
+name: Wiki quản lý
+slug: tri-thuc-second-brain
+role: ''
+skills: []
+model: ''
+avatar:
+  shape: triangle
+  palette: clay
+  eye: den
+model_provider: ''
+updated: '2026-11-08'
+tags: []
+---
+
 ﻿---
 type: agent
 name: Wiki quản lý

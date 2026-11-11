@@ -31,20 +31,20 @@ Không `pip` vào `.venv` của Javis. Engine không có shell: đưa nguyên l�
 Mọi lệnh chạy từ gốc repo.
 
 ```
-.\.venv-paddleocr\Scripts\python.exe -m tools.doctram convert INPUT -f md|docx|xlsx|txt|pdf -o OUT [--lang vi] [--backend auto|paddle|pymupdf] [--brain "TÊN"] [-r] [--force] [--dry-run]
+.\.venv-paddleocr\Scripts\python.exe -m tools.doctram convert INPUT -f md|docx|xlsx|txt|pdf -o OUT [--lang vi] [--backend auto|paddle|pymupdf] [--brain "TÊN"] [-r] [--force] [--no-orientation] [--dry-run]
 .\.venv-paddleocr\Scripts\python.exe -m tools.doctram pages INPUT --rotate 90 --out OUT [--force]
 .\.venv-paddleocr\Scripts\python.exe -m tools.doctram pages INPUT --delete 1,3-5 --out OUT
 .\.venv-paddleocr\Scripts\python.exe -m tools.doctram pages INPUT --order 3,1,2 --out OUT
 .\.venv-paddleocr\Scripts\python.exe -m tools.doctram pages --merge A.pdf B.pdf --out OUT
 .\.venv-paddleocr\Scripts\python.exe -m tools.doctram pages INPUT --split --out THUMUC
-.\.venv-paddleocr\Scripts\python.exe -m tools.doctram compare A B -o chenh.md [--backend auto] [--lang vi] [--force]
-.\.venv-paddleocr\Scripts\python.exe -m tools.doctram watch IN --out OUT -f docx [--force]
+.\.venv-paddleocr\Scripts\python.exe -m tools.doctram compare A B -o chenh.md [--backend auto] [--lang vi] [--force] [--no-orientation]
+.\.venv-paddleocr\Scripts\python.exe -m tools.doctram watch IN --out OUT -f docx [--force] [--no-orientation]
 .\.venv-paddleocr\Scripts\python.exe -m tools.doctram ui
 ```
 
 `pages` chỉ nhận đúng một việc trong `--rotate`, `--delete`, `--order`, `--merge`, `--split`. Góc xoay: 90, 180, 270. Số trang đánh từ 1. `ui` mở http://127.0.0.1:8765 . Giao diện bấm được qua `tools\doctram\Chay.bat`.
 
-`--backend auto`: PDF có lớp chữ dùng PyMuPDF; scan và ảnh dùng PaddleOCR. `--brain` ghi vào `brains/<tên>/sources/`.
+`--backend auto`: PDF có lớp chữ dùng PyMuPDF; scan và ảnh dùng PaddleOCR. `--brain` ghi vào `brains/<tên>/sources/`. `--no-orientation` tắt bước tự nhận hướng xoay (nhanh hơn khi scan đã thẳng; ảnh lệch sẽ đọc sai). Không thêm cờ thì bước này vẫn bật. `convert`, `compare` và `watch` đều nhận cờ này.
 
 ## Quy trình
 
