@@ -2,14 +2,36 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 5 agents · 60 skills · 4 workflows (3 bật) · 2 loops (1 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 27 agents · 60 skills · 9 workflows (6 bật) · 2 loops (1 bật) · 28 plugins (27 chạy)
 
 ## Agents
+- **Chuyên viên công nợ và tiền mặt** (`chuyen-vien-cong-no-tien-mat`) - Quét chi tiền mặt 111, cụm HĐ cùng ngày, công nợ 131/331, sao kê 112. Ngưỡng K5 dùng >=. · skills: phan-tich-cong-no-tien-mat · tags: Tài chính
+- **Chuyên viên doanh thu giá vốn** (`chuyen-vien-doanh-thu-gia-von`) - Đối chiếu sổ 511 với 632 theo khóa HĐ/ngày/mặt hàng, lãi gộp, bán dưới giá (K4). · skills: doi-chieu-511-632 · tags: Tài chính
+- **Chuyên viên dữ liệu đầu vào** (`chuyen-vien-du-lieu-dau-vao`) - Gộp HĐĐT, bảng kê, NLĐ theo mẫu 02; làm sạch CD1 BT5-BT9; không trộn nguồn. · skills: tong-hop-dau-vao-hddt-bang-ke-nld, lam-sach-cd1-mst-hoa-don · tags: Tài chính
+- **Chuyên viên GTGT-TNDN** (`chuyen-vien-gtgt-tndn`) - Đối chiếu bảng kê, tờ khai GTGT, QTT TNDN, HĐĐT theo 2 sheet chuẩn CBRR, bóc nguyên nhân trọng yếu. · skills: doi-chieu-gtgt-tndn-cbrr · tags: Tài chính
+- **Chuyên viên kho và giá thành** (`chuyen-vien-kho-gia-thanh`) - Đối chiếu XNT 152/155/156 với BCTC, xuất kho với 632, bóc giá thành/định mức, giải tỏa TC3 và TC28. · skills: phan-tich-xnt-kho, phan-tich-gia-thanh-dinh-muc · tags: Tài chính
+- **Chuyên viên NCC và hóa đơn** (`chuyen-vien-ncc-hoa-don`) - Đối chiếu 100% NCC với CVCBRR F0/F1, Công an, danh bạ; F0 và F1 đều mức Cao (K2). · skills: doi-chieu-ncc-mua-vao-rui-ro, tong-hop-ben-mua-tu-so-cvcbrr · tags: Tài chính
+- **Chuyên viên TNCN** (`chuyen-vien-tncn`) - Tổng hợp QTT TNCN, danh sách NLĐ, đối chiếu đa nguồn TC22/TC23, trùng CCCD. · skills: tong-hop-tncn-da-nguon · tags: Tài chính
+- **Cập nhật công văn cảnh báo rủi ro** (`cập-nhật-công-văn-cảnh-báo-rủi-ro`) - Bóc tách công văn cảnh báo đã số hóa và nạp dòng mới vào sheet F0 bên bán, F1 bên mua · skills: theo-doi-cv-canh-bao-rui-ro · tags: Tài chính
+- **Đối chiếu rủi ro NCC** (`doi-chieu-rui-ro-ncc`) - Soi nhà cung cấp mua vào với F0/F1, danh sách Công an và danh bạ NNT, lập Bảng 2.3 theo kỳ · skills: doi-chieu-ncc-mua-vao-rui-ro, theo-doi-cv-canh-bao-rui-ro · tags: Tài chính
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
+- **Khai thác dữ liệu hồ sơ** (`khai-thac-du-lieu-ho-so`) - trợ lý hỗ trợ - xuất bảng kê tiêu chí cung cấp và đối chiếu số liệu thuế khi công văn hoặc soạn thảo cần bằng chứng · skills: xuat-danh-sach-ho-so-ca, doi-chieu-ncc-mua-vao-rui-ro, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
+- **Trợ lý khởi tạo hồ sơ** (`khoi-tao-ho-so`) - Chuyên viên văn bản khởi tạo hồ sơ kiểm tra và cập nhật dữ liệu công ty. · skills: lap-ho-so-kiem-tra, nhap-bang-tinh-tu-bao-cao-hdkd, boc-tach-bang-tinh-phan-tich, xem-ho-so-thue · tags: Tài chính
+- **Lập hồ sơ kiểm tra** (`lap-ho-so-kiem-tra`) - Cán bộ Thuế cơ sở 3 lập hồ sơ kiểm tra trên app nội bộ và xuất bộ Word. · skills: lap-ho-so-kiem-tra · tags: Tài chính
+- **Phân tích viên dữ liệu CQT** (`phan-tich-vien-cqt`) - Chạy 57 quy tắc khi chưa có sổ DN, nhãn Chắc/Sơ bộ, xuất KQ2. Chỉ sau mức A hoặc B, hoặc để giữ phần Chắc từ CQT. · skills: giai-doan-2-phan-tich-du-lieu-co-quan-thue · tags: Tài chính
+- **Phân tích viên sổ sách DN** (`phan-tich-vien-so-sach-dn`) - Chạy 23 quy tắc sổ DN, chuỗi 5 mắt xích, nâng sơ bộ thành chắc hoặc giải tỏa, xuất KQ3. Chỉ khi mức C/D/E. · skills: giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
+- **Pháp chế & chính sách thuế** (`phap-che-chinh-sach-thue`) - trợ lý hỗ trợ - trả lời câu hỏi luật/chính sách có trích dẫn điều khoản khi Điều phối hoặc Soạn thảo vướng căn cứ · skills: thue-gtgt, thue-tncn, thue-tndn, hoa-don-dien-tu, luat-quan-ly-thue, xu-ly-rui-ro-thue-hoa-don, xu-phat-vphc-thue-hoa-don, quy-trinh-hoan-thue, quy-trinh-kiem-tra-thue, huong-dan-kiem-tra-chuyen-de, kiem-tra-thue-thuong-mai-dien-tu, luat-thuong-mai-dien-tu, quy-che-phoi-hop-kiem-tra-thue, luat-phong-chong-tham-nhung · tags: Tài chính
 - **phong-van-thu** (`phong-van-thu`) -  · model haiku · tags: Văn thư
+- **Tiếp nhận & Điều phối công văn** (`quản-lý-hồ-sơ-công-an`) - đầu vào phòng cung cấp hồ sơ Công an - tiếp nhận, bóc tách, tra cứu NNT, phân Tổ KT, cập nhật sổ và đóng thư mục · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-cuu-ioffice-dong-nai, pdf-sang-md, dong-bo-thu-muc-ca · tags: Tài chính
 - **so-hoa-ocr-cong-van** (`so-hoa-ocr-cong-van`) - 
+- **Trợ lý soạn thảo biên bản và hồ sơ về** (`soan-bien-ban-ho-so-ve`) - Chuyên viên văn bản soạn biên bản, hồ sơ về và quyết định xử phạt trình ký. · skills: soan-thao-van-ban, dien-bien-ban-tu-bang-tinh, xu-phat-vphc-thue-hoa-don · tags: Tài chính
+- **Trợ lý soạn thảo hồ sơ đi** (`soan-ho-so-di`) - Chuyên viên văn bản soạn hồ sơ đi và trình ký theo đúng thể thức. · skills: ho-so-kiem-tra-ke-hoach, soan-thao-van-ban · tags: Tài chính
+- **Soạn thảo trả lời Công an** (`soan-thao-tra-loi-cong-an`) - đầu ra giấy tờ của phòng - dự thảo công văn phúc đáp và tờ trình đúng thể thức NĐ 30/2020 từ gói bàn giao của Điều phối · skills: tra-loi-cong-van, soan-thao-van-ban · tags: Tài chính
 - **soan-thao-van-ban** (`soan-thao-van-ban`) - 
+- **Thủ hồ sơ và Kiểm kê GĐ1** (`thu-ho-so-kiem-ke`) - Tổ chức cây thư mục 4 bước, checklist A4, manifest IN00-IN14, mức A-E, xuất KQ1. Cấm phân tích rủi ro. · skills: to-chuc-ho-so-kiem-tra-thue, giai-doan-1-kiem-ke-danh-gia · tags: Tài chính
+- **Tra cứu và tải công văn iOffice** (`tra-cuu-tai-cv-ioffice`) - Đăng nhập VNPT iOffice Đồng Nai, lọc công văn cảnh báo, tải tệp đính kèm về thư mục lưu trữ · skills: tra-cuu-ioffice-dong-nai · tags: Tài chính
 - **tri-thuc-second-brain** (`tri-thuc-second-brain`) - 
+- **Trưởng phòng Phân tích hồ sơ thuế** (`truong-phong-phan-tich-ho-so`) - Điều phối P0-P5, chọn giai đoạn theo mức A-E, chốt Master 28 tiêu chí và đề cương, áp K1-K13. · skills: phan-tich-ho-so-thue, query-wiki · tags: Tài chính
 
 ## Skills
 ### AI
@@ -80,6 +102,13 @@
 - **Bàn giao liên phòng** (`ban-giao-lien-phong`) - Checklist bàn giao việc giữa các brain/phòng: đường dẫn, MST, brain đích, agent/workflow, đầu ra.
 
 ## Workflows
+### Tài chính
+- **Dây chuyền hồ sơ kiểm tra** (`day-chuyen-ho-so-kiem-tra`) - off · 3 bước [khoi-tao-ho-so -> soan-ho-so-di -> soan-bien-ban-ho-so-ve] · Nối 3 trợ lý văn bản theo vòng đời vụ kiểm tra: khởi tạo dữ liệu công ty, soạn hồ sơ đi trình ký, rồi soạn biên bản và hồ sơ về.
+- **Dây chuyền xử lý công văn cảnh báo** (`day-chuyen-xu-ly-cv-canh-bao`) - active · 5 bước [tra-cuu-tai-cv-ioffice -> so-hoa-ocr-cong-van -> cập-nhật-công-văn-cảnh-báo-rủi-ro -> doi-chieu-rui-ro-ncc -> soan-thao-van-ban] · Tải iOffice, OCR, nạp sổ F0/F1, đối chiếu NCC rồi soạn văn bản cảnh báo.
+- **Lập hồ sơ kiểm tra** (`lap-ho-so-kiem-tra`) - off · 5 bước [lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra -> lap-ho-so-kiem-tra] · Nhập hoặc import một vụ kiểm tra thuế rồi xuất bộ Word hồ sơ đi, biên bản, phát sinh và hồ sơ về.
+- **Phân tích hồ sơ thuế 3 giai đoạn** (`phan-tich-ho-so-thue-3-giai-doan`) - active · 12 bước [thu-ho-so-kiem-ke -> truong-phong-phan-tich-ho-so -> chuyen-vien-du-lieu-dau-vao -> chuyen-vien-gtgt-tndn -> chuyen-vien-ncc-hoa-don -> chuyen-vien-tncn -> phan-tich-vien-cqt -> chuyen-vien-doanh-thu-gia-von -> chuyen-vien-kho-gia-thanh -> chuyen-vien-cong-no-tien-mat -> phan-tich-vien-so-sach-dn -> truong-phong-phan-tich-ho-so] · Chuỗi KQ1-KQ2-KQ3 theo mức A-E, bộ mẫu v1.2, 11 trợ lý phòng phân tích.
+- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 2 bước [quản-lý-hồ-sơ-công-an -> soan-thao-tra-loi-cong-an] · Tiếp nhận-phân tổ-ghi sổ rồi dự thảo công văn và tờ trình cho DN thuộc KT1-KT2-KT3.
+### Văn thư
 - **Quy trình điều khiển tài liệu** (`quy-trinh-dieu-khien-tai-lieu`) - off · 6 bước [yeu-cau-tai-lieu -> phong-van-thu -> yeu-cau-tai-lieu -> phong-van-thu -> yeu-cau-tai-lieu -> phong-van-thu] · TẮT. Trùng ban hành văn bản đi. Dùng quy-trinh-soan-thao-va-ban-hanh-van-ban-di.
 - **Quy trình lưu trữ và số hóa hồ sơ** (`quy-trinh-luu-tru-va-so-hoa-ho-so`) - active · 3 bước [phong-van-thu -> so-hoa-ocr-cong-van -> tri-thuc-second-brain] · Thu hồi, kiểm kê, số hóa OCR và lưu trữ hồ sơ tài liệu vào Second Brain phục vụ tra cứu
 - **Quy trình soạn thảo và ban hành văn bản đi** (`quy-trinh-soan-thao-va-ban-hanh-van-ban-di`) - active · 3 bước [phong-van-thu -> soan-thao-van-ban -> phong-van-thu] · Kiểm thể thức NĐ 30, chuẩn hóa Word TCS3, cấp số và phát hành văn bản đi
@@ -121,4 +150,4 @@
 
 ## Cờ sức khoẻ
 - Workflow trỏ agent KHÔNG tồn tại: yeu-cau-tai-lieu
-- Agent chưa workflow nào dùng: javis-core
+- Agent chưa workflow nào dùng: javis-core, khai-thac-du-lieu-ho-so, phap-che-chinh-sach-thue
