@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 1 agents · 29 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 1 agents · 30 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
 
 ## Agents
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
@@ -35,6 +35,7 @@
 - **Giai đoạn 2 - Phân tích dữ liệu cơ quan thuế** (`giai-doan-2-phan-tich-du-lieu-co-quan-thue`) - Phân tích 57 quy tắc thuế khi chưa có sổ DN: chuẩn hóa IN01-IN07/12, đối chiếu GTGT-TNDN-BCTC, 100% NCC rủi ro, phân loại Chắc/Sơ bộ (KQ2).
 - **Giai đoạn 3 - Hoàn chỉnh hồ sơ & Sổ sách DN** (`giai-doan-3-hoan-chinh-ho-so`) - Hoàn chỉnh hồ sơ khi có sổ sách DN: 23 quy tắc GĐ3, chuỗi bằng chứng 5 mắt xích, Master 28 tiêu chí 7 cột, đề cương kiểm tra (KQ3).
 - **Hồ sơ kiểm tra theo kế hoạch** (`ho-so-kiem-tra-ke-hoach`) - Lập hồ sơ kiểm tra kế hoạch từ MAUTONG HOP: giữ phôi gốc nghiệp vụ, chuẩn NĐ 30 văn bản hành chính, chuẩn checkbox ☐/☑ và xuất QĐ riêng.
+- **Kiểm tra tại bàn giải thể / chấm dứt MST** (`kiem-tra-tai-ban-giai-the`) - Kiểm tra tại bàn giải thể/chấm dứt MST: đối chiếu số liệu, cập nhật Bảng tính, biên bản, checklist giải thể.
 - **Lập hồ sơ kiểm tra thuế** (`lap-ho-so-kiem-tra`) - Vận hành sổ Excel JAVIS PRO và app hồ sơ kiểm tra: thêm vụ từ DB NNT, xuất Word DI trình ký.
 - **Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế** (`nhap-bang-tinh-tu-bao-cao-hdkd`) - Điền KQKDSXKD từ PTDN02 (thiếu thì bù BCTC NamNay hoặc QTT 03-1A); có KQ2.1 thì đổ GTGT và EBITDA.
 - **Phân tích công nợ và tiền mặt** (`phan-tich-cong-no-tien-mat`) - Quét chi tiền mặt TK 111, cụm HĐ cùng ngày, công nợ 131/331 và sao kê ngân hàng 112.

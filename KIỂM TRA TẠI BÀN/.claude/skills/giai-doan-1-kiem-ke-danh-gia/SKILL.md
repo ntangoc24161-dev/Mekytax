@@ -70,8 +70,13 @@ Giai đoạn đầu tiên và bắt buộc đối với mọi hồ sơ kiểm tr
 1. **Quét thư mục toàn diện:** Đọc toàn bộ cây thư mục `<FOLDER>`, tính mã băm SHA-256 cho từng file để bảo toàn tính toàn vẹn và truy vết.
 2. **Xếp loại nguồn vào IN00–IN13:** Phân loại rõ `Nguồn gốc` (CQT hay DN), `Định dạng` (`Cau_truc`, `PDF-da-trich`, `PDF-chua-trich`, `Anh-chua-doc`). Nếu có sao kê PDF scan chưa OCR thì gắn cờ `PDF-chua-trich`.
 3. **Đánh giá độ đủ từng nguồn:** Đếm số dòng thực, kiểm tra số dòng thiếu MST hoặc Ký hiệu HĐ, kiểm tra có tờ khai bổ sung không. Gán nhãn: `Đủ`, `Mỏng` (dưới 12 dòng), `Thiếu`, `PDF chưa trích`, hoặc `Chưa nhận`.
-4. **Rà soát 80 quy tắc rủi ro:** Chiếu theo cột "Dữ liệu cần" của sheet `04_Quy_tac_rui_ro` để xác định từng quy tắc: `Chạy được ngay`, `Chạy một phần`, hay `Bị chặn`. Nêu rõ quy tắc bị chặn vì thiếu nguồn IN nào.
-5. **Kết luận mức hồ sơ (A–E) & Chỉ định giai đoạn tiếp theo:**
+4. **Kiểm F0 cho NNT (bắt buộc):** Đối chiếu NNT `<MST>` với sheet `F0` trong `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx`:
+   - Nếu NNT nằm trên F0: ghi rõ "NNT thuộc F0 - Công văn cảnh báo [số CV]" vào KQ1_Kiem_ke; ghi đánh giá mức rủi zo cao từ đầu; chuyển tiếp cho Giai đoạn 2/3 báo cáo trước kết luận KQ3.
+   - Nếu không: tiếp tục bước 5.
+
+5. **Rà soát 80 quy tắc rủi ro:** Chiếu theo cột "Dữ liệu cần" của sheet `04_Quy_tac_rui_ro` để xác định từng quy tắc: `Chạy được ngay`, `Chạy một phần`, hay `Bị chặn`. Nêu rõ quy tắc bị chặn vì thiếu nguồn IN nào.
+
+6. **Kết luận mức hồ sơ (A–E) & Chỉ định giai đoạn tiếp theo:**
    - Nếu ở mức A hoặc B: Chuyển tiếp chạy **Giai đoạn 2** (`giai-doan-2-phan-tich-du-lieu-co-quan-thue`).
    - Nếu đã đạt mức C, D hoặc E: Có thể chuyển tiếp sang **Giai đoạn 3** (`giai-doan-3-hoan-chinh-ho-so`).
 6. **Lập danh mục đề nghị bổ sung:** Gom nhóm các tài liệu DN chưa cung cấp, sắp xếp theo thứ tự giải phóng được nhiều quy tắc nhất:

@@ -38,12 +38,18 @@ Font **Times New Roman**. Mẫu: `thu-muc-mau-ho-so-doanh-nghiep/MAU_FILE_TONG_H
 
 ### 1. Sheet tổng hợp (`Tong_hop_NCC_CVCBRR` / `Tong_hop_doi_chieu` / `BM04_NCC_mua_vao`)
 
-- **Quy tắc xếp mức K2 (15/10/2026):**
-  - F0 = công ty bị cảnh báo rủi ro hoặc trong danh sách mua bán hóa đơn của Công an (CA).
-  - F1 = công ty mua hàng có sử dụng hóa đơn của F0 (tầng hai).
-  - **Mức rủi ro:** NCC thuộc F0 xếp **Cao**; NCC thuộc F1 (tầng hai) cũng xếp mức **Cao**. NNT đang kiểm tra thuộc F1 nghĩa là đã mua hàng từ F0 → ghi nhận phát hiện **Cao** của quy tắc `HD01`.
-  - IN07 ghi nhận cột `Nhom_F` (F0/F1) và `Nguon_F0` (CANH_BAO/CA); BM04 ghi cột S (`Nhóm F`) và T (`Mức rủi ro NCC`).
-- **Phần 1:** Đối chiếu NNT đang xét với F1 và Sổ Công an; ghi kết luận an toàn/có cảnh báo.
+- **Quy tắc xếp mức K2 + F0 cho NNT (chốt 11/11/2026):**
+  - **F0 = NCC (nhà cung cấp):** công ty bị cảnh báo rủi ro hoặc trong danh sách mua bán hóa đơn của Công an (CA). Đối chiếu tất cả NCC với sheet F0.
+  - **F1 = NCC (nhà cung cấp):** công ty mua hàng có sử dụng hóa đơn của F0 (tầng hai). Đối chiếu cả NCC để phát hiện F1.
+  - **F0 = NNT (người nộp thuế):** kiểm F0 TRƯỚC để xác định NNT có phải công ty bị cảnh báo không → ghi KQ1.3 + KQ3 mức rủi zo Cao từ đầu.
+  - **F1 = NNT (người nộp thuế):** kiểm F1 để phát hiện NNT có mua HĐ từ F0 không → ghi Phần 1 IN07/KQ2_NCC_mua_vao, phát hiện **HD01 mức Cao**.
+  - **Mức rủi zo NCC:** NCC thuộc F0 xếp **Cao**; NCC thuộc F1 (tầng hai) cũng xếp mức **Cao**. 
+  - IN07 ghi nhận cột `Nhom_F` (F0/F1) và `Nguon_F0` (CANH_BAO/CA); BM04 ghi cột S (`Nhóm F`) và T (`Mức rủi zo NCC`).
+- **Phần 1 (bắt buộc):** 
+  - Kiểm **F0 của NNT trước**: NNT có nằm trong sheet F0 không? Nếu có, ghi rõ "NNT [tên] (MST [mst]) bị cảnh báo rủi zo thuế - Công văn [số]" (rủi zo NNT tự thân) → ghi KQ1.3 + KQ3 mức Cao từ đầu.
+  - Kiểm **F1 của NNT tiếp**: NNT có nằm trong sheet F1 không? Nếu có, ghi rõ "NNT [tên] (MST [mst]) đã mua HĐ từ F0 [tên F0]" → phát hiện **HD01 mức Cao** (mua HĐ rủi zo).
+  - Đối chiếu NNT với Sổ Công an: kiểm NNT có trong danh sách CA không?
+  - Kết luận: an toàn / có cảnh báo / mục tiêu kiểm tra lớn.
 - **Phần 2 (1 khối duy nhất, gắn nguồn):**
   - **Bảng 2.1 (F0/F1):** NCC dính công văn cảnh báo; có cột `Nguồn dữ liệu`, `Số dòng BK`, `Số dòng HĐĐT`, kỳ mua, CV/F0, ĐKKD...
   - **Bảng 2.2:** Liệt kê **100% NCC** (union Bảng kê ∪ HĐĐT), có dòng **Tổng cộng toàn bộ**; đánh dấu nhóm trạng thái ĐKKD bất thường. **Cấm** chỉ giữ nhóm bất thường.
