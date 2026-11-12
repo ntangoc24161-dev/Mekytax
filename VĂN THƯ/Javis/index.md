@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 27 agents · 60 skills · 9 workflows (6 bật) · 2 loops (1 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 28 agents · 60 skills · 9 workflows (6 bật) · 2 loops (1 bật) · 28 plugins (27 chạy)
 
 ## Agents
 - **Chuyên viên công nợ và tiền mặt** (`chuyen-vien-cong-no-tien-mat`) - Quét chi tiền mặt 111, cụm HĐ cùng ngày, công nợ 131/331, sao kê 112. Ngưỡng K5 dùng >=. · skills: phan-tich-cong-no-tien-mat · tags: Tài chính
@@ -14,6 +14,7 @@
 - **Chuyên viên TNCN** (`chuyen-vien-tncn`) - Tổng hợp QTT TNCN, danh sách NLĐ, đối chiếu đa nguồn TC22/TC23, trùng CCCD. · skills: tong-hop-tncn-da-nguon · tags: Tài chính
 - **Cập nhật công văn cảnh báo rủi ro** (`cập-nhật-công-văn-cảnh-báo-rủi-ro`) - Bóc tách công văn cảnh báo đã số hóa và nạp dòng mới vào sheet F0 bên bán, F1 bên mua · skills: theo-doi-cv-canh-bao-rui-ro · tags: Tài chính
 - **Đối chiếu rủi ro NCC** (`doi-chieu-rui-ro-ncc`) - Soi nhà cung cấp mua vào với F0/F1, danh sách Công an và danh bạ NNT, lập Bảng 2.3 theo kỳ · skills: doi-chieu-ncc-mua-vao-rui-ro, theo-doi-cv-canh-bao-rui-ro · tags: Tài chính
+- **Javis Core** (`javis-core.conflict-remote-20261111-133623`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **Khai thác dữ liệu hồ sơ** (`khai-thac-du-lieu-ho-so`) - trợ lý hỗ trợ - xuất bảng kê tiêu chí cung cấp và đối chiếu số liệu thuế khi công văn hoặc soạn thảo cần bằng chứng · skills: xuat-danh-sach-ho-so-ca, doi-chieu-ncc-mua-vao-rui-ro, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
 - **Trợ lý khởi tạo hồ sơ** (`khoi-tao-ho-so`) - Chuyên viên văn bản khởi tạo hồ sơ kiểm tra và cập nhật dữ liệu công ty. · skills: lap-ho-so-kiem-tra, nhap-bang-tinh-tu-bao-cao-hdkd, boc-tach-bang-tinh-phan-tich, xem-ho-so-thue · tags: Tài chính
@@ -145,10 +146,9 @@
 - **Meta Ads (Graph API)** (`meta-ads-graph`) - bundled/chạy · tools: meta_ads_accounts, meta_ads_insights, meta_ads_campaigns, meta_ads_get · Đọc số liệu quảng cáo Facebook/Instagram (tài khoản ads, chiến dịch, hiệu suất) qua Graph API, dùng token của kết nối "Meta Ads (tự tạo app)". CHỈ ĐỌC, không tiêu tiền.
 - **Facebook Trang (Graph API)** (`meta-pages-graph`) - bundled/chạy · tools: fb_pages_list, fb_page_posts, fb_page_comments, fb_page_post, fb_page_photo, fb_page_album, fb_page_video, fb_page_edit, fb_page_delete, fb_page_reply · Quản lý Trang/Fanpage Facebook qua Graph API - liệt kê Trang, đọc bài và bình luận (chỉ đọc), đăng bài/ảnh/video/album, sửa chữ, xoá bài và trả lời bình luận (toàn quyền). Dùng Fanpage đã nối ở thẻ Facebook Messenger (trang Kết nối), hoặc kết nối "Facebook Trang" trong Kho nếu có.
 - **Nhật ký dùng tool** (`tool-audit`) - bundled/tắt · tools: javis_tool_stats · hooks: post_tool_call · Đếm số lần MỖI tool được engine gọi (qua hook post_tool_call) và cho xem thống kê tool hay dùng. Đây là ví dụ minh hoạ cơ chế HOOK của plugin. Mặc định TẮT - bật qua POST /plugins/toggle (slug=tool-audit) để thử.
-- **Trạm tài liệu** (`tram-tai-lieu`) - bundled/chạy · tools: javis_tram_tai_lieu · OCR và chuyển đổi PDF/ảnh scan sang Word, Excel, Markdown, TXT hoặc PDF tìm kiếm được; xoay, tách, ghép, xóa trang; so sánh nội dung 2 file. Chạy local bằng Python venv .venv-paddleocr.
 - **Tin thoại** (`voice-note`) - bundled/chạy · tools: javis_voice_note · Javis ghi một đoạn nói ngắn (tối đa 1000 ký tự) thành file mp3 trong attachments/voice/ rồi nhúng vào câu trả lời. Khung chat hiện trình phát, Telegram nhận file âm thanh. Dùng giọng Edge miễn phí theo ngôn ngữ của câu.
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
 
 ## Cờ sức khoẻ
 - Workflow trỏ agent KHÔNG tồn tại: yeu-cau-tai-lieu
-- Agent chưa workflow nào dùng: javis-core, khai-thac-du-lieu-ho-so, phap-che-chinh-sach-thue
+- Agent chưa workflow nào dùng: javis-core, javis-core.conflict-remote-20261111-133623, khai-thac-du-lieu-ho-so, phap-che-chinh-sach-thue

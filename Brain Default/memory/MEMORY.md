@@ -31,3 +31,4 @@
 - [Danh sách tài khoản Google Drive liên kết qua Composio](facts/tai-khoan-google-drive-lien-ket-composio.md) - Composio liên kết 4 alias Google Drive gồm cungcapthongtin.tcs3tdn@gmail.com (mặc định) và ntangoc2416.1@gmail.com.
 - [Nhu cầu sử dụng song song hai tài khoản Antigravity CLI](facts/user-nhu-cau-dung-hai-tai-khoan-antigravity-cli.md) - Người dùng muốn thêm và sử dụng song song 2 tài khoản Antigravity CLI trên hệ thống.
 - [Cả 10 brain trong hệ thống đều trang bị 3 skill OCR PaddleOCR](facts/dong-bo-3-skill-ocr-cho-tat-ca-10-brain.md) - Cả 10 brain (bao gồm CÔNG TÁC ĐẢNG) đều đã được đồng bộ đầy đủ 3 skill paddleocr, pdf-sang-md và tram-tai-lieu.
+- [Token Antigravity CLI hết hạn từ 5/11/2026](facts/trang-thai-antigravity-cli-token-het-han-05-11.md) - Token lưu trữ tại `/data/home/.gemini/antigravity-cli/antigravity-oauth-token` không hoạt động, CLI vẫn báo 'Please sign in'

@@ -2,10 +2,18 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794383134.8441517,
-    "last_summary": "Vấn đề đã xác định rõ. Mọi lệnh gọi MCP javis đều bị hub định tuyến sang brain **VĂN THƯ** thay vì brain **Cung cấp thông tin công an**, do loop chạy từ Claude Code không kèm header `X-Javis-Vault`.\n\n**Nguyên nhân:** Loop này chạy trên server dưới dạng background job. Khi gọi MCP hub, không có header định danh brain nên hub lấy brain đang mở trên dashboard (VĂN THƯ).\n\n**Hậu quả:** Không thể đọc thư mục CV MOI, không đọc được `Bao_cao_cong_van.xlsx`, không xử lý công văn nào trong vòng này.\n\n**Cách khắc phục (cần người dùng thực hiện):**\n\n1. **Trên dashboard:** Mở brain **Cung cấp thông tin công an** (đảm bảo đây là brain đang hoạt động) trước khi loop chạy.\n\n2. **Hoặc cấu hình MCP client:** Thêm header `X-Javis-Vault: Cung cấp thông tin công an` vào cấu hình MCP của Claude Code để loop luôn trỏ đúng brain.\n\n3. **Chạy thủ công từ chat:** Nhắn vào chat của brain \"Cung cấp thông tin công an\" để kích hoạt quy trình - khi đó brain context đúng và tất cả file sẽ truy cập được.\n\nVòng loop này",
-    "last_status": "✓ Đạt: Chẩn đoán đúng hoàn toàn: gọi mcp__javis__javis_list_dir xác nhận hub trả về brain VĂN THƯ, không phải Cung cấp thông tin công an. Thư mục ho-so-cv-moi-2026-10/ tồn tại trên filesystem cục bộ nhưng không truy cập được qua MCP vì sai brain context. Không có file nào bị sửa/xóa. Loop đã dừng đúng chỗ, không vượt phạm vi.",
-    "runs_today": 3,
-    "day": "2026-11-11"
+    "last_run": 1794470483.967791,
+    "last_summary": "**Báo cáo vòng loop 12/11/2026 (14:57):**\n\n**CV MOI:** Không truy cập được Drive trong vòng này - sandbox Composio (7xvo) dùng tài khoản `ntangoc2416@gmail.com` thay vì `cungcapthongtin.tcs3tdn@gmail.com`, tất cả lệnh Drive API trả về 404. Dựa vào vòng sáng (02:57 UTC): CV MOI vẫn trống.\n\n**Tình trạng tồn đọng:**\n- **Folder 283 (CV 21143/CA Hưng Yên)** - hạn **15/11/2026, còn 3 ngày** - chưa có PDF, chưa bóc tách, Tổ KT chưa xác định\n- Folders 282, 284, 285 cũng chưa có file .md trong vault\n\n**Yêu cầu người dùng thực hiện:**\n1. Tải PDF folder 283 (CV 21143) vào vault `ho-so-cv-moi-2026-11/pdf/` để loop xử lý kịp hạn 15/11\n2. Trên Composio dashboard: đặt `googledrive_ralph-urbane` (cungcapthongtin) làm tài khoản Drive mặc định để loop tự động truy cập được\n\nĐã ghi: `ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-12-p2.md`",
+    "last_status": "✓ Đạt: File ghi đúng nội dung báo cáo - ghi nhận lỗi Drive 404 do sai tài khoản, nêu đúng các folder tồn đọng (282-285) với deadline 15/11 cho folder 283, yêu cầu hành động cụ thể và khả thi, không bịa số liệu, không làm hỏng file nào, đúng phạm vi nhiệm vụ.",
+    "runs_today": 2,
+    "day": "2026-11-12"
+  },
+  "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
+    "last_run": 1794404550.52305,
+    "last_summary": "**Báo cáo vòng loop 11/11/2026 - 12:00**\n\n**Thư mục CV MOI: TRỐNG** - không có công văn mới cần xử lý hôm nay.\n\nKết quả quét Google Drive qua Composio (tài khoản `cungcapthongtin.tcs3tdn@gmail.com`):\n- Folder CV MOI (`1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) không có file nào.\n- Folder mới nhất là **285 (CV 1647-CA DONG NAI-KT2)**, tạo ngày 09/11 cùng đợt loop trước.\n- Không có folder 286+ từ 10/11 đến nay.\n\n**Lưu ý nhỏ cần xem tay:** Folder 285 (CV 1647) không được ghi nhận rõ trong báo cáo loop 09/11 (chỉ ghi folder 283, 284). Cần xác nhận folder 285 đã vào sổ NHAP_HO_SO chưa.\n\nBáo cáo lưu tại: `ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-11.md`",
+    "last_status": "✓ Đạt: File báo cáo tạo đúng chuẩn, kết quả CV MOI trống hợp lý, không làm hỏng file; lưu ý folder 285 cần xác minh sổ là việc cần làm thêm chứ không phải lỗi loop",
+    "runs_today": 1,
+    "day": "2026-11-11",
+    "fail_streak": 0
   }
 }

@@ -3,7 +3,7 @@ type: decision
 provenance: user
 origin: javis-learned
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-12
 source: chat 2026-11-02 (mvyr9qo5)
 ---
 Nguồn chuẩn để biết ai đã/chưa cập nhật hồ sơ lên PM 4.0 là **danh sách cập nhật hồ sơ đảng viên xuất từ phần mềm** (`DS_Yêu cầu cập nhật hồ sơ đảng viên (nn).xlsx`), đối chiếu bằng **số căn cước**, không suy từ file nào khác.
@@ -15,3 +15,6 @@ Chốt 02/11/2026: CB13 có 101 bản ghi của 96 người đã gửi, tất c�
 
 **Vì sao:** user chỉ đạo lấy danh sách cập nhật PM 4.0 làm số liệu chuẩn cho 13 người này.
 **Áp dụng:** mỗi lần có file DS cập nhật mới thì đối chiếu lại bằng số căn cước rồi cập nhật cột "Cập nhật PM 4.0" trong [[cb13-co-cau-to-dang-va-quan-so-11-2026]], đừng giữ lại con số cũ.
+
+
+**Cập nhật 12/11/2026** (DS cập nhật (86), 112 bản ghi): 11/13 người đã gửi ngày 03/11/2026, đều Đã duyệt. Còn **2 người chưa gửi**, cùng Tổ đảng 1: Lưu Trọng Lễ (Tổ trưởng, 075087002287) và Hồ Hoàng Sơn (075089023222). Tiến độ 107/109. File: bao-cao/DS-dang-vien-chua-cap-nhat-ho-so_CB13_12-11-2026.xlsx; file quản lý mới: bao-cao/Quan-ly-ho-so-dang-vien_CB13_12-11-2026.xlsx.

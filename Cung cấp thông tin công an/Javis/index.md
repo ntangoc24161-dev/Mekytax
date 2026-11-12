@@ -2,16 +2,17 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 8 agents · 40 skills · 2 workflows (1 bật) · 1 loops (1 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 9 agents · 40 skills · 4 workflows (2 bật) · 2 loops (2 bật) · 28 plugins (27 chạy)
 
 ## Agents
+- **Trưởng phòng cung cấp hồ sơ công an** (`javis-core.conflict-remote-20261111-133623`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **khai-thac-du-lieu-ho-so** (`khai-thac-du-lieu-ho-so`) - 
 - **Kiểm soát & Điều phối quy trình** (`kiem-soat-dieu-phoi-quy-trinh`) - quản lý chất lượng, kiểm soát chéo dữ liệu bóc tách, nghiệm thu từng bước và phân phối nhiệm vụ cho các trợ lý · model sonnet · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-loi-cong-van, in-phan-cong-kt1, soan-thao-van-ban, dong-bo-thu-muc-ca, xuat-danh-sach-ho-so-ca · tags: Tài chính
 - **phap-che-chinh-sach-thue** (`phap-che-chinh-sach-thue`) - 
-- **Tiếp nhận & Điều phối công văn** (`quản-lý-hồ-sơ-công-an.conflict-remote-20261022-155419`) - đầu vào phòng cung cấp hồ sơ Công an - tiếp nhận, bóc tách, tra cứu NNT, phân Tổ KT, cập nhật sổ và đóng thư mục · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-cuu-ioffice-dong-nai, pdf-sang-md, dong-bo-thu-muc-ca · tags: Tài chính
 - **quản-lý-hồ-sơ-công-an** (`quản-lý-hồ-sơ-công-an`) - 
 - **soan-thao-tra-loi-cong-an** (`soan-thao-tra-loi-cong-an`) - 
+- **Theo dõi CV trả lời đã ký** (`theo-doi-cv-tra-loi-da-ky`) - công chức thuế chuyên trách theo dõi & bóc tách công văn trả lời Công an đã ký số, cập nhật trạng thái và tào tác danh sách tổng hợp (Bước 5 - Giám sát chất lượng) · model sonnet · skills: dong-bo-thu-muc-ca, xuat-danh-sach-ho-so-ca, soan-thao-van-ban · tags: Tài chính, giám-sát
 - **Theo dõi & Phân công công văn** (`theo-doi-phan-cong`) - theo dõi tiến độ, kiểm soát công văn mới, rà soát cán bộ xử lý và in ấn bàn giao hồ sơ Tổ KT1 · model sonnet · skills: in-phan-cong-kt1, theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong · tags: Tài chính
 
 ## Skills
@@ -62,12 +63,15 @@
 - **Xuất danh sách tổng hợp chi tiết hồ sơ Công an** (`xuat-danh-sach-ho-so-ca`) - Xuất Excel tổng hợp chi tiết hồ sơ công văn Công an theo từng cột tiêu chí tờ khai, BCTC, hóa đơn, vi phạm, nợ thuế tại thư mục CV MOI.
 
 ## Workflows
-### Chung
-- **quản-lý-công-văn-công-an** (`quản-lý-công-văn-công-an`) - off · 0 bước []
 ### Tài chính
-- **Quản lý công văn công an** (`quản-lý-công-văn-công-an.conflict-remote-20261022-155419`) - active · 2 bước [quản-lý-hồ-sơ-công-an -> soan-thao-tra-loi-cong-an] · Tiếp nhận-phân tổ-ghi sổ rồi dự thảo công văn và tờ trình cho DN thuộc KT1-KT2-KT3.
+- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 4 bước [khai-thac-du-lieu-ho-so -> theo-doi-phan-cong -> soan-thao-tra-loi-cong-an -> quản-lý-hồ-sơ-công-an] · Tiếp nhận, bóc tách công văn, kiểm soát chéo dữ liệu, phân công in ấn KT1, lập dự thảo phúc đáp và nghiệm thu đồng bộ thư mục.
+- **Theo dõi & cập nhật CV trả lời đã ký** (`theo-doi-cv-tra-loi-da-ky`) - active · 1 bước [theo-doi-cv-tra-loi-da-ky] · Quét thư mục công văn năm 2026, phát hiện CV trả lời đã ký số, bóc tách dữ liệu, xác nhận danh sách DN, cập nhật trạng thái sổ theo dõi.
+### Vận hành
+- **Bóc tách & Phân công công văn Công an** (`boc-tach-phan-cong-cong-van`) - off · 2 bước [khai-thac-du-lieu-ho-so -> Theo dõi & Phân công công văn] · Bóc tách danh sách doanh nghiệp từ CV Công an, tra cứu DB NNT, phân công cho Tổ KT tương ứng.
+- **Soạn thảo & Quản lý hồ sơ công an** (`soan-thao-quan-ly-ho-so`) - off · 2 bước [soan-thao-tra-loi-cong-an -> quản-lý-hồ-sơ-công-an] · Soạn dự thảo công văn trả lời và tờ trình lãnh đạo theo yêu cầu, lưu file và cập nhật sổ theo dõi.
 
 ## Loops
+- **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an.conflict-remote-20261111-133623`) - bật · custom/full · mỗi 1440 phút
 - **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an`) - bật · custom/full · mỗi 720 phút
 
 ## Plugins (tool/hook native cho mọi engine)
@@ -101,5 +105,6 @@
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
 
 ## Cờ sức khoẻ
-- Agent chưa workflow nào dùng: javis-core, khai-thac-du-lieu-ho-so, kiem-soat-dieu-phoi-quy-trinh, phap-che-chinh-sach-thue, quản-lý-hồ-sơ-công-an.conflict-remote-20261022-155419, theo-doi-phan-cong
+- Workflow trỏ agent KHÔNG tồn tại: Theo dõi & Phân công công văn
+- Agent chưa workflow nào dùng: javis-core, javis-core.conflict-remote-20261111-133623, kiem-soat-dieu-phoi-quy-trinh, phap-che-chinh-sach-thue
 - Skill đang tắt: html-to-webcake, phan-tich-cau-hoi-sinh-doi-cheat-sheet, tien-trinh-supervisor-tu-dong
