@@ -47,15 +47,15 @@ Cẩm nang quy chuẩn thể thức, kỹ thuật trình bày, quy tắc viết 
 | **2** | **Tên cơ quan ban hành** | Times New Roman | | Đặt tại góc trên bên trái trang văn bản (Cột 1 bảng Header). |
 | | - Cơ quan chủ quản | In hoa, đứng, thường | 12 - 13 | Tên cơ quan cấp trên trực tiếp (nếu có). |
 | | - Cơ quan ban hành | In hoa, đứng, đậm | 12 - 13 | Tên cơ quan, tổ chức trực tiếp ban hành văn bản. Kẻ đường gạch ngang dưới bằng 1/3 đến 1/2 chiều dài tên cơ quan, căn giữa. |
-| **3** | **Số, ký hiệu văn bản** | Đứng, thường | 13 | Đặt dưới tên cơ quan ban hành, **chữ "Số" canh thẳng dưới chữ cuối cùng của dòng tên cơ quan ban hành** (ví dụ dưới chữ "SỞ" trong dòng "THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI"). Mỗi loại văn bản (QĐ kiểm tra, QĐ giám sát, QĐ xử phạt...) có thể có độ rộng dòng trên khác nhau - nếu nghi lệch, đo bề rộng chuỗi bằng GDI/thước đo thay vì tin theo canh lề mặc định của Word. Với Chi cục Thuế khu vực III: để trống số khi dự thảo theo mẫu `Số:       /<ký hiệu>` (ví dụ: `Số:       /QĐ-TCS3`). Khi đã có số phát hành thì điền số: `Số: 125/QĐ-TCS3`. Chi tiết bảng ký hiệu ở mục dưới. |
-| **4** | **Địa danh & Ngày tháng** | In nghiêng, thường | 13 - 14 | Đặt dưới tiêu ngữ: *[Địa danh], ngày ... tháng ... năm ...* (ngày < 10 và tháng 1, 2 thêm số 0 phía trước, ví dụ: *ngày 05 tháng 02 năm 2026*). **Khi dự thảo/chưa ban hành**: để trống phần số ngày/tháng (giữ năm nếu đã biết), **canh giữa dòng/ô** (không canh trái lệch); giữ **số dấu chấm/khoảng trắng đều nhau** giữa các mốc trống, ví dụ `Trấn Biên, ngày       tháng       năm 2026`. Giấy xác nhận giao QĐ dùng đúng mẫu 6 chấm đều: `ngày ...... tháng ...... năm ....`. |
+| **3** | **Số, ký hiệu văn bản** | Đứng, thường | 13 | Đặt dưới tên cơ quan ban hành, **chữ "Số" canh thẳng dưới chữ cuối cùng của dòng tên cơ quan ban hành** (ví dụ dưới chữ "SỞ" trong dòng "THUẾ CƠ SỞ 3 THÀNH PHỐ ĐỒNG NAI"). Mỗi loại văn bản (QĐ kiểm tra, QĐ giám sát, QĐ xử phạt...) có thể có độ rộng dòng trên khác nhau - nếu nghi lệch, đo bề rộng chuỗi bằng GDI/thước đo thay vì tin theo canh lề mặc định của Word. Với Chi cục Thuế khu vực III: để trống số khi dự thảo theo mẫu `Số:              /<ký hiệu>` (ví dụ: `Số:              /QĐ-TCS3`). Tuyệt đối **không dùng mã tạm** `DU_THAO-TRINH-KY`. Giữ `xml:space="preserve"` trên run khi set text để Word không nuốt khoảng trống. Khi đã có số phát hành thì điền số: `Số: 125/QĐ-TCS3`. Một khi QĐ đã có số và ngày ban hành chính thức: không ghi đè hay cập nhật lại số/ngày ở các lần xử lý sau. Chi tiết bảng ký hiệu ở mục dưới. |
+| **4** | **Địa danh & Ngày tháng** | In nghiêng, thường | 13 - 14 | Đặt dưới tiêu ngữ: *[Địa danh], ngày ... tháng ... năm ...* (ngày < 10 và tháng 1, 2 thêm số 0 phía trước, ví dụ: *ngày 05 tháng 02 năm 2026*). **Khi dự thảo/chưa ban hành**: để trống toàn bộ ngày, tháng và năm (bỏ năm hiện hành cố định, không ghi 2026), **canh giữa dòng/ô** (không canh trái lệch); giữ **khoảng trắng/dấu chấm đều nhau** giữa các mốc trống, ví dụ `Trấn Biên, ngày       tháng       năm      `. Giấy xác nhận giao QĐ dùng đúng mẫu 6 chấm đều và để trống năm: `ngày ...... tháng ...... năm      `. |
 | **5** | **Tên loại & Trích yếu** | Times New Roman | | |
 | | - Văn bản có tên loại | Tên loại: In hoa, đậm<br>Trích yếu: In thường, đậm | 13 - 14<br>13 - 14 | Đặt giữa trang: Tên loại (ví dụ: **QUYẾT ĐỊNH**, **TỜ TRÌNH**), trích yếu đặt liền dưới tên loại, kèm đường gạch ngang 1/3 đến 1/2 trích yếu. |
 | | - Công văn | In thường, đứng | 12 - 13 | Đặt dưới Số/ký hiệu: `V/v <trích yếu nội dung công văn>` (chữ đứng, không in nghiêng, kết thúc bằng dấu chấm). |
 | **6** | **Nội dung văn bản** | Đứng, thường | 13 - 14 | Bố cục thành Phần (I, II), Chương (1, 2), Mục (Mục 1), Điều (Điều 1), Khoản (1, 2), Điểm (a, b). Giãn dòng 1.0 - 1.15, thụt đầu dòng 1.0 - 1.27 cm. |
 | **7** | **Chức vụ & Họ tên người ký** | Times New Roman | | Đặt tại nửa bên phải trang văn bản (Cột 2 bảng Footer). |
 | | - Chức vụ người ký | In hoa, đứng, đậm | 13 - 14 | Ví dụ: **GIÁM ĐỐC**, **KT. TRƯỞNG CƠ QUAN / PHÓ TRƯỞNG CƠ QUAN**. |
-| | - Khoảng trống ký | 4 - 5 dòng trống | | Khoảng cách từ 35 - 40 mm để ký tay hoặc đặt ảnh chữ ký số. |
+| | - Khoảng trống ký | 4 - 5 dòng trống | | Mặc định cách nhau **5 dòng** (5 dòng trống) trong cùng 1 ô. Nếu bị tràn sang trang mới, tự động giảm xuống **4 dòng** (chuẩn NĐ 30/2020) để gói gọn trong trang in. |
 | | - Họ và tên người ký | In thường, đứng, đậm | 13 - 14 | Căn giữa dưới chức danh ký. |
 | **8** | **Dấu / Chữ ký số cơ quan** | Màu đỏ chuẩn | | Trùm lên khoảng 1/3 chữ ký cá nhân về phía bên trái. |
 | **9** | **Nơi nhận** | Times New Roman | | Đặt tại nửa bên trái trang văn bản (Cột 1 bảng Footer), ngang hàng với chức vụ người ký (top-aligned). |
@@ -84,9 +84,9 @@ Cẩm nang quy chuẩn thể thức, kỹ thuật trình bày, quy tắc viết 
 Nguồn: bảng quy định ký hiệu trình ký nội bộ. Mã cơ quan trong ký hiệu: **TCS3**.
 
 ### Quy tắc định dạng khi soạn thảo
-- **Dự thảo chưa có số:** ghi `Số:       /<ký hiệu>` (để khoảng trống giữa `Số:` và `/` để điền số sau).
-- **Đã có số phát hành:** ghi `Số: <số>/<ký hiệu>` (ví dụ: `Số: 15/QĐ-TCS3`).
-- **Công văn** không có tiền tố loại văn bản: ký hiệu chỉ là `/TCS3` (ví dụ dự thảo: `Số:       /TCS3`).
+- **Dự thảo chưa có số:** ghi `Số:              /<ký hiệu>` (để khoảng trống dài giữa `Số:` và `/` để điền số sau, tuyệt đối không dùng mã tạm `DU_THAO-TRINH-KY`, giữ `xml:space="preserve"` trên run).
+- **Đã có số phát hành:** ghi `Số: <số>/<ký hiệu>` (ví dụ: `Số: 15/QĐ-TCS3`). Khi đã ban hành chính thức: không ghi đè lại số/ngày ở các lần xử lý sau.
+- **Công văn** không có tiền tố loại văn bản: ký hiệu chỉ là `/TCS3` (ví dụ dự thảo: `Số:              /TCS3`).
 - Các loại còn lại: `/<viết tắt loại>-TCS3`.
 
 ### Bảng ký hiệu theo loại văn bản

@@ -75,8 +75,8 @@ Bộ tài liệu tổng hợp hoàn chỉnh gồm 22 văn bản (`MAUTONG HOP GI
 
 ### 5. Chuẩn hóa thể thức hành chính theo NĐ 30 và xuất hồ sơ
 1. **Thể thức hành chính**:
-   - Tờ trình, QĐKT, QĐGS, QĐXP: Chữ ký cách chức danh 5 dòng trong 1 ô (nếu rớt trang giảm 4 dòng theo NĐ 30).
-   - Quyết định: Chữ 'Số' thẳng dưới chữ 'sở'; ngày tháng căn giữa `Trấn Biên, ngày       tháng       năm 2026`; các Điều 1, 2, 3... tô đậm.
+   - Tờ trình, QĐKT, QĐGS, QĐXP: Chữ ký cách chức danh mặc định 5 dòng trong 1 ô (nếu rớt sang trang mới thì tự động giảm xuống 4 dòng theo NĐ 30 để cùng trang in).
+   - Dự thảo Quyết định: Chữ 'Số' thẳng dưới chữ 'sở'; ký hiệu để khoảng trống dài `Số:              /QĐ-TCS3` (tuyệt đối không dùng mã tạm `DU_THAO-TRINH-KY`); ngày tháng căn giữa để trống toàn bộ `Trấn Biên, ngày       tháng       năm      ` (bỏ năm 2026); các Điều 1, 2, 3... tô đậm. Căn cứ QĐ 1377/QĐ-CT chốt thống nhất ngày 30/06/2025. Khi đã ban hành chính thức: không ghi đè lại số/ngày.
    - Biên bản giao nhận hồ sơ: Bên nhận phải là thành viên khác (Nguyễn Thành Đồng), tuyệt đối không để trùng tên Trưởng đoàn bên giao (Nguyễn Thị Ánh Ngọc).
 2. **Báo cáo giám sát**:
    - Đổi toàn bộ checkbox sang ký tự Unicode `☐`/`☑` nằm SAU nhãn chữ.

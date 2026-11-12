@@ -77,7 +77,7 @@ Chi tiết cột sheet: `references/so-excel-javis-pro.md`. Danh mục mẫu Wor
 
 ### B. Xuất bộ hồ sơ đi (Word)
 
-1. Lấy MST. Có Số QĐKT chính thức thì dùng số đó. **Chưa có mà user chọn xuất trình ký** → dùng mã tạm `DU_THAO-TRINH-KY` (không phải số đã cấp). Không tự bịa số kiểu `xxxx/QĐ-TCS3`.
+1. Lấy MST. Có Số QĐKT chính thức thì dùng số đó. **Chưa có mà user chọn xuất trình ký** → trên văn bản Word trình bày để khoảng trống dài trước ký hiệu dạng `Số:              /QĐ-TCS3` để điền tay sau, **TUYỆT ĐỐI KHÔNG dùng mã tạm `DU_THAO-TRINH-KY` trên văn bản xuất**. Ngày tháng năm ban hành dự thảo để trống toàn bộ cả ngày, tháng và năm `Trấn Biên, ngày       tháng       năm      ` (không giữ năm 2026). Khi QĐKT/QĐGS đã có số và ngày ban hành chính thức thì giữ nguyên, không ghi đè lại số/ngày. Căn cứ QĐ 1377/QĐ-CT chốt thống nhất năm 2025 (ngày 30/06/2025).
 2. `chay_vu.py status`. In `chua chay` → mở `chay.bat` nền, gọi lại `status` đến `dang chay`. Giữ cổng **8000**.
 3. Đảm bảo vụ đã có trên app (import Excel mẫu app hoặc nhập tay). Cùng MST + số quyết định = cập nhật vụ cũ.
 4. Xuất nhóm DI hồ sơ đi khi user yêu cầu hồ sơ đi / trình ký:

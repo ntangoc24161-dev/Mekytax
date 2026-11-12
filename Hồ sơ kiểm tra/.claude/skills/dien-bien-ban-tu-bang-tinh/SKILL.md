@@ -65,7 +65,7 @@ Chi tiết cấu trúc từng năm BBXN/BBKT: `references/cau-truc-bbxn-bbkt.md`
    - `QD Kiem tra tai cty <Ten>.docx`
    - `QDgiam sat tai cty <Ten>.docx`
 3. Khớp nội dung + format với khối tương ứng trong TONG HOP (Điều, thụt 1 cm, gạch VML QĐKT canh giữa, QĐGS căn cứ nghiêng, Điều 4 đậm). Mỗi file QĐ gọn **1 trang A4**.
-4. Ngày tháng trên header QĐ để trống dạng `..., ngày .... tháng .... năm ....` nếu chưa ban hành / đang trình ký; có số QĐ thật thì điền số, vẫn để trống ngày trên QĐ nếu user yêu cầu.
+4. Ngày tháng trên header QĐ khi dự thảo để trống toàn bộ ngày, tháng và năm dạng `Trấn Biên, ngày       tháng       năm      ` (không giữ năm 2026 cố định). Ký hiệu để khoảng trống dài `Số:              /QĐ-TCS3` (tuyệt đối không dùng mã tạm `DU_THAO-TRINH-KY`). Khi QĐKT/QĐGS đã có số và ngày ban hành chính thức thì giữ nguyên, không cập nhật hay ghi đè lại số/ngày ở các lần xử lý sau.
 5. QĐ XPHC và QĐ thu hồi hoàn: cập nhật tiền theo sổ (truy thu, thu hồi hoàn, chậm nộp, phạt). QĐ thu hồi hoàn điền số tài khoản và tên ngân hàng của DN nếu hồ sơ/sổ đã có; thiếu thì để trống và hỏi.
 6. Có thể dùng `scripts/xuat_ho_so_tron_goi.py` hoặc script đồng bộ QĐ của vụ; sau khi chạy phải **đối chiếu lại** với TONG HOP vừa canh tay (tránh lệch giờ file như vụ VPT).
 
@@ -88,9 +88,9 @@ Không tự bịa ngày. Thiếu mốc thì hỏi hoặc ghi chỗ trống theo 
 
 Điền số xong **chưa phải là xong**: vụ lập từ phôi khác (GT giải thể, hoàn thuế) thường chưa có các chuẩn của `ho-so-kiem-tra-ke-hoach`. Rà đúng 4 việc này trên TONG HOP + từng file QĐ/tờ trình riêng:
 
-1. **Khoảng ký 5 dòng**: giữa dòng chức danh cuối và dòng tên phải có đúng 5 đoạn trống (tờ trình, báo cáo kết quả, phân công, đề nghị ý kiến pháp lý, bàn giao, tờ trình hoàn). Quét bằng script: đi từ dòng tên ngược lên, đếm đoạn trống liền trước.
-2. **Chống rớt trang**: sau khi tăng dòng phải mở Word, `Repaginate`, so `Information(3)` của dòng chức danh và dòng tên. Rớt trang thì giảm 5 -> 4 -> 3; vẫn rớt thì giữ 5 dòng và set `keep_with_next` cho dòng chức danh + các dòng trống để Word đẩy trọn khối sang trang sau.
-3. **Quyết định**: `Số` thẳng dưới chữ `sở`; `Trấn Biên, ngày       tháng       năm 2026` (bỏ trống ngày tháng, **giữ năm**, canh giữa ô); các `Điều 1, 2, 3...` đậm.
+1. **Khoảng ký 5 dòng**: giữa dòng chức danh cuối và dòng tên phải cách nhau mặc định đúng 5 dòng (5 đoạn trống) trong cùng 1 ô (tờ trình, báo cáo kết quả, phân công, đề nghị ý kiến pháp lý, bàn giao, tờ trình hoàn, quyết định). Quét bằng script: đi từ dòng tên ngược lên, đếm đoạn trống liền trước.
+2. **Chống rớt trang**: sau khi tăng dòng phải kiểm tra hiển thị. Nếu rớt sang trang mới thì tự động giảm xuống **4 dòng** (chuẩn NĐ 30/2020) để gói gọn trong trang in.
+3. **Quyết định**: `Số` thẳng dưới chữ `sở`; ký hiệu để khoảng trống dài `Số:              /QĐ-TCS3` (cấm dùng mã tạm); `Trấn Biên, ngày       tháng       năm      ` (bỏ trống toàn bộ ngày, tháng và năm, không giữ năm 2026 cố định, canh giữa ô); các `Điều 1, 2, 3...` đậm. Căn cứ QĐ 1377/QĐ-CT chốt thống nhất năm 2025 (ngày 30/06/2025). Sau khi đã ban hành: không ghi đè lại số/ngày.
 4. **Đếm lại trang thật** rồi điền đoạn kết từng biên bản (số trang đổi mỗi khi thêm/bớt dòng ký).
 5. **Đặc thù hồ sơ kiểm tra giải thể trên nền kế hoạch (vụ giải thể)**:
    - **Mục III Nghĩa vụ NSNN**: Bắt buộc phải điền đủ số liệu các năm trong thời kỳ kiểm tra (số phát sinh phải nộp suy ra từ kết luận 1.2 và 1.5: `(3)=0`, `(6)=(4)`, `(7)=(3)+(4)+(5)-(6)`), không được để trống hay dùng gạch ngang như phôi kế hoạch thông thường.

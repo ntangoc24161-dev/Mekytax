@@ -31,3 +31,4 @@
 - [Danh sách tài khoản Google Drive liên kết qua Composio](facts/tai-khoan-google-drive-lien-ket-composio.md) - Composio liên kết 4 alias Google Drive gồm cungcapthongtin.tcs3tdn@gmail.com (mặc định) và ntangoc2416.1@gmail.com.
 - [Nhu cầu sử dụng song song hai tài khoản Antigravity CLI](facts/user-nhu-cau-dung-hai-tai-khoan-antigravity-cli.md) - Người dùng muốn thêm và sử dụng song song 2 tài khoản Antigravity CLI trên hệ thống.
 - [Cả 10 brain trong hệ thống đều trang bị 3 skill OCR PaddleOCR](facts/dong-bo-3-skill-ocr-cho-tat-ca-10-brain.md) - Cả 10 brain (bao gồm CÔNG TÁC ĐẢNG) đều đã được đồng bộ đầy đủ 3 skill paddleocr, pdf-sang-md và tram-tai-lieu.
+- [Repo GitHub Mekytax dùng để đồng bộ 2 chiều các brain giữa laptop và VPS](facts/github-tai-khoan-repo-mekytax.md) - Repo ntangoc24161-dev/Mekytax là kho đồng bộ 2 chiều brain giữa laptop Windows và VPS Javis; push đã thông từ 11/11/2026.

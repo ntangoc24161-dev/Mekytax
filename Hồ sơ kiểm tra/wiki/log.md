@@ -190,3 +190,12 @@ Liên quan: [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]], [[Qu
 - Tài liệu nghiệp vụ tham chiếu trong `references/`: danh mục 22 văn bản, nghiệp vụ Mục III NSNN & hoàn bù trừ NĐ 181/2025, nền tảng pháp lý và căn cứ giải thể.
 - Đồng bộ đệ quy toàn bộ skill sang `.claude/skills/ho-so-kiem-tra-giai-the/`.
 Liên quan: [[Quy trình lập hồ sơ kiểm tra thuế đối với doanh nghiệp giải thể]], [[Hồ sơ đề xuất hoàn thuế kiêm bù trừ thu ngân sách đối với doanh nghiệp giải thể]], [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]]
+
+## [2026-11-11] update | Chuẩn hóa khoảng cách chữ ký 5 dòng, bỏ năm dự thảo QĐ và đóng gói cập nhật skill
+
+Đã rà soát và đóng gói toàn bộ thay đổi thể thức trong hội thoại vào hệ thống phôi và skill:
+- **Áp dụng trực tiếp vào phôi TONG HOP** (`templates/TONG HOP CHUAN DINH DANG.docx`, `templates/MAUTONG HOP.docx`, `templates/MAU TONG HOP HO SO DI.docx`, `output/3603859012_HO-SO-VE_son-tien-hai/TONG HOP.docx`): Toàn bộ các ô chữ ký chức danh và họ tên người ký được căn chỉnh mặc định đúng 5 dòng trống (trường hợp tràn trang tự động giảm 4 dòng theo NĐ 30 để khống chế 1 trang in).
+- **Đóng gói cập nhật vào 5 skill**: `ho-so-kiem-tra-ke-hoach`, `soan-thao-van-ban`, `dien-bien-ban-tu-bang-tinh`, `lap-ho-so-kiem-tra`, `ho-so-kiem-tra-giai-the` (đồng bộ sang `.claude/skills/`).
+- **Nội dung chuẩn hóa**: (1) QĐ 1377/QĐ-CT chốt thống nhất năm 2025; (2) Dự thảo QĐ để trống toàn bộ ngày tháng năm `Trấn Biên, ngày       tháng       năm      `; (3) Ký hiệu dự thảo để khoảng trống `Số:              /QĐ-TCS3`, tuyệt đối không dùng mã tạm `DU_THAO-TRINH-KY`; (4) Không cập nhật lại số/ngày khi QĐ đã ban hành; (5) Khoảng cách chữ ký mặc định 5 dòng trong cùng 1 ô, co 4 dòng khi tràn trang; (6) BBXN Trưởng đoàn đánh số TT 1 và 2 cho QLDN và Bán hàng, chuẩn hóa giải trình.
+Liên quan: [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]], [[Kỹ thuật căn chỉnh chữ ký trong ô và chống rớt trang theo Nghị định 30]]
+

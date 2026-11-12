@@ -252,7 +252,7 @@
       "capability": "files",
       "execution_mode": "full",
       "priority": 2,
-      "status": "cancelled",
+      "status": "archived",
       "needs_approval": false,
       "block_kind": "cancelled",
       "block_reason": "worker cancelled",
@@ -267,7 +267,7 @@
       "current_run_id": "",
       "result": "📌 **Đã xác minh độc lập** (đọc lại chuỗi QC bước 2 → 3 → 4 trong `memory/agents/kiem-soat-chat-luong-du-lieu/runs/2026-11-09.md` và `memory/facts/yeu-cau-xu-ly-cv-7268-ho-so-moi.md`): toàn bộ workflow CV 7268 đã bị chặn **từ bước 1 (Thu thập)** — không có 5 file nguồn nào tồn tại trên ổ D, không có folder \"HO SO MOI\". QC bước 2, 3, 4 đều đã kết luận ❌ KHÔNG ĐÁNH GIÁ ĐƯỢC vì không có artifact nào để chấm.\n\n🔍 **KẾT QUẢ KIỂM SOÁT CHẤT LƯỢNG — QC bước 5 (Soạn thảo)**\n\n📋 **Công văn:** CV 7268 (số/đơn vị ban hành/kỳ áp dụng chưa xác nhận)\n⏰ **Thời gian:** 2026-11-09\n\n=== KIỂM TRA SOẠN THẢO ===\n❌ **Không thể kiểm tra — không có công văn dự thảo nào để soát.**\n\nLý do: Nội dung nhận được từ agent `soan-thao-van-ban` không phải một dự thảo công văn, mà là yêu cầu xác nhận dữ liệu đầu vào — đúng, vì chưa từng có bước OCR/bóc tách/nạp sổ/đối chiếu nào hoàn tất cho CV 7268. 4 hạng mục kiểm tra soạn thảo (khớp F0/F1, trích dẫn luật, không bịa số, format NĐ 30) đều **không có gì để đối chiếu** — sổ F0/F1 chưa có dòng nào của CV 7268, Bảng 2.1–2.3 chưa tồn tại.\n\nViệc agent soạn thảo dừng lại và hỏi xác nhận là **đúng quy trình**, không phải lỗi soạn thảo.\n\n=== KẾT LUẬN ===\n❌ **KHÔNG PHÊ DUYỆT / KHÔNG ĐÁNH GIÁ ĐƯỢC** — trả về **bước 1 (Thu thập)**, không phải bước 4 hay 5. Yêu cầu còn treo (chưa có ai trả lời qua cả 4 vòng QC):\n\n1. Đường dẫn/nguồn thật của 5 file CV 7268 (Google Drive / iOffice / email / folder local khác tên)\n2. Số CV gốc, đơn vị ban hành, ngày gửi/kỳ áp dụng, MST NNT liên quan\n3. Tên + định dạng cụ thể của 5 file\n\n**Ghi chú quy trình:** 3 lượt QC gần nhất (#1 OCR, #2 bóc tách, #3 đối chiếu, #4 soạn thảo) đều trả về cùng một nguyên nhân gốc chưa được giải quyết. Không cần lặp lại kiểm tra riêng từng bước nữa cho đến khi chủ cung cấp 3 mục trên — một khi có nguồn file, chạy lại toàn chuỗi Thu thập → OCR → Bóc tách → Nạp F0/F1 → Đối chiếu → Soạn thảo rồi QC lại từ đầu.",
       "created_at": 1794159451.4770765,
-      "updated_at": 1794160997.2122238,
+      "updated_at": 1794488347.1852088,
       "not_before": 0.0,
       "lane": "",
       "team_id": "",
@@ -349,6 +349,10 @@
         {
           "ts": "2026-11-09 01:03",
           "msg": "worker cancelled"
+        },
+        {
+          "ts": "2026-11-12 19:59",
+          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
         }
       ]
     },
@@ -429,5 +433,5 @@
       ]
     }
   ],
-  "updated": 1794302089.5157993
+  "updated": 1794488347.1902876
 }

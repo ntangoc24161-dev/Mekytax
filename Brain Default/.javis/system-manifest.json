@@ -98,7 +98,7 @@
     },
     "skills/giai-doan-1-kiem-ke-danh-gia": {
       "hash": "9d91fd456337be41018edfb59312cc78eea892ebf823b7ecc058e8c8b17d45ed",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/giai-doan-2-phan-tich-du-lieu-co-quan-thue": {
       "hash": "fae5807f3e7b472fb89b190d1d1f041499b8afb054e9c84f447a737fa914cb84",
@@ -190,7 +190,7 @@
     },
     "skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md": {
       "hash": "1cf20092464abb6a3db7f2368c5384d59022464b8e4d7d49bd3e4cf327ad125b",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/phan-tich-ho-so-thue/portable/build/PhanTichHoSoThue/Analysis-00.toc": {
       "hash": "08e8aafe92ca7cf68b7571d78920da4d7a61cad9517c10ac2a3d3b8adddc6944",
@@ -3986,7 +3986,7 @@
     },
     "skills/soan-thao-van-ban": {
       "hash": "fcf3347545705e3be39b2889e6ea1782f7036634d2601fd3ef6dd53204a85772",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/security-audit": {
       "hash": "708970b763f6293f7c797cb7a1b7a4e392dfde8fb0f90ba790120ad7bcd64859",
@@ -4074,5 +4074,5 @@
     }
   },
   "app_version": "0.510.1",
-  "synced_at": "2026-11-11T09:50:05+07:00"
+  "synced_at": "2026-11-11T14:15:58+07:00"
 }

@@ -90,7 +90,7 @@
     },
     "skills/doi-chieu-ncc-mua-vao-rui-ro": {
       "hash": "7533211cceacb85abd6121937126713f0aa48d45f748b63d53b832dae886bec1",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/doi-chieu-ncc-mua-vao-rui-ro/playbook-lenh.md": {
       "hash": "e4e269f57bda2d10887ab6eebd9c9ef276022c0ddbff0b0b1f4fbbb5db061b48",
@@ -4074,5 +4074,5 @@
     }
   },
   "app_version": "0.510.1",
-  "synced_at": "2026-11-11T09:51:20+07:00"
+  "synced_at": "2026-11-11T14:16:44+07:00"
 }

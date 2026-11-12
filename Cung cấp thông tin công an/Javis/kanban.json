@@ -207,7 +207,7 @@
       "capability": "auto",
       "execution_mode": "full",
       "priority": 2,
-      "status": "cancelled",
+      "status": "archived",
       "needs_approval": false,
       "block_kind": "cancelled",
       "block_reason": "worker cancelled",
@@ -222,7 +222,7 @@
       "current_run_id": "",
       "result": "",
       "created_at": 1794213296.103969,
-      "updated_at": 1794215761.1651576,
+      "updated_at": 1794488346.526155,
       "not_before": 0.0,
       "lane": "",
       "team_id": "",
@@ -250,6 +250,10 @@
         {
           "ts": "2026-11-09 16:16",
           "msg": "worker cancelled"
+        },
+        {
+          "ts": "2026-11-12 19:59",
+          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
         }
       ]
     },
@@ -262,7 +266,7 @@
       "capability": "files",
       "execution_mode": "full",
       "priority": 2,
-      "status": "done",
+      "status": "archived",
       "needs_approval": false,
       "block_kind": "",
       "block_reason": "",
@@ -277,7 +281,7 @@
       "current_run_id": "",
       "result": "Tôi bắt đầu từ bộ nhớ, skill quản lý hồ sơ và hiện trạng thư mục năm 2026, rồi mới lưu trữ PDF, tạo dự thảo KT1 và rà soát hậu tố `-R`.Đang đối chiếu nhật ký hôm nay, thư mục `CV MOI` và sổ Excel để biết hồ sơ nào còn chờ lưu trữ.Thư mục `CV MOI` trên listing trống. Tôi quét ổ Drive, sổ Excel và nhật ký bước 1 hôm nay để biết hồ sơ nào còn cần lưu.Bước 1 và 3 đã xong. Tôi kiểm tra thư mục 283-285, PDF gốc, dự thảo KT1 và các bản ký số chờ gắn `-R`.PDF 283-285 đã vào thư mục. Tôi quét toàn bộ năm 2026 để tìm bản trả lời đã ký số chưa gắn `-R`, rồi đối chiếu sổ.Quét đã lẫn công văn đến. Tôi lọc đúng file `TRA LOI` đã ký số, rồi đối chiếu sổ Excel cho 283-285.Tôi đọc sổ Excel bằng COM (giữ biểu đồ), trích số/ngày công văn trả lời 12258, rồi gắn `-R` cho thư mục đã ký số.Sổ đã ghi 12258 và 30323 là hoàn thành. Tôi lấy số/ngày công văn trả lời rồi đổi tên thư mục thêm `-R`.Thư mục đã gắn `-R`. Tôi đọc bản scan 12258 xem còn số/ngày văn thư để ghi sổ không.**Bước 4 đã xong.** CV MOI trống. 3 công văn ngày 09/11 đã vào thư mục năm 2026. Hồ sơ KT1 4325 có đủ 2 file dự thảo. Quét ký số xong: gắn `-R` cho 2 thư mục, không còn file `TRA LOI` đã ký số nằm ngoài hậu tố `-R`.\n\n### Lưu trữ PDF (STT 283-285)\n\n| Folder | Công văn | PDF gốc | Tổ KT |\n|---|---|---|---|\n| **283** | 21143/YC-CSKT (CA Hưng Yên) | `21143YC-CSKT.pdf` | `[CHƯA XÁC ĐỊNH]` |\n| **284** | 4325/ANĐT-Đ1 (CA Bắc Ninh) | `4325ANDT-D1.pdf` | **KT1** (2 DN) |\n| **285** | 1647/CSKT-Đ3 (CA Đồng Nai) | `CamScanner 9-11-26 10.28.pdf` | KT2 |\n\nSổ `NHAP_HO_SO` hàng 851-854: cột Q = 09/11/2026, trạng thái **Mới**. Hạn: 21143 = 15/11; 4325 = 20/11; 1647 không ghi hạn.\n\n### Dự thảo KT1\n\nCV **4325** đã có đủ bộ trong `284. CV 4325-CA BAC NINH-KT1`:\n\n- `TRA LOI CV 4325_CA BAC NINH_du thao.docx`\n- `to trinh 4325.docx`\n\nCV 1647 (KT2) cũng đã có dự thảo sẵn. CV 21143 không soạn vì Tổ KT còn `[CHƯA XÁC ĐỊNH]`.\n\n### Đồng bộ `-R`\n\nQuét 246 thư mục năm 2026. Chỉ gắn `-R` khi có file **TRA LOI đã ký số**, không lấy công văn đến của Công an (`.signed.pdf`) hay công văn phối hợp QLDN.\n\n| Thư mục gốc | Thư mục mới | Tệp ký số |\n|---|---|---|\n| `228. CV 12258- CA BAC NINH-DANG TRINH` | `228. CV 12258- CA BAC NINH-DANG TRINH-R` | `TRA LOI CV 12258_CA BAC NINH.signed.signed.pdf` |\n| `13. CV 30323-CA DONG NAI-DA LAM CV-ROI` | `13. CV 30323-CA DONG NAI-DA LAM CV-ROI-R` | `TRA LOI CV 495...signed.signed.pdf` |\n\nSau đổi tên: **147** thư mục đã có hậu tố R (kể cả `_R` / `- R`). **0** file TRA LOI ký số còn nằm ngoài `-R`. Tệp trong 2 thư mục mở bình thường.\n\nSổ 12258 và 30323 đã **Đã hoàn thành**. Cột W/X (số/ngày CV trả lời) của 12258 còn trống vì bản ký số chưa điền số văn thư. Không bịa số.\n\nKhông xuất bảng 24 cột vì chưa có yêu cầu.\n\n### Tồn đọng đưa sang cổng kiểm soát\n\n- **21143** (folder 283): cá nhân Đỗ Thị Dung, hạn **15/11/2026**, chưa xác định Tổ KT.\n- **4325** (folder 284): 2 DN KT1 chưa có CBQL nên chưa in phân công.\n- Sổ ghi folder **282** cho CV 12083, trên Drive là `278. CV 12083-CA TP. HCM-KT1-R`. Không có thư mục 282.\n\nViệc cần chủ chốt: tên CBQL Hố Nai / Long Bình cho 2 MST 3604070950 và 3604107784, và cách xử lý cá nhân Đỗ Thị Dung (CCCD 031181014465) trước hạn 15/11.",
       "created_at": 1794217036.7372656,
-      "updated_at": 1794219923.3915708,
+      "updated_at": 1794488346.526155,
       "not_before": 0.0,
       "lane": "",
       "team_id": "",
@@ -329,9 +333,13 @@
         {
           "ts": "2026-11-09 17:25",
           "msg": "done"
+        },
+        {
+          "ts": "2026-11-12 19:59",
+          "msg": "done -> archived: đã kết thúc quá 3 ngày"
         }
       ]
     }
   ],
-  "updated": 1794219923.4912431
+  "updated": 1794488347.1827512
 }

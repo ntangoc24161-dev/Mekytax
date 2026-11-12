@@ -2,10 +2,10 @@
   "van-thu-dieu-phoi-don-doc": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794366083.3448262,
-    "last_summary": "Đã hoàn thành kiểm tra 2 sổ theo dõi tại Phòng Văn Thư lúc **10:01 Thứ Tư ngày 11/11/2026**:\n\n- [06 - Văn thư/so-van-ban-den.md](06%20-%20V%C4%83n%20th%C6%B0/so-van-ban-den.md): Bảng rỗng (không phát sinh văn bản mới ở trạng thái `Mới`, không có văn bản quá hạn).\n- [06 - Văn thư/so-van-ban-di.md](06%20-%20V%C4%83n%20th%C6%B0/so-van-ban-di.md): Bảng rỗng (không có văn bản dự thảo bị tồn đọng ở khâu kiểm thể thức hay trình ký).\n\nCả hai bảng sổ hiện đều rỗng, không có thay đổi cần cập nhật hay đôn đốc. Theo đúng quy chế trực sổ của Phòng Văn Thư, vòng trực kết thúc và không phát sinh chỉnh sửa file.",
-    "last_status": "ok",
-    "runs_today": 2,
+    "last_run": 1794381467.4596334,
+    "last_summary": "Đã hoàn thành kiểm tra 2 sổ theo dõi tại Phòng Văn Thư lúc **14:17 Thứ Tư ngày 11/11/2026**:\n\n- [06 - Văn thư/so-van-ban-den.md](06%20-%20V%C4%83n%20th%C6%B0/so-van-ban-den.md): Bảng rỗng (không phát sinh văn bản mới ở trạng thái `Mới`, không có văn bản quá hạn).\n- [06 - Văn thư/so-van-ban-di.md](06%20-%20V%C4%83n%20th%C6%B0/so-van-ban-di.md): Bảng rỗng (không có văn bản dự thảo bị tồn đọng ở khâu kiểm thể thức hay trình ký).\n\nCả hai bảng sổ hiện đều rỗng, không có thay đổi cần cập nhật hay đôn đốc. Theo đúng quy chế trực sổ của Phòng Văn Thư, vòng trực kết thúc và không phát sinh chỉnh sửa file.",
+    "last_status": "✓ Đạt: Thực tế cả hai sổ văn bản đến và đi đều là bảng rỗng, kết quả kiểm tra phản ánh chính xác hiện trạng file, không bịa đặt hay gây lỗi.",
+    "runs_today": 3,
     "day": "2026-11-11"
   }
 }
