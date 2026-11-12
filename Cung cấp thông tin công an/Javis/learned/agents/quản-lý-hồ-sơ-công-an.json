@@ -6,7 +6,7 @@
  "kind": "agent",
  "lessons": [
   {
-   "created_at": 1794156526.1602015,
+   "created_at": 1793851684.4969623,
    "kind": "method",
    "revoke_reason": "",
    "revoked_at": null,
@@ -14,10 +14,10 @@
    "scope": "dm",
    "source": "self",
    "status": "active",
-   "text": "File TRA LOI đã ký số phải khớp số CV trên tên file với thư mục STT trước khi chuyển; PDF 6570/7268 lẫn vào folder 7267 là lỗi Cổng 4."
+   "text": "Drive hồ sơ CA qua Composio dùng account `googledrive_ralph-urbane` (mail cungcapthongtin.tcs3tdn@gmail.com); luôn chỉ rõ account vì mặc định có thể là mail khác."
   }
  ],
  "presentation": [],
- "updated": "2026-11-08T16:51:00Z",
+ "updated": "2026-11-10T18:52:40Z",
  "version": 1
 }

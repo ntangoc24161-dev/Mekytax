@@ -2,10 +2,10 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794304598.2625344,
-    "last_summary": "Hôm nay (10/11/2026) không có công văn Công an mới, nên vòng này dừng ở bước quét đầu tiên.\n\n- **Đã làm:** Quét thư mục `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`. Mình truy cập được thư mục bình thường. Trong đó chỉ có file hệ thống ẩn `desktop.ini`, không có file PDF hay Word công văn nào.\n- **Chưa chạy:** Hai workflow \"Quản lý công văn công an\" và \"Theo dõi & cập nhật CV trả lời đã ký\" không được kích hoạt, vì không có công văn nào để xử lý.\n- **File đã chạm:** Chỉ đọc danh sách file trong thư mục CV MOI. Không sửa gì trong sổ `Bao_cao_cong_van.xlsx` hay bất kỳ file nào khác.\n\nKết quả này giống các vòng ngày 06/11 và 08/11. Vòng sau sẽ quét lại lúc 12:00 như lịch.",
-    "last_status": "✓ Đạt: Mình kiểm tra lại độc lập thư mục CV MOI, kể cả các thư mục con: chỉ có desktop.ini, không có công văn PDF hay Word nào. Vì vậy dừng ở bước quét và không chạy workflow là đúng phạm vi. Báo cáo không bịa và cũng không có dấu hiệu sửa file nào.",
-    "runs_today": 1,
-    "day": "2026-11-10"
+    "last_run": 1794383134.8441517,
+    "last_summary": "Vấn đề đã xác định rõ. Mọi lệnh gọi MCP javis đều bị hub định tuyến sang brain **VĂN THƯ** thay vì brain **Cung cấp thông tin công an**, do loop chạy từ Claude Code không kèm header `X-Javis-Vault`.\n\n**Nguyên nhân:** Loop này chạy trên server dưới dạng background job. Khi gọi MCP hub, không có header định danh brain nên hub lấy brain đang mở trên dashboard (VĂN THƯ).\n\n**Hậu quả:** Không thể đọc thư mục CV MOI, không đọc được `Bao_cao_cong_van.xlsx`, không xử lý công văn nào trong vòng này.\n\n**Cách khắc phục (cần người dùng thực hiện):**\n\n1. **Trên dashboard:** Mở brain **Cung cấp thông tin công an** (đảm bảo đây là brain đang hoạt động) trước khi loop chạy.\n\n2. **Hoặc cấu hình MCP client:** Thêm header `X-Javis-Vault: Cung cấp thông tin công an` vào cấu hình MCP của Claude Code để loop luôn trỏ đúng brain.\n\n3. **Chạy thủ công từ chat:** Nhắn vào chat của brain \"Cung cấp thông tin công an\" để kích hoạt quy trình - khi đó brain context đúng và tất cả file sẽ truy cập được.\n\nVòng loop này",
+    "last_status": "✓ Đạt: Chẩn đoán đúng hoàn toàn: gọi mcp__javis__javis_list_dir xác nhận hub trả về brain VĂN THƯ, không phải Cung cấp thông tin công an. Thư mục ho-so-cv-moi-2026-10/ tồn tại trên filesystem cục bộ nhưng không truy cập được qua MCP vì sai brain context. Không có file nào bị sửa/xóa. Loop đã dừng đúng chỗ, không vượt phạm vi.",
+    "runs_today": 3,
+    "day": "2026-11-11"
   }
 }

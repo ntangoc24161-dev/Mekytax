@@ -1,0 +1,34 @@
+{
+ "agent": {
+  "slug": "soan-thao-tra-loi-cong-an"
+ },
+ "judge": {},
+ "kind": "agent",
+ "lessons": [
+  {
+   "created_at": 1793592303.9548876,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Khi hỏi về thư mục hồ sơ (kể cả CV đã có dự thảo), phải tra thư mục trên Google Drive, không dừng ở thư mục local, vì thư mục 249 chỉ tồn tại trên Drive."
+  },
+  {
+   "created_at": 1793592931.1687276,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Ghi đè file docx trên Drive: tải file gốc vào sandbox bằng GOOGLEDRIVE_DOWNLOAD_FILE, dựng lại bằng python-docx trong sandbox, kiểm tra mã băm với bản local, rồi upload_local_file và GOOGLEDRIVE_UPLOAD_UPDATE_FILE. Không nhúng base64 của file vào lệnh gọi."
+  }
+ ],
+ "presentation": [],
+ "updated": "2026-11-10T18:52:40Z",
+ "version": 1
+}

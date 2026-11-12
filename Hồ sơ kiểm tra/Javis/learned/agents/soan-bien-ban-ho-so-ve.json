@@ -1,0 +1,133 @@
+{
+ "agent": {
+  "slug": "soan-bien-ban-ho-so-ve"
+ },
+ "judge": {},
+ "kind": "agent",
+ "lessons": [
+  {
+   "created_at": 1793248422.0950994,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Phôi TONG HOP của vụ mới có thể là bản clone y nguyên của vụ trước (Sơn Tiền Hải clone Thúy Hồng), phải quét sạch số liệu, CCCD, ngành nghề, loại hình và khung năm của vụ cũ trước khi điền."
+  },
+  {
+   "created_at": 1793248422.1013677,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Text trong docx có thể ở dạng Unicode tổ hợp nên so chuỗi tiếng Việt trực tiếp bị trượt, phải normalize NFC khi tìm và thay."
+  },
+  {
+   "created_at": 1793250816.6970768,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Trước khi chốt số phải tải lại bản Drive của Bảng tính, chủ có thể đã tự sửa ngày lập BBKT và tính lại trước khi mình chạy."
+  },
+  {
+   "created_at": 1793250816.7026544,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Composio Drive upload từ chối đường dẫn file local, chỉ nhận s3key trong kho file của nó, nên không hứa đẩy đè bản Drive."
+  },
+  {
+   "created_at": 1793260608.753949,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "File chủ đính kèm có thể là bản phôi cũ hơn bản đã làm trong vault, phải diff với bản vault trước khi coi là bản mới và tuyệt đối không ghi đè ngược."
+  },
+  {
+   "created_at": 1793282564.7405918,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Không chép được khối base64 dài nguyên văn qua tool call, nên đường đẩy file nhị phân bằng base64 qua sandbox Composio là bất khả, phải xin API key để curl trực tiếp."
+  },
+  {
+   "created_at": 1793282564.7490344,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Thư mục vụ Sơn Tiền Hải nằm ở tài khoản Drive ntangoc2416.1@gmail.com (account googledrive_amala-ensign), không phải tài khoản mặc định cungcapthongtin.tcs3tdn."
+  },
+  {
+   "created_at": 1793850901.9983456,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "GOOGLEDRIVE_DOWNLOAD_FILE trả về s3url tải được bằng curl ngay trên máy vault, nên đọc và tải bản Drive thì thông, chỉ chiều ghi lên Drive là tắc."
+  },
+  {
+   "created_at": 1793850902.042866,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Sổ Danh sach kiem tra quyet toan pro.xlsm nằm ở Drive thư mục id 1ZRYw7yEU3Iba43rU_2ibhaFBQ_6V5OH4, Tâm Hoàng Phát là dòng 14 sheet 01_DA_BAN_HANH, cột AN đến AY là khối kết quả tài chính."
+  },
+  {
+   "created_at": 1793852550.4308453,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Chủ lưu đè sổ từ Excel sẽ xóa mất ô mình vừa sửa, nên mỗi lần được gọi lại phải tải bản Drive mới nhất và áp lại thay vì tin bản vault."
+  },
+  {
+   "created_at": 1793852550.437024,
+   "kind": "method",
+   "revoke_reason": "",
+   "revoked_at": null,
+   "revoked_by": "",
+   "scope": "dm",
+   "source": "self",
+   "status": "active",
+   "text": "Sổ Danh sach kiem tra quyet toan pro.xlsm có cột D là MST và E là tên NNT, dùng cặp này để xác định đúng dòng vụ."
+  }
+ ],
+ "presentation": [],
+ "updated": "2026-11-10T18:52:40Z",
+ "version": 1
+}
