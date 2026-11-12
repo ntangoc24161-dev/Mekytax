@@ -280,7 +280,7 @@ def render_di03(doc, data=DATA):
     
     add_p(doc, "Căn cứ Luật Quản lý thuế số 108/2025/QH15 ngày 10 tháng 12 năm 2025 và các văn bản hướng dẫn thi hành;", align=WD_ALIGN_PARAGRAPH.JUSTIFY, space_before=0, space_after=3, italic=True, size_pt=13)
     add_p(doc, "Căn cứ các Luật thuế và các văn bản hướng dẫn thi hành;", align=WD_ALIGN_PARAGRAPH.JUSTIFY, space_before=0, space_after=3, italic=True, size_pt=13)
-    add_p(doc, "Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2026 của Cục trưởng Cục Thuế quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sổ thuộc Thuế tỉnh, thành phố;", align=WD_ALIGN_PARAGRAPH.JUSTIFY, space_before=0, space_after=3, italic=True, size_pt=13)
+    add_p(doc, "Căn cứ Quyết định số 1377/QĐ-CT ngày 30/06/2025 của Cục trưởng Cục Thuế quy định chức năng, nhiệm vụ, quyền hạn của Thuế cơ sổ thuộc Thuế tỉnh, thành phố;", align=WD_ALIGN_PARAGRAPH.JUSTIFY, space_before=0, space_after=3, italic=True, size_pt=13)
     add_p(doc, "Căn cứ Quyết định số 3737/QĐ-CT ngày 31/12/2025 của Cục trưởng Cục Thuế quy định mô hình tổ chức quản lý thuế của Thuế cơ sở;", align=WD_ALIGN_PARAGRAPH.JUSTIFY, space_before=0, space_after=3, italic=True, size_pt=13)
     add_p(doc, "Căn cứ Quyết định số 1412/QĐ-DON ngày 06/05/2026 của Trưởng Thuế Thành phố Đồng Nai về việc phê duyệt kế hoạch kiểm tra tại trụ sở người nộp thuế năm 2026 của các Thuế cơ sở thuộc Thuế tỉnh Đồng Nai;", align=WD_ALIGN_PARAGRAPH.JUSTIFY, space_before=0, space_after=3, italic=True, size_pt=13)
     add_p(doc, "Căn cứ Quyết định số 2618/QĐ-TCS3 ngày 20/05/2026 của Trưởng Thuế Cơ sở 3 Thành phố Đồng Nai về việc giao quyền ra Quyết định Kiểm tra thuế tại trụ sở của người nộp thuế;", align=WD_ALIGN_PARAGRAPH.JUSTIFY, space_before=0, space_after=3, italic=True, size_pt=13)

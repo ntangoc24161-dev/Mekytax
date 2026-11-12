@@ -5,7 +5,7 @@
   "tasks": [
     {
       "id": "t_cc3f211a25e2",
-      "brain_root": "/brains/Cập nhật công văn cảnh báo",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
       "title": "Bóc tách công văn cảnh báo Ưu tiên 1 và 2",
       "intent": "Bóc tách thông tin công văn cảnh báo (bên bán, bên mua, thông tin công văn) từ 57 file scan tháng 08/2026 và các file số hóa tháng 07/2026, 06/2026, thực hiện đối soát chống trùng lặp theo số công văn và cặp bên bán - bên mua, sau đó nạp dữ liệu mới vào sheet THEO_DOI của file Excel Sổ theo dõi công văn cảnh báo rủi ro thuế.",
       "route": "auto",
@@ -19,16 +19,16 @@
       "created_by": "chat",
       "chat_id": "web:2fffc81f35a9420db2c134320d9f1bcb",
       "idempotency_key": "",
-      "attempts": 0,
+      "attempts": 1,
       "max_attempts": 3,
       "claimed_by": "",
       "claim_expires_at": 0.0,
-      "not_before": 0.0,
-      "last_heartbeat_at": 0.0,
+      "last_heartbeat_at": 1790393469.1809988,
       "current_run_id": "",
       "result": "Tôi đã kích hoạt lệnh kiểm tra OCR trực tiếp trên tệp `[2069_AGI-QLDN1] 2069AGI-QLDN1 12044.pdf` và đang đợi kết quả phản hồi từ tiến trình.\nTôi đang thực hiện kiểm tra trích xuất dữ liệu của tệp scan bằng hàm xử lý `process_single_scan_pdf` trong nền để đối soát tính ổn định. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy phân tích OCR các dòng văn bản của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy OCR trang 2 của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy OCR nửa dưới trang 1 của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang thực hiện kiểm tra trích xuất MST từ toàn trang 1 của tệp 22 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra chi tiết các dòng văn bản có chứa từ khóa thuế/mã số trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra nhận diện MST trên phần dưới trang 1 của tệp trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang chạy thử nghiệm phương pháp OCR thích ứng (adaptive crop) trên tệp scan trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra trích xuất tên NNT trên phần nội dung trang 1 trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.\nĐang kiểm tra hàm trích xuất thích ứng (adaptive OCR) trong nền. Tôi sẽ tiếp tục ngay khi có kết quả.",
       "created_at": 1790392554.368512,
       "updated_at": 1790694653.875764,
+      "not_before": 0.0,
       "lane": "",
       "team_id": "",
       "team_seq": 0,
@@ -40,19 +40,133 @@
       "acceptance_ready": 0,
       "acceptance_revision": 0,
       "acceptance_contract_version": 0,
-      "metadata": {},
+      "metadata": {
+        "route": "auto",
+        "capability": "files",
+        "execution_mode": "full",
+        "tool_calls": [
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "view_file",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "run_command",
+          "view_file",
+          "view_file",
+          "view_file",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "run_command",
+          "run_command",
+          "view_file",
+          "run_command",
+          "view_file",
+          "view_file",
+          "view_file",
+          "view_file",
+          "view_file",
+          "run_command",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "view_file",
+          "run_command",
+          "view_file",
+          "view_file",
+          "view_file",
+          "run_command",
+          "view_file",
+          "view_file",
+          "view_file",
+          "view_file",
+          "view_file",
+          "run_command",
+          "view_file",
+          "view_file",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "run_command",
+          "view_file",
+          "view_file",
+          "view_file",
+          "run_command"
+        ],
+        "provider": "antigravity-cli"
+      },
       "artifacts": [],
       "deps": [],
       "log": [
         {
-          "ts": "2026-10-05 14:10",
+          "ts": "2026-09-26 10:15",
           "msg": "created by chat"
+        },
+        {
+          "ts": "2026-09-26 10:15",
+          "msg": "claimed by worker:16744:a1fc591c"
+        },
+        {
+          "ts": "2026-09-26 10:16",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-09-26 10:16",
+          "msg": "claimed by worker:16744:9a24dcd7"
+        },
+        {
+          "ts": "2026-09-26 10:31",
+          "msg": "done"
+        },
+        {
+          "ts": "2026-09-29 22:10",
+          "msg": "done -> archived: đã kết thúc quá 3 ngày"
         }
       ]
     },
     {
       "id": "t_50db6f95c23a",
-      "brain_root": "/brains/Cập nhật công văn cảnh báo",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
       "title": "Thu thập thêm 10 đề mới kíp P3-39917 (Đề 41 - Đề 50)",
       "intent": "Thu thập và giải cuốn chiếu 10 đề thi trắc nghiệm mới (Đề 41 đến Đề 50) kíp P3-39917 trên cổng taxedu, kiểm tra chống trùng với 40 đề đã có, thẩm định đủ 90 câu mỗi đề và xuất kết quả ra từng file Excel riêng lẻ.",
       "route": "auto",
@@ -66,16 +180,16 @@
       "created_by": "chat",
       "chat_id": "web:4bf6a2a0014c4e19a6e4100903b51876",
       "idempotency_key": "",
-      "attempts": 0,
+      "attempts": 1,
       "max_attempts": 3,
       "claimed_by": "",
       "claim_expires_at": 0.0,
-      "not_before": 0.0,
-      "last_heartbeat_at": 0.0,
+      "last_heartbeat_at": 1790404519.8589401,
       "current_run_id": "",
       "result": "[[NEEDS_INPUT]]\nKíp thi P3-39917 trên cổng taxedu (`api-e3.khaothi.online`) chỉ có quy mô cố định tối đa đúng **40 mẫu đề thi** (toàn bộ 40 đề này đã được thu thập, thẩm định đủ 90 câu/đề và lưu trữ tại `D:\\HOC TAP\\ON THI 2026.09\\40 DE THI\\`). Qua đối soát thực nghiệm liên tục trên 340+ phiên thi mới phát sinh từ máy chủ, 100% các phiên thi đều quay vòng trùng khớp với 40 mẫu đề đã có, không tồn tại đề mới thứ 41 đến 50 thuộc kíp P3-39917 để bóc tách. Cần quyết định của anh về việc chuyển sang kíp thi/mã nhóm thi khác hoặc điều chỉnh mục tiêu nghiệp vụ.\n\n_(Lưu ý của Javis: `agy` có thử mở file ngữ cảnh nhưng KHÔNG đọc được (thường là do mức quyền hoặc sandbox chặn), nên lượt vừa rồi trả lời mà chưa có system prompt và bộ nhớ của Javis. Nâng cấp `agy` lên bản nhận prompt qua stdin là hết hẳn đường vòng này.)_",
       "created_at": 1790404237.4289548,
-      "updated_at": 1794339731.2481213,
+      "updated_at": 1793018776.9212155,
+      "not_before": 0.0,
       "lane": "",
       "team_id": "",
       "team_seq": 0,
@@ -87,20 +201,237 @@
       "acceptance_ready": 0,
       "acceptance_revision": 0,
       "acceptance_contract_version": 0,
-      "metadata": {},
+      "metadata": {
+        "acceptance": [
+          "Thu thập đủ 10 đề thi mới từ Đề 41 đến Đề 50 của kíp P3-39917 từ cổng taxedu",
+          "Đối soát và xác nhận toàn bộ 10 đề không bị trùng lặp với 40 đề đã thu thập trước đó",
+          "Xác thực mỗi đề thi có đủ 90 câu hỏi trắc nghiệm kèm lời giải hoàn chỉnh",
+          "Lưu trữ thành công 10 file Excel kết quả riêng lẻ tương ứng với từng đề"
+        ],
+        "specifier": "ai"
+      },
       "artifacts": [],
       "deps": [],
       "log": [
         {
-          "ts": "2026-10-05 14:10",
+          "ts": "2026-09-26 13:30",
           "msg": "created by chat"
         },
         {
-          "ts": "2026-11-10 19:42",
-          "msg": "blocked -> archived: operator archive"
+          "ts": "2026-09-26 13:30",
+          "msg": "claimed by worker:16744:47d95b30"
+        },
+        {
+          "ts": "2026-09-26 13:30",
+          "msg": "capability=research"
+        },
+        {
+          "ts": "2026-09-26 13:30",
+          "msg": "claimed by worker:16744:a5f0d802"
+        },
+        {
+          "ts": "2026-09-26 13:35",
+          "msg": "_(Lưu ý của Javis: `agy` có thử mở file ngữ cảnh nhưng KHÔNG đọc được (thường là do mức quyền hoặc sandbox chặn), nên lượt vừa rồi trả lời mà chưa có system prompt và bộ nhớ của Javis. Nâng cấp `agy` "
+        },
+        {
+          "ts": "2026-10-23 02:06",
+          "msg": "blocked -> cancelled: operator cancel"
+        },
+        {
+          "ts": "2026-10-26 19:46",
+          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
+        }
+      ]
+    },
+    {
+      "id": "t_eaa5d3a95f23",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
+      "title": "CV 7268: Thu thập → OCR → Nạp sổ F0/F1",
+      "intent": "Thu thập CV 7268 từ HO SO MOI trên Google Drive, OCR sang Markdown, trích xuất dữ liệu doanh nghiệp rủi ro nạp vào sheet F0/F1 của Sổ theo dõi Excel và chuẩn hóa sắp xếp file công văn gốc.",
+      "route": "wf:day-chuyen-xu-ly-cv-canh-bao",
+      "capability": "files",
+      "execution_mode": "full",
+      "priority": 2,
+      "status": "archived",
+      "needs_approval": false,
+      "block_kind": "cancelled",
+      "block_reason": "worker cancelled",
+      "created_by": "chat",
+      "chat_id": "web:2607e2eea2cd4bc48c34ac9ad92e68f6",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "last_heartbeat_at": 1794160993.7223375,
+      "current_run_id": "",
+      "result": "📌 **Đã xác minh độc lập** (đọc lại chuỗi QC bước 2 → 3 → 4 trong `memory/agents/kiem-soat-chat-luong-du-lieu/runs/2026-11-09.md` và `memory/facts/yeu-cau-xu-ly-cv-7268-ho-so-moi.md`): toàn bộ workflow CV 7268 đã bị chặn **từ bước 1 (Thu thập)** — không có 5 file nguồn nào tồn tại trên ổ D, không có folder \"HO SO MOI\". QC bước 2, 3, 4 đều đã kết luận ❌ KHÔNG ĐÁNH GIÁ ĐƯỢC vì không có artifact nào để chấm.\n\n🔍 **KẾT QUẢ KIỂM SOÁT CHẤT LƯỢNG — QC bước 5 (Soạn thảo)**\n\n📋 **Công văn:** CV 7268 (số/đơn vị ban hành/kỳ áp dụng chưa xác nhận)\n⏰ **Thời gian:** 2026-11-09\n\n=== KIỂM TRA SOẠN THẢO ===\n❌ **Không thể kiểm tra — không có công văn dự thảo nào để soát.**\n\nLý do: Nội dung nhận được từ agent `soan-thao-van-ban` không phải một dự thảo công văn, mà là yêu cầu xác nhận dữ liệu đầu vào — đúng, vì chưa từng có bước OCR/bóc tách/nạp sổ/đối chiếu nào hoàn tất cho CV 7268. 4 hạng mục kiểm tra soạn thảo (khớp F0/F1, trích dẫn luật, không bịa số, format NĐ 30) đều **không có gì để đối chiếu** — sổ F0/F1 chưa có dòng nào của CV 7268, Bảng 2.1–2.3 chưa tồn tại.\n\nViệc agent soạn thảo dừng lại và hỏi xác nhận là **đúng quy trình**, không phải lỗi soạn thảo.\n\n=== KẾT LUẬN ===\n❌ **KHÔNG PHÊ DUYỆT / KHÔNG ĐÁNH GIÁ ĐƯỢC** — trả về **bước 1 (Thu thập)**, không phải bước 4 hay 5. Yêu cầu còn treo (chưa có ai trả lời qua cả 4 vòng QC):\n\n1. Đường dẫn/nguồn thật của 5 file CV 7268 (Google Drive / iOffice / email / folder local khác tên)\n2. Số CV gốc, đơn vị ban hành, ngày gửi/kỳ áp dụng, MST NNT liên quan\n3. Tên + định dạng cụ thể của 5 file\n\n**Ghi chú quy trình:** 3 lượt QC gần nhất (#1 OCR, #2 bóc tách, #3 đối chiếu, #4 soạn thảo) đều trả về cùng một nguyên nhân gốc chưa được giải quyết. Không cần lặp lại kiểm tra riêng từng bước nữa cho đến khi chủ cung cấp 3 mục trên — một khi có nguồn file, chạy lại toàn chuỗi Thu thập → OCR → Bóc tách → Nạp F0/F1 → Đối chiếu → Soạn thảo rồi QC lại từ đầu.",
+      "created_at": 1794159451.4770765,
+      "updated_at": 1794488347.1852088,
+      "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "File Markdown kết quả OCR của CV 7268 được tạo và kiểm tra cấu trúc/bảng sạch",
+          "Dữ liệu doanh nghiệp rủi ro từ CV 7268 được nạp chính xác vào sheet F0 hoặc F1 trong file SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx (không trùng lặp)",
+          "File PDF gốc được di chuyển ra khỏi HO SO MOI, đổi tên đúng chuẩn Năm_SoCV_CoQuan_SoCongTy vào thư mục lưu trữ quy định",
+          "Báo cáo số dòng đã nạp vào F0/F1, số lỗi QC (nếu có) và đường dẫn file sau khi sắp xếp"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "name": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "key": ""
+        },
+        "route": "wf:day-chuyen-xu-ly-cv-canh-bao",
+        "capability": "files",
+        "run_seconds": 317,
+        "acceptance_from": "done",
+        "qa": [
+          {
+            "kind": "acceptance_fix",
+            "q": "Workflow bị chặn từ bước 1 do không có file nguồn CV 7268 nên chưa tạo file OCR, chưa nạp dữ liệu F0/F1 và chưa sắp xếp lưu trữ file gốc.",
+            "a": "Workflow bị chặn từ bước 1 do không có file nguồn CV 7268 nên chưa tạo file OCR, chưa nạp dữ liệu F0/F1 và chưa sắp xếp lưu trữ file gốc.",
+            "by": "checker",
+            "asked_at": 1794159828.211107,
+            "answered_at": 1794159828.211107,
+            "progress": "📌 **Đã xác minh độc lập** (đọc lại chuỗi QC bước 2 → 3 → 4 trong `memory/agents/kiem-soat-chat-luong-du-lieu/runs/2026-11-09.md` và `memory/facts/yeu-cau-xu-ly-cv-7268-ho-so-moi.md`): toàn bộ workflow CV 7268 đã bị chặn **từ bước 1 (Thu thập)** — không có 5 file nguồn nào tồn tại trên ổ D, không có folder \"HO SO MOI\". QC bước 2, 3, 4 đều đã kết luận ❌ KHÔNG ĐÁNH GIÁ ĐƯỢC vì không có artifact nào để chấm.\n\n🔍 **KẾT QUẢ KIỂM SOÁT CHẤT LƯỢNG — QC bước 5 (Soạn thảo)**\n\n📋 **Công văn:** CV 7268 (số/đơn vị ban hành/kỳ áp dụng chưa xác nhận)\n⏰ **Thời gian:** 2026-11-09\n\n=== KIỂM TRA SOẠN THẢO ===\n❌ **Không thể kiểm tra — không có công văn dự thảo nào để soát.**\n\nLý do: Nội dung nhận được từ agent `soan-thao-van-ban` không phải một dự thảo công văn, mà là yêu cầu xác nhận dữ liệu đầu vào — đúng, vì chưa từng có bước OCR/bóc tách/nạp sổ/đối chiếu nào hoàn tất cho CV 7268. 4 hạng mục kiểm tra soạn thảo (khớp F0/F1, trích dẫn luật, không bịa số, format NĐ 30) đều **không có gì để đối chiếu** — sổ F0/F1 chưa có dòng nào của CV 7268, Bảng 2.1–2.3 chưa tồn tại.\n\nViệc agent soạn thảo dừng lại và hỏi xác nhận là **đúng quy trình**, không phải lỗi soạn thảo.\n\n=== KẾT LUẬN ===\n❌ **KHÔNG PHÊ DUYỆT / KHÔNG ĐÁNH GIÁ ĐƯỢC** — trả về **bước 1 (Thu thập)**, không phải bước 4 hay 5. Yêu cầu còn treo (chưa có ai trả lời qua cả 4 vòng QC):\n\n1. Đường dẫn/nguồn thật của 5 file CV 7268 (Google Drive / iOffice / email / folder local khác tên)\n2. Số CV gốc, đơn vị ban hành, ngày gửi/kỳ áp dụng, MST NNT liên q"
+          }
+        ],
+        "acceptance_fixes": 1
+      },
+      "artifacts": [
+        {
+          "type": "file",
+          "path": "memory/agents/kiem-soat-chat-luong-du-lieu/runs/2026-11-09.md"
+        },
+        {
+          "type": "file",
+          "path": "memory/facts/yeu-cau-xu-ly-cv-7268-ho-so-moi.md"
+        }
+      ],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-09 00:37",
+          "msg": "created by chat"
+        },
+        {
+          "ts": "2026-11-09 00:38",
+          "msg": "claimed by worker:7040:688c2cc0"
+        },
+        {
+          "ts": "2026-11-09 00:38",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-11-09 00:38",
+          "msg": "claimed by worker:7040:bb053609"
+        },
+        {
+          "ts": "2026-11-09 00:43",
+          "msg": "Workflow bị chặn từ bước 1 do không có file nguồn CV 7268 nên chưa tạo file OCR, chưa nạp dữ liệu F0/F1 và chưa sắp xếp lưu trữ file gốc."
+        },
+        {
+          "ts": "2026-11-09 00:43",
+          "msg": "claimed by worker:7040:87ffb783"
+        },
+        {
+          "ts": "2026-11-09 01:03",
+          "msg": "worker cancelled"
+        },
+        {
+          "ts": "2026-11-12 19:59",
+          "msg": "cancelled -> archived: đã kết thúc quá 3 ngày"
+        }
+      ]
+    },
+    {
+      "id": "t_c80c52630a48",
+      "brain_root": "D:\\SECOND BRAIN\\javis-os\\brains\\Cập nhật công văn cảnh báo",
+      "title": "Xu ly 39 ho so cong van canh bao tai HO SO MOI",
+      "intent": "Xử lý, phân loại, bóc tách dữ liệu rủi ro từ 39 tệp công văn tại thư mục HO SO MOI, nạp vào sổ theo dõi SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx (sheet F0/F1), di chuyển lưu trữ tệp sau bóc tách và dọn sạch thư mục nhận",
+      "route": "wf:day-chuyen-xu-ly-cv-canh-bao",
+      "capability": "files",
+      "execution_mode": "auto",
+      "priority": 2,
+      "status": "blocked",
+      "needs_approval": false,
+      "block_kind": "transient",
+      "block_reason": "Bước 1 (tra-cuu-tai-cv-ioffice) chưa qua kiểm chứng sau 2 lượt: Danh sách 39 tệp khớp thực tế (tôi liệt kê lại bằng Glob: đủ 39, đúng đường dẫn). Nhưng cột Dung lượng bắt buộc chưa đủ: 8 tệp (6 XLSX, 2 DOCX) ghi 'không đo được'. 31 tệp PDF chỉ có dung lượng xấp xỉ '~', suy từ startxref chứ không đo thật. Cột Loại có 2 dòng không đúng 3 giá trị cho phép: 'DOCX (n. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_by": "user",
+      "chat_id": "web:cc88fb2d23f54f4ca053aa9076abe482",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "last_heartbeat_at": 1794302089.4021108,
+      "current_run_id": "",
+      "result": "\n[[NEEDS_INPUT]] Bước 1 (tra-cuu-tai-cv-ioffice) chưa qua kiểm chứng sau 2 lượt: Danh sách 39 tệp khớp thực tế (tôi liệt kê lại bằng Glob: đủ 39, đúng đường dẫn). Nhưng cột Dung lượng bắt buộc chưa đủ: 8 tệp (6 XLSX, 2 DOCX) ghi 'không đo được'. 31 tệp PDF chỉ có dung lượng xấp xỉ '~', suy từ startxref chứ không đo thật. Cột Loại có 2 dòng không đúng 3 giá trị cho phép: 'DOCX (n. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_at": 1794301795.28265,
+      "updated_at": 1794302089.4021108,
+      "not_before": 0.0,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "Toàn bộ 39 tệp tại thư mục HO SO MOI được quét, loại bỏ tệp trùng hoặc tệp trắng",
+          "Dữ liệu doanh nghiệp rủi ro/bán ra và mua vào được bóc tách và nạp vào sheet F0, F1 của Sổ theo dõi Excel theo đúng cấu trúc cột và khóa chống trùng",
+          "Các tệp sau khi bóc tách được phân loại và lưu trữ vào đúng thư mục nghiệp vụ (01_HO SO CONG AN CHUYEN DEN hoặc 02_NGUON RUI RO NGANH THUE)",
+          "Thư mục HO SO MOI được dọn sạch sau khi hoàn tất xử lý"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "name": "cập-nhật-công-văn-cảnh-báo-rủi-ro",
+          "key": ""
+        }
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-10 16:09",
+          "msg": "created by user"
+        },
+        {
+          "ts": "2026-11-10 16:09",
+          "msg": "claimed by worker:28136:02e9f9c9"
+        },
+        {
+          "ts": "2026-11-10 16:10",
+          "msg": "capability=files"
+        },
+        {
+          "ts": "2026-11-10 16:10",
+          "msg": "claimed by worker:28136:bbcade4a"
+        },
+        {
+          "ts": "2026-11-10 16:14",
+          "msg": "Bước 1 (tra-cuu-tai-cv-ioffice) chưa qua kiểm chứng sau 2 lượt: Danh sách 39 tệp khớp thực tế (tôi liệt kê lại bằng Glob: đủ 39, đúng đường dẫn). Nhưng cột Dung lượng bắt buộc chưa đủ: 8 tệp (6 XLSX, 2 DOCX) ghi 'không đo được'. 31 tệp PDF chỉ có dung lượng xấp xỉ '~', suy từ startxref chứ không đo thật. Cột Loại có 2 dòng không đúng 3 giá trị cho phép: 'DOCX (n. Quy trình dừng ở đây, không chạy tiếp các bước sau."
         }
       ]
     }
   ],
-  "updated": 1794339731.2516265
+  "updated": 1794488347.1902876
 }

@@ -16,6 +16,7 @@ Hệ thống căn cứ pháp lý trong hồ sơ kiểm tra thuế đối với d
 
 ---
 
-## Nguyên tắc gọi tên cuộc kiểm tra:
-- Trên Quyết định kiểm tra, Quyết định giám sát, Biên bản kiểm tra: Gọi thống nhất là **"Kiểm tra thuế"** (để đồng bộ với hệ thống ứng dụng và hồ sơ đi DI-03).
-- Chỉ nêu cụm từ **"Kiểm tra quyết toán giải thể"** trong phần nội dung công việc tại Tờ trình lãnh đạo cơ quan thuế.
+## Nguyên tắc gọi tên cuộc kiểm tra (cập nhật 2026-11-11, thay thế quy tắc cũ):
+- **Tiêu đề Quyết định kiểm tra** (dòng "Về việc...") và **mọi câu "Căn cứ Quyết định số ... của Thuế Cơ sở 3 ... về việc ..." dẫn chiếu lại đúng quyết định đó** (trong BBXN, BBKT, Biên bản công bố, QĐXP...): phải ghi thống nhất là **"Kiểm tra quyết toán giải thể"** (không còn dùng "Kiểm tra thuế" chung như quy tắc cũ). Đối chiếu mẫu Thúy Hồng.
+- **Giữ nguyên "kiểm tra thuế"** ở các câu không phải là tên/trích dẫn quyết định cụ thể của vụ này, ví dụ: câu tường thuật hoạt động ("Đoàn kiểm tra đã tiến hành kiểm tra thuế tại..."), tên đơn vị/vai trò chung ("Đoàn kiểm tra thuế", "Tổ Kiểm tra thuế 1"), và mọi câu liên quan Quy chế giám sát 1614/QĐ-TCT (vì quy chế đó áp dụng chung cho "Đoàn thanh tra, kiểm tra thuế", không riêng vụ giải thể).
+- Khi rà soát 1 vụ mới: dùng `grep -i "kiểm tra thuế"` trên toàn file TONG HOP, đối chiếu từng dòng với phân loại trên để quyết định đổi hay giữ, tránh sót như vụ Kiến Thành Tân (sót 8 đoạn "Căn cứ... về việc kiểm tra thuế tại..." dù tiêu đề đã sửa).

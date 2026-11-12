@@ -20,10 +20,14 @@ learned_updated: '2026-11-11'
 
 1. **Bảo tồn phôi nghiệp vụ và chuẩn hóa văn bản hành chính**:
    - Áp dụng chuẩn Nghị định 30/2020/NĐ-CP cho Tờ trình, Quyết định kiểm tra (QĐKT), Quyết định giám sát (QĐGS):
-     + Khoảng cách chữ ký giữa chức danh và tên người ký cách ít nhất 5 dòng trong 1 ô. Nếu rớt sang trang mới thì tự động giảm còn 4 dòng để cùng trang in.
-     + Quyết định: chữ 'Số' nằm thẳng dưới chữ 'sở' của dòng tiêu đề cơ quan; ngày tháng căn giữa để trống 'Trấn Biên, ngày       tháng       năm 2026'; các Điều 1, 2, 3... tô đậm.
-     + Giấy xác nhận giao quyết định: dòng ngày tháng dùng chuẩn 'ngày ...... tháng ...... năm 2026' (đều 6 chấm).
-   - Giữ nguyên cấu trúc, bảng biểu và nội dung phôi gốc cho Biên bản kiểm tra (BBKT), Biên bản xác nhận số liệu (BBXN), Kế hoạch và Báo cáo giám sát.
+     + Khoảng cách chữ ký trong cùng 1 ô: mặc định chức danh và họ tên người ký cách nhau 5 dòng (5 dòng trống). Nếu rớt sang trang mới thì tự động giảm xuống 4 dòng (chuẩn NĐ 30) để cùng trang in.
+     + Dự thảo Quyết định (chưa ban hành): chữ 'Số' nằm thẳng dưới chữ 'sở' của dòng tiêu đề cơ quan; ký hiệu để khoảng trống dài `Số:              /QĐ-TCS3` (tuyệt đối không dùng mã tạm `DU_THAO-TRINH-KY`); ngày tháng căn giữa để trống toàn bộ ngày, tháng và năm `Trấn Biên, ngày       tháng       năm      ` (không giữ năm cố định); các Điều 1, 2, 3... tô đậm.
+     + Giấy xác nhận giao quyết định: dòng ngày tháng dùng chuẩn `ngày ...... tháng ...... năm      ` (đều 6 chấm, để trống năm).
+     + Quy tắc sau ban hành: khi QĐKT/QĐGS đã có số và ngày chính thức thì không cập nhật hay ghi đè lại số/ngày đó ở các lần xử lý sau; chỉ cập nhật nội dung và số liệu nếu có thay đổi.
+     + Căn cứ Quyết định 1377/QĐ-CT chốt thống nhất ngày 30/06/2025 (năm 2025, không dùng 2026).
+   - Giữ nguyên cấu trúc, bảng biểu và nội dung phôi gốc cho Biên bản kiểm tra (BBKT), Biên bản xác nhận số liệu (BBXN), Kế hoạch và Báo cáo giám sát:
+     + BBXN Trưởng đoàn: đánh số TT 1 và 2 cho Chi phí quản lý doanh nghiệp và Chi phí bán hàng, không dùng gạch đầu dòng ở tên chỉ tiêu; có chênh lệch thêm dòng `Giải trình số liệu chênh lệch qua kiểm tra:` rồi xuống hàng `*/ [nội dung]`; không chênh lệch ghi `*/ Không chênh lệch` (viết thường).
+     + BBKT: giữ nguyên khối giải trình có sẵn của phôi, không chèn thêm khối giải trình trùng lặp.
 2. **Rà soát font chữ toàn diện**:
    - Quét và chuyển toàn bộ các đoạn văn bản (run) bị lẫn Calibri sang font Times New Roman tường minh.
 3. **Chuẩn hóa Checkbox trong Báo cáo giám sát**:
@@ -59,3 +63,4 @@ learned_updated: '2026-11-11'
 - [2026-10-08] Cập nhật quy trình chuẩn hóa checkbox trong Báo cáo giám sát: ngăn chặn lỗi reset toàn bộ ô đã tích chọn về ô trống khi thay thế ký tự sang Wingdings.
 - [2026-10-27] Cập nhật chuẩn checkbox hiện đại ☐/☑ nằm sau chữ (bỏ Wingdings và nét vẽ VML X), tích 2 ô mục 9 Báo cáo giám sát, chuẩn canh chữ ký 5/4 dòng chống rớt trang, căn 'Số' dưới 'sở' và in đậm các Điều theo phản hồi thực tế từ user.
 - [2026-11-11] Vụ giải thể trên nền kế hoạch (như Sơn Tiền Hải): Mục III Nghĩa vụ NSNN bắt buộc điền đủ số phát sinh các năm; rà soát thay thế triệt để cụm từ cũ 'chi phí quản lý kinh doanh' thành 'chi phí quản lý doanh nghiệp'; bổ sung văn bản từ chối nhận lại tiền nộp thừa nếu có.
+- [2026-11-11] Thống nhất bộ quy tắc hoàn thiện thể thức hồ sơ đi và TONG HOP: (1) Căn cứ QĐ 1377/QĐ-CT chốt thống nhất năm 2025 (30/06/2025) cho toàn bộ phôi và script xuất văn bản; (2) Ngày tháng ban hành dự thảo QĐ để trống toàn bộ ngày, tháng, năm (bỏ năm 2026 cố định); (3) Ký hiệu dự thảo để khoảng trống dài `Số:              /QĐ-TCS3`, tuyệt đối không dùng mã tạm DU_THAO-TRINH-KY; (4) Sau khi QĐKT/QĐGS đã ban hành chính thức thì không cập nhật lại số/ngày; (5) Khoảng cách chữ ký trong ô mặc định 5 dòng trống, nếu rớt trang tự động giảm 4 dòng (chuẩn NĐ 30); (6) BBXN Trưởng đoàn đánh số TT 1 và 2, có chênh lệch ghi dòng tiêu đề Giải trình rồi xuống dòng `*/`, không chênh lệch ghi `*/ Không chênh lệch`.

@@ -1,0 +1,6 @@
+40: 'QUYẾT ĐỊNH'
+51: 'QUYẾT ĐỊNH:'
+64: 'QUYẾT ĐỊNH '
+75: 'QUYẾT ĐỊNH:'
+585: 'QUYẾT ĐỊNH'
+600: 'QUYẾT ĐỊNH:'
