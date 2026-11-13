@@ -15,3 +15,5 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: dọn 2 file conflict-remote Công an/Cảnh báo - status: open
 - [ ] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: đo lại token 7 ngày sau cắt + sau đổi thói quen `/brain` - status: open
 - [ ] (2026-11-06) [[Backlog-van-hanh-lien-phong]]: **tính năng sản phẩm** - sau khi chủ xác nhận bàn giao, Javis tự đổi brain + mở agent/workflow đích (hiện chỉ hướng dẫn tay `/brain` hoặc chọn trên dashboard) - status: open
+
+- [ ] (2026-11-13) [[Quy Trình Xử Lý Thông Báo Mời Giải Trình NNT]]: đề xuất bổ sung từ chat 2026-11-13 (dedup) - status: open

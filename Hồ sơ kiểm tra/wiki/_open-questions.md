@@ -46,3 +46,17 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-11-06) [[Số tài khoản ngân hàng trên Quyết định thu hồi hoàn thuế]]: model báo trùng với 'note' nhưng không tìm thấy trang đó - status: open
 
 - [ ] (2026-11-08) [[Quy trình phối hợp 4 trợ lý chuyên trách kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-08 (dedup) - status: open
+
+- [ ] (2026-11-12) [[Mô hình Hybrid Mail Merge và AI trong lập hồ sơ kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-12 (dedup) - status: open
+
+- [ ] (2026-11-12) [[Mô hình Hybrid Mail Merge và AI trong lập hồ sơ kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-12 (dedup) - status: open
+
+- [ ] (2026-11-13) [[Mô hình tầng đệm dữ liệu trong Mail Merge hồ sơ kiểm tra thuế]]: provenance=assistant (Javis tự nói, cần xác minh) - status: open
+
+- [ ] (2026-11-13) [[Mô hình Hybrid Mail Merge và AI trong lập hồ sơ kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-13 (dedup) - status: open
+
+- [ ] (2026-11-13) [[Kỹ thuật Mail Merge trực tiếp từ bảng theo dõi Excel qua Dòng 1 ẩn]]: provenance=assistant (Javis tự nói, cần xác minh) - status: open
+
+- [ ] (2026-11-13) [[Kỹ thuật xử lý xung đột đường kẻ tiêu đề văn bản hành chính Word]]: đề xuất bổ sung từ chat 2026-11-13 (dedup) - status: open
+
+- [ ] (2026-11-13) [[Mô hình Mail Merge phân luồng theo loại hình kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-13 (dedup) - status: open

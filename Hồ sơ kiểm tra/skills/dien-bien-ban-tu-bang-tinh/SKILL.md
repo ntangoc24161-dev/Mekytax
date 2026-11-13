@@ -1,9 +1,9 @@
 ---
 name: Điền biên bản từ Bảng tính
-description: Điền BBXN/BBKT từ DTCHEP, kiểm tra số gõ cứng (cảnh báo mềm), đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, chèn ngày, dọn bak.
+description: Điền BBXN/BBKT từ DTCHEP (Tầng 2 mô hình Hybrid), kiểm tra số gõ cứng, đối chiếu sổ khi lệch TINH PHAT, đồng bộ QĐ/thu hồi hoàn, dọn bak.
 group: Tài chính
-updated: '2026-11-11'
-learned_updated: '2026-11-11'
+updated: '2026-11-13'
+learned_updated: '2026-11-13'
 ---
 # Điền biên bản từ Bảng tính
 
@@ -33,7 +33,9 @@ Chi tiết cấu trúc từng năm BBXN/BBKT: `references/cau-truc-bbxn-bbkt.md`
 
 ## Quy trình
 
-### 1. Điền BBXN và BBKT từ Bảng tính
+### 1. Điền BBXN và BBKT từ Bảng tính (Tầng 2 Mô hình Hybrid)
+
+> **Vai trò Tầng 2:** Word Mail Merge (Tầng 1) chỉ trộn được các trường thông tin chung và tổng tiền 1-1 từ sheet `01_DA_BAN_HANH`. Các bảng ma trận số liệu chi tiết phân bổ nhiều năm từ `Bang tinh.xlsx` (BBXN Trưởng đoàn 2 dòng, BBXN Thành viên, BBKT và Mục III NSNN) bắt buộc phải do Tầng 2 này điền trực tiếp từ `DTCHEP`, `LOẠI LƯƠNG`, `TINH PHAT + CHAM NOP`. Bắt buộc quét và xóa sạch 100% số liệu mẫu cũ của phôi (các con số 13,7 tỷ, 78,4 triệu...).
 
 1. Đối chiếu `TONG HOP` đang in với `DTCHEP` và sổ. Sheet `TINH PHAT` cộng trùng chậm nộp GTGT (dòng sắc thuế đã gom rồi dòng thu hồi hoàn cộng lại) thì lấy tổng trên sổ. Chỗ lệch khác: hỏi user, rồi mới ghi.
 2. Đọc sheet **`DTCHEP`** (còn gọi `DCHEP`) bằng `openpyxl` `data_only=True`: số báo cáo / số kiểm tra / chênh lệch theo năm và theo chỉ tiêu chi phí.
@@ -161,3 +163,4 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - [2026-11-06] Vụ Sơn Tiền Hải (GT giải thể): điền số xong nhưng hồ sơ vẫn thiếu chuẩn thể thức (khoảng ký 2-3 dòng, mất `năm 2026`, `Số` chưa canh). Bổ sung mục 4 rà thể thức, 5 bẫy về canh `Số`/đo Word COM/PDF trên G:, và 2 điểm kiểm chứng khối ký + quyết định.
 - [2026-11-09] Vụ Tâm Hoàng Phát: sổ đã có ngày ký BBKT 12/11 nhưng AR14 còn chậm nộp tính đến 30/10. Lấy TINH PHAT (4.747.340) vì khớp ngày BBKT; không dùng 4.670.434. Đoạn mở Báo cáo kết quả bị tách run nên replace `30/10` hàng loạt suýt đổi nhầm thành ngày BBKT.
 - [2026-11-11] Vụ Sơn Tiền Hải: Bổ sung quy tắc Hardcoded Data Check trên sheet DTCHEP dạng cảnh báo mềm (non-blocking warning). Khi phát hiện ô chênh lệch lớn là số gõ cứng không công thức / không sheet chi tiết (như DTCHEP!E372 = -826.764.409 đồng): hệ thống xuất dòng LƯU Ý NGHIỆP VỤ trong báo cáo và ghi vào wiki/_open-questions.md để đoàn kiểm tra chủ động chuẩn bị chứng từ, tuyệt đối không dừng luồng đổ số. Thống nhất tên 'Chi phí quản lý doanh nghiệp' (thay cho QLKD) và bổ sung quy chuẩn điền Mục III nghĩa vụ NSNN 5 năm cho hồ sơ giải thể.
+- [2026-11-13] Định vị rõ vai trò Tầng 2 trong Mô hình Hybrid 2 tầng: Word Mail Merge (Tầng 1) chỉ điền thông tin chung và số tổng 1-1. Bắt buộc phải chạy skill này (Tầng 2) để bóc tách DTCHEP đổ chi tiết vào khung 2 dòng Trưởng đoàn (1. Chi phí quản lý doanh nghiệp, 2. Chi phí bán hàng), Thành viên (Chi phí tài chính), Mục III NSNN và quét sạch 100% số liệu mẫu cũ của phôi.

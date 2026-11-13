@@ -1,4 +1,5 @@
 ---
+superseded_by: so-theo-doi-giu-file-goc-khong-bak
 type: decision
 provenance: user
 origin: javis-learned
@@ -16,3 +17,7 @@ updated: 2026-11-06
 - **Không tạo** file `.bak` / bản sao lưu sổ trong `00. Theo doi chung\` (đã dọn sạch bak ngày 06/11/2026). Nếu cần backup tạm khi sửa, đặt ngoài thư mục này rồi xóa sau khi xong.
 - Không tạo lại bản `.xlsx` song song kiểu `- JAVIS PRO.xlsx`.
 - Skill/script/memory chỉ ghi tên `pro.xlsm`, không dùng tên `- JAVIS PRO` nữa.
+
+
+## Lịch sử
+- [2026-11-12] Bị thay thế bởi [[so-theo-doi-giu-file-goc-khong-bak]] (user đổi thông tin).

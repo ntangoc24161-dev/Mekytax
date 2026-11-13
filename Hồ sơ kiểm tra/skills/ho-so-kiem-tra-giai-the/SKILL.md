@@ -2,15 +2,15 @@
 name: Hồ sơ kiểm tra giải thể
 description: "Lập và chuẩn hóa bộ hồ sơ kiểm tra quyết toán giải thể: bộ 22 văn bản, Mục III NSNN, văn bản từ chối nộp thừa, bù trừ hoàn thuế."
 group: Tài chính
-updated: '2026-11-11'
-learned_updated: '2026-11-11'
+updated: '2026-11-13'
+learned_updated: '2026-11-13'
 ---
 
 # Hồ sơ kiểm tra giải thể
 
 Quy trình nghiệp vụ chuyên biệt lập, điền số liệu và chuẩn hóa bộ hồ sơ kiểm tra quyết toán thuế phục vụ giải thể doanh nghiệp (đóng mã số thuế), áp dụng cho cả diện giải thể theo thông báo ngừng hoạt động và diện giải thể trên danh mục kế hoạch năm.
 
-Bộ tài liệu tổng hợp hoàn chỉnh gồm 22 văn bản (`MAUTONG HOP GIAI THE.docx`), tích hợp đầy đủ nghĩa vụ ngân sách nhà nước, xử lý tiền nộp thừa, và thủ tục bù trừ hoàn thuế giải thể theo quy định pháp luật mới nhất.
+Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `01_DA_BAN_HANH$` từ sổ `Danh sach kiem tra quyet toan pro.xlsm` (phân loại qua trường `Loai_hinh = GT`), đi kèm phôi Word giải thể độc lập [templates/MAUTONG HOP GIAI THE.docx](templates/MAUTONG HOP GIAI THE.docx) gồm 22 văn bản, tích hợp đầy đủ nghĩa vụ ngân sách nhà nước, xử lý tiền nộp thừa, và thủ tục bù trừ hoàn thuế giải thể theo quy định pháp luật mới nhất.
 
 ## Khi nào dùng
 
@@ -21,69 +21,34 @@ Bộ tài liệu tổng hợp hoàn chỉnh gồm 22 văn bản (`MAUTONG HOP GI
 
 ## Chuẩn bị
 
-- File phôi tổng hợp chuẩn giải thể: `templates/MAUTONG HOP GIAI THE.docx` (hoặc file `TONG HOP.docx` trong thư mục vụ `0. BIEN BAN`).
-- Biểu mẫu hoàn bù trừ giải thể: `templates/MAU DE XUAT HOAN GIAI THE.docx`, `templates/MAU MS-03-DCS.docx`.
+- File phôi tổng hợp chuẩn giải thể: `templates/MAUTONG HOP GIAI THE.docx` (đã liên kết trực tiếp `01_DA_BAN_HANH$`, chuẩn hóa 198 thẻ MERGEFIELD, dọn sạch hàng trống thừa theo NĐ 30).
+- Biểu mẫu phụ trợ giải thể: `templates/MAU CAM KET DOANH THU VA CHI PHI.docx`, `templates/MAU DON XIN QUYET TOAN GIAI THE.docx`, `templates/MAU DE XUAT HOAN GIAI THE.docx`, `templates/MAU MS-03-DCS.docx`, `templates/MAU QD XPHC GIAI THE.docx`.
 - File Bảng tính: `Bang tinh.xlsx` (các sheet `BB`, `DTCHEP`, `TINH PHAT + CHAM NOP (C T)`).
-- Sổ Excel theo dõi: `Danh sach kiem tra quyet toan pro.xlsm` (thư mục `00. Theo doi chung`).
+- Sổ Excel theo dõi: `Danh sach kiem tra quyet toan pro.xlsm` (sheet `01_DA_BAN_HANH$` qua Dòng 1 ẩn).
 - Căn cứ pháp lý: `references/nen-phap-ly-va-can-cu-giai-the.md`.
 - Danh mục 22 văn bản: `references/danh-muc-22-van-ban-giai-the.md`.
 - Nghiệp vụ chi tiết: `references/nghiep-vu-nghia-vu-nsnn-va-hoan-bu-tru.md`.
 
-## Quy trình
+## Quy trình Hybrid 2 tầng giải thể
 
-### 1. Xác định diện phát sinh và chuẩn hóa nền pháp lý
-1. Xác định nguồn gốc cuộc kiểm tra:
-   - **Diện 1 - Theo thông báo ngừng hoạt động (như Mo Fa):** Căn cứ thông báo của CQT hoặc cơ quan ĐKKD; thời hạn kiểm tra rút gọn (thường 03 ngày làm việc).
-   - **Diện 2 - Giải thể trên nền kế hoạch năm (như Sơn Tiền Hải):** Vừa có căn cứ Quyết định kế hoạch năm (`QĐ 1412/QĐ-DON`), vừa chốt số đóng MST; thời hạn 20 ngày.
-   - **Diện 3 - Giải thể kiêm hoàn thuế GTGT (như Đại Phát Đạt):** Kết hợp kiểm tra hoàn thuế theo Điều 32 NĐ 181/2025/NĐ-CP và chốt số giải thể.
-2. Áp dụng nền pháp lý mới nhất:
-   - Luật Quản lý thuế số 108/2025/QH15 ngày 10/12/2025; Luật Thanh tra số 84/2025/QH15 ngày 25/06/2025.
-   - Quyết định 1614/QĐ-TCT ngày 13/10/2020; Quyết định 1377/QĐ-CT ngày 30/06/2025.
-   - Thống nhất gọi tên cuộc kiểm tra là "kiểm tra thuế" trên Quyết định và Biên bản; lý do "kiểm tra quyết toán giải thể" chỉ để ở Tờ trình.
+### Tầng 1: Mail Merge trực tiếp từ sheet 01_DA_BAN_HANH
+1. Mở phôi `templates/MAUTONG HOP GIAI THE.docx` trong Microsoft Word (tab **Mailings** tự động kích hoạt kết nối tới `01_DA_BAN_HANH$`).
+2. Lọc theo điều kiện: `Loai_hinh` = `GT` để chọn đúng các doanh nghiệp giải thể (Sơn Tiền Hải, Châm Pic, Đường Hải Thủy, Công Nghệ Hoàng Huy, Thúy Hồng...).
+3. Toàn bộ 198 trường `{ MERGEFIELD }` chuẩn hóa tự động khớp dữ liệu công ty, MST, số quyết định, trưởng đoàn, thành viên và các cột tiền bằng chữ.
 
-### 2. Bóc tách Bảng tính và điền số liệu (BBXN và BBKT)
-1. Bóc tách số liệu từ sheet `DTCHEP`:
-   - Trưởng đoàn kiểm tra Chi phí quản lý doanh nghiệp và Chi phí bán hàng (TT=1, TT=2); thống nhất chuẩn hóa tên gọi là **`Chi phí quản lý doanh nghiệp`** (loại bỏ hoàn toàn cụm từ cũ `Chi phí quản lý kinh doanh`).
+### Tầng 2: Điền biên bản từ Bảng tính và hoàn thiện đặc thù giải thể
+1. Bóc tách số liệu từ sheet `DTCHEP` của `Bang tinh.xlsx`:
+   - Trưởng đoàn kiểm tra Chi phí quản lý doanh nghiệp và Chi phí bán hàng (TT=1, TT=2); thống nhất chuẩn hóa tên gọi là **`Chi phí quản lý doanh nghiệp`**.
    - Thành viên kiểm tra Chi phí tài chính (hoặc khối GTGT).
-2. Kiểm tra số gõ cứng (Hardcoded Data Check - Cảnh báo mềm):
-   - Mở file Excel kiểm tra công thức các ô chênh lệch lớn (như ô `DTCHEP!E372`).
-   - Nếu là số gõ cứng không công thức và không có sheet kê chi tiết: **vẫn tiếp tục đổ số bình thường**, ghi nhận dòng `[LƯU Ý NGHIỆP VỤ]` ở cuối báo cáo và append vào `wiki/_open-questions.md`.
-3. Điền BBKT giải thể:
-   - Thể hiện đầy đủ chênh lệch các năm, giảm lỗ lũy kế, thu nhập tính thuế sau giảm lỗ, thuế TNDN truy thu, tiền phạt và tiền chậm nộp.
-   - Căn cứ loại trừ chi phí: Điều 4 TT 96/2015/TT-BTC (trước 2025) hoặc Điều 10 NĐ 320/2025/NĐ-CP + TT 20/2026/TT-BTC (từ 2025).
-
-### 3. Điền Mục III Nghĩa vụ NSNN (Bắt buộc cho diện giải thể)
-1. Tuyệt đối không để trống hoặc dùng dấu gạch ngang.
-2. Áp dụng công thức suy luận từ kết luận kê khai và nợ đọng:
-   - `(3) = 0` (không có nợ cũ chuyển sang).
-   - `(4)` = Số phát sinh theo kê khai của doanh nghiệp.
-   - `(5)` = Số truy thu xác định qua kiểm tra.
-   - `(6) = (4)` (đã nộp đủ số kê khai).
-   - `(7) = (3) + (4) + (5) - (6) = (5)` (số còn phải nộp chính bằng số truy thu).
-
-### 4. Lập các văn bản đặc thù giải thể
-1. **Quyết định xử phạt VPHC (QĐXP) và Tờ trình**:
-   - Định danh hành vi chuẩn theo NĐ 125/2020 sửa đổi bởi NĐ 310/2025.
-   - Có phát sinh thiếu thuế: Phạt 20% trên số thuế thiếu.
-   - Không phát sinh thiếu thuế (do lỗ hoặc được miễn giảm thuế theo NĐ 20/2026): Phạt tiền cố định 6.500.000 đồng (khoản 3 Điều 16 NĐ 125/2020, khoản 5 Điều 1 NĐ 310/2025).
-2. **Văn bản từ chối nhận lại số tiền nộp thừa**:
-   - Điền đầy đủ mã số thuế của doanh nghiệp theo từng ô lưới riêng biệt (10 ô).
-   - Rà soát tránh sót MST của phôi cũ.
-3. **Thủ tục hoàn kiêm bù trừ thu NSNN (nếu có thuế GTGT còn khấu trừ)**:
-   - Lập Tờ trình đề xuất hoàn thuế, Phiếu đề xuất hoàn thuế `MS-03-DCS`, và Dự thảo QĐ hoàn thuế kiêm bù trừ thu NSNN theo Điều 32 NĐ 181/2025/NĐ-CP.
-   - Ưu tiên bù trừ toàn bộ số thuế GTGT được hoàn với số thuế TNDN truy thu, tiền phạt và chậm nộp.
-
-### 5. Chuẩn hóa thể thức hành chính theo NĐ 30 và xuất hồ sơ
-1. **Thể thức hành chính**:
-   - Tờ trình, QĐKT, QĐGS, QĐXP: Chữ ký cách chức danh mặc định 5 dòng trong 1 ô (nếu rớt sang trang mới thì tự động giảm xuống 4 dòng theo NĐ 30 để cùng trang in).
-   - Dự thảo Quyết định: Chữ 'Số' thẳng dưới chữ 'sở'; ký hiệu để khoảng trống dài `Số:              /QĐ-TCS3` (tuyệt đối không dùng mã tạm `DU_THAO-TRINH-KY`); ngày tháng căn giữa để trống toàn bộ `Trấn Biên, ngày       tháng       năm      ` (bỏ năm 2026); các Điều 1, 2, 3... tô đậm. Căn cứ QĐ 1377/QĐ-CT chốt thống nhất ngày 30/06/2025. Khi đã ban hành chính thức: không ghi đè lại số/ngày.
-   - Biên bản giao nhận hồ sơ: Bên nhận phải là thành viên khác (Nguyễn Thành Đồng), tuyệt đối không để trùng tên Trưởng đoàn bên giao (Nguyễn Thị Ánh Ngọc).
-2. **Báo cáo giám sát**:
-   - Đổi toàn bộ checkbox sang ký tự Unicode `☐`/`☑` nằm SAU nhãn chữ.
-   - Tick sẵn 9 tiêu chí đạt chuẩn; Mục 9 phải có đủ 3 lựa chọn với 3 ô checkbox riêng.
-3. **Xuất file và đồng bộ**:
+2. Điền Mục III Nghĩa vụ NSNN (Bắt buộc cho diện giải thể):
+   - Công thức suy luận: `(3)=0, (4)=Kê khai, (5)=Truy thu, (6)=(4), (7)=(3)+(4)+(5)-(6)=(5)`.
+3. Lập các văn bản đặc thù giải thể:
+   - QĐ xử phạt VPHC và Tờ trình theo NĐ 125/2020 và NĐ 310/2025.
+   - Văn bản từ chối nhận lại số tiền nộp thừa (điền đúng 10 số MST vào ô lưới).
+   - Thủ tục hoàn kiêm bù trừ thu NSNN (MS-03-DCS và dự thảo QĐ hoàn bù trừ) nếu còn thuế GTGT khấu trừ.
+4. Thể thức hành chính NĐ 30:
+   - Các bảng tiêu đề bảo đảm đúng 1 nét gạch chuẩn dưới cơ quan ban hành và tiêu ngữ, không lặp dòng đệm thừa.
    - Xuất 02 file QĐKT và QĐGS độc lập chuẩn 1 trang A4.
-   - Xuất file QĐXP độc lập và cập nhật dòng tương ứng trên sổ theo dõi `Danh sach kiem tra quyet toan pro.xlsm`.
 
 ## Bẫy
 

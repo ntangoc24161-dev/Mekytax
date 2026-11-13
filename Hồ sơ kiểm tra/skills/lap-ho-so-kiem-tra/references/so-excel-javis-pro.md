@@ -6,8 +6,8 @@ File gốc tham chiếu: `Danh sach kiem tra quyet toan.xlsx`. Không tạo bak 
 ## Sheet
 
 - `00_DASHBOARD` - KPI, SLA theo QĐ 1161 / Luật 108.
-- `01_DA_BAN_HANH` - đã ban hành (có Số QĐKT, hoặc user xếp vào đây để trình ký).
-- `02_DANG_THUC_HIEN` - đang thực hiện (chưa có Số QĐKT).
+- `01_DA_BAN_HANH` - đã ban hành (có Số QĐKT, hoặc tự động chuyển sang đây ngay khi tạo bộ hồ sơ đi trình ký).
+- `02_DANG_THUC_HIEN` - đang thực hiện (chưa tạo hồ sơ đi và chưa có Số QĐKT).
 - `DANH_MUC` - danh mục (CQT, cán bộ, trạng thái...).
 
 Đã bỏ: `LICH_SU_2024`, `LICH_SU_2025`, `DU_LIEU_IN_AN`.
@@ -16,7 +16,7 @@ File gốc tham chiếu: `Danh sach kiem tra quyet toan.xlsx`. Không tạo bak 
 
 Mở `pro.xlsm`, bật Enable Content. Đổi trạng thái:
 
-- `1. Đã ban hành` trên `02_DANG_THUC_HIEN` → chuyển sang `01_DA_BAN_HANH`.
+- `1. Đã ban hành` trên `02_DANG_THUC_HIEN` → chuyển sang `01_DA_BAN_HANH` (tự động chuyển khi tạo bộ hồ sơ đi trình ký hoặc khi đã có Số QĐKT); đồng thời tự động di chuyển thư mục công ty sang thư mục `1. TD`.
 - `2. Đang thực hiện` trên `01_DA_BAN_HANH` → chuyển sang `02_DANG_THUC_HIEN`.
 
 Script gắn macro: `scripts/inject_status_move_vba.py`.
