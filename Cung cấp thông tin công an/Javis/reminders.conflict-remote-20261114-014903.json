@@ -1,0 +1,27 @@
+{
+  "reminders": [
+    {
+      "id": "r_7c63a0c056",
+      "text": "Quét thư mục CV MOI để tìm công văn Công an mới, sau đó trigger workflow quản-lý-công-văn-công-an để xử lý: bóc tách → phân công → soạn thảo → quản lý hồ sơ. Nếu không có CV mới thì báo \"không có CV mới\".",
+      "mode": "task",
+      "due_at": 1794632400.0,
+      "chat_id": "web:3e4326e5df604ecabd9c4fec2e2892ca",
+      "repeat_min": 0,
+      "cron": "0 12 * * *",
+      "script": "",
+      "label": "Quét hồ sơ công an lúc 12h00 hàng ngày",
+      "status": "pending",
+      "muc_quyen": "full",
+      "remember_last": false,
+      "speak": false,
+      "call": false,
+      "created_by": "javis_schedule",
+      "created_at": 1794156270.8227534,
+      "fired_at": 1794546143.1138184,
+      "result": "Em đã quét thư mục CV MOI trên Google Drive (tài khoản cungcapthongtin.tcs3tdn@gmail.com).\n\nHiện tại không có CV mới trong thư mục, nên em không kích hoạt workflow xử lý. Hệ thống sẽ tiếp tục theo dõi và tự động bóc tách khi có hồ sơ mới chuyển đến.",
+      "error": "",
+      "last_slot": 1794546000.0
+    }
+  ],
+  "updated": 1794546143.11495
+}

@@ -85,3 +85,6 @@
 - [Chốt hoàn thành CV 244, 245, 204 trên sổ NHAP_HO_SO ngày 11/11/2026](facts/chot-hoan-thanh-cv-244-245-204-ngay-2026-11-11.md) - Người dùng xác nhận 244 (C34300), 245 (2088), 204 (14233) hoàn thành; 5 DN TCS6/TCS17 của 244 không cần trả lời.
 - [Các CV có folder -R nhưng chưa có trong sổ NHAP_HO_SO (đợt 11/11/2026)](facts/ton-dong-9-cv-chua-co-trong-so-nhap-ho-so-2026-11-11.md) - 9 folder -R chưa có trong sổ, chia 4 nhóm; 251 (CV 14353, PSAS) cần nhập mới; 16 folder -R không có PDF trả lời.
 - [Loop tự động đã xử lý 3 CV Công an mới ngày 09/11/2026](facts/loop-tu-chay-xu-ly-3-cv-ngay-2026-11-09.md) - Người dùng xác nhận hệ thống tự chạy: CV 4325 (CA Bắc Ninh, folder 284, KT1) và CV 21143 (CA Hưng Yên, folder 283).
+- [Tài khoản Drive có quyền ghi hồ sơ CA](facts/tai-khoan-drive-ghi-ho-so-ca.md) - Ghi Drive HS CA bằng googledrive_ralph-urbane; đẩy sổ qua workbench upload_local_file + UPLOAD_UPDATE_FILE.
+- [Không đọc ảnh scan bằng công cụ xem ảnh trên bot](facts/khong-doc-anh-scan-bang-read-tren-bot.md) - Đọc CV scan bằng OCR, không render PNG để xem vì ảnh hiện lên hội thoại.
+- [CBQL SaiGonFA là Trịnh Thị Thanh Hương](facts/cbql-saigonfa-3603482743.md) - MST 3603482743 KT1, DB KTR1 03/06 ghi sai tên; lệch sổ cũ và DB thì hỏi lại.

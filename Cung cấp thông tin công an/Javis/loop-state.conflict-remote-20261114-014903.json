@@ -1,0 +1,19 @@
+{
+  "ho-so-cung-cap-cong-an": {
+    "auto_paused_reason": "",
+    "fail_streak": 0,
+    "last_run": 1794557429.300358,
+    "last_summary": "Thư mục **CV MOI trên Google Drive tiếp tục trống** (0 file mới).\n\nTrong vòng này, em đã truy cập Google Drive bằng tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`) để kiểm tra tiếp nhận công văn mới, đồng thời xử lý dứt điểm các tồn đọng về file PDF và trích xuất Markdown trong vault cho các Folder 283, 284, 285.\n\n### Việc đã thực hiện\n- **Kiểm tra tiếp nhận:** Quét thư mục `CV MOI` (ID `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`), kết quả không có file công văn mới phát sinh.\n- **Tải file PDF từ Drive về vault:**\n  - `ho-so-cv-moi-2026-11/pdf/21143YC-CSKT.pdf` (từ folder `283. CV 21143-CA HUNG YEN-CN`).\n  - `ho-so-cv-moi-2026-11/pdf/4325ANDT-D1.pdf` (từ folder `284. CV 4325-CA BAC NINH-KT1`).\n  - `ho-so-cv-moi-2026-11/pdf/1647_CamScanner.pdf` (từ folder `285. CV 1647-CA DONG NAI-KT2`).\n- **Khởi tạo hồ sơ trích xuất Markdown:**\n  - `ho-so-cv-moi-2026-11/md/21143-YC-CSKT.md` (CV 21143/YC-CSKT - CA Hưng Yên).\n  - `ho-so-cv-moi-2026-11/md/4325-ANDT-D1.md` (CV 4325/ANĐT-",
+    "last_status": "✓ Đạt: 3 file PDF tải từ Drive và 3 file MD trích xuất đều có thật, chuẩn xác 100% nội dung công văn, nhật ký cập nhật đúng thực tế và không có sai phạm.",
+    "runs_today": 2,
+    "day": "2026-11-13"
+  },
+  "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
+    "last_run": 1794492715.18502,
+    "last_summary": "Không thể ghi lên Drive qua tài khoản công việc qua session hiện tại. Lưu ghi chú trạng thái vào vault và báo cáo kết quả.\n\nTóm tắt kết quả loop này:\n\n---\n\n**Kết quả xử lý CV MOI - 12/11/2026 lúc 20:42**\n\n**CV 287 - CV 2051/YC-ANĐT-Đ2 (Hạn 15/11)**\n- Đã tạo dự thảo công văn trả lời và tờ trình\n- File để tải: https://backend.composio.dev/api/v3/sl/bvJEMejChA (ZIP gồm 2 file, dùng `curl -L` để tải)\n- **Cần làm thủ công:**\n  1. Tải file ZIP về, giải nén lấy 2 file Word\n  2. Upload vào Drive folder `287. CV 2051-CA DONG NAI-KT2`\n  3. Điền vào ô đỏ trong dự thảo:\n     - Số công văn Thuế TP (DON-KTr1)\n     - CBQL Tổ KT2 cho MST 3603446449 và 3603776888 (tra DB NNT)\n     - Thực trạng khai thuế GTGT/TNDN từ TMS\n  4. Cập nhật cột O (Tình trạng) trên sổ Bao_cao_cong_van.xlsx: hàng folder 287 → \"Đang xử lý\"\n\n**Nội dung dự thảo CV 287:**\n- Kính gửi: Thuế thành phố Đồng Nai\n- Trả lời về 2 DN thuộc TCS3: Thành Phát (3603446449, KT2) và Hà Anh Phát (3603776888, KT2)\n- Kim Ngoan (3800426265 - TCS7) - ",
+    "last_status": "ok",
+    "runs_today": 1,
+    "day": "2026-11-12",
+    "fail_streak": 0
+  }
+}
