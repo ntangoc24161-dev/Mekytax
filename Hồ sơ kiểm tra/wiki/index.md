@@ -36,3 +36,9 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Hồ sơ đề xuất hoàn thuế kiêm bù trừ thu ngân sách đối với doanh nghiệp giải thể]] - Hồ sơ giải quyết hoàn thuế GTGT kiêm bù trừ nghĩa vụ tài chính phát sinh sau kiể
 - [[Cấu trúc bộ hồ sơ xác minh NCC rủi ro và TNCN nhiều nguồn thu nhập]] - Một bộ hồ sơ xác minh NCC rủi ro kết hợp xác minh TNCN nhiều nguồn thu nhập gồm
 - [[Quy trình lập hồ sơ kiểm tra thuế đối với doanh nghiệp giải thể]] - Quy trình chuẩn hóa lập và hoàn thiện bộ hồ sơ kiểm tra quyết toán giải thể: bộ 22 văn bản, Mục III NSNN, văn bản từ chối nộp thừa, bù trừ hoàn thuế.
+- [[Mô hình Hybrid Mail Merge và AI trong lập hồ sơ kiểm tra thuế]] - ## Ý chính
+- Word Mail Merge không tự làm mới khi sửa sổ Excel nguồn, dễ vỡ form
+- [[Quy trình chuyển trạng thái và đồng bộ số liệu trên sổ theo dõi kiểm tra thuế]] - Quy trình vận hành sổ theo dõi kiểm tra quyết toán thuế (`Danh sach kiem tra quy
+- [[Kỹ thuật kết nối trực tiếp Mail Merge từ sheet theo dõi qua dòng 1 ẩn]] - Để Word Mail Merge kết nối trực tiếp với bảng tính theo dõi có tiêu đề nhiều dòn
+- [[Kỹ thuật xử lý xung đột đường kẻ tiêu đề văn bản hành chính Word]] - Trong quá trình tự động hóa lập hồ sơ kiểm tra thuế bằng Microsoft Word, hiện tư
+- [[Mô hình Mail Merge phân luồng theo loại hình kiểm tra thuế]] - Mô hình Mail Merge trong hệ thống kiểm tra quyết toán phân luồng hồ sơ dựa trên

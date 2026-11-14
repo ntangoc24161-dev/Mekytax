@@ -1,4 +1,5 @@
 ---
+superseded_by: ho-so-kiem-tra-mst-3603721832-hoan-tat-dien-dtchep
 type: business
 provenance: user
 origin: javis-learned
@@ -16,3 +17,7 @@ Vụ Tâm Hoàng Phát (MST 3603721832) kỳ 2023-2025:
 - BBXN Thành viên 3 năm xác nhận CPTC không chênh lệch; BBXN Trưởng đoàn giải trình loại lương vào chi phí QLDN kèm bảng chi tiết họ tên/MST/số tiền.
 - Mốc hồ sơ về: công bố 26/10/2026, kết thúc 10/11/2026, ký BBKT 12/11/2026, báo cáo 13/11/2026.
 - Đã cập nhật vào `TONG HOP.docx` và ô AR14 sổ `Danh sach kiem tra quyet toan pro.xlsm` ngày 09/11/2026.
+
+
+## Lịch sử
+- [2026-11-13] Bị thay thế bởi [[ho-so-kiem-tra-mst-3603721832-hoan-tat-dien-dtchep]] (user đổi thông tin).

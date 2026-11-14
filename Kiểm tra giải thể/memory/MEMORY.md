@@ -11,3 +11,6 @@
 - [Quy cách trình bày số và ngày quyết định khi chưa ban hành](facts/quy-cach-trinh-bay-so-ngay-quyet-dinh-chua-ban-hanh.md) - Bỏ hẳn năm và các dấu chấm lửng khi chưa có số ngày QĐ, canh lề dưới chữ sở của Thuế cơ sở
 - [Các văn bản doanh nghiệp nộp trong hồ sơ giải thể](facts/cac-van-ban-doanh-nghiep-nop-khi-giai-the.md) - Hồ sơ giải thể có Văn bản từ chối nhận nộp thừa và Công văn xin quyết toán giải thể của DN
 - [Nội dung kiểm tra trên QĐKT giải thể mặc định là Kiểm tra chấp hành pháp luật Thuế](facts/noi-dung-kiem-tra-tren-qdkt-giai-the.md) - QĐKT hồ sơ giải thể mặc định ghi nội dung là 'Kiểm tra chấp hành pháp luật Thuế', chỉ chi tiết ở phân công
+
+- [Mô hình Hybrid 2 tầng và Mail Merge trực tiếp cho hồ sơ giải thể](facts/dong-bo-mail-merge-truc-tiep-tu-01-da-ban-hanh.md) - Tầng 1 Mail Merge từ 01_DA_BAN_HANH lọc Loai_hinh=GT; Tầng 2 bóc tách số liệu Bảng tính.
+- [Phân biệt Chi phí quản lý kinh doanh và Chi phí quản lý doanh nghiệp](facts/phan-biet-chi-phi-quan-ly-kinh-doanh-va-quan-ly-doanh-nghiep.md) - Chi phí quản lý kinh doanh và Chi phí quản lý doanh nghiệp là 2 chi phí khác nhau do người dùng xác định, không tự ý sửa

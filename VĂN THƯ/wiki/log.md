@@ -45,3 +45,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 ## [2026-11-06] update | Open question tự đổi brain
 - Chủ muốn: sau xác nhận bàn giao, Javis tự đổi brain + mở agent đích.
 - Ghi `_open-questions` + cập nhật mục tiêu [[Backlog-van-hanh-lien-phong]] mục 1 (vẫn là kế hoạch sản phẩm, chưa có hiện trạng).
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Quy Trình Xử Lý Thông Báo Mời Giải Trình NNT]]

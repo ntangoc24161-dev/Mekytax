@@ -199,3 +199,27 @@ Liên quan: [[Quy trình lập hồ sơ kiểm tra thuế đối với doanh ngh
 - **Nội dung chuẩn hóa**: (1) QĐ 1377/QĐ-CT chốt thống nhất năm 2025; (2) Dự thảo QĐ để trống toàn bộ ngày tháng năm `Trấn Biên, ngày       tháng       năm      `; (3) Ký hiệu dự thảo để khoảng trống `Số:              /QĐ-TCS3`, tuyệt đối không dùng mã tạm `DU_THAO-TRINH-KY`; (4) Không cập nhật lại số/ngày khi QĐ đã ban hành; (5) Khoảng cách chữ ký mặc định 5 dòng trong cùng 1 ô, co 4 dòng khi tràn trang; (6) BBXN Trưởng đoàn đánh số TT 1 và 2 cho QLDN và Bán hàng, chuẩn hóa giải trình.
 Liên quan: [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]], [[Kỹ thuật căn chỉnh chữ ký trong ô và chống rớt trang theo Nghị định 30]]
 
+## [2026-11-12] ingest | tự học từ chat
+
+Đã tạo:
+- [[Mô hình Hybrid Mail Merge và AI trong lập hồ sơ kiểm tra thuế]]
+
+## [2026-11-12] ingest | tự học từ chat
+
+Đã tạo:
+- [[Quy trình chuyển trạng thái và đồng bộ số liệu trên sổ theo dõi kiểm tra thuế]]
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Kỹ thuật kết nối trực tiếp Mail Merge từ sheet theo dõi qua dòng 1 ẩn]]
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Kỹ thuật xử lý xung đột đường kẻ tiêu đề văn bản hành chính Word]]
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Mô hình Mail Merge phân luồng theo loại hình kiểm tra thuế]]

@@ -5,47 +5,45 @@ group: Tài chính
 origin: javis-learned
 status: active
 created: 2026-11-05
-updated: '2026-11-05'
-learned_updated: '2026-11-05'
+updated: '2026-11-12'
+learned_updated: '2026-11-12'
 ---
 ## Khi nào dùng
-- User yêu cầu: "căn cứ file bang tinh.xlsx / sheet TINH PHAT + CHAM NOP (C T) trong thư mục <VỤ>/0. BIEN BAN cập nhật lại sổ Danh sach kiem tra quyet toan pro.xlsm".
-- Sau khi đoàn chốt số truy thu, phạt, chậm nộp trên Bảng tính và cần đồng bộ sang sổ theo dõi.
-- User báo "đã đóng file excel, cập nhật lại": chạy lại toàn bộ quy trình từ bước 1 (bản Drive mới đã đè mất ô sửa lần trước).
+- User yêu cầu: "đối chiếu / đồng bộ số liệu phạt và chậm nộp giữa Bảng tính và sổ theo dõi".
+- Khi đoàn chốt số biên bản kiểm tra và cần tự động cập nhật số liệu sang sổ theo dõi `Danh sach kiem tra quyet toan pro.xlsm`.
+- Chạy trước khi kết thúc khâu soạn biên bản và hồ sơ về.
 
 ## Chuẩn bị
-- Bảng tính của vụ: Drive `ntangoc2416.1@gmail.com`, thư mục `1. TD/<số>. <TEN VU>/0. BIEN BAN/Bang tinh.xlsx`.
-- Sổ theo dõi: `Danh sach kiem tra quyet toan pro.xlsm` (thư mục `00. Theo doi chung` trên Drive), sheet `01_DA_BAN_HANH`, tìm dòng của vụ theo MST.
-- Đọc Drive qua Composio, PHẢI truyền account của user (xem fact doc-file-google-drive-qua-composio).
+- Bảng tính của vụ: `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\2026\1. TD\<VỤ>\0. BIEN BAN\Bang tinh.xlsx`.
+- Sổ theo dõi: `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\1- KIEM TRA\1. KIEM TRA TAI TRU SO NNT\00. Theo doi chung\Danh sach kiem tra quyet toan pro.xlsm`, tìm dòng theo MST/tên vụ tại `01_DA_BAN_HANH` hoặc `02_DANG_THUC_HIEN`.
+- Script tự động hóa: `scripts/dong_bo_tinh_phat_sang_so.py`.
 
-## Quy trình
-1. Lấy metadata cả Bảng tính và sổ trên Drive, so ngày sửa với bản trong vault `exports/<vu>-<mst>/`. Bản Drive mới hơn thì tải lại và thay bản vault; không dùng bản vault cũ làm nguồn.
-2. Nếu thấy file lock `~$` mới tạo trên Drive thì file đang mở trong Excel của user: vẫn làm nhưng báo user số có thể còn chạy và việc lưu đè từ Excel sẽ làm mất ô vừa sửa.
-3. Mở sheet `TINH PHAT + CHAM NOP (C T)`, đọc dòng TỔNG CỘNG.
-4. Tìm dòng của vụ trong `01_DA_BAN_HANH` theo MST, đối chiếu từng cột:
-   - AJ: ngày ký BBKT
-   - AN: truy thu TNDN; AO: truy thu GTGT
-   - AQ: chậm nộp GTGT; AR: chậm nộp TNDN (0,03%)
-   - AT: phạt khai sai 20%; AU: phạt thủ tục
-   - AX: giảm lỗ
-5. Chỉ ghi các ô lệch. Ô khớp giữ nguyên.
-6. Các ô AP, AS, AV, AW là công thức: KHÔNG ghi đè, Excel tự tính lại khi mở.
-7. Lưu sổ giữ nguyên VBA (định dạng .xlsm), dọn file tạm tải về.
-8. Kiểm tổng: truy thu + chậm nộp + phạt phải khớp ô tổng phát sinh trên sheet TINH PHAT (sai lệch chỉ do làm tròn).
-9. Báo user dạng bảng: cột, chỉ tiêu, số cũ, số mới; liệt kê ô giữ nguyên; tổng sau cập nhật.
+## Quy tắc cơ chế chốt
+1. **Chế độ vận hành**: Luôn đồng bộ tự động mỗi lần chạy. Khi phát hiện ô số liệu lệch giữa Bảng tính và sổ, tự động ghi đè số mới vào sổ `pro.xlsm` mà không cần xác nhận từng ô.
+2. **Mốc thời điểm tính phạt**: Lấy **Ngày ký BBKT** trên sổ (cột 36 / AJ) làm mốc điền vào cột D "Ngày lập biên bản kiểm tra" trên sheet `TINH PHAT + CHAM NOP (C T)` để Excel tính toán chính xác tiền chậm nộp 0,03% đến ngày ký BBKT.
+3. **Phạt thủ tục VPHC (cột 47 / AU)**: Cảnh báo riêng khi có phát sinh (> 0) để người dùng kiểm tra lại hồ sơ xử phạt vi phạm hành chính.
+4. **Bảo vệ cấu trúc sổ**:
+   - Tuyệt đối KHÔNG tạo file `.bak` trong thư mục `00. Theo doi chung\`.
+   - Giữ nguyên macro VBA (`keep_vba=True`).
+   - KHÔNG ghi đè các cột công thức tự tính: AP (tổng truy thu), AS (tổng chậm nộp), AV (tổng phạt), AW (tổng phát sinh).
+   - **Tự động điền công thức chữ `=DocSo(...)`**: Khi cập nhật số liệu hoặc thêm công ty mới vào `01_DA_BAN_HANH`, tự động sao chép/điền công thức đọc số cho 6 cột cuối (cột 53 đến 58 / BA đến BF: `Tong_truy_thu_chu`, `Tong_cham_nop_chu`, `Tong_tien_phat_chu`, `Tong_phat_sinh_chu`, `Giam_lo_chu`, `Giam_khau_tru_chu`).
 
-## Bẫy
-- Sheet TINH PHAT không có chỉ tiêu giảm lỗ: không tự chốt cột AX, hỏi user hoặc lấy từ DTCHEP khi user đồng ý.
-- Chưa ghi được ngược lên Drive (Composio upload chỉ nhận s3key trong kho của nó). Báo user sửa tay ô lệch trong sổ đang mở, hoặc tải bản vault lên thay bản Drive.
-- Khi sổ đang mở trong Excel, dặn user: nếu muốn dùng bản vault thì đóng Excel KHÔNG LƯU. Thực tế 05/11/2026: user đóng Excel có lưu, bản Drive mới (04:13) đè mất ô AR14 vừa sửa, phải tải lại và áp lại.
-- Không đề xuất tự đẩy file qua dịch vụ chia sẻ công khai để vòng lên Drive: đưa dữ liệu NNT ra ngoài, chỉ làm khi user duyệt rõ.
-- Không ghi đè ô công thức, kể cả khi giá trị cache trong file trông sai.
+## Quy trình thực hiện
+1. Mở sổ theo dõi `pro.xlsm`, tìm dòng theo MST để đọc **Ngày ký BBKT** (cột 36 / AJ).
+2. Mở sheet `TINH PHAT + CHAM NOP (C T)` trên `Bang tinh.xlsx`, kiểm tra cột D xem đã đúng Ngày ký BBKT chưa. Nếu chưa, cập nhật Ngày ký BBKT vào để Excel tính toán đúng tiền chậm nộp 0,03%.
+3. Đọc dòng TỔNG CỘNG trên sheet TINH PHAT và so sánh với dòng vụ trên sổ:
+   - Cột AN (40): Truy thu TNDN (tổng cột B trên Bảng tính)
+   - Cột AO (41): Truy thu GTGT (tổng cột C trên Bảng tính)
+   - Cột AQ (43): Chậm nộp GTGT (tổng cột H hoặc I trên Bảng tính)
+   - Cột AR (44): Chậm nộp TNDN 0,03% (tổng cột K hoặc M trên Bảng tính)
+   - Cột AT (46): Phạt khai sai 20% (tổng cột N trên Bảng tính)
+   - Cột AU (47): Phạt thủ tục VPHC (thông báo nếu > 0)
+4. Tự động ghi đè các ô lệch vào sổ và lưu file `pro.xlsm`.
+5. Báo cáo kết quả dạng bảng: chỉ tiêu, số cũ, số mới, trạng thái và cảnh báo phát sinh nếu có.
 
-## Kiểm chứng
-- Tổng phát sinh của dòng vụ khớp ô tổng trên sheet TINH PHAT.
-- VBA của sổ còn nguyên sau khi lưu (`xl/vbaProject.bin`).
-- Ghi md5 bản sổ mới vào báo cáo để đối chiếu khi user tải lên.
-- Không còn file tạm/bak trong thư mục export.
-
-## Lịch sử (tự học)
-- [2026-11-05] Bẫy cũ chỉ khuyên 'đóng Excel rồi tải bản vault lên thay' mà không dặn đóng KHÔNG lưu; trong hội thoại user đóng Excel có lưu, bản Drive 04:13 đè mất ô AR14 đã sửa, Javis phải tải lại và áp lại. Bổ sung bẫy này, trigger chạy lại, và kiểm chứng md5/VBA.
+## Lệnh thực thi nhanh
+```powershell
+python "scripts\dong_bo_tinh_phat_sang_so.py" <MST_hoac_Ten_vu>
+# Nếu chỉ muốn kiểm tra trước:
+python "scripts\dong_bo_tinh_phat_sang_so.py" <MST_hoac_Ten_vu> --dry-run
+```

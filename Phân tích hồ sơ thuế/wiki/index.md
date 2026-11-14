@@ -50,3 +50,8 @@ Kết quả phân tích trong bộ 6
 - [[Xử lý dữ liệu sao kê ngân hàng dạng PDF scan trong kiểm tra thuế]] - Trong quy trình phân tích hồ sơ kiểm tra thuế, dữ liệu sao kê ngân hàng/sổ phụ n
 - [[Kỹ thuật phân tích EBITDA trong kiểm tra thuế theo Nghị định 132/2020/NĐ-CP]] - Phân tích EBITDA phục vụ kiểm tra thuế tập trung vào việc xác định mức trần chi
 - [[Đối chiếu F0 F1 cho người nộp thuế và thứ tự ưu tiên cảnh báo rủi ro nhà cung cấp]] - Trong quy trình phân tích hồ sơ kiểm tra thuế, quy tắc đối chiếu rủi ro đối với
+- [[Tỷ suất lợi nhuận ngành trong kiểm tra rủi ro thuế TNDN tỉnh Đồng Nai]] - ### 1. Khái niệm và Mục đích
+Tỷ suất lợi nhuận ngành là bộ chỉ số định mức tham
+- [[Chính sách miễn giảm thuế TNDN, TNCN và GTGT giai đoạn 2020-2026]] - Giai đoạn 2020-2026, Chính phủ ban hành nhiều chính sách miễn, giảm thuế nhằm hỗ
+- [[Nguyên tắc trích khấu hao tài sản cố định theo Thông tư 45/2013/TT-BTC]] - Nguyên tắc quản lý, sử dụng và trích khấu hao tài sản cố định (TSCĐ) thực hiện t
+- [[Nguyên tắc và chuẩn hóa phôi Bảng tính biên bản kiểm tra thuế]] - Phôi `Bang tinh.xlsx` là bảng tính biên bản của cơ quan thuế phục vụ thanh kiểm

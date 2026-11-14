@@ -292,3 +292,23 @@ File vận hành: `skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md` + `play
 
 Đã tạo:
 - [[Đối chiếu F0 F1 cho người nộp thuế và thứ tự ưu tiên cảnh báo rủi ro nhà cung cấp]]
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Tỷ suất lợi nhuận ngành trong kiểm tra rủi ro thuế TNDN tỉnh Đồng Nai]]
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Chính sách miễn giảm thuế TNDN, TNCN và GTGT giai đoạn 2020-2026]]
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Nguyên tắc trích khấu hao tài sản cố định theo Thông tư 45/2013/TT-BTC]]
+
+## [2026-11-13] ingest | tự học từ chat
+
+Đã tạo:
+- [[Nguyên tắc và chuẩn hóa phôi Bảng tính biên bản kiểm tra thuế]]
