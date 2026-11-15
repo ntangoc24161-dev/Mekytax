@@ -2,18 +2,18 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794622674.5165694,
-    "last_summary": "Thư mục **CV MOI trên Google Drive tiếp tục trống** (0 file mới).\n\nTrong vòng quét sáng nay (09:14 Thứ Bảy ngày 14/11/2026), em đã kiểm tra tiếp nhận công văn mới và đối chiếu hiện trạng hồ sơ quản lý.\n\n### Việc đã thực hiện\n- **Kiểm tra tiếp nhận:** Quét thư mục `CV MOI` (ID `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive bằng tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận không có file công văn mới phát sinh.\n- **Rà soát danh mục năm 2026:** Thư mục mới nhất trên Drive hiện tại vẫn là Folder 288 (`288. CV 6089-CA TUYEN QUANG-KT1`), chưa phát sinh Folder 289+.\n- **Tra cứu đối chiếu CBQL:** Kiểm tra cơ sở dữ liệu `sources/DB NNT 03.06.2026.xlsx` cho 02 DN thuộc CV 4325 (Folder 284), xác nhận chưa có thông tin CBQL trên file dữ liệu hiện tại.\n- **Cập nhật hệ thống nhật ký:** Khởi tạo và ghi nhận kết quả vòng quét vào các file quản lý vòng lặp ngày 14/11/2026.\n\n### File đã chạm\n- `ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-14.md`\n- `",
+    "last_run": 1794709457.4927332,
+    "last_summary": "Thư mục **CV MOI trên Google Drive tiếp tục trống** (0 file mới).\n\nTrong vòng quét sáng Chủ Nhật (09:22 ngày 15/11/2026), em đã kiểm tra tiếp nhận công văn mới và rà soát tiến độ xử lý hồ sơ.\n\n### Việc đã thực hiện\n- **Kiểm tra tiếp nhận:** Quét thư mục `CV MOI` (ID `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive qua tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận 0 file mới phát sinh, hệ thống giữ nguyên trạng thái chờ.\n- **Rà soát danh mục năm 2026:** Thư mục mới nhất trên Drive hiện tại vẫn là `288. CV 6089-CA TUYEN QUANG-KT1` (ID `1FZEVhjDOmaXgyA1mDjk6JjpJ2bjVkyab`), chưa có Folder 289+.\n- **Theo dõi thời hạn hồ sơ:**\n  - **Folder 283 (CV 21143/YC-CSKT - CA Hưng Yên):** Hạn xử lý là **hôm nay 15/11/2026** (xác minh cá nhân Đỗ Thị Dung tại KP4, P. Long Bình). Hồ sơ đang để `[CHƯA XÁC ĐỊNH]` Tổ KT và chưa có dự thảo trả lời.\n  - **Folder 284 (CV 4325/ANĐT-Đ1 - CA Bắc Ninh):** Hạn xử lý 20/11/2026, đã có sẵn dự thảo công văn và tờ tr",
     "last_status": "ok",
-    "runs_today": 2,
-    "day": "2026-11-14"
+    "runs_today": 1,
+    "day": "2026-11-15"
   },
   "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
-    "last_run": 1794622505.0,
-    "last_summary": "Thư mục **CV MOI trên Google Drive tiếp tục trống** (0 file mới).\n\n### Việc đã thực hiện trong vòng này (09:14 Thứ Bảy ngày 14/11/2026)\n- **Kiểm tra tiếp nhận:** Quét thư mục `CV MOI` (ID `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive bằng tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận không có file công văn mới phát sinh.\n- **Rà soát danh mục:** Thư mục mới nhất trên Drive hiện tại là Folder 288 (`288. CV 6089-CA TUYEN QUANG-KT1`), chưa phát sinh Folder 289+.\n- **Cập nhật nhật ký:** Đã đồng bộ và ghi nhận kết quả vòng quét vào các file quản lý:\n  - `ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-14.md`\n  - `Javis/loop-log/2026-11-14.md`\n  - `Javis/loop-state.json`\n\n### Tồn đọng cần lưu ý và xin ý kiến chỉ đạo\n- **Folder 283 (CV 21143/CA Hưng Yên, hạn 15/11/2026 - ngày mai đến hạn):** Đối tượng xác minh là cá nhân Đỗ Thị Dung (CCCD 031181014465, Phường Long Bình). Cần xin ý kiến chỉ đạo giao Tổ KT1 (theo địa bàn) hay Đội QL thuế cá nhân/hộ kinh doanh để hoàn tất văn bản trả lời đúng hạn.\n- **Folder 284 (CV 4325/CA Bắc Ninh, hạn 20/11/2026):** Trên Drive đã có sẵn dự thảo; cần bổ sung tên CBQL Tổ KT1 cho 2 doanh nghiệp (Cty HPG và Cty Lưu Tính) để in phiếu phân công.",
-    "last_status": "✓ Đạt: Kết quả vòng loop chính xác, đã kiểm tra thư mục CV MOI không có file mới, cập nhật đầy đủ nhật ký và loop-state, không gây lỗi hay hỏng file.",
+    "last_run": 1794709026.690182,
+    "last_summary": "### Báo cáo vòng loop quét CV MOI (15/11/2026 - 09:15)\n\n**Kết quả: Không có CV mới**\n\n- **Kiểm tra tiếp nhận:** Đã quét thư mục `CV MOI` (ID: `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive qua tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận hiện tại **0 có file mới nào** (thư mục trống).\n- **Rà soát danh mục folder:** Thư mục cao nhất hiện tại trên hệ thống lưu trữ vẫn là **Folder 288** (`288. CV 6089-CA TUYEN QUANG-KT1`), chưa có thêm folder mới (289+).\n- **Trạng thái thực thi:** Thư mục `CV MOI` không có công văn tồn đọng cần xử lý, loop hoàn thành kiểm tra và dừng theo đúng quy trình.",
+    "last_status": "ok",
     "runs_today": 1,
-    "day": "2026-11-14",
+    "day": "2026-11-15",
     "fail_streak": 0
   }
 }
