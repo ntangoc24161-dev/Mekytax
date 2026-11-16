@@ -1,0 +1,19 @@
+{
+  "ho-so-cung-cap-cong-an": {
+    "auto_paused_reason": "",
+    "fail_streak": 0,
+    "last_run": 1794531893.6135206,
+    "last_summary": "### Báo cáo thực hiện vòng lặp: Tiếp nhận và Điều phối Công văn Công an\n\n**1. Kiểm tra thư mục tiếp nhận mới (`CV MOI`):**\n- Thư mục kiểm tra: `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`.\n- **Kết quả:** Thư mục hiện tại trống, không có file PDF/Word công văn mới phát sinh cần bóc tách.\n\n**2. Rà soát tiến độ và trạng thái sổ theo dõi (`Bao_cao_cong_van.xlsx` - sheet `NHAP_HO_SO`):**\n- Sổ hiện có tổng cộng **859 dòng dữ liệu**.\n- Đã ghi nhận và lập folder lưu trữ đến **Folder 288** (`288. CV 6089-CA TUYEN QUANG-KT1`).\n- **Tình trạng các hồ sơ phân Tổ KT1 đang ở trạng thái `Mới`:**\n  - **Folder 284** (CV `4325/ANĐT-Đ1` - CA TP Bắc Ninh): Gồm 2 doanh nghiệp (`HPG` - MST 3604070950 và `LƯU TÍNH` - MST 3604107784). Đã có sẵn file dự thảo công văn và tờ trình trong thư mục (`TRA LOI CV 4325_CA BAC NINH_du thao.docx`, `to trinh 4325.docx`).\n  - **Folder 286** (CV `19981/CV-CSHS(Đ3)` - CA tỉnh Thanh Hóa): Doanh nghiệp `GBM.13` (MST 3603982048, P. L",
+    "last_status": "✓ Đạt: Vòng lặp thực hiện đúng quy trình rà soát tiếp nhận và điều phối công văn, đọc kiểm tra dữ liệu an toàn ở chế độ chỉ đọc, không gây hại hay làm sai lệch tệp tin.",
+    "runs_today": 1,
+    "day": "2026-11-13"
+  },
+  "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
+    "last_run": 1794488527.4524682,
+    "last_summary": "**Không có CV mới**, nên vòng này dừng ở bước quét.\n\n- **Đã làm:** liệt kê thư mục `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI\\`. Ổ Drive truy cập bình thường.\n- **Kết quả:** trong thư mục chỉ có file hệ thống ẩn `desktop.ini` (sửa lúc 14:15 ngày 11/11/2026). Không có file PDF hay Word công văn nào.\n- **File đã chạm:** chỉ đọc danh sách thư mục. Không ghi hay sửa file nào, kể cả sổ `Bao_cao_cong_van.xlsx`.\n- **Không chạy:** hai workflow \"Quản lý công văn công an\" và \"Theo dõi & cập nhật CV trả lời đã ký\".\n\nKhi có công văn mới trong CV MOI, vòng 12:00 kế tiếp sẽ tự xử lý.",
+    "last_status": "✓ Đạt: I checked the CV MOI folder myself, including all subfolders. It holds only desktop.ini and no PDF or Word letters, so the loop was right to stop at the scan step. No files were written. I couldn't check the timestamp or the Excel file directly because this session can't run commands, but the report says nothing outside its scope.",
+    "runs_today": 1,
+    "day": "2026-11-12",
+    "fail_streak": 0
+  }
+}
