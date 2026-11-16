@@ -28,3 +28,5 @@
 - [Tờ trình ban hành thông báo mời đi kèm bộ thông báo](facts/to-trinh-ban-hanh-thong-bao-moi-khbs.md) - Tờ trình ban hành thông báo mời căn cứ QĐ 1412/QĐ-DON, lưu chung thư mục THONG BAO MOI
 - [Lộ trình mở rộng hệ thống theo dõi hồ sơ kiểm tra](facts/lo-trinh-so-theo-doi-chung-ho-so-kiem-tra.md) - Làm trước cho nhóm KHBS; khi có nhiệm vụ mới mới thêm trợ lý theo dõi chung báo cáo trưởng phòng
 - [Sổ theo dõi danh sách thông báo mời giải trình](facts/so-theo-doi-thong-bao-moi-giai-trinh.md) - Các trường hợp mời giải trình theo dõi tại G:\...\1. CONG TAC KIEM TRA\So theo doi danh sach Thong bao moi.xlsx
+- [Điền thẳng vào file mẫu gốc người dùng gửi](facts/preference-dien-thang-vao-file-mau-goc.md) - Khi người dùng gửi file mẫu văn bản, điền trực tiếp vào mẫu đó, không dựng lại bố cục.
+- [Chuyên đề kiểm tra hai trường học, hồ sơ mời giải trình lần 1 (2026)](facts/chuyen-de-truong-hoc-2026-hai-don-vi.md) - Hai trường (Tiểu học Nguyễn Huệ, Mẫu giáo Bình Minh) đang được lập thông báo mời giải trình lần 1; sổ theo dõi chưa cập nhật.

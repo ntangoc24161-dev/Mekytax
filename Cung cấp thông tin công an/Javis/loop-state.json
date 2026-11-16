@@ -2,18 +2,18 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794709457.4927332,
-    "last_summary": "Thư mục **CV MOI trên Google Drive tiếp tục trống** (0 file mới).\n\nTrong vòng quét sáng Chủ Nhật (09:22 ngày 15/11/2026), em đã kiểm tra tiếp nhận công văn mới và rà soát tiến độ xử lý hồ sơ.\n\n### Việc đã thực hiện\n- **Kiểm tra tiếp nhận:** Quét thư mục `CV MOI` (ID `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive qua tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận 0 file mới phát sinh, hệ thống giữ nguyên trạng thái chờ.\n- **Rà soát danh mục năm 2026:** Thư mục mới nhất trên Drive hiện tại vẫn là `288. CV 6089-CA TUYEN QUANG-KT1` (ID `1FZEVhjDOmaXgyA1mDjk6JjpJ2bjVkyab`), chưa có Folder 289+.\n- **Theo dõi thời hạn hồ sơ:**\n  - **Folder 283 (CV 21143/YC-CSKT - CA Hưng Yên):** Hạn xử lý là **hôm nay 15/11/2026** (xác minh cá nhân Đỗ Thị Dung tại KP4, P. Long Bình). Hồ sơ đang để `[CHƯA XÁC ĐỊNH]` Tổ KT và chưa có dự thảo trả lời.\n  - **Folder 284 (CV 4325/ANĐT-Đ1 - CA Bắc Ninh):** Hạn xử lý 20/11/2026, đã có sẵn dự thảo công văn và tờ tr",
+    "last_run": 1794795648.0,
+    "last_summary": "Thư mục **CV MOI trên Google Drive tiếp tục trống** (0 file mới).\n\nTrong vòng quét sáng Thứ Hai đầu tuần (09:20 ngày 16/11/2026), em đã kiểm tra tiếp nhận công văn mới và rà soát tiến độ xử lý hồ sơ.\n\n### Việc đã thực hiện\n- **Kiểm tra tiếp nhận:** Quét thư mục `CV MOI` (ID `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive qua tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận 0 file mới phát sinh, hệ thống tiếp tục duy trì trạng thái chờ.\n- **Rà soát danh mục năm 2026:** Thư mục mới nhất trên Drive hiện tại vẫn là `288. CV 6089-CA TUYEN QUANG-KT1` (ID `1FZEVhjDOmaXgyA1mDjk6JjpJ2bjVkyab`), chưa có Folder 289+.\n- **Rà soát CV trả lời đã ký số (-R):** Folder ký số cao nhất hiện tại là `278. CV 12083-CA TP. HCM-KT1-R`, các folder từ 279 đến 288 chưa phát sinh file ký số mới.\n- **Theo dõi thời hạn hồ sơ & Cảnh báo quá hạn:**\n  - **Folder 283 (CV 21143/YC-CSKT - CA Hưng Yên):** Hạn xử lý là **15/11/2026** -> **ĐÃ QUÁ HẠN 1 NGÀY** (xác minh cá nhân Đỗ Thị Dung tại KP4, P. Long Bình). Đang để `[CHƯA XÁC ĐỊNH]` Tổ KT và chưa có dự thảo trả lời. Cần xin ý kiến chỉ đạo khẩn: giao Tổ KT1 (theo địa bàn Long Bình) hay Đội QL thuế cá nhân/HKD để hoàn tất văn bản trả lời ngay.\n  - **Folder 287 (CV 2051/YC-ANĐT-Đ2 - CA Đồng Nai):** Hạn xử lý là **15/11/2026** -> **ĐÃ QUÁ HẠN 1 NGÀY** (Tổ KT2 xử lý). Cần hoàn tất đưa dự thảo lên folder Drive để trình ký gấp.\n  - **Folder 284 (CV 4325/ANĐT-Đ1 - CA Bắc Ninh):** Hạn xử lý **20/11/2026**, đã có sẵn dự thảo trên Drive, chờ bổ sung CBQL Tổ KT1 cho 2 doanh nghiệp để in phiếu phân công.",
     "last_status": "ok",
     "runs_today": 1,
-    "day": "2026-11-15"
+    "day": "2026-11-16"
   },
   "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
-    "last_run": 1794709026.690182,
-    "last_summary": "### Báo cáo vòng loop quét CV MOI (15/11/2026 - 09:15)\n\n**Kết quả: Không có CV mới**\n\n- **Kiểm tra tiếp nhận:** Đã quét thư mục `CV MOI` (ID: `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive qua tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận hiện tại **0 có file mới nào** (thư mục trống).\n- **Rà soát danh mục folder:** Thư mục cao nhất hiện tại trên hệ thống lưu trữ vẫn là **Folder 288** (`288. CV 6089-CA TUYEN QUANG-KT1`), chưa có thêm folder mới (289+).\n- **Trạng thái thực thi:** Thư mục `CV MOI` không có công văn tồn đọng cần xử lý, loop hoàn thành kiểm tra và dừng theo đúng quy trình.",
-    "last_status": "ok",
+    "last_run": 1794795724.8819478,
+    "last_summary": "Thư mục **CV MOI trên Google Drive tiếp tục trống** (0 file mới).\n\nTrong vòng quét sáng Thứ Hai (09:20 ngày 16/11/2026), hệ thống đã kiểm tra tiếp nhận công văn mới và rà soát tiến độ xử lý hồ sơ.\n\n### Việc đã thực hiện\n- **Kiểm tra tiếp nhận:** Đã quét thư mục `CV MOI` (ID `1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`) trên Google Drive qua tài khoản `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`). Kết quả xác nhận **0 file mới phát sinh**, hệ thống tiếp tục duy trì trạng thái chờ.\n- **Rà soát danh mục năm 2026:** Thư mục mới nhất trên Drive hiện tại vẫn là **Folder 288** (`288. CV 6089-CA TUYEN QUANG-KT1` - ID `1FZEVhjDOmaXgyA1mDjk6JjpJ2bjVkyab`), chưa có Folder 289+.\n- **Rà soát CV trả lời đã ký số (-R):** Folder hoàn tất ký số cao nhất hiện tại là `278. CV 12083-CA TP. HCM-KT1-R`. Các folder từ 279 đến 288 chưa phát sinh file ký số mới.\n- **Theo dõi thời hạn hồ sơ & Cảnh báo quá hạn:**\n  - **Folder 283 (CV 21143/YC-CSKT - CA Hưng Yên):** Hạn thực hiện là **15/11/2026** -> **",
+    "last_status": "✓ Đạt: Vòng loop thực hiện đúng phạm vi quét tiếp nhận CV mới, theo dõi sát thời hạn hồ sơ tồn đọng và cập nhật đầy đủ, chính xác các file nhật ký mà không gây lỗi hay tổn hại hệ thống.",
     "runs_today": 1,
-    "day": "2026-11-15",
+    "day": "2026-11-16",
     "fail_streak": 0
   }
 }

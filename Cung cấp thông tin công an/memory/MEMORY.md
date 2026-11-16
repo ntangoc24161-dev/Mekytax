@@ -88,3 +88,6 @@
 - [Tài khoản Drive có quyền ghi hồ sơ CA](facts/tai-khoan-drive-ghi-ho-so-ca.md) - Ghi Drive HS CA bằng googledrive_ralph-urbane; đẩy sổ qua workbench upload_local_file + UPLOAD_UPDATE_FILE.
 - [Không đọc ảnh scan bằng công cụ xem ảnh trên bot](facts/khong-doc-anh-scan-bang-read-tren-bot.md) - Đọc CV scan bằng OCR, không render PNG để xem vì ảnh hiện lên hội thoại.
 - [CBQL SaiGonFA là Trịnh Thị Thanh Hương](facts/cbql-saigonfa-3603482743.md) - MST 3603482743 KT1, DB KTR1 03/06 ghi sai tên; lệch sổ cũ và DB thì hỏi lại.
+- [Đường dẫn file dự thảo CV 34799 trả lời Công an Đồng Nai](facts/duong-dan-file-du-thao-cv-34799.md) - File dự thảo tại H:\My Drive\HS CONG AN-2025-2026\...\CV 34799_du thao.docx
+- [CV 34799 cần dự thảo cho KT1, KT2, KT3 (mở rộng)](facts/pham-vi-du-thao-cv-34799.md) - Phạm vi mở rộng từ KT1 sang toàn bộ KT1, KT2, KT3
+- [CV 34799: tính tổng tiền xử phạt theo cùng số quyết định](facts/quy-tac-tong-tien-xp-cung-so-qd-cv34799.md) - Khi nhiều DN chịu cùng 1 QĐ, tính tổng tiền xử phạt nhóm lại

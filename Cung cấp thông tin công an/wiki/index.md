@@ -13,3 +13,4 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Phân Tổ Kiểm tra phải kiểm tra cơ quan thuế quản lý]] - Phân Tổ Kiểm tra (KT1, KT2, KT3) theo Phường/Xã chỉ hợp lệ sau khi đã xác định n
 - [[Ổ I: Google Drive Desktop và đường /mnt/i trên Javis VPS]] - Ổ `I:` trên máy Windows là Google Drive for Desktop, ánh xạ thư mục `My Drive`.
 - [[Quy-trinh-xu-ly-CV-Cong-an|Quy trình xử lý Công văn Công an - 4 bước]] - Bóc tách → Phân công → Soạn thảo → Quản lý hồ sơ (2026), có 4 cổng kiểm soát chéo.
+- [[Nhóm dữ liệu xử phạt theo số quyết định khi dự thảo công văn]] - Khi dự thảo công văn trả lời Công an có nhều doanh nghiệp cùng bị xử phạt theo 1
