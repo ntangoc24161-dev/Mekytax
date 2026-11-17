@@ -12,8 +12,8 @@ folder: "287. CV 2051-CA DONG NAI-KT2"
 - Số hiệu: **2051/YC-ANĐT-Đ2** (Mẫu 157 TT 128/2025), ngày **30/10/2026**
 - Cơ quan: Cơ quan An ninh điều tra - Công an thành phố Đồng Nai
 - Nơi nhận: Thuế TP Đồng Nai, Thuế cơ sở 3 và Thuế cơ sở 7
-- Số đến Thuế TP: 6132 ngày 09/11/2026
-- File: `pdf/6132_CV2051-YC-ANDT-D2.pdf`
+- Số đến Thuế TP: 6132 ngày 09/11/2026; Số đến TCS3: **14489** ngày **16/11/2026** (bản trực tiếp `2051YC-ANĐT.pdf` đã ghép vào Folder 287 ngày 17/11/2026)
+- File: `pdf/6132_CV2051-YC-ANDT-D2.pdf`, `pdf/2051YC-ANDT.pdf`
 - Hạn CA: **trước 12/11/2026**
 - ĐTV: Đặng Thanh Quang, 0392.656.633; địa chỉ 1032 Nguyễn Ái Quốc, P. Trảng Dài
 
