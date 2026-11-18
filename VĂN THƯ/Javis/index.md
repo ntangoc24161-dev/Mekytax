@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 30 agents · 61 skills · 10 workflows (6 bật) · 3 loops (0 bật) · 29 plugins (28 chạy)
+**Tổng quan:** 30 agents · 61 skills · 10 workflows (6 bật) · 2 loops (0 bật) · 29 plugins (28 chạy)
 
 ## Agents
 - **Chuyên viên công nợ và tiền mặt** (`chuyen-vien-cong-no-tien-mat`) - Quét chi tiền mặt 111, cụm HĐ cùng ngày, công nợ 131/331, sao kê 112. Ngưỡng K5 dùng >=. · skills: phan-tich-cong-no-tien-mat · tags: Tài chính
@@ -22,14 +22,14 @@
 - **Phân tích viên dữ liệu CQT** (`phan-tich-vien-cqt`) - Chạy 57 quy tắc khi chưa có sổ DN, nhãn Chắc/Sơ bộ, xuất KQ2. Chỉ sau mức A hoặc B, hoặc để giữ phần Chắc từ CQT. · skills: giai-doan-2-phan-tich-du-lieu-co-quan-thue · tags: Tài chính
 - **Phân tích viên sổ sách DN** (`phan-tich-vien-so-sach-dn`) - Chạy 23 quy tắc sổ DN, chuỗi 5 mắt xích, nâng sơ bộ thành chắc hoặc giải tỏa, xuất KQ3. Chỉ khi mức C/D/E. · skills: giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
 - **Pháp chế & chính sách thuế** (`phap-che-chinh-sach-thue`) - trợ lý hỗ trợ - trả lời câu hỏi luật/chính sách có trích dẫn điều khoản khi Điều phối hoặc Soạn thảo vướng căn cứ · skills: thue-gtgt, thue-tncn, thue-tndn, hoa-don-dien-tu, luat-quan-ly-thue, xu-ly-rui-ro-thue-hoa-don, xu-phat-vphc-thue-hoa-don, quy-trinh-hoan-thue, quy-trinh-kiem-tra-thue, huong-dan-kiem-tra-chuyen-de, kiem-tra-thue-thuong-mai-dien-tu, luat-thuong-mai-dien-tu, quy-che-phoi-hop-kiem-tra-thue, luat-phong-chong-tham-nhung · tags: Tài chính
-- **Phòng Văn Thư - Tiếp nhận & Phân công** (`phong-van-thu`) - Tiếp nhận danh sách thông báo mới, phân công cán bộ xử lý, cập nhật bảng quản lý tập trung · tags: Vận hành, Văn thư
+- **Phòng Văn Thư - Tiếp nhận & Phân công** (`phong-van-thu`) - Tiếp nhận danh sách thông báo/kiểm tra mới, phân công cán bộ, cập nhật file Master theo dõi công tác kiểm tra · tags: Vận hành, Văn thư
 - **Tiếp nhận & Điều phối công văn** (`quản-lý-hồ-sơ-công-an`) - đầu vào phòng cung cấp hồ sơ Công an - tiếp nhận, bóc tách, tra cứu NNT, phân Tổ KT, cập nhật sổ và đóng thư mục · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-cuu-ioffice-dong-nai, pdf-sang-md, dong-bo-thu-muc-ca · tags: Tài chính
 - **so-hoa-ocr-cong-van** (`so-hoa-ocr-cong-van`) - 
 - **Trợ lý soạn thảo biên bản và hồ sơ về** (`soan-bien-ban-ho-so-ve`) - Chuyên viên văn bản soạn biên bản, hồ sơ về và quyết định xử phạt trình ký. · skills: soan-thao-van-ban, dien-bien-ban-tu-bang-tinh, xu-phat-vphc-thue-hoa-don · tags: Tài chính
 - **Trợ lý soạn thảo hồ sơ đi** (`soan-ho-so-di`) - Chuyên viên văn bản soạn hồ sơ đi và trình ký theo đúng thể thức. · skills: ho-so-kiem-tra-ke-hoach, soan-thao-van-ban · tags: Tài chính
 - **Soạn thảo trả lời Công an** (`soan-thao-tra-loi-cong-an`) - đầu ra giấy tờ của phòng - dự thảo công văn phúc đáp và tờ trình đúng thể thức NĐ 30/2020 từ gói bàn giao của Điều phối · skills: tra-loi-cong-van, soan-thao-van-ban · tags: Tài chính
 - **soan-thao-van-ban** (`soan-thao-van-ban`) - 
-- **Theo dõi & Nhắc nhở - Deadline thông báo** (`theo-doi-tien-do`) - Kiểm tra hàng ngày, gửi nhắc nhở Telegram cho cán bộ quá hạn, cập nhật trạng thái · tags: Vận hành
+- **Theo dõi & Nhắc nhở - Deadline thông báo** (`theo-doi-tien-do`) - Kiểm tra deadline trên file Master, gửi nhắc Telegram, báo cấp đỏ cho trưởng phòng · tags: Vận hành
 - **Thủ hồ sơ và Kiểm kê GĐ1** (`thu-ho-so-kiem-ke`) - Tổ chức cây thư mục 4 bước, checklist A4, manifest IN00-IN14, mức A-E, xuất KQ1. Cấm phân tích rủi ro. · skills: to-chuc-ho-so-kiem-tra-thue, giai-doan-1-kiem-ke-danh-gia · tags: Tài chính
 - **Tra cứu và tải công văn iOffice** (`tra-cuu-tai-cv-ioffice`) - Đăng nhập VNPT iOffice Đồng Nai, lọc công văn cảnh báo, tải tệp đính kèm về thư mục lưu trữ · skills: tra-cuu-ioffice-dong-nai · tags: Tài chính
 - **tri-thuc-second-brain** (`tri-thuc-second-brain`) - 
@@ -118,11 +118,10 @@
 - **Quy trình soạn thảo và ban hành văn bản đi** (`quy-trinh-soan-thao-va-ban-hanh-van-ban-di`) - active · 3 bước [phong-van-thu -> soan-thao-van-ban -> phong-van-thu] · Kiểm thể thức NĐ 30, chuẩn hóa Word TCS3, cấp số và phát hành văn bản đi
 - **Quy trình tiếp nhận và xử lý công văn đến** (`quy-trinh-tiep-nhan-va-xu-ly-cong-van-den`) - active · 2 bước [so-hoa-ocr-cong-van -> phong-van-thu] · OCR công văn đến, vào sổ Văn thư, phân phòng thụ lý và đặt hạn theo độ khẩn
 ### Vận hành
-- **Quy trình xử lý thông báo đóng/mở HĐ** (`quy-trinh-xu-ly-thong-bao`) - off · 3 bước [phong-van-thu -> theo-doi-tien-do -> xu-ly-cuoi] · Tiếp nhận → Phân công → Gửi L1/L2 → Giải trình → Quyết định (Đóng HĐ / Phiếu chuyển)
+- **Quy trình xử lý thông báo đóng/mở HĐ** (`quy-trinh-xu-ly-thong-bao`) - off · 3 bước [phong-van-thu -> theo-doi-tien-do -> xu-ly-cuoi] · Tiếp nhận → Phân công trên Master → Theo dõi L1/L2 → Quyết định Đóng HĐ / Phiếu chuyển
 
 ## Loops
 - **Kiểm tra & xử lý cuối mỗi thứ 2 tuần** (`kiem-tra-xu-ly-cuoi-tuan`) - tắt · custom/full · mỗi 10080 phút
-- **Nhắc nhở thông báo hàng ngày** (`nham-nho-thong-bao-hang-ngay`) - tắt · custom/full · mỗi 1440 phút
 - **Văn thư điều phối và đôn đốc** (`van-thu-dieu-phoi-don-doc.conflict-remote-20261102-231000`) - tắt · custom/full · mỗi 180 phút
 
 ## Plugins (tool/hook native cho mọi engine)

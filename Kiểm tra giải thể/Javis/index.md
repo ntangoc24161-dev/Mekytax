@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 6 agents · 31 skills · 3 workflows (1 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 6 agents · 32 skills · 3 workflows (1 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
 
 ## Agents
 - **Giám sát hồ sơ** (`giam-sat-ho-so`) - Giám sát kết quả công việc, thẩm định số liệu chéo Bảng tính và kiểm soát thể thức văn bản theo Nghị định 30. · skills: ho-so-kiem-tra-giai-the, lap-ho-so-kiem-tra, doi-chieu-ncc-mua-vao-rui-ro, query-wiki, lint-wiki · tags: giam-sat, tham-dinh, the-thuc-nd30, giai-the
@@ -41,6 +41,7 @@
 - **Giai đoạn 3 - Hoàn chỉnh hồ sơ & Sổ sách DN** (`giai-doan-3-hoan-chinh-ho-so`) - Hoàn chỉnh hồ sơ khi có sổ sách DN: 23 quy tắc GĐ3, chuỗi bằng chứng 5 mắt xích, Master 28 tiêu chí 7 cột, đề cương kiểm tra (KQ3).
 - **Hồ sơ kiểm tra giải thể** (`ho-so-kiem-tra-giai-the`) - Lập và chuẩn hóa bộ hồ sơ kiểm tra quyết toán giải thể: bộ 22 văn bản, Mục III NSNN, văn bản từ chối nộp thừa, bù trừ hoàn thuế.
 - **Hồ sơ kiểm tra theo kế hoạch** (`ho-so-kiem-tra-ke-hoach`) - Lập hồ sơ kiểm tra kế hoạch từ MAUTONG HOP: giữ phôi gốc nghiệp vụ, chuẩn NĐ 30 văn bản hành chính, chuẩn checkbox ☐/☑ và xuất QĐ riêng.
+- **Lập Bảng kê hóa đơn không hợp lệ vào Bảng tính** (`lap-bang-ke-hoa-don-khong-hop-le`) - Lập sheet BANG KE KO HOP LE theo năm/quý từ BK LOẠI HOÁ ĐƠN, link thuế GTGT sang TINH PHAT cột C và chênh lệch DTCHEP, tách HĐ thuế 0.
 - **Lập hồ sơ kiểm tra thuế** (`lap-ho-so-kiem-tra`) - Vận hành sổ Excel JAVIS PRO và app hồ sơ kiểm tra: thêm vụ từ DB NNT, xuất Word DI trình ký, kết nối Mail Merge trực tiếp từ 01_DA_BAN_HANH.
 - **Nhập số liệu Bảng tính từ báo cáo HĐKD ngành thuế** (`nhap-bang-tinh-tu-bao-cao-hdkd`) - Điền KQKDSXKD từ PTDN02 (thiếu thì bù BCTC NamNay hoặc QTT 03-1A); có KQ2.1 thì đổ GTGT và EBITDA.
 - **Phân tích công nợ và tiền mặt** (`phan-tich-cong-no-tien-mat`) - Quét chi tiền mặt TK 111, cụm HĐ cùng ngày, công nợ 131/331 và sao kê ngân hàng 112.
