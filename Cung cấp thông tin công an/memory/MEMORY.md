@@ -88,3 +88,6 @@
 - [Tài khoản Drive có quyền ghi hồ sơ CA](facts/tai-khoan-drive-ghi-ho-so-ca.md) - Ghi Drive HS CA bằng googledrive_ralph-urbane; đẩy sổ qua workbench upload_local_file + UPLOAD_UPDATE_FILE.
 - [Không đọc ảnh scan bằng công cụ xem ảnh trên bot](facts/khong-doc-anh-scan-bang-read-tren-bot.md) - Đọc CV scan bằng OCR, không render PNG để xem vì ảnh hiện lên hội thoại.
 - [CBQL SaiGonFA là Trịnh Thị Thanh Hương](facts/cbql-saigonfa-3603482743.md) - MST 3603482743 KT1, DB KTR1 03/06 ghi sai tên; lệch sổ cũ và DB thì hỏi lại.
+- [Sự cố mất công thức Dashboard và lọc ẩn dòng trên Bao_cao_cong_van ngày 17/11/2026](facts/sua-su-co-mat-cong-thuc-va-loc-trong-bao-cao-cong-van-2026-1.md) - Khôi phục 235 công thức Dashboard và gỡ lọc rỗng AutoFilter trên Bao_cao_cong_van.xlsx do lưu sai công cụ.
+- [Tiếp nhận và phân Tổ KT2 xử lý CV 1806 ANĐT Đồng Nai (Cty Toàn Trẻ)](facts/tiep-nhan-va-phan-to-cv-1806-cong-ty-toan-tre-tam-hiep.md) - CV 1806/YC-ANĐT-Đ2 phân Tổ KT2 quản lý (Cty TNHH Toàn Trẻ, MST 3601035228, P. Tam Hiệp).
+- [Đầu mối nhận công văn Zalo Tổ KT2](facts/dau-moi-zalo-to-kt2-cct-nga-tt.md) - Đầu mối tiếp nhận công văn giao cho Tổ KT2 qua Zalo là tài khoản CCT-Nga-TT.

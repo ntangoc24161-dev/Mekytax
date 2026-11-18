@@ -1,0 +1,26 @@
+{
+  "reminders": [
+    {
+      "id": "r_25802c846d",
+      "text": "Đọc file Master công tác kiểm tra và gửi nhắc deadline qua Telegram.\n\nNguồn bắt buộc: G:\\Other computers\\My Laptop\\1. CONG TAC KIEM TRA\\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx (sheet KT_TONG_HOP). Bản phụ: exports/QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx nếu bản G:\\ lỗi mở. Không dùng QL_Thong_bao_Dong_Mo_HD_2026.xlsx làm nguồn chính.\n\nLàm đúng theo Agent theo-doi-tien-do trong brain VĂN THƯ.\n\nPhân loại DN còn mở: chưa gửi L1; sắp hết hạn L1 (còn ≤ 2 ngày làm việc); quá hạn L1; cần gửi/quá hạn L2; cấp đỏ quá hạn ≥ 3 ngày làm việc. Nếu Deadline trống nhưng đã có ngày gửi thì ước tính = ngày gửi + 7 ngày làm việc và ghi chú là ước tính.\n\nNhóm theo cán bộ (thiếu thì ghi Chưa phân công). Gửi một báo cáo Telegram tới chat_id 8799384849 theo mẫu Agent theo-doi-tien-do. Không tồn đọng vẫn gửi một dòng báo không có deadline cần nhắc hôm nay. Có cấp đỏ phải nêu rõ để báo Trưởng phòng.\n\nKhông tự đóng HĐ, không tạo phiếu chuyển. Ghi log ngắn vào Javis/loops/logs/nham-nho-YYYY-MM-DD.md. Chỉ dùng số liệu đọc được từ Master. Không dùng em dash.",
+      "mode": "task",
+      "due_at": 1794873600.0,
+      "chat_id": "8799384849",
+      "repeat_min": 0,
+      "cron": "0 7 * * *",
+      "script": "",
+      "label": "Nhắc deadline thông báo 7h Telegram",
+      "status": "paused",
+      "muc_quyen": "full",
+      "remember_last": false,
+      "speak": false,
+      "call": false,
+      "created_by": "javis_schedule",
+      "created_at": 1794855909.4754457,
+      "fired_at": 0.0,
+      "result": "",
+      "error": ""
+    }
+  ],
+  "updated": 1794856646.1175997
+}

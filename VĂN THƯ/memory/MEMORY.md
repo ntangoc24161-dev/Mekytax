@@ -28,3 +28,7 @@
 - [Tờ trình ban hành thông báo mời đi kèm bộ thông báo](facts/to-trinh-ban-hanh-thong-bao-moi-khbs.md) - Tờ trình ban hành thông báo mời căn cứ QĐ 1412/QĐ-DON, lưu chung thư mục THONG BAO MOI
 - [Lộ trình mở rộng hệ thống theo dõi hồ sơ kiểm tra](facts/lo-trinh-so-theo-doi-chung-ho-so-kiem-tra.md) - Làm trước cho nhóm KHBS; khi có nhiệm vụ mới mới thêm trợ lý theo dõi chung báo cáo trưởng phòng
 - [Sổ theo dõi danh sách thông báo mời giải trình](facts/so-theo-doi-thong-bao-moi-giai-trinh.md) - Các trường hợp mời giải trình theo dõi tại G:\...\1. CONG TAC KIEM TRA\So theo doi danh sach Thong bao moi.xlsx
+- [Sổ Master quản lý công tác kiểm tra năm 2026](facts/so-master-quan-ly-cong-tac-kiem-tra-2026.md) - File Excel Master quản lý chung các đầu việc kiểm tra lưu tại Google Drive
+- [Lịch nhắc deadline công tác kiểm tra qua Telegram lúc 7h sáng](facts/lich-nhac-deadline-kiem-tra-telegram.md) - Lịch tự động nhắc deadline kiểm tra lúc 7:00 hàng ngày qua Telegram
+- [Chuyên đề trường công lập năm 2026 của cán bộ Ngọc 90](facts/chuyen-de-truong-cong-lap-ngoc90-2026.md) - 2 trường học công lập được phân công cho cán bộ kiểm tra Nguyễn Thị Ánh Ngọc 90 trong năm 2026
+- [Thư mục lưu trữ chuyên đề trường công lập năm 2026](facts/thu-muc-chuyen-de-truong-cong-lap-2026.md) - Đường dẫn lưu hồ sơ và dự thảo thông báo mời chuyên đề trường công lập năm 2026

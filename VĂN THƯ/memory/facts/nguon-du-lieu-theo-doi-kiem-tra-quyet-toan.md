@@ -1,4 +1,5 @@
 ---
+superseded_by: so-master-quan-ly-cong-tac-kiem-tra-2026
 type: preference
 provenance: user
 origin: javis-learned
@@ -13,3 +14,7 @@ File theo dõi tổng hợp phân công kiểm tra quyết toán tại trụ s�
 
 **Vì sao:** một nguồn duy nhất giúp theo dõi tiến độ chung và tránh lệch dữ liệu giữa văn bản và sổ.
 **Áp dụng:** thiếu dữ liệu DN khi soạn thông báo thì hướng người dùng bổ sung vào file này, không để trống văn bản rồi sửa tay.
+
+
+## Lịch sử
+- [2026-11-17] Bị thay thế bởi [[so-master-quan-ly-cong-tac-kiem-tra-2026]] (user đổi thông tin).

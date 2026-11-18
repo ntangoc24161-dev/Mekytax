@@ -3,6 +3,8 @@
 > Chỉ mục bộ nhớ dài hạn của Javis. Mỗi dòng = 1 ký ức, trỏ tới file trong `facts/`.
 > Nội dung file này được nạp vào đầu mỗi câu hỏi để Javis nhớ ngữ cảnh.
 
+- [Đã chạy GĐ2 và GĐ3 Kiến Thành Tân MST 3603216935 kỳ 2015-2025](facts/user-gd23-kien-thanh-tan-3603216935.md) - Mức D; KQ2.1/KQ2.2/KQ3 v1 + 2 phụ lục; Cao 7 Trung bình 10; 3 NCC F1; 511-632 khớp 192, bán dưới giá 11; HĐĐT/IN13 2023-2025 ~2× BCTC.
+- [Đã kiểm kê GĐ1 Kiến Thành Tân MST 3603216935 kỳ 2015-2025](facts/user-gd1-kien-thanh-tan-3603216935.md) - Mức D; NNT không F0/F1/CA; IN05 v2 có 24 NLĐ 05-1; thiếu GTGT Q4/2022 và Q1-Q3/2023, sao kê NH, GDLK, QTT 2023 không phụ lục, 3.3.
 - [Đã phân tích v1.4 Nông sản Lưu Hoài Anh MST 3603057410 kỳ 2022-2025](facts/user-phan-tich-v14-nong-san-luu-hoai-anh.md) - Mức A; 6 file KQ + 2 phụ lục GĐ3; 2 NCC F0 GT 3,65 tỷ; Top-5 91,27%; HTK/DT 2025 40,9%; thiếu sổ DN và một số quý XML.
 - [Đã phân tích v1.4 Đại Huy Hoàng MST 3602179712 kỳ 2021-2025](facts/user-phan-tich-v14-dai-huy-hoang.md) - Mức D; 6 file KQ + 2 phụ lục GĐ3; 511 khớp BCTC; 2 NCC F0 (Gỗ Minh Khôi 15,56 tỷ); HĐĐT thiếu 2021; 2023-2025 GV gần 0.
 - [Quy trình phân tích hồ sơ thuế v1.4 - Hoàn thành](facts/phan-tich-ho-so-thue-v14-quy-trinh-hoan-thanh.md) - Phân tích T&T Biên Hòa (21/10-23/10): 6 tệp mẫu, 3 giai đoạn, 4 năm, 80 quy tắc, EBITDA không vay nợ.
