@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 7 agents · 30 skills · 3 workflows (1 bật) · 0 loops (0 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 7 agents · 30 skills · 3 workflows (1 bật) · 0 loops (0 bật) · 29 plugins (28 chạy)
 
 ## Agents
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
@@ -89,6 +89,7 @@ _(chưa có)_
 - **Nhật ký dùng tool** (`tool-audit`) - bundled/tắt · tools: javis_tool_stats · hooks: post_tool_call · Đếm số lần MỖI tool được engine gọi (qua hook post_tool_call) và cho xem thống kê tool hay dùng. Đây là ví dụ minh hoạ cơ chế HOOK của plugin. Mặc định TẮT - bật qua POST /plugins/toggle (slug=tool-audit) để thử.
 - **Tin thoại** (`voice-note`) - bundled/chạy · tools: javis_voice_note · Javis ghi một đoạn nói ngắn (tối đa 1000 ký tự) thành file mp3 trong attachments/voice/ rồi nhúng vào câu trả lời. Khung chat hiện trình phát, Telegram nhận file âm thanh. Dùng giọng Edge miễn phí theo ngôn ngữ của câu.
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
+- **Zalo mở rộng - gửi ảnh và file, nhóm, đọc ảnh, kết bạn** (`zalo-extras`) - pack/chạy · tools: zalo_send_image, zalo_group_members, zalo_send_mention, zalo_create_note, zalo_list_notes, zalo_edit_note, zalo_create_reminder, zalo_create_poll, zalo_read_images, zalo_find_user, zalo_find_phones, zalo_search_friends, zalo_friend_status, zalo_friend_requests, zalo_sent_friend_requests, zalo_add_friend, zalo_accept_friend, zalo_reject_friend, zalo_undo_friend_request, zalo_friend_aliases, zalo_set_friend_alias, zalo_remove_friend_alias · Mọi công cụ Zalo mà MCP chuẩn còn thiếu, gom trong một plugin, bằng chính tài khoản đã quét QR ở trang Kết nối. Gửi ảnh và file kèm lời nhắn. Trong nhóm - tag đúng người (nói tên, Javis tự tìm ID Zalo thật), liệt kê thành viên, tạo, đọc và sửa ghi chú (giữ nguyên ghim), nhắc hẹn, poll. Đọc ảnh người ta gửi (lưu vào attachments/zalo/ của brain, engine không tự xem được ảnh thì nhận lời tả của ChatGPT trên gói đang đăng nhập). Kết bạn - tìm người theo số điện thoại hay username, tìm trong bạn bè theo tên, xem lời mời chờ duyệt và đã gửi, gửi, nhận, từ chối, rút lại lời mời, đổi tên gợi nhớ. Mỗi tool giữ mức quyền riêng - đọc chạy ở mọi mức, lưu ảnh vào brain cần mức Ghi, gửi hay đổi gì trên Zalo cần Toàn quyền.
 
 ## Cờ sức khoẻ
 - Agent chưa workflow nào dùng: javis-core, quan-ly-ho-so-kiem-tra, tri-thuc-second-brain

@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 9 agents · 40 skills · 4 workflows (2 bật) · 2 loops (2 bật) · 28 plugins (27 chạy)
+**Tổng quan:** 9 agents · 41 skills · 4 workflows (2 bật) · 1 loops (0 bật) · 29 plugins (28 chạy)
 
 ## Agents
 - **Trưởng phòng cung cấp hồ sơ công an** (`javis-core.conflict-remote-20261111-133623`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
@@ -12,8 +12,8 @@
 - **phap-che-chinh-sach-thue** (`phap-che-chinh-sach-thue`) - 
 - **quản-lý-hồ-sơ-công-an** (`quản-lý-hồ-sơ-công-an`) - 
 - **soan-thao-tra-loi-cong-an** (`soan-thao-tra-loi-cong-an`) - 
-- **Theo dõi CV trả lời đã ký** (`theo-doi-cv-tra-loi-da-ky`) - công chức thuế chuyên trách theo dõi & bóc tách công văn trả lời Công an đã ký số, cập nhật trạng thái và tào tác danh sách tổng hợp (Bước 5 - Giám sát chất lượng) · model sonnet · skills: dong-bo-thu-muc-ca, xuat-danh-sach-ho-so-ca, soan-thao-van-ban · tags: Tài chính, giám-sát
-- **Theo dõi & Phân công công văn** (`theo-doi-phan-cong`) - theo dõi tiến độ, kiểm soát công văn mới, rà soát cán bộ xử lý và in ấn bàn giao hồ sơ Tổ KT1 · model sonnet · skills: in-phan-cong-kt1, theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong · tags: Tài chính
+- **Theo dõi CV trả lời đã ký** (`theo-doi-cv-tra-loi-da-ky`) - Theo dõi & bóc tách CV trả lời Công an đã ký; ưu tiên file CV MOI (cron 12h nhánh B); cập nhật sổ Đang xử lý → Đã hoàn thành · model sonnet · skills: dong-bo-thu-muc-ca, xuat-danh-sach-ho-so-ca, soan-thao-van-ban · tags: Tài chính, giám-sát
+- **Theo dõi & Phân công công văn** (`theo-doi-phan-cong`) - theo dõi tiến độ, kiểm soát công văn mới, rà soát cán bộ xử lý, in ấn KT1 và gửi Zalo bàn giao KT2/KT3 · model sonnet · skills: in-phan-cong-kt1, gui-phan-cong-zalo-kt23, theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong · tags: Tài chính
 
 ## Skills
 ### AI
@@ -42,6 +42,7 @@
 - **Giai đoạn 1 - Kiểm kê & Đánh giá hồ sơ thuế** (`giai-doan-1-kiem-ke-danh-gia`) - Kiểm kê manifest IN00-IN13, xác định mức hồ sơ A-E, rà soát khả năng chạy 80 quy tắc, xếp danh mục đề nghị DN bổ sung (KQ1).
 - **Giai đoạn 2 - Phân tích dữ liệu cơ quan thuế** (`giai-doan-2-phan-tich-du-lieu-co-quan-thue`) - Phân tích 57 quy tắc thuế khi chưa có sổ DN: chuẩn hóa IN01-IN07/12, đối chiếu GTGT-TNDN-BCTC, 100% NCC rủi ro, phân loại Chắc/Sơ bộ (KQ2).
 - **Giai đoạn 3 - Hoàn chỉnh hồ sơ & Sổ sách DN** (`giai-doan-3-hoan-chinh-ho-so`) - Hoàn chỉnh hồ sơ khi có sổ sách DN: 23 quy tắc GĐ3, chuỗi bằng chứng 5 mắt xích, Master 28 tiêu chí 7 cột, đề cương kiểm tra (KQ3).
+- **gui-phan-cong-zalo-kt23** (`gui-phan-cong-zalo-kt23`) - Gửi Zalo phân công KT2/KT3: tin ngắn (tên DN, số CV, ngày, hạn), xem trước rồi gửi, cập nhật Đang xử lý.
 - **Chính sách và kiểm tra hóa đơn điện tử** (`hoa-don-dien-tu`) - Chính sách và kiểm tra hóa đơn điện tử: NĐ 254/2026, TT 91/2026, Luật 108: HĐĐT máy tính tiền, xử lý sai sót, xăng dầu, rủi ro HĐĐT.
 - **Nghiệp vụ kiểm tra thuế chuyên đề và hướng dẫn ngành** (`huong-dan-kiem-tra-chuyen-de`) - Kiểm tra thuế chuyên đề: 2 hệ thống sổ sách, trung gian thanh toán, chuyển nhượng vốn gián tiếp, số định danh cá nhân, QLRR HĐĐT 325, chi phí GTGT.
 - **Chính sách và kiểm tra thuế thương mại điện tử** (`kiem-tra-thue-thuong-mai-dien-tu`) - Nghiệp vụ kiểm tra thuế TMĐT: đối chiếu doanh thu sàn, dòng tiền trung gian thanh toán, logistics COD, rủi ro livestream, affiliate, thuế nhà thầu.
@@ -64,15 +65,14 @@
 
 ## Workflows
 ### Tài chính
-- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 4 bước [khai-thac-du-lieu-ho-so -> theo-doi-phan-cong -> soan-thao-tra-loi-cong-an -> quản-lý-hồ-sơ-công-an] · Tiếp nhận, bóc tách công văn, kiểm soát chéo dữ liệu, phân công in ấn KT1, lập dự thảo phúc đáp và nghiệm thu đồng bộ thư mục.
-- **Theo dõi & cập nhật CV trả lời đã ký** (`theo-doi-cv-tra-loi-da-ky`) - active · 1 bước [theo-doi-cv-tra-loi-da-ky] · Quét thư mục công văn năm 2026, phát hiện CV trả lời đã ký số, bóc tách dữ liệu, xác nhận danh sách DN, cập nhật trạng thái sổ theo dõi.
+- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 2 bước [khai-thac-du-lieu-ho-so -> theo-doi-phan-cong] · Tiếp nhận, bóc tách, phân công KT1 in / KT2-KT3 Zalo (Telegram xem trước); dừng sau phân công. Soạn thảo khi có lệnh riêng.
+- **Theo dõi & cập nhật CV trả lời đã ký** (`theo-doi-cv-tra-loi-da-ky`) - active · 1 bước [theo-doi-cv-tra-loi-da-ky] · Xử lý CV trả lời đã ký từ CV MOI (cron 12h) hoặc quét năm 2026 theo lệnh; cập nhật sổ Đang xử lý → Đã hoàn thành.
 ### Vận hành
 - **Bóc tách & Phân công công văn Công an** (`boc-tach-phan-cong-cong-van`) - off · 2 bước [khai-thac-du-lieu-ho-so -> Theo dõi & Phân công công văn] · Bóc tách danh sách doanh nghiệp từ CV Công an, tra cứu DB NNT, phân công cho Tổ KT tương ứng.
 - **Soạn thảo & Quản lý hồ sơ công an** (`soan-thao-quan-ly-ho-so`) - off · 2 bước [soan-thao-tra-loi-cong-an -> quản-lý-hồ-sơ-công-an] · Soạn dự thảo công văn trả lời và tờ trình lãnh đạo theo yêu cầu, lưu file và cập nhật sổ theo dõi.
 
 ## Loops
-- **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an.conflict-remote-20261111-133623`) - bật · custom/full · mỗi 1440 phút
-- **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an`) - bật · custom/full · mỗi 720 phút
+- **Hồ sơ cung cấp công an** (`ho-so-cung-cap-cong-an`) - tắt · custom/full · mỗi 1440 phút
 
 ## Plugins (tool/hook native cho mọi engine)
 - **Thời gian & ngày** (`datetime-vn`) - bundled/chạy · tools: javis_now, javis_date_add · Xem ngày giờ hiện tại theo múi giờ chọn ở Cài đặt và tính ngày tương đối (mai, mốt, N ngày nữa, tuần trước). Thuần stdlib, chỉ đọc, không cần mạng.
@@ -103,6 +103,7 @@
 - **Nhật ký dùng tool** (`tool-audit`) - bundled/tắt · tools: javis_tool_stats · hooks: post_tool_call · Đếm số lần MỖI tool được engine gọi (qua hook post_tool_call) và cho xem thống kê tool hay dùng. Đây là ví dụ minh hoạ cơ chế HOOK của plugin. Mặc định TẮT - bật qua POST /plugins/toggle (slug=tool-audit) để thử.
 - **Tin thoại** (`voice-note`) - bundled/chạy · tools: javis_voice_note · Javis ghi một đoạn nói ngắn (tối đa 1000 ký tự) thành file mp3 trong attachments/voice/ rồi nhúng vào câu trả lời. Khung chat hiện trình phát, Telegram nhận file âm thanh. Dùng giọng Edge miễn phí theo ngôn ngữ của câu.
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
+- **Zalo mở rộng - gửi ảnh và file, nhóm, đọc ảnh, kết bạn** (`zalo-extras`) - pack/chạy · tools: zalo_send_image, zalo_group_members, zalo_send_mention, zalo_create_note, zalo_list_notes, zalo_edit_note, zalo_create_reminder, zalo_create_poll, zalo_read_images, zalo_find_user, zalo_find_phones, zalo_search_friends, zalo_friend_status, zalo_friend_requests, zalo_sent_friend_requests, zalo_add_friend, zalo_accept_friend, zalo_reject_friend, zalo_undo_friend_request, zalo_friend_aliases, zalo_set_friend_alias, zalo_remove_friend_alias · Mọi công cụ Zalo mà MCP chuẩn còn thiếu, gom trong một plugin, bằng chính tài khoản đã quét QR ở trang Kết nối. Gửi ảnh và file kèm lời nhắn. Trong nhóm - tag đúng người (nói tên, Javis tự tìm ID Zalo thật), liệt kê thành viên, tạo, đọc và sửa ghi chú (giữ nguyên ghim), nhắc hẹn, poll. Đọc ảnh người ta gửi (lưu vào attachments/zalo/ của brain, engine không tự xem được ảnh thì nhận lời tả của ChatGPT trên gói đang đăng nhập). Kết bạn - tìm người theo số điện thoại hay username, tìm trong bạn bè theo tên, xem lời mời chờ duyệt và đã gửi, gửi, nhận, từ chối, rút lại lời mời, đổi tên gợi nhớ. Mỗi tool giữ mức quyền riêng - đọc chạy ở mọi mức, lưu ảnh vào brain cần mức Ghi, gửi hay đổi gì trên Zalo cần Toàn quyền.
 
 ## Cờ sức khoẻ
 - Workflow trỏ agent KHÔNG tồn tại: Theo dõi & Phân công công văn

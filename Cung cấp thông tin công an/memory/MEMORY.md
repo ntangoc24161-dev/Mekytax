@@ -91,3 +91,23 @@
 - [Đường dẫn file dự thảo CV 34799 trả lời Công an Đồng Nai](facts/duong-dan-file-du-thao-cv-34799.md) - File dự thảo tại H:\My Drive\HS CONG AN-2025-2026\...\CV 34799_du thao.docx
 - [CV 34799 cần dự thảo cho KT1, KT2, KT3 (mở rộng)](facts/pham-vi-du-thao-cv-34799.md) - Phạm vi mở rộng từ KT1 sang toàn bộ KT1, KT2, KT3
 - [CV 34799: tính tổng tiền xử phạt theo cùng số quyết định](facts/quy-tac-tong-tien-xp-cung-so-qd-cv34799.md) - Khi nhiều DN chịu cùng 1 QĐ, tính tổng tiền xử phạt nhóm lại
+- [Đầu mối Zalo phân công Tổ KT2 và KT3](facts/dau-moi-zalo-phan-cong-kt2-kt3.md) - KT2: CCT- Nga- TT (`973578993300096841`); KT3: CCT- Tieu Diem (`5588572486369282885`); gửi DM khi phân công.
+- [Quyết định gửi Zalo khi phân công KT2/KT3](facts/quyet-dinh-gui-zalo-khi-phan-cong-kt2-kt3.md) - KT2/KT3 gửi Zalo đầu mối; xem trước qua Telegram rồi gửi; sau gửi cập nhật Đang xử lý; KT1 giữ in PDF.
+- [Xem trước phân công qua Telegram](facts/preference-xem-truoc-phan-cong-qua-telegram.md) - Telegram xem trước → OK → mới Zalo KT2/KT3 hoặc chốt in KT1; không gửi lại CV đã bàn giao.
+- [Mẫu tin Zalo phân công KT2/KT3](facts/mau-tin-zalo-phan-cong-kt23.md) - Tin chỉ gồm tên DN, số CV + ngày, hạn; bỏ folder/tình trạng/câu gửi scan.
+- [Tài khoản Zalo Agent MCP đã đấu](facts/zalo-agent-mcp-da-dau.md) - Zalo Agent MCP tài khoản Mễ Kỳ-ngocnguyen, Toàn quyền, gói javis.zalo 2.0.1 đang bật.
+- [Đã gửi Zalo phân công KT2/KT3 ngày 18/11/2026](facts/gui-zalo-phan-cong-kt23-ngay-2026-11-18.md) - Gửi CV 1806 cho KT2, CV 9372 và 2126 cho KT3; sổ vault Đang xử lý, sổ Drive sống chưa ghi.
+- [Đã cập nhật sổ Drive 3 CV Zalo sang Đang xử lý ngày 18/11/2026](facts/cap-nhat-so-drive-cv-1806-9372-2126-2026-11-18.md) - Sổ sống Drive đã đổi 1806, 9372, 2126 sang Đang xử lý; file mở được, còn 2 chart.
+- [Ghi sổ Bao_cao_cong_van: Drive vá XML trên Linux, COM trên Windows](facts/ghi-so-bao-cao-cong-van-theo-nen-tang.md) - Linux ghi sổ sống qua Drive ralph-urbane bằng vá XML xlsx rồi kiểm tra mở được; Windows dùng Excel COM.
+- [Hai loop Hồ sơ cung cấp công an (đã giải quyết)](facts/mau-thuan-hai-loop-ho-so-cung-cap-cong-an.md) - Đã gộp 1 loop (tắt) + cron 12h là kênh quét; chốt 1A+2A+3A+4A ngày 18/11/2026.
+
+- [Gói A rồi 1A+2A+3A+4A hồ sơ Công an 18/11/2026](facts/goi-a-loop-cron-ho-so-cong-an-2026-11-18.md) - Cron 12h; checklist A/B; CV mới 2 bước rồi dừng; bản ký trong CV MOI xử lý luôn (nhánh B); ghi sổ theo nền tảng.
+- [Telegram hồ sơ CA dùng bot Kiểm soát điều phối](facts/telegram-ca-bot-kiem-soat-dieu-phoi.md) - Bot `Kiem_soat_dieu_phoi_bot` + agent `kiem-soat-dieu-phoi-quy-trinh`; không dùng Brain Default cho việc CA.
+- [CV 1804 TLC căn cứ bản trả lời CV 435](facts/cv-1804-tlc-can-cu-cv-435.md) - DN TLC (MST 0317071899) từng trả lời tại CV 435/ANĐT(D92); dự thảo 1804 lấy dữ liệu cũ.
+- [Zalo Agent không có My Document và không có bot riêng](facts/zalo-agent-khong-my-document-khong-bot-rieng.md) - Tài khoản Mễ Kỳ không gửi được Cloud/My Documents, không tự nhắn cho chính mình, chưa có bot OA.
+- [Zalo KT2 chỉ gửi danh sách chữ, không kèm PDF](facts/zalo-kt2-chi-gui-tin-chu-khong-pdf.md) - Phân công KT2: tin chữ danh sách DN/CV/hạn; không gửi PDF hay ảnh scan kèm.
+- [Chốt hoàn thành CV 9372 ngày 18/11/2026](facts/chot-hoan-thanh-cv-9372-2026-11-18.md) - Bản ký 21442/TCS3-KTr3 đưa folder 279 sang -R; sổ dòng 845 Đã hoàn thành.
+- [Đã gửi Zalo danh sách 8 DN KT2 ngày 18/11/2026](facts/gui-zalo-danh-sach-kt2-8-dn-2026-11-18.md) - Tin chữ 8 DN/6 CV tới CCT- Nga- TT; sổ 8 dòng Đang xử lý; KT3/KT1 chưa gửi.
+- [CV 5681/CSĐT-Đ5 (HPG) chưa nhập sổ](facts/cv-5681-csdt-d5-hpg-chua-nhap-so.md) - Tờ CSĐT Hải Phòng in 1457, dấu đến 5681 ngày 09/11, MST 3604070950, chưa có trên sổ 18/11.
+- [Gọi công văn theo số dấu đến](facts/goi-cv-theo-so-dau-den.md) - Người dùng gọi tờ Công an theo số dấu đến ghép ký hiệu đơn vị, không chỉ số in sẵn.
+- [CV 20333/DON-KTr1 ngày 27/10 chưa thấy trên sổ](facts/cv-20333-don-ktr1-chua-thay-tren-so.md) - Rà sổ và vault 18/11 không có 20333; Drive /mnt/i lúc đó chưa gắn.

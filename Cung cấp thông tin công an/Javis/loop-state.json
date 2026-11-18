@@ -2,18 +2,10 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794884380.845832,
-    "last_summary": "Thư mục **CV MOI trên Google Drive hiện tại trống** (0 file chờ xử lý) - toàn bộ công văn mới phát sinh trong sáng nay (17/11/2026) đã được tiếp nhận, phân công và lập dự thảo đầy đủ.\n\n### Kết quả kiểm tra và đối soát trên Google Drive (`googledrive_ralph-urbane`)\n\n- **Thư mục `CV MOI` (`1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`):** Không còn file tồn đọng.\n- **Các hồ sơ mới đã tiếp nhận và điều phối tới thời điểm 09:56 ngày 17/11/2026:**\n  - `289. CV 1806-CA DONG NAI-KT2`: Đã lưu `CV 1806YC-ANDT.pdf` và bản bóc tách `1806YC-ANDT-OCR.txt`.\n  - `290. CV 1804-CA DONG NAI-KT1`: Đã lưu `1804YC-ANDT.pdf`, khởi tạo dự thảo `TRA LOI CV 1804_CA DONG NAI_du thao.docx` và `to trinh 1804.docx` lúc 09:52.\n  - `291. CV 1813-CA DONG NAI-KT2`: Đã lưu `1813YC-ANDT.pdf`.\n  - `292. CV 2126-CA DONG NAI-KT3`: Đã lưu `2126YC-ANĐT.14488.pdf`.\n  - `287. CV 2051-CA DONG NAI-KT2`: Đã bổ sung file gốc `2051YC-ANĐT.pdf`.\n- **Sổ theo dõi và phiếu in phân công KT1:**\n  - File `Bao_cao_cong_van.xlsx` đã được cập nhật lúc ",
+    "last_run": 1794974535.50678,
+    "last_summary": "Đã hoàn thành vòng kiểm tra và điều phối lúc 10:40 ngày 18/11/2026: thư mục `CV MOI` trên Google Drive hiện trống (**0 file chờ xử lý**), đồng thời đã lập và tải lên Google Drive bộ dự thảo Công văn trả lời và Tờ trình lãnh đạo còn thiếu cho hồ sơ **Folder 286 (`CV 19981/CV-CSHS(Đ3)` - Tổ KT1, hạn 20/11/2026)**.\n\n### 1. Kết quả kiểm tra thư mục `CV MOI` và sổ theo dõi\n- **Thư mục `CV MOI` (`1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`):** Không phát sinh thêm file mới sau khi đã xử lý và đồng bộ hồ sơ `294. CV 410-CA DAK LAK-KT2-R` (`22046/TCS3-KTr2`, dòng 895 trên `Bao_cao_cong_van.xlsx`).\n- **Rà soát các hồ sơ Tổ KT1 sắp đến hạn:** Phát hiện thư mục `286. CV 19981-CA THANH HOA-KT1` (dòng 855, hạn gửi Phòng KTr1 trước ngày **20/11/2026**) mới chỉ có 02 file PDF đầu vào, chưa có bộ dự thảo Công văn trả lời và Tờ trình lãnh đạo (trong khi các hồ sơ KT1 khác là Folder 284 và Folder 290 đã có đủ).\n\n### 2. Hoàn thiện bộ dự thảo Tổ KT1 cho Folder 286 (`CV 19981/CV-CSHS(Đ3)`)\n- **Đối tượng cung cấp:**",
     "last_status": "ok",
     "runs_today": 1,
-    "day": "2026-11-17"
-  },
-  "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
-    "last_run": 1794884212.9517913,
-    "last_summary": "Đã hoàn tất xử lý **04 file PDF mới** trong thư mục `CV MOI` trên Google Drive (vòng quét 09:22 ngày 17/11/2026), cập nhật sổ theo dõi `Bao_cao_cong_van.xlsx`, tạo dự thảo trả lời cùng phiếu in phân công cho Tổ KT1 và lưu trữ sang các thư mục hồ sơ **290, 291, 292** (kèm ghép 01 bản trùng vào thư mục **287**).\n\n### 1. Kết quả xử lý Công văn mới (Workflow \"Quản lý công văn công an\" - 4 bước)\n\n- **Folder 290 - CV `1804/YC-ANĐT-Đ2` ngày 03/11/2026** (Cơ quan ANĐT - Công an TP Đồng Nai, số đến TCS3 `14491` ngày 16/11/2026, không ghi ngày hạn):\n  - **Doanh nghiệp (01 DN):** **CÔNG TY TNHH THƯƠNG MẠI ĐẦU TƯ XNK TLC** - MST `0317071899` (Số 88 đường Hàm Nghi, KP Thiên Bình, Phường Tam Phước; trạng thái `NNT đang hoạt động`).\n  - **Phân công:** Tổ **KT1** - Cán bộ quản lý: **NGUYỄN HOÀNG MINH** (ngày giao phân công: `17/11/2026`, dòng **861** trên sheet `NHAP_HO_SO`).\n  - **Soạn thảo (KT1):** Đã tạo dự thảo công văn trả lời [TRA LOI CV 1804_CA DONG NAI_du thao.docx](ho-so-cv-moi-2026-11/TRA LO",
-    "last_status": "✓ Đạt: Đã kiểm chứng thực tế các file PDF gốc, bản trích xuất Markdown, nhật ký phiên và file in phân công KT1: thông tin số hiệu, ngày tháng, MST, tên đơn vị, phân tổ KT1/KT2/KT3 và xử lý công văn trùng (2051) hoàn toàn khớp với tài liệu gốc và đúng quy trình 4 bước.",
-    "runs_today": 1,
-    "day": "2026-11-17",
-    "fail_streak": 0
+    "day": "2026-11-18"
   }
 }
