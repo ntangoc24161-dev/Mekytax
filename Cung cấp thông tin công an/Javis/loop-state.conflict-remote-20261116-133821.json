@@ -1,0 +1,19 @@
+{
+  "ho-so-cung-cap-cong-an": {
+    "auto_paused_reason": "",
+    "fail_streak": 0,
+    "last_run": 1794596101.7145486,
+    "last_summary": "Đang kiểm tra tiến trình rà soát sổ theo dõi công văn Công an...\nĐang đợi hoàn tất việc đọc sổ theo dõi `Bao_cao_cong_van.xlsx`...\n### Báo cáo thực hiện vòng lặp: Tiếp nhận và Điều phối Công văn Công an\n\n**1. Quét thư mục tiếp nhận mới (`CV MOI`):**\n- **Đường dẫn:** `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`\n- **Kết quả:** Thư mục hiện tại trống, không có file PDF hoặc Word công văn mới phát sinh cần bóc tách.\n\n**2. Rà soát tiến độ và trạng thái sổ theo dõi (`Bao_cao_cong_van.xlsx` - sheet `NHAP_HO_SO`):**\n- Sổ hiện có **859 dòng dữ liệu** đã ghi nhận.\n- Đã lập folder lưu trữ đến **Folder 288** (`288. CV 6089-CA TUYEN QUANG-KT1`).\n- **Tình trạng hồ sơ Tổ KT1 đang ở trạng thái `Mới`:**\n  - **CV 4325/ANĐT-Đ1** (STT 212, dòng 852-853, Folder 284): gồm 02 doanh nghiệp (HPG - MST 3604070950 và LƯU TÍNH - MST 3604107784) đã có file Markdown phân tích `4325.md` tại `D:\\HSO CONG AN FILE MD`.\n  - **CV 19981/CV-CSHS(Đ3)** (STT 214, dòng 855, Folder",
+    "last_status": "✓ Đạt: Kết quả đối soát thực tế chính xác: CV MOI trống, 859 dòng dữ liệu, đúng folder 288, thông tin CV 4325, 19981, 6089 và file MD 4325.md hoàn toàn khớp, không gây hại file.",
+    "runs_today": 1,
+    "day": "2026-11-14"
+  },
+  "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
+    "last_run": 1794595806.7282913,
+    "last_summary": "### Kết quả thực hiện vòng lặp (14/11/2026)\n\n**Không có công văn mới**, vòng quét dừng tại bước 1 theo đúng quy trình.\n\n- **Đã làm**: Quét và kiểm tra thư mục tiếp nhận `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI\\`. Thư mục tồn tại và truy cập bình thường.\n- **Kết quả**: Thư mục trống hoàn toàn, không có tệp PDF hoặc Word công văn nào cần bóc tách.\n- **Tệp đã chạm**: Chỉ đọc danh sách thư mục; không sửa đổi hay ghi đè tệp nào (kể cả sổ `Bao_cao_cong_van.xlsx`).\n- **Trạng thái workflow**: Chưa kích hoạt workflow *Quản lý công văn công an* và *Theo dõi & cập nhật CV trả lời đã ký*. Hệ thống tiếp tục duy trì trạng thái chờ cho kỳ quét tiếp theo.",
+    "last_status": "✓ Đạt: Thư mục CV MOI trên ổ I tồn tại và thực tế đang trống (0 file), kết quả báo cáo chính xác, không gây hại hay sửa đổi file.",
+    "runs_today": 1,
+    "day": "2026-11-14",
+    "fail_streak": 0
+  }
+}

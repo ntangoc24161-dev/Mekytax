@@ -41,3 +41,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Quy trình phối hợp 4 bước xử lý hồ sơ cung cấp thông tin Công an]]
+
+## [2026-11-16] ingest | tự học từ chat
+
+Đã tạo:
+- [[Nhóm dữ liệu xử phạt theo số quyết định khi dự thảo công văn]]
