@@ -2,18 +2,18 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794883052.439676,
-    "last_summary": "### Báo cáo thực hiện vòng lặp: Tiếp nhận và Điều phối Công văn Công an\n\n**1. Quét thư mục tiếp nhận mới (`CV MOI`):**\n- Thư mục kiểm tra: `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`\n- **Phát hiện 4 công văn mới** tiếp nhận sáng nay (17/11/2026):\n  1. `1804YC-ANDT.pdf` (82.6 KB)\n  2. `2051YC-ANĐT.pdf` (134.3 KB)\n  3. `2126YC-ANĐT.14488.pdf` (90.5 KB)\n  4. `1813YC-ANDT.pdf` (73.4 KB)\n\n**2. Tiến độ xử lý hiện tại:**\n- **Thư mục lưu trữ đã thiết lập gần nhất:** Đến **Folder 289** (`289. CV 1806-CA DONG NAI-KT2`).\n- **Bóc tách nội dung:** Hệ thống đang chạy tiến trình nền PaddleOCR bóc tách nội dung công văn đầu tiên (`1804YC-ANDT.pdf`) để xác định cơ quan ban hành, số công văn, đối tượng doanh nghiệp/MST cần tra cứu và phân Tổ Kiểm tra xử lý.\n- Tiến trình sẽ tiếp tục cập nhật và ghi nhận vào sổ `Bao_cao_cong_van.xlsx` ngay khi việc nhận diện hoàn tất.\n### Báo cáo thực hiện vòng lặp: Tiếp nhận và Điều phối Công văn Công an\n\n**1. Quét thư mục t",
-    "last_status": "ok",
+    "last_run": 1794973066.9833746,
+    "last_summary": "Đang kiểm tra tình trạng tiếp nhận công văn mới tại thư mục `CV MOI` và rà soát các hồ sơ mới nhất trên sổ theo dõi...\n### Báo cáo thực hiện vòng lặp: Tiếp nhận và Điều phối Công văn Công an\n\n**1. Quét thư mục tiếp nhận mới (`CV MOI`):**\n- Thư mục kiểm tra: `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`\n- **Kết quả:** Thư mục hiện tại **trống**, toàn bộ 4 công văn tiếp nhận hôm qua (1804, 1813, 2051, 2126) đã được bóc tách và phân luồng vào các thư mục lưu trữ thành công.\n\n**2. Tình hình đồng bộ và cập nhật thư mục lưu trữ:**\n- **Thư mục mới nhất:** Đã tạo và ghi nhận đến **Folder 294** (`294. CV 410-CA DAK LAK-KT2-R`).\n- **Các hồ sơ mới được phân bổ gần nhất:**\n  - **Folder 290:** CV 1804/YC-ANĐT-Đ2 -> Tổ KT1 (Cty Bảo Kim Long, CBQL: Nguyễn Hoàng Minh) - đã có dự thảo CV & Tờ trình.\n  - **Folder 291:** CV 1813/YC-ANĐT-Đ2 -> Tổ KT2.\n  - **Folder 292:** CV 2126/YC-ANĐT-Đ2 -> Tổ KT3.\n  - **Folder 293:** CV 1155/PC03-Đ3 -> Tổ KT2.\n  - **Folder 2",
+    "last_status": "✓ Đạt: Kết quả đối soát thực tế hoàn toàn chính xác: thư mục CV MOI đang trống, các Folder từ 290 đến 294 cùng file đính kèm/dự thảo/ký số khớp thực tế trên Google Drive, không có sai lệch hay gây hại.",
     "runs_today": 1,
-    "day": "2026-11-17"
+    "day": "2026-11-18"
   },
   "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
-    "last_run": 1794836978.8177834,
-    "last_summary": "Đang tiến hành kiểm tra và xử lý công văn mới phát hiện trong thư mục `CV MOI`. Kết quả chi tiết sẽ được cập nhật ngay khi tiến trình tra cứu hoàn tất.\n### Báo cáo kết quả rà soát và xử lý công văn Công an mới (16/11/2026)\n\nHệ thống đã phát hiện và bóc tách thành công công văn mới tại thư mục `CV MOI`.\n\n#### 1. Thông tin công văn mới phát hiện\n- **Tệp gốc**: [1806YC-ANĐT.pdf](file:///I:/My%20Drive/HS%20CONG%20AN-2025-2026/HS%20CUNG%20CAP%20CA%202026/1.%20CUNG%20CAP%20CONG%20AN%20NAM%202026/CV%20MOI/1806YC-AN%C4%90T.pdf)\n- **Số công văn**: `1806/YC-ANĐT-Đ2` ngày 13/11/2026.\n- **Cơ quan ban hành**: Cơ quan An ninh điều tra - Công an thành phố Đồng Nai (ĐTV Lê Văn Hân - 0969.627.979).\n- **Trích yếu**: Vụ án Mua bán trái phép hóa đơn và Trốn thuế tại 50 cơ quan, doanh nghiệp trên địa bàn TP Đồng Nai. Doanh nghiệp sử dụng 02 hóa đơn không hợp pháp của Công ty TNHH TM XNK Nha Nhật Duy (MST 0316840485, tổng tiền 2.420.000 đồng). Yêu cầu cung cấp tình hình kê khai, khấu trừ, điều chỉnh bổ sung",
-    "last_status": "✓ Đạt: Kết quả bóc tách và phân loại công văn chính xác theo tệp nguồn, các thư mục và file md đã được tạo đúng thực tế, không gây lỗi hay hỏng hóc.",
+    "last_run": 1794972723.6572158,
+    "last_summary": "### Kết quả thực hiện vòng lặp (18/11/2026)\n\n**Không có công văn mới**, vòng quét dừng tại bước 1 theo đúng quy trình.\n\n- **Đã làm**: Quét và kiểm tra thư mục tiếp nhận [CV MOI](file:///I:/My%20Drive/HS%20CONG%20AN-2025-2026/HS%20CUNG%20CAP%20CA%202026/1.%20CUNG%20CAP%20CONG%20AN%20NAM%202026/CV%20MOI/). Đường dẫn tồn tại và truy cập bình thường.\n- **Kết quả**: Thư mục hiện tại hoàn toàn trống, không phát hiện tệp PDF hoặc Word công văn mới nào cần bóc tách hay xử lý.\n- **Tệp đã chạm**: Chỉ đọc danh sách thư mục; không can thiệp, sửa đổi hay ghi đè tệp nào (kể cả sổ [Bao_cao_cong_van.xlsx](file:///I:/My%20Drive/HS%20CONG%20AN-2025-2026/HS%20CUNG%20CAP%20CA%202026/Bao_cao_cong_van.xlsx)).\n- **Trạng thái quy trình**: Không kích hoạt các workflow xử lý tiếp theo vì không có dữ liệu đầu vào mới.",
+    "last_status": "✓ Đạt: Thực tế kiểm tra thư mục CV MOI hoàn toàn trống (chỉ có file hệ thống desktop.ini), không có công văn mới và file sổ không bị can thiệp sai phạm vi.",
     "runs_today": 1,
-    "day": "2026-11-16",
+    "day": "2026-11-18",
     "fail_streak": 0
   }
 }

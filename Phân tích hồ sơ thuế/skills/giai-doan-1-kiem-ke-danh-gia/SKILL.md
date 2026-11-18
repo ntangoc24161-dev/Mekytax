@@ -70,9 +70,12 @@ Giai đoạn đầu tiên và bắt buộc đối với mọi hồ sơ kiểm tr
 1. **Quét thư mục toàn diện:** Đọc toàn bộ cây thư mục `<FOLDER>`, tính mã băm SHA-256 cho từng file để bảo toàn tính toàn vẹn và truy vết.
 2. **Xếp loại nguồn vào IN00–IN13:** Phân loại rõ `Nguồn gốc` (CQT hay DN), `Định dạng` (`Cau_truc`, `PDF-da-trich`, `PDF-chua-trich`, `Anh-chua-doc`). Nếu có sao kê PDF scan chưa OCR thì gắn cờ `PDF-chua-trich`.
 3. **Đánh giá độ đủ từng nguồn:** Đếm số dòng thực, kiểm tra số dòng thiếu MST hoặc Ký hiệu HĐ, kiểm tra có tờ khai bổ sung không. Gán nhãn: `Đủ`, `Mỏng` (dưới 12 dòng), `Thiếu`, `PDF chưa trích`, hoặc `Chưa nhận`.
-4. **Kiểm F0 cho NNT (bắt buộc):** Đối chiếu NNT `<MST>` với sheet `F0` trong `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xlsx`:
-   - Nếu NNT nằm trên F0: ghi rõ "NNT thuộc F0 - Công văn cảnh báo [số CV]" vào KQ1_Kiem_ke; ghi đánh giá mức rủi zo cao từ đầu; chuyển tiếp cho Giai đoạn 2/3 báo cáo trước kết luận KQ3.
-   - Nếu không: tiếp tục bước 5.
+4. **Kiểm F0/F1/CA cho NNT (bắt buộc, chốt 11/11/2026):** Đối chiếu NNT `<MST>` với sổ CVCBRR và sổ Công an, **trước** khi rà NCC:
+   - Sheet `F0` (`min_row=8`, MST bán cột B): nếu NNT nằm F0, ghi "NNT thuộc F0 - Công văn cảnh báo [số CV]" vào KQ1.3; mức Cao từ đầu ở KQ3.
+   - Sheet `F1` (MST mua cột I index 8): nếu NNT nằm F1, ghi nhận để GĐ2 lập Phần 1 IN07 và **HD01 Cao**. Không kết luận vi phạm ở GĐ1.
+   - Sổ Công an: kiểm NNT có trong danh sách CA không.
+   - Kết quả âm vẫn ghi (NNT không F0/F1/CA). GĐ2 vẫn phải viết Phần 1 IN07.
+   - Rà NCC (F0 bên bán, F1 = NCC là bên mua tầng hai, ĐKKD danh bạ) là bước sau, không thay bước này.
 
 5. **Rà soát 80 quy tắc rủi ro:** Chiếu theo cột "Dữ liệu cần" của sheet `04_Quy_tac_rui_ro` để xác định từng quy tắc: `Chạy được ngay`, `Chạy một phần`, hay `Bị chặn`. Nêu rõ quy tắc bị chặn vì thiếu nguồn IN nào.
 
@@ -94,6 +97,8 @@ Giai đoạn đầu tiên và bắt buộc đối với mọi hồ sơ kiểm tr
 - **Dừng ngay** nếu không xác định được mã số thuế `<MST>` và kỳ kiểm tra `<KY>`.
 - **Cấm tự ý phân tích số liệu hoặc tính chênh lệch rủi ro** trong giai đoạn 1.
 - **Cấm xóa hoặc sửa file nguồn gốc** của người nộp thuế (chỉ cho phép ghi nhận và lưu trữ).
+- **Cấm bỏ qua kiểm F0/F1/CA của chính NNT** dù kết quả sẽ âm. **Cấm** lấy F1 (MST người mua cột I) dán lên NCC bên bán.
+- `Danh ba NNT.xls` có thể là SpreadsheetML: không dùng xlrd; MST = cột 4 (không phải cột 3).
 
 ---
 

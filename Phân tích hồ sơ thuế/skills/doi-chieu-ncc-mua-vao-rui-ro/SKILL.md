@@ -6,7 +6,7 @@ origin: javis-learned
 status: active
 created: 2026-09-30
 updated: '2026-10-09'
-learned_updated: '2026-10-07'
+learned_updated: '2026-11-18'
 ---
 ## Khi nào dùng
 
@@ -74,6 +74,10 @@ Font **Times New Roman**. Mẫu: `thu-muc-mau-ho-so-doanh-nghiep/MAU_FILE_TONG_H
 - Chỉ chạy trên Bảng kê mà bỏ HĐĐT (hoặc ngược lại) khi cả hai nguồn đều có.
 - Tách thành 2 bảng riêng theo nguồn thay vì 1 bảng + cột `Nguồn dữ liệu`.
 - Nhầm F1 (bên mua) với F0 (bên bán).
+- Kích HD01 chỉ vì NCC là F1 (tầng hai). HD01 = NNT nằm F1 hoặc NNT mua từ NCC F0/CA. NCC F1 xếp Cao cho rủi ro NCC / HD03.
+- Bỏ Phần 1 IN07 khi NNT không F0/F1/CA. Phần 1 bắt buộc, kể cả kết quả âm.
+- Đọc `Danh ba NNT.xls` bằng xlrd/pandas mặc định: file có thể là SpreadsheetML. Hàng 1 là tiêu đề, hàng 2 là header. MST = cột 4, trạng thái ĐKT tổ chức = cột 45, ngày cấp GCN = cột 33, ngày bắt đầu KD = cột 65. Cột 3 là mã NNT nội bộ, không phải MST.
+- F1 keyed nhầm theo MST bán rồi dán lên NCC. Sheet F1: MST bán = cột B (index 1), MST mua = cột I (index 8), `min_row=8`. `ncc_flag` = CA → F0 → F1; vừa F0 vừa F1 thì ghi F0.
 - Khớp sót MST có/không gạch nhánh (chuẩn hóa 10 và 13 số; bổ sung 0 đầu theo CD1 BT6 trước khi map F0/danh bạ).
 - Sort chi tiết theo MST thay vì `Ngay_HD` / kỳ kê khai khi mục tiêu là truy ngược kỳ.
 - Ô text bắt đầu bằng `=` gây lỗi Removed Records Formula.
@@ -99,3 +103,4 @@ Skill này là phân hệ chuyên sâu của `phan-tich-ho-so-thue` tại **Bư�
 - [2026-10-05] User chỉ ra file Tong_hop_NCC của T&T thiếu thông tin so với Vạn Phát Thành; skill cũ mô tả Bảng 2.2 như chỉ liệt kê NCC bất thường, dễ dẫn tới bản rút gọn. Cập nhật bắt buộc 100% NCC, Phần 3 và đủ cột Chi_tiet.
 - [2026-10-07] Bổ sung chuẩn hóa MST CD1 BT6 và nhắc quét cụm HĐ cùng ngày vượt ngưỡng tiền mặt khi đề xuất trọng tâm kiểm tra chứng từ.
 - [2026-10-07] Bổ sung nguồn HĐĐT ngang hàng Bảng kê; cột `Nguồn dữ liệu` = Bảng kê / HĐĐT / Chung (1 bảng duy nhất); thêm Bảng 2.3 đối chiếu theo kỳ kê khai cho NCC rủi ro (chi tiết HĐ, mặt hàng, giá trị, thuế).
+- [2026-11-18] Bài học Kiến Thành Tân: v1 kích HD01 vì 3 NCC F1; NNT không F1, F0 NCC = 0. Chốt HD01 không kích vì NCC F1; Phần 1 IN07 bắt buộc; danh bạ SpreadsheetML đúng cột 4/45/33/65.

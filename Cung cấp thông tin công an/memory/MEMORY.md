@@ -91,3 +91,4 @@
 - [Sự cố mất công thức Dashboard và lọc ẩn dòng trên Bao_cao_cong_van ngày 17/11/2026](facts/sua-su-co-mat-cong-thuc-va-loc-trong-bao-cao-cong-van-2026-1.md) - Khôi phục 235 công thức Dashboard và gỡ lọc rỗng AutoFilter trên Bao_cao_cong_van.xlsx do lưu sai công cụ.
 - [Tiếp nhận và phân Tổ KT2 xử lý CV 1806 ANĐT Đồng Nai (Cty Toàn Trẻ)](facts/tiep-nhan-va-phan-to-cv-1806-cong-ty-toan-tre-tam-hiep.md) - CV 1806/YC-ANĐT-Đ2 phân Tổ KT2 quản lý (Cty TNHH Toàn Trẻ, MST 3601035228, P. Tam Hiệp).
 - [Đầu mối nhận công văn Zalo Tổ KT2](facts/dau-moi-zalo-to-kt2-cct-nga-tt.md) - Đầu mối tiếp nhận công văn giao cho Tổ KT2 qua Zalo là tài khoản CCT-Nga-TT.
+- [Nguyên nhân và biện pháp chống lỗi hỏng file Bao_cao_cong_van.xlsx](facts/nguyen-nhan-va-bien-phap-chong-loi-file-bao-cao-cong-van.md) - Lỗi calcChain và dòng rác XML khi ghi file Bao_cao_cong_van.xlsx; quy chuẩn dùng COM/win32com.

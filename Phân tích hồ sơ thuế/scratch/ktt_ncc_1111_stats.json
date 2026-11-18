@@ -1,0 +1,225 @@
+{
+  "today": "2026-11-18",
+  "ver": "v2",
+  "nnt_on_f0": false,
+  "nnt_on_f1": false,
+  "nnt_on_ca": false,
+  "nnt_f1_hits": 0,
+  "f0_size": 12029,
+  "f1_buyers": 3915,
+  "ca_size": 397,
+  "dkkd_size": 134,
+  "ncc": 80,
+  "inv": 1327,
+  "src": {
+    "Bảng kê": 759,
+    "Chung": 236,
+    "HĐĐT": 332
+  },
+  "f0_ncc": [],
+  "f1_ncc": [
+    [
+      "3603620256",
+      "Công Ty TNHH Công Nghiệp Nhựa MT VINA",
+      45600000.0,
+      "F1 - NCC là bên mua dùng HĐ F0 (CV 475/CCTKV-KT1)"
+    ],
+    [
+      "0302309845",
+      "Công Ty TNHH Cao Phong",
+      22425635.0,
+      "F1 - NCC là bên mua dùng HĐ F0 (CV 4122/TCTngày17/9/2024và3122/CATB(CSKT)ngày28/08/2024; CV 45cty-1911/CSĐTngày04/11/2024)"
+    ],
+    [
+      "3600619830",
+      "Công Ty TNHH Tin Học Mai Phương",
+      218182.0,
+      "F1 - NCC là bên mua dùng HĐ F0 (dòng F1 nguồn CA, MST bán trống)"
+    ]
+  ],
+  "f0_gt": 0,
+  "f1_gt": 68243817.0,
+  "tot_mua_gt": 11411169918.0,
+  "top5_pct": 0.7836135959114021,
+  "top5": [
+    [
+      "0308849759",
+      "Công Ty Nhựa Hóa Chất An Như Phúc",
+      3645415598.0
+    ],
+    [
+      "0315676948",
+      "CÔNG TY TNHH QBK PLATECH",
+      2159420550.0
+    ],
+    [
+      "0312889634",
+      "Công Ty TNHH Cơ Khí Nhựa Việt Úc",
+      1924817500.0
+    ],
+    [
+      "0313159648",
+      "Công Ty TNHH Thương Mại Dịch Vụ Sản Xuất Bao Bì ROYAL",
+      871780500.0
+    ],
+    [
+      "0314378593",
+      "Công ty TNHH Kinh Doanh Nhựa Văn Hưng",
+      340513745.0
+    ]
+  ],
+  "hd01": false,
+  "hd02": [
+    [
+      "0313159648",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      871780500.0
+    ],
+    [
+      "0301598111",
+      "NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực",
+      202590909.0
+    ],
+    [
+      "0312918941",
+      "NNT ngừng hoạt động và đã hoàn thành thủ tục chấm dứt hiệu l",
+      130836364.0
+    ],
+    [
+      "0313609706",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      117311250.0
+    ],
+    [
+      "0313332525",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      53970000.0
+    ],
+    [
+      "3603361097",
+      "NNT ngừng hoạt động và đã hoàn thành thủ tục chấm dứt hiệu l",
+      35970000.0
+    ],
+    [
+      "0311817475",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      19265910.0
+    ],
+    [
+      "3603044330",
+      "NNT ngừng hoạt động và đã hoàn thành thủ tục chấm dứt hiệu l",
+      13000000.0
+    ],
+    [
+      "0301407871",
+      "NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực",
+      8909091.0
+    ],
+    [
+      "3601071787",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      8488000.0
+    ],
+    [
+      "0302870031",
+      "NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực",
+      6900000.0
+    ],
+    [
+      "3603440750",
+      "NNT tạm ngừng KD có thời hạn",
+      5010000.0
+    ],
+    [
+      "0301430045",
+      "NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực",
+      4809091.0
+    ],
+    [
+      "3602807685",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      4150000.0
+    ],
+    [
+      "3603455228",
+      "NNT ngừng hoạt động và đã hoàn thành thủ tục chấm dứt hiệu l",
+      4000000.0
+    ],
+    [
+      "0106869738",
+      "NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực",
+      2799269.0
+    ],
+    [
+      "0311464558",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      2500000.0
+    ],
+    [
+      "3701736636",
+      "NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực",
+      1000000.0
+    ],
+    [
+      "3602409469",
+      "NNT không hoạt động tại địa chỉ đã đăng ký",
+      800000.0
+    ],
+    [
+      "3603357904",
+      "NNT ngừng hoạt động và đã hoàn thành thủ tục chấm dứt hiệu l",
+      496000.0
+    ]
+  ],
+  "hd03_pct": 0.005980439997861401,
+  "hd05": [
+    [
+      "0312889634",
+      323,
+      1924817500.0
+    ],
+    [
+      "0312918941",
+      281,
+      130836364.0
+    ],
+    [
+      "3603620256",
+      122,
+      45600000.0
+    ],
+    [
+      "3603455228",
+      354,
+      4000000.0
+    ],
+    [
+      "0106869738",
+      30,
+      2799269.0
+    ],
+    [
+      "0318498080",
+      269,
+      0.0
+    ]
+  ],
+  "ncc_no_dkkd": 3,
+  "kq3": {
+    "run": 63,
+    "kdd": 11,
+    "treo": 1,
+    "kad": 3,
+    "cao": 6,
+    "tb": 12
+  },
+  "cvcbrr_mtime": "2026-11-13",
+  "nnt_tt": "NNT ngừng HĐ nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực",
+  "files": [
+    "KQ2.1_Phan_tich_CQT_3603216935_2015-2025_v2.xlsx",
+    "KQ3_Ket_luan_danh_gia_3603216935_2015-2025_v2.xlsx",
+    "KQ3_Danh_gia_Dau_hieu_Bat_thuong_3603216935_2015-2025_v2.xlsx",
+    "KQ3_NNT_Giai_trinh_Chi_tiet_3603216935_2015-2025_v2.xlsx",
+    "KQ1.3_Danh_gia_ho_so_3603216935_2015-2025_v2.xlsx"
+  ]
+}
