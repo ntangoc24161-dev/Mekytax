@@ -18,9 +18,8 @@ folder: "287. CV 2051-CA DONG NAI-KT2"
 - ĐTV: Đặng Thanh Quang, 0392.656.633; địa chỉ 1032 Nguyễn Ái Quốc, P. Trảng Dài
 
 ## Công văn chuyển tiếp Thuế TP
-- Số hiệu: **21513/DON-KTr1**, ngày **12/11/2026**
-- File: `pdf/21513_DON-KTr1_2051.pdf`
-- Hạn gửi Thuế TP: **trước 15/11/2026**
+- Số hiệu: **21189/DON-KTr1** ngày **06/11/2026** (hạn gửi Thuế TP trước **10/11/2026**, kèm thư mục 5 ảnh chụp trang công văn `2051-1.jpg`..`2051-5.jpg`) và **21513/DON-KTr1** ngày **12/11/2026** (hạn gửi Thuế TP trước **15/11/2026**)
+- File: `pdf/21189_DON-KTr1_2051.pdf`, `pdf/21513_DON-KTr1_2051.pdf`
 
 ## Yêu cầu
 Vụ án Mua bán trái phép hóa đơn, chứng từ thu nộp NSNN và Trốn thuế (Điều 88 BLTTHS):

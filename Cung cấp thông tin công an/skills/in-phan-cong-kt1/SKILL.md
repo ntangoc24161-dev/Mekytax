@@ -47,13 +47,17 @@ group: Năng suất
    - Lưu đồng thời vào:
      - `I:\My Drive\KIEM SOAT HSO CUNG CAP\IN PHAN CONG\`
      - `exports/in-phan-cong-kt1/`
-4. **Báo cáo và chờ xác nhận chốt in:**
-   - Báo cáo số lượng dòng, số công văn, danh sách cán bộ và số trang in tương ứng.
-   - Đợi người dùng kiểm tra bản xem trước và ra lệnh "chốt in".
-5. **Cập nhật trạng thái sang "Đang xử lý":**
+4. **Báo cáo và chờ xác nhận chốt in (BẮT BUỘC xem trước qua Telegram, chốt 18/11/2026):**
+   - Báo cáo số lượng dòng, số công văn, danh sách cán bộ và số trang in tương ứng trên chat web.
+   - Gửi file PDF xem trước về **Telegram** của chủ (`POST http://127.0.0.1:7777/telegram/send-file`, caption `[XEM TRƯỚC] Phân công KT1...`).
+   - **Dừng lại.** Chỉ in / bàn giao khi người dùng kiểm tra Telegram và ra lệnh "chốt in" / "OK" (cùng nguyên tắc xem trước như gửi Zalo KT2/KT3 trong skill `gui-phan-cong-zalo-kt23`).
+5. **Cập nhật trạng thái sang "Đang xử lý" ngay sau khi chốt in thành công:**
    - Đảm bảo đóng hoàn toàn các ứng dụng hoặc tiến trình Excel đang mở trên máy để tránh lock file.
-   - Chạy script với tham số `--apply` để cập nhật cột O từ "Mới" sang "Đang xử lý" bằng Excel COM (`win32com.client.DispatchEx`), đảm bảo bảo toàn cấu trúc workbook và biểu đồ Dashboard.
+   - Cập nhật cột O từ "Mới" sang "Đang xử lý", giữ biểu đồ Dashboard:
+     - **Windows có Excel:** `python scripts/in_phan_cong_kt1.py --apply` qua Excel COM (`win32com.client.DispatchEx`).
+     - **Linux/VPS (Javis hiện tại):** Drive Composio `googledrive_ralph-urbane` (fileId sổ sống), tải về → vá ô O trong XML xlsx → `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` → tải lại kiểm tra mở được và còn chart. Không `load_workbook`+`save` openpyxl cả workbook.
    - Đọc kiểm tra lại dữ liệu sau khi ghi để xác nhận hoàn tất.
+   - Không đổi trạng thái trước khi người dùng chốt; không dùng openpyxl ghi đè file Drive có chart.
 
 ## Các lệnh thực thi
 - `python scripts/in_phan_cong_kt1.py` : Quét sổ, tạo PDF riêng và file tổng hợp, chưa đổi trạng thái.
@@ -72,3 +76,6 @@ group: Năng suất
 - [2026-11-06] Xây dựng kỹ năng in đồng loạt công văn giao Tổ KT1: tạo PDF chẵn trang cho từng cán bộ, chèn dòng phân công tự co giãn font trên đầu trang 1.
 - [2026-11-06] Chuẩn hóa tên file in tổng hợp dạng `Phan cong xu ly KT1 tu dong <đầu> den dong <cuối> ngay in <dd-mm-yyyy>.pdf` và tự động đẩy lên Google Drive `I:\My Drive\KIEM SOAT HSO CUNG CAP\IN PHAN CONG\`.
 - [2026-11-06] Chốt trạng thái sau khi in là "Đang xử lý" (không dùng "Đang thực hiện"); thêm cơ chế đóng an toàn Excel trước khi cập nhật COM để tránh treo tiến trình.
+- [2026-11-18] Thống nhất với KT2/KT3: mọi phân công đều xem trước rồi mới chốt; sau chốt mới cập nhật sổ sang `Đang xử lý`.
+- [2026-11-18] Ghi sổ theo nền tảng: Linux/VPS = Drive Composio ralph-urbane + vá XML; Windows = Excel COM `--apply`.
+- [2026-11-18 15:27] Kênh xem trước chốt là **Telegram** (send-file); người dùng chọn "OK quy trình lần sau".

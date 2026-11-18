@@ -14,3 +14,5 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Ổ I: Google Drive Desktop và đường /mnt/i trên Javis VPS]] - Ổ `I:` trên máy Windows là Google Drive for Desktop, ánh xạ thư mục `My Drive`.
 - [[Quy-trinh-xu-ly-CV-Cong-an|Quy trình xử lý Công văn Công an - 4 bước]] - Bóc tách → Phân công → Soạn thảo → Quản lý hồ sơ (2026), có 4 cổng kiểm soát chéo.
 - [[Nhóm dữ liệu xử phạt theo số quyết định khi dự thảo công văn]] - Khi dự thảo công văn trả lời Công an có nhều doanh nghiệp cùng bị xử phạt theo 1
+- [[Xem trước phân công qua Telegram trước khi Zalo hoặc in]] - Mọi phân công KT1 (in PDF) và KT2/KT3 (Zalo) gửi bản xem trước qua Telegram trướ
+- [[Phân biệt số hiệu in sẵn và số dấu đến khi tra cứu công văn Công an]] - Khi người dùng nêu số công văn, số đó có thể là số dấu đến Cục Thuế, không phải

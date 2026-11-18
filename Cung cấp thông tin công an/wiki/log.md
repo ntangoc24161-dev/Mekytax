@@ -46,3 +46,13 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Nhóm dữ liệu xử phạt theo số quyết định khi dự thảo công văn]]
+
+## [2026-11-18] ingest | tự học từ chat
+
+Đã tạo:
+- [[Xem trước phân công qua Telegram trước khi Zalo hoặc in]]
+
+## [2026-11-18] ingest | tự học từ chat
+
+Đã tạo:
+- [[Phân biệt số hiệu in sẵn và số dấu đến khi tra cứu công văn Công an]]

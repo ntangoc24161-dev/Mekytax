@@ -1,0 +1,27 @@
+{
+  "reminders": [
+    {
+      "id": "r_7c63a0c056",
+      "text": "Quét thư mục CV MOI. Phân loại TỪNG file theo checklist cứng rồi mới trigger:\n\nNHÁNH B (CV trả lời đã ký) nếu có ≥1 dấu hiệu: (a) số hiệu ban hành dạng …/TCS3-KTr1|KTr2|KTr3; (b) tên file có TRA LOI / TRA_LOI / .signed / ky so / đã ký; (c) OCR: cơ quan ban hành là Thuế cơ sở/Thuế TP, kính gửi Công an, có chữ ký+mộc đỏ, trích yếu kiểu báo cáo kết quả xử lý theo CV… → trigger workflow theo-doi-cv-tra-loi-da-ky (Đang xử lý → Đã hoàn thành). Ưu tiên xử lý đúng file vừa thấy trong CV MOI.\n\nNHÁNH A (CV Công an mới) nếu: cơ quan ban hành là Công an/CQCSĐT/CQANĐT/CSKT/ANĐT (hoặc số hiệu …/CSKT-…, …/ANĐT-…, …/YC-… từ CA) VÀ nội dung yêu cầu cung cấp hồ sơ/tài liệu/thông tin NNT → trigger workflow quản-lý-công-văn-công-an chỉ 2 bước bóc tách → phân công (KT1 in / KT2-KT3 Zalo, bắt buộc xem trước rồi chốt; sau bàn giao cập nhật cột O Đang xử lý). DỪNG sau phân công - không tự soạn thảo.\n\nKHÔNG CHẮC nhánh nào → báo chat kèm tên file + lý do, không tự chọn, không ghi Đã hoàn thành.\nCV MOI trống → báo \"không có CV mới\".",
+      "mode": "task",
+      "due_at": 1795064400.0,
+      "chat_id": "web:mwlp8ddhcfj9yn08",
+      "repeat_min": 0,
+      "cron": "0 12 * * *",
+      "script": "",
+      "label": "Quét hồ sơ công an lúc 12h00 hàng ngày",
+      "status": "pending",
+      "muc_quyen": "full",
+      "remember_last": false,
+      "speak": false,
+      "call": false,
+      "created_by": "javis_schedule",
+      "created_at": 1794156270.8227534,
+      "fired_at": 1794978264.837984,
+      "result": "Đang quét thư mục CV MOI và kiểm tra workflow quản lý công văn trước khi xử lý.Thấy CV MOI trên Drive và có dấu hiệu file mới hôm nay. Đang đọc workflow, đường dẫn thư mục và cách trigger.Đã có log xử lý hôm nay. Đang đọc log đó và quét thư mục Drive CV MOI.Log sáng nay đã dọn CV MOI. Đang quét Drive thật và tìm cách gọi workflow.Đang gọi hub Javis và Composio để quét thật thư mục CV MOI.Kết quả lần đầu trống. Đang xác nhận thư mục còn tồn tại và liệt kê lại đúng tài khoản `googledrive_ralph-urbane`.Thư mục CV MOI trống. Ghi nhật ký vòng 12:00, không kích hoạt workflow.**Không có CV mới.**\n\nĐã quét Drive `CV MOI` lúc 12:00 (tài khoản `googledrive_ralph-urbane`): thư mục còn, **0 file**. Không kích hoạt workflow `quản-lý-công-văn-công-an`.\n\nSáng nay 09:41 đã xử lý xong 1 bản scan (`22046/TCS3-KTr2`, folder 294).",
+      "error": "",
+      "last_slot": 1794978000.0
+    }
+  ],
+  "updated": 1794989218.918481
+}

@@ -228,3 +228,20 @@ source: [[quy-trinh-phoi-hop-va-dieu-phoi-cac-tro-ly-cung-cap-ca]]
 ---
 
 **Cập nhật lần cuối:** 2026-11-08 · [[quy-trinh-phoi-hop-va-dieu-phoi-cac-tro-ly-cung-cap-ca]]
+
+
+## Mâu thuẫn
+- Quan điểm mới ([[conversations/2026-11-18]]): Phân công công văn cung cấp hồ sơ Công an đi theo kênh Tổ Kiểm tra (thực tế tính đến 18/11/2026). [[conversations/2026-11-18]]
+Tổ KT1 in phiếu PDF; Tổ KT2 và KT3 gửi Zalo cho đầu mối tổ tương ứng (mục tiêu). [[conversations/2026-11-18]]
+Tin Zalo chỉ gồm tên công ty, số công văn kèm ngày, và hạn thực hiện; không ghi folder, tình trạng hay câu gửi scan (mục tiêu). [[conversations/2026-11-18]]
+Mọi lần gửi Zalo hoặc in phân công phải đưa bản nháp về chat để người dùng kiểm tra trước khi gửi đầu mối 
+- Cần xác minh (append _open-questions).
+
+
+## Mâu thuẫn
+- Quan điểm mới ([[conversations/2026-11-18]]): Luồng quét trưa thư mục `CV MOI` phân loại từng file rồi chạy đúng nhánh, không gộp mọi file vào một workflow 4 bước (thực tế tính đến 18/11/2026) [[conversations/2026-11-18]].
+
+Nhánh B (bản trả lời đã ký): số hiệu `…/TCS3-KTr…`, tên `TRA LOI` / `.signed` / đã ký, hoặc OCR cơ quan Thuế trả lời kèm chữ ký/mộc thì chạy `theo-doi-cv-tra-loi-da-ky` ngay trong lần quét, đổi `Đang xử lý` thành `Đã hoàn thành` (thực tế tính đến 18/11/2026) [[conversations/2026-11-18]].
+
+Nhánh A (công văn Công an mới): 
+- Cần xác minh (append _open-questions).

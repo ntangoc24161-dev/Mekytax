@@ -1,0 +1,48 @@
+[XEM TRƯỚC] Phân công Zalo KT2 → đầu mối CCT- Nga- TT
+threadId: 973578993300096841 (DM)
+Ngày soạn: 18/11/2026 15:47
+Chưa gửi Zalo. Anh trả lời "chốt gửi" / "OK gửi" để gửi đầu mối.
+
+=== NGUYÊN VĂN TIN ZALO SẼ GỬI ===
+
+CÔNG TY TNHH TM XÂY DỰNG VẬN TẢI QUỐC HÒA
+CV 883/ANĐT ngày 19/08/2026
+Hạn thực hiện: trước 29/11/2026
+
+CÔNG TY TNHH CƠ KHÍ HỮU DŨNG
+CV 2612/ANĐT-Đ1 ngày 30/10/2026
+Hạn thực hiện: trước 07/11/2026
+
+CÔNG TY TNHH PHÁT THIÊN PHÚ
+CV 1647/CSKT-Đ3 ngày 29/10/2026
+Hạn thực hiện: [CHƯA XÁC ĐỊNH]
+
+CÔNG TY TNHH XUẤT NHẬP KHẨU HÓA CHẤT VÀ PHÂN BÓN THÀNH PHÁT
+CV 2051/YC-ANĐT-Đ2 ngày 30/10/2026
+Hạn thực hiện: trước 15/11/2026
+
+CÔNG TY TNHH DỊCH VỤ VẬN TẢI HÀ ANH PHÁT
+CV 2051/YC-ANĐT-Đ2 ngày 30/10/2026
+Hạn thực hiện: trước 15/11/2026
+
+Trường Tiểu Học Tam Hòa
+CV 1813/YC-ANĐT-Đ2 ngày 03/11/2026
+Hạn thực hiện: trước 15/11/2026
+
+CÔNG TY CỔ PHẦN KHOÁNG SẢN 623 ĐỒNG NAI
+CV 1155/PC03-Đ3 ngày 12/11/2026
+Hạn thực hiện: trước 01/12/2026
+
+CHI NHÁNH CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG THƯƠNG MẠI DỊCH VỤ XUẤT NHẬP KHẨU TRƯỜNG TRƯỜNG PHÁT JP
+CV 1155/PC03-Đ3 ngày 12/11/2026
+Hạn thực hiện: trước 01/12/2026
+
+=== GHI CHÚ SỔ ===
+- row 818 | folder 276 | MST 3603734528 | CB (trống)
+- row 849 | folder 281 | MST 3603153001 | CB (trống)
+- row 854 | folder 285 | MST 3600889932 | CB (trống)
+- row 856 | folder 287 | MST 3603446449 | CB (trống)
+- row 857 | folder 287 | MST 3603776888 | CB (trống)
+- row 862 | folder 291 | MST 3601449719 | CB (trống)
+- row 864 | folder 293 | MST 3602769528 | CB (trống)
+- row 865 | folder 293 | MST 0312242910-001 | CB (trống)
