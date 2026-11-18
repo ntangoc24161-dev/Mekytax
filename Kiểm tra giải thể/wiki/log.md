@@ -6,3 +6,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Quy cách nội dung kiểm tra hồ sơ quyết toán giải thể]]
+
+## [2026-11-16] ingest | tự học từ chat
+
+Đã tạo:
+- [[Quyết định buộc thực hiện biện pháp khắc phục hậu quả do hết thời hiệu xử phạt thuế]]

@@ -1,5 +1,5 @@
 # Wiki Index
 
-Catalog nội dung wiki (cập nhật mỗi lần INGEST). Đọc file này trước khi trả lời câu hỏi.
+Catalogue of the wiki's content (updated on every INGEST). Read this file before answering a question.
 
-_(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "tiêu hoá giúp tôi" để bắt đầu tích luỹ tri thức.)_
+_(No wiki pages yet. Drop a source into `sources/` and ask Javis to "digest it" to start building up knowledge.)_

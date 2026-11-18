@@ -1,6 +1,6 @@
 # Dashboard
 
-## 🔴 Nhiệm vụ quá hạn
+## 🔴 Overdue
 
 ```tasks
 not done
@@ -9,14 +9,14 @@ sort by due
 limit 20
 ```
 
-## 🟡 Nhiệm vụ hôm nay
+## 🟡 Due today
 
 ```tasks
 not done
 due today
 ```
 
-## 🟢 Sắp tới
+## 🟢 Coming up
 
 ```tasks
 not done
@@ -25,7 +25,7 @@ sort by due
 limit 20
 ```
 
-## 📥 Chưa có hạn
+## 📥 No due date
 
 ```tasks
 not done

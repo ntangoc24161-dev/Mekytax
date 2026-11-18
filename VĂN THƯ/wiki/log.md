@@ -50,3 +50,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Quy Trình Xử Lý Thông Báo Mời Giải Trình NNT]]
+
+## [2026-11-17] ingest | tự học từ chat
+
+Đã tạo:
+- [[Sổ Master Quản Lý Công Tác Kiểm Tra]]

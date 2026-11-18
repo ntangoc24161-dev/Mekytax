@@ -15,3 +15,4 @@ Catalog nội dung wiki (cập nhật mỗi lần INGEST). Đọc file này trư
 
 ## Tự học
 - [[Quy Trình Xử Lý Thông Báo Mời Giải Trình NNT]] - Quy trình tiếp nhận và xử lý người nộp thuế theo thông báo mời giải trình tại cơ
+- [[Sổ Master Quản Lý Công Tác Kiểm Tra]] - Sổ Master Quản lý công tác kiểm tra là mô hình cơ sở dữ liệu bảng tính tập trung

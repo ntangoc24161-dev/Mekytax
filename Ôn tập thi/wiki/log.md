@@ -1,3 +1,3 @@
 # Wiki Log
 
-Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | tiêu đề` (loại: init/ingest/update/query/lint/migrate).
+Time-ordered log (append-only). Each entry: `## [YYYY-MM-DD] kind | title` (kind: init/ingest/update/query/lint/migrate).

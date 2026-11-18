@@ -6,16 +6,16 @@ enabled: false
 mode: full
 goal: custom
 interval_min: 10080
-owner_chat: ""
-updated: 2026-11-13
+owner_chat: "8799384849"
+updated: 2026-11-17
 ---
 
 ## Mục tiêu
-Mỗi thứ 2 hàng tuần (chu kỳ 7 ngày), kiểm tra danh sách DN không giải trình sau 2 lần gửi (Deadline L2 đã qua ≥ 7 ngày), sau đó gọi Agent Xử lý cuối để tạo phiếu chuyển hoặc ghi đóng HĐ.
+Mỗi thứ 2 hàng tuần (chu kỳ 7 ngày), kiểm tra danh sách DN không giải trình sau 2 lần gửi (Deadline L2 đã qua ≥ 7 ngày làm việc), sau đó gọi Agent Xử lý cuối để tạo phiếu chuyển hoặc ghi đóng HĐ.
 
 ## Quy trình mỗi vòng (7 ngày một lần, mỗi thứ 2 lúc 8h sáng)
 
-1. **Mở bảng**: `QL_Thong_bao_Dong_Mo_HD_2026.xlsx`
+1. **Mở bảng Master**: `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx` (sheet `KT_TONG_HOP`)
 2. **Lọc điều kiện**:
    - Deadline L2 ≤ 7 ngày trước (hoặc: Ngày gửi L2 ≤ 7 ngày trước)
    - Giải trình L2 = trống hoặc "Không"

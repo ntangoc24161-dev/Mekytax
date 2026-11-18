@@ -1,4 +1,5 @@
 ---
+superseded_by: lich-nhac-deadline-kiem-tra-telegram
 type: decision
 provenance: user
 origin: javis-learned
@@ -9,3 +10,7 @@ Trong quy trình quản lý thông báo mời giải trình và xử lý đóng 
 - Thời hạn chờ giải trình giữa các lần gửi thông báo (L1 -> L2 và L2 -> xử lý cuối) là **7 ngày làm việc**.
 - Đối tượng trực tiếp xử lý: Cán bộ kiểm tra được phân công.
 - Kênh tự động gửi thông báo đôn đốc, nhắc nhở deadline: Telegram.
+
+
+## Lịch sử
+- [2026-11-17] Bị thay thế bởi [[lich-nhac-deadline-kiem-tra-telegram]] (user đổi thông tin).
