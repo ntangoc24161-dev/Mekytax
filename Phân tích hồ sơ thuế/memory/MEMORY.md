@@ -3,7 +3,7 @@
 > Chỉ mục bộ nhớ dài hạn của Javis. Mỗi dòng = 1 ký ức, trỏ tới file trong `facts/`.
 > Nội dung file này được nạp vào đầu mỗi câu hỏi để Javis nhớ ngữ cảnh.
 
-- [Đã chạy GĐ2 và GĐ3 Kiến Thành Tân MST 3603216935 kỳ 2015-2025](facts/user-gd23-kien-thanh-tan-3603216935.md) - Mức D; KQ2.1/KQ2.2/KQ3 v1 + 2 phụ lục; Cao 7 Trung bình 10; 3 NCC F1; 511-632 khớp 192, bán dưới giá 11; HĐĐT/IN13 2023-2025 ~2× BCTC.
+- [Đã chạy GĐ2 và GĐ3 Kiến Thành Tân MST 3603216935 kỳ 2015-2025](facts/user-gd23-kien-thanh-tan-3603216935.md) - Mức D; KQ2.1/KQ3 v2 theo 11/11 (HD01 Không, 20 NCC ĐKKD, 6 NCC mới); KQ2.2 v1; Cao 6 Trung bình 12; 3 NCC F1 tầng hai không kích HD01.
 - [Đã kiểm kê GĐ1 Kiến Thành Tân MST 3603216935 kỳ 2015-2025](facts/user-gd1-kien-thanh-tan-3603216935.md) - Mức D; NNT không F0/F1/CA; IN05 v2 có 24 NLĐ 05-1; thiếu GTGT Q4/2022 và Q1-Q3/2023, sao kê NH, GDLK, QTT 2023 không phụ lục, 3.3.
 - [Đã phân tích v1.4 Nông sản Lưu Hoài Anh MST 3603057410 kỳ 2022-2025](facts/user-phan-tich-v14-nong-san-luu-hoai-anh.md) - Mức A; 6 file KQ + 2 phụ lục GĐ3; 2 NCC F0 GT 3,65 tỷ; Top-5 91,27%; HTK/DT 2025 40,9%; thiếu sổ DN và một số quý XML.
 - [Đã phân tích v1.4 Đại Huy Hoàng MST 3602179712 kỳ 2021-2025](facts/user-phan-tich-v14-dai-huy-hoang.md) - Mức D; 6 file KQ + 2 phụ lục GĐ3; 511 khớp BCTC; 2 NCC F0 (Gỗ Minh Khôi 15,56 tỷ); HĐĐT thiếu 2021; 2023-2025 GV gần 0.
@@ -164,7 +164,9 @@
 - [Đã phân tích v1.4 Vina Minh Phát MST 3602373999 kỳ 2023-2025](facts/user-phan-tich-v14-vina-minh-phat.md) - Hồ sơ mức A, xuất 6 tệp KQ1.1-KQ3 theo v1.4; biên lãi gộp giảm 0,69% về 0,10%, Top-5 NCC 67,16%, không dính F0/F1/CA.
 - [T&T Biên Hòa nộp tờ khai bổ sung TNDN (2022-2023) và GTGT (7 kỳ 2022-2024)](facts/user-tt-bien-hoa-ke-khai-bo-sung-tndn-gtgt-2022-2024.md) - T&T Biên Hòa nộp bổ sung 9 tờ khai XML: loại chi phí và GTGT đối tác rủi ro F0 (NNM Group) cùng chi phí Q3/2022.
 - [T&T Biên Hòa phát sinh 01 lao động đa nguồn năm 2023 (Lê Tiến Trung)](facts/user-tt-bien-hoa-nld-da-nguon-le-tien-trung-2023.md) - Năm 2023 ghi nhận ông Lê Tiến Trung có thu nhập đồng thời tại T&T Biên Hòa và Công ty TNHH An Đông.
-- [Quy tắc đối chiếu F0/F1 cho người nộp thuế (NNT) - ưu tiên kiểm F0 trước](facts/pref-kiem-tra-f0-f1-cho-nnt.md) - Kiểm F0 trước: NNT có bị cảnh báo không → ghi KQ1.3/KQ3. F1 tiếp: NNT có mua HĐ F0 không → HD01 ghi KQ2.1. Phân biệt F0/F1 của NNT vs NCC.
+- [Quy tắc đối chiếu F0/F1 cho người nộp thuế (NNT) - ưu tiên kiểm F0 trước](facts/pref-kiem-tra-f0-f1-cho-nnt.md) - F0 NNT trước, F1 NNT tiếp (HD01). NCC F1 không kích HD01. Phần 1 IN07 bắt buộc. Danh bạ SpreadsheetML MST cột 4 / ĐKT tổ chức cột 45.
 - [Vị trí lưu trữ phôi Bang tinh chuẩn trong vault và trên máy](facts/pref-vi-tri-phoi-bang-tinh-chuan-trong-vault.md) - Phôi Bang tinh.xlsx chuẩn được lưu tại thu-muc-mau-ho-so-doanh-nghiep/ và sao-luu/ để tải từ web dashboard.
 - [Bảng tỷ suất lợi nhuận ngành Cục Thuế Đồng Nai ban hành (2020-2023)](facts/user-bang-ty-suat-loi-nhuan-nganh-dong-nai-2020-2023.md) - Bảng tỷ suất lợi nhuận bình quân 36 nhóm ngành giai đoạn 2020-2023 do Chi cục Thuế KV Biên Hòa - Vĩnh Cửu / Cục Thuế Đồng Nai ban hành phục vụ rà soát rủi ro thuế.
 - [Chuẩn hóa phôi Bang tinh làm sạch lỗi công thức và dữ liệu cũ](facts/pref-chuan-hoa-phoi-bang-tinh-bien-ban-kiem-tra.md) - Phôi Bang tinh.xlsx đã dọn sạch lỗi #REF!, xóa dữ liệu cá nhân/hóa đơn cũ và sẵn sàng nạp liệu cho vụ mới.
+- [Kiến Thành Tân v1 lệch quy tắc kiểm tra F0/F1 và IN07](facts/user-kien-thanh-tan-lech-nguyen-tac-f0-f1-in07.md) - Hồ sơ v1 Kiến Thành Tân bỏ sót khối Phần 1 NNT trên IN07, gán nhầm HD01 cho NCC F1 thay vì NNT và chưa tra danh bạ 3.2.
+- [Tách riêng HĐĐT và Bảng kê không gộp chung vào làm input Lệnh 2](facts/pref-tach-rieng-hddt-va-bang-ke-khong-gop-chung-input-lenh-2.md) - Người dùng chọn phương án chuẩn hóa đầu vào tách riêng HĐĐT và Bảng kê thành các sheet riêng biệt, giữ nguyên 100% dòng dữ liệu thô.

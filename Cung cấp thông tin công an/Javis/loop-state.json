@@ -2,10 +2,18 @@
   "ho-so-cung-cap-cong-an": {
     "auto_paused_reason": "",
     "fail_streak": 0,
-    "last_run": 1794974535.50678,
-    "last_summary": "Đã hoàn thành vòng kiểm tra và điều phối lúc 10:40 ngày 18/11/2026: thư mục `CV MOI` trên Google Drive hiện trống (**0 file chờ xử lý**), đồng thời đã lập và tải lên Google Drive bộ dự thảo Công văn trả lời và Tờ trình lãnh đạo còn thiếu cho hồ sơ **Folder 286 (`CV 19981/CV-CSHS(Đ3)` - Tổ KT1, hạn 20/11/2026)**.\n\n### 1. Kết quả kiểm tra thư mục `CV MOI` và sổ theo dõi\n- **Thư mục `CV MOI` (`1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`):** Không phát sinh thêm file mới sau khi đã xử lý và đồng bộ hồ sơ `294. CV 410-CA DAK LAK-KT2-R` (`22046/TCS3-KTr2`, dòng 895 trên `Bao_cao_cong_van.xlsx`).\n- **Rà soát các hồ sơ Tổ KT1 sắp đến hạn:** Phát hiện thư mục `286. CV 19981-CA THANH HOA-KT1` (dòng 855, hạn gửi Phòng KTr1 trước ngày **20/11/2026**) mới chỉ có 02 file PDF đầu vào, chưa có bộ dự thảo Công văn trả lời và Tờ trình lãnh đạo (trong khi các hồ sơ KT1 khác là Folder 284 và Folder 290 đã có đủ).\n\n### 2. Hoàn thiện bộ dự thảo Tổ KT1 cho Folder 286 (`CV 19981/CV-CSHS(Đ3)`)\n- **Đối tượng cung cấp:**",
-    "last_status": "ok",
+    "last_run": 1794973066.9833746,
+    "last_summary": "Đang kiểm tra tình trạng tiếp nhận công văn mới tại thư mục `CV MOI` và rà soát các hồ sơ mới nhất trên sổ theo dõi...\n### Báo cáo thực hiện vòng lặp: Tiếp nhận và Điều phối Công văn Công an\n\n**1. Quét thư mục tiếp nhận mới (`CV MOI`):**\n- Thư mục kiểm tra: `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`\n- **Kết quả:** Thư mục hiện tại **trống**, toàn bộ 4 công văn tiếp nhận hôm qua (1804, 1813, 2051, 2126) đã được bóc tách và phân luồng vào các thư mục lưu trữ thành công.\n\n**2. Tình hình đồng bộ và cập nhật thư mục lưu trữ:**\n- **Thư mục mới nhất:** Đã tạo và ghi nhận đến **Folder 294** (`294. CV 410-CA DAK LAK-KT2-R`).\n- **Các hồ sơ mới được phân bổ gần nhất:**\n  - **Folder 290:** CV 1804/YC-ANĐT-Đ2 -> Tổ KT1 (Cty Bảo Kim Long, CBQL: Nguyễn Hoàng Minh) - đã có dự thảo CV & Tờ trình.\n  - **Folder 291:** CV 1813/YC-ANĐT-Đ2 -> Tổ KT2.\n  - **Folder 292:** CV 2126/YC-ANĐT-Đ2 -> Tổ KT3.\n  - **Folder 293:** CV 1155/PC03-Đ3 -> Tổ KT2.\n  - **Folder 2",
+    "last_status": "✓ Đạt: Kết quả đối soát thực tế hoàn toàn chính xác: thư mục CV MOI đang trống, các Folder từ 290 đến 294 cùng file đính kèm/dự thảo/ký số khớp thực tế trên Google Drive, không có sai lệch hay gây hại.",
     "runs_today": 1,
     "day": "2026-11-18"
+  },
+  "ho-so-cung-cap-cong-an.conflict-remote-20261111-133623": {
+    "last_run": 1794972723.6572158,
+    "last_summary": "### Kết quả thực hiện vòng lặp (18/11/2026)\n\n**Không có công văn mới**, vòng quét dừng tại bước 1 theo đúng quy trình.\n\n- **Đã làm**: Quét và kiểm tra thư mục tiếp nhận [CV MOI](file:///I:/My%20Drive/HS%20CONG%20AN-2025-2026/HS%20CUNG%20CAP%20CA%202026/1.%20CUNG%20CAP%20CONG%20AN%20NAM%202026/CV%20MOI/). Đường dẫn tồn tại và truy cập bình thường.\n- **Kết quả**: Thư mục hiện tại hoàn toàn trống, không phát hiện tệp PDF hoặc Word công văn mới nào cần bóc tách hay xử lý.\n- **Tệp đã chạm**: Chỉ đọc danh sách thư mục; không can thiệp, sửa đổi hay ghi đè tệp nào (kể cả sổ [Bao_cao_cong_van.xlsx](file:///I:/My%20Drive/HS%20CONG%20AN-2025-2026/HS%20CUNG%20CAP%20CA%202026/Bao_cao_cong_van.xlsx)).\n- **Trạng thái quy trình**: Không kích hoạt các workflow xử lý tiếp theo vì không có dữ liệu đầu vào mới.",
+    "last_status": "✓ Đạt: Thực tế kiểm tra thư mục CV MOI hoàn toàn trống (chỉ có file hệ thống desktop.ini), không có công văn mới và file sổ không bị can thiệp sai phạm vi.",
+    "runs_today": 1,
+    "day": "2026-11-18",
+    "fail_streak": 0
   }
 }

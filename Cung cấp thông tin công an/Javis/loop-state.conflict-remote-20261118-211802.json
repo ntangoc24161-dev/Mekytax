@@ -1,0 +1,11 @@
+{
+  "ho-so-cung-cap-cong-an": {
+    "auto_paused_reason": "",
+    "fail_streak": 0,
+    "last_run": 1794974535.50678,
+    "last_summary": "Đã hoàn thành vòng kiểm tra và điều phối lúc 10:40 ngày 18/11/2026: thư mục `CV MOI` trên Google Drive hiện trống (**0 file chờ xử lý**), đồng thời đã lập và tải lên Google Drive bộ dự thảo Công văn trả lời và Tờ trình lãnh đạo còn thiếu cho hồ sơ **Folder 286 (`CV 19981/CV-CSHS(Đ3)` - Tổ KT1, hạn 20/11/2026)**.\n\n### 1. Kết quả kiểm tra thư mục `CV MOI` và sổ theo dõi\n- **Thư mục `CV MOI` (`1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6`):** Không phát sinh thêm file mới sau khi đã xử lý và đồng bộ hồ sơ `294. CV 410-CA DAK LAK-KT2-R` (`22046/TCS3-KTr2`, dòng 895 trên `Bao_cao_cong_van.xlsx`).\n- **Rà soát các hồ sơ Tổ KT1 sắp đến hạn:** Phát hiện thư mục `286. CV 19981-CA THANH HOA-KT1` (dòng 855, hạn gửi Phòng KTr1 trước ngày **20/11/2026**) mới chỉ có 02 file PDF đầu vào, chưa có bộ dự thảo Công văn trả lời và Tờ trình lãnh đạo (trong khi các hồ sơ KT1 khác là Folder 284 và Folder 290 đã có đủ).\n\n### 2. Hoàn thiện bộ dự thảo Tổ KT1 cho Folder 286 (`CV 19981/CV-CSHS(Đ3)`)\n- **Đối tượng cung cấp:**",
+    "last_status": "ok",
+    "runs_today": 1,
+    "day": "2026-11-18"
+  }
+}

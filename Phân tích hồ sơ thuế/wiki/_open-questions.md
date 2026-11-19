@@ -32,3 +32,5 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-10-23) [[Quy chuẩn định dạng và chuẩn hóa hiển thị biểu mẫu Excel kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-10-23 (dedup) - status: open
 
 - [ ] (2026-11-13) [[Nguyên tắc và chuẩn hóa phôi Bảng tính biên bản kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-13 (dedup) - status: open
+
+- [ ] (2026-11-18) [[Đối chiếu F0 F1 cho người nộp thuế và thứ tự ưu tiên cảnh báo rủi ro nhà cung cấp]]: đề xuất bổ sung từ chat 2026-11-18 (dedup) - status: open
