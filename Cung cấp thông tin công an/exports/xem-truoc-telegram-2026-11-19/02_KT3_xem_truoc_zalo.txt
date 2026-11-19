@@ -1,0 +1,27 @@
+[XEM TRƯỚC] Phân công Zalo KT3 → đầu mối CCT- Tieu Diem
+threadId: 5588572486369282885 (DM)
+Ngày soạn: 19/11/2026
+Chưa gửi Zalo. Anh trả lời "chốt gửi" / "OK gửi" để gửi đầu mối.
+
+=== NGUYÊN VĂN TIN ZALO SẼ GỬI ===
+
+CÔNG TY TNHH THƯƠNG MẠI PHÁT TRIỂN THỊNH VƯỢNG PHÁT - CHI NHÁNH VÕ THỊ SÁU
+CV 1740/ANĐT-Đ2 ngày 26/10/2026
+Hạn thực hiện: trước 28/10/2026
+
+CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬN TẢI ĐẦU TƯ HOÀNG QUÂN
+CV 883/ANĐT ngày 19/08/2026
+Hạn thực hiện: trước 29/11/2026
+
+CÔNG TY TNHH PHÁT TRIỂN THƯƠNG MẠI DỊCH VỤ THUẬN HOÀ PHÁT
+CV 883/ANĐT ngày 19/08/2026
+Hạn thực hiện: trước 29/11/2026
+
+=== FILE ĐÍNH KÈM ===
+- 274_1740_ANDT-D2.pdf
+- 276_883_ANDT.pdf
+
+=== GHI CHÚ SỔ ===
+- row 814 | folder 274 | MST 3603619557-002 | KT3 | Mới | hạn 28/10/2026
+- row 819 | folder 276 | MST 0316549251 | KT3 | Mới | hạn lấy từ dòng 816 = 29/11/2026
+- row 820 | folder 276 | MST 0316552303 | KT3 | Mới | hạn lấy từ dòng 816 = 29/11/2026

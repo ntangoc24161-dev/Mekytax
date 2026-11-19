@@ -110,4 +110,14 @@
 - [Đã gửi Zalo danh sách 8 DN KT2 ngày 18/11/2026](facts/gui-zalo-danh-sach-kt2-8-dn-2026-11-18.md) - Tin chữ 8 DN/6 CV tới CCT- Nga- TT; sổ 8 dòng Đang xử lý; KT3/KT1 chưa gửi.
 - [CV 5681/CSĐT-Đ5 (HPG) chưa nhập sổ](facts/cv-5681-csdt-d5-hpg-chua-nhap-so.md) - Tờ CSĐT Hải Phòng in 1457, dấu đến 5681 ngày 09/11, MST 3604070950, chưa có trên sổ 18/11.
 - [Gọi công văn theo số dấu đến](facts/goi-cv-theo-so-dau-den.md) - Người dùng gọi tờ Công an theo số dấu đến ghép ký hiệu đơn vị, không chỉ số in sẵn.
-- [CV 20333/DON-KTr1 ngày 27/10 chưa thấy trên sổ](facts/cv-20333-don-ktr1-chua-thay-tren-so.md) - Rà sổ và vault 18/11 không có 20333; Drive /mnt/i lúc đó chưa gắn.
+- [CV 20333/DON-KTr1 ngày 27/10 chưa thấy trên sổ](facts/cv-20333-don-ktr1-chua-thay-tren-so.md) - 19/11 đã có trong CV MOI: 20333/DON-KTr1 chuyển 5681/CSKT-Đ5 Đồng Nai; khác tờ HPG.
+- [CV 1141/CSKT-Đ3 dấu đến 6337](facts/cv-1141-cskt-d3-dau-den-6337.md) - CV MOI 19/11: 1141/CSKT-Đ3 CSKT Đồng Nai, dấu 6337, thư 21924/DON-KTr1 hạn 20/11, 132 cơ sở chăn nuôi.
+- [CV 5681/CSKT-Đ5 Đồng Nai khác tờ HPG](facts/cv-5681-cskt-d5-dong-nai-khac-hpg.md) - 5681/CSKT-Đ5 ngày 10/09/2025 CQCSĐT Đồng Nai, kèm 20333/DON-KTr1; khác 5681/CSĐT-Đ5 Hải Phòng.
+- [Id Drive thư mục CV MOI](facts/thu-muc-cv-moi-drive-id.md) - Thư mục CV MOI trên Drive có id 1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6, quét bằng googledrive_ralph-urbane.
+- [CV 5681/CSKT-Đ5 Đồng Nai đã nhập sổ folder 295, hai DN TCS4](facts/cv-5681-cskt-d5-folder-295-tcs4.md) - 5681/CSKT-Đ5 + 20333/DON-KTr1 đã vào sổ dòng 896-897, folder 295, trạng thái Không xử lý.
+- [Lỗi OAuth kiểm chứng thuộc engine Claude, không phải token Drive](facts/oauth-kiem-chung-claude-khong-phai-token-drive.md) - Câu OAuth session expired của lượt kiểm chứng là Claude, Drive ralph-urbane vẫn ACTIVE.
+- [Chốt in KT1 CV 19981 và 1804 ngày 19/11/2026](facts/chot-in-kt1-19981-1804-2026-11-19.md) - Người dùng chốt in KT1: dòng 855 (19981) và 861 (1804) trên sổ Drive sang Đang xử lý.
+- [CV 5681 không xử lý 2 DN TCS4 mà xử lý các công văn liên quan](facts/cv-5681-yeu-cau-xu-ly-cv-lien-quan-khong-dn-tcs4.md) - Người dùng 19/11: CV 5681 không yêu cầu xử lý 2 DN TCS4; yêu cầu xử lý các công văn kèm ảnh; sổ chưa sửa.
+- [Khôi phục sổ Drive khi Excel không mở sau vá XML](facts/ghi-so-drive-khoi-phuc-khi-excel-khong-mo.md) - Sau chốt in 19/11 người dùng báo Bao_cao_cong_van không mở được; khôi phục bản trước rồi vá lại O855/O861.
+- [File TH THEO DOI CONG AN tháng 11 đối chiếu phân công TCS3 chưa thực hiện](facts/file-th-theo-doi-cong-an-thang-11.md) - Người dùng gửi Excel TH THEO DOI CONG AN thang 11.xlsx qua Telegram để đối chiếu danh sách phân công TCS3 chưa thực hiện với sổ Bao_cao_cong_van.
+- [CV 5681 folder 295 đã bóc 7 DN mua vào trên sổ sống](facts/cv-5681-7-dn-mua-vao-folder-295.md) - Folder 295 / CV 5681 ghi 7 DN mua vào (dòng 896-902); hai DN vỏ chỉ còn trong trích yếu.

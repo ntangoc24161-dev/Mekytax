@@ -173,7 +173,198 @@
           "msg": "Bước 1 (khai-thac-du-lieu-ho-so) chưa qua kiểm chứng sau 3 lượt: Báo cáo ghi ĐẠT nhưng còn sai lệch chưa xử lý và chưa có bằng chứng kiểm chứng độc lập. (1) Row 845 có hạn R = 25/09/2026, sớm hơn ngày giao Q = 05/11/2026, nhiều khả năng sai năm hoặc ngày, nhưng báo cáo không cảnh báo. (2) Row 849 cột R được sửa từ None sang 07/11/2026 mà không nêu hạn lấy từ đâu . Quy trình dừng ở đây, không chạy tiếp các bước sau."
         }
       ]
+    },
+    {
+      "id": "t_085d9befe4f0",
+      "brain_root": "/brains/Cung cấp thông tin công an",
+      "title": "Nhánh A: bóc tách + phân công CV 1141 và CV 5681 (CV MOI 19/11)",
+      "intent": "Nhánh A 19/11/2026 (cron 12:00, Drive CV MOI 1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6, account googledrive_ralph-urbane): bóc tách + phân công đúng 2 bộ, không nhánh B, không soạn thảo, không ghi Đã hoàn thành. Bộ 1 CV 1141/CSKT-Đ3 dấu 6337 (scan 6337.pdf id 1RU2lsbRSu-wI2gVKXnYw8sQaLlk66mgH; thư 21924/DON-KTr1 id 1N_O3cm4c9CQ_ht_P_bVmJyeRBG5ziFCs; vault ho-so-cv-moi-2026-11/pdf/6337-CV1141-CSKT-D3.pdf và QLDN-21924-DON-KTr1-CV1141.pdf): 1 dòng sổ, DN ghi '132 cty đính kèm', không tách 132 MST; hạn R=20/11/2026. Bộ 2 CV 5681/CSKT-Đ5 Đồng Nai ngày 10/09/2025 (scan CV 5681.pdf id 1GVr4WQgqyAysqhOz4CdaCCCRFjliG1Ke; thư 20333/DON-KTr1 id 1HBIFXDM7sMo_5qfg18a0BNEMN_JDUy1w; vault ho-so-cv-moi-2026-11/pdf/CV 5681-CSKT-D5.pdf và QLDN-20333-DON-KTr1-CV5681.pdf): 2 DN MST 3603883248 Ngọc Liên Sơn và 3603935626 Ngọc Mai; không nhầm tờ 5681/CSĐT-Đ5 Hải Phòng (HPG 3604070950); R=hạn trên CV/thư. Bước 1: OCR/.md, tra CQT, phân Tổ KT (ngoài TCS3 không gán CBQL), ghi NHAP_HO_SO Drive fileId 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph bằng vá XML, cột Q=19/11/2026. Bước 2: KT1 in xem trước Telegram rồi mới in; KT2/KT3 Zalo xem trước Telegram rồi mới gửi đầu mối; sau bàn giao mới đổi cột O sang Đang xử lý. Nhật ký ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-19.md. Dừng sau phân công.",
+      "route": "wf:quản-lý-công-văn-công-an",
+      "capability": "external-write",
+      "execution_mode": "full",
+      "priority": 2,
+      "status": "blocked",
+      "needs_approval": false,
+      "block_kind": "transient",
+      "block_reason": "Bước 1 (khai-thac-du-lieu-ho-so) chưa qua kiểm chứng sau 3 lượt: Failed to authenticate: OAuth session expired and could not be refreshed. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_by": "chat",
+      "chat_id": "web:mwlp8ddhcfj9yn08",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "not_before": 0.0,
+      "last_heartbeat_at": 1795066106.218243,
+      "current_run_id": "",
+      "result": "\n[[NEEDS_INPUT]] Bước 1 (khai-thac-du-lieu-ho-so) chưa qua kiểm chứng sau 3 lượt: Failed to authenticate: OAuth session expired and could not be refreshed. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_at": 1795064844.5703144,
+      "updated_at": 1795066106.218243,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "Vault có file .md bóc tách cho đủ 4 PDF (6337-CV1141, QLDN-21924, CV 5681-CSKT-D5, QLDN-20333) trong ho-so-cv-moi-2026-11/",
+          "Sổ NHAP_HO_SO Drive 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph có đúng 1 dòng CV 1141/CSKT-Đ3 (dấu 6337), phần DN = '132 cty đính kèm', không tách 132 dòng MST; cột Q=19/11/2026, cột R=20/11/2026",
+          "Sổ có dòng CV 5681/CSKT-Đ5 Đồng Nai (thư 20333/DON-KTr1) với 2 DN MST 3603883248 Ngọc Liên Sơn và 3603935626 Ngọc Mai; không ghi tờ 5681/CSĐT-Đ5 Hải Phòng/HPG 3604070950; cột Q=19/11/2026, cột R=hạn trên CV/thư",
+          "Mỗi dòng đã tra CQT và phân Tổ KT; MST ngoài Thuế cơ sở 3 TP Đồng Nai không gán CBQL",
+          "KT1: đã gửi xem trước in qua Telegram rồi mới in; KT2/KT3: đã gửi xem trước qua Telegram rồi mới gửi Zalo đầu mối theo mẫu tin chữ (tên DN, số CV, ngày, hạn)",
+          "Cột O chỉ đổi sang 'Đang xử lý' sau bàn giao; không có dòng nào ghi 'Đã hoàn thành'; không có file dự thảo công văn/tờ trình trả lời",
+          "Nhật ký phân loại đã ghi tại ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-19.md, đủ 2 bộ Nhánh A và ghi không có nhánh B"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "kiem-soat-dieu-phoi-quy-trinh",
+          "name": "Kiểm soát & Điều phối quy trình",
+          "key": ""
+        }
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-19 05:07",
+          "msg": "created by chat"
+        },
+        {
+          "ts": "2026-11-19 05:07",
+          "msg": "claimed by worker:27:566823f1"
+        },
+        {
+          "ts": "2026-11-19 05:08",
+          "msg": "capability=external-write"
+        },
+        {
+          "ts": "2026-11-19 05:08",
+          "msg": "claimed by worker:27:e1a64f76"
+        },
+        {
+          "ts": "2026-11-19 05:28",
+          "msg": "Bước 1 (khai-thac-du-lieu-ho-so) chưa qua kiểm chứng sau 3 lượt: Failed to authenticate: OAuth session expired and could not be refreshed. Quy trình dừng ở đây, không chạy tiếp các bước sau."
+        }
+      ]
+    },
+    {
+      "id": "t_65be06280657",
+      "brain_root": "/brains/Cung cấp thông tin công an",
+      "title": "Bước 2 phân công CV Mới (19/11) - xem trước Telegram",
+      "intent": "Chạy Bước 2 phân công CV Mới 19/11 theo skills in-phan-cong-kt1 và gui-phan-cong-zalo-kt23, nguồn sổ Drive fileId 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph account googledrive_ralph-urbane. (1) KT1 Mới đã có CBQL: dòng 855 folder 286 CV 19981/CV-CSHS(Đ3) CB TRL VAN BAN hạn 20/11; dòng 861 folder 290 CV 1804/YC-ANĐT-Đ2 CB NGUYỄN HOÀNG MINH (tái sử dụng PDF xem trước 17/11 trong exports nếu còn đúng). Tạo/cập nhật PDF in, gửi xem trước qua POST /telegram/send-file, DỪNG chờ chốt in, không --apply. (2) KT3 Mới: folder 274 CV 1740/ANĐT-Đ2 MST 3603619557-002 và các DN KT3 còn Mới của CV 883 (dòng 819-820). Soạn tin Zalo mẫu ngắn, gửi nháp+file xem trước Telegram đầu mối CCT- Tieu Diem, DỪNG chờ chốt gửi Zalo. (3) Folder 295 CV 5681 bỏ qua phân công. (4) Folder 296 CV 1141 (132 cty, Tổ trống) không tự phân, báo cần chỉ đạo. (5) Folder 284 CV 4325 KT1 thiếu CBQL: báo thiếu, không in. Không soạn thảo trả lời. Không đổi cột O.",
+      "route": "auto",
+      "capability": "external-write",
+      "execution_mode": "full",
+      "priority": 2,
+      "status": "done",
+      "needs_approval": false,
+      "block_kind": "",
+      "block_reason": "",
+      "created_by": "chat",
+      "chat_id": "web:38b144d69b044dff999d78281775d4df",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "not_before": 0.0,
+      "last_heartbeat_at": 1795082294.5950806,
+      "current_run_id": "",
+      "result": "Tôi sẽ chạy Bước 2 phân công CV Mới 19/11: nạp skill in/Zalo, đối chiếu sổ Drive, rồi tạo PDF xem trước và nháp Telegram, không `--apply` và không đổi cột O.Skill đã nạp. Tiếp theo tôi sẽ đối chiếu sổ Drive và tìm cách gọi Telegram/Drive trong phiên này.Tôi đang đọc gói Bước 1 và các lần gửi Telegram trước để khớp đúng dòng sổ, PDF và đầu mối.Tôi sẽ gọi hub Javis để tải sổ sống Drive và xác minh đúng các dòng cần phân công.Tôi bắt đầu gọi hub Drive, đọc sổ và tìm PDF nguồn cùng font để tạo phiếu in.Sổ local đã khớp các dòng. Tiếp theo tôi mã hóa header vault, tải sổ sống Drive và kiểm PDF in sẵn.Sổ local khớp. Tôi tải sổ sống Drive, tạo PDF in KT1 (dòng phân công + trang chẵn) và soạn nháp Zalo KT3.Sổ sống Drive khớp, PDF KT1 đã tạo. Tôi soạn file xem trước rồi gửi Telegram, không `--apply` và không đổi cột O.Đã chạy xong Bước 2 phân công CV Mới 19/11: **xem trước đã gửi Telegram (8 file, `ok: true`)**. Chưa chốt in, chưa gửi Zalo, **cột O không đổi**.\n\n### KT1 - chờ chốt in\nĐã tạo/cập nhật PDF (trang chẵn, dòng phân công đầu trang) và gửi Telegram:\n\n- Dòng **855** folder **286** CV `19981/CV-CSHS(Đ3)` - CB **TRL VAN BAN** - hạn **20/11** - `exports/in-phan-cong-kt1/TRL_VAN_BAN.pdf` (2 trang)\n- Dòng **861** folder **290** CV `1804/YC-ANĐT-Đ2` - CB **NGUYỄN HOÀNG MINH** - tái sử dụng PDF 17/11 (còn đúng: MST `0317071899`, Ngày PC 17/11) - `exports/in-phan-cong-kt1/NGUYEN_HOANG_MINH.pdf` (2 trang)\n- Tổng hợp: `exports/in-phan-cong-kt1/Phan cong xu ly KT1 tu dong 855 den dong 861 ngay in 19-11-2026.pdf` (4 trang)\n\nKhông chạy `--apply`.\n\n### KT3 - chờ chốt gửi Zalo\nNháp gửi **CCT- Tieu Diem** (`threadId 5588572486369282885`), kèm PDF xem trước:\n\n```\nCÔNG TY TNHH THƯƠNG MẠI PHÁT TRIỂN THỊNH VƯỢNG PHÁT - CHI NHÁNH VÕ THỊ SÁU\nCV 1740/ANĐT-Đ2 ngày 26/10/2026\nHạn thực hiện: trước 28/10/2026\n\nCÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬN TẢI ĐẦU TƯ HOÀNG QUÂN\nCV 883/ANĐT ngày 19/08/2026\nHạn thực hiện: trước 29/11/2026\n\nCÔNG TY TNHH PHÁT TRIỂN THƯƠNG MẠI DỊCH VỤ THUẬN HOÀ PHÁT\nCV 883/ANĐT ngày 19/08/2026\nHạn thực hiện: trước 29/11/2026\n```\n\nFile: `exports/xem-truoc-telegram-2026-11-19/02_KT3_xem_truoc_zalo.txt`, `exports/gui-phan-cong-zalo/kt3-2026-11-19/274_1740_ANDT-D2.pdf`, `276_883_ANDT.pdf`. **Chưa gửi Zalo thật.**\n\n### Không phân công\n- **Folder 295 CV 5681:** 2 DN TCS4, trạng thái **Không xử lý** - bỏ qua\n- **Folder 296 CV 1141:** 132 cty đính kèm, Tổ trống, hạn 20/11 - **cần chỉ đạo**, không tự phân Tổ\n- **Folder 284 CV 4325:** KT1, 2 DN (HPG, Lưu Tính) **thiếu CBQL** - không in\n\n### Kiểm chứng\nSổ sống Drive `1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph` (`googledrive_ralph-urbane`) tải về `ho-so-cv-moi-2026-11/Bao_cao_cong_van_drive_buoc2_2026-11-19.xlsx`: dòng 855/861/814/819-820 vẫn **Mới**; 896-897 **Không xử lý**; 898 **Mới** Tổ trống. DASHBOARD còn 2 chart. Không có file dự thảo công văn/tờ trình mới.\n\nAnh xem Telegram rồi trả lời **chốt in** và/hoặc **chốt gửi**.\n\nJAVIS_LESSON: Gọi hub Drive từ Python phải URL-encode header X-Javis-Vault vì HTTP header không nhận Unicode.\nJAVIS_LESSON: PDF in KT1 NGUYỄN HOÀNG MINH ngày 17/11 tái sử dụng được khi CB, MST, số CV và Ngày PC trên sổ sống còn khớp.",
+      "created_at": 1795081877.7305477,
+      "updated_at": 1795082294.5950806,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "PDF in KT1 đã tạo/cập nhật cho dòng 855 folder 286 CV 19981/CV-CSHS(Đ3) CB TRL VAN BAN hạn 20/11 và đã gửi xem trước Telegram qua POST /telegram/send-file",
+          "PDF in KT1 đã tạo/cập nhật (hoặc tái sử dụng bản 17/11 trong exports nếu còn đúng) cho dòng 861 folder 290 CV 1804/YC-ANĐT-Đ2 CB NGUYỄN HOÀNG MINH và đã gửi xem trước Telegram qua POST /telegram/send-file",
+          "Không chạy --apply in KT1; cột O trên sổ Drive không đổi",
+          "Nháp tin Zalo mẫu ngắn (tên DN, số CV + ngày, hạn) cho folder 274 CV 1740/ANĐT-Đ2 MST 3603619557-002 và DN KT3 còn Mới của CV 883 (dòng 819-820) đã gửi kèm file xem trước Telegram tới đầu mối CCT- Tieu Diem; chưa gửi Zalo thật",
+          "Folder 295 CV 5681 được ghi nhận bỏ qua, không phân công",
+          "Folder 296 CV 1141 (132 cty, Tổ trống) được báo cần chỉ đạo, không tự phân Tổ",
+          "Folder 284 CV 4325 được báo thiếu CBQL và không in",
+          "Không có file dự thảo công văn/tờ trình trả lời mới"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "theo-doi-phan-cong",
+          "name": "Theo dõi & Phân công công văn",
+          "key": ""
+        },
+        "route": "auto",
+        "capability": "external-write",
+        "execution_mode": "full",
+        "tool_calls": [],
+        "provider": "grok-cli",
+        "acceptance_check": "ai",
+        "run_seconds": 388
+      },
+      "artifacts": [
+        {
+          "type": "file",
+          "path": "exports/in-phan-cong-kt1/TRL_VAN_BAN.pdf"
+        },
+        {
+          "type": "file",
+          "path": "exports/in-phan-cong-kt1/NGUYEN_HOANG_MINH.pdf"
+        },
+        {
+          "type": "file",
+          "path": "exports/in-phan-cong-kt1/Phan cong xu ly KT1 tu dong 855 den dong 861 ngay in 19-11-2026.pdf"
+        },
+        {
+          "type": "file",
+          "path": "exports/xem-truoc-telegram-2026-11-19/02_KT3_xem_truoc_zalo.txt"
+        },
+        {
+          "type": "file",
+          "path": "exports/gui-phan-cong-zalo/kt3-2026-11-19/274_1740_ANDT-D2.pdf"
+        },
+        {
+          "type": "file",
+          "path": "ho-so-cv-moi-2026-11/Bao_cao_cong_van_drive_buoc2_2026-11-19.xlsx"
+        }
+      ],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-19 09:51",
+          "msg": "created by chat"
+        },
+        {
+          "ts": "2026-11-19 09:51",
+          "msg": "claimed by worker:27:1c0f56ff"
+        },
+        {
+          "ts": "2026-11-19 09:51",
+          "msg": "capability=external-write"
+        },
+        {
+          "ts": "2026-11-19 09:51",
+          "msg": "claimed by worker:27:84af50d6"
+        },
+        {
+          "ts": "2026-11-19 09:58",
+          "msg": "done"
+        }
+      ]
     }
   ],
-  "updated": 1794461341.0458963
+  "updated": 1795082294.6223183
 }
