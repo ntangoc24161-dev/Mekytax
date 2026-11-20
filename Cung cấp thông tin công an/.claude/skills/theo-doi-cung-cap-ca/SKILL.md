@@ -2,7 +2,7 @@
 name: Theo dõi cung cấp hồ sơ Công an
 description: Bóc tách CV điều tra, tra cứu CQT quản lý, phân tổ KT (Vĩnh Cửu vào KT2; CQT khác ghi tên vào Tổ KT), gán CBQL KT1 và cập nhật Bao_cao_cong_van.xlsx.
 group: Tài chính
-updated: '2026-11-01'
+updated: '2026-11-20'
 learned_updated: '2026-11-01'
 ---
 ## Khi nào dùng
@@ -18,6 +18,11 @@ learned_updated: '2026-11-01'
 - Thư mục lưu trữ file Markdown: `D:\HSO CONG AN FILE MD`.
 
 ## Quy trình
+0. **Cửa kiểm sổ trước bóc tách (BẮT BUỘC, chốt 20/11/2026):**
+   - Chạy `python scripts/cua-kiem-dong-bao-cao.py`.
+   - Nhắc bot CA `@Kiem_soat_dieu_phoi_bot` → best-effort `javis_app_close` Excel → chờ Drive sync ~60s → **tự bóc tách/ghi**, không chờ chủ trả lời chat.
+   - VPS Docker thường không tắt được Excel trên máy Windows của chủ; vẫn chạy tiếp sau nhắc + chờ sync.
+   - Chỉ ghi đè đúng một file sống Drive (fileId `1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph`); không tạo bản dated mới trên Drive.
 1. **Quét và bóc tách PDF:**
    - Kiểm tra các file trong thư mục `CV MOI`.
    - Nếu 1 file PDF chứa nhiều công văn đính kèm: tách riêng từng công văn để theo dõi độc lập như nhận riêng lẻ.
@@ -43,7 +48,13 @@ learned_updated: '2026-11-01'
    - Di chuyển file PDF vào thư mục tương ứng.
 5. **Cập nhật dữ liệu:**
    - Ghi thông tin công văn và danh sách doanh nghiệp vào file `Bao_cao_cong_van.xlsx` tại sheet `NHAP_HO_SO`.
-   - Trước khi ghi giá trị cột MST, ép định dạng cột đó thành Text (chữ); không ghi trực tiếp bằng kiểu số.
+   - **Quy chuẩn ghi sổ từ VPS:** chỉ ghi chữ/số thô cột `A`–`Z`. Không đụng công thức `AE`–`AZ`, không đụng sheet `DASHBOARD`/chart. Kéo công thức phụ do máy Windows khi mở file.
+   - **Linux/VPS (BẮT BUỘC):** dùng `scripts/ghi-so-bao-cao-an-toan.py`:
+     - Ô chữ (MST, tên DN, tình trạng...): `set-cells --cell J903=<MST> --cell K903=<tên> ...` hoặc `--json-file`.
+     - Đổi tình trạng cột O: `set-status --row N --status "..."`.
+     - Trước/sau ghi: `validate --in ...` phải `ok: true`; rồi `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` đúng fileId sống `1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph`.
+     - Cột MST ghi dạng chữ qua sharedStrings (script `set-cells`), không ghi kiểu số.
+   - Cấm: `openpyxl.save` cả workbook; ZipInfo Linux mới; ElementTree serialize `sheet2`.
    - Tự động tạo bản sao lưu tại `D:\HSO CONG AN FILE MD\Bao_cao_cong_van_backup.xlsx`.
 6. **Tự động lập dự thảo hồ sơ trả lời (nếu có phân công Tổ KT1):**
    - Nếu công văn có doanh nghiệp được phân công cho Tổ KT1, tự động kích hoạt kỹ năng `tra-loi-cong-van` để soạn thảo 02 file chuẩn thể thức: Công văn trả lời và Tờ trình lãnh đạo, lưu trực tiếp vào thư mục công văn tương ứng.
@@ -51,6 +62,7 @@ learned_updated: '2026-11-01'
    - Kích hoạt kỹ năng `xuat-danh-sach-ho-so-ca` hoặc `dong-bo-thu-muc-ca` khi có yêu cầu.
 
 ## Bẫy
+- **Ghi sổ khi Bao_cao đang mở / Drive chưa sync:** Excel Windows dễ báo file hỏng; luôn đóng file và chờ sync trước khi bóc tách/ghi đè.
 - **Bỏ qua bước tra cứu cơ quan thuế quản lý:** Phải xác định CQT quản lý trước; nếu không thuộc Thuế cơ sở 3 TP Đồng Nai thì ghi tên CQT vào ô Tổ KT, tuyệt đối không phân tổ KT1/KT2/KT3.
 - Quên quy tắc địa bàn Vĩnh Cửu: Mọi đơn vị thuộc Vĩnh Cửu do Thuế cơ sở 3 quản lý đều phân công cho Tổ KT2.
 - Nhầm lẫn file theo dõi: Đảm bảo ghi đúng vào `Bao_cao_cong_van.xlsx` (sheet `NHAP_HO_SO`).
@@ -74,3 +86,6 @@ learned_updated: '2026-11-01'
 - [2026-10-16] Cửa kiểm CQ thuế quản lý trước khi phân tổ: chỉ chia KT1-KT3 và gán CBQL khi thuộc TCS3 (tên DB `TP.Biên Hòa-TCS3 Đồng Nai`); Vĩnh Cửu -> KT2; CQ khác ghi nguyên văn tên CQ vào ô Tổ KT.
 - [2026-11-01] Phát hiện 2 lỗi thực tế khi ghi sổ NHAP_HO_SO cho các CV 1740/2301/7267: cột MST bị Excel tự chuyển sang số làm mất số 0 đầu hoặc dấu gạch ngang (MST chi nhánh), và cột STT dùng công thức tự tính gây trùng STT khi chèn dòng ngoài thứ tự (1740 trùng 202). Bổ sung bước ép Text cho cột MST và bước kiểm tra lại STT sau khi ghi.
 - [2026-11-01] Phiên làm việc 2026-10-27 đến 2026-11-01 xử lý các CV 1740, 2301, 7267 phát hiện 2 lỗi thực tế khi ghi sổ NHAP_HO_SO mà skill cũ chưa cảnh báo: (1) Excel tự chuyển cột MST có số 0 đầu hoặc MST chi nhánh có dấu gạch ngang thành số, làm mất ký tự - phải ép cột MST thành Text trước khi ghi; (2) cột STT
+- [2026-11-20] Cửa kiểm đóng Bao_cao + chờ Drive sync trước khi bóc tách/ghi sổ; chỉ giữ một file sống trên Drive.
+- [2026-11-20] VPS sau nhắc bot CA: tự đóng (best-effort) + tự chạy tiếp, không chờ chat; script `cua-kiem-dong-bao-cao.py`.
+- [2026-11-20] VPS bắt buộc `scripts/ghi-so-bao-cao-an-toan.py` (validate/set-status/set-cells) trước khi upload Drive.

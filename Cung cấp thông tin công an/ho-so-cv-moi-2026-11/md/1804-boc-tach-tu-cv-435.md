@@ -42,3 +42,7 @@ folder: "290. CV 1804-CA DONG NAI-KT1"
 - `ho-so-cv-moi-2026-11/TRA LOI CV 1804_CA DONG NAI_du thao.docx` (Drive ID `1bpM5P3fUo7Fgd_T_h9f_ECTCgY393gUM`)
 - `ho-so-cv-moi-2026-11/to trinh 1804.docx` (Drive ID `1WbQhjXEJufQNDELI6yagcwPESel1EgaE`)
 - Chữ đỏ còn lại: chờ kết xuất TMS/HĐĐT tờ khai GTGT + bảng kê mua vào quý 01/2023 để đính kèm.
+
+## Thư mục local gom hồ sơ (20/11/2026)
+- `ho-so-cv-moi-2026-11/290. CV 1804-CA DONG NAI-KT1/` chứa dự thảo công văn, tờ trình, PDF gốc và bản bóc tách.
+- Drive folder ID: `19PqHVXcPcd5wWDOZIZeonbUhzL_lS3DX`.

@@ -42,12 +42,20 @@ Nhiều DN trong cùng một CV cùng tổ: mỗi DN một khối 3 dòng như t
 1. Xác định Tổ KT (`KT2` hoặc `KT3`). Một công văn có cả hai tổ: xử lý **tách** từng đầu mối, mỗi bên chỉ DN thuộc tổ đó.
 2. Lấy đúng `threadId` / `threadType` trong bảng trên. Không đoán tên gần giống.
 3. Copy PDF vào `exports/gui-phan-cong-zalo/`. Nếu `zalo_send_file` (PDF) lỗi vì thiếu kết nối realtime, raster hóa PDF sang JPG (lô 2 trang/lần) để gửi ảnh; **không** viết câu thông báo scan vào tin chữ.
-4. **Xem trước qua Telegram (BẮT BUỘC, chốt 18/11/2026):** gửi bản nháp tin chữ + file PDF (hoặc JPG) + tên đầu mối KT2/KT3 về **Telegram** của chủ bằng `POST http://127.0.0.1:7777/telegram/send-file` (caption ghi rõ `[XEM TRƯỚC]`, Tổ, đầu mối, và nguyên văn tin Zalo sẽ gửi). Có thể nhắc ngắn trên khung chat web rằng đã gửi Telegram. **Dừng lại.** Chỉ gửi Zalo đầu mối khi người dùng xác nhận rõ (vd "gửi", "chốt gửi", "ok gửi", "OK").
+4. **Xem trước qua Telegram bot CA (BẮT BUỘC, chốt 20/11/2026):** gửi bản nháp tin chữ + file PDF (hoặc JPG) + tên đầu mối KT2/KT3 về bot **`@Kiem_soat_dieu_phoi_bot`** (Trợ lý quản lý công văn CA), chat chủ `8799384849`, bằng script:
+   `python "/brains/Cung cấp thông tin công an/scripts/gui-telegram-bot-ca.py" --text "<nháp tin + Tổ + đầu mối>" --file "<đường tuyệt đối PDF/JPG>" --caption "[XEM TRƯỚC] ..."`.
+   **Không** dùng `POST /telegram/send-file` (đó là bot Javis chính). Có thể nhắc ngắn trên khung chat web rằng đã gửi Telegram bot CA. **Dừng lại.** Chỉ gửi Zalo đầu mối khi người dùng xác nhận rõ (vd "gửi", "chốt gửi", "ok gửi", "OK").
 5. Sau khi được chốt: gửi tin chữ (`zalo_send_message` hoặc CLI `msg send`), rồi gửi file/ảnh (`zalo_send_image` / CLI `msg send-image`). Caption ảnh chỉ ghi ngắn `CV <Số CV>` nếu tool bắt buộc có caption.
 6. **Cập nhật sổ ngay sau khi gửi thành công:** cột O (Tình trạng) từ `Mới` sang `Đang xử lý` trên `Bao_cao_cong_van.xlsx`.
-   - **Đường chính trên Linux/Javis:** Google Drive Composio account `googledrive_ralph-urbane` (`cungcapthongtin.tcs3tdn@gmail.com`), fileId sổ sống (vd `1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph`). Tải về → vá ô O (ưu tiên sửa XML trong xlsx để giữ chart DASHBOARD) → `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` → tải lại kiểm tra mở được và còn chart.
-   - Máy Windows có Excel: cũng có thể dùng Excel COM (`win32com`), giống `in-phan-cong-kt1 --apply`.
-   - Không `load_workbook` + `save` openpyxl đè cả file (dễ hỏng biểu đồ). Không nhầm account mặc định `googledrive_attach-speos` (mail khác).
+   - Trước khi ghi: chạy `python scripts/cua-kiem-dong-bao-cao.py`.
+   - **Linux/VPS (BẮT BUỘC):** account `googledrive_ralph-urbane`, fileId sống `1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph`.
+     1. Tải sổ về file tạm.
+     2. `python scripts/ghi-so-bao-cao-an-toan.py set-status --in <tạm> --out <tạm> --row <dòng> [--row ...] --status "Đang xử lý"`
+     3. `python scripts/ghi-so-bao-cao-an-toan.py validate --in <tạm>` → phải `ok: true`.
+     4. `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` đúng fileId sống (không tạo bản dated).
+     5. Tải lại → `validate` lần nữa.
+   - Máy Windows có Excel: Excel COM (`win32com`), giống `in-phan-cong-kt1 --apply`.
+   - Cấm: `openpyxl.save` cả workbook; ZipInfo Linux mới; ElementTree serialize sheet; nhầm account `googledrive_attach-speos`.
 7. Báo lại chat: đã gửi cho ai, threadId, số CV, msgId (nếu có), đã/ chưa cập nhật sổ.
 
 ## Bẫy
@@ -68,3 +76,6 @@ Nhiều DN trong cùng một CV cùng tổ: mỗi DN một khối 3 dòng như t
 - [2026-11-18] Bắt buộc xem trước rồi mới gửi đầu mối; sau gửi thành công cập nhật sổ sang `Đang xử lý`.
 - [2026-11-18] PDF realtime `zalo_send_file` dễ lỗi trên phiên MCP: fallback JPG qua CLI `msg send-image`, gửi lô 2 trang.
 - [2026-11-18 15:27] Kênh xem trước chốt là **Telegram** (send-file + caption nháp); khung chat web chỉ báo đã gửi xem trước. Người dùng chọn "OK quy trình lần sau", không gửi lại CV đã bàn giao.
+- [2026-11-20] Chuyển kênh xem trước sang bot CA `@Kiem_soat_dieu_phoi_bot` qua `scripts/gui-telegram-bot-ca.py`; thôi dùng `/telegram/send-file` cho việc CA.
+- [2026-11-20] Cửa kiểm đóng Bao_cao + chờ Drive sync trước khi cập nhật sổ.
+- [2026-11-20] VPS bắt buộc `scripts/ghi-so-bao-cao-an-toan.py` trước khi `UPLOAD_UPDATE`.

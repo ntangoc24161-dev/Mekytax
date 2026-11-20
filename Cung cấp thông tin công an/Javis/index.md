@@ -7,7 +7,7 @@
 ## Agents
 - **Trưởng phòng cung cấp hồ sơ công an** (`javis-core.conflict-remote-20261111-133623`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
-- **khai-thac-du-lieu-ho-so** (`khai-thac-du-lieu-ho-so`) - 
+- **Khai thác dữ liệu hồ sơ** (`khai-thac-du-lieu-ho-so`) - công chức thuế chuyên trách tiếp nhận, bóc tách công văn Công an và chuẩn bị dữ liệu cho phân công/soạn thảo (Bước 1 trong quy trình chính) · model haiku · skills: xuat-danh-sach-ho-so-ca, doi-chieu-ncc-mua-vao-rui-ro, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
 - **Kiểm soát & Điều phối quy trình** (`kiem-soat-dieu-phoi-quy-trinh`) - quản lý chất lượng, kiểm soát chéo dữ liệu bóc tách, nghiệm thu từng bước và phân phối nhiệm vụ cho các trợ lý · model sonnet · skills: theo-doi-cung-cap-ca, tra-cuu-nnt-tu-dong, tra-loi-cong-van, in-phan-cong-kt1, soan-thao-van-ban, dong-bo-thu-muc-ca, xuat-danh-sach-ho-so-ca · tags: Tài chính
 - **phap-che-chinh-sach-thue** (`phap-che-chinh-sach-thue`) - 
 - **quản-lý-hồ-sơ-công-an** (`quản-lý-hồ-sơ-công-an`) - 
@@ -65,7 +65,7 @@
 
 ## Workflows
 ### Tài chính
-- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 2 bước [khai-thac-du-lieu-ho-so -> theo-doi-phan-cong] · Tiếp nhận, bóc tách, phân công KT1 in / KT2-KT3 Zalo (Telegram xem trước); dừng sau phân công. Soạn thảo khi có lệnh riêng.
+- **Quản lý công văn công an** (`quản-lý-công-văn-công-an`) - active · 2 bước [khai-thac-du-lieu-ho-so -> theo-doi-phan-cong] · Tiếp nhận, bóc tách, phân công KT1 in / KT2-KT3 Zalo (xem trước qua bot CA @Kiem_soat_dieu_phoi_bot); dừng sau phân công. Soạn thảo khi có lệnh riêng.
 - **Theo dõi & cập nhật CV trả lời đã ký** (`theo-doi-cv-tra-loi-da-ky`) - active · 1 bước [theo-doi-cv-tra-loi-da-ky] · Xử lý CV trả lời đã ký từ CV MOI (cron 12h) hoặc quét năm 2026 theo lệnh; cập nhật sổ Đang xử lý → Đã hoàn thành.
 ### Vận hành
 - **Bóc tách & Phân công công văn Công an** (`boc-tach-phan-cong-cong-van`) - off · 2 bước [khai-thac-du-lieu-ho-so -> Theo dõi & Phân công công văn] · Bóc tách danh sách doanh nghiệp từ CV Công an, tra cứu DB NNT, phân công cho Tổ KT tương ứng.

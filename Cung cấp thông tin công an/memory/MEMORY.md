@@ -42,6 +42,8 @@
 - [Chữ đỏ cho thông tin chưa xác định trên công văn](facts/chu-do-thong-tin-chua-xac-dinh-cong-van.md) - Phần thiếu/chưa chính xác/chưa xác định tô chữ đỏ trên Word; chat dùng nhãn [CHƯA XÁC ĐỊNH].
 - [Nguồn dữ liệu chi tiết khi dự thảo trả lời công văn Công an](facts/nguon-du-lieu-chi-tiet-tra-loi-cv-cong-an.md) - TKNH lấy DB NNT; nợ lấy TMS/sổ nợ; thanh tra lấy QĐ-biên bản; ưu tiên LICH SU trong thư mục CV.
 - [Quy chuẩn trích yếu dòng Về việc trên Tờ trình](facts/in-dam-trich-yeu-dong-ve-viec-to-trinh.md) - Dòng trích yếu 'Về việc: ...' trên Tờ trình giữ nguyên theo mẫu, viết thường không in đậm.
+- [Ghi sổ Bao_cao trên VPS phải clone ZipInfo](facts/ghi-baocao-xlsx-clone-zipinfo.md) - Bắt buộc scripts/ghi-so-bao-cao-an-toan.py; ZipInfo Windows; SST khớp; không openpyxl.save.
+- [Quy chuẩn VPS ghi sổ chỉ ghi cột A-Z](facts/quy-chuan-ghi-so-vps-chi-ghi-cot-chinh-a-z.md) - VPS chỉ ghi số thô cột A:Z sheet NHAP_HO_SO, bỏ qua công thức phụ AE:AZ; máy Windows kéo công thức và làm mới Dashboard khi mở file.
 - [Mẫu Tờ trình: thứ tự ký và nội dung ngắn](facts/mau-to-trinh-thu-tu-ky-va-noi-dung.md) - Ý kiến lãnh đạo Tổ KTR1 nằm dưới cán bộ đề xuất; nội dung công việc không liệt kê dài danh sách DN.
 - [Cấu trúc cột mới trên sheet NHAP_HO_SO và khởi tạo sheet HET_TAM_NGUNG](facts/cau-truc-sheet-nhap-ho-so-va-sheet-het-tam-ngung.md) - Bổ sung cột Số folder lưu trữ, Hết tạm ngưng, Ngày hết tạm ngưng và sheet HET_TAM_NGUNG trên Bao_cao_cong_van.xlsx
 - [Xử lý triệt để lỗi Manage Workbook Links trên Bao_cao_cong_van.xlsx](facts/xu-ly-loi-manage-workbook-links-bao-cao-cong-van.md) - Bóc tách external references XML và điền trực tiếp cán bộ quản lý từ DB NNT thay thế công thức VLOOKUP liên kết ngoài
@@ -98,11 +100,11 @@
 - [Tài khoản Zalo Agent MCP đã đấu](facts/zalo-agent-mcp-da-dau.md) - Zalo Agent MCP tài khoản Mễ Kỳ-ngocnguyen, Toàn quyền, gói javis.zalo 2.0.1 đang bật.
 - [Đã gửi Zalo phân công KT2/KT3 ngày 18/11/2026](facts/gui-zalo-phan-cong-kt23-ngay-2026-11-18.md) - Gửi CV 1806 cho KT2, CV 9372 và 2126 cho KT3; sổ vault Đang xử lý, sổ Drive sống chưa ghi.
 - [Đã cập nhật sổ Drive 3 CV Zalo sang Đang xử lý ngày 18/11/2026](facts/cap-nhat-so-drive-cv-1806-9372-2126-2026-11-18.md) - Sổ sống Drive đã đổi 1806, 9372, 2126 sang Đang xử lý; file mở được, còn 2 chart.
-- [Ghi sổ Bao_cao_cong_van: Drive vá XML trên Linux, COM trên Windows](facts/ghi-so-bao-cao-cong-van-theo-nen-tang.md) - Linux ghi sổ sống qua Drive ralph-urbane bằng vá XML xlsx rồi kiểm tra mở được; Windows dùng Excel COM.
+- [Ghi sổ Bao_cao_cong_van: Drive vá XML trên Linux, COM trên Windows](facts/ghi-so-bao-cao-cong-van-theo-nen-tang.md) - Linux/VPS: scripts/ghi-so-bao-cao-an-toan.py rồi UPLOAD_UPDATE; Windows: Excel COM.
 - [Hai loop Hồ sơ cung cấp công an (đã giải quyết)](facts/mau-thuan-hai-loop-ho-so-cung-cap-cong-an.md) - Đã gộp 1 loop (tắt) + cron 12h là kênh quét; chốt 1A+2A+3A+4A ngày 18/11/2026.
 
 - [Gói A rồi 1A+2A+3A+4A hồ sơ Công an 18/11/2026](facts/goi-a-loop-cron-ho-so-cong-an-2026-11-18.md) - Cron 12h; checklist A/B; CV mới 2 bước rồi dừng; bản ký trong CV MOI xử lý luôn (nhánh B); ghi sổ theo nền tảng.
-- [Telegram hồ sơ CA dùng bot Kiểm soát điều phối](facts/telegram-ca-bot-kiem-soat-dieu-phoi.md) - Bot `Kiem_soat_dieu_phoi_bot` + agent `kiem-soat-dieu-phoi-quy-trinh`; không dùng Brain Default cho việc CA.
+- [Telegram hồ sơ CA dùng bot Kiểm soát điều phối](facts/telegram-ca-bot-kiem-soat-dieu-phoi.md) - Bot `@Kiem_soat_dieu_phoi_bot` + agent Điều phối; file xem trước/dự thảo CA gửi bằng `scripts/gui-telegram-bot-ca.py`, không dùng bot Javis chính.
 - [CV 1804 TLC căn cứ bản trả lời CV 435](facts/cv-1804-tlc-can-cu-cv-435.md) - DN TLC (MST 0317071899) từng trả lời tại CV 435/ANĐT(D92); dự thảo 1804 lấy dữ liệu cũ.
 - [Zalo Agent không có My Document và không có bot riêng](facts/zalo-agent-khong-my-document-khong-bot-rieng.md) - Tài khoản Mễ Kỳ không gửi được Cloud/My Documents, không tự nhắn cho chính mình, chưa có bot OA.
 - [Zalo KT2 chỉ gửi danh sách chữ, không kèm PDF](facts/zalo-kt2-chi-gui-tin-chu-khong-pdf.md) - Phân công KT2: tin chữ danh sách DN/CV/hạn; không gửi PDF hay ảnh scan kèm.
@@ -121,3 +123,10 @@
 - [Khôi phục sổ Drive khi Excel không mở sau vá XML](facts/ghi-so-drive-khoi-phuc-khi-excel-khong-mo.md) - Sau chốt in 19/11 người dùng báo Bao_cao_cong_van không mở được; khôi phục bản trước rồi vá lại O855/O861.
 - [File TH THEO DOI CONG AN tháng 11 đối chiếu phân công TCS3 chưa thực hiện](facts/file-th-theo-doi-cong-an-thang-11.md) - Người dùng gửi Excel TH THEO DOI CONG AN thang 11.xlsx qua Telegram để đối chiếu danh sách phân công TCS3 chưa thực hiện với sổ Bao_cao_cong_van.
 - [CV 5681 folder 295 đã bóc 7 DN mua vào trên sổ sống](facts/cv-5681-7-dn-mua-vao-folder-295.md) - Folder 295 / CV 5681 ghi 7 DN mua vào (dòng 896-902); hai DN vỏ chỉ còn trong trích yếu.
+- [Đã gửi Zalo phân công CV 5681 cho KT2 và KT3 ngày 20/11/2026](facts/gui-zalo-phan-cong-cv-5681-kt2-kt3-ngay-2026-11-20.md) - Đã gửi tin nhắn và file PDF CV 5681 đến Zalo KT2, KT3 và cập nhật sổ sang Đang xử lý.
+- [Một file Bao_cao_cong_van duy nhất trên Drive](facts/mot-file-bao-cao-cong-van-tren-drive.md) - Chỉ ghi đè fileId 1OWkt_HFG4Ew, không tạo bản dated mới trên Drive.
+- [Sửa NHAP_HO_SO: SST count và namespace sheet2](facts/sua-nhap-ho-so-sst-va-namespace-sheet2.md) - count phải khớp uniqueCount; sheet2 đủ xmlns r/xr2/xr3.
+- [Cửa kiểm đóng Bao_cao trước bóc tách](facts/cua-kiem-dong-bao-cao-truoc-boc-tach.md) - Đóng file + chờ Drive sync trước khi bóc tách/ghi sổ.
+- [Folder Drive 295/296 và hậu tố Tổ KT](facts/folder-drive-295-296-thieu-hau-to-kt.md) - 295 đã đổi thành `…-KT2,KT3` (20/11); 296 giữ `…-132cty` vì Tổ KT còn trống.
+- [Quy tắc tra MST theo tên công ty phải khớp 100%](facts/tra-mst-theo-ten-khop-100.md) - Tra MST theo tên: NNT trước, internet sau; chỉ nhận khi tên giống 100%; không được thì để trống.
+- [Đã bổ sung cột MST cho file OCR danh sách CV 6337/1141](facts/cv-1141-6337-ocr-bo-sung-mst.md) - File OCR 132 DN của CV 1141 (dấu đến 6337) đã có cột MST: 73/118 tên khớp, 45 để trống.
