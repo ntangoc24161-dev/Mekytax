@@ -1,7 +1,7 @@
 # Javis
 
-The Javis OS orchestration layer of this vault.
+Lớp điều phối của Javis OS trong vault này.
 
-- `agents/` - Agents (role + skills + their own memory)
-- `workflows/` - multi-agent workflows (status active/off)
-- Shared skills live in `skills/` (mirrored to `.claude/skills` for native Claude Code)
+- `agents/` - các Agent (vai trò + skills + bộ nhớ riêng)
+- `workflows/` - quy trình nhiều agent (status active/off)
+- Skills dùng chung ở `skills/` (tự mirror sang `.claude/skills` cho Claude Code native)

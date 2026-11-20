@@ -55,3 +55,4 @@ Tỷ suất lợi nhuận ngành là bộ chỉ số định mức tham
 - [[Chính sách miễn giảm thuế TNDN, TNCN và GTGT giai đoạn 2020-2026]] - Giai đoạn 2020-2026, Chính phủ ban hành nhiều chính sách miễn, giảm thuế nhằm hỗ
 - [[Nguyên tắc trích khấu hao tài sản cố định theo Thông tư 45/2013/TT-BTC]] - Nguyên tắc quản lý, sử dụng và trích khấu hao tài sản cố định (TSCĐ) thực hiện t
 - [[Nguyên tắc và chuẩn hóa phôi Bảng tính biên bản kiểm tra thuế]] - Phôi `Bang tinh.xlsx` là bảng tính biên bản của cơ quan thuế phục vụ thanh kiểm
+- [[Quy chuẩn chuẩn hóa mã số thuế doanh nghiệp và chi nhánh]] - Quy chuẩn kỹ thuật chuẩn hóa mã số thuế (MST_chuan - BT6) xử lý lỗi định dạng số

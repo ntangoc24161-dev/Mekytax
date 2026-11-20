@@ -11,7 +11,7 @@ steps:
   - agent: truong-phong-phan-tich-ho-so
     task: "Đọc KQ1.3 từ {{prev}}. Công bố mức A-E. Mức không chặn GĐ2/GĐ3. Ghi rõ IN còn thiếu. Lệnh tiếp: chuẩn hóa dữ liệu đầu vào rồi Lệnh 2 (KQ2.1 + KQ2.2) rồi Lệnh 3. Không tự kiểm kê lại."
   - agent: chuyen-vien-du-lieu-dau-vao
-    task: "Gộp HĐĐT + bảng kê + NLĐ + CD1 BT5-BT9 theo folder trong {{input}}. Ghi KQ1.1!IN01,IN05 và KQ1.2!IN02 (đủ mua vào và bán ra). Một phiên bản mới của tệp đích. Không xuất mẫu 02 hay Doi_chieu_BT5_BT9 để giao. Thiếu 1 nguồn: ô trống, không điền 0."
+    task: "Chuẩn hóa dữ liệu: (1) Gộp HĐĐT + bảng kê + NLĐ → KQ1.1!IN01,IN05 và KQ1.2!IN02. (2) Chuẩn hóa MST (BT6): 10 chữ giữ; 9 chữ thêm 0 (602996707→0602996707); 12/13 chữ thêm dấu (602996707001→0602996707-001). Dùng skill lam-sach-cd1 → Doi_chieu_BT5_BT9_<MST>_<KY>.xlsx. (3) Dùng skill tong-hop-hddt-bang-ke-4-sheet xuất 1 file 4 sheet riêng Tong_hop_HDDT_BangKe_<MST>_<KY>.xlsx (HDDT Mua/Bán, Bảng kê Mua/Bán, 100% dòng, MST chuẩn). Thiếu 1 nguồn: ô trống, không điền 0."
   - agent: phan-tich-vien-cqt
     task: "Lệnh 2 phần KQ2.1. Sao mẫu KQ2.1. Lập IN07; điền GTGT, NCC 100% (giữ HD04), TNCN, EBITDA; Tong_hop_co bằng công thức. Được phép nhận xét module 3.4. Không ghi mức rủi ro/điểm/đề cương toàn hồ sơ. Ô thiếu nguồn để trống. Một phiên bản mới của KQ2.1. Chưa có KQ1 thì dừng."
   - agent: phan-tich-vien-so-cty

@@ -312,3 +312,8 @@ File vận hành: `skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md` + `play
 
 Đã tạo:
 - [[Nguyên tắc và chuẩn hóa phôi Bảng tính biên bản kiểm tra thuế]]
+
+## [2026-11-18] ingest | tự học từ chat
+
+Đã tạo:
+- [[Quy chuẩn chuẩn hóa mã số thuế doanh nghiệp và chi nhánh]]
