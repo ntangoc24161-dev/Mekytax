@@ -32,3 +32,5 @@
 - [Lịch nhắc deadline công tác kiểm tra qua Telegram lúc 7h sáng](facts/lich-nhac-deadline-kiem-tra-telegram.md) - Lịch tự động nhắc deadline kiểm tra lúc 7:00 hàng ngày qua Telegram
 - [Chuyên đề trường công lập năm 2026 của cán bộ Ngọc 90](facts/chuyen-de-truong-cong-lap-ngoc90-2026.md) - 2 trường học công lập được phân công cho cán bộ kiểm tra Nguyễn Thị Ánh Ngọc 90 trong năm 2026
 - [Thư mục lưu trữ chuyên đề trường công lập năm 2026](facts/thu-muc-chuyen-de-truong-cong-lap-2026.md) - Đường dẫn lưu hồ sơ và dự thảo thông báo mời chuyên đề trường công lập năm 2026
+- [Vị trí lưu file Master theo dõi kiểm tra tại thư mục Văn thư](facts/vi-tri-luu-so-master-van-thu.md) - File QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx được người dùng yêu cầu lưu thêm tại thư mục 0-VAN THU.
+- [Chỉ theo dõi một sheet chung trên Master](facts/mot-sheet-theo-doi-chung-master.md) - Người dùng gộp KT_TONG_HOP vào DANH_SACH_THEO_DOI_CHUNG, xóa sheet trùng.

@@ -15,7 +15,7 @@ Mỗi thứ 2 hàng tuần (chu kỳ 7 ngày), kiểm tra danh sách DN không g
 
 ## Quy trình mỗi vòng (7 ngày một lần, mỗi thứ 2 lúc 8h sáng)
 
-1. **Mở bảng Master**: `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx` (sheet `KT_TONG_HOP`)
+1. **Mở bảng Master**: `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx` (sheet `DANH_SACH_THEO_DOI_CHUNG`)
 2. **Lọc điều kiện**:
    - Deadline L2 ≤ 7 ngày trước (hoặc: Ngày gửi L2 ≤ 7 ngày trước)
    - Giải trình L2 = trống hoặc "Không"

@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 7 agents · 40 skills · 1 workflows (1 bật) · 0 loops (0 bật) · 30 plugins (29 chạy)
+**Tổng quan:** 7 agents · 41 skills · 1 workflows (1 bật) · 0 loops (0 bật) · 30 plugins (29 chạy)
 
 ## Agents
 - **chuyen-vien-du-lieu-dau-vao** (`chuyen-vien-du-lieu-dau-vao`) - 
@@ -27,6 +27,7 @@
 ### Marketing
 - **HTML sang Webcake** (`html-to-webcake`) · [TẮT] - Chuyển trang HTML thành file .pke mở được trong trình dựng Webcake, giữ đúng màu, cỡ chữ, ảnh và bố cục của bản gốc.
 ### Năng suất
+- **Đọc PDF và OCR** (`doc-ocr`) - Đọc nội dung PDF hoặc ảnh scan, kể cả file chưa OCR: dùng kết quả có sẵn, hoặc OCR file mới rồi đọc.
 - **PaddleOCR** (`paddleocr`) - OCR ảnh và PDF bằng PaddleOCR qua MCP (tool ocr). Bảng/layout: đổi model PP-StructureV3.
 - **PDF sang Markdown** (`pdf-sang-md`) - Chuyển PDF/ảnh scan thành file Markdown (.md) cho Second Brain, giữ heading/bảng, lọc header/footer.
 - **Trạm tài liệu** (`tram-tai-lieu`) - Chuyển PDF/ảnh scan ra Word, Excel, TXT, PDF tìm kiếm được; xoay/ghép/tách trang; so chữ hai file; theo dõi thư mục.
@@ -55,7 +56,7 @@
 - **Tổ chức hồ sơ kiểm tra thuế** (`to-chuc-ho-so-kiem-tra-thue`) - Tổ chức thư mục hồ sơ kiểm tra thuế 4 bước, phân loại file, checklist đủ/thiếu A4, gom 1 nơi.
 - **Tổng hợp bên mua từ sổ CVCBRR** (`tong-hop-ben-mua-tu-so-cvcbrr`) - Tổng hợp đơn vị bên mua từ sổ CVCBRR: xuất Chi_tiet theo ngày CV và Tong_hop theo MST mua.
 - **Tổng hợp đầu vào HĐĐT, bảng kê và NLĐ** (`tong-hop-dau-vao-hddt-bang-ke-nld`) - Gộp HĐĐT portal, bảng kê NNT (lọc Tổng cộng) và NLĐ QTT TNCN thành file mẫu 02, không trộn nguồn.
-- **Tổng hợp hóa đơn và bảng kê 4 sheet** (`tong-hop-hddt-bang-ke-4-sheet`) - Tổng hợp HĐĐT cổng CQT và bảng kê NNT thành file 5 sheet (mua/bán riêng + tổng hợp rủi ro NCC), gắn cờ F0/CA/F1, chuẩn hóa MST BT6.
+- **Tổng hợp hóa đơn và bảng kê 4 sheet** (`tong-hop-hddt-bang-ke-4-sheet`) - Tổng hợp HĐĐT và bảng kê theo 3 giai đoạn: tạo 2 sheet HĐĐT + tổng hợp đối tác, cập nhật bảng kê và phân loại nguồn, bổ sung trạng thái & rủi ro.
 - **Tổng hợp TNCN và tra cứu đa nguồn** (`tong-hop-tncn-da-nguon`) - Tổng hợp QTT TNCN, tờ khai quý, danh sách NLĐ và tra cứu đa nguồn; đối chiếu TC22/TC23.
 - **Quản lý rủi ro tuân thủ thuế** (`quan-ly-rui-ro-tuan-thu-thue`) · [TẮT] - QLRR tuân thủ thuế: Luật 108/2025, TT 31/2021, phân loại rủi ro, bộ chỉ số TCT, 5 bước xử lý rủi ro.
 - **Trả lời công văn Công an** (`tra-loi-cong-van`) · [TẮT] - Dự thảo công văn phúc đáp và tờ trình phê duyệt cung cấp hồ sơ cho cơ quan Công an theo quy chuẩn thể thức và dữ liệu quản lý thuế.

@@ -31,11 +31,11 @@ Không dùng khi user chỉ muốn chính sách thuế hoặc sắp folder.
 
 Gắn kỹ thuật vào bảng biểu nghiệp vụ, không tạo `03_Lam_sach_CD1` làm kết quả DN.
 
-1. **BT6 - MST_chuan** trên mọi sheet có MST (bảng kê, HĐĐT, NCC). 10 hoặc 14 ký tự (đã có `-`) giữ; 9 số thêm `0` đầu; 12 số → `0` + 9 số + `-` + 3 số nhánh.
+1. **BT6 - MST_chuan** trên mọi sheet có MST (bảng kê, HĐĐT, NCC). 10 hoặc 14 ký tự (đã có `-`) giữ; 9 số thêm `0` đầu; 12 số (bắt đầu 0) → `0` + 9 số + `-` + 3 số nhánh; 13 số (bắt đầu 3) → giữ nguyên + thêm `-` trước 3 số nhánh.
 2. **BT5 - HĐ trùng:** COUNTIFS khóa Số HĐ + MST_chuan + giá trị chưa thuế. Flag > 1; xuất nhóm trùng để loại hoặc giải trình **trước** khi cộng doanh số.
 3. **BT5 gắn HĐĐT ↔ bảng kê:** cột `KHOP` / `CHI_CO_BANG_KE` / `CHI_CO_HDDT`. Số HĐ bỏ 0 đầu rồi ghép MST_chuan.
 4. **BT7A/BT7B - cụm cùng ngày cùng NCC:** SUMIFS (doanh số + thuế) theo ngày + MST. Ngưỡng **20.000.000** đến 06/2025; **5.000.000** từ 07/2025 (Luật GTGT 48/2024). Ngưỡng theo kỳ phát sinh HĐ. Gắn sheet công nợ/tiền mặt (`phan-tich-cong-no-tien-mat`).
-5. **BT8:** khóa `SoHD(bỏ 0 đầu)|MST_chuan`; thuế BKMV theo tháng vs PS Nợ TK `133*` trên NKC. Ghi số dòng #N/A từng phía.
+5. **BT8:** khóa `SoHD(bỏ 0 đầu)|MST_chuan`; thuế BKMV theo tháng vs PS Nợ TK `133*` trên NKC. Ghi số dòng #N/A từng phía. Khi map danh mục NCC, chỉ thể hiện trạng thái hoạt động ĐKKD (đang hoạt động / đóng MST / tạm ngừng) và cờ F0 (nếu có), không gán cờ F1 hay Công an cho người bán.
 6. **BT9 (DN thương mại, sổ 1 Nợ 1 Có):** khóa `SoHD|GiaTri`, thử `SoHD|TienThue` với dòng 133. Khớp tuyệt đối tiền thuế tháng/năm trước khi kết luận lệch kê khai. Tóm tắt nhúng `doi-chieu-gtgt-tndn-cbrr` Phần III.
 7. Pivot NKC theo TK / tháng nếu có sổ.
 

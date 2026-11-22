@@ -4,24 +4,24 @@
       "id": "r_7c63a0c056",
       "text": "Quét thư mục CV MOI để tìm công văn Công an mới, sau đó trigger workflow quản-lý-công-văn-công-an để xử lý: bóc tách → phân công → soạn thảo → quản lý hồ sơ. Nếu không có CV mới thì báo \"không có CV mới\".",
       "mode": "task",
-      "due_at": 1795064400.0,
+      "due_at": 1795237200.0,
       "chat_id": "web:3e4326e5df604ecabd9c4fec2e2892ca",
       "repeat_min": 0,
       "cron": "0 12 * * *",
       "script": "",
       "label": "Quét hồ sơ công an lúc 12h00 hàng ngày",
-      "status": "pending",
+      "status": "cancelled",
       "muc_quyen": "full",
       "remember_last": false,
       "speak": false,
       "call": false,
       "created_by": "javis_schedule",
       "created_at": 1794156270.8227534,
-      "fired_at": 1794978057.6970909,
-      "result": "Đã quét thư mục CV MOI (`I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`) lúc 12:00 ngày 18/11/2026. \n\nHiện tại không có CV mới.",
+      "fired_at": 1795162196.430955,
+      "result": "Đang quét thư mục CV MOI và nạp quy trình xử lý công văn Công an.\n\nĐã có đường dẫn CV MOI. Tiếp theo liệt kê file trong thư mục và nạp tool workflow.\n\nLệnh liệt kê chưa ra kết quả. Đang quét lại CV MOI và tìm tool `javis_task`.\n\nThư mục CV MOI tồn tại. Đang liệt kê nội dung chi tiết và đọc workflow.\n\nThư mục CV MOI đang trống. Đang đối chiếu thư mục cha và lần chạy workflow gần nhất để chốt.\n\n**Không có CV mới.**\n\nĐã quét `CV MOI` lúc 15:07 hôm nay: thư mục trống, 0 file. Không chạy workflow.\n\nLần hẹn 12:00 hôm qua bị trễ. Hai hồ sơ hôm qua đã vào folder `295. CV 5681-CA DONG NAI` và `296. CV 1141-CA DONG NAI-132cty`.",
       "error": "",
-      "last_slot": 1794978000.0
+      "last_slot": 1795064400.0
     }
   ],
-  "updated": 1794978057.7008076
+  "updated": 1795164753.6600025
 }

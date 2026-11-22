@@ -1,5 +1,6 @@
 {
   "enabled": [
+    "doc-ocr",
     "lap-ho-so-kiem-tra",
     "paddleocr",
     "pdf-sang-md",

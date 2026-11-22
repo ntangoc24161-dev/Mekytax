@@ -56,3 +56,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Phân biệt số hiệu in sẵn và số dấu đến khi tra cứu công văn Công an]]
+
+## [2026-11-20] ingest | tự học từ chat
+
+Đã tạo:
+- [[Phân loại hồ sơ xử lý kết luận điều tra và tạm ngưng kê khai]]

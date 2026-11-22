@@ -1,0 +1,42 @@
+﻿ToolOCR - các chỗ đã tự động sửa (40 chỗ). Trong Word: nền xanh nhạt = đã sửa, tô vàng = nghi ngờ cần soát.
+
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	NAY  ->  NAM
+Trang 1	Từ điển	THUE  ->  THUẾ
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	trong  ->  trọng
+Trang 1	Từ điển	quản  ->  quan
+Trang 1	Từ điển	thuê  ->  thuế
+Trang 1	Từ điển	Phường  ->  Phương
+Trang 1	Từ điển	dụng  ->  dựng
+Trang 2	Từ điển	Dầu  ->  Dấu
+Trang 2	Từ điển	CONG  ->  Công
+Trang 2	Từ điển	thắc  ->  thác
+Trang 2	Kiểm tra số	.322.630.509  ->  322.630.509
+Trang 2	Kiểm tra số	(=@g)  ->  (2)
+Trang 2	Kiểm tra số	-  ->  0
+Trang 2	Kiểm tra số	-  ->  0
+Trang 2	Kiểm tra số	-  ->  0
+Trang 3	Kiểm tra số	.9.480.470.689  ->  9.480.470.689
+Trang 3	Kiểm tra số	2.158.006.930  ->  2.118.006.930
+Trang 3	Kiểm tra số	-  ->  0
+Trang 3	Kiểm tra số	-  ->  0
+Trang 4	Kiểm tra số	11/2022 )  ->  11/2022)
+Trang 4	Kiểm tra số	202.544677  ->  202.544.677
+Trang 4	Kiểm tra số	904.297.3833  ->  9.042.973.833
+Trang 5	Từ điển	có  ->  cỏ
+Trang 5	Từ điển	kho  ->  khô
+Trang 5	Từ điển	vi  ->  vị
+Trang 5	Kiểm tra số	08/2023- 07/2024  ->  08/2023-07/2024
+Trang 6	Từ điển	‘Noi  ->  ‘Nơi
+Trang 6	Từ điển	Nguyén  ->  Nguyễn
+Trang 6	Từ điển	Chi  ->  Chí
+Trang 7	Từ điển	nhân  ->  nhận
+Trang 7	Từ điển	Trang  ->  Trạng
+Trang 7	Từ điển	lâp  ->  lập
+Trang 7	Từ điển	Hỏa  ->  Hóa
+Trang 7	Từ điển	Đông  ->  Đồng
+Trang 7	Kiểm tra số	..342.900.000  ->  342.900.000
+Trang 7	Kiểm tra số	45,920.000  ->  45.920.000

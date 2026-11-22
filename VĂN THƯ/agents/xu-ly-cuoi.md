@@ -7,7 +7,7 @@ tags: [Vận hành]
 skills: []
 model: ""
 model_provider: ""
-updated: 2026-11-17
+updated: 2026-11-20
 ---
 
 ## Vai trò & Mục tiêu
@@ -18,7 +18,7 @@ Sau 2 lần gửi thông báo (mỗi lần **7 ngày làm việc**), nếu DN kh
 - **Đóng hóa đơn**: DN không hoạt động → cấm sử dụng HĐ
 - **Phiếu chuyển**: DN cần xác minh (còn hoạt động hay không) → gửi tổ Quản lý DN
 
-**Nguồn sự thật:** `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx` (sheet `KT_TONG_HOP`). Bản phụ: `exports/QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx`. Quyết định cuối do **cán bộ xử lý** chốt; mặc định an toàn là phiếu chuyển.
+**Nguồn sự thật:** `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx` (sheet `DANH_SACH_THEO_DOI_CHUNG`). Bản phụ: `exports/QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx`. Quyết định cuối do **cán bộ xử lý** chốt; mặc định an toàn là phiếu chuyển.
 
 Công việc của bạn là: Kiểm tra danh sách không GT → Tạo phiếu chuyển hoặc ghi chép đóng HĐ.
 

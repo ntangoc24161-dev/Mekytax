@@ -1,0 +1,265 @@
+﻿THUẾ THÀNH PHỐ HỒ CHÍ MINH THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+sé: .Ýƒ33.../TCS1-QLDN2
+V/v cảnh báo công ty có dầu
+hiệu rủi ro cao vê thuê, hóa đơn
+Kính gửi:
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+Tân Định, ngày 9 tháng 4l năm 2026
+- Chi cục Thuế doanh nghiệp lớn;
+- Chi cục Thuế thương mại điện tử;
+- Các Thuê Tỉnh Thành phô;
+- Các Thuế cơ sở thuộc Thuê Tỉnh Thành phô; - Sở Tài chính TP. HCM (Phòng ĐKKD).
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/12/2025 và các văn bản hướng dẫn thi hành;
+Căn cứ Nghị định 254/2026/NĐ-CP ngày 30/06/2026 của Chính phủ ban hành quy định chỉ tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử;
+Căn cứ Thông tư số 91/2026/TT-BTC ngày 30/06/2026 của Bộ Tài chính quy định một số điều của Luật Quản lý thuế và Nghị định số 254/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp đề tổ chức, hướng dẫn thi hành Luật Quản lý thuế 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QĐ-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dấu hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương:
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việc ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro trong quản lý và sử dụng hóa đơn;
+Căn cứ công văn số 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế về việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế về việc tăng cường công tác quản lý hóa đơn điện tử.
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: CÔNG TY TNHH MTV LÂM TÂN
+
+- Ma s thuê: 0319387591 Ï
+- Pia chi tru sở: 208 Cô Bắc, Phường Cầu Ông Lãnh, Tp. Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319387591 cấp lần đầu ngày 29/01/2026 do Phòng Đăng ký kinh doanh — Sở Tài chính TP. Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Bán buôn tổng hợp
+- Người đại diện theo pháp luật: Nguyễn Thanh Sơn Chức vụ: Giám đốc
+Noi cấp: không có thông tin
+-CMND/CCCD/Hộ chiếu số: 074202004500
+- Địa chỉ thường trú: Tổ 2A, ấp Tân Thành 1, Xã Bắc Tân Uyên, TP Hồ Chí Minh
+2. Tình hình sử dụng hoá đơn:
+- Căn cứ kết quả tra cứu hoá đơn bán ra (ngày tra cứu 26/10/2026) trên hệ thống hóa đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
+ĐVT: Đồng
+Kỳ	Tờ khai		Hóa đơn điện tử		Chênh lệch	
+					(hóa đơn - tờ khai)	
+	Doanh thu bán ra	Thuế GTGT đầu ra	Doanh thu bán ra	Thuế GTGT đâu ra	Doanh thu bán ra	Thuê GTGT đầu Ta
+1/2026					-	-
+2/2026	4.814.000.000	385.120.000	4.814.000.000	385.120.000	-	-
+3/2026	19.651.636.924	1.572.130.954	20.176.636.924	1.614.130.955	525.000.000	42.000.001
+4/2026	1.678.624.778	134.289.982	1.678.624.778	134.289.982	-	-
+Tổng	26.144.261.702	2.091.540.936	26.669.261.702	2.133.540.937	525.000.000	42.000.001
+- Căn cứ kết quả tra cứu hố ơn mua Yo (nầy tra cứu: 26/10/2026) ttn hệ thống hố ơn ién tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin tin tờ khai thuế GTGT cñnh lệch như sau:
+Kỳ	Tờ khai		Hóa đơn điện tử		Chênh lệch	
+					(hóa đơn - tờ khai)	
+	HH DV mua vào	Thuế GTGT mua vào	HH DV mua vào	Thuế GTGT mua vào	HH DV mua vào	Thuế GTGT mua vào
+1/2026		0	1.100.000	88.000	1.100.000	88.000
+2/2026	4.787.518.000	383.001.440	4.787.518.000	383.001.440	-	0
+3/2026	19.580.788.815	1.566.463.105	19.580.916.535	1.566.475.878	127.720	12.773
+4/2026	1.655.496.456	132.439.716	1.655.496.456	132.439.716	-	0
+Tổng	26.023.803.271	2.081.904.261	26.025.030.991	2.082.005.034	1.2227.720	100.773
+.= Các dấu hiệu rủi ro:
+
+- Căn cứ dữ liệu trên ứng dụng hóa đơn điện tử, từ ngày thành lập công ty ngày 29/01/2026 và có Thông báo chấp nhận đăng ký sử dụng hóa đơn điện tử tự động ngày 03/02/2026, trong thời gian từ tháng 06/2026 đến tháng 10/2026 xuất hóa đơn bán ra tăng đột biến.
+- Công ty kê khai dữ liệu hóa đơn điện tử mua vào, bán ra có chênh lệch so với tờ khai thuế GTGT.
+- Công ty mua bán với các đơn vị hiện không còn hoạt động tại địa chỉ đã đăng ký chiếm số lượng lớn.
+- Công ty xuất hóa đơn nhiều mặt hàng: Bình ác quỷ 12V-180Ah, Kèm điện, Găng tay cao su cách điện, Sắt hộp (20 x 40 x 4800mm), ....
+- Doanh nghiệp kê khai không phát sinh số thuế phải nộp.
+- Doanh nghiệp không đăng ký chi nhánh, kho hàng, địa điểm kinh doanh, không có tài sản cổ định, không kê khai khẩu trừ thuế TNCN của người lao động.
+- Ngày 23/03/2026 doanh nghiệp có đôi tên Đại diện pháp luật từ Trân Văn Lâm sang Nguyễn Thị Thanh, ngày 14/07/2026 doanh nghiệp có đồi tên Đại diện pháp luật từ Nguyễn Thị Thanh sang Hồ Đình Hùng, ngày 20/10/2026 doanh nghiệp có đổi tên Đại diện pháp luật từ Hồ Đình Hùng sang Nguyễn Thanh Sơn.
+3. Các biện pháp đã thực hiện:
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Cầu Ông Lãnh đã tiền hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại ; : địa chi đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo sé =~ 4.6.942/TB-TCS1 ngày 45.././Í./2026 về việc NNT không hoạt động tại địa chi đã đăng ký và gửi công văn chuyển tin báo vụ việc đến Cơ quan cảnh sát điều tra hỗ trợ điều tra, xác minh làm rõ hành vi vi phạm và xử lý theo quy định của pháp luật./.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp dé khấu trừ, hoàn thuế, hạch toán chỉ phí đầu vào không đúng quy định, Thuế cơ sở 1 Tp. Hồ Chí Minh đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của CÔNG TY TNHH MTV LÂM TÂN tiến hành kiểm tra, xác minh và xử lý nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 — Thuế cơ sở 1 Thành phố Hồ Chí Minh theo địa chỉ số 8 Nguyễn Văn Thủ, Phường Tân Định, Thênh phố Hồ Chí Minh.
+
+Thuế cơ sở 1 Tp. Hồ Chí Minh rất mong nhận được sự phối hợp của quý cơ quan./;=—
+KT. TRƯỚNG THUẾ CƠ SỞ
+Nơi nhận:
+hin, ƯỚNG
+cose
+- Lưu: VT, QLDN2 (htcong, 16b). YW—
+
+DANH SÁCH HÓA ĐƠN
+Từ ngày 01/06/2026 đến ngày 26/10/2026
+K{ “hiểu	7 ({	0		L.a . ˆ	tn người bán/Tà [|	ST ngư:	[====	y=”	Em”	1¬	Em	Äq==
+1	C2&TL T	1	26/06/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0305812461	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYÊN	164/1 Quốc lộ LA, Tổ 4, Khu Phố 1, Phường Thới An. TP Hồ Chí Minh. Viết Nam	180.000.000	14.400.000	Hóa đơn mới	0.12-TCS12 TP Hồ Chí Minh
+1	C26TL T	10	30/06/2026	0319387591	CÕNG TY TNHH MTV LÂM TÂN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYỀN	164/1 Quốc lộ LA, Tô 4, Khu Phố 1, Phường Thới An. TP Hồ Chí Minh. Viêt Nam	634.400.000	50.752.000	Hóa đơn mới	0.12-TCS12 TP. Hạ Chí Minh
+1	C26TL T	11	30/06/2026	0319387591	CONG TY TNHH MTV LẮM TÂN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYÊN	164/1 Quốc lộ 1A, Tô 4, Khu Phố 1, Phường Thới An. TP Hồ Chí Minh. Viêt Nam	633.600.000	50688000	Hóa đơn mới	0.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	12	30/06/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIỂM	81/1 Quốc lộ ]A, Tổ 4, Khu phố 1, Phường Thới An, TP Hồ Chí Minh. Viêt Nam	238.000.000	19.040.000	Hóa đơn mới	0.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	13	30/06/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CỘNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIỂM	81/1 Quốc lộ 1A, Tổ 4, Khu phố 1, Phường Thới An, TP Hồ Chí Minh. Viết Nam	591.000.000	47.280.000	Hóa đơn mới	O.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	2	26/06/2026	0319387591	CÔNG TY TNHH MTV LẮM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIÊM	#1/1 Quếc lộ 1A, Tổ 4, Khu phố 1, Phường Thới An, TP Hồ Chí Minh. Việt Nam	211.100.000	16.888.000	Hóa đơn mới	0.12-TCS12 TP Hồ Chí Minh
+U	C26TL T	3	26/06/2026	0319387591	CONG TY TNHH MTV LẮM TẤN	0305812461	CONG TY TNHH THƯỢNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYÊN	164/1 Quốc lộ IA, Tô 4, Khu Phố 1, Phường Thới An. TP Hồ Chí Minh. Việt Nam	156.500.000	12.520.000	Hóa đơn mới	0.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	4	26/06/2026	0319387591	CONG TY TNHH MTV LÂM TÂN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYỀN	164/1 Quốc lộ 1A, Tô 4, Khu Phố !, Phường Thới An. TP Hồ Chí Minh. Viết Nam	646.000.000	64.600.000	Hóa đơn đã bị diều chỉnh	0.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	5	26/06/2026	0319387591	CONG TY TNHH MTV LÂM TÂN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYÊN	164/1 Quốc lộ 1A, Tô 4, Khu Phố 1, Phường Thới An TP Hồ Chí Minh. Viết Nam	800.000.000	64.000.000	Hóa đơn mới	D.12-TCS12 TP Hồ Chí Minh
+1	C26TL T	6	26/06/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI - DỊCH VỤ VÀ XÂY DỰNG CHÍN KHIẾM	81/1 Quốc lộ 1A, Tổ 4, Khu phố 1, Phường Thới An, TP Hồ Chí Minh. Viết Nam	75.000.000	6.000.000	Hóa đơn mới	D 12-TCS12 TP Hà Chí Minh
+1	C26TL T	7	26/06/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIÊM	811 Quốc lộ 1A, Tổ 4, Khu phố I. Phường Thới An, TP Hồ Chí Minh. Viết Nam	1.070.000.000	85.600.000	Hóa đơn mới	0-12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	8	26/06/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI - DỊCH VỤ VÀ XÂY DỰNG CHÍN KHIÊM	81/1 Quốc lộ 1A, Tổ 4, Khu phố I, Phường Thới An, TP Hồ Chí Minh. Viết Nam	224.400.000	17.952.000	Hóa đơn mới	0.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	9	29/06/2026	0319387591	CONG TY TNHH MTV LẮM TẢN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYỀN	164/1 Quốc lộ LA, Tô 4, Khu Phố I, Phường Thới An. TP Hồ Chí Minh. Viêt Nam	(6.460.000.001)	164.600.000)	Hóa đơn diều chỉnh	0.12-TCS12 TP Hồ Chí Minh
+1	C26TL T	14	14/07/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIẾM	81/1 Quốc lộ LA, Tổ 4, Khu phố I, Phường Thới An, TP Hồ Chí Minh. Viết Nam	1.075.940.000	86.075.200	Hóa đơn mới	0.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	15	14/0722026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIÊM	81⁄1 Quốc lộ LA, Tổ 4, Khu phố 1, Phường Thới An, TP Hồ Chí Minh. Việt Nam	1.040.000.000	83.200.000	Hóa đơn mới	D-12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	16	17/07/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI - DỊCH VỤ VÀ XÂY DỰNG CHÍN KHIÊM	81/1 Quốc lộ 1A, Tổ 4, Khu phố I, Phường Thới An, TP Hồ Chí Minh. Việt Nam	333.418.000	26673440	Hóa đơn mới	0.12-TCSI2 TP. Hồ Chí Minh
+'	C26TL T	17	17/07/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIỂM	81/1 Quốc lộ 1A, Tổ 4, Khu phó ], Phường Thới An, TP Hồ Chí Minh. Viết Nam	225.600.000	18.048.000	Hóa đơn mới	0-12-TCS12 TP Hồ Chí Minh
+1	C26TL T	18	17/07/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CỘNG TY TNHH THƯƠNG MẠI - DỊCH VỤ VÀ XÂY DỰNG CHÍN KHIỂM	81/1 Quốc lộ 1A, Tổ 4, Khu phố 1, Phường Thới An, TP Hà Chí Minh. Việt Nam	275.000.000	22.000.000	Hóa đơn mới	O.12-TCS12 TP .Hạ Chí Minh
+1	C26TL T	19	21/07/2026	0319387591	CONG TY TNHH MTV LÂM TÂN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYÊN	164/1 Quốc lộ 1A, Tổ 4, Khu Phố 1, Phường Thới An. TP Hồ Chí Minh. Viêt Nam	350.325.000	28.026.000	Hóa đơn mới	0.12-TCS12 TP Hồ Chí Minh
+1	C26TL T	20	21/07/2026	0319387591	CONG TY TNHH MTV LÂM TÂN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYÊN	164/1 Quốc lộ 1A, Tô 4, Khu Phố I, Phường Thới An. TP Hồ Chí Minh. Việt Nam	328394000	26.271.520	Hóa đơn mới	O.12-TCS12 TP Hồ Chí Minh
+1	C26TL T	21	21/07/2026	0319387591	CONG TY TNHH MTV LÂM TÂN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYÊN	164/1 Quốc lộ LA, Tô 4, Khu Phố 1, Phường Thới An. TP Hồ Chí Minh. Viêt Nam	323.300.000	25.864.000	Hóa đơn mới	D.12-TCSI2 TP Hồ Chí Minh
+4	C26TL T	22	22/07/2026	0319387591	CONG TY TNHH MTV LẮM TẤN	0305812461	CONG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG BẢO QUYỀN	164/1 Quốc lộ LA, Tỏ 4, Khu Phố 1, Phường Thới An. TP Hồ Chí Minh. Viết Nam	350.325.000	28.026.000	Hóa đơn mới	D-12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	23	22/07/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIẾM	81/1 Quốc lộ 1A, Tổ 4, Khu phố I, Phường Thới An, TP Hồ Chí Minh. Việt Nam	169803060	13.584.245	Hóa đơn mới	0.12-TCS12 TP. Hồ Chí Minh
+1	C26TL T	24	22/07/2026	0319387591	CÔNG TY TNHH MTV LÂM TÂN	0302104679	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ - VÀ XÂY DỰNG CHÍN KHIẾỂM	81/1 Quốc lộ LA, Tô 4, Khu phố 1, Phường Thới An, TP Hồ Chí Minh. Viêt Nam	62.875.950	5.030.076	Hóa đơn mới	O.12-TCS12 TP Hồ Chí Minh
+
+	li			-						_				_		~			-		-	-~	<		an				SS Z mu
+¬ li œ 3 =>	¬a b 3 E	¬8 ầ	3o Vi œ rì li	- Rọi li 5 xì L=]	luc] s 3 l]	5O »S CAI 3 Ei	5a CAI E E]	3o Vĩ Đại ầ B	38 Cãi lí ä	¬ > 3 E	~KRo] bJ S =	rề ầ	¬ổ bi ¬ Loi	¬ao ” CAI 3 L=i	„ảo b 3 l=i	„1 ụQ bi 3 =]	*I „© bi 3 k=	„-Kei li 3 li	Re] S s 3 =	3a ©_ S lại	- Re] S > 3 l=]	3O Q CAI Bì mi	nắc CA lai la	-~Rẹi s 3 L=	¬a bó 3 Lm	Re] li ầ ầ	38 CA R ầ	¬ác S lai ầ	8EZ2
+lần Di	u ”	zn	lM L¬i	FS x3]	LN œ	+ ¬	> ca	è	> .	l Ni	= sS	è	> l¬i	Lạ °	v» ki	b5 ¬	v2 rá	ua l4	b» &	, lz	ù» lì	ụ	v li	bề li	” >=	l¬] ¬	bồ ^	l4 li	z
+5 L=j E bộ C4 bã CÀ	S § Ề S Cá	s s S > S Dã	= = s S S S DA	= E] s sS Ei S bJ	s m s tề ti S CA	= = m s ồ ri >S D4	=> E] L=j s sS 4 » cả	ầ Ea s sS Š s DA	° s Ej s sS Š S A	= d s s =s Bồ = Ea PA	, s S Ea sS DA	w s R 8 bi	u s = ề S =	va = ã s la S DA	” s E] S E: S `	li ® S ¬ Vi c >» ®	l4 Š S S EA	P bà s S S Di	` Ea s S E>j s bi	li Š S S S DA	s3 Š > S Š S bA	sø E lì = S ri S bã	3 s ề s	¬ 3 s S	lời a sS ¬ l°i l=] li L-A	sø & ị S S DJ	» & s S bị S bị	¬ & = >3 S E4 s DA	=
+= l>J ri N > ¬ = N-]	= u xả xi œ ¬ lv Ni	s G lrä bị li Bì œ s	s S li bs Ea s x P1	= u mi u5 Ea ¬ œ »	= li mi hả > ¬ s Nai	= di sả v œ ¬ 3> Ni	= œ u > ¬ vì ©	> li ri ụ >œ ¬ œ Ni	=> u ¬ uá > ¬ œ ti	= 5 S bị = ¬ li g	> u S u, ri ¬ Ni	= lq m bq > ¬ Bà Ni	° u S u œ% ¬ > Ni	° u ri va œ ¬ nạ Ni	> u ” rg œ ¬ nạ Ni	¬ l] Na b5 œ ¬ bạ N4	=4 trả K1 uy % ~¬ > Ni	= u ` bà œ® ¬I œ Ni	> ni _ v ra ¬ sì °	s Ni Ki u œ ¬ - Ni	= li si g œ ¬ si Ni	= u © uá œ ¬ œ =	= lzj mi vá ri ¬ 5	=¬ lzg xe vá œ ¬ Bì Nai	= u xi ua ri ¬ lì N4]	G mi g s nạ Ni	sS u mi và œ ¬ lì Ni	L¬i u - ha Ea ¬i ửi Ni	gi
+58 Số m	L6] 5 lai 53 g3 EsÃ 4	53 œ <z lạ] >3 Sa +3 xã z loi	an 3$ ra Z3 ”z zỆ	xa 3z re 4	5s 3z S3 z3 xì > EE	=o 3e <5z mi z3 > sị 4	đe) HH	s8 3t S Za ¬ì > E	xa 3e <z mu z3 > s 4	sa 3$ Ạ z3 ] > H	so k. z3 EE	53 3z b5 E3 ¬ > ÉE	ẩs] 3z ắc >3 4 33 > <=	sa s _ r3 5 » si	z3 RỊ sị	P3	sa . nan 3 ¬ > s	Z3	s 3 Ị z3 ¬	F-đe] 3 re 4	Lại 5s siết E3 l=ị s:	E -	F-qđre] 3 bừa >3 = >3 > <-	kh Sỹ .) Z3 B > Œ	E 3 Z E	cả	đe] 3z cố E > s	sa 3 ~^ . ¬ bã E:	E
+° la ụ ~ » = ra ~ Ni	= u ri S s P4 rA ¬ Ni		= u > lzÄ F4 EN ai	= = ¬i = 5° bo = EA	=> j > ¬ = > E Ni	=4 ữ S S ¬ & EA ¬ Nai	= ụ > S =¬ - & >3 Ni	= s5 ¬ u l¬ Da N1 ai	w ˆ li E=] lrj ˆ œ li ¬	> lrd li = œ ® 4 &	¬ lrd s ¬ Š < = tra	=4 Lq _ = > œ u œ v	= j L¬ l4 E4 Sĩ > EN	S => r3 E3 ra S	sS q li S & ^ ¬ ©	š và S S ẩ	s ra li ”S _ 4 rA ¬ Ni	= ụ l<] = mm S	= I > ” ri 4 - ¬ ©	sS s l4 ri F4 ˆ ¬ ®	s <] li S ri = - ¬ Ñ¬i	> m ri li œ ¬ >4 CN	= l<] E] œ ri 4 CN	u L li u k¬i L¬ & © ^ j	,. ề >5 N¬] S = ® 4 Ni	S Di ° = œ „» ¬ LN	L=] ụ ri >4 œ » - FAN	I > s >5 r] r¬] > l¬i	li
+.s ch 3 Œ z S ss ốc r4 Sỹ zZ kE	xa L¬4 ST 3s zg ch k ấ r=	s8 s E ặ = Sỹ kiên -¬ è lê] lai Ễ	sa S3 cá S5 rE %$ [ai = š kzj lạ] = < <¬	=s E E s3 L2] š ặ Š	[e] lSä z li gi s 3 > E4 ri Ìzj S m] ”= X E4	<O x. Bố 5 Œ œ gi ˆs E E© + c S lạ] Hi < <<	sa s s 4 Sẽ k- E	: E 5	đ 5 Ề 5 5	sa Ss ể3 Bá e3 E sa ặ L=j l@i Hi < Œg	Q số loX2] =3 CS loi T5 S. zZ> Ốa F4 Œ số na E 5 ki < „¬ m5	53 z s 5 ẹ Œ 3 ss z ặ j Z lai	Le] >5 < zZ ơØe® Ø ĐỂ > S3 SỐ 5s [ai > ¬ k¬j lạ] kd < <<	sr > 5z sẽ š © tì x _ 3 s 3	<oa S > Ô < 54 s [2] P3 za “s3 ® Ss le] x < <K	5S >s go Š S3 l2Rs]| E S SS s3 l2] = ¬ g le] X < <<	Sa »œ R 54 5 53 Œ le] ni zs 5s mo r4 = z [øi E < k=]	le] S E4 l2] 4 Š G lại > Z S 5	so >> xã Z Ẽ sa zs =2 m© S leï 4 < =:	z3 xã < 53 SỸ lai E zs n sẽ 5 [e] S P |	sa »© ch 54 sỸ 9 le] ma zs as ® m S lei hai =	[ø] số S3 ”3 Đã P3 Ss Zã ặ .¬] lại = < <<	E EE sS t1 ặ 5 S <	XO Ề S z zố =3 P =4 SẺ >m > z x c > 5 < > E z S	[œ] 58 z mi =3 lai . 4 š 5 s Ei la 4 lai	LnI >3 go S3 m s > - © Sẽ kư Ss = 5 le] x < <<	La] sả ga 53 SẼ ››] > © s3 S8 Zz [<] = F- 5 lại X < <<	¬ sã E k] Ei + Lại ữz _ ai § =]	l
+Đš Ệs s - E ị 3 Ỹ p &	4 s.= 3s s ph =.=sS > +] ẾE --J S > -I s œ a S l	3s L Đ. B> há s ©> x Ẹ Hị a s lG	rg E3 ss Tố. 5. Ps Em Pa <= s Z. LỄ CA z ẵ ki s	ấT Ei	¬ Hội Lại nạ 1⁄2] H xổ xe e> zz Sẽ ất ẩ	kE Pi¬ L ẾẸ E s È	. S=x So. eg E .> mi Bị SẼ --] > S > Bi ñ w= a s Ễ	Bc &s Em sế es z8# Bz z nạ Gì lel z li ” Bi : Lồi Ẻ „ ä li x ®	Z=tg ri 35 Z sš g : 13 ỹ	5 mg Di > .a . Œ H s s	= á zỡ Sã Lại z S H L.¬] Ế ri 5 Ể » x rã [e] Lạ	Ea Ø &m z? EE; E; l-j i s L.¬i Ệ E. ¬i si # kem] la-] E-. Ei	s5 gỸ Bs E#= ma <> . Zt ä - Bị ặ L¬i 3 &	Bz 5 So LG sỸ ấp =sS ã > Eị bi l¬ | Fi l¬ = ¬ ¬ # ¬ = s	xi œ L= . 92 e& =z .> x3 S: Sẽ x, = z tẠ s œ= a s 1	sa & - -© se Đs E zạ <> s & = = >5 EI s œ= E Ei	xe =S e. Ea .> < mì . BS E-] 4 L- & ẩ a n tý	ii .s z3 sẾ Ì-j zx 1 á ứ ừ v t z E4 3 x ®œ -@] Cả	.. S= e& ng Êu L~] B. s i-.-] E ~ L- & q L¬i a EH Hạ	x œ 5= =s E¬ „¬ . sỹ -] = >5 Bì LA ễ 3 L Hạ	ss x B> < SẼ = , = © >5 P s ấ s EH H	SẼ ii l: ị Ể	.z Ế ặ	Ã li ĐD> 5 M š 3 L Ỹ kì 3 LJ bẻ li z Ế s s ấ	# É : ĩ 3 Ỹ : § Ế	.s LÊ 2 Đã <> Pa => Ea .¬ sự Da ` -a s Ei wœ= a s	BE 3 m mg ps Ê~ .a => s Z. Liên = Es > = ch Ej L] 3 &	4 Ej 5 5 ị s LH <	'
+~¬ , > > s F¬i l¬	va b l Í=] li E S S5 l¬	lạ S ò S F Ẹ r= F=j li	rFS 5 => > 2 Ei E] 5 5	>> ¬ b Pa LH	=	+ s ¬ > > = =] = l¬	ñ	” > =] Í¬i s r=¬] S L¬i	H § L	LS > tả œ R c s E¬j [2	hi	š z ¬ s	bo >» S =] 5 = E=¬j [¬i	= w =. li = xi	- S li = = S =] = =	tr kì P” t>j ® s e ø	, zd ra S ò ° ¬ [¬ [2i	Ẽ § š	£ S s ể	li 5 bà ©S s ki C = l¬	» ` s ¬ - > s	lo b i l=] [=4 L4 e ri =	ua ¬ ^ r=] S Lai E=] E=] l¬i	Ế4 F4 5 b 5 li [ai lai	” ^ 5” m |] = e = [¬i	ˆ = s = E=j c r=] Í=j [=i	v› = ”» F4 bh l<i	ø và E¬ F¬i => s Em] L¬	Lị
+w s Ji 5 ¬ S li	r N ri [ai p S S [S4	E	bạ S 5 lz] ri b e ø	„ li bì g S = li	s > 5 8 [¬i	vÁ li =4 & [2		N » ^ e > 5	lại ¬ bi F4	„ ”» > lá øS Fj l¬i	ế ẽ	5 ầ s L¬i	$ § §	+> > rS E3	8 B L	s b5 kì Là = ] s	> S © li c s lì lì	» - E=¬ X ¬ b ¬ì [¬ì	> li l s li E=] E¬j EJ	rS Lai lì = 1¬] e [ai	M b © Ns ù Ki hi cá	> À S s E=] [¬i li	hs e S S sS 5	¬ FJ li EN E=] Em] l¬	mi Ùa bà = F=¬j S L¬	§ :	H	¬ ”S l¬i 5 l¬ [=i [¬ã	:
+& Hà [- 3 3 s	H § H &	Ể H : Ỹ L4	H H Ễ	H § 5 s	Œ E3 5 mm 3 5 &	H [- 3 5 s	Ẽ H Ề H Là	lẽ ra = 3 Là	hai l P = 3 3 s	Eui = B = 3 5 Ea	H H Ễ	H H Ễ	h B = 3 3 s	hại Es B = 3 3 s	E:ị Ej = 3 EỊ s	= = 8 l- 8 EỊ Ea	H H Ễ	H H Ễ	H § :	Es P = 3 ă s	5% BE .. 3 [=% [=1 Ei em ni Ẽ	H H Ễ	H § Ei s	si s l- 3 EI s	x Es Lạ => 3 EỊ s	sai s [- 8 5 Ea	H l- § š	x Bà = 3 5 s	H
+S ì - = Ề Z Là	-] S 3 kể Lại 3 = In] = E4 Là	s b 3 H 5 H	l- ; 3 & Hi Z 5	5 s 5 z„ s ¬ h-i bi gì 5s =	E P Lj 3 Z Ê Ê	: ; 3 & 4 E4 E	° 5 Mì p s 3 = 5 Z Ẽ	° B5 m ba 8 S Cải 3 x leì z	E4 2 5 5 Z LX Lạ l4 > 3 LI E4 E	li s ä b2 S ¬ li = 5 le] E Ể	b ả e 3 & p H	5 Ỹ 5 =	s ; ï H : H	l> 3 5 Ê Ê	Ẹ 3 E : Ệ	Z p 3 & 8 Ẽ	S4 s Mì l2] s 3 œ 3 Ế Ẽ	s g : 2 ¬ E F4 5 L4	° p 3 bá e E ka	g ì 3 5 2 Ệ	5 3 3 B : H	° ỹ ¬ lạ] Kd Lài 3 5 Ed ri là] Là Ễ	° S ä ⁄ lx] ¬ li = Là e s 5	El : Z : L4	: : Bi Ỹ Ể	Ẹ bi 3 Z ã E	z 3 = B E4 É	Ỹ : Ể r Ẹ	s
+
+H	E đ s : ó H li	kl : ỗ s Ê	: ặ Ặ 1 s li	kg = Ẹ Ỹ Ê Ê L>j		: Ệ : ị j	4 s Ỗ 5 Ẹ 5 Ẽ LH ö	k¿ E4 Ê ồ L4] Ei ‡ z	ỹ ỷ Ắ	z s Ẽ Ẹ 8 5 E	ki z ò E Ề 5 l.	K. = E s : Ẹ Ễ		: Ê Ể ‡ ặ Ẽ	kg x Ẽ g L4 . Ể e	ks Eị Ệ Ệ Ể Ễ [+]	4 z ö -] s 5 L-| § Ẹ á 5		Ẹ P :	; : Ể ì Ê Ê	: : Ẹ ä 2 z	j ặ Ệ . 2 ẩ ể	ki S Ê Ê 4 Ể li	ẩ s Ê Ê kg = &	Z § 5 Ê 5 . a Ễ L¬	4 ế Ễ Ễ ‡ ầ	Ể : - Ê
+	Ê a 4	ặ § È-	h. ặ š	ặ § :	Š ẩ	4 4	'g Ê a ö =	§ š E	§ ặ 4	ặ š 4	Ễ ặ 4	H ặ 4	ặ P	š ặ 4	ặ ;	ặ § 4	ặ .	š ậ ẩ	Ê a š s	Ê a š	§ § § E,	H 4 Ki s ậ 3 s	ặ š ‡	ặ ặ E-	š ặ 4	‡ ẫ ặ 4	Ê a 2 =
+Lˆị	E | Hi = li	§	: l	s lại lai s = ñ	s E & s	⁄] = - s z ˆ „I Mà	L¬] li 8 ¬ vì	š H s	§ :	F1] = -ˆ s s	s ặ	E H vì	Ầ	§ §	s là 5 Lạ	E §	5 S mì l- Mì	E ¬ s z s	] & ~I = ¬	z 4 ¬ ri m	ki s E s Bi z	ˆ Bi 3 Lại	& E E li 5	§ x s s ri	:	3	ể š Mi
+E	š S | 5	ị ba	§ ặ	ặ :	$ §	š ỹ	§ š s	3 ặ š	§ §	§ š 8 s	5 ;	8 kì Lạ] »		§	s § 3	vì s	ri s =% © li	ặ § L	8 „¬ s li = „	DI - = s	s Bi E. s vi i s”	= lạ r ri ¬ g	š L œ Ñ	E § ải 3	§ §	Ẹ lai R tài s	§ Ệ
+7	5 Bố 5 r si	kE sẽ s SE sà 1	n0 Bã ạ Sịs Lư: §sga Re Eẩng n0 m th E8 Ehsi ‡ ... XShg 1: sốgạE 5. z2si	# Ê Z h ï ai gi s:	Ễ Í z Sẽ	- E: Šï Zs >z ö‡ sỹ ŒT Ẽ .m su L	E ï F¬ F. r 34 sẽ Sẽ s.	= ~< - & 3 “ Sã >5 Si sỹ [a] EE: ET] 8 t. ® xm SN» +	s š3 SE SỐ s	= < em S 3 sã ¬ ö ‡ z 5 RE kuậ sẼ mm. 8 s Sz „⁄	Z> &s sẽ ss SE + gã tr.	số s	. ỹ L § § . _ ä ậ	5 - Ể § sỹ KỆ Œ Z số s SẼ sẽ	% Ễ Z ễ Ể ặ ấ SỐ sZ	La ¡ š Ể Sĩ sẽ	# Ẽ l¬ s Fi E s0 sỹ sỹ s5	li $ E ä Ể ä bi Ƒ xš	+ Ki LØi SỐ as 5G SE ps Sz az	ị Ệ s2 sẽ s> . §E 3 ;i	+ . Z >Z ó 4s [2] EH xs ¬ <. gã k. S5	kị 3] z 9 & S E. .8 5ã š	. š : H E EE	ỹ Ä ặ : 3 E g5	Bì 3 § s Ệ x >x Ss &E	; lai E kh L s =s	Hi 3 8 5 Pa m [-i 8 z [- R5 5z s i Luếc| gsz x x .. Ss < at
+¡|	ặ Ệ È z S	g mi . ặ s È ặ	8 b ặ Š Z Ẽ S ắ	° : : > È ; ấ	ễ >⁄ Ể 3 : Š ỹ < $	E =L SS SS sẽ Ề s G C. š s5	E z È$	>¬ ¬ &Z =E ] Ếr B ah >i Zs 88	: È _	Z Zs 9 5 s nE s S5	ặ 5 8 . s Ề à	§ 5 § U á Ẽ ỹ ấ	5 s 9 ^ . Z ầ Z > s	z b > Šs 8z § s E< SẼ	e § : 5 : È ỹ Š	: s Đ EE : E m	+ s - li ” E: 5i = s E l5] mr. S5 + < 58	e E Ễ z Ế	z < +L ê ê h z > E.	F 3 z P g s - SẼ &E	= z < S. < Sẽ li Sẽ 5 s ặz z 9 E4 85	= S g ? 5 ặ 8 bộ	E4 5 [2] sa S s Es	9 e Ế [>4 si l- | sỹ Ễ5 E	E.z s C.. Z$ PZx Z Sì Sì È Sặt SE§S	ẩ ự 5 5 = ặ 8 bộ	#sS Pa 2z SE “ 8S KŒ. z
+w	m E Ki ˆ U - S	s s = ¬ Cd 4] s	s ¬ š K¬i	s s & CỔ 8	s E S	ặ s C Lu]	e s Ế S 8	h Ể	§ Š ỹ Lui	Ê Ê mˆ	s T S mi = s - s	s s = = ki L4] s	Hi 5 :	s Ej g E4	ki ầ Ss l4] s	r li á S 5	C = L] s	3 ặ ề	5 S s 3 Lui	ặ E s	Ệ Ệ LAI	S 2] m š	B š §	- li S P4 s E] 5	li „ 4 ˆ s s ki	s H4 2 = s bi	r ˆ N4 Ì ì S § L¬i
+H	li g ci	L	s m áš	E4	bã	Ề Z	s rã Œ	sŠ = kE	Ez	4 E > E.< Ø F4 se O	H LỄ	E5 E	Ệt	i	cạ Œ	B 4	F s ki:	ci	rã	E4	ễt	# ci	¡	ẾE	t	&	ễt
+H	s R 4 s s Ki	s 5 E4 s s ¬ L=i	s - r s K4] ¬ e	s & = s = 5	s = s S s s	s 4i = s s - i	& = ¬ Ha ˆ - S	s b4 H4 = E s	s F4] r s C] m li	= F4 = E4 s s	L4 -¬ = % P4 s m L¬i	F F E 5 VI Mũ	S D4] => s = s E¬i	s Lo. s s = s	s = 5 s 5 5	> D4 = = I S - Ki	s bi 4 - LH] Ea ¬Ì	E4 h4 = E4 s ¬ L¬i	Ệ 8	H S E4 = Ea s	= Lị hd E4 cả 5	s - bi s s m Ki	© 4] r4 „- F4] s 8	s 4] r s = ¬ K¬i	= 4] Lai tỉ mỉ s 8	L4] bạ] = œ m E4 Dạ l¬i	s hi se S ¬
+L	H 5	'	Ê Ê	s s s s lại	ặ H Ñ	š E E „¬	: tà	|	§ s ặ	> Š ¬	š S Š	5 L] ẵ	S E Š	Ệ	s 8 ặ	ii S ặ	Š s Š	s s ầ		E :		<s š s 8	š s Ei	bị s s Pa S	Š š	S s	š s š
+—=Z	+ BI	v bi	- w	r DA)	= ¬	© ˆ	E=] S	s	ca li	s	z	¬ Ni	š	li Mi	s	Ế¬] li	l	li	Lại tài	g	L4	4] La	Mi	li	ti	L4 li	L¬] s=
+N	Ờ.n	rà C là] or.	Bi E S lai r.	L= 8x.	L Ũ.„.	Ẹ LỄ	-	li E S l or.	Ẹ ố.	c LỄ	Ề ¬ Lại r	Ẹ Šv	Bi E C kẠi Oor	§ uẶỐ.	Ẹ ¬ or	Ẹ Ốr.	E ¬ ti Lô ai	c +.	Ẹ ố.	Š Ør.	R	Ể Ố+r	Ốx+r	Ố+r		ˆ	ặ Oốr
+Izg‡s					-	~-			~-	-		-¬				~-		Fi	~-	-	-			~-	-	~	
+
+	-			wt=:
+Re] ầ	38 S li	¬3Ơ S r3 Lui	"8 ầ	[SEZES |
+ra .	> l3	ri li		NeHẨỆP
+vx s ặ &	Íx] = e Ns S S bi	s Š 5 ề ^	s 5 e lì S s bã	L1]
+S ø ri bu 5 E=] nạ ki	= ù lì h] < ri k2]	= ri ri bo œ ¬ Bị Fj	= rj ri Px] 5 F] bạ ki hai	E
+E4 s	E. Ẹ3 x3 Zg	<œ	E3 s	¡
+l=] = ® l=j > r lo]	Ss Pq S ¬ ” 4 và	> li ï¬] = œ b > rÀ	EỊ ữ % E4 rÄ EAi	L]
+L4 z § š $ dd k⁄]	Bi ss số cá g SZ Éc Ễ ặ ấ	Ỹ © P Ệ 5 E=Ị	=3 ï s ã ề	l
+Ez z S ri š # 3 &	ỹ hi loại F Ể HỊ l= H H BH	Ès rẸ sa ấ£ Ẽ ( ị E4	g Ể	¡
+® = li L4 S 8	> ˆ ¬ là [¬] =j [1	» = 4 lì œ =] 5	Ễ s Eì l¬	T
+:	„ 4 4 ”	¬ ˆ [ai = ˆ FS [1	„¬ li > s ¬ sS ti	L
+Ẽ H Là	H H Ễ	H l- EI E Ea	3 H Là	"
+P : 5 Ẽ	3 x E Ể 3 = Z	Ẹ h 3 & B = Lã	ả 3 B Ệ H4 Là	ï
+
+AES	REE oT ZPEES
+DANH SÁCH HOA PON
+Tir ngay 01/03/2026 đến ngày 26/10/2026
+K{ nh	ó8 đơn	đơn	lời	MST người bán/MST hàng	xuất hàn;	Địa chỉ người bán.	iiua/MS1 người	nhu Ti na	Tổng tiền chưa thuế	m	Tư rạng thái	quả kiêi èm ( : tra hó: đơn ›a	Cơ quan quản.
+1	C26T1L	20	23/03/2026	3703236205	CÔNG TY TNHH DỊCH VỤ & TƯ VÁN THUÊ 24H	Số 3, Đường số 4, Khu phố 3, Phường Phú Lợi, Thành phố Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	1.100.000	88.000	Hóa đơn mới	Đã cấp mã hóa đơn	TPThủ Dầu Một: TCS25TP.HCM
+1	C26TLC	21	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hil, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	633.080.000	63.308.000	Hóa đơn đã bị thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	22	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilL, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	176.400.000	14.112.000	Hóa đơn thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	23	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	153.150.000	12.252.000	Hóa đơn thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	24	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hi, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	219.840.000	17.587.200	Hóa đơn thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	25	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HIll, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	1.048.000.000	83.840.000	Hóa đơn thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	26	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hill, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	73.000.000	5.840.000	Hóa đơn thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+	C26TLC	27	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HIII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	782.000.000	62.560.000	Hóa đơn thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	28	26/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HIII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TẤN	206.800.000	16.544.000	Hóa đơn thay thế	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	30	30/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hi, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	621.712.000	49.736.960	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	31	30/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Vilias HIll, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	620.928.000	49.674.240	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+
+hi,	hóa đơi	đơ	-	MS† "người bán/MST	bán/Têt người xuất hàn	E=	| ST „ igười R nưa/A ngứt trở hận hải s	Tên người nun/Tên người	thui	=	Trạng thất! hòa đơ	tra hóa đơi	=
+1	C26TLC	32	30/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	233.240.000	18.659.200	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	33	30/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HIII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	579.180.000	46.334.400	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Taủ Đức- TCS2 TP. HCM
+1	C26TLC	34	30/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	32.268.000	2.581.440	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	37	30/06/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiH, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	41.000.000	3.280.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	K26TME	22739	29/07/2026	0301179079-	NGÂN HÀNG TMCP XUẤT NHẬP KHẨU VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHH MTV LÂM TÂN	8.000	800	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+1	C26TML	563	28/07/2026	0319331359	CÔNG TY TNHH TM PHƯỚC MÃNH LONG	214/19/7 Nguyễn Văn Nguyễn, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	523.260.000	41.860.800	Hóa đơn đã bị thay thế	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1m	C26TLC	38	14/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilL, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	1.019.200.000	81.536.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	39	14/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	1.054.421.200	84.353.696	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	40	17/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hill, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh. Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	223.344.000	17.867.520	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	41	17/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiIl, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh. Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	272.250.000	21.780.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+
+VỸ hiệi	lý hiệi	Xu đơn	E	MST người hán/MS! igười xuất sàn	Tên ngời (uất hận(	4E	mua/MST người lhận hàn	lên người hp :mua/Tên người 3	thui	Em	Trạng thái hóa đơ	Ira hóa đơn	lý thuế
+1	C26TLC	42	17/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hi, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	330.083.820	26.406.706	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	43	21/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	345.093.480	27.607.478	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	44	21/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	323.169.550	25.853.564	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	45	21/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hi, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	318.240.000	25.459.200	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	46	22/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	344.875.500	27.590.040	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	47	22/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	168.439.180	13.475.134	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	48	22/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hil, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh. Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	62.126.950	4.970.156	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	49	24/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	210.700.000	16.856.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	50	24/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	656.600.000	52.528.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	51	24/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hill, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	351.690.640	28.135.251	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	52	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	1.241.268.000	99.301.440	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	53	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TẤN	960.596.000	76.847.680	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+
+Ễ	hóa đơn	đơt	E	bán/MS! hàn	bán/Tên ngirời luốt hàng	[men	VI. lhần hải	mua/Tê người hận hằng	thu(	~-	Irang thái	kiế: quả t [ra hò: la đơn	quan quát lý thui
+1	C26TLC	54	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	317.592.593	25.407.407	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Taủ Đức- TCS2 TP. HCM
+1	C26TLC	55	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiH, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	509.600.000	40.768.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Taủ Đức- TCS2 TP. HCM
+1	C26TLC	56	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	571.536.000	45.722.880	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	57	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	493.920.000	39.513.600	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	58	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	366.520.000	29.321.600	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	59	27/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HIIL, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	97.014.000	7.761.120	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	60	28/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilL, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	88.214.000	7.057.120	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	61	28/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hil Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	294.823.200	23.585.856	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	62	29/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hil], Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	151.116.000	12.089.280	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	63	29/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hill, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh. Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	525.525.000	42.042.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	64	30/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	617.050.000	49.364.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	65	30/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiH, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	17.796.240	1.423.699	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+
+Ẽ	Ký hiệ: hóa đơi	1	E	>>.	lên người xuất hàng	Địa chỉ người bái	L uở r; &SÁ . /M: MST rời Ì : hi hận hải Ầ LM	lên người. 'mua/Têtf'ngtrời nhận hàn;	thui	lông tiền thuế	Trạng thái	Ira hóa đơn.	2ơ quân quản
+1	C26TLC	66	31/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hi, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	372.500.000	29.800.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	67	31/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilL, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	15.600.000	1.248.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	68	31/07/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hi, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	216.408.000	17.312.640	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+¡	K26TME	23450	05/08/2026	0301179079-	NGÂN HÀNG TMCP XUẤT NHẬP KHÁU VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHH MTV LÂM TÂN	8.000	800	Hóa đơn mới	Tổng cục thuế đã nhận không mã L	TP HCM-Thuế TP. HCM
+1	K26TME	24520	11/08/2026	0301179079-	NGÂN HÀNG TMCP XUẤT NHẬP KHẨU VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHH MTV LÂM TÂN	8.000	800	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+1	K26TME	24551	11/08/2026	0301179079-	NGÂN HÀNG TMCP XUẤT VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHH MTV LÂM TÂN	8.000	800	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+1	K26TME	24559	11/08/2026	0301179079-	NGÂN HÀNG TMCP XUẤT NHẬP KHẨU VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHH MTV LÂM TÂN	8.000	800	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+
+hiệt Số	hồi .đơn	SỐ hồi	-	người xuất hàn;	lên! lgười uất hận;	—	mua/MST người hạn hán!	mua/Tên người	rồng tiền chư thui	-	=	.et quả kiểm	ữ quân quản. 'ÿ thui
+1	K26TME	68	18/08/2026	0301179079-	NGÂN HÀNG TMCP XUẤT NHẬP KHẨU VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHHMTV LÂM TÂN	15.520	1.552	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+1	C26TLC	69	03/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiH, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TẤN	475.927.200	38.074.176	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	70	05/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hill, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	278.736.500	22.298.920	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	71	06/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	26.800.000	2.144.000	° Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	72	08/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	399.632.240	31.970.579	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	73	09/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	57.450.000	4.596.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	74	10/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hi, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	15.680.000	1.254.400	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	75	11/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hil1, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	396.400.200	31.712.016	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	76	11/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HIll, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	425.687.500	34.055.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	77	12/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HiII, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	515.500.000	41.240.000	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	78	13/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas Hill, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	71.779.120	5.742.330	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+
+( mẫu s(	hối ¡đơi	GMÃ RÁ. đơn	E	VIST người hán/MST igười xuất	Nghe	E	mua/MST người hận hàng	Iiúa/Tên người nhận hàn:	=	li	Trạng thái hóa đơn	Kết quã kiểm	Cơ qu: ăn quẩn 0
+1	C26TLC	79	13/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HilI, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	33.403.300	2.672.264	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TLC	80	18/08/2026	0319335561	CÔNG TY TNHH THAN UYÊN LC	A23 Khu A Saigon Villas HIl, Số 99 Lê Văn Việt, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	35.280.000	2.822.400	Hóa đơn mới	Đã cấp mã hóa đơn	TP. Thủ Đức- TCS2 TP. HCM
+1	C26TTT	150	22/08/2026	0319530675	CÔNG TY TNHH MTV PHẠM THU THỦY	53/112/9 Trần Khánh Du, Phường Tân Định, Thành phố Hồ Chí Minh	0319387591	CÔNG TY TNHHMTV LÂM TÂN	21.168.000	1.693.440	Hóa đơn mới	Đã cấp mã hóa đơn	Q.I-TCS1 TP. Hồ Chí Minh
+1	C26TPG	38	25/08/2026	0319648973	CÔNG TY TNHH NHÁT LÂM PHƯƠNG	15 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	292.128.200	23.370.256	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI TP. Hồ Chí Minh
+	C26TPG	45	26/08/2026	0319648973	CÔNG TY TNHH NHÁT LÂM PHƯƠNG	15 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	10.409.560	832.765	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TPG	49	27/08/2026	0319648973	CÔNG TY TNHH NHÁT LÂM PHƯƠNG	15 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	554.306.189	44.344.495	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TPG	50	27/08/2026	0319648973	CÔNG TY TNHH NHÁT LÂM PHƯƠNG	15 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	533.535.834	42.682.867	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI1 TP, Hồ Chí Minh
+1	C26TPG	51	27/08/2026	0319648973	CÔNG TY TNHH NHÁT LÂM PHƯƠNG	15 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	64.588.370	5.167.070	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI TP, Hồ Chí Minh
+1	C26TPG	61	28/08/2026	0319648973	CÔNG TY TNHH NHÁT LÂM PHƯƠNG	15 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	220.500.000	17.640.000	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TOM	62	31/08/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	542.526.400	43.402.112	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+
+mẫu số	s	Số hồi đơn	-	MST người. người xưa! hàn	lên ngiời bán/T! ngườ	im	IS người nùa/MST người hạn hán;	lên người hải lâm;	L( M Liêi thui	E	rạng thái hóa đơn	=%	Dơ:quan quản lý thuế
+1	K26TME	26631	07/09/2026	0301179079-	NGÂN HÀNG TMCP XUẤT NHẬP KHẨU VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHH MTV LÂM TÂN	14.200	1.420	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+1	K26TME	26697	08/09/2026	0301179079-	NGÂN HÀNG TMCP XUẤT NHẬP KHẨU VIỆT NAM - CHI NHÁNH BÌNH PHÚ		0319387591	CONG TY TNHH MTV LÂM TÂN	50.000	5.000	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+1	K26TME	28493	24/09/2026	0301179079-	NGÂN HÀNG TMCP XUẤT VIỆT NAM - CHI NHÁNH BÌNH PHỦ		0319387591	CONG TY TNHH MTV LÂM TÂN	8.000	800	Hóa đơn mới	Tổng cục thuế đã nhận không mã	TP HCM-Thuế TP. HCM
+1	C26TOM	102	29/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	515.405.265	41.232.421	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS!1 TP. Hồ Chí Minh
+1	C26TQM	103	29/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUY MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	409.811.500	32.784.920	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TOM	11	03/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	68.356.960	5.468.557	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+
+Mi .	Ký hiệu	SỐ hóa:	E	MST người bán/MST người xuất	Tên người bán/Tên người xuất hàn:	——	MST người ImU4/MST người nhận hắn;	mi la/Tên người nhận hàn;	thu	Tông tiện thuê:	Trạng thái hóa đơn.	tra hóa đơn	“Cơ quan quản. lý hui
+1	C26TQM	12	03/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	85.750.000	6.860.000	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI TP. Hồ Chí Minh
+1	C26TQM	16	07/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	18.512.494	1.481.000	Hóa đơn mới	Đã cấp mã hóa đơn	Q.I-TCS1 TP. Hồ Chí Minh
+1	C26TQM	32	12/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	19.531.400	1.562.512	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TQM	34	14/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUY MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	111.741.710	8.939.337	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TQM	35	15/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	93.100.000	7.448.000	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+8	C26TOM	40	17/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TẤN	58.407.219	4.672.578	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+
+SN	Ký hiệu hóa đơn	th]	-	MST t người báấn/MST người xuất hàn;	bán/Tên người (uất hận:	E=	MST người mua/MST người	mun/Tên người hạn hán;	lên Tông tiê chi tỊ HT	em	Tăng thái lớA đơn	Kết quả kiển tra hóa đơn	Cơ quan quản lý thuế
+1	C26TQM	42	17/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	86.350.000	6.908.000	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP, Hồ Chí Minh
+Ĩ	C26TOM	83	26/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	98.500.000	7.880.000	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TOM	94	28/09/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	506.570.301	40.525.624	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TOM	143	03/10/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUY MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	10.072.230	805.778	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI TP. Hồ Chí Minh
+1	C26TOM	144	03/10/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUY MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	224.420.000	17.953.600	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP, Hồ Chí Minh
+1	C26TOM	147	05/10/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	44.080.400	3.526.432	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+
+: mm	Ký hiệt lóa đơn	tơ	1	MST người bán/M ST guồi xuất hàng	bán/Tên người xuất hàn;	—	nua/MST ngủ rời	(mua?! rên “người	thui	hồng tiền thuế:	hóa đơn	Kết quả kiểm. [ra hồi Lđơn	Cổ quái "quản
+1	C26TOM	148	05/10/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	7.546.000	603.680	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI TP, Hồ Chí Minh
+1	C26TOM	156	07/10/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	640.178.400	51.214.272	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI TP. Hồ Chí Minh
+1	C26TQM	157	07/10/2026	0319687404	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG - PHẠM QUÝ MÙI	94/8 Trần Khắc Chân, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHH MTV LÂM TÂN	242.310.900	19.384.872	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+1	C26TMC	15	12/10/2026	0319704699	CÔNG TY TNHH NGỌC MINH CHƯƠNG	Tầng 3, Số 27A Trần Nhật Duật, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	44.810.500	3.584.840	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCSI TP. Hồ Chí Minh
+1	C26TMC	19	13/10/2026	03197046599	CÔNG TY TNHH NGỌC MINH CHƯƠNG	Tảng 3, Số 27A Trần Nhật Duật, Phường Tân Định, TP Hồ Chí Minh, Việt Nam	0319387591	CÔNG TY TNHHMTV LÂM TÂN	442.078.026	35.366.242	Hóa đơn mới	Đã cấp mã hóa đơn	Q.1-TCS1 TP. Hồ Chí Minh
+
+

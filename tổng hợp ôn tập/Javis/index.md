@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 0 agents · 26 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 29 plugins (28 chạy)
+**Tổng quan:** 0 agents · 27 skills · 0 workflows (0 bật) · 0 loops (0 bật) · 29 plugins (28 chạy)
 
 ## Agents
 _(chưa có)_
@@ -18,6 +18,7 @@ _(chưa có)_
 - **HTML sang Webcake** (`html-to-webcake`) - Chuyển trang HTML thành file .pke mở được trong trình dựng Webcake, giữ đúng màu, cỡ chữ, ảnh và bố cục của bản gốc.
 ### Năng suất
 - **Chuẩn hóa và xuất ngân hàng trắc nghiệm** (`chuan-hoa-ngan-hang-trac-nghiem`) - Chuẩn hóa ngân hàng trắc nghiệm Excel sang Word: gom nhóm chuyên đề, sắp câu sinh đôi, tô vàng keyword, in đậm đáp án chuẩn, format in ấn.
+- **Đọc PDF và OCR** (`doc-ocr`) - Đọc nội dung PDF hoặc ảnh scan, kể cả file chưa OCR: dùng kết quả có sẵn, hoặc OCR file mới rồi đọc.
 - **Truy cập và tổng hợp đề thi** (`lay-va-tong-hop-de-thi`) - Truy cập hệ thống khảo thí thuế, tự động lấy đề, dò đáp án chuẩn và tổng hợp ngân hàng câu hỏi vào bảng tính Excel.
 - **PaddleOCR** (`paddleocr`) - OCR ảnh và PDF bằng PaddleOCR qua MCP (tool ocr). Bảng/layout: đổi model PP-StructureV3.
 - **PDF sang Markdown** (`pdf-sang-md`) - Chuyển PDF/ảnh scan thành file Markdown (.md) cho Second Brain, giữ heading/bảng, lọc header/footer.

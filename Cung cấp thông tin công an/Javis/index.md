@@ -2,7 +2,7 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 9 agents · 41 skills · 4 workflows (2 bật) · 1 loops (0 bật) · 30 plugins (29 chạy)
+**Tổng quan:** 9 agents · 42 skills · 4 workflows (2 bật) · 1 loops (0 bật) · 30 plugins (29 chạy)
 
 ## Agents
 - **Trưởng phòng cung cấp hồ sơ công an** (`javis-core.conflict-remote-20261111-133623`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
@@ -25,6 +25,7 @@
 ### Marketing
 - **HTML sang Webcake** (`html-to-webcake`) · [TẮT] - Chuyển trang HTML thành file .pke mở được trong trình dựng Webcake, giữ đúng màu, cỡ chữ, ảnh và bố cục của bản gốc.
 ### Năng suất
+- **Đọc PDF và OCR** (`doc-ocr`) - Đọc nội dung PDF hoặc ảnh scan, kể cả file chưa OCR: dùng kết quả có sẵn, hoặc OCR file mới rồi đọc.
 - **in-phan-cong-kt1** (`in-phan-cong-kt1`) - In đồng loạt công văn Công an giao Tổ KT1 trạng thái Mới, mỗi cán bộ một PDF chẵn trang, có dòng phân công đầu trang, đổi sang Đang xử lý.
 - **Luật Thương mại điện tử 2025** (`luat-thuong-mai-dien-tu`) - Luật Thương mại điện tử 2025: phân loại nền tảng số, hợp đồng điện tử, livestream, tiếp thị liên kết, logistics, thanh toán, CSDL TMĐT quốc gia.
 - **PaddleOCR** (`paddleocr`) - OCR ảnh và PDF bằng PaddleOCR qua MCP (tool ocr). Bảng/layout: đổi model PP-StructureV3.

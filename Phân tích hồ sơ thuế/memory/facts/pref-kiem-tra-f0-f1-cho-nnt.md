@@ -1,4 +1,5 @@
 ---
+superseded_by: decision-ncc-mua-vao-chi-loc-f0-gop-cot-canh-bao
 type: preference
 created: 2026-11-11
 updated: 2026-11-18
@@ -59,3 +60,7 @@ Hàng 1 = tiêu đề file, hàng 2 = header. Cột: MST = 4, tên = 5, ngành =
 **Vì sao:** NNT là F0 là rủi ro NNT tự thân (mục tiêu kiểm tra lớn), khác HD01 (mua HĐ rủi ro từ F0). Bài học Kiến Thành Tân 18/11/2026: v1 gắn F1 theo MST người mua rồi dán lên NCC bên bán, kích HD01 Cao dù F0 NCC = 0 và NNT không F1.
 
 **Áp dụng:** Mọi hồ sơ sau này kiểm F0 NNT → F1 NNT → CA NNT rồi mới rà NCC. IN07 luôn có Phần 1. HD01 không kích vì NCC F1. Tra danh bạ SpreadsheetML đúng cột. GĐ2 giữ 100% HĐ trên `KQ2_NCC_mua_vao` (Bảng kê / HĐĐT / Chung).
+
+
+## Lịch sử
+- [2026-11-20] Bị thay thế bởi [[decision-ncc-mua-vao-chi-loc-f0-gop-cot-canh-bao]] (user đổi thông tin).

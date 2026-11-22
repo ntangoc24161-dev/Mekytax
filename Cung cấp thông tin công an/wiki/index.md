@@ -16,3 +16,4 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Nhóm dữ liệu xử phạt theo số quyết định khi dự thảo công văn]] - Khi dự thảo công văn trả lời Công an có nhều doanh nghiệp cùng bị xử phạt theo 1
 - [[Xem trước phân công qua Telegram trước khi Zalo hoặc in]] - Mọi phân công KT1 (in PDF) và KT2/KT3 (Zalo) gửi bản xem trước qua Telegram trướ
 - [[Phân biệt số hiệu in sẵn và số dấu đến khi tra cứu công văn Công an]] - Khi người dùng nêu số công văn, số đó có thể là số dấu đến Cục Thuế, không phải
+- [[Phân loại hồ sơ xử lý kết luận điều tra và tạm ngưng kê khai]] - Hồ sơ công văn Công an được phân loại tách biệt giữa yêu cầu cung cấp thông tin

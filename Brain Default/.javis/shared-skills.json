@@ -1,5 +1,6 @@
 {
   "enabled": [
+    "doc-ocr",
     "hoa-don-dien-tu",
     "luat-phong-chong-tham-nhung",
     "paddleocr",

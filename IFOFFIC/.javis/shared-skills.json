@@ -1,5 +1,6 @@
 {
   "enabled": [
+    "doc-ocr",
     "paddleocr",
     "pdf-sang-md",
     "soan-thao-van-ban",
