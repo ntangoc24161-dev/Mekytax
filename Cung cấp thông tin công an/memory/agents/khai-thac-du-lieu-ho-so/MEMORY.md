@@ -3,3 +3,4 @@
 - PDF PaperStream/CamScanner không có lớp chữ, phải OCR rồi đối chiếu ảnh để chốt số hiệu (filename 21143, OCR từng đọc 24143).
 - vietqr.io/v2/business/{MST} là API tra cứu MST thay thế khi masothue.com trả 403 - trả JSON chuẩn gồm tên DN, địa chỉ, tình trạng pháp lý, nguồn gdt.gov.vn.
 - Đọc sổ XLSX lớn trên Drive: dùng COMPOSIO_MULTI_EXECUTE_TOOL GOOGLEDRIVE_DOWNLOAD_FILE (account=alias) → s3url → requests.get + openpyxl.load_workbook trong COMPOSIO_REMOTE_WORKBENCH; sandbox giữ state giữa các cell.
+- Trong COMPOSIO_MULTI_EXECUTE_TOOL, `account` phải là sibling của `tool_slug` (cùng cấp tools[]), không nhét trong `arguments` nếu không sẽ bị lỗi Multiple googledrive accounts.

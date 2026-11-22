@@ -7,18 +7,21 @@ group: Vận hành
 description: Bóc tách danh sách doanh nghiệp từ CV Công an, tra cứu DB NNT, phân công cho Tổ KT tương ứng.
 steps:
   - agent: khai-thac-du-lieu-ho-so
-    task: "Bóc tách công văn Công an: trích danh sách doanh nghiệp, MST, yêu cầu cung cấp tài liệu. Tra cứu DB NNT.xls để xác định tình trạng, cơ quan quản lý. Đầu vào: {{input}}"
+    task: "BƯỚC 0: chạy scripts/cua-kiem-dong-bao-cao.py (nhắc bot CA, best-effort đóng, chờ sync, tự tiếp, không chờ chat). Sau đó bóc tách công văn Công an: trích danh sách doanh nghiệp, MST, yêu cầu cung cấp tài liệu. Tra cứu DB NNT.xls để xác định tình trạng, cơ quan quản lý. Đầu vào: {{input}}"
     verify_agent: Kiểm soát & Điều phối quy trình
     max_retries: 1
   - agent: Theo dõi & Phân công công văn
-    task: "Phân công doanh nghiệp cho Tổ KT1/KT2/KT3 phù hợp dựa trên kết quả tra cứu. Xác định CBQL KT1. Cập nhật danh sách phân công. Dữ liệu từ bước trước: {{prev}}"
+    task: "Phân công doanh nghiệp cho Tổ KT1/KT2/KT3 phù hợp dựa trên kết quả tra cứu. Xác định CBQL KT1. Cập nhật danh sách phân công. Trước khi ghi sổ: chạy cua-kiem-dong-bao-cao.py; trên VPS ghi bằng scripts/ghi-so-bao-cao-an-toan.py (validate ok) rồi UPLOAD_UPDATE fileId sống. Dữ liệu từ bước trước: {{prev}}"
     verify_agent: Kiểm soát & Điều phối quy trình
     max_retries: 1
-updated: '2026-11-08'
+updated: '2026-11-20'
 ---
 
 ## Mục tiêu
 Khi có công văn Công an mới, tự động bóc tách danh sách doanh nghiệp, tra cứu thông tin pháp lý, phân công cho các Tổ kiểm tra (KT1/KT2/KT3) và gán cán bộ quản lý tương ứng. Mỗi bước đều được `Kiểm soát & Điều phối quy trình` kiểm tra chất lượng trước khi chuyển sang bước tiếp theo.
+
+## Cửa kiểm sổ (chốt 20/11/2026)
+Trước bóc tách/ghi sổ: chạy `scripts/cua-kiem-dong-bao-cao.py` (nhắc bot CA → best-effort đóng Excel → chờ sync ~60s → **tự chạy tiếp**, không chờ chủ trả lời). VPS Docker thường không tắt được Excel trên máy Windows của chủ.
 
 ## Trigger
 - **Loop hàng ngày** lúc 12:00 giờ Việt Nam (quy trình tự động)

@@ -12,3 +12,9 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-11-18) [[Ổ I - Google Drive Desktop và đường mnt-i trên Javis VPS]]: đề xuất bổ sung từ chat 2026-11-18 (dedup) - status: open
 
 - [ ] (2026-11-18) [[Quy-trinh-xu-ly-CV-Cong-an]]: mâu thuẫn với quan điểm mới - status: open
+
+- [ ] (2026-11-20) [[Khôi phục sổ xlsx khi Excel không mở sau vá XML]]: đề xuất bổ sung từ chat 2026-11-20 (dedup) - status: open
+
+- [ ] (2026-11-20) [[Khôi phục sổ xlsx khi Excel không mở sau vá XML]]: đề xuất bổ sung từ chat 2026-11-20 (dedup) - status: open
+
+- [ ] (2026-11-20) [[Cửa kiểm đóng sổ Bao_cao trước bóc tách]]: đề xuất bổ sung từ chat 2026-11-20 (dedup) - status: open

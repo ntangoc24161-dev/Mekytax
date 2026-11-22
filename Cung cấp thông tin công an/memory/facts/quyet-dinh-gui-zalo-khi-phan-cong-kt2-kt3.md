@@ -12,6 +12,6 @@ Khi phân công công văn cung cấp hồ sơ Công an cho Tổ **KT2** hoặc 
 
 **Quy tắc bổ sung (18/11/2026):**
 1. Tin Zalo chỉ gồm: tên công ty, số CV + ngày, hạn thực hiện. Bỏ folder, tình trạng, câu gửi scan, dòng phân tổ.
-2. Mọi phân công (Zalo KT2/KT3 và in KT1) phải **xem trước qua Telegram** (`POST /telegram/send-file` kèm caption nháp), rồi người dùng chốt OK mới gửi Zalo / chốt in. Không gửi thẳng đầu mối Zalo khi mới chỉ có xem trước trong khung chat web.
+2. Mọi phân công (Zalo KT2/KT3 và in KT1) phải **xem trước qua Telegram bot CA** `@Kiem_soat_dieu_phoi_bot` (script `scripts/gui-telegram-bot-ca.py`, caption nháp), rồi người dùng chốt OK mới gửi Zalo / chốt in. Không dùng `/telegram/send-file` (bot Javis chính). Không gửi thẳng đầu mối Zalo khi mới chỉ có xem trước trong khung chat web.
 3. Sau khi gửi đầu mối / chốt in thành công, cập nhật cột Tình trạng trên `Bao_cao_cong_van.xlsx` sang **Đang xử lý**.
 4. (15:27 18/11/2026) Người dùng chốt lựa chọn "OK quy trình lần sau": giữ luồng Telegram xem trước → OK → mới Zalo KT2/KT3; **không** gửi lại các CV đã bàn giao (1806, 2126, 9372).

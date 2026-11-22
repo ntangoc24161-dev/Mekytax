@@ -49,21 +49,30 @@ group: Năng suất
      - `exports/in-phan-cong-kt1/`
 4. **Báo cáo và chờ xác nhận chốt in (BẮT BUỘC xem trước qua Telegram, chốt 18/11/2026):**
    - Báo cáo số lượng dòng, số công văn, danh sách cán bộ và số trang in tương ứng trên chat web.
-   - Gửi file PDF xem trước về **Telegram** của chủ (`POST http://127.0.0.1:7777/telegram/send-file`, caption `[XEM TRƯỚC] Phân công KT1...`).
-   - **Dừng lại.** Chỉ in / bàn giao khi người dùng kiểm tra Telegram và ra lệnh "chốt in" / "OK" (cùng nguyên tắc xem trước như gửi Zalo KT2/KT3 trong skill `gui-phan-cong-zalo-kt23`).
+   - Gửi file PDF xem trước về bot Telegram CA **`@Kiem_soat_dieu_phoi_bot`**:
+     `python "/brains/Cung cấp thông tin công an/scripts/gui-telegram-bot-ca.py" --file "<đường tuyệt đối PDF>" --caption "[XEM TRƯỚC] Phân công KT1..."`.
+     **Không** dùng `POST /telegram/send-file` (bot Javis chính).
+   - **Dừng lại.** Chỉ in / bàn giao khi người dùng kiểm tra Telegram bot CA và ra lệnh "chốt in" / "OK" (cùng nguyên tắc xem trước như gửi Zalo KT2/KT3 trong skill `gui-phan-cong-zalo-kt23`).
 5. **Cập nhật trạng thái sang "Đang xử lý" ngay sau khi chốt in thành công:**
-   - Đảm bảo đóng hoàn toàn các ứng dụng hoặc tiến trình Excel đang mở trên máy để tránh lock file.
+   - Trước khi ghi: chạy `python scripts/cua-kiem-dong-bao-cao.py` (đóng Excel best-effort + chờ Drive sync).
    - Cập nhật cột O từ "Mới" sang "Đang xử lý", giữ biểu đồ Dashboard:
      - **Windows có Excel:** `python scripts/in_phan_cong_kt1.py --apply` qua Excel COM (`win32com.client.DispatchEx`).
-     - **Linux/VPS (Javis hiện tại):** Drive Composio `googledrive_ralph-urbane` (fileId sổ sống), tải về → vá ô O trong XML xlsx → `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` → tải lại kiểm tra mở được và còn chart. Không `load_workbook`+`save` openpyxl cả workbook.
-   - Đọc kiểm tra lại dữ liệu sau khi ghi để xác nhận hoàn tất.
-   - Không đổi trạng thái trước khi người dùng chốt; không dùng openpyxl ghi đè file Drive có chart.
+     - **Linux/VPS (BẮT BUỘC dùng script an toàn):**
+       1. Tải sổ sống Drive (fileId `1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph`, account `googledrive_ralph-urbane`) về file tạm.
+       2. `python scripts/ghi-so-bao-cao-an-toan.py set-status --in <tạm> --out <tạm> --row <dòng> [--row ...] --status "Đang xử lý"`
+       3. `python scripts/ghi-so-bao-cao-an-toan.py validate --in <tạm>` (phải `ok: true`).
+       4. `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` đúng fileId sống (không tạo bản dated mới).
+       5. Tải lại Drive → `validate` lần nữa.
+   - Cấm: `openpyxl.save` cả workbook; viết ZipInfo Linux mới; serialize sheet bằng ElementTree; ghi khi Excel đang mở.
+   - Không đổi trạng thái trước khi người dùng chốt.
 
 ## Các lệnh thực thi
 - `python scripts/in_phan_cong_kt1.py` : Quét sổ, tạo PDF riêng và file tổng hợp, chưa đổi trạng thái.
-- `python scripts/in_phan_cong_kt1.py --apply` : Chốt in, cập nhật trạng thái cột O sang "Đang xử lý".
-- `python scripts/in_phan_cong_kt1.py --reprint` : In lại các dòng đã ở trạng thái "Đang xử lý" (phục vụ in lại khi cần).
-- `python scripts/in_phan_cong_kt1.py --reprint --row=<số dòng>` : In lại giới hạn cho các dòng cụ thể (ví dụ: `--row=816 --row=817`).
+- `python scripts/in_phan_cong_kt1.py --apply` : Chốt in trên Windows (Excel COM), cập nhật cột O.
+- `python scripts/ghi-so-bao-cao-an-toan.py set-status --in ... --out ... --row N --status "Đang xử lý"` : ghi cột O an toàn trên VPS.
+- `python scripts/ghi-so-bao-cao-an-toan.py validate --in ...` : kiểm SST / namespace / ZipInfo / chart trước khi upload.
+- `python scripts/in_phan_cong_kt1.py --reprint` : In lại các dòng đã ở trạng thái "Đang xử lý".
+- `python scripts/in_phan_cong_kt1.py --reprint --row=<số dòng>` : In lại giới hạn dòng cụ thể.
 
 ## Bẫy
 - **Trang scan kích thước lớn:** Các file scan công văn có khổ rất lớn (khoảng 1945 x 2738 pt). Nếu dùng font cố định 7.5 - 11 pt chữ sẽ bị tí hon không đọc được. Luôn tính toán tỷ lệ co giãn theo chiều ngang của trang và chiều dài chuỗi chữ.
@@ -79,3 +88,6 @@ group: Năng suất
 - [2026-11-18] Thống nhất với KT2/KT3: mọi phân công đều xem trước rồi mới chốt; sau chốt mới cập nhật sổ sang `Đang xử lý`.
 - [2026-11-18] Ghi sổ theo nền tảng: Linux/VPS = Drive Composio ralph-urbane + vá XML; Windows = Excel COM `--apply`.
 - [2026-11-18 15:27] Kênh xem trước chốt là **Telegram** (send-file); người dùng chọn "OK quy trình lần sau".
+- [2026-11-20] Chuyển xem trước sang bot CA `@Kiem_soat_dieu_phoi_bot` (`scripts/gui-telegram-bot-ca.py`).
+- [2026-11-20] Cửa kiểm đóng Bao_cao + chờ Drive sync trước khi cập nhật sổ.
+- [2026-11-20] VPS bắt buộc `scripts/ghi-so-bao-cao-an-toan.py` (ZipInfo Windows + SST khớp + namespace sheet2) trước `UPLOAD_UPDATE`.

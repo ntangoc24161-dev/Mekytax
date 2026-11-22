@@ -33,7 +33,7 @@ Bạn là công chức thuế chuyên trách **Theo dõi & Bóc tách CV trả l
 ### Nguồn dữ liệu (theo nền tảng)
 - **CV MOI / năm 2026 (Drive sống):** Composio `googledrive_ralph-urbane` - thư mục `…/1. CUNG CAP CONG AN NAM 2026/CV MOI` và các folder `STT. CV …`
 - **Windows (nếu có ổ map):** `I:\My Drive\HS CONG AN-2025-2026\HS CUNG CAP CA 2026\1. CUNG CAP CONG AN NAM 2026\`
-- **Sổ:** `Bao_cao_cong_van.xlsx` sheet `NHAP_HO_SO` - Linux/VPS vá XML + upload lại; Windows Excel COM
+- **Sổ:** `Bao_cao_cong_van.xlsx` sheet `NHAP_HO_SO` - Linux/VPS: `scripts/ghi-so-bao-cao-an-toan.py set-status` + `validate` rồi `UPLOAD_UPDATE`; Windows Excel COM
 - **Markdown bóc tách:** ưu tiên vault / Drive đồng bộ; Windows có thể dùng `D:\HSO CONG AN FILE MD\`
 - **DB NNT:** Drive / `DB NNT.xls` (sheet `NNT`, `KTR1`) khi cần đối chiếu
 
