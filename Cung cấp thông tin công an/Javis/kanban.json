@@ -262,7 +262,7 @@
       "capability": "external-write",
       "execution_mode": "full",
       "priority": 2,
-      "status": "done",
+      "status": "archived",
       "needs_approval": false,
       "block_kind": "",
       "block_reason": "",
@@ -278,7 +278,7 @@
       "current_run_id": "",
       "result": "Tôi sẽ chạy Bước 2 phân công CV Mới 19/11: nạp skill in/Zalo, đối chiếu sổ Drive, rồi tạo PDF xem trước và nháp Telegram, không `--apply` và không đổi cột O.Skill đã nạp. Tiếp theo tôi sẽ đối chiếu sổ Drive và tìm cách gọi Telegram/Drive trong phiên này.Tôi đang đọc gói Bước 1 và các lần gửi Telegram trước để khớp đúng dòng sổ, PDF và đầu mối.Tôi sẽ gọi hub Javis để tải sổ sống Drive và xác minh đúng các dòng cần phân công.Tôi bắt đầu gọi hub Drive, đọc sổ và tìm PDF nguồn cùng font để tạo phiếu in.Sổ local đã khớp các dòng. Tiếp theo tôi mã hóa header vault, tải sổ sống Drive và kiểm PDF in sẵn.Sổ local khớp. Tôi tải sổ sống Drive, tạo PDF in KT1 (dòng phân công + trang chẵn) và soạn nháp Zalo KT3.Sổ sống Drive khớp, PDF KT1 đã tạo. Tôi soạn file xem trước rồi gửi Telegram, không `--apply` và không đổi cột O.Đã chạy xong Bước 2 phân công CV Mới 19/11: **xem trước đã gửi Telegram (8 file, `ok: true`)**. Chưa chốt in, chưa gửi Zalo, **cột O không đổi**.\n\n### KT1 - chờ chốt in\nĐã tạo/cập nhật PDF (trang chẵn, dòng phân công đầu trang) và gửi Telegram:\n\n- Dòng **855** folder **286** CV `19981/CV-CSHS(Đ3)` - CB **TRL VAN BAN** - hạn **20/11** - `exports/in-phan-cong-kt1/TRL_VAN_BAN.pdf` (2 trang)\n- Dòng **861** folder **290** CV `1804/YC-ANĐT-Đ2` - CB **NGUYỄN HOÀNG MINH** - tái sử dụng PDF 17/11 (còn đúng: MST `0317071899`, Ngày PC 17/11) - `exports/in-phan-cong-kt1/NGUYEN_HOANG_MINH.pdf` (2 trang)\n- Tổng hợp: `exports/in-phan-cong-kt1/Phan cong xu ly KT1 tu dong 855 den dong 861 ngay in 19-11-2026.pdf` (4 trang)\n\nKhông chạy `--apply`.\n\n### KT3 - chờ chốt gửi Zalo\nNháp gửi **CCT- Tieu Diem** (`threadId 5588572486369282885`), kèm PDF xem trước:\n\n```\nCÔNG TY TNHH THƯƠNG MẠI PHÁT TRIỂN THỊNH VƯỢNG PHÁT - CHI NHÁNH VÕ THỊ SÁU\nCV 1740/ANĐT-Đ2 ngày 26/10/2026\nHạn thực hiện: trước 28/10/2026\n\nCÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬN TẢI ĐẦU TƯ HOÀNG QUÂN\nCV 883/ANĐT ngày 19/08/2026\nHạn thực hiện: trước 29/11/2026\n\nCÔNG TY TNHH PHÁT TRIỂN THƯƠNG MẠI DỊCH VỤ THUẬN HOÀ PHÁT\nCV 883/ANĐT ngày 19/08/2026\nHạn thực hiện: trước 29/11/2026\n```\n\nFile: `exports/xem-truoc-telegram-2026-11-19/02_KT3_xem_truoc_zalo.txt`, `exports/gui-phan-cong-zalo/kt3-2026-11-19/274_1740_ANDT-D2.pdf`, `276_883_ANDT.pdf`. **Chưa gửi Zalo thật.**\n\n### Không phân công\n- **Folder 295 CV 5681:** 2 DN TCS4, trạng thái **Không xử lý** - bỏ qua\n- **Folder 296 CV 1141:** 132 cty đính kèm, Tổ trống, hạn 20/11 - **cần chỉ đạo**, không tự phân Tổ\n- **Folder 284 CV 4325:** KT1, 2 DN (HPG, Lưu Tính) **thiếu CBQL** - không in\n\n### Kiểm chứng\nSổ sống Drive `1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph` (`googledrive_ralph-urbane`) tải về `ho-so-cv-moi-2026-11/Bao_cao_cong_van_drive_buoc2_2026-11-19.xlsx`: dòng 855/861/814/819-820 vẫn **Mới**; 896-897 **Không xử lý**; 898 **Mới** Tổ trống. DASHBOARD còn 2 chart. Không có file dự thảo công văn/tờ trình mới.\n\nAnh xem Telegram rồi trả lời **chốt in** và/hoặc **chốt gửi**.\n\nJAVIS_LESSON: Gọi hub Drive từ Python phải URL-encode header X-Javis-Vault vì HTTP header không nhận Unicode.\nJAVIS_LESSON: PDF in KT1 NGUYỄN HOÀNG MINH ngày 17/11 tái sử dụng được khi CB, MST, số CV và Ngày PC trên sổ sống còn khớp.",
       "created_at": 1795081877.7305477,
-      "updated_at": 1795082294.5950806,
+      "updated_at": 1795341497.9873621,
       "lane": "",
       "team_id": "",
       "team_seq": 0,
@@ -362,9 +362,13 @@
         {
           "ts": "2026-11-19 09:58",
           "msg": "done"
+        },
+        {
+          "ts": "2026-11-22 09:58",
+          "msg": "done -> archived: đã kết thúc quá 3 ngày"
         }
       ]
     }
   ],
-  "updated": 1795082294.6223183
+  "updated": 1795341497.99515
 }
