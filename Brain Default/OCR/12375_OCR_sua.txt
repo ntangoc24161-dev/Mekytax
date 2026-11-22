@@ -1,0 +1,542 @@
+﻿ToolOCR - các chỗ đã tự động sửa (540 chỗ). Trong Word: nền xanh nhạt = đã sửa, tô vàng = nghi ngờ cần soát.
+
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	CONG  ->  CỘNG
+Trang 1	Từ điển	THUÊ  ->  THUẾ
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	CHI  ->  CHÍ
+Trang 1	Từ điển	dâu  ->  dấu
+Trang 1	Từ điển	đầy  ->  đẩy
+Trang 1	Từ điển	trang  ->  trạng
+Trang 2	Từ điển	Thanh  ->  Thành
+Trang 2	Từ điển	pho  ->  phố
+Trang 2	Từ điển	Chi  ->  Chí
+Trang 3	Từ điển	Đồi  ->  Đổi
+Trang 3	Từ điển	kề  ->  kê
+Trang 3	Từ điển	Don  ->  Đơn
+Trang 3	Từ điển	vi  ->  vị
+Trang 3	Từ điển	ra  ->  rà
+Trang 3	Từ điển	don  ->  đơn
+Trang 3	Từ điển	tứ  ->  tử
+Trang 3	Từ điển	cua  ->  của
+Trang 4	Từ điển	tron  ->  trốn
+Trang 4	Từ điển	Chi  ->  Chí
+Trang 4	Từ điển	PHO  ->  PHÔ
+Trang 4	Từ điển	TRUONG  ->  TRƯƠNG
+Trang 4	Từ điển	THUE  ->  THUÊ
+Trang 5	Từ điển	E  ->  Ê
+Trang 5	Từ điển	ả  ->  a
+Trang 5	Từ điển	ồ  ->  ò
+Trang 5	Từ điển	Bì  ->  Bi
+Trang 5	Từ điển	ki  ->  kí
+Trang 5	Từ điển	E  ->  Ê
+Trang 5	Từ điển	ã  ->  a
+Trang 5	Từ điển	ĐẶc  ->  Đặc
+Trang 5	Từ điển	xa  ->  xá
+Trang 5	Từ điển	E  ->  Ê
+Trang 5	Từ điển	ẵ  ->  a
+Trang 5	Từ điển	Ẽ  ->  E
+Trang 5	Từ điển	Ờa‹  ->  Òa‹
+Trang 5	Từ điển	tị  ->  tì
+Trang 5	Từ điển	ồ  ->  ố
+Trang 5	Từ điển	Ề  ->  Ê
+Trang 5	Từ điển	ễ  ->  ê
+Trang 5	Từ điển	tối  ->  tội
+Trang 5	Từ điển	Lại  ->  Lai
+Trang 5	Từ điển	Ec  ->  Éc
+Trang 5	Từ điển	Luä  ->  Lua
+Trang 5	Từ điển	bạ  ->  bà
+Trang 5	Từ điển	ồ  ->  ó
+Trang 6	Từ điển	Bi  ->  Bì
+Trang 6	Từ điển	E  ->  Ê
+Trang 6	Từ điển	ặ  ->  a
+Trang 6	Từ điển	Ẹ  ->  Ê
+Trang 6	Từ điển	Ễ  ->  Ê
+Trang 6	Từ điển	Bi  ->  Bì
+Trang 6	Từ điển	bi  ->  bì
+Trang 6	Từ điển	Ể  ->  Ê
+Trang 6	Từ điển	Ể  ->  Ê
+Trang 6	Từ điển	ặ  ->  à
+Trang 6	Từ điển	E  ->  Ê
+Trang 6	Từ điển	ặ  ->  a
+Trang 6	Từ điển	Sự  ->  Sử
+Trang 6	Từ điển	ki  ->  kí
+Trang 6	Từ điển	sắ  ->  sá
+Trang 6	Từ điển	bi  ->  bí
+Trang 6	Từ điển	tị  ->  tỉ
+Trang 6	Từ điển	Ẽ  ->  E
+Trang 6	Từ điển	Bì  ->  Bi
+Trang 6	Từ điển	ki  ->  kí
+Trang 6	Từ điển	Pị  ->  Pi
+Trang 6	Từ điển	Ẹ  ->  Ê
+Trang 6	Từ điển	Ệ  ->  Ê
+Trang 6	Từ điển	E  ->  Ê
+Trang 6	Từ điển	ặ  ->  a
+Trang 6	Từ điển	kả  ->  ka
+Trang 6	Từ điển	E  ->  Ê
+Trang 6	Từ điển	ặ  ->  a
+Trang 6	Từ điển	Ể  ->  Ê
+Trang 6	Từ điển	Ệ  ->  Ê
+Trang 6	Từ điển	bã  ->  ba
+Trang 6	Từ điển	và  ->  vạ
+Trang 6	Từ điển	Eu  ->  Êu
+Trang 6	Từ điển	ề  ->  ê
+Trang 6	Từ điển	ể  ->  ê
+Trang 6	Từ điển	Ể  ->  Ê
+Trang 6	Từ điển	ể  ->  ê
+Trang 6	Từ điển	Ễ  ->  Ê
+Trang 6	Từ điển	Ẽ  ->  Ê
+Trang 6	Từ điển	ể  ->  ê
+Trang 6	Từ điển	ể  ->  ê
+Trang 6	Từ điển	Ệ  ->  Ê
+Trang 6	Từ điển	Ể  ->  Ê
+Trang 6	Từ điển	ể  ->  ê
+Trang 6	Từ điển	ề  ->  ê
+Trang 6	Từ điển	nã  ->  na
+Trang 6	Từ điển	Ệ  ->  Ê
+Trang 6	Từ điển	Ễ  ->  Ê
+Trang 6	Từ điển	Ệ  ->  Ê
+Trang 6	Từ điển	Ẽ  ->  Ê
+Trang 6	Từ điển	Ẽ  ->  Ê
+Trang 6	Từ điển	Ệ  ->  Ê
+Trang 6	Từ điển	ki  ->  kí
+Trang 6	Từ điển	E  ->  Ê
+Trang 6	Từ điển	ä  ->  a
+Trang 6	Từ điển	Bi  ->  Bì
+Trang 6	Từ điển	ki  ->  kì
+Trang 6	Từ điển	E.  ->  Ê.
+Trang 6	Từ điển	ặ  ->  a
+Trang 6	Từ điển	Ợ  ->  Ổ
+Trang 7	Từ điển	E  ->  Ê
+Trang 7	Từ điển	ặ  ->  a
+Trang 7	Từ điển	DI  ->  Dị
+Trang 7	Từ điển	ÈỀ  ->  Êê
+Trang 7	Từ điển	Ế  ->  Ê
+Trang 7	Từ điển	Ề  ->  Ê
+Trang 7	Từ điển	loặc  ->  loạc
+Trang 7	Từ điển	Eũ  ->  Êu
+Trang 8	Từ điển	là  ->  lạ
+Trang 8	Từ điển	Pì  ->  Pi
+Trang 8	Từ điển	Ẽ  ->  E
+Trang 8	Từ điển	ễ  ->  ê
+Trang 8	Từ điển	.ề  ->  .ê
+Trang 8	Từ điển	E  ->  Ê
+Trang 8	Từ điển	ấ  ->  a
+Trang 8	Từ điển	Le]  ->  Lê]
+Trang 8	Từ điển	Là  ->  La
+Trang 8	Từ điển	Eu  ->  Êu
+Trang 8	Từ điển	Eủ  ->  Êu
+Trang 8	Từ điển	sá  ->  sả
+Trang 8	Từ điển	bã  ->  ba
+Trang 8	Từ điển	Bi  ->  Bị
+Trang 8	Từ điển	E  ->  Ê
+Trang 8	Từ điển	ặ  ->  a
+Trang 8	Từ điển	Ẹ  ->  E
+Trang 8	Từ điển	Eu  ->  Êu
+Trang 8	Từ điển	ã  ->  a
+Trang 8	Từ điển	hạ  ->  ha
+Trang 8	Từ điển	sặ  ->  sạ
+Trang 8	Từ điển	kä  ->  ka
+Trang 8	Từ điển	ề  ->  ê
+Trang 8	Từ điển	ề  ->  ê
+Trang 8	Từ điển	E  ->  Ê
+Trang 8	Từ điển	ã  ->  a
+Trang 8	Từ điển	Ệ  ->  Ê
+Trang 8	Từ điển	Ể  ->  Ê
+Trang 8	Từ điển	Ệ  ->  Ê
+Trang 8	Từ điển	ề  ->  ê
+Trang 8	Từ điển	Ỹ  ->  Ỷ
+Trang 8	Từ điển	LẮ  ->  LA
+Trang 8	Từ điển	E  ->  Ê
+Trang 8	Từ điển	ẩ  ->  a
+Trang 8	Từ điển	Ế  ->  Ê
+Trang 8	Từ điển	Ễ  ->  Ê
+Trang 8	Từ điển	Ệ  ->  Ê
+Trang 8	Từ điển	Ễ  ->  Ê
+Trang 8	Từ điển	Ẽ  ->  E
+Trang 8	Từ điển	Pä  ->  Pa
+Trang 8	Từ điển	Eñ  ->  En
+Trang 8	Từ điển	E  ->  Ê
+Trang 8	Từ điển	:Ã  ->  :A
+Trang 8	Từ điển	kì  ->  kị
+Trang 8	Từ điển	[si  ->  [sĩ
+Trang 8	Từ điển	Ệ  ->  Ê
+Trang 8	Từ điển	ä  ->  a
+Trang 8	Từ điển	E  ->  Ê
+Trang 8	Từ điển	ặ  ->  a
+Trang 8	Từ điển	Ợ  ->  Ô
+Trang 8	Từ điển	kì  ->  kĩ
+Trang 9	Từ điển	Tắp  ->  Tập
+Trang 9	Từ điển	Doân  ->  Đoàn
+Trang 9	Từ điển	Đá  ->  Đã
+Trang 9	Từ điển	cáp  ->  cấp
+Trang 9	Từ điển	dơn.  ->  đơn.
+Trang 9	Từ điển	Doán  ->  Đoàn
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	Tậy  ->  Tây
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	Doàn  ->  Đoàn
+Trang 9	Từ điển	Hanh,  ->  Hạnh,
+Trang 9	Từ điển	Doàn  ->  Đoàn
+Trang 9	Từ điển	Doàn  ->  Đoàn
+Trang 9	Từ điển	Hỏa  ->  Hóa
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	Binh  ->  Bình
+Trang 9	Từ điển	Doàn  ->  Đoàn
+Trang 9	Từ điển	Hanh,  ->  Hạnh,
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	dơn  ->  đơn
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	Trân  ->  Trần
+Trang 9	Từ điển	Binh  ->  Bình
+Trang 9	Từ điển	Hòa  ->  Hóa
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	cắp  ->  cấp
+Trang 9	Từ điển	Tay  ->  Tây
+Trang 9	Từ điển	Hỏa  ->  Hòa
+Trang 9	Từ điển	XÃ  ->  Xã
+Trang 9	Từ điển	Hỏa  ->  Hòa
+Trang 9	Từ điển	Khanh,  ->  Khánh,
+Trang 9	Từ điển	Hỏa  ->  Hóa
+Trang 9	Từ điển	Eu  ->  Êu
+Trang 9	Từ điển	Hỏa  ->  Hòa
+Trang 9	Từ điển	đơn  ->  đồn
+Trang 9	Từ điển	Trán  ->  Trần
+Trang 9	Từ điển	Tũ  ->  Tư
+Trang 9	Từ điển	Hành  ->  Hạnh
+Trang 9	Từ điển	Trấn  ->  Trần
+Trang 9	Từ điển	Hoa  ->  Hòa
+Trang 9	Từ điển	Hỏa  ->  Hóa
+Trang 9	Từ điển	Khanh,  ->  Khánh,
+Trang 9	Từ điển	Thống,  ->  Thông,
+Trang 9	Từ điển	Thống.  ->  Thông.
+Trang 9	Từ điển	Hỗ  ->  Hồ
+Trang 9	Từ điển	Chỉ  ->  Chí
+Trang 9	Từ điển	Mình  ->  Minh
+Trang 9	Từ điển	[Dã  ->  [Đã
+Trang 9	Từ điển	Hanh  ->  Hạnh
+Trang 9	Từ điển	Thống.  ->  Thông.
+Trang 9	Từ điển	Chủ  ->  Chu
+Trang 9	Từ điển	ME  ->  MÊ
+Trang 9	Từ điển	ME)  ->  MÊ)
+Trang 9	Từ điển	Thống  ->  Thông
+Trang 9	Từ điển	Hỗ  ->  Hồ
+Trang 9	Từ điển	hỏa  ->  hóa
+Trang 9	Từ điển	Hành  ->  Hạnh
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	CÒONG  ->  COONG
+Trang 9	Từ điển	mà  ->  mã
+Trang 9	Từ điển	Hành  ->  Hạnh
+Trang 9	Từ điển	mời  ->  mới
+Trang 9	Từ điển	cắp  ->  cấp
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	HỘI  ->  HỒI
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	MỸ  ->  Mỹ
+Trang 9	Từ điển	Hành  ->  Hạnh
+Trang 9	Từ điển	Dã  ->  Đã
+Trang 9	Từ điển	cáp  ->  cấp
+Trang 9	Từ điển	dơn  ->  đơn
+Trang 9	Từ điển	Hoa  ->  Hòa
+Trang 9	Từ điển	Hòa  ->  Hóa
+Trang 9	Từ điển	Hành  ->  Hạnh
+Trang 9	Từ điển	Hòa  ->  Hóa
+Trang 9	Từ điển	TƯỜNG  ->  TƯƠNG
+Trang 9	Từ điển	MẠI  ->  MAI
+Trang 9	Từ điển	Hành  ->  Hạnh
+Trang 9	Từ điển	CÒONG  ->  COONG
+Trang 9	Từ điển	TƯỜNG  ->  TƯƠNG
+Trang 9	Từ điển	MẠI  ->  MAI
+Trang 9	Từ điển	Kiện,  ->  Kiên,
+Trang 9	Từ điển	Hành  ->  Hạnh
+Trang 9	Từ điển	hía  ->  hia
+Trang 9	Kiểm tra số	700.000000  ->  700.000.000
+Trang 9	Kiểm tra số	1.000000000  ->  1.000.000.000
+Trang 9	Kiểm tra số	200.0000600  ->  2.000.000.600
+Trang 9	Kiểm tra số	1.000000.000  ->  1.000.000.000
+Trang 9	Kiểm tra số	1.000000000  ->  1.000.000.000
+Trang 9	Kiểm tra số	700000.000  ->  700.000.000
+Trang 9	Kiểm tra số	00000.000  ->  0
+Trang 9	Kiểm tra số	400000.000  ->  400.000.000
+Trang 9	Kiểm tra số	800,000,000  ->  800.000.000
+Trang 9	Kiểm tra số	700,000.000  ->  700.000.000
+Trang 9	Kiểm tra số	800,000,000  ->  800.000.000
+Trang 9	Kiểm tra số	800,000.000  ->  800.000.000
+Trang 9	Kiểm tra số	800,000.000  ->  800.000.000
+Trang 9	Kiểm tra số	00.000000  ->  0
+Trang 9	Kiểm tra số	00,000000  ->  0
+Trang 9	Kiểm tra số	00.000000  ->  0
+Trang 9	Kiểm tra số	00000.000  ->  0
+Trang 9	Kiểm tra số	3)(00000)  ->  300.000
+Trang 9	Kiểm tra số	10.000,000  ->  10.000.000
+Trang 9	Kiểm tra số	110.000,000  ->  110.000.000
+Trang 9	Kiểm tra số	70.000,000  ->  70.000.000
+Trang 9	Kiểm tra số	1.100.000000  ->  1.100.000.000
+Trang 9	Kiểm tra số	770000,000  ->  770.000.000
+Trang 9	Kiểm tra số	880.000000  ->  880.000.000
+Trang 9	Kiểm tra số	880.000000  ->  880.000.000
+Trang 9	Kiểm tra số	880.000000  ->  880.000.000
+Trang 9	Kiểm tra số	660.000000  ->  660.000.000
+Trang 9	Kiểm tra số	770.000000  ->  770.000.000
+Trang 9	Kiểm tra số	880000.000  ->  880.000.000
+Trang 9	Kiểm tra số	80.000000  ->  80.000.000
+Trang 9	Kiểm tra số	880.000000  ->  880.000.000
+Trang 9	Kiểm tra số	480.000000  ->  480.000.000
+Trang 9	Kiểm tra số	880.000,000  ->  880.000.000
+Trang 9	Kiểm tra số	880.0010.000)  ->  8.800.010.000
+Trang 9	Số thứ tự	m  ->  212
+Trang 9	Số thứ tự	24  ->  214
+Trang 9	Số thứ tự	„^  ->  232
+Trang 9	Số thứ tự	PA]  ->  233
+Trang 9	Số thứ tự	28  ->  238
+Trang 9	Số thứ tự	2  ->  243
+Trang 9	Số thứ tự	2-  ->  244
+Trang 9	Số thứ tự	25L  ->  251
+Trang 9	Số thứ tự	28  ->  254
+Trang 9	Số thứ tự	36L  ->  261
+Trang 9	Số thứ tự	3n3  ->  262
+Trang 9	Số thứ tự	ải  ->  201
+Trang 9	Số thứ tự	24  ->  214
+Trang 9	Số thứ tự	24  ->  224
+Trang 9	Số thứ tự	252  ->  232
+Trang 9	Số thứ tự	40  ->  240
+Trang 9	Số thứ tự	47  ->  247
+Trang 9	Số thứ tự	1350  ->  250
+Trang 9	Mã số thuế	0317825106  ->  0317825306
+Trang 9	Mã số thuế	0117825306  ->  0317825306
+Trang 9	Mã số thuế	1162161079  ->  1102161079
+Trang 10	Từ điển	Pị  ->  Pi
+Trang 10	Từ điển	kị  ->  kì
+Trang 10	Từ điển	bo  ->  bô
+Trang 10	Từ điển	E]  ->  Ê]
+Trang 10	Từ điển	ẩ  ->  a
+Trang 10	Từ điển	ba  ->  bà
+Trang 10	Từ điển	Luä  ->  Lua
+Trang 10	Từ điển	Ệ  ->  Ê
+Trang 10	Từ điển	Ẽ  ->  Ê
+Trang 10	Từ điển	tầ  ->  tà
+Trang 10	Từ điển	Ẹ  ->  E
+Trang 10	Từ điển	bã  ->  ba
+Trang 10	Từ điển	ể  ->  ê
+Trang 10	Từ điển	ể  ->  ê
+Trang 10	Từ điển	ề  ->  ê
+Trang 10	Từ điển	ể  ->  ê
+Trang 10	Từ điển	ể  ->  ê
+Trang 10	Từ điển	ể  ->  ê
+Trang 10	Từ điển	Ệ  ->  Ê
+Trang 10	Từ điển	ã  ->  a
+Trang 10	Từ điển	E  ->  Ê
+Trang 10	Từ điển	ấ  ->  a
+Trang 10	Từ điển	kà  ->  ka
+Trang 10	Từ điển	số  ->  sở
+Trang 10	Từ điển	Di  ->  Dĩ
+Trang 10	Từ điển	li  ->  lì
+Trang 10	Từ điển	li  ->  lì
+Trang 11	Từ điển	DI  ->  Dị
+Trang 11	Từ điển	Pị  ->  Pi
+Trang 11	Từ điển	bi  ->  bì
+Trang 11	Từ điển	ụ¬  ->  ủ¬
+Trang 11	Từ điển	E  ->  Ê
+Trang 11	Từ điển	Pị  ->  Pi
+Trang 11	Từ điển	Ề  ->  Ê
+Trang 11	Từ điển	è  ->  ê
+Trang 11	Từ điển	Pì  ->  Pi
+Trang 11	Từ điển	ẽ  ->  ê
+Trang 11	Từ điển	Ề  ->  Ê
+Trang 11	Từ điển	E  ->  Ê
+Trang 11	Từ điển	ạ  ->  a
+Trang 11	Từ điển	Ếc  ->  Éc
+Trang 11	Từ điển	Ệ  ->  Ê
+Trang 11	Từ điển	Ề  ->  Ê
+Trang 11	Từ điển	bị  ->  bí
+Trang 11	Từ điển	ti  ->  tỉ
+Trang 11	Từ điển	DỤ  ->  DỰ
+Trang 11	Từ điển	BI  ->  BỊ
+Trang 11	Từ điển	HỊ  ->  Hì
+Trang 11	Từ điển	Eũ  ->  Êu
+Trang 11	Từ điển	ỗ  ->  ó
+Trang 12	Từ điển	SY  ->  SỸ
+Trang 12	Từ điển	bi  ->  bì
+Trang 12	Từ điển	E  ->  Ê
+Trang 12	Từ điển	ặ  ->  a
+Trang 12	Từ điển	E  ->  Ê
+Trang 12	Từ điển	ặ  ->  a
+Trang 12	Từ điển	Ễ  ->  Ê
+Trang 12	Từ điển	Ẽ  ->  Ê
+Trang 12	Từ điển	ặ  ->  à
+Trang 12	Từ điển	Ễ  ->  Ê
+Trang 12	Từ điển	ễ  ->  ê
+Trang 12	Từ điển	ká  ->  ka
+Trang 12	Từ điển	Eu  ->  Êu
+Trang 12	Từ điển	Eu  ->  Êu
+Trang 12	Từ điển	Ẹ  ->  E
+Trang 12	Từ điển	là  ->  lạ
+Trang 12	Từ điển	ki  ->  kì
+Trang 12	Từ điển	Ể  ->  Ê
+Trang 12	Từ điển	Ễ  ->  Ê
+Trang 12	Từ điển	Eà  ->  Ea
+Trang 12	Từ điển	bã  ->  bá
+Trang 12	Từ điển	Eu  ->  Êu
+Trang 12	Từ điển	ư  ->  ủ
+Trang 12	Từ điển	Ễ  ->  Ê
+Trang 12	Từ điển	tặ  ->  tạ
+Trang 12	Từ điển	tẩ  ->  tả
+Trang 12	Từ điển	Ẹ  ->  E
+Trang 12	Từ điển	Ẹ  ->  É
+Trang 12	Từ điển	E  ->  Ê
+Trang 12	Từ điển	ẩ  ->  a
+Trang 12	Từ điển	ề  ->  ê
+Trang 12	Từ điển	Ể  ->  Ê
+Trang 12	Từ điển	Ệ  ->  Ê
+Trang 12	Từ điển	Ẽ  ->  Ê
+Trang 12	Từ điển	ể  ->  ê
+Trang 12	Từ điển	ể  ->  ê
+Trang 12	Từ điển	ể  ->  ê
+Trang 12	Từ điển	ể  ->  ê
+Trang 12	Từ điển	Ệ  ->  Ê
+Trang 12	Từ điển	Ể  ->  Ê
+Trang 12	Từ điển	ẽ  ->  e
+Trang 12	Từ điển	ề  ->  ê
+Trang 12	Từ điển	Ể  ->  Ê
+Trang 12	Từ điển	Ỹ  ->  Ỷ
+Trang 12	Từ điển	Là  ->  La
+Trang 12	Từ điển	E  ->  Ê
+Trang 12	Từ điển	ặ  ->  a
+Trang 12	Từ điển	Ẻ  ->  Ê
+Trang 12	Từ điển	Ệ  ->  Ê
+Trang 12	Từ điển	Ẹ  ->  Ê
+Trang 12	Từ điển	Ễ  ->  Ê
+Trang 12	Từ điển	Ẽ,  ->  E,
+Trang 12	Từ điển	Hả  ->  Hă
+Trang 12	Từ điển	rấ  ->  rá
+Trang 12	Từ điển	Ẹ  ->  Ê
+Trang 12	Từ điển	Ệ  ->  Ê
+Trang 12	Từ điển	Ẹ  ->  Ê
+Trang 12	Từ điển	Ệ  ->  Ê
+Trang 12	Từ điển	Ỹ  ->  Ý
+Trang 12	Từ điển	Di  ->  Dĩ
+Trang 12	Từ điển	ki  ->  kí
+Trang 12	Từ điển	Ẹ  ->  Ê
+Trang 12	Từ điển	ä  ->  a
+Trang 12	Từ điển	E  ->  Ê
+Trang 12	Từ điển	ẫ  ->  a
+Trang 12	Từ điển	pị  ->  pi
+Trang 12	Từ điển	sấ  ->  sá
+Trang 12	Từ điển	Ỹ  ->  Ý
+Trang 12	Từ điển	Di  ->  Dĩ
+Trang 12	Từ điển	bì  ->  bí
+Trang 12	Từ điển	ti  ->  tỉ
+Trang 12	Từ điển	tà  ->  tả
+Trang 13	Từ điển	hai  ->  hải
+Trang 13	Từ điển	bả  ->  ba
+Trang 13	Từ điển	Ể  ->  Ê
+Trang 13	Từ điển	Ễ  ->  Ê
+Trang 13	Từ điển	E  ->  Ê
+Trang 13	Từ điển	ả  ->  a
+Trang 13	Từ điển	E  ->  Ê
+Trang 13	Từ điển	á  ->  a
+Trang 13	Từ điển	E  ->  Ê
+Trang 13	Từ điển	ặ  ->  a
+Trang 13	Từ điển	bi  ->  bì
+Trang 13	Từ điển	ồ  ->  ò
+Trang 13	Từ điển	li  ->  lí
+Trang 13	Từ điển	LỄ  ->  Lẽ
+Trang 13	Từ điển	lẺ  ->  lế
+Trang 13	Từ điển	LÀ  ->  La
+Trang 13	Từ điển	EU  ->  ÊU
+Trang 13	Từ điển	Ẽ  ->  E
+Trang 13	Từ điển	Ễ  ->  Ê
+Trang 13	Từ điển	Ẹ  ->  Ê
+Trang 13	Từ điển	gi  ->  gì
+Trang 13	Từ điển	E  ->  Ê
+Trang 13	Từ điển	ẩ  ->  a
+Trang 13	Từ điển	ề  ->  ê
+Trang 13	Từ điển	ễ  ->  ê
+Trang 13	Từ điển	lai  ->  lại
+Trang 13	Từ điển	li  ->  lì
+Trang 13	Từ điển	E  ->  Ê
+Trang 13	Từ điển	Ẽ  ->  Ê
+Trang 13	Từ điển	Ễ  ->  Ê
+Trang 13	Từ điển	Ki  ->  Kì
+Trang 13	Từ điển	La  ->  Lạ
+Trang 13	Từ điển	E  ->  Ê
+Trang 13	Từ điển	Bị  ->  Bì
+Trang 13	Từ điển	Bị  ->  Bì
+Trang 13	Từ điển	Ha]  ->  Hà]
+Trang 13	Từ điển	loặc]  ->  loạc]
+Trang 13	Từ điển	laì  ->  lai
+Trang 13	Từ điển	EU  ->  ÊU
+Trang 13	Từ điển	Luï]  ->  Lui]
+Trang 13	Từ điển	E  ->  Ê
+Trang 13	Từ điển	ạ  ->  a
+Trang 13	Từ điển	ẩ  ->  à
+Trang 13	Từ điển	ö  ->  ố
+Trang 14	Từ điển	Ẹ  ->  Ê
+Trang 14	Từ điển	Ệ  ->  Ê
+Trang 14	Từ điển	Ệ  ->  Ê
+Trang 14	Từ điển	Ễ  ->  Ê
+Trang 14	Từ điển	Ề  ->  Ê
+Trang 14	Từ điển	Ể  ->  Ê
+Trang 14	Từ điển	E  ->  Ê
+Trang 14	Từ điển	ấ  ->  a
+Trang 14	Từ điển	lì  ->  li
+Trang 14	Từ điển	bi  ->  bì
+Trang 14	Từ điển	Ẽ  ->  Ê
+Trang 14	Từ điển	Ể  ->  Ê
+Trang 14	Từ điển	E  ->  Ê
+Trang 14	Từ điển	ấ  ->  a
+Trang 14	Từ điển	ễ  ->  ê
+Trang 14	Từ điển	Ễ  ->  Ê
+Trang 14	Từ điển	E  ->  Ê
+Trang 14	Từ điển	ẵ  ->  a
+Trang 14	Từ điển	ä  ->  à
+Trang 14	Từ điển	kE  ->  kể
+Trang 14	Từ điển	gi  ->  gì
+Trang 14	Từ điển	ki  ->  kí
+Trang 14	Từ điển	E  ->  Ê
+Trang 14	Từ điển	ä  ->  a
+Trang 14	Từ điển	lí]  ->  lì]
+Trang 14	Từ điển	li  ->  lì
+Trang 14	Từ điển	la]  ->  lạ]
+Trang 14	Từ điển	ki  ->  kì
+Trang 14	Từ điển	ệ  ->  ê
+Trang 14	Từ điển	ễ  ->  ê
+Trang 14	Từ điển	Ẽ  ->  Ê
+Trang 14	Từ điển	Ệ  ->  Ê
+Trang 14	Từ điển	Lắ  ->  Lá
+Trang 14	Từ điển	PỊ  ->  PI
+Trang 14	Từ điển	kả  ->  ka
+Trang 14	Từ điển	sổ  ->  số
+Trang 14	Từ điển	kả  ->  ka
+Trang 14	Từ điển	Ẽ  ->  E
+Trang 14	Từ điển	ể  ->  ê
+Trang 14	Từ điển	ể  ->  ê
+Trang 14	Từ điển	Ẹ  ->  Ê
+Trang 14	Từ điển	Ệ  ->  Ê
+Trang 14	Từ điển	kà  ->  ka
+Trang 14	Từ điển	Ệ  ->  Ê
+Trang 14	Từ điển	Ễ  ->  Ê
+Trang 14	Từ điển	Ẹ  ->  E
+Trang 14	Từ điển	Ẹ  ->  E
+Trang 14	Từ điển	Ẹ  ->  Ê
+Trang 14	Từ điển	Ệ  ->  Ê
+Trang 14	Từ điển	Ẹ  ->  Ê
+Trang 14	Từ điển	ä  ->  a
+Trang 14	Từ điển	ụ  ->  ủ
+Trang 14	Từ điển	e  ->  ê
+Trang 14	Từ điển	ặ  ->  ả
+Trang 14	Từ điển	ó  ->  ố
+Trang 14	Từ điển	Ec  ->  Éc
+Trang 14	Từ điển	sấ  ->  sá
+Trang 14	Từ điển	Đã  ->  Đa
+Trang 14	Từ điển	mì  ->  mi
+Trang 14	Từ điển	bi  ->  bì
+Trang 15	Từ điển	tượu  ->  tườu
+Trang 15	Từ điển	uop  ->  ướp
+Trang 15	Từ điển	uop  ->  ướp
+Trang 15	Từ điển	uop  ->  ướp
+Trang 15	Từ điển	uop  ->  ướp
+Trang 15	Từ điển	Buon  ->  Buôn
+Trang 15	Từ điển	uop  ->  ướp

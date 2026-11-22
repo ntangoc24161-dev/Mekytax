@@ -15,7 +15,7 @@ Bối cảnh: chạy sau KQ1.3 và sau khi IN01/IN02/IN05 đã chuẩn. Sao mẫ
 Quy trình:
 1. Sao `KQ2.1` từ mẫu. Lập `IN07_NCC_CanhBao` từ đối tác IN02 + NGUỒN CHỈ ĐỊNH; chưa có IN02 thì IN07 trống.
 2. Điền `KQ2_Doi_chieu_GTGT` (PHẦN I-III, kỳ thực tế); khối nhận xét nguyên nhân trọng yếu khi lệch lớn (3.4).
-3. Điền `KQ2_NCC_mua_vao` 100% hóa đơn; giữ HD04 Top-5 gộp theo MST người bán; Phần 1/3 nhận xét module. F0/F1 chỉ là nhóm F; mức Cao chỉ ở KQ3.
+3. Điền `KQ2_NCC_mua_vao` 100% hóa đơn; giữ HD04 Top-5 gộp theo MST người bán; Phần 1/3 nhận xét module. NCC mua vào CHỈ lọc cờ F0 (ghi số/ngày/cơ quan ban hành CV F0), không xét cờ F1 hay Công an cho NCC; NNT tự thân mới tra F1/CVCBRR/Sổ CA. Mức Cao chỉ ở KQ3.
 4. Điền `KQ2_TNCN_LD2` từ IN05; có 3.3 thì TC22/TC23; kèm nhận xét module ngắn.
 5. Điền `KQ2_EBITDA_Phan_tich` 4 năm từ IN04 (dòng xếp chồng theo năm). Lãi vay = 0 thì ghi rõ không vay nợ.
 6. `KQ2_Tong_hop_co` đếm bằng công thức. Ô thiếu nguồn để trống, không điền 0. HD07 TREO (K13).

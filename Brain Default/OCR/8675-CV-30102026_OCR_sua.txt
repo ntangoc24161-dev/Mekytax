@@ -1,0 +1,25 @@
+﻿ToolOCR - các chỗ đã tự động sửa (23 chỗ). Trong Word: nền xanh nhạt = đã sửa, tô vàng = nghi ngờ cần soát.
+
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	CONG  ->  CỘNG
+Trang 1	Từ điển	HOA  ->  HÒA
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	Thuê  ->  Thuế
+Trang 1	Từ điển	Hô  ->  Hồ
+Trang 1	Từ điển	Chi  ->  Chí
+Trang 1	Từ điển	kiếm  ->  kiểm
+Trang 1	Từ điển	luc),  ->  lực),
+Trang 3	Từ điển	bao  ->  bảo
+Trang 3	Từ điển	về  ->  vệ
+Trang 3	Từ điển	trồn  ->  trốn
+Trang 3	Từ điển	trong./  ->  trọng./
+Trang 3	Từ điển	PHO  ->  PHÔ
+Trang 3	Từ điển	TRUONG  ->  TRƯƠNG
+Trang 3	Từ điển	THUÊ  ->  THUẾ
+Trang 3	Từ điển	SỐ  ->  SỞ
+Trang 4	Từ điển	AP  ->  ÁP
+Trang 4	Từ điển	PAP  ->  PÁP
+Trang 4	Từ điển	PAP  ->  PÁP
+Trang 4	Từ điển	AP  ->  ÁP

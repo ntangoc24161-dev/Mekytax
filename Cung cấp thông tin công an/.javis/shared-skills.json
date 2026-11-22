@@ -1,5 +1,6 @@
 {
   "enabled": [
+    "doc-ocr",
     "hoa-don-dien-tu",
     "huong-dan-kiem-tra-chuyen-de",
     "luat-phong-chong-tham-nhung",

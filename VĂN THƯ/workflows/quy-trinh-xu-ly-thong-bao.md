@@ -7,7 +7,7 @@ group: Vận hành
 description: Tiếp nhận → Phân công trên Master → Theo dõi L1/L2 → Quyết định Đóng HĐ / Phiếu chuyển
 steps:
   - agent: phong-van-thu
-    task: "Tiếp nhận danh sách từ {{input}}, phân công cán bộ, cập nhật QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx (KT_TONG_HOP + DANH_SACH_THEO_DOI_CHUNG)"
+    task: "Tiếp nhận danh sách từ {{input}}, phân công cán bộ, cập nhật QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx (sheet DANH_SACH_THEO_DOI_CHUNG)"
     verify_agent: phong-van-thu
     max_retries: 1
 
@@ -20,7 +20,7 @@ steps:
     verify_agent: xu-ly-cuoi
     max_retries: 1
 
-updated: 2026-11-17
+updated: 2026-11-20
 ---
 
 ## Mô tả quy trình

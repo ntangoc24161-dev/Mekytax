@@ -1,0 +1,240 @@
+﻿THUÊ THÀNH PHỐ HỒ CHÍ MINH
+THUẾ CƠ SỞ 16 THÀNH PHỐ
+HỒ CHÍ MINH
+Số: 42245 /TCS16-QLDN2
+V/v cảnh báo doanh nghiệp có
+dấu hiệu rủi ro cao về thuế, hóa đơn
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập- Tự do- Hạnh phúc
+Tân Bình, ngày 0b tháng 11 năm 2026
+Kính gửi: - Chi cục Thuế Doanh nghiệp lớn;
+- Thuế Thành phố Hồ Chí Minh;
+- 33 Thuế Tỉnh, Thành phố;
+- 28 Thuế cơ sở thuộc Thuế Thành phố Hồ Chí Minh.
+Căn cứ Luật quản lý thuế số 108/2025/QH15 ngày 10/12/2025 và các văn bản hướng dẫn thi hành:
+Căn cứ Công văn số 4679/TCT-KTNB ngày 10/10/2016 của Tổng cục Thuế về việc ngăn chặn và đầy lùi tình trạng in, phát hành, mua bán hóa đơn bất hợp pháp;
+Căn cứ Công văn số 3928/TCT-TTKT ngày 18/9/2020 của Tổng cục Thuế về việc tăng cường các giải pháp của cơ quan Thuế về việc ngăn chặn, phát hiện xử lý hành vi vi phạm về quản ly, sử dụng hóa đơn;
+Căn cứ Công văn số 4532/TCT-TTKT ngày 26/10/2020 của Tổng cục Thuế về tăng cường rà soát, kiểm tra phát hiện NNT có dấu hiệu rủi ro về quản ly, sử dụng hóa đơn;
+Căn cứ Công văn số 1873/TCT-TTKT ngày 01/6/2022 của Tổng cục Thuế vé việc tăng cường rà soát, kiểm tra phát hiện NNT có dấu hiệu rủi ro về hóa dơn, chống gian lận hoàn thuế GTGT.
+Qua rà soát việc sử dụng hóa đơn của người nộp thuế tại ứng dụng hóa đơn điện tử, Thuế cơ sở 16 Thành phố Hồ Chí Minh phát hiện doanh nghiệp có rủi ro cao về thuế, hóa đơn cụ thể:
+1. Thông tin chung:
+- Công Ty TNHH Xây Dựng Kha Nguyễn
+- Mã số thuế: 0319689137
+- Địa chỉ đã đăng ký: Số 8/28 Nguyễn Đình Khơi, Phường Tân Sơn Nhất, Tp Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319689137 do Sở Tài chính TP. Hồ Chí Minh cấp ngày 25/08/2026.
+- Ngành nghề kinh doanh chính: Bán buôn tổng hợp.
+- Tên người đại diện theo pháp luật của người nộp thuế: Nguyễn Thị Như
+Khoa
+- Chức vụ: Giám đốc; Căn cước công dân số: 087305009032.
+- Địa chỉ thường trú: Tổ 19, ấp Thiện Mỹ, Xã Ba Sao, Tỉnh Đồng Tháp. 2. Các dấu hiệu rủi ro:
+2.1 Tình hình sứ dụng hóa đơn:
+
+a. NNT đã được cơ quan thuế chấp nhận đăng ky sử dụng HĐĐT theo Thông báo số 7915260000072043/TB-ĐKĐT ngày 27 tháng 08 năm 2026.
+b. Căn cứ dữ liệu hóa đơn điện tử có mã của cơ quan Thuế từ ngày 27/08/2026 đến ngày 28/10/2026, Công Ty TNHH Xây Dựng Kha Nguyễn sử dụng hóa đơn như sau:
++ Hóa đơn bán ra:
+STT	Ký hiệu hóa đơn	Tổng số lượng hóa đơn sử dụng	Hóa đơn sử dụng		Số hóa đơn đã bị xóa bó/hủy bó	Ghi chú
+			Số hóa đơn đã cấp mã hóa đơn	Số hóa đơn không đủ điều kiện cấp mã		
+1	C26TAA	III	111	0	0	
+Tổng		111	111	0	0	
++ Hóa đơn mua vào:
+STT	Tổng số lượng hóa đơn sử dụng	Hóa đơn mua vào		Số hóa đơn đã bị xóa bỏ/hủy bỏ	Ghi chú
+		Số hóa đơn đã cấp mã hóa đơn	Số hóa đơn không đú điêu kiện cấp mã		
+]	08	08	0	0	
+4. Tình hình kê khai hồ sơ khai thuế GTGT:
+Công Ty TNHH Xây Dựng Kha Nguyễn đã nộp tờ khai thuế GTGT quý
+3/2026.
+* Căn cứ kết quả tra cứu tờ khai thuế GTGT quý 3/2026 trên trang https://dichvucongcbt.gdt.gov.vn chi tiết như sau:
+PVT: đồng
+Kỳ tính thuế	Giá trị HHDV mua vào trong kỳ	Thuế GTGT HHDV mua vào trong kỳ	Tổng doanh thu	Thuế đầu ra	Thuế GTGT phải nộp	Thuế GTGT khấu trừ chuyên kỳ sau
+Quý 3/2026	25.400.021.554	2.022.101.478	25.349.448.821	2.020.846.211	0	1.255.267
+Quý 4/2026	Chưa đến hạn nộp tờ khai					
+Tổng	25.400.021.554 | 2.022.101.478 | 25.349.448.821 | 2.020.846.211 | 0| 1.255.267					
+kết hóa đơn điện trên trang
+Căn cứu tử
+cứ quả tra
+https://hddtcbt.gdt.gov.vn từ ngày 27/08/2026 đên ngày 28/10/2026, chi tiết như sau:
+- Doanh thu kê khai trên tờ khai thuế GTGT và doanh thu bán ra trên
+HĐĐT:
+Kỳ tính thuế	DỮ LIỆU TRÊN TỜ KHAI THUÊ GTGT		DỮ LIỆU HĐĐT		CHÊNH LỆCH	
+	Tổng doanh thu	M Ầ Thuê đâu ra	Tổng doanh thu	Thuế đầu ra	Tổng doanh thu	Thuế đầu ra
+Quý 3/2026	25.349.448.821	2.020.846.211	19.304.186.302	1.615.506.957	(6.045.262.519)	(405.339.254)
+Quý 4/2026	Chưa đến hạn nộp tờ khai		16.815.838.974	1.564.769.042	16.815.838.974	1.564.769.042
+TỎNG	25.349.448.821	20.208.462.111	36.120.025.276	3.180.275.999	10.770.576.455	1.159.429.788
+- Doanh số mua vào kê khai trên tờ khai thuế GTGT và doanh số mua vào
+kê khai trên HĐĐT:
+
+Kỳ tính thuế	DỮ LIỆU TRÊN TỜ KHAI THUÊ GTGT		DỮ LIỆU HĐĐT		CHÊNH LỆCH	
+	Giá trị HHDV mua vào trong kỳ	Thuế GTGT HHDV mua vào trong kỳ	Giá trị HHDV mua vào trong kỳ	Thuế GTGT HHDV mua vào trong kỳ	Giá trị HHDV mua vào trong kỳ	Thuế GTGT HHDV mua vào trong kỳ
+Quý 3/2026	25.400.021.554	2.022.101.478	~	-	(25.400.021.554)	(2.022.101.478)
+Quý 4/2026	Chưn đến hạn nộp tờ khai		10.881.716.696	870.537.336	10.881.716.696	870.537.336
+TỎNG	25.400.021.554	2.022.101.478	10.881.716.696	870.537.336	(14.518.304.858)	(1.151.564.142)
+* Qua rà soát dữ liệu hóa đơn điện tử của Công Ty TNHH Xây Dựng Kha Nguyễn, công ty có dấu hiệu rủi ro về thuế, hóa đơn:
+- Doanh nghiệp mới thành lập tháng 8/2026.
+- Doanh nghiệp không đăng ký kho hàng.
+- Doanh nghiệp xuất hóa đơn bán ra với doanh thu lớn. Mặt hàng xuất trên hóa đơn: Ván Ép: 2440x1220x20mm; Ván MDF 1220x2440x8mm; Đá 1x2; Đất đắp: VÁN GHÉP GỖ DƯƠNG 2440*1220*20 mm; Thi Công Wifi: “Lắp đặt đường ống, kéo dây, bấm đầu, đấu _patch panel, label, làm gọn, treo thiết bị, test report; Dầu nhờn; Bản lề: Lồng đèn: Chụp dây điện; Ốc 4 chấu; vít; tay quay; Ván lạng cao su tấm loại BC, quy cách 1270*630*1.6(mm); Ông hút áp suất âm phi; Lọc dầu bom; Mảnh dao TNMG160402R; Thi công kết cấu theo HD; Thép tấm các loại; Thép ống mạ kẽm; ... nhưng không có dữ liệu về hàng hóa mua vào tương ứng.
+- Hóa đơn đầu vào của doanh nghiệp gồm 08 hóa đơn của 01 doanh nghiệp có trạng thái NNT chờ xác minh tình trạng hoạt động.
+- Có chênh lệch lớn giữa doanh số mua vào và doanh thu bán ra kê khai
+trên tờ khai GTGT và HĐĐT.
+2.2. Các biện pháp Thuế cơ sở 16 Thành phố Hồ Chí Minh đã thực
+hiện:
+Ngày 2 9/10/2026, Thuế cơ sở 16 Thành phố Hồ Chí Minh đã phối hợp với UBND Phường Tân Sơn Nhất, Thành phố Hồ Chí Minh xác minh tình trạng hoạt động của Công Ty TNHH Xây Dựng Kha Nguyễn tại địa chỉ đã đăng ký: kết quả xác minh: Công Ty TNHH Xây Dựng Kha Nguyễn không hoạt động tại địa chỉ đã đăng ký.
+Ngày 28 2 /10/2026, Thuế cơ sở 16 Thành phố Hồ Chí Minh đã ban hành Thông báo số #0⁄0/TB-TCS16 về việc người nộp thuế không hoạt động tại địa chỉ đăng ký.
+Ngày .ÔÉ.4 /2026, Thuế cơ sở 16 Thành phố Hồ Chí Minh đã ban hành công văn số 4d A. 4../CHS-TCS16 về việc chuyên tin báo vụ việc về thuế theo Quyết định số 2658/QĐ-CT ngày 25/07/2025 của Cục Thuế.
+Nhằm ngăn chặn hành vi gian lận trong việc mua bán hóa đơn bất hợp pháp, gian lận thuế trong kê khai khấu trừ, hoàn thuế GTGT và hạch toán chi phí dé trén thuế, tránh thất thu cho NSNN, Thuế cơ sở 16 Thành phố Hồ Chí Minh báo cáo Thuế Thành phố Hồ Chí Minh và thông báo tới các cơ quan thuế, cơ quan chức năng có liên quan được biết và phối hợp kiểm soát các rủi ro nêu trên. Trong quá trình
+
+kiểm tra thuế, nếu có phát sinh hoạt động mua bán liên quan đến Công Ty TNHH Xây Dựng Kha Nguyễn, mã số thuế: 0319689137 thì căn cứ các văn bản quy phạm pháp luật để xử lý theo quy định.
+(Kèm theo bảng kê chi tiết hàng hóa bán ra kết xuất từ ứng dụng https://hddtcbt.gdt.gov.vn).
+Nếu có vướng mắc đề nghị liên hệ: Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 16 Thành phố Hồ Chí Minh; Địa chỉ: 450 Trường Chinh, Phường Tân Bình, Thành phố Hồ Chí Minh; Điện thoại: 028.38102090-1 16.w
+Nơi nhận:
+- Như trên
+- Các Tô Thuê: 4 Tô KT, 3 Tô QLDN;
+- Lưu: VT, QLDN2 (NP Thảo — ÔÌb);
+la
+KT. TRUÔNG THUẾ CƠ SỞ PHÔ TRƯƠNG THUẾ CƠ SỞ
+Đặng Thị Bình An
+
+THUÊ THÀNH PHỐ HỒ CHÍ MINH
+THUẾ CƠ SỞ 16 THÀNH PHỐ HỒ CHÍ MINH
+BẰNG KẾ CHI TIẾT HÓA ĐƠN ĐIỆN TỬ CÓ MÃ XÁC THỰC CUA CƠ QUAN THUẾ (BAN RA)
+Của Công Ty TNHH Xây Dựng Kha Nguyễn, MST 0319689137 từ ngày 27/08/2026 đến ngày 28/10/2026
+(Ban hành kèm theo Công văn sốÁ22Z4.2..../TCS16-QLDN2 ngày Ô Ê../.44/2026)
+Đơn vị tính: dong
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày lập	MST người. người xuất,	“tên người l4#)4Šn người xuất „Xăng	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tổng tiền chưa thuế	Tổng tiền thuê	Tổng tiền thanh toán	Trạng thái hóa đơn	Kết quả kiểm tra hóa đơn
+1	4	C26TAA	9	17/09/2026	0319689137	CƠNG TY TNHH XÂY DỰNG KHA NGUYÊN	0304806225	Công Ty Cổ Phần Cấp Nước Gia Định	2Bis Nơ Tiang Long, Phường Bình Thạnh, TP Hồ Chí Minh, Việt Nam	4.400.000	440.000	4.840.000	Hóa đơn mới	Đã cấp mã hóa đơn
+2	1	C26TAA	10	22/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3703266552	CÔNG TY TNHH XÂY DỰNG HOÀNG KIỂU	16D5 Khu phố Đông An 2, Phường Tân Đông Hiệp, Thành Phố. Hồ Chí Minh, Việt Nam	47.250.000	3.780.000	51.030.000	Hóa đơn THƠI	Đã cấp mã hóa đơn
+3	j	C26TAA	11	23/09/2026	0319689137	CONG TY TNHH XÂY DỰNG KHẢ NGUYÊN	038163020439	HỘ KINH DOANH VŨ THANH MAI	TDP 3, Xã Kiến Đức, Tĩnh Lãm Đông, Việt Nam	4.500.000	360.000	4.860.000	Hóa đơn mới	Đã cấp mã hóa đơn
+4	1	C26TAA	12	23/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0317935387	CÔNG TY TNHH XÂY DỰNG THIÊN HỮU E&C	64 Nguyên Đình Chiều, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam	565.805.436	45.264.435	611.069.871	Hóa đơn mới	Đã cấp mã hóa đơn
+5	1	C26TAA	13	24/09/2026	0319689137	CONG TY TNHH XÂY DỰNG KHẢ NGUYÊN	038163020439	HỘ KINH DOANH VŨ THANH MAI	TDP 3. Xã Kiến Đức, Tỉnh Lâm Đồng, Việt Nam	4.464.000	357.120	4.821.120	Hóa đơn mới	Đã cấp mã hóa đơn
+6	1	C26TAA	14	24/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0309578660	CÔNG TY TNHH QUẢNG CÁO VĂN PHƯƠNG	453 Nguyễn Văn Tạo, Áp l6, Xã Hiệp Phước, TP Hồ Chí Minh, Việt Nam	213.428.220	21.342.822	234.771.042	Hóa đơn mới	Đã cấp mã hóa đơn
+7	1	C26TAA	15	24/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0309578660	CÔNG TY TNHH QUẢNG CÁO VĂN PHƯƠNG	453 Nguyễn Văn Tạo, Áp 16, Xã Hiệp Phước, TP Hồ Chí Minh, Việt Nam	287.410.200	28.741.020	316.151.220	Hóa đơn mới	Đã cấp mã hóa đơn
+8		C26TAA	16	25/09/2026	0319689137	CONG TY TNHH XÂY DỰNG KHA NGUYÊN	038163020439	HỆ K¡NH DOANH VŨ THANH MAI	TDP 3, Xã Kiến Đức, Tỉnh Lâm Đồng. Việt Nam	4.574.000	365.920	4.939.920	Hóa đơn mới	Đã cấp mã hóa đơn
+9		C26TAA	17	25/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3703277240	CÔNG TY TNHH TM XÂY DỰNG NĂM NGUYÊN	09 lô 1-38 đường N4S Oasis city KDC ấp 4, Phường Thới Hòa, TP Hồ Chí Minh, Việt Nam	279.846.772	22.387.742	302.234.514	Hóa đơn mới	Đã cấp mã hóa đơn
+10	1	C26TAA	18	26/09/2026	0319689137	CONG TY TNHH XÂY DỰNG KHA NGUYÊN	038163020439	HỆ KINH DOANH VŨ THANH MAI	TDP 3, Xã Kiến Đức, Tỉnh Lâm Đồng. Việt Nam	4.600.000	368.000	4.968.000	Hóa đơn Thơi	Đã cấp mã hóa đơn
+11		C26TAA	19	28/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	087082007107	HỘ KINH DOANH PHỤ KIỆM INOX TRỌNG CƯỜNG	Số 62, Đường nội bộ số 5, Trung tâm Dịch Vụ Thương Mại, Khóm Vĩnh Hòa, Phường Sa Đéc, Tính Đông Tháp, Việt Nam	4.590.000	367.200	4.957.200	Hóa đơn mới	Đã cấp mã hóa đơn
+12		C26TAA	2	17/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703277240	CÔNG TY TNHH TM XÂY DỰNG NĂM NGUYÊN	09 lô 1-38 đường N4S Oasis city KDC ấp 4, Phường Thới Hòa, Thành Phố Hồ Chí Minh, Việt Nam	329.904.457	26.392.357	356.296.814	Hóa đơn mới	Đã cấp mã hóa đơn
+13	1	C26TAA	20	28/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	038163020439	HG KINH DOANH VŨ ~HANH MAI	TDP 3, Xã Kiến Đức, Tỉnh Lâm Đồng. Việt Nam	4.260.000	340.800	4.600.800	Hóa đơn mới	Đã cấp mã hóa đơn
+14	1	C26TAA	21	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703008600	CÔNG TY TNHH KHẢO SÁT XÂY DỰNG VIỆT NAM VINASURCONS -	Số 46, đường N17, khu phố Tân Thắng, Phường Tân Đông Hiệp, Thành Phố Hồ Chí Minh, Việt Nam	569.080.000	45.526.400	614.606.400	Hóa đơn mới	Đã cấp mã hóa đơn
+15	1	C26TAA	22	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703008600	CÔNG TY TNHH KHẢO SÁT XÂY DỰNG VIỆT NAM VINASURCONS -	Số 46, đường N17, khu phố Tân Thắng, Phường Tân Đông Hiệp, Thành Phố Hồ Chí Minh, Việt Nam	260.350.000	20.828.000	281.178.000	Hóa đơn mới	Đã cấp mã hóa đơn
+16		C26TAA	23	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0317291439	CÔNG TY TNHH THƯƠNG MAI XÂY DỰNG THD CONS	43/1 Đường sô 1, Khu phố Ong Nhiều, Phường Long Trường, Thanh Phỏ Hồ Chí Minh, Việt Nam	258.147.866	20.651.829	278.799.695	Hóa đơn mới	Đã cấp mã hóa đơn
+17	1	C26TAA	24	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0317291439	CÔNG TY TNHH THƯƠNG MAI XÂY DỰNG THD CONS	43/1 Đường số 1, Khu phố Ông Nhiêu, Phường Long Trường, TP Hồ Chí Minh, Việt Nam	315.277.000	25.222.160	340.499.160	Hóa đơn mới	Đã cấp mã hóa đơn
+
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày lập	MST người bán/MST người xuất hàng	Tên người bán/Tên người xuất hàng	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tông tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Trạng thái hóa đơn	ˆ Kết quả kiểm tra hóa đơn
+18		C26TAA	1	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0317291439	CÔNG TY TNHH THƯƠNG MẠI XÂY DỰNG THD CONS	43/1 Đường số 1, Khu phố Ông. Nhiều, Phường Long Trường, Thành Phó Hồ Chí Minh, Việt Nam	286.188.027	22.895.042	309.083.069	Hóa đơn mới	Đã cấp mã hóa đơn
+19	1	C26TAA	2	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0319509874	CÔNG TY TNHH MTV THANH WINDOWS	89/1/82/16 Đường số 8, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Viết Nam	280.960.572	22476846	303437418	Hóa đơn Tới	Đã cấp mã hóa đơn
+20	1	C26TAA	3	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0101820506	CÔNG TY TNHH THƯƠNG MẠI, DỊCH VỤ ĐẦU TƯ TRUNG VIỆT	54 Trần Cao Vân, Phường Hải Ba Tnmg. Thành Phố Hà Nội, Việt Nam	580.440.160	46.435.213	626875373	Hóa đơn mới	Đã cấp mã hóa đơn
+21	U	C26TAA	bi	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0315579768	CÔNG TY TNHH TƯ VÁN THIẾT KẺ XÂY DỰNG ĐẠI HƯNG THỊNH	Số 479/27/28 Khu Phố 3A, Đường Tân Thới Hiệp 7, Phường Tân Thới Hiệp, Thánh phô Hồ Chí Minh, Việt Nam	127.475.000	10.198.000	137.673.000	Hóa đơn mới	Đã cấp mã hóa đơn
+22	j	C26TAA	2	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0318007286	CÔNG TY TNHH XÂY DỰNG VŨ HUY	3] Đường sỏ 6, Phường Hiệp Bình, Thành phó Hồ Chí Minh, Việt Nam	114.875.000	9.190.000	124.065.000	Hóa đơn mới	Đã cấp mã hóa đơn
+23		C26TAA	â	18/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0304806225	Công Ty Cổ Phần Cấp Nước Gia Định	2Bis Nơ Trang Long, Phường Bình Thạnh, TP Hồ Chí Minh, Việt Nam	4.218.624	421862	4.640.486	Hóa đơn mới	Đã cấp mã hóa đơn
+24	Ủ	C26TAA	30	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN		Đoàn Đặc Nhiêm PCMT&TP Miễn Nam	118 đường Chuyên Dùng 9, phường Phú Thuận. TPHCM	45.430.000	4.543.000	49.973.000	Hóa đơn mới	Đã cấp mã hóa đơn
+25		C26TAA	31	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0318894870	CÔNG TY TNHH SONG ANH TRANSPORT	I9/28/1 Đường số 8, Phường Linh Xuân, TP Hồ Chí Minh, Việt Nam	142.500.000	11.400.000	153.900.000	Hóa đơn mới	Đã cấp mã hóa đơn
+26	1	C26TAA	32	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0318894870	CÔNG TY TNHH SONG ANH TRANSPORT	19/28/1 Đường sỏ 8, Phường Linh Xuân, TP Hồ Chí Minh, Việt Nam	142.500.000	11.400.000	153.900.000	Hóa đơn mới	Đã cấp mã hóa đơn
+27		C26TAA	33	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3801287092	CÔNG TY TNHH GỎ ZHONG SHENG	Tổ 2, khu phố Tiền Thành 3, Phường Đồng Xoài, TP Đồng Nai, Việt Nam	1.025.582.200	82.046.576	1.107.628.776	Hóa đơn mới	Đã cấp mã hóa đơn
+28	1	C26TAA	34	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3801287092	CÔNG TY TNHH GỎ ZHONG SHENG	Tô 2, khu phố Tiên Thảnh 3, Phường Đồng Xoài, TP Đồng Nai, Việt Nam	1.005.414.300	80.433.144	1.085.847.444	Hóa đơn mới	Đã cấp mã hóa đơn
+29	1	C26TAA	35	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3801287092	CÔNG TY TNHH GỎ ZHONG SHENG	Tô 2, khu phố Tiên Thành 3, Phường Đồng Xoài, TP Đồng Nai, Việt Nam	943.487.900	75.479.032	1.018.966.932	Hóa đơn mới	Đã cấp mã hóa đơn
+30	1	C26TAA	36	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3801287092	CÔNG TY TNHH GỎ ZHONG SHENG	Tô 2, khu phố Tiên Thành 3, Phường Đồng Xoài, TP Đồng Nai, Việt Nam	870.573.500	69.645.880	940.219.380	Hóa đơn ThƠI	Đã cấp mã hóa đơn
+kìi	j	C26TAA	37	29/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3801287092	CÔNG TY TNHH GỖ ZHONG SHENG	Tô 2, khu phố Tiên Thành 3, Phường Đồng Xoài, TP Đồng Nai, Việt Nam	882.598.800	70.607.904	953.206.704	Hóa đơn mới	Đã cấp mã hóa đơn
+32	1	C26TAA	38	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703121596	CÔNG TY TNHH SX TM DV G&T	Số 71 đường 1B, khu phöỏ 6, Phường Thới Hòa, TP Hồ Chí Minh, Việt Nam	360.840.000	28.867.200	389.707.200	Hóa đơn mới	Đã cấp mã hóa đơn
+33	1	C26TAA	34	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703121596	CONG TY TNHH SX TM DV G&T	Số 71 đường 1B, khu phố 6, Phường Thới Hòa, TP Hồ Chí Minh, Việt Nam	411.840.000	32.947.200	444.787.200	Hóa đơn THƠI	Đã cấp mã hóa đơn
+34	1	C26TAA	4	18/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703277240	CÔNG TY TNHH TM XÂY DỰNG NĂM NGUYÊN	09 lô 1-38 đường N4S Oasis city KDC áp 4, Phường Thới Hòa, Thành Phó Hồ Chí Minh, Việt Nam	423.224.943	33.857.995	457.082.938	Hóa đơn mới	Đã cấp mã hóa đơn
+35	1	C26TAA	5	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3702629443	CÔNG TY TNHH MỘT THÀNH VIÊN KIỂN THUẬN	204/28 Nguyễn Thái Học, Khu phố Đông Tác, Phường Dĩ An, Thành Phố Hồ Chí Minh, Việt Nam	416.000.000	33.280.000	449.280.000	Hóa đơn THỜI	Đã cấp mã hóa đơn ù
+
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày lập	MST người bán/MST người xuất hàng	Tên người bán/Tên người xuất hàng	MST người mua/MST người nhận hàng	Tên rgười mua/Tên người nhận hàng	Địa chỉ người mua	Tổng tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Trạng thái hóa đơn	Kết quả kiểm tra hóa đơn
+36	1	C26TAA	41	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3603989269	CÔNG TY TNHH XÂY 2ỰNG THƯƠNG MẠI VẬN TẢI THIÊN THANH	số 15E/12, tỏ 9, khu phố 3, Phường Trảng Dài, TP Đồng Nai, Việt Nam	562.500.000	56.250.000	618.750.000	Hóa đơn mới	Đã cấp mã hóa đơn
+37	1	C26TAA	42	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢA NGUYÊN	3603989269	CÔNG TY TNHH XÂY 2UNG THƯƠNG MẠI VẬN TÀI THIÊN THANH	số 15E/12, tô 9, khu phố 3, Phường Trảng Dài, TP Đồng Nai, Việt Nam	222.500.000	22.250.000	244.750.000	Hóa đơn mới	Đã cấp mã hóa đơn
+38		C26TAA	43	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3702743072	CÔNG TY TNHH HUI SHENG	Thửa đắt số 753 143, tờ ban đỏ số - 49, Khu Phổ An Thành, Phường Tây Nam, Thành Phố Hồ Chí Minh, Việt Nam	375.540.000	30.043.200	405.583.200	Hóa đơn mới	Đã cấp mã hóa đơn
+39	1	C26TAA	44	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3702743072	CÔNG TY TNHH HUI SHENG	Thửa đắt số 753 143, tờ bản đồ số - 49, Khu Phổ An Thảnh, Phường Tây Nam, Thành Phố Hồ Chí Minh. Việt Nam	539.660.000	43.172.800	582.832.800	Hóa đơn mới	Đã cấp mã hóa đơn
+40	1	C26TAA	45	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0317075406	CÔNG TY TNHH XÂY DỰNG VÀ THƯƠNG MẠI HGCÀNG NHẬT LONG	113 đường số 8, khu dân cư Cttyland Park Hills, Phường Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam	325.643.023	26.051.442	351.694.465	Hóa đơn mới	Đã cấp mã hóa đơn
+41	1	C26TAA	46	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0306177484	CÔNG TY TNHH ĐẦU TƯ EJCH VỤ VẬN TÀI ẢNH DƯƠNG	67 69 đường Út Trả Õn, Phường - Phước Long. TP Hồ Chí Minh, Việt Nam	110.425.908	8.834.073	119.259.981	Hóa đơn mới	Đã cấp mã hóa đơn
+42	¡	C26TAA	47	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0306177484	CÔNG TY TNHH ĐẦU TƯ EỊCH VỤ VẬN TẢI ÁNH DƯƠNG	67 69 Út Trả Ơn, Phường - đường Phước Long, TP Hồ Chí Minh, Việt Nam	69.270.381	5.541.630	74.812.011	Hóa đơn mới	Đã cấp mã hóa đơn
+43	1	C26TAA	48	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0306177484	CÔNG TY TNHH ĐẦU TƯ EICH VỤ VẬN TẢI ÁNH DƯƠNG	67 69 đường Út Trà Õn, Phường - Phước Long, TP Hồ Chí Minh, Việt Nam	207.592.593	16.607.407	224.200.000	Hóa đơn mới	Đã cấp mã hóa đơn
+44	1	C26TAA	49	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703451033	CÔNG TY TNHH XIN JIE FA VIỆT NAM	Số 13, Tô 1, Khu Phổ Khánh Lộc, Phường Tân Khánh, TP Hồ Chí Minh. Việt Nam	3.248.600.000	259.888.000	3.508.488.000	Hóa đơn mới	Đã cấp mã hóa đơn
+45	1	C26TAA	5	21/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	038163020439	HỘ KINH DOANH VŨ THANH MAI	TDP 3, Xã Kiến Đức, Tình Lân Đông, Viết Nam	3.910.000	312.800	4.222.800	Hóa đơn mới	Đã cấp mã hóa đơn
+46	1	C26TAA	50	30/09/2026	0319689137	CONG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0302444033	CÔNG TY TNHH Ý HƯNG	257, Lê Đình Cân, Khu phố 5, Phường Tân Tạo. Tp. HCM	158.695.000	15.869.500	174.564.500	Hóa đơn Thới	Đã cấp mã hóa đơn
+47	1	C36TAA	51	30/09/2026	0319689137	CONG TY TNHH XÂY DỰNG KHA NGUYÊN	0302444033	CÔNG TY TNHH Ý HƯNG	257, Lẽ Đình Cần, Khu phố 5, Phường Tân Tạo. Tp. HCM	189.252.000	15.140.160	204.392.160	Hóa đơn mới	Đã cấp mã hóa đơn
+48	1	C26TAA	52	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	051052005872	FÔ KINH DOANH NGỌC	Số 1/1A, dương Quốc Lộ 1A, tỏ 1, khu phố 29, Phường Tam Hiệp, Thành Phố Đồng Nai, Việt Nam	496.515.600	49.651.560	546.167.160	Hóa đơn Thới	Đã cấp mã hóa đơn
+49	1	C26TAA	53	30/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0110879376-014	CÔNG TY CỔ PHẦN VẬN TẢI ĐƯỜNG SÁT CHỊ - NHÁNH VẬN TẢI ĐƯỜNG SÁT SÓNG THÂN	831 Trường Chinh, Phường Tây Thạnh, TP Hồ Chí Minh	4.054.820	324.386	4.379.206	Hóa đơn mới	Đã cấp mã hóa đơn
+50		C26TAA	6	22/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703507776	CONG TY TNHH TMDV HƯNG THỊNH HT	32/12A Đường Vũng Thiện, Khu phố Chiêu Liêu, Phường Dĩ An, Thánh Phỏ Hồ Chí Minh, Việt Nam	1.563.505.000	156.350.500	1.719.855.500	Hóa đơn mới	Đã cấâp mã hóa đơn
+51	1	C26TAA	7	22/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHÁ NGUYÊN	3703266552	CÔNG TY TNHH XÂY DỰNG HOÀNG KIỀU	Số J6 Đường D5, KDC Đông An, Khu Phố Đông An, Phường Tân Đông Hiệp, Thành Phó Hồ Chí Minh, Việt Nam	11.232.000	1.123.200	12.355.200	Hóa đơn đã bị điêu chỉnh	Đã cấp mã hóa đơn
+52	1	C26TAA	8	22/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3703266552	CÔNG TY TNHH XÂY DỰNG HOÀNG KIỂU	Số 16 Đường D5, KDC Đông An, Khu Phố Đông An, Phường Tân Đông Hiệp, Thánh Phó Hồ Chí Minh, Việt Nam	(11.232.000)	(1.123.200)	(12.355.200)	Hóa đơn điều chính	Đã cấp mã hóa đơn
+
+STT	Rý hiệu mẫu sù	Rý hiệu hóa đơn	Số hóa đơn	Ngày lập	MST người bán/MST người xuất hàng	Tên người hán/Tên người xuất hàng	MST người mưa/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tổng tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Trạng thái hóa đơn	Kết quả kiểm tra hóa đơn
+53	1	C36TAA	100	22/09/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	038163020439	HỘ KINH DOANH VŨ THANH MAI	TDP 3, Xã Kiến Đức, Tình Lâm Đồng, Việt Nam	4.485.000	358.800	4.843.800	Hóa đơn mới	Đã cấp mã hóa đơn
+54	1	C26TAA		12/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0317007565	CÔNG TY TRÁCH NHÍM HỮU HẠN GIẢI PHÁP T.ONE	520/103 Quốc lộ I3, Phường Hiệp Bình, Thành Phó Hồ Chí Minh, Việt Nam	76.145.000	6.091.600	82.236.600	Hóa đơn mới	Đã cấp mã hóa đơn
+55	1	C26TAA	(1)	12/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0316299403	CÔNG TY CỔ PHẦN TÁT SOLUTION	Số 764/20/3 Đô Mười, Khu phố 43. Phường An Phú Đông, Thành Phố Hồ Chí Minh, Việt Nam	91.426.909	9.142.691	100.569.600	Hóa đơn mới	Đã cấp mã hóa đơn
+56		C26TAA	102	12/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0304806225	CÔNG TY CỔ PHẦN CẤP NƯỚC GIÁ ĐỊNH	Bis Nơ Trang Long, Phường Bình Thạnh, TP Hồ Chí Minh, Việt Nam	4.526.400	452.640	4.979.040	Hóa đơn mới	Đã cấp mã hóa đơn
+57	U	C26TAA	3	12/10/2026	0319689137	CONG TY TNHH XÂY DỰNG KHA NGUYÊN	038163020439	HỘ KINH DOANH VŨ THANH MAI	TDP 3, Xã Kiến Đức, Tỉnh Lâm Đồng, Việt Nam	4.380.000	350.400	4.730.400	Hóa đơn mới	Đã cấp mã hóa đơn
+58	1	C26TAA		12/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	2100715132	CÔNG TY TNHH SAN LẮP CÀU ĐƯỜNG HOÀNG LONG TRÀ VINH	Số 93 áp Có Tháp B, Phường Nguyệt Hóa, Tỉnh Vĩnh Long, Việt Nam	304.695.000	30.469.500	335.164.500	Hóa đơn mới	Đã cấp mã hóa đơn
+59	1	C26TAA	105	12/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3703277240	CÔNG TY TNHH TM XÂY DỰNG NĂM NGUYÊN	09 lô 1-38 đường N4S Oasis city KDC áp 4, Phường Thới Hòa, Thành Phố Hồ Chí Minh, Việt Nam	489.263.672	39.141.094	528.404.766	Hóa đơn Tmơt	Đã cấp mã hóa đơn
+60	1	C26TAA	lÚ6	12/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0305020226	CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐẠI VIỆT	3G7 Đường 22 Khu phố 2, Phường An Khánh, Thành Phố Hồ Chí Minh, Việt Nam	606.000.000	60.600.000	666.600.000	Hóa đơn mơt	Đã cấp mã hóa đơn
+lại	1	C26TAA	7	12/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0305020226	CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐẠI VIỆT	3Q7 Đường 22 Khu phố 2, Phường An Khánh, TP Hồ Chí Minh, Việt Nam	468.600.000	37.488.000	506.088.000	Hóa đơn mới	Đã cấp mã hóa đơn
+62	¡	C26TAA	108	13/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0318896860	CÔNG TY TNHH TMDV VTXD KHANG NAM	15 Sơn Kỳ, Phường Tân Sơn Nhì, Thành Phô Hồ Chí Minh, Việt Nam	715.770.000	57.261.600	773.031.600	Hóa đơn mới	Đã cấp mã hóa đơn
+63	1	C26TAA	109	13/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0318896860	CÔNG TY TNHH TMDV VTXD KHANG NAM	15 Sơn Kỳ, Phường Tân Sơn Nhì, Thành Phó Hồ Chí Minh, Việt Nam	143.550.000	11.484.000	155.034.000	Hóa đơn mới	Đã cấp mã hóa đơn
+64	1	C26TAA	110	13/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3603989269	CÔNG TY TNHH XÂY DỰNG THƯƠNG MẠI VẬN TẢI THIÊN THANH	số 15E/12, tô 9, khu phố 3, Phường Trảng Dài, TP Đồng Nai, Việt Nam	266.908.000	26.690.800	293.598.800	Hóa đơn mới	Đã cấp mã hóa đơn
+65		C26TAA	LầM	13/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	4500667247	Công Ty TNHH Xây Dựng Tổng Hợp Thiện Tâm	Số 340A đường 21 tháng 8, Phường Bảo An, Tĩnh Khánh Hòa, Việt Nam	400.508.500	32.040.680	432.549.180	Hóa đơn mới	Đã cấp mã hóa đơn
+66		C26TAA	54	02/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3703277240	CÔNG TY TNHH TM XÂY DỰNG NĂM NGUYÊN	09 lô 1-38 đường N4S Oasis city KDC ấp 4, Phường Thới Hòa, TP Hồ Chí Minh, Việt Nam	462.926.836	37.034.147	499.960.983	Hóa đơn mới	Đã cấp mã hóa đơn
+LỚi		C26TAA	55	06/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0309578660	CÔNG TY TNHH QUẢNG CÁO VĂN PHƯƠNG	453 Nguyên Văn Tạo, Áp 16, Xã Hiệp Phước, TP Hồ Chí Minh, Việt Nam	220.032.840	22.003.284	242.036.124	Hóa đơn TmơI	Đã cấp mã hóa đơn
+68		C26TAA	50	06/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0309578660	CÔNG TY TNHH QUẢNG CÁO VĂN PHƯƠNG	453 Nguyên Văn Tạo, Áp 16, Xã Hiệp Phước, TP Höỏ Chí Minh, Việt Nam	182.747.850	18.274.785	201.022.635	Hóa đơn mới	Đã cấp mã hóa đơn
+69	1	C26TAA	57	06/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	2100715132	CÔNG TY TNHH SAN LẮP CÂU ĐƯỜNG HOÀNG LONG TRÀ VINH	Số 93 áp Cô Tháp B, Phường Nguyệt Hóa, Tỉnh Vĩnh Long, Việt Nam	303.275.000	30.307.500	333.582.500	Hóa đơn mới	Đã cấp mã hóa đơn
+70	1	C26TAA	58	06/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	1801595551	CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI XÂY DỰNG DỊCH VỤ ANDES	87, dường B2, KDC Thiền Lộc, Phường Hưng Phú, Thành Phố Cần Thơ, Việt Nam	1.855.935.464	185.593.546	2.041.529.010	Hóa đơn Tmơi	Đã cấp mã hóa đơn Bi H
+
+STT	Ký hiệu mẫu số	Rý hiệu hóa đơn	Số hóa đơn	Ngày lập	MST người bán/MST người xuất hàng	Tên người bán/Tên người xuất hàng	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tông tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Trạng thái hóa đơn	Kết quả kiểm tra hóa đơn
+71	1	C26TAA	59	06/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	1801595551	CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI XÂY DỰNG DỊCH VỤ ANDES	87, dường B2. KDC Thiên Lộc, Phường Hưng Phú, Thành Phố Cần Thơ, Việt Nam	1.550.669.804	155.066.980	1.705.736.784	Hóa đơn mới	Đã cấp mã hóa đơn
+72	1	C26TAA	60	06/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	1801595551	CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI XÂY DỰNG DỊCH VỤ ANDES	87, đường B2, KDC Thiên Lộc, Phường Hưng Phú, Thành Phố Cần Thơ, Việt Nam	1.222.048.800	122.204.880	1.344.253.680	Hóa đơn mới	Đã cấp mã hóa đơn
+73	1	C26TAA	61	06/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	1801595551	CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI XÂY DỰNG DỊCH VỤ ANDES	87, đường B2, KDC Thiên Lộc, Phường Hưng Phú, Thành Phố Cần Thơ, Việt Nam	162.000.000	12.960.000	174.960.000	Hóa đơn mới	Đã cấp mã hóa đơn
+74	1	C26TAA	62	07/10/2026	0319689137	CONG TY TNHH XÂY DỰNG KHA NGUYÊN	038163020439	HỘ <INH DOANH VŨ “TTHANH MAI	TDP 3, Xã Kiến Đức, Tỉnh Lâm Đồng, Việt Nam	4.550.000	364.000	4.914.000	Hóa đơn mới	Đã cấp mã hóa đơn
+75	1	C26TAA	63	07/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	6300366863	CONG TY TNHH MTV MINE KHÔI HẬU GIANG	Số 95, ấp Ba Ngàn, Phường Đại Thành, Thành Phố Cần Thơ, Việt Nam	405.875.140	40.587.514	446.462.654	Hóa đơn mới	Đã cấp mã hóa đơn
+76	1	C26TAA	64	07/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	6300366863	CÔNG TY TNHH MTV MINH KHÔI HẬU GIANG	Số 95, áp Ba Ngàn, Phường Đại Thành, Thành Phố Cần Thơ, Việt Nam	159.500.000	15.950.000	175.450.000	Hóa đơn đã bị điều chỉnh	Đã cấp mã hóa đơn
+77	1	C26TAA	65	07/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	6300366863	CÔNG TY TNHH MTV VINH KHÔI HẬU GIANG	Số 95, áp Ba Ngàn, Phường Đại Thành. Thành Phố Cần Thơ, Việt Nam	150.480.000	15.048.000	165.528.000	Hóa đơn đã bị điều chỉnh	Đã cấp mã hóa đơn
+78	1	C26TAA	66	07/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	6300366863	CÔNG TY TNHH MTV MINH KHÔI HẬU GIANG	Số 95, ắp Ba Ngàn, Phường Đại Thành, Thành Phố Cần Thơ, Việt Nam	140.800.000	14.080.000	154.880.000	Hóa đơn đã bị điêu chỉnh	Đã cấp mã hóa đơn
+79	1	C26TAA	67	07/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	6300366863	CÔMG TY TNHH MTV MINH KHÔI HẬU GIANG	Số 95, âp Ba Ngàn, Phường Đại Thành, Thành Phố Cản Tơ, Việt Nam	145.200.000	14.520.000	159.720.000	Hóa đơn đã bị điều chỉnh	Đã cấp mã hóa đơn
+80	1	C26TAA	68	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	6300366863	CÔNG TY TNHH MTV MINH KHÔI HẬU GIANG	Số 95, ấp Ba Ngàn, Phường Đại Thành, Thành Phố Cần Thơ, Việt Nam	(159.500.000)	(15.950.000)	(175.450.000)	Hóa đơn điêu chỉnh	Đã cấp mã hóa đơn
+81	U	C26TAA	69	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	6300366863	CÔMG TY TNHH MTV MINH KHÔI HẬU GIANG	Sô 95, âp Ba Ngàn, Phương Đại Thành, Thành Phố Cần Thơ, Việt Nam	(150.480.000)	(15.048.000)	(165.528.000)	Hóa đơn điều chỉnh	Đã cấp mã hóa đơn
+82	1	C26TAA	70	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	6300366863	CÔNG TY TNHH MTV MINH KHÔI HẬU GIANG	Số 95, ấp Ba Ngàn, Phường Đại Thành, Thành Phố Cần Thơ, Việt Nam	(140.800.000)	(14.080.000)	(154.880.000)	Hóa đơn điều chỉnh	Đã cấp mã hóa đơn
+83		C26TAA	71	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	6300366863	CÔNG TY TNHH MTV MINH KHÔI HẬU GIANG	Số 95, áp Ba Ngàn, Phường Đại Thành, Thành Phố Cần Thơ, Việt Nam	(145.200.000)	(14.520.000)	(159.720.000)	Hóa đơn điều chỉnh	Đã cấp mã hóa đơn
+84	U	C26TAA	72	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0319563857	CÔNG TY TNHH DỊCH VỤ 2ÂU TƯ HOÀNG KHANG	Số 110 đường D, Khu đỗ nhị Lake View City, Phường Bình Trưng, Thảnh Phố Hồ Chí Minh, Việt Nam	133.340.000	13.334.000	146.674.000	Hóa đơn THƠI	Đã cấp mã hóa đơn
+85	1	C26TAA	73	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0319563857	CÔNG TY TNHH DỊCH VỤ 23ÀU TƯ HOÀNG KHANG	Số 110 đường D, Khu độ :hị Lake View City, Phường Bình Trưng, Thành Phố Hồ Chí Minh, Việt Nam	124.300.000	12.430.000	136.730.000	Hóa đơn mới	Đã cấp mã hóa đơn
+86	1	C26TAA	74	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0319563857	CÔNG TY TNHH DỊCH VỤ ĐẦU TƯ HOÀNG KHANG	Số 110 đường D, Khu đô thị Lake View City, Phương Bình Trmpg, Thành Phố Hồ Chí Minh, Việt Nam	114.130.000	11.413.000	125.543.000	Hóa đơn mới	Đã cấp mã hóa đơn
+87	1	C26TAA	75	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0319563857	CÔNG TY TNHH DỊCH VỤ ĐẦU TƯ HOÀNG KHANG	Số 110 đường D, Khu đô thị Lake View City, Phường Bình Trưng, Thành Phố Hồ Chí Minh, Việt Nam	126.560.000	12.656.000	139.216.000	Hóa đơn mới	Đã cấp mã hóa đơn
+
+ST	Ký hiệu Hị M mẫu số	HRý hiệu hóa đơn	”°` M 5 hóa đơn	Ngày lập	MST người bán/MST người xuất bằng	Tên người hán/Tên người xuất hàng	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tổng tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Trạng thái húa đơn	ˆ Kết quả kiểm tra hóa đơn
+88	1	C26TAA	76	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHÁ NGUYÊN	0319563857	CÔNG TY TNHH DỊCH VỤ ĐẦU TƯ HOÀNG KHANG	Số 110 đường D, Khu đó thị Lake View City, Phường Bình Trưng, Thành Phó Hồ Chí Minh, Việt Nam	67.800.000	6.780.000	74.580.000	Hóa đơn Thới	Đã cấp mã hóa đơn
+89	1	C26TAA	77	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	051052005872	HỘ KINH DOANH NGỌC	Số 1/1A, đường Quốc Lộ 1A, tô], khu phố 29, Phường Tam Hiệp, Thành Phó Đồng Nai, Việt Nam	246.784.750	24.678.475	271.463.225	Hóa đơn mới	Đã cấp mã hóa đơn
+90	1	C26TAA	78	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0305020226	CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐẠI VIÊT	3G7 Đường 22 Nhu pho 2, Phường An Khánh, Thành Phố Hồ Chí Minh, Việt Nam	322.595.000	25807600	348.402.600	Hóa đơn mới	Đã cấp mã hóa đơn
+91	1	C26TAA	79	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0305020226	CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐẠI VIỆT	3G7 Đường 22 Khu phố 2, Phường An Khánh, Thành Phó Hồ Chí Minh, Viêt Nam	451.450.000	36.116.000	487.566.000	Hóa đơn mới	Đã cấp mã hóa đơn
+92	3	C26TAA	80	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0305020226	CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐAI VIỆT	3G7 Đường 22 Khu phố 2, Phương An Nhánh, Thành Phố Hồ Chí Minh, Việt Nam	472.500.000	47.250.000	519.750.000	Hóa đơn Tmớơi	Đã cấp mã hóa đơn
+93	1	C36TAA	81	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	2100715132	CÔNG TY TNHH SAN LẮP CÂU ĐƯỜNG HOÀNG LONG TRÀ VINH	Sỏ 93 áp Cỏ Tháp B, Phường Nguyệt Hóa, Tỉnh Vĩnh Long. Việt Nam	304.155.000	30.415.500	334.570.500	Hóa đơn ThƠI	Đã cấp mã hóa đơn
+94		C26TAA	82	08/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	038163020439	HỘ KINH DOANH VŨ THANH MAI	-TDP 3, Xã Kiến Đức, Tỉnh Lâm Đồng. Việt Nam	4.375.000	350.000	4.725.000	Hóa đơn mới	Đã cấp mã hóa đơn
+95	1	C26TAA	83	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	3502531881	CÔNG TY TNHH TM DV XD PHÁT TIÊN TÀI	Tô 7, Khu phố Thị Vải, Phường Phú Mỹ, Thành Phó Hồ Chí Minh, Việt Nam	157.457.664	15.745.766	173.203.430	Hóa đơn mới	Đã cấp mã hóa đơn
+96	1	C26TAA	84	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0319509874	CÔNG TY TNHH MTV THANH WINDOWS	89/1/82/16 Đường số 8, Phường Tăng Nhơn Phú, TP Hồ Chí Minh, Việt Nam	175.567.808	14.045.425	189.613.233	Hóa đơn THƠI	Đã cấp mã hóa đơn
+97	1	C26TAA	85	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0318896860	CÔNG TY TNHH TMDV VTXD KHANG NAM	15 Sơn Kỳ, Phường Tân Sơn Nhì, Thành Phô Hồ Chí Minh, Việt Nam	717.750.000	57.420.000	775.170.000	Hóa đơn mới	Đã cấp mã hóa đơn
+98	Ĩ	C26TAA	86	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	051052005872	HỘ KINH DOANH NGỌC	Số 1/1A, đường Quốc Lộ 1A, tô 1, khu phố 29, Phường Tam Hiệp, Thảnh Phổ Đồng Nai, Việt Nam	200.771.000	20.077.100	220.848.100	Hóa đơn mới	Đã cấp mã hóa đơn
+99	1	(26TAA	87	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	3901383480	CÔNG TY TNHH GIÁ THỊNH TN	73 Nam Kỳ Khởi Nghĩa, khu phố 5, Phường Tân Ninh, Tỉnh Tây Ninh, Việt Nam	146.000.000	14.600.000	160.600.000	Hóa đơn mới	Đã cấp mã hóa đơn
+100	1	C26TAA	88	09/10/2026	0319689137	CONG TY TNHH XÂY DỰNG KHẢ NGUYÊN	038163020439	HỘ KINH DOANH VŨ THÁNH MAI	TDP 3, Xã Kiến Đức, Tỉnh Lâm Đồng. Việt Nam	4.340.000	347.200	4.687.200	Hóa đơn Imơi	Đã cấp mã hóa đơn
+101	1	C26TAA	89	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	2100533037	CÔNG TY TNHH MỘT THÀNH VIÊN NGHI TRANG	Áp Thủy Hòa, Xã Cầu Ngang, Tỉnh Vĩnh Long, Việt Nam	432.363.636	43.236.364	475.600.000	Hóa đơn mới	Đã cấp mã hóa đơn
+102	1	C26TAA	90	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	2100533037	CÔNG TY TNHH MỌT THÀNH VIÊN NGHI TRANG	Áp Thủy Hòa, Xã Cầu Ngang. Tỉnh Vĩnh Long, Việt Nam	445.545.454	44.554.546	490.100.000	Hóa đơn mới	Đã cấp mã hóa đơn
+103	1	C26TAA	91	09/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	2100533037	CÔNG TY TNHH MỘT THÁNH VIÊN NGHI TRANG	Áp Thủy Hòa, Xã Cầu Ngang, Tỉnh Vĩnh Long, Việt Nam	440.272.727	44.027.273	484.300.000	Hóa đơn mới	Đã cấp mã hóa đơn
+104	5	(26TAA	%	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0309578660	CÔNG TY TNHH QUẢNG CÁO VĂN PHƯƠNG	453 Nguyễn Văn Tạo, Áp 16, Xã Hiệp Phước, TP Hồ Chí Minh, Việt Nam	252.312.660	25231266	277.543.926	Hóa đơn TmƠiI	Đã cấp mã hóa đơn
+105		C26TAA	98	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0309578660	CÔNG TY TNHH QUẢNG CÁO VĂN PHƯƠNG	453 Nguyễn Văn Tạo, Áp 16, Xã Hiệp Phước, TP Hồ Chí Minh, Việt Nam	292.382.060	29.238.206	321.620.266	Hóa đơn Tnơi	Đã cấp mã hóa đơn
+106	5	C26TAA	99	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0304806225	CÔNG TY CỔ PHẦN CẤP NƯỚC GIÁ ĐỊNH	Bis Nơ Trang Long, Phường Bình Thạnh, TP Hồ Chí Minh, Việt Nam	4.480.000	448.000	4.928.000	Hóa đơn mới	Đã cấp mã hóa đơn 1
+
+STT	Ký hiệu kị H mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày lập	MST người bán/MST người xuất hàng	Tên người bán/Tên người xuất hàng	MST người mua/MST người nhận hàng	Tên Ềgười mua/Tên người nhận hàng	Địa chỉ người mua	Tổng tiền chưa thuế	Tông tiền thuế	Tổng tiền thanh toán	Trạng thái hóa đơn	Kết quả kiểm tra hóa đơn
+107	Ì	C26TAA	95	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0305020226	CÔNG Y CÔ PHÁN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐẠI VIỆT	3G7 Đường 22 Khu phố 2, Phường An Khánh, Thành Phó Hồ Chí Minh, Việt Nam	361711600	28.936.928	390.648.528	Hóa đơn mới	Đã cấp mã hóa đơn
+108	1	C26TAA	96	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	0305020226	CÔNG -Y CÔ PHÁN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐẠI VIỆT	3G7 Đường 22 Khu phố 2, Phường An Khánh, Thành Phó Hồ Chí Minh, Việt Nam	418.402.900	33.472.232	451.875.132	Hóa đơn mới	Đã cấp mã hóa đơn
+109	1	C26TAA	97	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	0305020226	CÔNG ~Y CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN XÂY DỰNG ĐẠI VIỆT	3G7 Đường 22 Khu phố 2, Phường An Khánh, Thành Phó Hồ Chí Minh, Việt Nam	278.300.000	22.264.000	300.564.000	Hóa đơn mới	'Đã cấp mã hóa đơn
+110		C26TAA	98	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHẢ NGUYÊN	075184007138	HỘ <IMH DOANH PHÁT LINH BẦU	Số 3B, đường Mạc Đĩnh Chỉ, khu phố An Hảo, Phường Trấn Biên, Thành Phổ Đồng Nai, Việt Nam	86.737.500	6.939.000	93.676.500	Hóa đơn mới	Đã cấp mã hóa đơn
+111	1	C26TAA	99	10/10/2026	0319689137	CÔNG TY TNHH XÂY DỰNG KHA NGUYÊN	075184007138	HỘ XINH DOANH PHẮT LINH BẦU	Số 3B, đường Mạc Đình Chỉ, khu phố An Hảo, Phường Trấn Biên, Thành Phố Đồng Nai, Việt Nam	91.819.000	7.345.520	99.164.520	Hóa đơn mới	Đã cấp mã hóa đơn
+112			100			TÓNG				36.120.025.276	3.180.275.999	39.300.301.275		
+CÔNG CHỨC TỔNG HỢP
+Tân Bình, ngày 0 tháng Asim 2026
+KT. TỔ TRƯỜNG
+PHÓ TÔ TRƯỞNG
+lan
+Nguyễn Phương Thio	Nguyên Thị Quỳnh
+
+1
+m uở -
+A
+4
+m	L L
+L
+AEA LIL EL RALSTON La NPY LL SNL AIL) 1 | MAY EAR ALD A LAR NR Re NI VN HT NT dr Ai oY UMN La PA ẤN HT HN TH HT NT

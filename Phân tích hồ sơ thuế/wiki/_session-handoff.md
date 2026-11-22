@@ -6,12 +6,12 @@ updated:
 
 # Session Handoff
 
-Current session state, so work can move between AIs/models without losing the thread. Update it before switching models or pausing a long job.
+Trạng thái phiên hiện hành để chuyển giữa các AI/model mà không mất mạch. Cập nhật khi chuẩn bị đổi model hoặc dừng giữa việc dài.
 
-- **Goal:**
-- **Done:**
-- **In progress:**
-- **Decisions made:**
-- **Not yet verified:**
-- **Next step:**
-- **Related files:**
+- **Mục tiêu:**
+- **Đã hoàn thành:**
+- **Đang làm:**
+- **Quyết định đã chốt:**
+- **Chưa xác minh:**
+- **Bước tiếp theo:**
+- **File liên quan:**

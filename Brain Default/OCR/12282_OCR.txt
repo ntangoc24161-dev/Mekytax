@@ -1,0 +1,433 @@
+﻿THUẾ THÀNH PHỐ HỒ CHÍ MINH ~~ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM THUẾ CƠ SỞ 16 THÀNH PHÓ Độc lập - Tự do - Hạnh phúc
+HỒ CHÍ MINH
+Tân Bình, ngày .09 tháng A1 năm 2026
+Số;42.232_./TCS16-QLDN2
+V/v cảnh báo doanh nghiệp có
+dấu hiệu rủi ro cao về thuế, hóa đơn
+Kính gửi:
+- 33 Thuế tỉnh, thành phố
+- Thuế Thành phố Hồ Chí Minh
+- 28 Thuế cơ sở Thuế Thành phố Hồ Chí Minh;
+_. Căn cứ Luật quản lý thuế số 38/2019/QH14 ngày 13/06/2019 (được sửa đổi, bổ sung năm 2024) và các văn bản hướng dẫn thi hành;
+Căn cứ công văn số 4679/TCT-KTNB ngày 10/10/2016 của Tổng cục Thuế về việc ngăn chặn và đẩy lùi tinh trạng in, phát hành, mua bán hóa đơn bất hợp pháp;
+Căn cứ công văn số 3928/TCT-TTKT ngày 18/9/2020 của Tổng cục Thuế về việc tăng cường các giải pháp của cơ quan Thuế về việc ngăn chặn, phát hiện xử lý hành vi vi phạm về quản lý, sử dụng hóa đơn;
+Căn cứ công văn số 4532/TCT-TTKT ngày 26/10/2020 của Tổng cục Thuế về tăng cường rà soát, kiểm tra phát hiện NNT có dấu hiệu rủi ro về quản lý, sử dụng hóa đơn;
+Công văn số 1873/TCT-TTKT ngày 01/6/2022 của Tổng cục Thuế về việc tăng cường rà soát, kiểm tra phát hiện NNT có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT.
+Qua rà soát, phân tích hồ sơ khai thuế, báo cáo tình hình sử dụng hóa đơn của người nộp thuế gửi cơ quan thuế qua hệ thống quản lý thuế tập trung và qua rà soát việc sử dụng hóa đơn của người nộp thuế tại ứng dụng hóa đơn điện tử, Thuế cơ sở 16 Thành phố Hồ Chí Minh phát hiện doanh nghiệp có rủi ro cao về thuế, hóa đơn cụ thể:
+1. Thông tin chung:
+Công Ty TNHH B3 Beta Three Việt Nam;
+Mã số thuế: 0317067966;
+Địa chỉ: Tầng 2, Tòa nhà nhà sách Nhân Văn, số 01 Trường Chinh, phường Bảy Hiên, Tp Hồ Chí Minh;
+Giấy chứng nhận đăng ký doanh nghiệp số: 0317067966; cấp ngày: 06/12/2021, cơ quan cấp: Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh;
+Ngành nghề kinh doanh chính: Bán buôn thiết bị và linh kiện điện tử, viễn
+thông:
+
+Tên người đại diện theo pháp luật của người nộp thuế: Phạm Văn Toan; Chức vụ: Giám đốc: CMND/CCCD/Hộ chiêu sô: 030055001692;
+Địa chỉ thường trú/ địa chỉ hiện tại: Khu Hạ Chiều 3, Phường Minh Tân, TP Hải Phòng.
+2. Các dấu hiệu rủi ro:
+2.1. Tình hình sử dụng hoá đơn theo Nghị định số 123/2020/NĐ-CP:
+2.1.1 Đăng ký sử dụng hóa đơn
+Công ty đã được cơ quan thuế chấp nhận đăng ký sử dụng hóa đơn điện tử theo thông báo chấp nhận sô 2705/TB-CCTTB-HDDT ngày 16 tháng 12 năm
+2021.
+2.1.2 Tình hình sứ dụng hóa đơn
+Qua rà soát hóa đơn điện tử từ ngày 16/12/2021 đến 03/11/2026, doanh nghiệp đã sử dụng 216 hóa đơn điện tử.
+STT	Ký hiệu hóa đơn	Tông sô lượng hóa đơn sử dụng	Hóa đơn sử dụng		Số hóa đơn đã bị xóa bỏ/huỷ bỏ/thay thê	Ghi chú
+			Số hóa đơn đã cấp mã hóa đơn	Số hóa đơn không đủ điều kiện câp mã		
+1	C22TBB	22	22	0	0	
+2	C23TBB	77	76	0	1	
+3	C24TBB	98	95	0	3	
+4	C25TBB	19	18	0	1	
+Tổng cộng		216	211	0	5	
+2.2 Tình hình kê khai hồ sơ khai thuế GTGT:
+* Căn cứ kết quả tra cứu tờ khai thuế GTGT từ quý 4/2021 đến kỳ tháng 09/2026 trên trang https://thuedientu.tct.vn; hệ thông quản lý thuế tập trung (TMS);
+chỉ tiệt như sau:
+Kỳ tính thuế	Giá trị HHDV mua vào trong kỳ	Thuế GTGT HHDV mua vào trong kỳ	Tổng doanh thu	Thuê đâu ra	Thuế GTGT phải nộp	Thuê GTGT khấu trừ chuyển kỳ sau
+Quý 4/2021	-		-	-		%
+Quý 1/2022	11.163.950.000	1.115.580.000	3.090.930.000	309.093.000	-	806.487.000
+Quý 2/2022	14.666.000.000	1.466.600.000	8.240.470.000	824.047.000	-	1.449.040.000
+Quý 3/2022	41.185.088.500	4.113.513.850	38.312.798.591	3.831.279.859	-	1.731.273.991
+Quý 4/2022	7.516.245.000	751.624.500	22.807.516.968	2.280.751.698	-	202.146.793
+Quý 1/2023	35.428.098.020	3.542.809.802	13.587.688.000	1.358.768.800		2.462.671.065
+Quý 2/2023	11.626.063.566	1.162.606.357	29.249.908.459	2.924.990.846	-	700.286.576
+Quý 3/2023	14.388.492.948	1.438.189.301	10.736.546.900	1.073.654.690		1.064.821.187
+Quý 4/2023	19.830.571.597	1.962.761.310	23.087.467.000	2.305.966.980	-	721.615.517
+Quý 1/2024	26.937.233.761	2.670.210.469	14.455.558.000	1.435.275.780		3.893.179.626
+Quý 2/2024	24.473.465.028	2.429.058.464	20.263.069.000	2.020.895.000		4.301.343.090
+
+Tháng 08/2024	10.024.388.981	989.908.796	9.112.786.000	896.654.540		4.150.908.726
+Tháng 09/2024	2.416.285.905	236.238.661	13.540.477.500	1.345.100.010	-	3.042.047.377
+Tháng 10/2024	4.127.301.199	400.047.849	7.211.200.000	711.296.000		2.730.799.226
+Tháng 11/2024	2.261.814.470	215.035.486	1.829.500.000	179.590.000		2.766.244.712
+Tháng 12/2024	2.556.903.928	240.185.632	4.963.079.000	465.745.240	-	2.540.685.104
+'|háng 01/2025	526.050.958	52.438.267	171.980.000	13.758.400	-	2.579.364.971
+Tháng 02/2025	452.713.916	41.416.604	-	-		2.620.781.575
+Tháng 03/2025	1.160.727.161	112.328.837	-	-	-	2.733.110.412
+Tháng 04/2025	39.605.900	3.174.472	1.041.762.000	104.176.200	-	2.632.106.684
+Tháng 05/2025	999.879.316	99.296.667	332.500.000	31.340.000	-	2.700.063.351
+Tháng 06/2025	287.834.924	26.316.629	6.241.417.000	586.697.840	-	2.139.682.140
+Tháng 07/2025	550.000	55.000	3.334.850.000	266.788.000		1.872.949.140
+Tháng 08/2025	978.293.319	77.052.543	985.102.000	78.808.160	-	1.871.193.523
+Tháng 09/2025	471.951.015	37.740.198	557.360.000	44.588.800		1.864.344.921
+Tháng 10/2025	250.000	25.000	-	-	-	1.864.369.921
+Tháng 11/2025	-	-		-	-	1.864.369.921
+Tháng 12/2025	100.000	8.000	-	-		1.864.377.921
+Tháng 01/2026	-	-	-		-	1.864.377.921
+Tháng 02/2026	“	-	M	-	-	1.864.377.921
+Tháng 03/2026		-	-		-	1.864.377.921
+Tháng 04/2026		-				1.864.377.921
+Tháng 05/2026	-			-	-	1.864.377.921
+Tháng 06/2026	1.830.643	146.451	-		-	1.864.524.372
+Tháng 07/2026	-	-		-	-	1.864.524.372
+Tháng 08/2026		-	-	-	-	1.864.524.372
+Tháng 09/2026	9.000.000	900.000	-		-	1.865.424.372
+Tổng	240.305.630.189	23.857.952.325	242.434.964.418	24.005.638.643	-	80.008.806.033
+* Căn cứ kết quả tra cứu hóa đơn điện tử trên trang https://hddtcbt.gdt.gov.vn từ ngày 16/12/2021 đến ngày 03/11/2026, chi tiết như sau:
+- Doanh thu kê khai trên tờ khai thuê GTGT và doanh thu bán ra trên HĐĐT:
+Kỳ tính thuế	DỮ LIỆU TRÊN TỜ KHAI THUÊ GTGT		DỮ LIỆU HĐĐT		CHÊNH LỆCH	
+	Tổng doanh thu	Thuế đầu ra	Tổng doanh thu	Thuế đầu ra	Tổng doanh thu	Thuế đầu ra
+Quý 4/2021	0	0	0	0	0	0
+Quý 1/2022	3.090.930.000	309.093.000	3.090.930.000	309.093.000	0	0
+
+Quý 2/2022	8.240.470.000	824.047.000	8.240.470.000	824.047.000	0	0
+Quý 3/2022	38.312.798.591	3.831.279.859	38.312.798.591	3.831.279.859	0	0
+Quý 4/2022	22.807.516.968	2.280.751.698	22.807.516.968	2.280.751.698	0	0
+Quý 1/2023	13.587.688.000	1.358.768.800	50.551.178.000	5.055.117.800	(3.696.349.000)	(3.696.349.000)
+£Ax.n 3/043 xủy + ~v~.	20.242.908.452	29.249.984	36.071.748.590	2120.717.486 Z..07..^..TÔU		
+Quý 3/2023	10.736.546.900	1.073.654.690	10.736.546.900	1.073.654.690	0	0
+Quý 4/2023	233.087.467.000	23.059.669.880	233.087.467.000	23.059.669.880	0	0
+Quý 1/2024	14.455.558.000	1.435.275.780	(4.178.784.200)	(428.158.440)	1.863.434.220	1.863.434.220
+Quý 2/2024	20.263.069.000	2.020.895.000	20.263.069.000	2.020.895.000	0	0
+Tháng 07/2024	9.280.998.000	916.371.800	9.280.998.000	916.371.800	0	0
+Tháng 08/2024	9.112.786.000	896.654.540	9.112.786.000	896.654.540	0	0
+Tháng 09/2024	13.540.477.500	1.345.100.010	13.540.477.500	1.345.100.010	0	0
+Tháng 10/2024	7.211.200.000	711.296.000	7.211.200.000	711.296.000	0	0
+Tháng 11/2024	1.829.500.000	179.590.000	1.829.500.000	179.590.000	0	0
+Tháng 12/2024	4.963.079.000	465.745.240	4.963.079.000	465.745.240	0	0
+Tháng 01/2025	171.980.000	13.758.400	171.980.000	13.758.400	0	0
+Tháng 02/2025	0	0	0	0	0	0
+Tháng 03/2025	0	0	0	0	0	0
+Tháng 04/2025	1.041.762.000	104.176.200	1.041.762.000	104.176.200	0	0
+Tháng 05/2025	332.500.000	31.340.000	332.500.000	31.340.000	0	0
+Tháng 06/2025	6.241.417.000	586.697.840	6.241.417.000	586.697.840	0	0
+Tháng 07/2025	3.334.850.000	266.788.000	3.334.850.000	266.788.000	0	0
+Tháng 08/2025	985.102.000	78.808.160	985.102.000	78.808.160	0	0
+Tháng 09/2025	557.360.000	44.588.800	557.360.000	44.588.800	0	0
+Tháng 10/2025	0	0	0	0	0	0
+Tháng 11/2025	0	0	0	0	0	0
+Tháng 12/2025	0	0	0	0	0	0
+Tháng 01/2026	0	0	0	0	0	0
+Tháng 02/2026	0	0	0	0	0	0
+Tháng 03/2026	0	0	0	0	0	0
+Tháng 04/2026	0	0	0	0	0	0
+Tháng 05/2026	0	0	0	0	0	0
+Tháng 06/2026	0	0	0	0	0	0
+Tháng 07/2026	0	0	0	0	0	0
+Tháng 08/2026	0	0	0	0	0	0
+Tháng 09/2026	0	0	0	0	0	0
+Tổng	242.434.964.418	24.005.638.643	263.211.378.618	26.083.280.063	(2.077.641.420)	(2.077.641.420)
+- Doanh số mua vào kê khai trên tờ khai thuế GTGT và doanh số mua vào kê khai trên HĐĐT:
+Kỳ tính thuế	DỮ LIỆU TRÊN TỜ KHAI THUÊ GTGT		DŨ LIỆU HĐĐT		CHÊNH LỆCH	
+	Giá trị HHDV mua vào trong kỳ	Thuê GTGT HHDV mua vào trong kỳ	Giá trị HHDV mua vào trong kỳ	Thuế GTGT HHDV mua vào trong kỳ	Giá trị HHDV mua vào trong kỳ	Thuế GTGT HHDV mua vào trong kỳ
+Quý 4/2021	0	0	0	0	0	0
+Quý 1/2022	11.163.950.000	1.115.580.000	550.000	55.000	11.163.400.000	1.115.525.000
+Quý 2/2022	14.666.000.000	1.466.600.000	14.666.089.000	1.466.608.900	(89.000)	(8.900)
+
+Quý 4/2022	7.516.245.000	751.624.500	7.523.626.876	752.362.689	(7.381.876)	(738.189)
+Quý 1/2023	35.428.098.020	3.542.809.802	73.161.544.458	7.316.154.447	(37.733.446.438)	(3.773.344.645)
+Quý 2/2023	11.626.063.566	1.162.606.357	14.079.360.241	1.407.936.024	(2.453.296.675)	(245.329.667)
+Quý 3/2023	14.388.492.948	1.438.189.301	14.889.469.843	1.488.286.991	(500.976.895)	(50.097.690)
+Quý 4/2023	19.830.571.597	1.962.761.310	19.370.214.280	1.915.991.378	460.357.317	46.769.932
+Quý 1/2024	26.937.233.761	2.670.210.469	25.631.843.037	2.539.651.422	1.305.390.724	130.559.047
+Quý 2/2024	24.473.465.028	2.429.058.464	23.016.621.775	2.282.418.357	1.456.843.253	146.640.107
+Tháng 07/2024	6.774.940.134	672.683.180	6.775.665.343	672.755.701	(725.209)	(72.521)
+Tháng 08/2024	10.024.388.981	989.908.796	10.024.473.981	989.917.296	(85.000)	(8.500)
+Tháng 09/2024	2.416.285.905	236.238.661	2.417.185.905	236.328.661	(900.000)	(90.000)
+Tháng 10/2024	4.127.301.199	400.047.849	4.146.715.119	401.613.163	(19.413.920)	(1.565.314)
+Tháng 11/2024	2.261.814.470	215.035.486	1.994.561.843	188.461.401	267.252.627	26.574.085
+Tháng 12/2024	2.556.903.928	240.185.632	1.560.841.045	140.462.566	996.062.883	99.723.066
+Tháng 01/2025	526.050.958	52.438.267	20.050.461	1.558.155	506.000.497	50.880.112
+Tháng 02/2025	452.713.916	41.416.604	334.794.126	28.411.649	117.919.790	13.004.955
+Tháng 03/2025	1.160.727.161	112.328.837	1.448.390.002	18.404.595	(287.662.841)	93.924.242
+Tháng 04/2025	39.605.900	3.174.472	288.227.661	1.187.213	(248.621.761)	1.987.259
+Tháng 05/2025	999.879.316	99.296.667	898.714.033	2.288.423	101.165.283	97.008.244
+Tháng 06/2025	287.834.924	26.316.629	38.765.817	1.934.660	249.069.107	24.381.969
+Tháng 07/2025	550.000	55.000	641.837.500	55.000	(641.287.500)	0
+Tháng 08/2025	978.293.319	77.052.543	497.147.237	2.533.901	481.146.082	74.518.642
+Tháng 09/2025	471.951.015	37.740.198	2.750.000	225.000	469.201.015	37.515.198
+Tháng 10/2025	250.000	25.000	250.000	25.000	0	0
+Tháng 11/2025	0	0	67.764	6.776	(67.764)	(6.776)
+Tháng 12/2025	100.000	8.000	100.000	8.000	0	0
+Tháng 01/2026	0	0	0	0	0	0
+Tháng 02/2026	0	0	0	0	0	0
+“Tháng 03/2026	0	0	0	0	0	0
+Tháng 04/2026	0	0	0	0	0	0
+Tháng 05/2026	0	0	0	0	0	0
+Tháng 06/2026	1.830.643	146.451	0	0	1.830.643	146.451
+Tháng 07/2026	0	0	0	0	0	0
+Tháng 08/2026	0	0	0	0	0	0
+Tháng 09/2026	9.000.000	900.000	9.000.000	900.000	0	0
+Tống	240.305.630.189	23.857.952.325	264.624.349.598	25.970.096.592	(24.318.719.409)	(2.112.144.267)
+* Qua rà soát dữ liệu hóa đơn điện tử và tình hình kê khai thuế GTGT của
+Công Ty TNHH B3 Beta Three Việt Nam, công ty có dấu hiệu rủi ro về thuế, hóa
+đơn như sau:
+- Công ty có hoá đơn mua vào và bán ra của cùng 1 doanh nghiệp.
+- Doanh thu kê khai lớn, không phát sinh số thuế phải nộp, giá trị kê khai trên
+tờ khai so với dữ liệu hoá đơn điện tử có chênh lệch lớn.
+- Công ty không đăng ký kho hàng, không kê khai sử dụng lao động, không chi trả lương.
+2.3. Các biện pháp Thuế cơ sở 16 Thành phố Hồ Chí Minh đã thực hiện:
+Ngày ..04%.../A)./2026, Thuế cơ sở 16 Thành phố Hồ Chí Minh đã phối hợp với UBND Phường Bảy Hiền xác minh tình trạng hoạt động của Công Ty TNHH
+
+B3 Beta Three Việt Nam tại địa chỉ đã đăng ký thuế; kết quả xác minh: Công Ty TNHH B3 Beta Three Việt Nằm không hoạt động tại địa chỉ kinh doanh đã đăng ký với cơ quan thuế.
+Ngày ØÉ/4Í..2026. Thuế cơ sở 16 Thành phố Hồ Chí Minh đã ban hành Thông báo số X@# 6 Z..../TB-TCS16 Thông báo về việc người nộp thuế không hoạt động tại địa chỉ đã đăng ký.
+Nhằm ngăn chặn hành vi _gian lận trong việc mua bán hóa đơn bất hợp pháp, gian lận thuế trong kê khai khấu trừ, hoàn thuế GTGT và hạch toán chỉ phí để trồn thuế, tránh thất thu cho NSNN, Thuế cơ sở 16 Thành phố Hồ Chí Minh báo cáo Thuế Thành phố Hồ Chí Minh và thông báo tới các cơ quan thuế, cơ quan chức năng có liên quan được biết và phối hợp kiểm soát các rủi ro nêu trên. Trong quá trình kiểm tra thuế, nếu có phát sinh hoạt động liên quan đến Công Ty TNHH B3 Beta Three Việt Nam; MST: 0317067966 thì căn cứ các văn bản quy phạm pháp luật để xử lý theo quy định.
+(Kèm theo bảng kê bán ra kết xuất từ ứng dụng hóa đơn điện tử theo từng cơ quan Thuế).
+Nếu có vướng mắc đề nghị liên hệ: Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 16 Thành phố Hồ Chí Minh; địa chỉ: 450 Trường Chinh, Phường Bảy Hiền, TP. Hồ Chí Minh; điện thoại: 028.38425191. va
+KT. TRUÔNG THUẾ CƠ SỞ PHÔ TRƯƠNG THUẾ CƠ SỞ
+Nơi nhận:
+- Nhu trên;
+- Ban lãnh đạo;
+- Các Tổ Kiểm tra;
+- Công Ty TNHH B3 Beta Three Việp Nam; - Lưu: VT, QLDN2 (LTH Mai,05b)
+Đặng Thị Bình An
+
+THUẾ CƠ SỞ 16 THÀNH PHỐ HOCH MINH
+TO QUAN LÝ HỖ TRỢ DOANH NGHIỆP SO 2
+DANH SÁCH HÓA ĐƠN HÀNG HÓA, DỊCH VỤ BAN RA CỦA CÔNG TY TNHH B3 BETA THREE VIET NAM
+(Đin kèm Công văn số 2282.18] 6-QLDN2 ngay.. z 4 {. 72026)
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hoá đơn	MST người mua/AŠT người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tông tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quận lý
+1	1	C23TBB	2	05/01/2023	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	817.369.500	81.736.950	899.106.450	Q.Tân Phú-TCS17 TP. HCM
+2	1	C23TBB	3	05/01/2023	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIET NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	3.702.542.400	370.254.240	4.072.796.640	Q.Tân Phú-TCS17 TP. HCM
+3	1	C23TBB	4	05/01/2023	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIET NÁM	Kim, Khu phố Tân Phước, Thị trần Cản (iuộc, duyên Cần Giuộc, Tịnh Long An,	93.356.600	9.335.660	102.692.260	Q.Tân Phú-TCS17 TP. HCM
+4	1	C231BB	5	05/01/2023	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ, WISAKA VIET NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Tuyên Cần Giuộc, Tịnh Long An,	65.200.000	6.520.000	71.720.000	Q.Tân Phú-TCS17 TP. HCM
+P 6 7	1	C24TBB	1 10	05/01/2024 31/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, việt Nam	- 4.885.500.000 2.842.018.000 - 1.681.300.000 -	-488.550.000	-5.374.050.000	Q.Tân Phú-TCS17 TP. HCM
+	1	C24TBB			0314418609		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam		284.201.800 - 168.130.000 -	-3.126.215.800	Q.TânPhú-TCS17TP.HCM Q.Tân Phú-TCS17 TP. HCM
+	1	C24TBB	11	31/01/2024	0314418609		Quận Tân phú, Thành phó Hồ Chí Minh, việt Nam			(184.943.000)	
+LẠ ~ 9	1 1	C24TBB	12 13	31/01/2024 31/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TU- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	-1.734.000.000	-173.400.000	(1.907.400.000)	Q.Tân Phú-TCS17 TP. HCM
+		C24TBB			0314418609		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nem	993.800.000	99.380.000	1.093.180.000	Q.Tân Phú-TCS17 TP. HCM
+10	1	C24TBB	14	31/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỪ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thảnh phố Hồ Chí Minh, Việt Nem	-3.803.521.200	-380.352.120	-4.183.873.320	Q.Tân Phú-TCS17 TP. HCM
+1 12	] l	C24TBB C24TBB	15 2	31/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỪ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nem	3.020.500.000	302.050.000	3.322.55C.000 7.92G,000	Q.Tân Phú-TCS17 TP. HCM
+				08/01/2024	0314418609			7.200.000	720.000		Q.Tân Phú-TCS17 TP. HCM
+13	1	C24TBB	3	10/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ: ĐIỆN LẠNH CÔNG NGHIÊẼP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nem	4.010.000	401.000	4.411.000	Q.Tân Phú-TCS17 TP. HCM
+14	1	C24TBB	4	12/01/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	im, Kău phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	70.250.000	5.620.000	75.870.000	Q.Tân Phú-TCS17 TP. HCM
+15	1	C24TBB	6	22/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TÙ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nem	8.020.000	802.000	8.822.000	Q.Tân Phú-TCS17 TP. HCM
+16	1	C24TBB	7	26/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỪ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	“Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nem	14.400.000	1.440.000	15.840.000	Q.Tân Phú-TCS17 TP. HCM
+17	1	C24TBB	9	31/01/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nem	(3.411.755.000)	-341.175.500		Q.Tân Phú-TCS17 TP. HCM
+18	1	C25TBB	1 2	10/01/2025 15/01/2025	1102001156	CÔNG TY CỔ PHẦN ĐIỂN TỪ WISAKA VIET NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIẾT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nem =_ Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nem	15.280.000 76.000.000	1222.400 6.080.000		
+19	1	C25TBB			1102001156					82.080.000	Q.Tân Phú-TCS17 TP. HCM
+20	1	C25TBB C23TBB	2 10	17/01/2025 10/02/2023 10/02/2023	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIẾT NAM CÔNG TY TNHH ĐIỆN TỪ SAZA VIỆT NAM CÔNG TY TNHH ĐIỆN TỪ SAZA VIỆT NAM	'Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Kim, khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, khu phố Tân Phước, Thị trần Cần Guuộc, Huyện Cần Giuộc, Tịnh Long An,	80.700.000 11.152.000.000	6.456.000	87.156.000	Q.Tân Phú-TCS17 TP, HCM
+21	1				1101933396				1.115.200.000		
+	1	C23TBB	10		1101933396						
+
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hóa đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chí người mua	Tông tiên chưa thuế	Tông tiền thuế	Tổng tiền thanh toán	Cụ quan thuê quản lý
+3” 24 35	Ì l '	C23TBB C23TBB C23TBB	3	10/02/2023	1101933396 1101933396 0314418609	CONG TY TNHH ĐIỆN TỦ SAZA VIET NAM CÔNG TY TNHH ĐIỆN TỬ SAZA VIET NAM CÔNG TY CỔ PHẦN ĐIỄN TỨ- ĐIỄN LẠNH CONG NGHIỆP VIỆT NAM	Kim, khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	9.682.258.000 2.019450.000 2992.550.000	968225800 201.945.000 299.255000	10.650.483800 2.221.395.000	H.Cân Giuộc-TCS3 Tây Ninh
+				10/02/2023 03/02/2023							H Cần Giuộc-TCS3 Tây Ninh
+										3.291.805.000	Q.Tân Phú-TCS17 TP. HCM
+26 37 28 29 30	1	C23TBB C23TBB C23TBB	—X— 8	07/02/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỂN TỪ- ĐIÊN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỀN LANH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phó Hồ Chí Minh, Việt Nam . Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam	768.251.500	76825150 378.292.650 136,549,150 1.760.000	845.076.650	Q.Tân Phủ-TCS17 TP. HCM
+				07/02/2023 07/02/2023	0314418609			3.782.926,500 1365.491.500 17.600.000 16.000.000		4.161.219.150 1.502.040.650	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+	1		9		0314418609						
+	Ị !	C24TBB C24TBB	16 17	01/02/2024 01/02/2024	0314418609 0314418609					19.360.000	Q.Tân Phú-TCS17 TP. HCM
+							Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam		1.600.000	17.600.000	Q.Tân Phú-TCS17 TP. HCM
+31	1	C24TBB C24TBB C24TBB C24TBB	18	05/02/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIET NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	501.600.000 335.800.000	50.160.000 33.580.000	551.760.000 369.380.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+32	4		LẠ 20	05/02/2024 22/02/2024	0314418609 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM					
+33							Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	44.250,000 66.000.000	4.425.000	48.675.000	Q.Tân Phủ-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+34			21	23/02/2024	1102001156				6.600.000	72.600.000	
+35	1	C24TBB	+	26/02/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	38.000.000	3.800.000	41.800.000	Q.Tân Phú-TCS17 TP. HCM
+36	1	C24TBB	24	29/02/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỀN TỬ MWISAKA VIỆT NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	15.240.000	1.219.200	16.459.200	Q.Tân Phú-TCS17 TP. HCM
+37 % 3 41 42		C24TBB C24TBB	5 36	29/02/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	693.952.000	69.395.200	763.347.200	Q.Tân Phú-TCS17 TP. HCM
+	1			29/02/2024	1102001156			38.000.000	3.040.000	41.040.000	Q.Tân Phú-TCS17 TP. HCM
+		C24TBB C22TBB	27 1	29/02/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỂN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIET NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ, WISAKA VIỆT NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	27.300.000	2.730.000	30.030.000	Q.Tân Phú-TCS17 TP. HCM
+				28/03/2022	0314418609			3.090.930.000 949.800.000	309.093.000 94.980.000	3.400.023.000 1.044.780.000	Q.Tân Phú-TCS17 TP. HCM . Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+		C24TBB C24TBB	8 29 30 31 32 33 34	01/03/2024 05/03/2024 05/03/2024	1102001156		Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyền Cân Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,				
+	1				1102001156 1102001156			95.775.000	7.662.000	103.437.000	
+43 44 45	1 Ì Ì Là 1	C24TBB C24TBB C24TBB						2.858.200.000	285.820.000	3.144.020.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+				08/03/2024 11/03/2024	1102001156 1102001156 1102001156	CÔNG TY CÓ PHÂẦN ĐIỆN TỦ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỄN TỦ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM		56.200.000	4.496.000	60.696.000	
+								702.952.000 3.700.000.000	70.295.200 370.000.000	773.247.200 4.070.000.000	Q.Tân Phú-TCS17 TP. HCM
+46 47 48		C24TBB C24TBB C24TBB		11/03/2024 11/03/2024							Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+					1102001156			74.000.000 1.674,000.000	5.920.000	79.920.000	
+			35	25/03/2024	1102001156				167.400.000	1.841.400.000	Q Tân Phú-TCS17 TP. HCM
+
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hoá đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tông tiễn chưa thuế	Tông tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quần lý
+49	1	C24TBB	36	27/03/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	kim. Khu phố Tân Phước, Thị trần Cần Giuộz, Huyện Cần Giuộc, Tịnh Long An,	164.536.000	13.162.880	177.698.880	Q.Tân Phú-TCS17 TP. HCM
+50	1	C24TBB	37	28/03/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Eim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	8.325.000	832.500	9.157.500	Q.Tân Phú-TCS17 TP. HCM
+51	1	C22TBB	2	19/04/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TU: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quật Tân phú, Thạnh phố Hồ Chí Minh, Việt Nam	2.480.470.000	248.047.000	2.728.517.000	Q.Tân Phú-TCS17 TP. HCM
+52	1	C22TBB	3	19/04/2022	0314418609	CÔNG TY CÔ PHẦÂN ĐIỆN TƯ- ĐIỆN LẠNH CÔNG NGHIỆP VIET NAM	Quật Tân phú, Thành phố Hồ Chí Minh, Việt Nam	5.760.000.000	576.000.000	6.336.000.000	Q.Tân Phú-TCS17 TP, HCM L
+53	1	C23TBB	14	04/04/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN T- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quật Tân phú, Thành phố Hồ Chí Minh, việt Nam	7.503.646.285	750.364.629	8.254.010.914	Q Tân Phñ-TCS17 TP. HCM
+54	1	C23TBB	15	18/04/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIET NAM	Quật. Tân phú. Thành phố Hồ Chí Minh, Việt Nam	405.444.624	40.544.462	445.989.086	Q.Tân Phú-TCS17 TP. HCM
+55	1	C24TBB	38	02/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận: Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.314.986.000	131.498.600	1.446.484.600	Q.TânPhú-TCS17TP.HCM
+56	1	C24TBB	39	04/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	72.000.000	7.200.000	79.200.000	Q.Tân Phú-TCS17 TP. HCM
+57	1	C24TBB	40	04/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Eim. Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	19.700.000	1.970.000	21.670.000	Q.Tân Phú-TCS17 TP. HCM
+58	1	C24TBB	4Ì	10/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỄN TỬ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	2.118.000.000	211.800.000	2.329.800.000	Q.Tân Phú-TCS17 TP. HCM
+59	1	C24TBB	42	11/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.703.000.000	170.300.000	1.873.300.000	Q.Tân Phú-TCS17 TP. HCM
+60	1	C24TBB	43	15/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Jiệt Nam s Quận Tân phú, Thành phố Hồ Chí Minh, iệt Nam	_.-361.000.000 689.200.000	36.100.000	397.100.000 758.120.000	Q.Tân Phú-TCS17 TP. HCM Q.Tăn Phú-TCS17 TP. HCM
+61	1	C24TBB	44	15/04/2024	1102001156				68.920.000		
+62	1	C24TBB	45	15/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TƯ WISAKA VIET NAM	Quận Tân phú, Thành phố Hồ Chí Minh, việt Nam	43.000.000	3.440.000	46.440.000	Q.Tân Phú-TCS17 TP. HCM
+63	1	C24TBB	46	23/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, việt Nam	128.275.000	12.827.500	141.102.500	Q.Tân Phú-TCS17 TP. HCM
+64	1	C24TBB	47	25/04/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, việt Nam	95.000.000	9.500.000	104.500.000	Q.Tân Phú-TCS17 TP. HCM
+66	1	C25TBB C25TBB	5	18/04/2025 23/04/2025	1102001156 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIẾT NAM	(Quận Tân phú, Thành phố Hồ Chí Minh, việt Nam	777.552.000	77.755.200	855.307.200	Q.Tân Phú-TCS17 TP. HCM
+	1						tQuận Tân phú, Thành phố Hồ Chí Minh, việt Nam	264.210.000	26.421.000	290.631.000	Q.Tân Phú-TCS17 TP. HCM
+67	1	C23TBB	16	12/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, việt Nam	70.000.000	7.000.000	77.000.000	Q.Tân Phú-TCS17 TP. HCM
+68	1	C23TBB	17	12/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NÁM		112.500.000	11.250.000	123.750.000	Q.Tân Phú-TCS17 TP. HCM
+69	1	C23TBB	18	12/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TŨ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM		32.400.000	3.240.000	35.640.000	Q.Tân Phú-TCS17 TP. HCM
+70	1	C23TBB	19	15/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM		2.966.918.182	296.691.818	3.263.610.000	Q.Tân Phú-TCS17 TP. HCM
+71 7%	1 1	C233TBB	20	15/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM		— 7.000.028.628	526.800 700,002.863	5.794.800	Q Tân Phú-TCS17 TP. HCM
+		C23TBB	21	18/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LANH CÔNG NGHIỆP VIỆT NAM				7.700.031.491	Q.Tân Phú-TCS17 TP. HCM
+73 74	1 1	C33TBB	22	19/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NĂM CÔNG TY CỔ PHẦN ĐIỆN TU- ĐIỆN LẠNH CÔNG NGHIỆP VIET NAM		21.950.000	2.195.000	24.145.000 1.075.113.600	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+		C23TBB	23	22/05/2023	0314418609			977.376.000	97.737.600		
+
+STT	Ký hiệu mẫu SỐ	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hoá đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tổng tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quản lý
+75 76 7 78	U l hộ 1	C23TBB C23TBB C23TBB	24 1ạ 36	24/05/2023 25/05/2023	0314418609 0314418609 0314418609 0314418609	CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LANH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ” ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam | Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phủ, Thành phó Hồ Chí Minh, Việt Nam	1.204 793.000 4.136.196.600	120479.300 413.619.660	1.325272.300 4.549.816.2060	Q.Tân Phú-TCS17 TP. HCM
+											Q.Tân Phú-TCS17 TP. HCM
+				26/05/2023 26/05/2023				3.868.640 1.326.567 000	132.656.700	1.459.223,700	Q Tân Phú-TCS17 TP. HCM
+		C23T7B3	27								Q.Tân Phú-TCS17 TP. HCM
+79	1	C23TBB	28	29/05/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	1.891.119.000	189.111.900	2.080.230.900	Q Tân Phú-TCS17 TP. HCM
+80 51		C23TBB3	9 18	31/05/2023	0314418609 1102001156	CÔNG TY CÔ PHÂẦN ĐIỆN TÚ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TƯ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phủ, Thành phô Hồ Chí Minh, Việt Nam	3.829.454.900 12.300.000	382.945.490	4.212.400.390	Q.Tân Phú-TCS17 TP. HCM
+		C24TBB		03/05/2024					1.230.000	13.530.000	Q.Tân Phú-TCS17 TP. HCM
+x 83	—_	C24TBB	49 50	08/05/2024	1102001156 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam	78.000.000 72.000.000	7.800.000	85.800.000	Q.Tân Phú-TCS17 TP. HCM
+		C24TBB		13/05/2024					7.200.000	79.200.000	Q.Tân Phú-TCS17 TP. HCM
+84	1	C24TBB	51 52	17/05/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIET NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam	„54.000.000 228.000.000	22.800.000	250.800.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+85		C24TB3		20/05/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM					
+86 87 88	1	C24TBB C24TBB C25TBB		27/05/2024 27/05/2024 08/05/2025	1102001156 1102001156 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	142.000.000	11.360.000	153.360.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+	0 1						Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.483.489.000	148.348.900	1.631.837.900	
+								237.000.000	23.700.000	260.700.000	Q.Tân Phú-TCS17 TP. HCM
+3	1 1	C25TBI3		26/05/2025 06/06/2023	1102001156 0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỂN TỪ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Vị lệt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam	95.500.000 49.644.000	7.640.000	103.140.000	Q.Tân Phú-TCS17 TP. HCM
+		C23TBB							4.964.400 3.200.000	54.608.400	Q.Tân Phú-TCS17 TP. HCM
+		C23TBB		20/06/2023	0314418609			32.000.000		35.200.000	Q.Tân Phú-TCS17 TP. HCM
+92	1	C23TBB C24TBB		26/06/2023	0314418609 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thạnh phô Hồ Chí Minh, Việt Nam	128.000.000 , 3.137.904.000	112.800.000 313,790,400	140.800.000 3.451.694.400	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+% 94	1			11/06/2024		CÔNG TY CỔ PHẦN ĐIỄN TỦ WISAKA VIẾT NAM					
+	1 0	C24TBB		11/06/2024 14/06/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIET NAM s= CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hỗ Chí Mình, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phủ, Thành phó Hồ Chí Minh, Viêt Nam	85.595.000	6.847.600	92.442.600	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+95		C24TB3 C24TBB			1102001156 1102001156 1102001156 1102001156 1102001156			2.246.500.000	224.650.000	2.471.150.000	
+96	1			28/06/2024				2.208.120.000 3.971.000.000	220.812.000	2.428.932.000	Q.Tân Phú-TCS17 TP. HCM
+3	heci.., lời IBBI 1	C24TBB C25TBB C25TBB		28/06/2024 11/06/2025 12/06/2025					397.100.000	4.368.100.000	Q.Tân Phú-TCS17 TP. HCM
+							Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phủ, Thành phố Hồ Chí Minh, Việt Nam	105.000.000	8.400.000	113.400.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+								819.757.000	65.580.560	885337560	
+100	1	C25TBB			1102001156			1.198.600.000	119.860.000	1.318.460.000	Q.Tân Phú-TCS17 TP. HCM
+
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hoá đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chí người mua	Tông tiên chưa thuế	Tông tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quản lý
+101	1	C25TBB	13	13/06/2025	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Quận Tân phú. Thánh phô Hồ Chí Minh, Việt Nem Quận Tên phú, Thành phô Hồ Chí Minh, Việt Nem , Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nem	2.214.000.000	221,400,000 94727400	2,435.400.000 1.042.001.400	Q.Tân Phú-TCS17 TP. HCM L Q.Tân Phú-TCS17 TP. HCM Q Tân Phú-TCS17 TP. HCM
+102 103	1 1	C25TBB	14	13/06/2025 24/06/2025	1102001156			947.274.000			
+		C25TBB	15		1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM				10.285.000	
+104 105	1 1	C25TBB	16	25/06/2025 03/06/2025	1102001156 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nem	57.300.000	71210880	61.884.000	Q Tấn Phú-TCS17 TP. HCM | Q.Tân Phú-TCS17 TP. HCM
+		C25TBB	§			CÔNG TY CỔ PHẦN ĐIỆN TỬ. MWISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	890.136.000		961.346.880	
+106	1	C22TBB	32	21/07/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	6.999.509.091	699.950.909	7.699.460.000	Q.Tân Phú-TCS17 TP. HCM
+107	1	C23TBB	33	20/07/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam	1.495.433.800	149.543.380	1.644.977.180	Q.Tân Phú-TCS17 TP. HCM
+108	1	C23TBB	34	21/07/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.188.627.900	118.862.790	1.307.490.690	Q.Tân Phú-TCS17 TP. HCM
+109	1	'C23TBB C23TBB	35 _... 3”	24/07/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.994.095.900	199.409.590	2.193.505.490 2.065.923.200	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+RAU 11	1 1			25/07/2023 26/07/2023	0314418609		Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam s Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.878.112.000	187.811.200		
+		C23TBB			0314418609			2.143.794.800	214.379.480	2.358.174.280	Q.Tân Phú-TCS17 TP. HCM
+112	1	C24TBB	60	02/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thảnh phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thảnh phố Hồ Chí Minh, Việt Nam	399.721.000	39.972.100	439.693.100	Q.Tân Phú-TCS17 TP. HCM
+113	1	C24TBB	61	03/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM		288.900.000	23.112.000	312.012.000	Q.Tân Phú-TCS17 TP. HCM
+114	1	C24TBB	62	04/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	275.450.000	27.545.000	302.995.000	Q.Tân Phú-TCS17 TP. HCM
+115	1	C24TBB	63	08/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	8.955.000	895.500	9.850.500	Q.Tân Phú-TCS17 TP. HCM
+116	1	C24TBB	64	17/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM		2.006.500.000	200.650.000	2.207.150.000	Q.Tân Phú-TCS17 TP. HCM
+417 118	1	C24TBB C24TBB	11 66	24/07/2024 24/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	239.000.000	19,120,000	258,120,000	Q.Tân Phú-TCS17 TP. HCM Ñ Q.Tân Phú-TCS17 TP. HCM
+	1				1102001156	CÔNG TY CỎ PHÂẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thảnh phố Hồ Chí Minh, Việt Nam				
+119	1	C24TBB	67	26/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Quận “ân phú, Thành phó Hồ Chí Minh, Việt Nam	4.285.872.000	428.587.200	4.714.459.200	Q.Tân Phú-TCS17 TP. HCM
+2	] ]	C241BB	68	30/07/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận “ân phú, Thành phô Hồ Chí Minh, Việt Nam Quan ân phú, Thành phố Hồ Chí Minh, Việt Nam	1.656.010.000	165.600.000	1.821.610.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+		C24TBB	69	30/07/2024	1102001156			58.450.000	4.680.000	63.130.000	
+122	1	C35TBB	17	02/07/2025	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Quận “ân phú, Thành phó Hồ Chí Minh, Việt Nem	3.334.850.000	266.788.000	3.601.638.000	Q.Tân Phú-TCS17 TP. HCM
+1	] l	C22TBB	18	02/08/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận “ân phú, Thành phố Hồ Chí Minh, Việt Nem _ Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam _- Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	6.297.000.000 2.655.430.000 5.230.660,000	629.700.000	6.926.710.000	Q.Tân Phú-TCS17 TP. HCM
+		C22TBB	6 01	02/08/2022	0314418609				265.543.000 523.066.000	2.920.973.000	Q.Tän Phú-TCS17 TP. HCM
+	1	C22TBB		12/08/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM				5.753.726.000	Q.1án Phú-TCS17 TP. HCM
+126	1		19			CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thảnh phô Hồ Chí Minh, Việt Nam		227.316.000	2.500.476.000	Q.Tân Phú-TCS17 TP. HCM
+
+STT	Ký hiệu mâu sở	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hoá đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tông tiên chưa thuế	Tông tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quản lý
+127	1	C23TBB	38	02/08/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỄN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	51.292.500	5.129.250	56.421.750	Q.Tân Phú-TCS17 TP. HCM
+128	1	C23TBB	39	10/08/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.954.990.000	195.499.000	2150489000	Q.Tân Phú-TCS17 TP. HCM
+129 130	U SH TN h	C23TBI3	10	17/08/2023	1101933396 1101933396 1101933396	CÔNG TY TNHH ĐIỆN TỦ SAZA VIỆT NAM CÔNG TY TNHH ĐIỆN TỪ SAZA VIỆT NAM	Kim, khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,		. Xem Hi 4 m	| | - Wmmr—:=i—5—= J |	H.Cần Giuốc-TCS3 Tây Ninh H.Cần Giuộc-TCS3 Tây Ninh
+		C23TBB		17/08/2023				H			
+131		C33TBB		17/08/2023		CÔNG TY TNHH ĐIỆN TỦ SAZA VIỆT NAM					H.Cần Giuộc-TCS3 Tây Ninh
+132	1	C23TBB		17/08/2023	1101933396	CÔNG TY TNHH ĐIỆN TỪ SAZA VIỆT NAM	Kim, khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,		~		H.Cản Giuộc-TCS3 Tây Ninh
+133		C23TBB		23/08/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	18.500.000	1.850.000	20.350.000	Q.Tân Phú-TCS17 TP. HCM
+134	1	C24TBI3		08/08/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.537.000.000	153.700.000	1.690.700.000	Q.Tân Phú-TCS17 TP. HCM
+135	] l	C24TBB		08/08/2024 09/08/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam	-.-586 000.000 1.600 000	58.600.000	644.600.000	Q Tân Phú-TCS17 TP. HCM
+136		C24TBR			1102001156		Quận Tân phú, Thảnh phố Hồ Chí Minh, Việt Nam			1.760.000	Q.Tân Phú-TCS17 TP. HCM
+137		C24TBB.		12/08/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	2.088.000.000	208.800.000	2.296.800.000	Q.Tân Phú-TCS17 TP. HCM
+138	U l ]	C24TBB C24TBB C24TBB		14/08/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIET NAM CÔNG TY CỔ PHẦN ĐIỆN TU WISAKA VIET NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	155.300.000	12.424.000	167.724.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+139				15/08/2024	1102001156 1102001156		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam . | Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phó Hồ Chí Minh, Việt Nậm Nhừ Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	1.485.960.000 967.400.000	148.596.000 96.740.000 14.002.160	1.634.556.000	
+140 141 142 143 144				19/08/2024		CÔNG TY CỔ PHẦN ĐIỆN TỪ WISA. KA VIET NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM				1.064.140.000 189.029.160 332.776.080 821.016.900	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+	1 1	C24TBB		20/08/2024 22/08/2024	1102001156			175.027.000 308 126.000			
+		C24TBB			1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM			24650080 74.637.900		Q.Tân Phú-TCS17 TP. HCM
+	1 1 1	C24TBB C24TBB C24TBB C25TBB C22TBB C22TBB		26/08/2024	1102001156		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thảnh phố Hồ Chí Minh, Việt Nam	746.379.000			Q.Tân Phú-TCS17 TP. HCM | Q.Tân Phú-TCS17 TP. HCM ] Q.Tân Phú-TCS17 TP. HCM
+				26/08/2024 29/08/2024 19/08/2025	1102001156			92.750.000	7.420.000	100.170.000	
+145 146 147 148					1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIET NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam . Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam	2.141.244.000	214.124.400	2355368400	
+					1102001156 1102001156 1102001156			985.102.000	78.808.160	1063910160	Q.Tân Phú-TCS17 TP. HCM Q Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCSI7 TPHCM
+	1			08/09/2022 09/09/2022			Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An, Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	962.500.000	96.250.000	1.058.750.000 4.532.259.600	
+	1							41.202.360.000	412.023.600		
+149 150 151 152	1 1	C22TBB C22TBB C22TBB C22TBB		10/09/2022 12/09/2022 30/09/2022 07/09/2022	1102001156 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Kim, Khu phố Tân Phước, Thị trấn Cần Giuộc, Huyện Cần Giuộc, Tịnh Long An,	2.013.915.000	201.391.500	2.215.306.500	Q.Tân Phú-TCS17 TP. HCM
+						CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIET NAM		859.421.000	85.942.100	945.363.100	Q Tân Phú-TCS17 TP. HCM
+					1102001156			4.138.827.500	413.882.750	4.552.710.250	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phủ-TCS17 TP. HCM
+					1102001156				276.214.000	3.038.354.000	
+
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hoá đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tông tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quản lý
+153	1	C23TBB	45	21/09/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nem	11.700.000	1.170.000	12.870.000	Q.Tân Phú-TCS17 TP. HCM
+154	1	C24TBB	s%	04/09/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nem	267.100.000	21368000	288.468.000	Q.Tân Phú-TCS17 TP. HCM
+155	1	C24TBB	83	06/09/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TU WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	58.344.000	4.667.520	63.011.520	Q.Tân Phú-TCS17 TP. HCM
+156 157	] ]	C24TBB	84	16/09/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ, WISAKA VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thánh phó Hồ Chí Minh, Việt Nam	4.219.090.500	421.909.050	4.640.999 550 131.698 440	Q.Tân Phú-TCS17 TP. HCM
+		C24TBB	85	17/09/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM		121.943.000			Q.Tân Phú-TCS17 TP. HCM
+158	1	C24TBB	86	23/09/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỄN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	2.958.000.000	295.800.000	3.253.800.000	Q.Tân Phú-TCS17 TP. HCM ¡
+159	1	C24TBB	s	27/09/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam	5.916.000.000	591.600.000	6.507.600.000	Q.Tân Phú-TCS17 TP. HCM
+160	1	C25TBB	14	30/09/2025	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	557.360.000	44.588.800	601.948.800	Q.Tân Phú-TCS17 TP. HCM
+161	1	C22TBB	15	25/10/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	5.710.108.946	571.010.895	6.281.119.841	Q.Tân Phú-TCS17 TP. HCM
+162	1	C22TBB	16	26/10/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thánh phô Hồ Chí Minh, Việt Nam	3.543.654.248	354.365.425	3.898.019.673	Q.Tân Phú-TCS17 TP. HCM
+163	1	C22TBB	17	27/10/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	3.224.010.697	322.401.070	3.546.411.767	Q.Tân Phú-TCS17 TP. HCM
+164	1	C22TBB	18	28/10/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIÊT NAM CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thảnh phố Hồ Chí Minh, Việt Nam	3.522.988.811	352.298.881	3.875.287.692	Q.Tân Phú-TCS17 TP. HCM
+165	1	C22TBB	19	29/10/2022	0314418609		Cuận Tân phú, Thảnh phô Hồ Chí Minh, Viêt Nam	2.952.890.266	295.289.027	3.248.179.293	Q.Tân Phú-TCS17 TP. HCM
+166	1	C23TBB	46	03/10/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Cuận Tân phú, Thành phô Hồ Chí Minh, Việt Nim	2.100.000.000	210.000.000	2.310.000.000	Q.Tân Phú-TCS17 TP. HCM
+167	1	C23TBB	47	04/10/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phó Hồ Chí Minh, Viêt Năm	2.019.000.000	201.900.000	2229.990.080. 763.686.000	Q.Tân Phú-TCS17 TP. HCM
+168	1	C23TBB	48	05/10/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	GQuận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam	694.260.000	69.426.000		Q.Tân Phú-TCS17 TP. HCM
+169	1	C23TBB	49	06/10/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỪ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM		3.065.700.000	306.570.000	3.372.270.000	Q.Tân Phú-TCS17 TP. HCM
+170	1	C23TBB C23TBB C23TBB	50	16/10/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TŨ- ĐIỀN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thảnh phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam	18.500.000 25.290.000	1.850.000 2.023.200	20.35.00	Q.Tân Phú-TCS17 TP. HCM
+171 172	1 1		51 5	24/10/2023 27/10/2023	0314418609					27.313.20	Q.Tân Phú-TCS17 TP. HCM
+					0314418609			-11.220.000	1.122.000	.12.342.00	Q.Tân Phú-TCS17 TP. HCM
+173	1	C24TBB	88	07/10/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIẾT NAM	Quán ăn phú, Thành phô Hồ Chí Minh, Việt Nam	364.000.000	29.120.000	393.120.000	Q.Tân Phú-TCS17 TP. HCM
+174	1	C24TBB	89	18/10/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIẾT NAM	Quận - ân phú, Thành phô Hồ Chí Minh, Việt Nam	127.200.000	10.176.000	137.376.000	Q.Tân Phú-TCS17 TP. HCM
+175	1	C24TBB	90	21/10/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỂN TỬ WISAKA VIỆT NAM	GQuuận - ân phú, Thành phô Hồ Chí Minh, Việt Nam	820.000.000	82.000.000	902.000.000	Q.Tân Phú-TCS17 TP. HCM
+176	1	C24TBB	91	23/10/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM		2.950.000.000	295.000.000	3.245.000.000	
+177	1	C24TBB	92	29/10/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM		2.950.000.000	295.000.000	3.245.000.000	
+178	1	C22TBB	93	03/11/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM		332.946.000	33.294.600		
+
+STT	Ký hiệu mẫu số	Ký hiệu hóa đơn		Ngày Hóa đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chí người mua	Tổng tiên chưa thuế	Tông tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quản lý
+179 180 151 182 183 184	1	C23TBB		20/11/2023 22/11/2023 30/11/2023 14/11/2024 27/11/2024	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	6.953,835,000 1.661.500.000	404.640 934.500	7.649.218.500 1.827.650.000	Q.Tân Phú-TCS17 TP. HCM Q.Tắn Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+	1	C23TBB			0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỦ” ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam				
+		C231BB			0314418609 1102001156 1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM			695.383.500		
+	1	C24TBB				CÔNG TY CỔ PHẦN ĐIỆN TỦ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TƯ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam		166.150.000		
+	1	C24TBB C22TBB						168.000.000	13.440.000	181.440.000	
+				15/12/2022	0314418609			1.290.018.000	129.001.800	1.419.019.800	Q.Tân Phú-TCS17 TP. HCM
+185	1	C22TBB		23/12/2022	0314418609	CÔNG TY CỔ PHẦN ĐIỂN TÚ- ĐIỄN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	2.230.900.000	223.090.000	2.453.990.000	Q.Tân Phú-TCS17 TP. HCM
+186	1	C23TBB		01/12/2023 01/12/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỪ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú. Thành phô Hồ Chí Minh, Việt Nam	1.676.826.000 4.100.641.000	167.682.600	1.844.508.600	Q.Tân Phú-TCS17 TP. HCM
+2	x< =]	C23TBB			0314418609		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam			4.510.705.100	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phủ-TCS17 TP. HCM
+		C23TBB		01/12/2023	0314418609				410.064.100		
+3		C23TBB		04/12/2023 12/12/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỨ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thảnh phô Hồ Chí Minh, Việt Nam	42.150.000	3.372.000	45.522.000	Q.Tân Phú-TCS17 TP. HCM
+	1	C23TBB					Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam	59.295.000 931.000	> E=s —ưu, Em mm .	59.295.000 931.000	_Q. Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+		C23TBB		12/12/2023	0314418609		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam				
+2	1 1	C23TBB C23TBB C23TBB		12/12/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỦ” ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỪ- ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TÚ- ĐIỆN LẠNH CỎNG NGHIỆP VIÊT NAM CÔNG TY CỔ PHẦN ĐIỆN TỨ- ĐIỆN LẠNH CỘNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ: ĐIỆN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam	(1.781.700.000)	-178.170.000	-1.959.870.000	Q.Tân Phú-TCS17 TP. HCM
+				12/12/2023 12/12/2023	0314418609			963.400.000	96.340.000	1.059.740.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM ] Q Tân Phú-TCS17 TP. HCM
+194 195	1				0314418609		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam	-1.050.000.000	-105.000.000	-1.155.000.000	
+		C23TBB		12/12/2023 13/12/2023	0314418609 0314418609			5.454.800.000	545.480.000	6.000.280.000	
+196 197 198	1	C23TBB C23TBB C23TBB C23TBB						0	93.100	93.100	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+	nHm nh m			13/12/2023	0314418609		Quận Tân phú, Thành phó Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phó Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phô Hồ Chí Minh, Việt Nam	14.100.000	1.410.000 - 5.929.500 80.200	-15.510.000	
+				13/12/2023	0314418609			802.000		5.929.500 882.200	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+2	1			20/12/2023	0314418609 0314418609						
+	1			20/12/2023				802.000	80.200	882.200	Q.Tân Phú-TCS17 TP. HCM
+201	1 1 L 1			21/12/2023	0314418609	CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIẾN LẠNH CÔNG NGHIỆP VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ- ĐIỀN LẠNH CÔNG NGHIỆP VIỆT NAM	Quận Tân phú, Thánh phô Hồ Chí Minh, Việt Nam . Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	1.604.000 4.010.000 54.,800.000	160.400 401.000	1.764.400 4.411.000	Q.Tân Phú-TCS17 TP. HCM
+202 203 204				21/12/2023	0314418609						Q.Tân Phú-TCS17 TP. HCM
+							Quận Tân phú, Thành phô Hồ Chí Minh, Việt Nam Quan Tân phú, Thảnh phó Hồ Chí Minh, Việt Nam		5.480.000	60.280.000	Q.Tân Phú-TCS17 TP. HCM
+								13.018.000	1.041.440	14.059.440	Q.Tân Phủ-TCS17 TP. HCM
+
+ST	Ký hiệu mẫu số	Ký hiệu hóa đơn	Số hóa đơn	Ngày Hoá đơn	MST người mua/MST người nhận hàng	Tên người mua/Tên người nhận hàng	Địa chỉ người mua	Tông tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	Cơ quan thuế quản lý
+205		C23TBB	75	28/12/2023 29/12/2023	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIET NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	112.000.000 441.750.000	11.200.000 44.175.000	123.200.000	Q.Tân Phú-TCS]7 TP. HCM O.Tân Phú-TCS17 TP. HCM
+206		C23TBB	76		1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam			485.925.000	
+207	1	C23TBB	77	29/12/2023	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ, WISAKA VIẾT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	11.320.000	905.600	12.225.600	Q.Tân Phủ-TCS]17 TP. HCM
+208	= FE	C24TBB	95	06/12/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIỆT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam	74.492.000	7.449.200	81.941.200	Q.Tân Phú-TCS17 TP. HCM
+209 210 20	1	C24TBB	96	06/12/2024	1102001156	CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM = CÔNG TY CỔ PHẦN ĐIỆN TỪ WISAKA VIỆT NAM CÔNG TY CỔ PHẦN ĐIỆN TỬ WISAKA VIẾT NAM	Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam Quan Tân phú, Thành phố Hồ Chí Minh, Việt Nam	5.550.000 3.360.454.000	444.000	5.994.000	Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM Q.Tân Phú-TCS17 TP. HCM
+	1	C24TBB	97	23/12/2024	1102001156				121.806.640 336.045.400	1.644.389.640 3.696.499.400	
+	1	C24TBB	98	26/12/2024	1102001156		Quận Tân phú, Thành phố Hồ Chí Minh, Việt Nam				
+209			99		Tông cộng			263.211.378.618	26.083.280.063	289.294.658.681	
+Người lập bảng
+Ngày 03 tháng 4). năm 2026
+TÔ QLDN2
+Lê Thị Hoàng Mai	Nguyễn Thị Quỳnh
+
+pu I	L w	AN NÔNG THAI TIÊNG NET EE TEEN —
+he's
+FT t TIẾT ÿ

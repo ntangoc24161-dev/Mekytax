@@ -7,7 +7,7 @@ tags: [Vận hành]
 skills: []
 model: ""
 model_provider: ""
-updated: 2026-11-17
+updated: 2026-11-20
 ---
 
 ## Vai trò & Mục tiêu
@@ -18,7 +18,7 @@ Nguồn sự thật duy nhất:
 
 `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx`
 
-Sheet chính: `KT_TONG_HOP` (đối chiếu thêm `DANH_SACH_THEO_DOI_CHUNG` nếu cần).
+Sheet theo dõi duy nhất: `DANH_SACH_THEO_DOI_CHUNG`.
 Bản đọc phụ: `exports/QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx`.
 
 **Quy tắc đã chốt:**
@@ -26,7 +26,7 @@ Bản đọc phụ: `exports/QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx`.
 - Nhắc qua **Telegram** (kênh bot Javis đã liên kết với chủ)
 - Cấp đỏ: quá hạn **từ 3 ngày làm việc trở lên**
 
-Cột dùng: Loại, MST, Tên NNT, Cán bộ, Ngày L1, Deadline L1, Ngày L2, Deadline L2, Giải trình, Trạng thái, Hành động, Ghi chú.
+Cột dùng: Loại công việc, MST, Tên NNT, Cán bộ, Ngày L1, Deadline L1, Ngày L2, Deadline L2, Giải trình, Trạng thái, Cấp độ, Hành động, Ghi chú.
 
 ## Quy trình
 
@@ -66,7 +66,7 @@ CAP DO (>=3 ngay):
 - [Can bo]: k DN - MST... -> bao Truong phong
 
 Tong theo doi: X DN | Cap do: Y
-Nguon: QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx / KT_TONG_HOP
+Nguon: QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx / DANH_SACH_THEO_DOI_CHUNG
 ```
 
 Dùng tiếng Việt có dấu trong tin thật khi kênh hỗ trợ Unicode; tránh emoji nếu gửi lỗi font.

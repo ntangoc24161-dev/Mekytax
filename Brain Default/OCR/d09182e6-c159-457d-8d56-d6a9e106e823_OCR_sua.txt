@@ -1,0 +1,277 @@
+﻿ToolOCR - các chỗ đã tự động sửa (275 chỗ). Trong Word: nền xanh nhạt = đã sửa, tô vàng = nghi ngờ cần soát.
+
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	CHI  ->  CHÍ
+Trang 1	Từ điển	CONG  ->  CỘNG
+Trang 1	Từ điển	XA  ->  XÃ
+Trang 1	Từ điển	CHU  ->  CHỦ
+Trang 1	Từ điển	VIET  ->  VIỆT
+Trang 1	Từ điển	THUÊ  ->  THUẾ
+Trang 1	Từ điển	CO  ->  CƠ
+Trang 1	Từ điển	SO  ->  SỞ
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	CHI  ->  CHÍ
+Trang 1	Từ điển	Hanh  ->  Hạnh
+Trang 1	Từ điển	dâu  ->  dấu
+Trang 1	Từ điển	Ho  ->  Hồ
+Trang 1	Từ điển	trong  ->  trọng
+Trang 1	Từ điển	quản  ->  quan
+Trang 1	Từ điển	don  ->  đơn
+Trang 1	Từ điển	thuê  ->  thuế
+Trang 1	Từ điển	dau  ->  dấu
+Trang 1	Từ điển	trong  ->  trọng
+Trang 1	Từ điển	quản  ->  quan
+Trang 1	Từ điển	dầu  ->  dấu
+Trang 1	Từ điển	trong  ->  trọng
+Trang 1	Từ điển	quản  ->  quan
+Trang 1	Từ điển	ho  ->  hồ
+Trang 1	Từ điển	do  ->  đô
+Trang 2	Từ điển	Tinh  ->  Tình
+Trang 2	Từ điển	Đồi  ->  Đối
+Trang 2	Từ điển	thuê  ->  thuế
+Trang 2	Kiểm tra số	18.698,298.623  ->  18.698.298.623
+Trang 3	Từ điển	địch  ->  dịch
+Trang 3	Kiểm tra số	7.664.772.8535  ->  76.647.728.535
+Trang 3	Kiểm tra số	1.458.950,939  ->  1.458.950.939
+Trang 3	Kiểm tra số	4)  ->  41
+Trang 3	Kiểm tra số	2,127  ->  2.127
+Trang 3	Kiểm tra số	-3.848.805.569  ->  3.848.805.569
+Trang 3	Kiểm tra số	3.846.587.327  ->  (3.846.587.327)
+Trang 3	Kiểm tra số	76.647.728.535  ->  7.664.772.855
+Trang 3	Kiểm tra số	-2.218.242  ->  2.218.242
+Trang 3	Kiểm tra số	-221.826  ->  2.218.242
+Trang 3	Kiểm tra số	(51-3)  ->  43
+Trang 3	Kiểm tra số	2.218.242  ->  221.826
+Trang 3	Kiểm tra số	-436.429.958  ->  436.429.958
+Trang 3	Kiểm tra số	436.208.132  ->  (436.208.132)
+Trang 3	Kiểm tra số	2.218.242  ->  221.826
+Trang 3	Kiểm tra số	3.848.805.569  ->  (3.848.805.569)
+Trang 3	Kiểm tra số	(3.846.587.327)  ->  3.846.587.327
+Trang 3	Kiểm tra số	221.826  ->  (2.218.242)
+Trang 3	Kiểm tra số	221.826  ->  (2.218.242)
+Trang 3	Kiểm tra số	43  ->  (43)
+Trang 3	Kiểm tra số	(2.218.242)  ->  (221.826)
+Trang 3	Kiểm tra số	436.429.958  ->  (436.429.958)
+Trang 3	Kiểm tra số	(436.208.132)  ->  436.208.132
+Trang 3	Kiểm tra số	(2.218.242)  ->  (221.826)
+Trang 3	Kiểm tra số	24,447.101.392  ->  24.447.101.392
+Trang 3	Kiểm tra số	-823.000.000  ->  823.000.000
+Trang 3	Kiểm tra số	23.909.930.766  ->  (23.909.930.766)
+Trang 3	Kiểm tra số	(62-1)  ->  1
+Trang 3	Kiểm tra số	()  ->  (1)
+Trang 3	Kiểm tra số	-65.840.000  ->  65.840.000
+Trang 3	Kiểm tra số	2.291.063.762  ->  (2.291.063.762)
+Trang 3	Kiểm tra số	823.000.000  ->  (823.000.000)
+Trang 3	Kiểm tra số	23.909.930.766  ->  (23.909.930.766)
+Trang 3	Kiểm tra số	1  ->  (1)
+Trang 3	Kiểm tra số	65.840.000  ->  (65.840.000)
+Trang 3	Kiểm tra số	2.291.063.762  ->  (2.291.063.762)
+Trang 4	Kiểm tra số	1.690.420,000  ->  1.690.420.000
+Trang 4	Kiểm tra số	2.173.771.1112  ->  21.737.711.112
+Trang 4	Kiểm tra số	1.289.193.295  ->  (1.289.193.295)
+Trang 4	Kiểm tra số	40.356.178  ->  (40.356.178)
+Trang 4	Kiểm tra số	-40.356.178  ->  40.356.178
+Trang 4	Kiểm tra số	4.035618  ->  (40.356.178)
+Trang 4	Kiểm tra số	-4.035.618  ->  40.356.178
+Trang 4	Kiểm tra số	(6Y=)-(4)  ->  1
+Trang 4	Kiểm tra số	21.737.711.112  ->  2.173.771.112
+Trang 4	Kiểm tra số	207.709.686  ->  (207.709.686)
+Trang 4	Kiểm tra số	(40.356.178)  ->  (4.035.618)
+Trang 4	Kiểm tra số	40.356.178  ->  4.035.618
+Trang 4	Kiểm tra số	(1.289.193.295)  ->  1.289.193.295
+Trang 4	Kiểm tra số	(40.356.178)  ->  40.356.178
+Trang 4	Kiểm tra số	40.356.178  ->  (40.356.178)
+Trang 4	Kiểm tra số	G)  ->  (2)
+Trang 4	Kiểm tra số	(4.035.618)  ->  40.356.178
+Trang 4	Kiểm tra số	4.035.618  ->  (40.356.178)
+Trang 4	Kiểm tra số	1  ->  (1)
+Trang 4	Kiểm tra số	207.709.686  ->  (207.709.686)
+Trang 4	Kiểm tra số	(207.709.686)  ->  207.709.686
+Trang 4	Kiểm tra số	40.356.178  ->  4.035.618
+Trang 4	Kiểm tra số	(40.356.178)  ->  (4.035.618)
+Trang 5	Từ điển	THÁNH  ->  THÀNH
+Trang 5	Từ điển	VU  ->  VỤ
+Trang 5	Từ điển	Sô  ->  Số
+Trang 5	Từ điển	TÔNG  ->  TỔNG
+Trang 5	Từ điển	CÔ  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	SAN  ->  SẢN
+Trang 5	Từ điển	CÔ  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	DƯNG  ->  DỰNG
+Trang 5	Từ điển	CONG  ->  CÔNG
+Trang 5	Từ điển	CO  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	CÔ  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	CÔ  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	LAC  ->  LẠC
+Trang 5	Từ điển	Hỏ  ->  Hồ
+Trang 5	Từ điển	CÔ  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	DƯNG  ->  DỰNG
+Trang 5	Từ điển	HAI  ->  HẢI
+Trang 5	Từ điển	CÔ  ->  CỔ
+Trang 5	Từ điển	PHAN  ->  PHẦN
+Trang 5	Từ điển	Hỗ  ->  Hồ
+Trang 5	Từ điển	TỰ  ->  TƯ
+Trang 5	Từ điển	CÔ  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	CONG  ->  CÔNG
+Trang 5	Từ điển	CO  ->  CỔ
+Trang 5	Từ điển	PHÁN  ->  PHẦN
+Trang 5	Từ điển	Hỏ  ->  Hồ
+Trang 5	Kiểm tra số	896.084.2()  ->  8.960.842
+Trang 6	Từ điển	TẮM  ->  TÂM
+Trang 6	Từ điển	CONG  ->  CÔNG
+Trang 6	Từ điển	CÔ  ->  CỔ
+Trang 6	Từ điển	PHÂN  ->  PHẦN
+Trang 6	Từ điển	CONG  ->  CÔNG
+Trang 6	Từ điển	CO  ->  CỔ
+Trang 6	Từ điển	PHÁN  ->  PHẦN
+Trang 6	Từ điển	Hỗ  ->  Hồ
+Trang 6	Từ điển	CÔ  ->  CỔ
+Trang 6	Từ điển	PHÁN  ->  PHẦN
+Trang 6	Từ điển	Hỗ  ->  Hồ
+Trang 6	Từ điển	Hỗ  ->  Hồ
+Trang 6	Từ điển	CONG  ->  CÔNG
+Trang 6	Từ điển	CO  ->  CỔ
+Trang 6	Từ điển	PHAN  ->  PHẦN
+Trang 6	Từ điển	MỖI  ->  MÔI
+Trang 6	Từ điển	CÓ  ->  CỔ
+Trang 6	Từ điển	PHÁN  ->  PHẦN
+Trang 6	Từ điển	DẦU  ->  ĐẦU
+Trang 6	Từ điển	TRUNG  ->  TRỨNG
+Trang 6	Từ điển	CONG  ->  CÔNG
+Trang 6	Từ điển	CO  ->  CỔ
+Trang 6	Từ điển	PHAN  ->  PHẦN
+Trang 6	Từ điển	CONG  ->  CÔNG
+Trang 6	Từ điển	CO  ->  CỔ
+Trang 6	Từ điển	PHÁN  ->  PHẦN
+Trang 6	Từ điển	DƯNG  ->  DỰNG
+Trang 6	Từ điển	Hỏ  ->  Hồ
+Trang 7	Từ điển	LỎNG  ->  LONG
+Trang 7	Từ điển	Hỏ  ->  Hồ
+Trang 7	Từ điển	GIANG  ->  GIÁNG
+Trang 7	Từ điển	CHÍ  ->  CHỈ
+Trang 7	Từ điển	NGHIẾP  ->  NGHIỆP
+Trang 7	Từ điển	Hỗ  ->  Hồ
+Trang 7	Từ điển	Hỗ  ->  Hồ
+Trang 7	Từ điển	SẲN  ->  SẢN
+Trang 7	Từ điển	CONG  ->  CÔNG
+Trang 7	Từ điển	CO  ->  CỔ
+Trang 7	Từ điển	PHÁN  ->  PHẦN
+Trang 7	Từ điển	THÁT  ->  THẤT
+Trang 7	Kiểm tra số	1.6(15.140  ->  1.615.140
+Trang 8	Từ điển	Hỗ  ->  Hồ
+Trang 8	Từ điển	CÔ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	Hỗ  ->  Hồ
+Trang 8	Từ điển	CÓ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	MÃI  ->  MÁI
+Trang 8	Từ điển	CÓ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	KẺ  ->  KẾ
+Trang 8	Từ điển	NÔI  ->  NỘI
+Trang 8	Từ điển	THÁT  ->  THẤT
+Trang 8	Từ điển	Hỗ  ->  Hồ
+Trang 8	Từ điển	CÓ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	ĐẤU  ->  ĐẦU
+Trang 8	Từ điển	TRIÊN  ->  TRIỂN
+Trang 8	Từ điển	PHỦ  ->  PHÚ
+Trang 8	Từ điển	CÓ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	Hỗ  ->  Hồ
+Trang 8	Từ điển	MÃI  ->  MÁI
+Trang 8	Từ điển	CÔ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	TRIÊN  ->  TRIỂN
+Trang 8	Từ điển	Hỗ  ->  Hồ
+Trang 8	Từ điển	CO  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	CONG  ->  CÔNG
+Trang 8	Từ điển	CÔ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 9	Từ điển	TRIỀN  ->  TRIỂN
+Trang 9	Từ điển	DƯNG  ->  DỰNG
+Trang 9	Từ điển	TOÁN  ->  TOÀN
+Trang 9	Từ điển	TẤN  ->  TÂN
+Trang 9	Từ điển	PHUC  ->  PHÚC
+Trang 9	Từ điển	CONG  ->  CÔNG
+Trang 9	Từ điển	CO  ->  CỔ
+Trang 9	Từ điển	PHÁN  ->  PHẦN
+Trang 9	Từ điển	LAC  ->  LẠC
+Trang 9	Từ điển	ĐAU  ->  ĐẦU
+Trang 9	Từ điển	TRIỀN  ->  TRIỂN
+Trang 9	Từ điển	CONG  ->  CÔNG
+Trang 9	Từ điển	CO  ->  CỔ
+Trang 9	Từ điển	PHAN  ->  PHẦN
+Trang 9	Từ điển	Hỗ  ->  Hồ
+Trang 9	Kiểm tra số	6.371.167.9539  ->  63.711.679.539
+Trang 10	Từ điển	Hỗ  ->  Hồ
+Trang 10	Từ điển	TRIỀN  ->  TRIỂN
+Trang 10	Từ điển	THUẤT  ->  THUẬT
+Trang 10	Từ điển	TẮM  ->  TÂM
+Trang 10	Từ điển	Hỏ  ->  Hồ
+Trang 10	Từ điển	CONG  ->  CÔNG
+Trang 10	Từ điển	CÔ  ->  CỔ
+Trang 10	Từ điển	PHÁN  ->  PHẦN
+Trang 10	Từ điển	Hỗ  ->  Hồ
+Trang 10	Từ điển	CONG  ->  CÔNG
+Trang 10	Từ điển	CO  ->  CỔ
+Trang 10	Từ điển	PHÁN  ->  PHẦN
+Trang 10	Từ điển	CONG  ->  CÔNG
+Trang 10	Từ điển	CO  ->  CỔ
+Trang 10	Từ điển	PHÁN  ->  PHẦN
+Trang 10	Từ điển	Hỗ  ->  Hồ
+Trang 10	Từ điển	SẲN  ->  SẢN
+Trang 10	Từ điển	NGUYÊN  ->  NGUYỄN
+Trang 10	Từ điển	Hỏ  ->  Hồ
+Trang 10	Từ điển	MÃI  ->  MÁI
+Trang 10	Từ điển	DƯNG  ->  DỰNG
+Trang 10	Từ điển	CONG  ->  CÔNG
+Trang 10	Từ điển	CO  ->  CỔ
+Trang 10	Từ điển	PHAN  ->  PHẦN
+Trang 10	Từ điển	CONG  ->  CÔNG
+Trang 10	Từ điển	CO  ->  CỔ
+Trang 10	Từ điển	PHAN  ->  PHẦN
+Trang 10	Từ điển	CÔ  ->  CỔ
+Trang 10	Từ điển	PHÁN  ->  PHẦN
+Trang 10	Từ điển	CONG  ->  CÔNG
+Trang 10	Từ điển	CÓ  ->  CỔ
+Trang 10	Từ điển	PHÁN  ->  PHẦN
+Trang 10	Từ điển	SAN  ->  SẢN
+Trang 10	Từ điển	KIÊN  ->  KIẾN
+Trang 10	Từ điển	CỎ  ->  CỔ
+Trang 10	Từ điển	PHẢN  ->  PHẦN
+Trang 10	Kiểm tra số	2.391.617.8235  ->  23.916.178.235
+Trang 11	Từ điển	gia  ->  giá
+Trang 11	Từ điển	CONG  ->  CÔNG
+Trang 11	Từ điển	CO  ->  CỔ
+Trang 11	Từ điển	PHÁN  ->  PHẦN
+Trang 11	Từ điển	DÂU  ->  ĐẦU
+Trang 11	Từ điển	DƯNG  ->  DỰNG
+Trang 11	Từ điển	Đông  ->  Đồng
+Trang 11	Từ điển	CÔ  ->  CỔ
+Trang 11	Từ điển	PHÃN  ->  PHẦN
+Trang 11	Từ điển	Đông  ->  Đồng
+Trang 11	Từ điển	NGOC  ->  NGỌC
+Trang 11	Từ điển	TỰ  ->  TƯ
+Trang 11	Từ điển	Lãk  ->  Lắk
+Trang 11	Từ điển	PHÙ  ->  PHÚ
+Trang 12	Từ điển	Thuê  ->  Thuế
+Trang 12	Từ điển	Thuê  ->  Thuế
+Trang 12	Kiểm tra số	11.242,379.000  ->  11.242.379.000
+Trang 12	Số thứ tự	$  ->  5
+Trang 12	Số thứ tự	  ->  7
+Trang 13	Từ điển	CO  ->  CƠ
+Trang 13	Từ điển	SO  ->  SỞ
+Trang 13	Từ điển	THUE  ->  THUẾ
+Trang 13	Từ điển	CO  ->  CƠ
+Trang 13	Từ điển	SO  ->  SỞ
+Trang 13	Từ điển	“Than  ->  “Thân

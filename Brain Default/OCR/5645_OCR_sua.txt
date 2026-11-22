@@ -1,0 +1,2043 @@
+﻿ToolOCR - các chỗ đã tự động sửa (2041 chỗ). Trong Word: nền xanh nhạt = đã sửa, tô vàng = nghi ngờ cần soát.
+
+Trang 1	Từ điển	Chi  ->  Chí
+Trang 1	Từ điển	don  ->  đơn
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	DONG  ->  ĐỒNG
+Trang 1	Từ điển	Co  ->  Cơ
+Trang 1	Từ điển	hoa  ->  hóa
+Trang 1	Từ điển	don,  ->  đơn,
+Trang 1	Từ điển	xây  ->  xảy
+Trang 1	Từ điển	ra  ->  rã
+Trang 1	Từ điển	Đông  ->  Đồng
+Trang 2	Từ điển	XA  ->  XÃ
+Trang 2	Từ điển	HOI  ->  HỘI
+Trang 2	Từ điển	trần  ->  trấn
+Trang 2	Từ điển	phó  ->  phố
+Trang 2	Kiểm tra số	83,500,000  ->  83.500.000
+Trang 2	Kiểm tra số	49,000,000  ->  49.000.000
+Trang 2	Kiểm tra số	39,172,000  ->  39.172.000
+Trang 2	Kiểm tra số	19,480,000  ->  19.480.000
+Trang 2	Kiểm tra số	16,368,000  ->  16.368.000
+Trang 2	Kiểm tra số	10,100,000  ->  10.100.000
+Trang 2	Kiểm tra số	9,520,000  ->  9.520.000
+Trang 2	Kiểm tra số	9,320,000  ->  9.320.000
+Trang 2	Kiểm tra số	8,350,000  ->  8.350.000
+Trang 2	Kiểm tra số	4,900,000  ->  4.900.000
+Trang 2	Kiểm tra số	2,265,300  ->  2.265.300
+Trang 2	Kiểm tra số	1,948,000  ->  1.948.000
+Trang 2	Kiểm tra số	1,636,800  ->  1.636.800
+Trang 2	Kiểm tra số	1,010,000  ->  1.010.000
+Trang 2	Kiểm tra số	952,000  ->  952.000
+Trang 2	Kiểm tra số	932,000  ->  932.000
+Trang 2	Kiểm tra số	91,850,000  ->  91.850.000
+Trang 2	Kiểm tra số	53,900,000  ->  53.900.000
+Trang 2	Kiểm tra số	24,918,300  ->  24.918.300
+Trang 2	Kiểm tra số	21,428,000  ->  21.428.000
+Trang 2	Kiểm tra số	18,004,800  ->  18.004.800
+Trang 2	Kiểm tra số	11,110,000  ->  11.110.000
+Trang 2	Kiểm tra số	10,472,000  ->  10.472.000
+Trang 2	Kiểm tra số	10,252,000  ->  10.252.000
+Trang 3	Từ điển	Trần  ->  Trấn
+Trang 3	Từ điển	Tuần,  ->  Tuấn,
+Trang 3	Kiểm tra số	2 .  ->  2.
+Trang 3	Kiểm tra số	8,924,000  ->  8.924.000
+Trang 3	Kiểm tra số	7,618,184  ->  7.618.184
+Trang 3	Kiểm tra số	6,540,000  ->  6.540.000
+Trang 3	Kiểm tra số	6,230,000  ->  6.230.000
+Trang 3	Kiểm tra số	6,181,850  ->  6.181.850
+Trang 3	Kiểm tra số	5,535,000  ->  5.535.000
+Trang 3	Kiểm tra số	5,000,000  ->  5.000.000
+Trang 3	Kiểm tra số	4,930,000  ->  4.930.000
+Trang 3	Kiểm tra số	2,150,000  ->  2.150.000
+Trang 3	Kiểm tra số	3,645,000  ->  3.645.000
+Trang 3	Kiểm tra số	3,600,000  ->  3.600.000
+Trang 3	Kiểm tra số	2,418,168  ->  2.418.168
+Trang 3	Kiểm tra số	66,000,000  ->  66.000.000
+Trang 3	Kiểm tra số	892,400  ->  892.400
+Trang 3	Kiểm tra số	761,818  ->  761.818
+Trang 3	Kiểm tra số	654,000  ->  654.000
+Trang 3	Kiểm tra số	623,000  ->  623.000
+Trang 3	Kiểm tra số	618,185  ->  618.185
+Trang 3	Kiểm tra số	553,500  ->  553.500
+Trang 3	Kiểm tra số	500,000  ->  500.000
+Trang 3	Kiểm tra số	493,000  ->  493.000
+Trang 3	Kiểm tra số	430,000  ->  430.000
+Trang 3	Kiểm tra số	364,500  ->  364.500
+Trang 3	Kiểm tra số	360,000  ->  360.000
+Trang 3	Kiểm tra số	241,817  ->  241.817
+Trang 3	Kiểm tra số	-6,600,000  ->  -6.600.000
+Trang 3	Kiểm tra số	9,816,400  ->  9.816.400
+Trang 3	Kiểm tra số	8,380,002  ->  8.380.002
+Trang 3	Kiểm tra số	7,194,000  ->  7.194.000
+Trang 3	Kiểm tra số	6,853,000  ->  6.853.000
+Trang 3	Kiểm tra số	6,800,035  ->  6.800.035
+Trang 3	Kiểm tra số	6,088,500  ->  6.088.500
+Trang 3	Kiểm tra số	5,500,000  ->  5.500.000
+Trang 3	Kiểm tra số	5,423,000  ->  5.423.000
+Trang 3	Kiểm tra số	4,730,000  ->  4.730.000
+Trang 3	Kiểm tra số	4,009,500  ->  4.009.500
+Trang 3	Kiểm tra số	3,960,000  ->  3.960.000
+Trang 3	Kiểm tra số	2,659,985  ->  2.659.985
+Trang 3	Kiểm tra số	72,600,000  ->  72.600.000
+Trang 3	Số thứ tự	-10  ->  10
+Trang 3	Số thứ tự	li  ->  11
+Trang 3	Kiểm tra số	-6.600.000  ->  6.600.000
+Trang 4	Từ điển	Hoa  ->  Hòa
+Trang 4	Từ điển	Tông  ->  Tổng
+Trang 4	Từ điển	Phúc.  ->  Phục.
+Trang 4	Kiểm tra số	58,169,400  ->  58.169.400
+Trang 4	Kiểm tra số	51,750,000  ->  51.750.000
+Trang 4	Kiểm tra số	45,454,546  ->  45.454.546
+Trang 4	Kiểm tra số	43,821,600  ->  43.821.600
+Trang 4	Kiểm tra số	46,595,000  ->  46.595.000
+Trang 4	Kiểm tra số	32,730,000  ->  32.730.000
+Trang 4	Kiểm tra số	32,500,000  ->  32.500.000
+Trang 4	Kiểm tra số	26,740,000  ->  26.740.000
+Trang 4	Kiểm tra số	22,735,800  ->  22.735.800
+Trang 4	Kiểm tra số	22,700,000  ->  22.700.000
+Trang 4	Kiểm tra số	20,891,000  ->  20.891.000
+Trang 4	Kiểm tra số	17,500,000  ->  17.500.000
+Trang 4	Kiểm tra số	5,816,940  ->  5.816.940
+Trang 4	Kiểm tra số	5,175,000  ->  5.175.000
+Trang 4	Kiểm tra số	4,545,455  ->  4.545.455
+Trang 4	Kiểm tra số	4,302,484  ->  4.302.484
+Trang 4	Kiểm tra số	3,744,300  ->  3.744.300
+Trang 4	Kiểm tra số	3,273,000  ->  3.273.000
+Trang 4	Kiểm tra số	3,250,000  ->  3.250.000
+Trang 4	Kiểm tra số	2,674,000  ->  2.674.000
+Trang 4	Kiểm tra số	2,273,580  ->  2.273.580
+Trang 4	Kiểm tra số	2,270,000  ->  2.270.000
+Trang 4	Kiểm tra số	2,089,100  ->  2.089.100
+Trang 4	Kiểm tra số	1,750,000  ->  1.750.000
+Trang 4	Kiểm tra số	63,986,340  ->  63.986.340
+Trang 4	Kiểm tra số	56,925,000  ->  56.925.000
+Trang 4	Kiểm tra số	50,000,001  ->  50.000.001
+Trang 4	Kiểm tra số	47,327,328  ->  47.327.328
+Trang 4	Kiểm tra số	41,187,300  ->  41.187.300
+Trang 4	Kiểm tra số	36,003,000  ->  36.003.000
+Trang 4	Kiểm tra số	35,750,000  ->  35.750.000
+Trang 4	Kiểm tra số	29,414,000  ->  29.414.000
+Trang 4	Kiểm tra số	25,009,380  ->  25.009.380
+Trang 4	Kiểm tra số	24,970,000  ->  24.970.000
+Trang 4	Kiểm tra số	22,980,100  ->  22.980.100
+Trang 4	Kiểm tra số	19,250,000  ->  19.250.000
+Trang 5	Kiểm tra số	13,636,364  ->  13.636.364
+Trang 5	Kiểm tra số	12,727,273  ->  12.727.273
+Trang 5	Kiểm tra số	11,605,000  ->  11.605.000
+Trang 5	Kiểm tra số	10,909,200  ->  10.909.200
+Trang 5	Kiểm tra số	10,500,000  ->  10.500.000
+Trang 5	Kiểm tra số	10,210,000  ->  10.210.000
+Trang 5	Kiểm tra số	9,140,000  ->  9.140.000
+Trang 5	Kiểm tra số	9,240,000  ->  9.240.000
+Trang 5	Kiểm tra số	8,772,727  ->  8.772.727
+Trang 5	Kiểm tra số	8,250,000  ->  8.250.000
+Trang 5	Kiểm tra số	7,272,727  ->  7.272.727
+Trang 5	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 5	Kiểm tra số	6,681,818  ->  6.681.818
+Trang 5	Kiểm tra số	6,640,000  ->  6.640.000
+Trang 5	Kiểm tra số	1,363,636  ->  1.363.636
+Trang 5	Kiểm tra số	1,272,727  ->  1.272.727
+Trang 5	Kiểm tra số	1,160,500  ->  1.160.500
+Trang 5	Kiểm tra số	1,090,920  ->  1.090.920
+Trang 5	Kiểm tra số	1,050,000  ->  1.050.000
+Trang 5	Kiểm tra số	882,000  ->  882.000
+Trang 5	Kiểm tra số	877,273  ->  877.273
+Trang 5	Kiểm tra số	825,000  ->  825.000
+Trang 5	Kiểm tra số	727,273  ->  727.273
+Trang 5	Kiểm tra số	700,000  ->  700.000
+Trang 5	Kiểm tra số	668,182  ->  668.182
+Trang 5	Kiểm tra số	664,000  ->  664.000
+Trang 5	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 5	Kiểm tra số	14,000,000  ->  14.000.000
+Trang 5	Kiểm tra số	12,765,500  ->  12.765.500
+Trang 5	Kiểm tra số	12,000,120  ->  12.000.120
+Trang 5	Kiểm tra số	11,550,000  ->  11.550.000
+Trang 5	Kiểm tra số	11,231,000  ->  11.231.000
+Trang 5	Kiểm tra số	10,054,000  ->  10.054.000
+Trang 5	Kiểm tra số	9,702,000  ->  9.702.000
+Trang 5	Kiểm tra số	9,650,000  ->  9.650.000
+Trang 5	Kiểm tra số	9,075,000  ->  9.075.000
+Trang 5	Kiểm tra số	8,000,000  ->  8.000.000
+Trang 5	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 5	Kiểm tra số	7,350,000  ->  7.350.000
+Trang 5	Kiểm tra số	7,304,000  ->  7.304.000
+Trang 5	Kiểm tra số	882.000  ->  462.000
+Trang 6	Từ điển	trần  ->  trấn
+Trang 6	Từ điển	Yu  ->  Yù
+Trang 6	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 6	Kiểm tra số	5,587,200  ->  5.587.200
+Trang 6	Kiểm tra số	5,382,000  ->  5.382.000
+Trang 6	Kiểm tra số	5,250,000  ->  5.250.000
+Trang 6	Kiểm tra số	4,650,000  ->  4.650.000
+Trang 6	Kiểm tra số	4,640,000  ->  4.640.000
+Trang 6	Kiểm tra số	4,536,364  ->  4.536.364
+Trang 6	Kiểm tra số	4,300,000  ->  4.300.000
+Trang 6	Kiểm tra số	4,070,000  ->  4.070.000
+Trang 6	Kiểm tra số	3,900,000  ->  3.900.000
+Trang 6	Kiểm tra số	3,740,000  ->  3.740.000
+Trang 6	Kiểm tra số	3,648,000  ->  3.648.000
+Trang 6	Kiểm tra số	3,250,000  ->  3.250.000
+Trang 6	Kiểm tra số	600,000  ->  600.000
+Trang 6	Kiểm tra số	558,720  ->  558.720
+Trang 6	Kiểm tra số	538,200  ->  538.200
+Trang 6	Kiểm tra số	525,000  ->  525.000
+Trang 6	Kiểm tra số	465,000  ->  465.000
+Trang 6	Kiểm tra số	464,000  ->  464.000
+Trang 6	Kiểm tra số	453,636  ->  453.636
+Trang 6	Kiểm tra số	430,000  ->  430.000
+Trang 6	Kiểm tra số	407,000  ->  407.000
+Trang 6	Kiểm tra số	390,000  ->  390.000
+Trang 6	Kiểm tra số	374,000  ->  374.000
+Trang 6	Kiểm tra số	364,800  ->  364.800
+Trang 6	Kiểm tra số	325,000  ->  325.000
+Trang 6	Kiểm tra số	6,600,000  ->  6.600.000
+Trang 6	Kiểm tra số	6,145,920  ->  6.145.920
+Trang 6	Kiểm tra số	5,920,200  ->  5.920.200
+Trang 6	Kiểm tra số	5,775,000  ->  5.775.000
+Trang 6	Kiểm tra số	5,115,000  ->  5.115.000
+Trang 6	Kiểm tra số	5,104,000  ->  5.104.000
+Trang 6	Kiểm tra số	4,990,000  ->  4.990.000
+Trang 6	Kiểm tra số	4,730,000  ->  4.730.000
+Trang 6	Kiểm tra số	4,477,000  ->  4.477.000
+Trang 6	Kiểm tra số	4,290,000  ->  4.290.000
+Trang 6	Kiểm tra số	4,114,000  ->  4.114.000
+Trang 6	Kiểm tra số	4,012,800  ->  4.012.800
+Trang 6	Kiểm tra số	3,575,000  ->  3.575.000
+Trang 7	Từ điển	trần  ->  trấn
+Trang 7	Từ điển	Đông  ->  Đồng
+Trang 7	Kiểm tra số	2,727,273  ->  2.727.273
+Trang 7	Kiểm tra số	2,700,000  ->  2.700.000
+Trang 7	Kiểm tra số	2,446,500  ->  2.446.500
+Trang 7	Kiểm tra số	1,909,091  ->  1.909.091
+Trang 7	Kiểm tra số	1,863,600  ->  1.863.600
+Trang 7	Kiểm tra số	1,401,869  ->  1.401.869
+Trang 7	Kiểm tra số	16,730,000  ->  16.730.000
+Trang 7	Kiểm tra số	7,200,000  ->  7.200.000
+Trang 7	Kiểm tra số	19,713,000  ->  19.713.000
+Trang 7	Kiểm tra số	13,888,890  ->  13.888.890
+Trang 7	Kiểm tra số	7,944,456  ->  7.944.456
+Trang 7	Kiểm tra số	5,101,000  ->  5.101.000
+Trang 7	Kiểm tra số	91,008,674  ->  91.008.674
+Trang 7	Kiểm tra số	90,633,636  ->  90.633.636
+Trang 7	Kiểm tra số	272,727  ->  272.727
+Trang 7	Kiểm tra số	270,000  ->  270.000
+Trang 7	Kiểm tra số	244,650  ->  244.650
+Trang 7	Kiểm tra số	190,909  ->  190.909
+Trang 7	Kiểm tra số	186,360  ->  186.360
+Trang 7	Kiểm tra số	136,364  ->  136.364
+Trang 7	Kiểm tra số	1,673,000  ->  1.673.000
+Trang 7	Kiểm tra số	720,000  ->  720.000
+Trang 7	Kiểm tra số	1,935,458  ->  1.935.458
+Trang 7	Kiểm tra số	1,111,110  ->  1.111.110
+Trang 7	Kiểm tra số	635,556  ->  635.556
+Trang 7	Kiểm tra số	408,080  ->  408.080
+Trang 7	Kiểm tra số	9,100,868  ->  9.100.868
+Trang 7	Kiểm tra số	9,063,364  ->  9.063.364
+Trang 7	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 7	Kiểm tra số	2,970,000  ->  2.970.000
+Trang 7	Kiểm tra số	2,691,150  ->  2.691.150
+Trang 7	Kiểm tra số	2,100,000  ->  2.100.000
+Trang 7	Kiểm tra số	2,049,960  ->  2.049.960
+Trang 7	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 7	Kiểm tra số	18,403,000  ->  18.403.000
+Trang 7	Kiểm tra số	7,920,000  ->  7.920.000
+Trang 7	Kiểm tra số	21,290,040  ->  21.290.040
+Trang 7	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 7	Kiểm tra số	8,580,012  ->  8.580.012
+Trang 7	Kiểm tra số	5,509,080  ->  5.509.080
+Trang 7	Kiểm tra số	100,109,542  ->  100.109.542
+Trang 7	Kiểm tra số	99,697,000  ->  99.697.000
+Trang 8	Từ điển	Hồ  ->  Hố
+Trang 8	Từ điển	trần  ->  trấn
+Trang 8	Từ điển	Hồ  ->  Hố
+Trang 8	Kiểm tra số	84,700,000  ->  84.700.000
+Trang 8	Kiểm tra số	72,280,000  ->  72.280.000
+Trang 8	Kiểm tra số	67,636,296  ->  67.636.296
+Trang 8	Kiểm tra số	63,164,000  ->  63.164.000
+Trang 8	Kiểm tra số	53,295,000  ->  53.295.000
+Trang 8	Kiểm tra số	48,181,819  ->  48.181.819
+Trang 8	Kiểm tra số	147,659,256  ->  147.659.256
+Trang 8	Kiểm tra số	36,150,000  ->  36.150.000
+Trang 8	Kiểm tra số	33,527,273  ->  33.527.273
+Trang 8	Kiểm tra số	32,666,000  ->  32.666.000
+Trang 8	Kiểm tra số	31,813,426  ->  31.813.426
+Trang 8	Kiểm tra số	30,909,091  ->  30.909.091
+Trang 8	Kiểm tra số	28,015,020  ->  28.015.020
+Trang 8	Kiểm tra số	6,776,000  ->  6.776.000
+Trang 8	Kiểm tra số	7,228,000  ->  7.228.000
+Trang 8	Kiểm tra số	6,763,630  ->  6.763.630
+Trang 8	Kiểm tra số	6,516,400  ->  6.516.400
+Trang 8	Kiểm tra số	5,329,500  ->  5.329.500
+Trang 8	Kiểm tra số	4,818,181  ->  4.818.181
+Trang 8	Kiểm tra số	11,812,744  ->  11.812.744
+Trang 8	Kiểm tra số	3,615,000  ->  3.615.000
+Trang 8	Kiểm tra số	3,352,727  ->  3.352.727
+Trang 8	Kiểm tra số	3,266,600  ->  3.266.600
+Trang 8	Kiểm tra số	2,545,074  ->  2.545.074
+Trang 8	Kiểm tra số	3,090,909  ->  3.090.909
+Trang 8	Kiểm tra số	2,241,202  ->  2.241.202
+Trang 8	Kiểm tra số	91,476,000  ->  91.476.000
+Trang 8	Kiểm tra số	79,508,000  ->  79.508.000
+Trang 8	Kiểm tra số	74,399,926  ->  74.399.926
+Trang 8	Kiểm tra số	71,680,400  ->  71.680.400
+Trang 8	Kiểm tra số	58,624,500  ->  58.624.500
+Trang 8	Kiểm tra số	53,000,000  ->  53.000.000
+Trang 8	Kiểm tra số	159,472,000  ->  159.472.000
+Trang 8	Kiểm tra số	39,765,000  ->  39.765.000
+Trang 8	Kiểm tra số	36,380,000  ->  36.380.000
+Trang 8	Kiểm tra số	35,932,600  ->  35.932.600
+Trang 8	Kiểm tra số	34,358,500  ->  34.358.500
+Trang 8	Kiểm tra số	34,000,000  ->  34.000.000
+Trang 8	Kiểm tra số	30,256,222  ->  30.256.222
+Trang 8	Kiểm tra số	63.164.000  ->  65.164.000
+Trang 8	Kiểm tra số	33.527.273  ->  33.027.273
+Trang 9	Kiểm tra số	27,343,425  ->  27.343.425
+Trang 9	Kiểm tra số	25,925,924  ->  25.925.924
+Trang 9	Kiểm tra số	20,000,000  ->  20.000.000
+Trang 9	Kiểm tra số	18,421,000  ->  18.421.000
+Trang 9	Kiểm tra số	16,705,000  ->  16.705.000
+Trang 9	Kiểm tra số	15,184,800  ->  15.184.800
+Trang 9	Kiểm tra số	13,500,000  ->  13.500.000
+Trang 9	Kiểm tra số	12,680,140  ->  12.680.140
+Trang 9	Kiểm tra số	12,512,500  ->  12.512.500
+Trang 9	Kiểm tra số	11,653,000  ->  11.653.000
+Trang 9	Kiểm tra số	10,300,000  ->  10.300.000
+Trang 9	Kiểm tra số	9,500,000  ->  9.500.000
+Trang 9	Kiểm tra số	8,400,000  ->  8.400.000
+Trang 9	Kiểm tra số	2,256,565  ->  2.256.565
+Trang 9	Kiểm tra số	2,074,074  ->  2.074.074
+Trang 9	Kiểm tra số	2,000,000  ->  2.000.000
+Trang 9	Kiểm tra số	1,473,680  ->  1.473.680
+Trang 9	Kiểm tra số	1,336,400  ->  1.336.400
+Trang 9	Kiểm tra số	1,518,480  ->  1.518.480
+Trang 9	Kiểm tra số	1,080,000  ->  1.080.000
+Trang 9	Kiểm tra số	1,014,411  ->  1.014.411
+Trang 9	Kiểm tra số	1,251,250  ->  1.251.250
+Trang 9	Kiểm tra số	1,165,300  ->  1.165.300
+Trang 9	Kiểm tra số	934,000  ->  934.000
+Trang 9	Kiểm tra số	760,000  ->  760.000
+Trang 9	Kiểm tra số	840,000  ->  840.000
+Trang 9	Kiểm tra số	29,599,990  ->  29.599.990
+Trang 9	Kiểm tra số	27,999,998  ->  27.999.998
+Trang 9	Kiểm tra số	22,000,000  ->  22.000.000
+Trang 9	Kiểm tra số	19,894,680  ->  19.894.680
+Trang 9	Kiểm tra số	18,041,400  ->  18.041.400
+Trang 9	Kiểm tra số	16,703,280  ->  16.703.280
+Trang 9	Kiểm tra số	14,580,000  ->  14.580.000
+Trang 9	Kiểm tra số	13,694,551  ->  13.694.551
+Trang 9	Kiểm tra số	13,763,750  ->  13.763.750
+Trang 9	Kiểm tra số	12,818,300  ->  12.818.300
+Trang 9	Kiểm tra số	11,234,000  ->  11.234.000
+Trang 9	Kiểm tra số	10,260,000  ->  10.260.000
+Trang 9	Kiểm tra số	9,240,000  ->  9.240.000
+Trang 9	Số thứ tự	Mi  ->  94
+Trang 10	Từ điển	Hồ  ->  Hố
+Trang 10	Từ điển	Đông  ->  Đồng
+Trang 10	Từ điển	Tông  ->  Tổng
+Trang 10	Kiểm tra số	6,944,444  ->  6.944.444
+Trang 10	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 10	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 10	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 10	Kiểm tra số	5,822,000  ->  5.822.000
+Trang 10	Kiểm tra số	5,087,500  ->  5.087.500
+Trang 10	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 10	Kiểm tra số	2,100,000  ->  2.100.000
+Trang 10	Kiểm tra số	1,787,000  ->  1.787.000
+Trang 10	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 10	Kiểm tra số	1,244,900  ->  1.244.900
+Trang 10	Kiểm tra số	600,000  ->  600.000
+Trang 10	Kiểm tra số	93,480,000  ->  93.480.000
+Trang 10	Kiểm tra số	. 595,556  ->  595.556
+Trang 10	Kiểm tra số	600,000  ->  600.000
+Trang 10	Kiểm tra số	480,000  ->  480.000
+Trang 10	Kiểm tra số	600,000  ->  600.000
+Trang 10	Kiểm tra số	582,200  ->  582.200
+Trang 10	Kiểm tra số	407,000  ->  407.000
+Trang 10	Kiểm tra số	240,000  ->  240.000
+Trang 10	Kiểm tra số	210,000  ->  210.000
+Trang 10	Kiểm tra số	178,700  ->  178.700
+Trang 10	Kiểm tra số	120,000  ->  120.000
+Trang 10	Kiểm tra số	124,490  ->  124.490
+Trang 10	Kiểm tra số	60,000  ->  60.000
+Trang 10	Kiểm tra số	7,478,400  ->  7.478.400
+Trang 10	Kiểm tra số	7,500,000  ->  7.500.000
+Trang 10	Kiểm tra số	6,600,000  ->  6.600.000
+Trang 10	Kiểm tra số	6,480,000  ->  6.480.000
+Trang 10	Kiểm tra số	6,404,200  ->  6.404.200
+Trang 10	Kiểm tra số	5,494,500  ->  5.494.500
+Trang 10	Kiểm tra số	3,240,000  ->  3.240.000
+Trang 10	Kiểm tra số	2,310,000  ->  2.310.000
+Trang 10	Kiểm tra số	1,965,700  ->  1.965.700
+Trang 10	Kiểm tra số	1,620,000  ->  1.620.000
+Trang 10	Kiểm tra số	1,369,390  ->  1.369.390
+Trang 10	Kiểm tra số	660,000  ->  660.000
+Trang 10	Kiểm tra số	100,958,400  ->  100.958.400
+Trang 10	Kiểm tra số	6.944.444  ->  6.904.444
+Trang 10	Kiểm tra số	600.000  ->  500.000
+Trang 11	Từ điển	Phúc  ->  Phục
+Trang 11	Kiểm tra số	77,011,000  ->  77.011.000
+Trang 11	Kiểm tra số	68,510,000  ->  68.510.000
+Trang 11	Kiểm tra số	99,750,000  ->  99.750.000
+Trang 11	Kiểm tra số	78,500,000  ->  78.500.000
+Trang 11	Kiểm tra số	77,343,597  ->  77.343.597
+Trang 11	Kiểm tra số	71,074,900  ->  71.074.900
+Trang 11	Kiểm tra số	69,650,000  ->  69.650.000
+Trang 11	Kiểm tra số	68,806,880  ->  68.806.880
+Trang 11	Kiểm tra số	54,272,330  ->  54.272.330
+Trang 11	Kiểm tra số	7,701,100  ->  7.701.100
+Trang 11	Kiểm tra số	5,956,800  ->  5.956.800
+Trang 11	Kiểm tra số	3,872,727  ->  3.872.727
+Trang 11	Kiểm tra số	2,306,000  ->  2.306.000
+Trang 11	Kiểm tra số	9,975,000  ->  9.975.000
+Trang 11	Kiểm tra số	6,790,000  ->  6.790.000
+Trang 11	Kiểm tra số	6,187,488  ->  6.187.488
+Trang 11	Kiểm tra số	7,107,490  ->  7.107.490
+Trang 11	Kiểm tra số	6,965,000  ->  6.965.000
+Trang 11	Kiểm tra số	6,880,688  ->  6.880.688
+Trang 11	Kiểm tra số	5,427,233  ->  5.427.233
+Trang 11	Kiểm tra số	84,712,100  ->  84.712.100
+Trang 11	Kiểm tra số	74,466,800  ->  74.466.800
+Trang 11	Kiểm tra số	42,599,999  ->  42.599.999
+Trang 11	Kiểm tra số	25,366,000  ->  25.366.000
+Trang 11	Kiểm tra số	103,680,000  ->  103.680.000
+Trang 11	Kiểm tra số	109,725,000  ->  109.725.000
+Trang 11	Kiểm tra số	85,290,000  ->  85.290.000
+Trang 11	Kiểm tra số	83,531,085  ->  83.531.085
+Trang 11	Kiểm tra số	78,182,390  ->  78.182.390
+Trang 11	Kiểm tra số	76,615,000  ->  76.615.000
+Trang 11	Kiểm tra số	75,687,568  ->  75.687.568
+Trang 11	Kiểm tra số	59,699,563  ->  59.699.563
+Trang 12	Từ điển	Thiên  ->  Thiện
+Trang 12	Từ điển	(trong  ->  (trọng
+Trang 12	Từ điển	dụng  ->  dựng
+Trang 12	Từ điển	Tiếu  ->  Tiểu
+Trang 12	Từ điển	Hồ  ->  Hố
+Trang 12	Từ điển	Hồ  ->  Hố
+Trang 12	Kiểm tra số	50,925,926  ->  50.925.926
+Trang 12	Kiểm tra số	49,113,000  ->  49.113.000
+Trang 12	Kiểm tra số	40,130,850  ->  40.130.850
+Trang 12	Kiểm tra số	36,165,000  ->  36.165.000
+Trang 12	Kiểm tra số	36,000,000  ->  36.000.000
+Trang 12	Kiểm tra số	30,936,640  ->  30.936.640
+Trang 12	Kiểm tra số	30,300,000  ->  30.300.000
+Trang 12	Kiểm tra số	28,179,000  ->  28.179.000
+Trang 12	Kiểm tra số	25,102,000  ->  25.102.000
+Trang 12	Kiểm tra số	25,000,000  ->  25.000.000
+Trang 12	Kiểm tra số	16,800,000  ->  16.800.000
+Trang 12	Kiểm tra số	16,692,400  ->  16.692.400
+Trang 12	Kiểm tra số	12,710,000  ->  12.710.000
+Trang 12	Kiểm tra số	4,074,074  ->  4.074.074
+Trang 12	Kiểm tra số	4,911,300  ->  4.911.300
+Trang 12	Kiểm tra số	3,729,468  ->  3.729.468
+Trang 12	Kiểm tra số	2,893,200  ->  2.893.200
+Trang 12	Kiểm tra số	2,880,000  ->  2.880.000
+Trang 12	Kiểm tra số	3,093,664  ->  3.093.664
+Trang 12	Kiểm tra số	2,424,000  ->  2.424.000
+Trang 12	Kiểm tra số	2,817,900  ->  2.817.900
+Trang 12	Kiểm tra số	2,018,560  ->  2.018.560
+Trang 12	Kiểm tra số	2,500,000  ->  2.500.000
+Trang 12	Kiểm tra số	1,680,000  ->  1.680.000
+Trang 12	Kiểm tra số	1,669,240  ->  1.669.240
+Trang 12	Kiểm tra số	1,271,000  ->  1.271.000
+Trang 12	Kiểm tra số	55,000,000  ->  55.000.000
+Trang 12	Kiểm tra số	54,024,300  ->  54.024.300
+Trang 12	Kiểm tra số	43,860,318  ->  43.860.318
+Trang 12	Kiểm tra số	39,058,200  ->  39.058.200
+Trang 12	Kiểm tra số	38,880,000  ->  38.880.000
+Trang 12	Kiểm tra số	34,030,304  ->  34.030.304
+Trang 12	Kiểm tra số	32,724,000  ->  32.724.000
+Trang 12	Kiểm tra số	30,996,900  ->  30.996.900
+Trang 12	Kiểm tra số	27,120,560  ->  27.120.560
+Trang 12	Kiểm tra số	27,500,000  ->  27.500.000
+Trang 12	Kiểm tra số	18,480,000  ->  18.480.000
+Trang 12	Kiểm tra số	18,361,640  ->  18.361.640
+Trang 12	Kiểm tra số	13,981,000  ->  13.981.000
+Trang 12	Số thứ tự	152  ->  132
+Trang 13	Từ điển	Trần  ->  Trấn
+Trang 13	Từ điển	Thu  ->  Thư
+Trang 13	Từ điển	trần  ->  trấn
+Trang 13	Kiểm tra số	0,427,500  ->  0.427.500
+Trang 13	Kiểm tra số	8,500,000  ->  8.500.000
+Trang 13	Kiểm tra số	6,595,000  ->  6.595.000
+Trang 13	Kiểm tra số	6,145,000  ->  6.145.000
+Trang 13	Kiểm tra số	5,670,000  ->  5.670.000
+Trang 13	Kiểm tra số	4,500,000  ->  4.500.000
+Trang 13	Kiểm tra số	121,588,910  ->  121.588.910
+Trang 13	Kiểm tra số	4,000,000  ->  4.000.000
+Trang 13	Kiểm tra số	3,600,000  ->  3.600.000
+Trang 13	Kiểm tra số	3,300,000  ->  3.300.000
+Trang 13	Kiểm tra số	1,230,000  ->  1.230.000
+Trang 13	Kiểm tra số	888,889  ->  888.889
+Trang 13	Kiểm tra số	-754,200  ->  -754.200
+Trang 13	Kiểm tra số	680,000  ->  680.000
+Trang 13	Kiểm tra số	659,500  ->  659.500
+Trang 13	Kiểm tra số	491,600  ->  491.600
+Trang 13	Kiểm tra số	453,600  ->  453.600
+Trang 13	Kiểm tra số	-450,000  ->  -450.000
+Trang 13	Kiểm tra số	10,549,551  ->  10.549.551
+Trang 13	Kiểm tra số	320,000  ->  320.000
+Trang 13	Kiểm tra số	360,000  ->  360.000
+Trang 13	Kiểm tra số	264,000  ->  264.000
+Trang 13	Kiểm tra số	13,530,000  ->  13.530.000
+Trang 13	Kiểm tra số	12,000,000  ->  12.000.000
+Trang 13	Kiểm tra số	10,181,700  ->  10.181.700
+Trang 13	Kiểm tra số	9,180,000  ->  9.180.000
+Trang 13	Kiểm tra số	7,254,500  ->  7.254.500
+Trang 13	Kiểm tra số	6,636,600  ->  6.636.600
+Trang 13	Kiểm tra số	6,123,600  ->  6.123.600
+Trang 13	Kiểm tra số	4,950,000  ->  4.950.000
+Trang 13	Kiểm tra số	132,138,461  ->  132.138.461
+Trang 13	Kiểm tra số	4,320,000  ->  4.320.000
+Trang 13	Kiểm tra số	3,960,000  ->  3.960.000
+Trang 13	Kiểm tra số	3,564,000  ->  3.564.000
+Trang 13	Số thứ tự	144.  ->  144
+Trang 13	Kiểm tra số	-754.200  ->  9.754.200
+Trang 13	Kiểm tra số	-450.000  ->  450.000
+Trang 14	Từ điển	dụng  ->  dựng
+Trang 14	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 14	Kiểm tra số	93,556,148  ->  93.556.148
+Trang 14	Kiểm tra số	71,120,000  ->  71.120.000
+Trang 14	Kiểm tra số	68,181,819  ->  68.181.819
+Trang 14	Kiểm tra số	36,340,000  ->  36.340.000
+Trang 14	Kiểm tra số	36,247,900  ->  36.247.900
+Trang 14	Kiểm tra số	33,730,000  ->  33.730.000
+Trang 14	Kiểm tra số	17,952,000  ->  17.952.000
+Trang 14	Kiểm tra số	11,083,333  ->  11.083.333
+Trang 14	Kiểm tra số	5,537,000  ->  5.537.000
+Trang 14	Kiểm tra số	90,000,000  ->  90.000.000
+Trang 14	Kiểm tra số	87,330,000  ->  87.330.000
+Trang 14	Kiểm tra số	83,144,609  ->  83.144.609
+Trang 14	Kiểm tra số	300,000  ->  300.000
+Trang 14	Kiểm tra số	7,484,492  ->  7.484.492
+Trang 14	Kiểm tra số	7,112,000  ->  7.112.000
+Trang 14	Kiểm tra số	6,818,182  ->  6.818.182
+Trang 14	Kiểm tra số	3,634,000  ->  3.634.000
+Trang 14	Kiểm tra số	3,624,790  ->  3.624.790
+Trang 14	Kiểm tra số	3,366,400  ->  3.366.400
+Trang 14	Kiểm tra số	1,795,200  ->  1.795.200
+Trang 14	Kiểm tra số	886,667  ->  886.667
+Trang 14	Kiểm tra số	442,960  ->  442.960
+Trang 14	Kiểm tra số	9,000,000  ->  9.000.000
+Trang 14	Kiểm tra số	8,733,000  ->  8.733.000
+Trang 14	Kiểm tra số	8,314,461  ->  8.314.461
+Trang 14	Kiểm tra số	3,300,000  ->  3.300.000
+Trang 14	Kiểm tra số	101,040,640  ->  101.040.640
+Trang 14	Kiểm tra số	78,232,000  ->  78.232.000
+Trang 14	Kiểm tra số	75,000,001  ->  75.000.001
+Trang 14	Kiểm tra số	39,974,000  ->  39.974.000
+Trang 14	Kiểm tra số	39,872,690  ->  39.872.690
+Trang 14	Kiểm tra số	37,096,400  ->  37.096.400
+Trang 14	Kiểm tra số	19,747,200  ->  19.747.200
+Trang 14	Kiểm tra số	11,970,000  ->  11.970.000
+Trang 14	Kiểm tra số	5,979,960  ->  5.979.960
+Trang 14	Kiểm tra số	99,000,000  ->  99.000.000
+Trang 14	Kiểm tra số	96,063,000  ->  96.063.000
+Trang 14	Kiểm tra số	91,459,070  ->  91.459.070
+Trang 14	Số thứ tự	lối  ->  161
+Trang 15	Từ điển	tính  ->  tịnh
+Trang 15	Từ điển	Hồ  ->  Hố
+Trang 15	Từ điển	Vũ  ->  Vu
+Trang 15	Từ điển	dụng  ->  dựng
+Trang 15	Kiểm tra số	80,550,500  ->  80.550.500
+Trang 15	Kiểm tra số	71,775,000  ->  71.775.000
+Trang 15	Kiểm tra số	68,000,000  ->  68.000.000
+Trang 15	Kiểm tra số	67,175,000  ->  67.175.000
+Trang 15	Kiểm tra số	55,000,000  ->  55.000.000
+Trang 15	Kiểm tra số	41,400,000  ->  41.400.000
+Trang 15	Kiểm tra số	27,810,000  ->  27.810.000
+Trang 15	Kiểm tra số	19,679,000  ->  19.679.000
+Trang 15	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 15	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 15	Kiểm tra số	16,800,000  ->  16.800.000
+Trang 15	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 15	Kiểm tra số	13,818,000  ->  13.818.000
+Trang 15	Kiểm tra số	12,731,800  ->  12.731.800
+Trang 15	Kiểm tra số	7,067,240  ->  7.067.240
+Trang 15	Kiểm tra số	7,177,500  ->  7.177.500
+Trang 15	Kiểm tra số	-6,000,000  ->  -6.000.000
+Trang 15	Kiểm tra số	6,717,500  ->  6.717.500
+Trang 15	Kiểm tra số	5,500,000  ->  5.500.000
+Trang 15	Kiểm tra số	3,312,000  ->  3.312.000
+Trang 15	Kiểm tra số	2,781,000  ->  2.781.000
+Trang 15	Kiểm tra số	1,819,300  ->  1.819.300
+Trang 15	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 15	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 15	Kiểm tra số	1,680,000  ->  1.680.000
+Trang 15	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 15	Kiểm tra số	1,381,800  ->  1.381.800
+Trang 15	Kiểm tra số	1,273,180  ->  1.273.180
+Trang 15	Kiểm tra số	87,617,740  ->  87.617.740
+Trang 15	Kiểm tra số	78,952,500  ->  78.952.500
+Trang 15	Kiểm tra số	74,000,000  ->  74.000.000
+Trang 15	Kiểm tra số	73,892,500  ->  73.892.500
+Trang 15	Kiểm tra số	60,500,000  ->  60.500.000
+Trang 15	Kiểm tra số	44,712,000  ->  44.712.000
+Trang 15	Kiểm tra số	30,591,000  ->  30.591.000
+Trang 15	Kiểm tra số	21,498,300  ->  21.498.300
+Trang 15	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 15	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 15	Kiểm tra số	18,480,000  ->  18.480.000
+Trang 15	Kiểm tra số	16,500,000  ->  16.500.000
+Trang 15	Kiểm tra số	15,199,800  ->  15.199.800
+Trang 15	Kiểm tra số	14,004,980  ->  14.004.980
+Trang 15	Số thứ tự	170-  ->  170
+Trang 15	Kiểm tra số	-6.000.000  ->  6.000.000
+Trang 16	Từ điển	Trần  ->  Trấn
+Trang 16	Kiểm tra số	10,488,000  ->  10.488.000
+Trang 16	Kiểm tra số	9,800,000  ->  9.800.000
+Trang 16	Kiểm tra số	6,944,000  ->  6.944.000
+Trang 16	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 16	Kiểm tra số	71,110,000  ->  71.110.000
+Trang 16	Kiểm tra số	27,000,000  ->  27.000.000
+Trang 16	Kiểm tra số	61,500,000  ->  61.500.000
+Trang 16	Kiểm tra số	65,400,000  ->  65.400.000
+Trang 16	Kiểm tra số	30,019,500  ->  30.019.500
+Trang 16	Kiểm tra số	50,600,000  ->  50.600.000
+Trang 16	Kiểm tra số	40,813,637  ->  40.813.637
+Trang 16	Kiểm tra số	1,048,800  ->  1.048.800
+Trang 16	Kiểm tra số	980,000  ->  980.000
+Trang 16	Kiểm tra số	694,400  ->  694.400
+Trang 16	Kiểm tra số	300,000  ->  300.000
+Trang 16	Kiểm tra số	7,111,000  ->  7.111.000
+Trang 16	Kiểm tra số	2,700,000  ->  2.700.000
+Trang 16	Kiểm tra số	6,150,000  ->  6.150.000
+Trang 16	Kiểm tra số	6,540,000  ->  6.540.000
+Trang 16	Kiểm tra số	.3,001,950  ->  3.001.950
+Trang 16	Kiểm tra số	5,060,000  ->  5.060.000
+Trang 16	Kiểm tra số	4,081,364  ->  4.081.364
+Trang 16	Kiểm tra số	11,536,800  ->  11.536.800
+Trang 16	Kiểm tra số	10,780,000  ->  10.780.000
+Trang 16	Kiểm tra số	-7,638,400  ->  -7.638.400
+Trang 16	Kiểm tra số	3,300,000  ->  3.300.000
+Trang 16	Kiểm tra số	78,221,000  ->  78.221.000
+Trang 16	Kiểm tra số	29,700,000  ->  29.700.000
+Trang 16	Kiểm tra số	67,650,000  ->  67.650.000
+Trang 16	Kiểm tra số	71,940,000  ->  71.940.000
+Trang 16	Kiểm tra số	33,021,450  ->  33.021.450
+Trang 16	Kiểm tra số	55,660,000  ->  55.660.000
+Trang 16	Kiểm tra số	44,895,001  ->  44.895.001
+Trang 16	Kiểm tra số	-7.638.400  ->  7.638.400
+Trang 17	Từ điển	Hiếp  ->  Hiệp
+Trang 17	Kiểm tra số	1 .  ->  1.
+Trang 17	Kiểm tra số	18,090,909  ->  18.090.909
+Trang 17	Kiểm tra số	18,090,909  ->  18.090.909
+Trang 17	Kiểm tra số	18,090,909  ->  18.090.909
+Trang 17	Kiểm tra số	18,090,909  ->  18.090.909
+Trang 17	Kiểm tra số	14,000,000  ->  14.000.000
+Trang 17	Kiểm tra số	150,000  ->  150.000
+Trang 17	Kiểm tra số	3,599,999  ->  3.599.999
+Trang 17	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 17	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 17	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 17	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 17	Kiểm tra số	1,400,000  ->  1.400.000
+Trang 17	Kiểm tra số	1,650,000  ->  1.650.000
+Trang 17	Kiểm tra số	39,599,991  ->  39.599.991
+Trang 17	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 17	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 17	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 17	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 17	Kiểm tra số	15,400,000  ->  15.400.000
+Trang 18	Từ điển	CO  ->  CƠ
+Trang 18	Từ điển	BANG  ->  BẢNG
+Trang 18	Từ điển	KE  ->  KÊ
+Trang 18	Từ điển	BAT  ->  BẤT
+Trang 18	Từ điển	QUÓC  ->  QUỐC
+Trang 18	Từ điển	QUÓC  ->  QUỐC
+Trang 18	Từ điển	Địch  ->  Dịch
+Trang 18	Từ điển	dụng  ->  dựng
+Trang 18	Kiểm tra số	16,700,000  ->  16.700.000
+Trang 18	Kiểm tra số	16,700,000  ->  16.700.000
+Trang 18	Kiểm tra số	16,700,000  ->  16.700.000
+Trang 18	Kiểm tra số	16,700,000  ->  16.700.000
+Trang 18	Kiểm tra số	16,700,000  ->  16.700.000
+Trang 18	Kiểm tra số	3,648,000  ->  3.648.000
+Trang 18	Kiểm tra số	12,300,000  ->  12.300.000
+Trang 18	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 18	Kiểm tra số	305,000  ->  305.000
+Trang 18	Kiểm tra số	2,900,000  ->  2.900.000
+Trang 18	Kiểm tra số	8,400,000  ->  8.400.000
+Trang 18	Kiểm tra số	8,772,727  ->  8.772.727
+Trang 18	Kiểm tra số	11,534,000  ->  11.534.000
+Trang 18	Kiểm tra số	520,000  ->  520.000
+Trang 18	Kiểm tra số	13,048,000  ->  13.048.000
+Trang 18	Kiểm tra số	7,272,727  ->  7.272.727
+Trang 18	Kiểm tra số	16,800,000  ->  16.800.000
+Trang 18	Kiểm tra số	1,772,727  ->  1.772.727
+Trang 18	Kiểm tra số	1,670,000  ->  1.670.000
+Trang 18	Kiểm tra số	1,670,000  ->  1.670.000
+Trang 18	Kiểm tra số	1,670,000  ->  1.670.000
+Trang 18	Kiểm tra số	1,670,000  ->  1.670.000
+Trang 18	Kiểm tra số	1,670,000  ->  1.670.000
+Trang 18	Kiểm tra số	364,800  ->  364.800
+Trang 18	Kiểm tra số	1,230,000  ->  1.230.000
+Trang 18	Kiểm tra số	480,000  ->  480.000
+Trang 18	Kiểm tra số	30,500  ->  30.500
+Trang 18	Kiểm tra số	290,000  ->  290.000
+Trang 18	Kiểm tra số	840,000  ->  840.000
+Trang 18	Kiểm tra số	877,273  ->  877.273
+Trang 18	Kiểm tra số	922,720  ->  922.720
+Trang 18	Kiểm tra số	52,000  ->  52.000
+Trang 18	Kiểm tra số	1,043,840  ->  1.043.840
+Trang 18	Kiểm tra số	727,273  ->  727.273
+Trang 18	Kiểm tra số	1,680,000  ->  1.680.000
+Trang 18	Kiểm tra số	177,273  ->  177.273
+Trang 18	Kiểm tra số	18,370,000  ->  18.370.000
+Trang 18	Kiểm tra số	18,370,000  ->  18.370.000
+Trang 18	Kiểm tra số	18,370,000  ->  18.370.000
+Trang 18	Kiểm tra số	18,370,000  ->  18.370.000
+Trang 18	Kiểm tra số	18,370,000  ->  18.370.000
+Trang 18	Kiểm tra số	4,012,800  ->  4.012.800
+Trang 18	Kiểm tra số	13,530,000  ->  13.530.000
+Trang 18	Kiểm tra số	6,480,000  ->  6.480.000
+Trang 18	Kiểm tra số	335,500  ->  335.500
+Trang 18	Kiểm tra số	3,190,000.  ->  3.190.000
+Trang 18	Kiểm tra số	9,240,000  ->  9.240.000
+Trang 18	Kiểm tra số	9,650,000  ->  9.650.000
+Trang 18	Kiểm tra số	12,456,720  ->  12.456.720
+Trang 18	Kiểm tra số	572,000  ->  572.000
+Trang 18	Kiểm tra số	14,091,840  ->  14.091.840
+Trang 18	Kiểm tra số	8,000,000  ->  8.000.000
+Trang 18	Kiểm tra số	18,480,000  ->  18.480.000
+Trang 18	Kiểm tra số	1,950,000  ->  1.950.000
+Trang 18	Kiểm tra số	031 5442227  ->  0315442227
+Trang 19	Từ điển	Đâu  ->  Đầu
+Trang 19	Từ điển	TÔNG  ->  TỔNG
+Trang 19	Từ điển	ĐÓNG  ->  ĐỒNG
+Trang 19	Từ điển	TÔNG  ->  TỔNG
+Trang 19	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 19	Từ điển	Nam  ->  Nằm
+Trang 19	Từ điển	Đại  ->  Dài
+Trang 19	Từ điển	Nguyễn  ->  Nguyên
+Trang 19	Từ điển	ÚY  ->  ỦY
+Trang 19	Từ điển	BẠN  ->  BAN
+Trang 19	Từ điển	UY  ->  ỦY
+Trang 19	Từ điển	BẠN  ->  BAN
+Trang 19	Từ điển	DẦN  ->  DÂN
+Trang 19	Từ điển	TRẦN  ->  TRẤN
+Trang 19	Kiểm tra số	8,090,909  ->  8.090.909
+Trang 19	Kiểm tra số	6,045,455  ->  6.045.455
+Trang 19	Kiểm tra số	12,090,909  ->  12.090.909
+Trang 19	Kiểm tra số	1,772,727  ->  1.772.727
+Trang 19	Kiểm tra số	3,545,455  ->  3.545.455
+Trang 19	Kiểm tra số	6,045,455  ->  6.045.455
+Trang 19	Kiểm tra số	3,545,455  ->  3.545.455
+Trang 19	Kiểm tra số	5,272,727  ->  5.272.727
+Trang 19	Kiểm tra số	1,909,091  ->  1.909.091
+Trang 19	Kiểm tra số	16,125,000  ->  16.125.000
+Trang 19	Kiểm tra số	16,605,000  ->  16.605.000
+Trang 19	Kiểm tra số	13,888,890  ->  13.888.890
+Trang 19	Kiểm tra số	4,536,364  ->  4.536.364
+Trang 19	Kiểm tra số	8,250,000  ->  8.250.000
+Trang 19	Kiểm tra số	4,300,000  ->  4.300.000
+Trang 19	Kiểm tra số	-18,090,909  ->  -18.090.909
+Trang 19	Kiểm tra số	18,090,909  ->  18.090.909
+Trang 19	Kiểm tra số	18,090,909  ->  18.090.909
+Trang 19	Kiểm tra số	18,090,909  ->  18.090.909
+Trang 19	Kiểm tra số	4,250,000  ->  4.250.000
+Trang 19	Kiểm tra số	3,300,000  ->  3.300.000
+Trang 19	Kiểm tra số	17,080,000  ->  17.080.000
+Trang 19	Kiểm tra số	3,180,000  ->  3.180.000
+Trang 19	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 19	Kiểm tra số	2,297,000  ->  2.297.000
+Trang 19	Kiểm tra số	809,091  ->  809.091
+Trang 19	Kiểm tra số	604,545  ->  604.545
+Trang 19	Kiểm tra số	1,209,091  ->  1.209.091
+Trang 19	Kiểm tra số	177,273  ->  177.273
+Trang 19	Kiểm tra số	354,545  ->  354.545
+Trang 19	Kiểm tra số	604,545  ->  604.545
+Trang 19	Kiểm tra số	354,545  ->  354.545
+Trang 19	Kiểm tra số	527,273  ->  527.273
+Trang 19	Kiểm tra số	190,909  ->  190.909
+Trang 19	Kiểm tra số	1,612,500  ->  1.612.500
+Trang 19	Kiểm tra số	1,660,500  ->  1.660.500
+Trang 19	Kiểm tra số	1,111,110  ->  1.111.110
+Trang 19	Kiểm tra số	453,636  ->  453.636
+Trang 19	Kiểm tra số	825,000  ->  825.000
+Trang 19	Kiểm tra số	430,000  ->  430.000
+Trang 19	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 19	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 19	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 19	Kiểm tra số	1,809,091  ->  1.809.091
+Trang 19	Kiểm tra số	425,000  ->  425.000
+Trang 19	Kiểm tra số	330,000  ->  330.000
+Trang 19	Kiểm tra số	1,708,000  ->  1.708.000
+Trang 19	Kiểm tra số	318,000  ->  318.000
+Trang 19	Kiểm tra số	600,000  ->  600.000
+Trang 19	Kiểm tra số	229,700  ->  229.700
+Trang 19	Kiểm tra số	8,900,000  ->  8.900.000
+Trang 19	Kiểm tra số	6,650,000  ->  6.650.000
+Trang 19	Kiểm tra số	13,300,000  ->  13.300.000
+Trang 19	Kiểm tra số	1,950,000  ->  1.950.000
+Trang 19	Kiểm tra số	3,900,000  ->  3.900.000
+Trang 19	Kiểm tra số	6,650,000  ->  6.650.000
+Trang 19	Kiểm tra số	3,900,000  ->  3.900.000
+Trang 19	Kiểm tra số	5,800,000  ->  5.800.000
+Trang 19	Kiểm tra số	2,100,000  ->  2.100.000
+Trang 19	Kiểm tra số	17,757,500  ->  17.757.500
+Trang 19	Kiểm tra số	18,265,500  ->  18.265.500
+Trang 19	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 19	Kiểm tra số	4,990,000  ->  4.990.000
+Trang 19	Kiểm tra số	9,075,000  ->  9.075.000
+Trang 19	Kiểm tra số	4,730,000  ->  4.730.000
+Trang 19	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 19	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 19	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 19	Kiểm tra số	19,900,000  ->  19.900.000
+Trang 19	Kiểm tra số	4,675,000  ->  4.675.000
+Trang 19	Kiểm tra số	3,630,000  ->  3.630.000
+Trang 19	Kiểm tra số	18,788,000  ->  18.788.000
+Trang 19	Kiểm tra số	3,498,000  ->  3.498.000
+Trang 19	Kiểm tra số	6,600,000  ->  6.600.000
+Trang 19	Kiểm tra số	2,526,700  ->  2.526.700
+Trang 19	Số thứ tự	2  ->  23
+Trang 19	Kiểm tra số	16.125.000  ->  16.145.000
+Trang 19	Kiểm tra số	-18.090.909  ->  18.090.909
+Trang 20	Từ điển	Thịnh  ->  Thỉnh
+Trang 20	Từ điển	Nguyễn  ->  Nguyên
+Trang 20	Từ điển	PHÁM  ->  PHẨM
+Trang 20	Từ điển	Thuơng  ->  Thương
+Trang 20	Từ điển	GIÁ  ->  GIA
+Trang 20	Từ điển	Nam  ->  Nằm
+Trang 20	Từ điển	Đại  ->  Dài
+Trang 20	Từ điển	Thuơng  ->  Thương
+Trang 20	Từ điển	Thuơng  ->  Thương
+Trang 20	Từ điển	Nguyễn  ->  Nguyên
+Trang 20	Từ điển	Tuần  ->  Tuấn
+Trang 20	Từ điển	hóa  ->  hòa
+Trang 20	Từ điển	Tuân  ->  Tuấn
+Trang 20	Kiểm tra số	2,297,000  ->  2.297.000
+Trang 20	Kiểm tra số	2,046,000  ->  2.046.000
+Trang 20	Kiểm tra số	14,000,000  ->  14.000.000
+Trang 20	Kiểm tra số	7,430,000  ->  7.430.000
+Trang 20	Kiểm tra số	6,789,000  ->  6.789.000
+Trang 20	Kiểm tra số	5,460,000  ->  5.460.000
+Trang 20	Kiểm tra số	10,613,426  ->  10.613.426
+Trang 20	Kiểm tra số	2,700,000  ->  2.700.000
+Trang 20	Kiểm tra số	18,500,000  ->  18.500.000
+Trang 20	Kiểm tra số	2,800,000  ->  2.800.000
+Trang 20	Kiểm tra số	3,500,000  ->  3.500.000
+Trang 20	Kiểm tra số	2,800,000  ->  2.800.000
+Trang 20	Kiểm tra số	41,500,000  ->  41.500.000
+Trang 20	Kiểm tra số	10,500,000  ->  10.500.000
+Trang 20	Kiểm tra số	2,727273  ->  2.727.273
+Trang 20	Kiểm tra số	4,500,000  ->  4.500.000
+Trang 20	Kiểm tra số	12,727,273  ->  12.727.273
+Trang 20	Kiểm tra số	4,000,000  ->  4.000.000
+Trang 20	Kiểm tra số	11,653,000  ->  11.653.000
+Trang 20	Kiểm tra số	14,089,500  ->  14.089.500
+Trang 20	Kiểm tra số	14,089,500  ->  14.089.500
+Trang 20	Kiểm tra số	15,510,000  ->  15.510.000
+Trang 20	Kiểm tra số	50,490,000  ->  50.490.000
+Trang 20	Kiểm tra số	3,550,000  ->  3.550.000
+Trang 20	Kiểm tra số	1,700,000  ->  1.700.000
+Trang 20	Kiểm tra số	229,700  ->  229.700
+Trang 20	Kiểm tra số	204,600  ->  204.600
+Trang 20	Kiểm tra số	1,400,000  ->  1.400.000
+Trang 20	Kiểm tra số	594,400  ->  594.400
+Trang 20	Kiểm tra số	678,900  ->  678.900
+Trang 20	Kiểm tra số	546,000  ->  546.000
+Trang 20	Kiểm tra số	849,074  ->  849.074
+Trang 20	Kiểm tra số	216,000  ->  216.000
+Trang 20	Kiểm tra số	1,480,000  ->  1.480.000
+Trang 20	Kiểm tra số	224,000  ->  224.000
+Trang 20	Kiểm tra số	280,000  ->  280.000
+Trang 20	Kiểm tra số	224,000  ->  224.000
+Trang 20	Kiểm tra số	4,150,000  ->  4.150.000
+Trang 20	Kiểm tra số	1,050,000  ->  1.050.000
+Trang 20	Kiểm tra số	272,727  ->  272.727
+Trang 20	Kiểm tra số	450,000  ->  450.000
+Trang 20	Kiểm tra số	1,272,727  ->  1.272.727
+Trang 20	Kiểm tra số	320,000  ->  320.000
+Trang 20	Kiểm tra số	1,165,300  ->  1.165.300
+Trang 20	Kiểm tra số	1,408,950  ->  1.408.950
+Trang 20	Kiểm tra số	1,408,950  ->  1.408.950
+Trang 20	Kiểm tra số	1,551,000  ->  1.551.000
+Trang 20	Kiểm tra số	5,049,000  ->  5.049.000
+Trang 20	Kiểm tra số	355,000  ->  355.000
+Trang 20	Kiểm tra số	170,000  ->  170.000
+Trang 20	Kiểm tra số	2,526,700  ->  2.526.700
+Trang 20	Kiểm tra số	2,250,600  ->  2.250.600
+Trang 20	Kiểm tra số	15,400,000  ->  15.400.000
+Trang 20	Kiểm tra số	8,024,400  ->  8.024.400
+Trang 20	Kiểm tra số	7,467,900  ->  7.467.900
+Trang 20	Kiểm tra số	6,006,000  ->  6.006.000
+Trang 20	Kiểm tra số	11,462,500  ->  11.462.500
+Trang 20	Kiểm tra số	2,916,000  ->  2.916.000
+Trang 20	Kiểm tra số	19,980,000  ->  19.980.000
+Trang 20	Kiểm tra số	3,024,000  ->  3.024.000
+Trang 20	Kiểm tra số	3,780,000  ->  3.780.000
+Trang 20	Kiểm tra số	3,024,000  ->  3.024.000
+Trang 20	Kiểm tra số	45,650,000  ->  45.650.000
+Trang 20	Kiểm tra số	11,550,000  ->  11.550.000
+Trang 20	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 20	Kiểm tra số	4,950,000  ->  4.950.000
+Trang 20	Kiểm tra số	14,000,000  ->  14.000.000
+Trang 20	Kiểm tra số	4,320,000  ->  4.320.000
+Trang 20	Kiểm tra số	12,818,300  ->  12.818.300
+Trang 20	Kiểm tra số	15,498,450  ->  15.498.450
+Trang 20	Kiểm tra số	15,498,450  ->  15.498.450
+Trang 20	Kiểm tra số	17,061,000  ->  17.061.000
+Trang 20	Kiểm tra số	55,539,000  ->  55.539.000
+Trang 20	Kiểm tra số	3,905,000  ->  3.905.000
+Trang 20	Kiểm tra số	1,870,000.  ->  1.870.000
+Trang 21	Từ điển	CÔ  ->  CỔ
+Trang 21	Từ điển	PHÁN  ->  PHẦN
+Trang 21	Từ điển	CÔ  ->  CỔ
+Trang 21	Từ điển	CÀU  ->  CẦU
+Trang 21	Từ điển	VÒNG  ->  VỒNG
+Trang 21	Từ điển	Nguyễn  ->  Nguyên
+Trang 21	Từ điển	CÔ  ->  CỔ
+Trang 21	Từ điển	PHÂN  ->  PHẦN
+Trang 21	Từ điển	DÃU  ->  DẦU
+Trang 21	Từ điển	CÔ  ->  CỔ
+Trang 21	Từ điển	PHÁN  ->  PHẦN
+Trang 21	Từ điển	Nguyễn  ->  Nguyên
+Trang 21	Từ điển	Nam  ->  Nằm
+Trang 21	Từ điển	Đại  ->  Dài
+Trang 21	Từ điển	Nguyễn  ->  Nguyên
+Trang 21	Kiểm tra số	6,944,000  ->  6.944.000
+Trang 21	Kiểm tra số	11,940,000  ->  11.940.000
+Trang 21	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 21	Kiểm tra số	8,180,850  ->  8.180.850
+Trang 21	Kiểm tra số	14,010,000  ->  14.010.000
+Trang 21	Kiểm tra số	68,806,880  ->  68.806.880
+Trang 21	Kiểm tra số	11,375,000  ->  11.375.000
+Trang 21	Kiểm tra số	7.000,000  ->  7.000.000
+Trang 21	Kiểm tra số	2,516,000  ->  2.516.000
+Trang 21	Kiểm tra số	5,587,200  ->  5.587.200
+Trang 21	Kiểm tra số	3,250,000  ->  3.250.000
+Trang 21	Kiểm tra số	10,909,200  ->  10.909.200
+Trang 21	Kiểm tra số	3,740,000  ->  3.740.000
+Trang 21	Kiểm tra số	3,600,000  ->  3.600.000
+Trang 21	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 21	Kiểm tra số	5,110,000  ->  5.110.000
+Trang 21	Kiểm tra số	5,100,000  ->  5.100.000
+Trang 21	Kiểm tra số	6,681,818  ->  6.681.818
+Trang 21	Kiểm tra số	3,611,500  ->  3.611.500
+Trang 21	Kiểm tra số	13,281,000  ->  13.281.000
+Trang 21	Kiểm tra số	20,799,300  ->  20.799.300
+Trang 21	Kiểm tra số	20,477,600  ->  20.477.600
+Trang 21	Kiểm tra số	3,300,000  ->  3.300.000
+Trang 21	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 21	Kiểm tra số	5,570,000  ->  5.570.000
+Trang 21	Kiểm tra số	11,160,000  ->  11.160.000
+Trang 21	Kiểm tra số	4,640,000  ->  4.640.000
+Trang 21	Kiểm tra số	694,400  ->  694.400
+Trang 21	Kiểm tra số	1,194,000  ->  1.194.000
+Trang 21	Kiểm tra số	480,000  ->  480.000
+Trang 21	Kiểm tra số	654,468  ->  654.468
+Trang 21	Kiểm tra số	1,401,000  ->  1.401.000
+Trang 21	Kiểm tra số	6,880,688  ->  6.880.688
+Trang 21	Kiểm tra số	1,137,500  ->  1.137.500
+Trang 21	Kiểm tra số	700,000  ->  700.000
+Trang 21	Kiểm tra số	251,600  ->  251.600
+Trang 21	Kiểm tra số	558,720  ->  558.720
+Trang 21	Kiểm tra số	325,000  ->  325.000
+Trang 21	Kiểm tra số	1,090,920  ->  1.090.920
+Trang 21	Kiểm tra số	374,000  ->  374.000
+Trang 21	Kiểm tra số	360,000  ->  360.000
+Trang 21	Kiểm tra số	120,000  ->  120.000
+Trang 21	Kiểm tra số	511,000  ->  511.000
+Trang 21	Kiểm tra số	510,000  ->  510.000
+Trang 21	Kiểm tra số	668,182  ->  668.182
+Trang 21	Kiểm tra số	361,150  ->  361.150
+Trang 21	Kiểm tra số	1,328,100  ->  1.328.100
+Trang 21	Kiểm tra số	2,079,930  ->  2.079.930
+Trang 21	Kiểm tra số	2,047,760  ->  2.047.760
+Trang 21	Kiểm tra số	264,000  ->  264.000
+Trang 21	Kiểm tra số	300,000  ->  300.000
+Trang 21	Kiểm tra số	557,000  ->  557.000
+Trang 21	Kiểm tra số	1,116,000  ->  1.116.000
+Trang 21	Kiểm tra số	464,000  ->  464.000
+Trang 21	Kiểm tra số	7,638,400  ->  7.638.400
+Trang 21	Kiểm tra số	13,134,000  ->  13.134.000
+Trang 21	Kiểm tra số	6,480,000  ->  6.480.000
+Trang 21	Kiểm tra số	8,835,318  ->  8.835.318
+Trang 21	Kiểm tra số	15,411,000  ->  15.411.000
+Trang 21	Kiểm tra số	75,687,568  ->  75.687.568
+Trang 21	Kiểm tra số	12,512,500  ->  12.512.500
+Trang 21	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 21	Kiểm tra số	6,145,920  ->  6.145.920
+Trang 21	Kiểm tra số	3,575,000  ->  3.575.000
+Trang 21	Kiểm tra số	12,000,120  ->  12.000.120
+Trang 21	Kiểm tra số	4,114,000  ->  4.114.000
+Trang 21	Kiểm tra số	3,960,000  ->  3.960.000
+Trang 21	Kiểm tra số	1,620,000  ->  1.620.000
+Trang 21	Kiểm tra số	5,621,000  ->  5.621.000
+Trang 21	Kiểm tra số	5,610,000  ->  5.610.000
+Trang 21	Kiểm tra số	7,350,000  ->  7.350.000
+Trang 21	Kiểm tra số	3,972,650  ->  3.972.650
+Trang 21	Kiểm tra số	14,609,100  ->  14.609.100
+Trang 21	Kiểm tra số	22,879,230  ->  22.879.230
+Trang 21	Kiểm tra số	22,525,360  ->  22.525.360
+Trang 21	Kiểm tra số	3,564,000  ->  3.564.000
+Trang 21	Kiểm tra số	3,300,000  ->  3.300.000
+Trang 21	Kiểm tra số	6,127,000  ->  6.127.000
+Trang 21	Kiểm tra số	12,276.000  ->  12.276.000
+Trang 21	Kiểm tra số	5,104,000  ->  5.104.000
+Trang 22	Từ điển	CÔ  ->  CỔ
+Trang 22	Từ điển	PHÁN  ->  PHẦN
+Trang 22	Từ điển	dụng  ->  dựng
+Trang 22	Từ điển	Nguyễn  ->  Nguyên
+Trang 22	Từ điển	Thuơng  ->  Thương
+Trang 22	Từ điển	Nam  ->  Nằm
+Trang 22	Từ điển	Đại  ->  Dài
+Trang 22	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 22	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 22	Từ điển	ĐÓNG  ->  ĐỒNG
+Trang 22	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 22	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 22	Từ điển	MAY  ->  MÁY
+Trang 22	Từ điển	ẵm  ->  ẩm
+Trang 22	Từ điển	NGUYÊN  ->  NGUYỄN
+Trang 22	Từ điển	Đâu  ->  Đầu
+Trang 22	Từ điển	Nam  ->  Nằm
+Trang 22	Từ điển	Đại  ->  Dài
+Trang 22	Kiểm tra số	4,070,000  ->  4.070.000
+Trang 22	Kiểm tra số	6,595,000  ->  6.595.000
+Trang 22	Kiểm tra số	15,184,800  ->  15.184.800
+Trang 22	Kiểm tra số	16,250,000  ->  16.250.000
+Trang 22	Kiểm tra số	16,250,000  ->  16.250.000
+Trang 22	Kiểm tra số	4,700,000  ->  4.700.000
+Trang 22	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 22	Kiểm tra số	12,315,500  ->  12.315.500
+Trang 22	Kiểm tra số	24,556,500  ->  24.556.500
+Trang 22	Kiểm tra số	12,241,000  ->  12.241.000
+Trang 22	Kiểm tra số	9,140,000  ->  9.140.000
+Trang 22	Kiểm tra số	15,300,000  ->  15.300.000
+Trang 22	Kiểm tra số	17,150,000  ->  17.150.000
+Trang 22	Kiểm tra số	16,900,000  ->  16.900.000
+Trang 22	Kiểm tra số	14,300,000  ->  14.300.000
+Trang 22	Kiểm tra số	17,350,000  ->  17.350.000
+Trang 22	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 22	Kiểm tra số	5,382,000  ->  5.382.000
+Trang 22	Kiểm tra số	1,401,869  ->  1.401.869
+Trang 22	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 22	Kiểm tra số	18,421,000  ->  18.421.000
+Trang 22	Kiểm tra số	600,000  ->  600.000
+Trang 22	Kiểm tra số	10,000,000  ->  10.000.000
+Trang 22	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 22	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 22	Kiểm tra số	407,000  ->  407.000
+Trang 22	Kiểm tra số	659,500  ->  659.500
+Trang 22	Kiểm tra số	1,518,480  ->  1.518.480
+Trang 22	Kiểm tra số	1,625,000  ->  1.625.000
+Trang 22	Kiểm tra số	1,625,000  ->  1.625.000
+Trang 22	Kiểm tra số	470,000  ->  470.000
+Trang 22	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 22	Kiểm tra số	1,231,550  ->  1.231.550
+Trang 22	Kiểm tra số	2,455,650  ->  2.455.650
+Trang 22	Kiểm tra số	1,224,100  ->  1.224.100
+Trang 22	Kiểm tra số	914,000  ->  914.000
+Trang 22	Kiểm tra số	1,224,000  ->  1.224.000
+Trang 22	Kiểm tra số	1,372,000  ->  1.372.000
+Trang 22	Kiểm tra số	1,352,000  ->  1.352.000
+Trang 22	Kiểm tra số	1,144,000  ->  1.144.000
+Trang 22	Kiểm tra số	1,388,000  ->  1.388.000
+Trang 22	Kiểm tra số	1,200,000  ->  1.200.000
+Trang 22	Kiểm tra số	538,200  ->  538.200
+Trang 22	Kiểm tra số	98,131  ->  98.131
+Trang 22	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 22	Kiểm tra số	1,473,680  ->  1.473.680
+Trang 22	Kiểm tra số	60,000  ->  60.000
+Trang 22	Kiểm tra số	1,000,000  ->  1.000.000
+Trang 22	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 22	Kiểm tra số	600,000  ->  600.000
+Trang 22	Kiểm tra số	4,477,000  ->  4.477.000
+Trang 22	Kiểm tra số	7,254,500  ->  7.254.500
+Trang 22	Kiểm tra số	7,500,000  ->  7.500.000
+Trang 22	Kiểm tra số	16,703,280  ->  16.703.280
+Trang 22	Kiểm tra số	17,875,000  ->  17.875.000
+Trang 22	Kiểm tra số	17,875,000  ->  17.875.000
+Trang 22	Kiểm tra số	5.170,000  ->  5.170.000
+Trang 22	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 22	Kiểm tra số	13,547,050  ->  13.547.050
+Trang 22	Kiểm tra số	27,012,150  ->  27.012.150
+Trang 22	Kiểm tra số	13,465,100  ->  13.465.100
+Trang 22	Kiểm tra số	10,054,000  ->  10.054.000
+Trang 22	Kiểm tra số	16,524,000  ->  16.524.000
+Trang 22	Kiểm tra số	18,522,000  ->  18.522.000
+Trang 22	Kiểm tra số	18,252,000  ->  18.252.000
+Trang 22	Kiểm tra số	15,444,000  ->  15.444.000
+Trang 22	Kiểm tra số	18,738,000  ->  18.738.000
+Trang 22	Kiểm tra số	16,200,000  ->  16.200.000
+Trang 22	Kiểm tra số	5,920,200  ->  5.920.200
+Trang 22	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 22	Kiểm tra số	19,894,680  ->  19.894.680
+Trang 22	Kiểm tra số	660,000  ->  660.000
+Trang 22	Kiểm tra số	11,000,000  ->  11.000.000
+Trang 22	Kiểm tra số	16,500,000  ->  16.500.000
+Trang 22	Kiểm tra số	6,600,000  ->  6.600.000
+Trang 23	Từ điển	YU  ->  YÙ
+Trang 23	Từ điển	Nguyễn  ->  Nguyên
+Trang 23	Từ điển	ĐOẢN  ->  ĐOÀN
+Trang 23	Từ điển	Thành  ->  Thanh
+Trang 23	Từ điển	Nguyễn  ->  Nguyên
+Trang 23	Từ điển	Nguyễn  ->  Nguyên
+Trang 23	Kiểm tra số	32,666,000  ->  32.666.000
+Trang 23	Kiểm tra số	5,670,000  ->  5.670.000
+Trang 23	Kiểm tra số	11,327,273  ->  11.327.273
+Trang 23	Kiểm tra số	11,200,000  ->  11.200.000
+Trang 23	Kiểm tra số	11,000,000  ->  11.000.000
+Trang 23	Kiểm tra số	3,900,000  ->  3.900.000
+Trang 23	Kiểm tra số	65,400,000  ->  65.400.000
+Trang 23	Kiểm tra số	9,152,000  ->  9.152.000
+Trang 23	Kiểm tra số	14,745,000  ->  14.745.000
+Trang 23	Kiểm tra số	22,698,000  ->  22.698.000
+Trang 23	Kiểm tra số	55,000,000  ->  55.000.000
+Trang 23	Kiểm tra số	5,000,000  ->  5.000.000
+Trang 23	Kiểm tra số	2,000,000  ->  2.000.000
+Trang 23	Kiểm tra số	12,400,000  ->  12.400.000
+Trang 23	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 23	Kiểm tra số	4,000,000  ->  4.000.000
+Trang 23	Kiểm tra số	10,000,000  ->  10.000.000
+Trang 23	Kiểm tra số	2,000,000  ->  2.000.000
+Trang 23	Kiểm tra số	9,090,909  ->  9.090.909
+Trang 23	Kiểm tra số	9,090,909  ->  9.090.909
+Trang 23	Kiểm tra số	13,636,364  ->  13.636.364
+Trang 23	Kiểm tra số	13,636,364  ->  13.636.364
+Trang 23	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 23	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 23	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 23	Kiểm tra số	3,266,600  ->  3.266.600
+Trang 23	Kiểm tra số	453,600  ->  453.600
+Trang 23	Kiểm tra số	1,132,727  ->  1.132.727
+Trang 23	Kiểm tra số	1,120,000  ->  1.120.000
+Trang 23	Kiểm tra số	1,100,000  ->  1.100.000
+Trang 23	Kiểm tra số	390,000  ->  390.000
+Trang 23	Kiểm tra số	5,232,000  ->  5.232.000
+Trang 23	Kiểm tra số	915,200  ->  915.200
+Trang 23	Kiểm tra số	1,474,500  ->  1.474.500
+Trang 23	Kiểm tra số	2,269,800  ->  2.269.800
+Trang 23	Kiểm tra số	5,500,000  ->  5.500.000
+Trang 23	Kiểm tra số	400,000  ->  400.000
+Trang 23	Kiểm tra số	160,000  ->  160.000
+Trang 23	Kiểm tra số	992,000  ->  992.000
+Trang 23	Kiểm tra số	480,000  ->  480.000
+Trang 23	Kiểm tra số	320,000  ->  320.000
+Trang 23	Kiểm tra số	800,000  ->  800.000
+Trang 23	Kiểm tra số	160,000  ->  160.000
+Trang 23	Kiểm tra số	909,091  ->  909.091
+Trang 23	Kiểm tra số	909,091  ->  909.091
+Trang 23	Kiểm tra số	1,363,636  ->  1.363.636
+Trang 23	Kiểm tra số	1,363,636  ->  1.363.636
+Trang 23	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 23	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 23	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 23	Kiểm tra số	35,932,600  ->  35.932.600
+Trang 23	Kiểm tra số	6,123,600  ->  6.123.600
+Trang 23	Kiểm tra số	12,460,000  ->  12.460.000
+Trang 23	Kiểm tra số	12,320,000  ->  12.320.000
+Trang 23	Kiểm tra số	12,100,000  ->  12.100.000
+Trang 23	Kiểm tra số	4,290,000  ->  4.290.000
+Trang 23	Kiểm tra số	70,632,000  ->  70.632.000
+Trang 23	Kiểm tra số	10,067,200  ->  10.067.200
+Trang 23	Kiểm tra số	16,219,500  ->  16.219.500
+Trang 23	Kiểm tra số	24,967,800  ->  24.967.800
+Trang 23	Kiểm tra số	60,500,000  ->  60.500.000
+Trang 23	Kiểm tra số	5,400,000  ->  5.400.000
+Trang 23	Kiểm tra số	2,160,000  ->  2.160.000
+Trang 23	Kiểm tra số	13,392,000  ->  13.392.000
+Trang 23	Kiểm tra số	6,480,000  ->  6.480.000
+Trang 23	Kiểm tra số	4,320,000  ->  4.320.000
+Trang 23	Kiểm tra số	10,800,000  ->  10.800.000
+Trang 23	Kiểm tra số	2,160,000  ->  2.160.000
+Trang 23	Kiểm tra số	10,000,000  ->  10.000.000
+Trang 23	Kiểm tra số	10,000,000  ->  10.000.000
+Trang 23	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 23	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 23	Kiểm tra số	16,500,000  ->  16.500.000
+Trang 23	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 23	Kiểm tra số	16,500,000  ->  16.500.000
+Trang 24	Từ điển	Thành  ->  Thanh
+Trang 24	Từ điển	Tuần  ->  Tuấn
+Trang 24	Từ điển	HOA  ->  HÒA
+Trang 24	Từ điển	HOA  ->  HÒA
+Trang 24	Từ điển	TẺ  ->  TẾ
+Trang 24	Từ điển	TẺ  ->  TẾ
+Trang 24	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 24	Từ điển	NẠI  ->  NAI
+Trang 24	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 24	Kiểm tra số	0 11/2020  ->  011/2020
+Trang 24	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 24	Kiểm tra số	16,000,000  ->  16.000.000
+Trang 24	Kiểm tra số	8,000,000  ->  8.000.000
+Trang 24	Kiểm tra số	468,000  ->  468.000
+Trang 24	Kiểm tra số	1,395,600  ->  1.395.600
+Trang 24	Kiểm tra số	13,636,364  ->  13.636.364
+Trang 24	Kiểm tra số	67,175,000  ->  67.175.000
+Trang 24	Kiểm tra số	14,764,000  ->  14.764.000
+Trang 24	Kiểm tra số	17,416,000  ->  17.416.000
+Trang 24	Kiểm tra số	11,641,600  ->  11.641.600
+Trang 24	Kiểm tra số	17,085,000  ->  17.085.000
+Trang 24	Kiểm tra số	14,510,000  ->  14.510.000
+Trang 24	Kiểm tra số	4,570,000  ->  4.570.000
+Trang 24	Kiểm tra số	17,000,000  ->  17.000.000
+Trang 24	Kiểm tra số	6,140,000  ->  6.140.000
+Trang 24	Kiểm tra số	16,500,000  ->  16.500.000
+Trang 24	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 24	Kiểm tra số	10,524,000  ->  10.524.000
+Trang 24	Kiểm tra số	12,368,020  ->  12.368.020
+Trang 24	Kiểm tra số	14,000,000  ->  14.000.000
+Trang 24	Kiểm tra số	1,647,000  ->  1.647.000
+Trang 24	Kiểm tra số	9,500,000  ->  9.500.000
+Trang 24	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 24	Kiểm tra số	1,600,000  ->  1.600.000
+Trang 24	Kiểm tra số	800,000  ->  800.000
+Trang 24	Kiểm tra số	46,800  ->  46.800
+Trang 24	Kiểm tra số	139,560  ->  139.560
+Trang 24	Kiểm tra số	1,363,636  ->  1.363.636
+Trang 24	Kiểm tra số	6,717,500  ->  6.717.500
+Trang 24	Kiểm tra số	1,181,120  ->  1.181.120
+Trang 24	Kiểm tra số	1,393,280  ->  1.393.280
+Trang 24	Kiểm tra số	931,328  ->  931.328
+Trang 24	Kiểm tra số	1,366,800  ->  1.366.800
+Trang 24	Kiểm tra số	1,160,800  ->  1.160.800
+Trang 24	Kiểm tra số	365,600  ->  365.600
+Trang 24	Kiểm tra số	1,700,000  ->  1.700.000
+Trang 24	Kiểm tra số	614,000  ->  614.000
+Trang 24	Kiểm tra số	1,650,000  ->  1.650.000
+Trang 24	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 24	Kiểm tra số	1,052,400  ->  1.052.400
+Trang 24	Kiểm tra số	989,442  ->  989.442
+Trang 24	Kiểm tra số	1,120,000  ->  1.120.000
+Trang 24	Kiểm tra số	131,760  ->  131.760
+Trang 24	Kiểm tra số	760,000  ->  760.000
+Trang 24	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 24	Kiểm tra số	17,600,000  ->  17.600.000
+Trang 24	Kiểm tra số	8,800,000  ->  8.800.000
+Trang 24	Kiểm tra số	514,800  ->  514.800
+Trang 24	Kiểm tra số	1,535,160  ->  1.535.160
+Trang 24	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 24	Kiểm tra số	73,892,500  ->  73.892.500
+Trang 24	Kiểm tra số	15,945,120  ->  15.945.120
+Trang 24	Kiểm tra số	18,809,280  ->  18.809.280
+Trang 24	Kiểm tra số	12,572,928  ->  12.572.928
+Trang 24	Kiểm tra số	18,451,800  ->  18.451.800
+Trang 24	Kiểm tra số	15,670,800  ->  15.670.800
+Trang 24	Kiểm tra số	4,935,600  ->  4.935.600
+Trang 24	Kiểm tra số	18,700,000  ->  18.700.000
+Trang 24	Kiểm tra số	6,754,000  ->  6.754.000
+Trang 24	Kiểm tra số	18,150,000  ->  18.150.000
+Trang 24	Kiểm tra số	16,500,000  ->  16.500.000
+Trang 24	Kiểm tra số	11,576,400  ->  11.576.400
+Trang 24	Kiểm tra số	13,357,462  ->  13.357.462
+Trang 24	Kiểm tra số	15,120,000  ->  15.120.000
+Trang 24	Kiểm tra số	1,778,760  ->  1.778.760
+Trang 24	Kiểm tra số	10,260,000  ->  10.260.000
+Trang 25	Từ điển	CÔ  ->  CỔ
+Trang 25	Từ điển	PHÁN  ->  PHẦN
+Trang 25	Từ điển	CÓ  ->  CỔ
+Trang 25	Từ điển	PHÁN  ->  PHẦN
+Trang 25	Từ điển	Nguyễn  ->  Nguyên
+Trang 25	Từ điển	Phú  ->  Phủ
+Trang 25	Từ điển	TÍNH  ->  TỊNH
+Trang 25	Từ điển	TÍNH  ->  TỊNH
+Trang 25	Kiểm tra số	12,710,000  ->  12.710.000
+Trang 25	Kiểm tra số	40,000,000  ->  40.000.000
+Trang 25	Kiểm tra số	28,000,000  ->  28.000.000
+Trang 25	Kiểm tra số	16,800,000  ->  16.800.000
+Trang 25	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 25	Kiểm tra số	11,111,111  ->  11.111.111
+Trang 25	Kiểm tra số	17,600,000  ->  17.600.000
+Trang 25	Kiểm tra số	18,060,000  ->  18.060.000
+Trang 25	Kiểm tra số	18,060,000  ->  18.060.000
+Trang 25	Kiểm tra số	17,863,636  ->  17.863.636
+Trang 25	Kiểm tra số	14,250,000  ->  14.250.000
+Trang 25	Kiểm tra số	4,800,000  ->  4.800.000
+Trang 25	Kiểm tra số	25,500,000  ->  25.500.000
+Trang 25	Kiểm tra số	53,000,000  ->  53.000.000
+Trang 25	Kiểm tra số	9,091,800  ->  9.091.800
+Trang 25	Kiểm tra số	13,644,000  ->  13.644.000
+Trang 25	Kiểm tra số	17,500,000  ->  17.500.000
+Trang 25	Kiểm tra số	17,875,000  ->  17.875.000
+Trang 25	Kiểm tra số	15,730,000  ->  15.730.000
+Trang 25	Kiểm tra số	17,875,000  ->  17.875.000
+Trang 25	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 25	Kiểm tra số	17,850,000  ->  17.850.000
+Trang 25	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 25	Kiểm tra số	30,300,000  ->  30.300.000
+Trang 25	Kiểm tra số	15,300,000  ->  15.300.000
+Trang 25	Kiểm tra số	41,225,000  ->  41.225.000
+Trang 25	Kiểm tra số	1,271,000  ->  1.271.000
+Trang 25	Kiểm tra số	3,200,000  ->  3.200.000
+Trang 25	Kiểm tra số	2,800,000  ->  2.800.000
+Trang 25	Kiểm tra số	1,680,000  ->  1.680.000
+Trang 25	Kiểm tra số	600,000  ->  600.000
+Trang 25	Kiểm tra số	888,889  ->  888.889
+Trang 25	Kiểm tra số	1,760,000  ->  1.760.000
+Trang 25	Kiểm tra số	1,806,000  ->  1.806.000
+Trang 25	Kiểm tra số	1,806,000  ->  1.806.000
+Trang 25	Kiểm tra số	1,786,364  ->  1.786.364
+Trang 25	Kiểm tra số	1,425,000  ->  1.425.000
+Trang 25	Kiểm tra số	480,000  ->  480.000
+Trang 25	Kiểm tra số	2,550,000  ->  2.550.000
+Trang 25	Kiểm tra số	4,240,000  ->  4.240.000
+Trang 25	Kiểm tra số	909,180  ->  909.180
+Trang 25	Kiểm tra số	1,364,400  ->  1.364.400
+Trang 25	Kiểm tra số	1,750,000  ->  1.750.000
+Trang 25	Kiểm tra số	1,787.500  ->  1.787.500
+Trang 25	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 25	Kiểm tra số	1,785,000  ->  1.785.000
+Trang 25	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 25	Kiểm tra số	2,424,000  ->  2.424.000
+Trang 25	Kiểm tra số	1,530,000  ->  1.530.000
+Trang 25	Kiểm tra số	4,122,500-  ->  4.122.500
+Trang 25	Kiểm tra số	13,981,000  ->  13.981.000
+Trang 25	Kiểm tra số	43,200,000  ->  43.200.000
+Trang 25	Kiểm tra số	30,800,000  ->  30.800.000
+Trang 25	Kiểm tra số	18,480,000  ->  18.480.000
+Trang 25	Kiểm tra số	6,600,000  ->  6.600.000
+Trang 25	Kiểm tra số	12,000,000  ->  12.000.000
+Trang 25	Kiểm tra số	15,360,000  ->  15.360.000
+Trang 25	Kiểm tra số	19,866,000  ->  19.866.000
+Trang 25	Kiểm tra số	19,866,000  ->  19.866.000
+Trang 25	Kiểm tra số	19,650,000  ->  19.650.000
+Trang 25	Kiểm tra số	15,675,000  ->  15.675.000
+Trang 25	Kiểm tra số	5,280,000  ->  5.280.000
+Trang 25	Kiểm tra số	28,050,000  ->  28.050.000
+Trang 25	Kiểm tra số	57,240,000  ->  57.240.000
+Trang 25	Kiểm tra số	10,000,980  ->  10.000.980
+Trang 25	Kiểm tra số	15,008,400  ->  15.008.400
+Trang 25	Kiểm tra số	19,250,000  ->  19.250.000
+Trang 25	Kiểm tra số	19,662,500  ->  19.662.500
+Trang 25	Kiểm tra số	19,662,500  ->  19.662.500
+Trang 25	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 25	Kiểm tra số	19,635.000  ->  19.635.000
+Trang 25	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 25	Kiểm tra số	32,724,000  ->  32.724.000
+Trang 25	Kiểm tra số	16,830,000  ->  16.830.000
+Trang 25	Kiểm tra số	45,347,500  ->  45.347.500
+Trang 25	Kiểm tra số	17.600.000  ->  13.600.000
+Trang 26	Từ điển	TĨNH  ->  TỊNH
+Trang 26	Từ điển	TÂM  ->  TAM
+Trang 26	Từ điển	VAN  ->  VĂN
+Trang 26	Từ điển	Thuơng  ->  Thương
+Trang 26	Từ điển	dụng  ->  dựng
+Trang 26	Từ điển	TỎNG  ->  TỔNG
+Trang 26	Từ điển	QUẦN  ->  QUÂN
+Trang 26	Từ điển	QUẦN  ->  QUÂN
+Trang 26	Từ điển	TRIÊN  ->  TRIỂN
+Trang 26	Từ điển	TRIÊN  ->  TRIỂN
+Trang 26	Từ điển	TRIÊN  ->  TRIỂN
+Trang 26	Từ điển	TRIỀN  ->  TRIỂN
+Trang 26	Từ điển	CÔ  ->  CỔ
+Trang 26	Từ điển	PHÂN  ->  PHẦN
+Trang 26	Từ điển	KIEM  ->  KIỂM
+Trang 26	Từ điển	QUÓC  ->  QUỐC
+Trang 26	Từ điển	CÓ  ->  CỔ
+Trang 26	Từ điển	PHÂN  ->  PHẦN
+Trang 26	Từ điển	QUÓC  ->  QUỐC
+Trang 26	Kiểm tra số	15,250,000  ->  15.250.000
+Trang 26	Kiểm tra số	4,650,000  ->  4.650.000
+Trang 26	Kiểm tra số	5,822,000  ->  5.822.000
+Trang 26	Kiểm tra số	63,826,856  ->  63.826.856
+Trang 26	Kiểm tra số	27,181,818  ->  27.181.818
+Trang 26	Kiểm tra số	17,876,000  ->  17.876.000
+Trang 26	Kiểm tra số	17,406,900  ->  17.406.900
+Trang 26	Kiểm tra số	17,816,500  ->  17.816.500
+Trang 26	Kiểm tra số	17,975,500  ->  17.975.500
+Trang 26	Kiểm tra số	1,787,000  ->  1.787.000
+Trang 26	Kiểm tra số	2,446,500  ->  2.446.500
+Trang 26	Kiểm tra số	12,731,800  ->  12.731.800
+Trang 26	Kiểm tra số	20,000,000  ->  20.000.000
+Trang 26	Kiểm tra số	12,962,962  ->  12.962.962
+Trang 26	Kiểm tra số	12,962,962  ->  12.962.962
+Trang 26	Kiểm tra số	15,422,400  ->  15.422.400
+Trang 26	Kiểm tra số	14,597,100  ->  14.597.100
+Trang 26	Kiểm tra số	18,035,000  ->  18.035.000
+Trang 26	Kiểm tra số	18,105,000  ->  18.105.000
+Trang 26	Kiểm tra số	18,035,000  ->  18.035.000
+Trang 26	Kiểm tra số	18,105,000  ->  18.105.000
+Trang 26	Kiểm tra số	12,680,140  ->  12.680.140
+Trang 26	Kiểm tra số	16,000,000  ->  16.000.000
+Trang 26	Kiểm tra số	14,909,091  ->  14.909.091
+Trang 26	Kiểm tra số	1,525,000  ->  1.525.000
+Trang 26	Kiểm tra số	465,000  ->  465.000
+Trang 26	Kiểm tra số	582,200  ->  582.200
+Trang 26	Kiểm tra số	6,382,686  ->  6.382.686
+Trang 26	Kiểm tra số	2,718,182  ->  2.718.182
+Trang 26	Kiểm tra số	1,787,600  ->  1.787.600
+Trang 26	Kiểm tra số	1,740,690  ->  1.740.690
+Trang 26	Kiểm tra số	1,781,650  ->  1.781.650
+Trang 26	Kiểm tra số	1,797,550  ->  1.797.550
+Trang 26	Kiểm tra số	178,700  ->  178.700
+Trang 26	Kiểm tra số	244,650  ->  244.650
+Trang 26	Kiểm tra số	1,273,180  ->  1.273.180
+Trang 26	Kiểm tra số	2,000,000  ->  2.000.000
+Trang 26	Kiểm tra số	1,037,037  ->  1.037.037
+Trang 26	Kiểm tra số	1,037,037  ->  1.037.037
+Trang 26	Kiểm tra số	1,542,240  ->  1.542.240
+Trang 26	Kiểm tra số	1,459,710  ->  1.459.710
+Trang 26	Kiểm tra số	1,803,500  ->  1.803.500
+Trang 26	Kiểm tra số	1,810,500  ->  1.810.500
+Trang 26	Kiểm tra số	1,803,500  ->  1.803.500
+Trang 26	Kiểm tra số	1,810,500  ->  1.810.500
+Trang 26	Kiểm tra số	1,014,411  ->  1.014.411
+Trang 26	Kiểm tra số	1,600,000  ->  1.600.000
+Trang 26	Kiểm tra số	1,490,909  ->  1.490.909
+Trang 26	Kiểm tra số	16,775,000  ->  16.775.000
+Trang 26	Kiểm tra số	5,115,000  ->  5.115.000
+Trang 26	Kiểm tra số	6,404,200  ->  6.404.200
+Trang 26	Kiểm tra số	70,209,542  ->  70.209.542
+Trang 26	Kiểm tra số	29,900,000  ->  29.900.000
+Trang 26	Kiểm tra số	19,663,600  ->  19.663.600
+Trang 26	Kiểm tra số	19,147,590  ->  19.147.590
+Trang 26	Kiểm tra số	19,598,150  ->  19.598.150
+Trang 26	Kiểm tra số	19,773,050  ->  19.773.050
+Trang 26	Kiểm tra số	1,965,700  ->  1.965.700
+Trang 26	Kiểm tra số	2,691,150  ->  2.691.150
+Trang 26	Kiểm tra số	14,004,980  ->  14.004.980
+Trang 26	Kiểm tra số	22,000,000  ->  22.000.000
+Trang 26	Kiểm tra số	13,999,999  ->  13.999.999
+Trang 26	Kiểm tra số	13,999,999  ->  13.999.999
+Trang 26	Kiểm tra số	16,964,640  ->  16.964.640
+Trang 26	Kiểm tra số	16,056,810  ->  16.056.810
+Trang 26	Kiểm tra số	19,838,500  ->  19.838.500
+Trang 26	Kiểm tra số	19,915,500  ->  19.915.500
+Trang 26	Kiểm tra số	19,838,500  ->  19.838.500
+Trang 26	Kiểm tra số	19,915,500  ->  19.915.500
+Trang 26	Kiểm tra số	13,694,551  ->  13.694.551
+Trang 26	Kiểm tra số	17,600,000  ->  17.600.000
+Trang 26	Kiểm tra số	16,400,000  ->  16.400.000
+Trang 27	Từ điển	CÓ  ->  CỔ
+Trang 27	Từ điển	PHÂN  ->  PHẦN
+Trang 27	Từ điển	VẶT  ->  VẬT
+Trang 27	Từ điển	dụng  ->  dựng
+Trang 27	Từ điển	dụng  ->  dựng
+Trang 27	Từ điển	CÔ  ->  CỔ
+Trang 27	Từ điển	PHÁN  ->  PHẦN
+Trang 27	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 27	Từ điển	Hoảng  ->  Hoàng
+Trang 27	Từ điển	Dích  ->  Dịch
+Trang 27	Từ điển	SẲN  ->  SẢN
+Trang 27	Kiểm tra số	1 1/02/2022  ->  11/02/2022
+Trang 27	Kiểm tra số	35,999,992  ->  35.999.992
+Trang 27	Kiểm tra số	10,488,000  ->  10.488.000
+Trang 27	Kiểm tra số	16,692,400  ->  16.692.400
+Trang 27	Kiểm tra số	16,710,500  ->  16.710.500
+Trang 27	Kiểm tra số	16,340,000  ->  16.340.000
+Trang 27	Kiểm tra số	16,340,000  ->  16.340.000
+Trang 27	Kiểm tra số	.17,527,500  ->  17.527.500
+Trang 27	Kiểm tra số	13,632,500  ->  13.632.500
+Trang 27	Kiểm tra số	9,180,000  ->  9.180.000
+Trang 27	Kiểm tra số	6,668,000  ->  6.668.000
+Trang 27	Kiểm tra số	3,865,000  ->  3.865.000
+Trang 27	Kiểm tra số	2,700,000  ->  2.700.000
+Trang 27	Kiểm tra số	2,100,000  ->  2.100.000
+Trang 27	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 27	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 27	Kiểm tra số	8,500,000  ->  8.500.000
+Trang 27	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 27	Kiểm tra số	11,296.292  ->  11.296.292
+Trang 27	Kiểm tra số	3,454,545  ->  3.454.545
+Trang 27	Kiểm tra số	12,592,588  ->  12.592.588
+Trang 27	Kiểm tra số	14,158,720  ->  14.158.720
+Trang 27	Kiểm tra số	16,777,920  ->  16.777.920
+Trang 27	Kiểm tra số	83,144,609  ->  83.144.609
+Trang 27	Kiểm tra số	13,818,000  ->  13.818.000
+Trang 27	Kiểm tra số	7.000,000  ->  7.000.000
+Trang 27	Kiểm tra số	9,800,000  ->  9.800.000
+Trang 27	Kiểm tra số	3,599,999  ->  3.599.999
+Trang 27	Kiểm tra số	1,048,800  ->  1.048.800
+Trang 27	Kiểm tra số	1,669,240  ->  1.669.240
+Trang 27	Kiểm tra số	1,336,840  ->  1.336.840
+Trang 27	Kiểm tra số	1,307,200  ->  1.307.200
+Trang 27	Kiểm tra số	1,307,200  ->  1.307.200
+Trang 27	Kiểm tra số	1,752,750  ->  1.752.750
+Trang 27	Kiểm tra số	1,363,250  ->  1.363.250
+Trang 27	Kiểm tra số	734,400  ->  734.400
+Trang 27	Kiểm tra số	533,440  ->  533.440
+Trang 27	Kiểm tra số	309,200  ->  309.200
+Trang 27	Kiểm tra số	270,000  ->  270.000
+Trang 27	Kiểm tra số	210,000  ->  210.000
+Trang 27	Kiểm tra số	1,440,000  ->  1.440.000
+Trang 27	Kiểm tra số	1,440,000  ->  1.440.000
+Trang 27	Kiểm tra số	630,000  ->  630.000
+Trang 27	Kiểm tra số	300,000  ->  300.000
+Trang 27	Kiểm tra số	903,703  ->  903.703
+Trang 27	Kiểm tra số	1,007,407  ->  1.007.407
+Trang 27	Kiểm tra số	1,415,872  ->  1.415.872
+Trang 27	Kiểm tra số	1,677,792  ->  1.677.792
+Trang 27	Kiểm tra số	8,314,461  ->  8.314.461
+Trang 27	Kiểm tra số	1,381,800  ->  1.381.800
+Trang 27	Kiểm tra số	700,000  ->  700.000
+Trang 27	Kiểm tra số	980,000  ->  980.000
+Trang 27	Kiểm tra số	39,599,991  ->  39.599.991
+Trang 27	Kiểm tra số	11,536,800  ->  11.536.800
+Trang 27	Kiểm tra số	18,361,640  ->  18.361.640
+Trang 27	Kiểm tra số	18,047,340  ->  18.047.340
+Trang 27	Kiểm tra số	17,647,200  ->  17.647.200
+Trang 27	Kiểm tra số	17,647,200  ->  17.647.200
+Trang 27	Kiểm tra số	19,280,250  ->  19.280.250
+Trang 27	Kiểm tra số	14,995,750  ->  14.995.750
+Trang 27	Kiểm tra số	9,914,400  ->  9.914.400
+Trang 27	Kiểm tra số	7,201,440  ->  7.201.440
+Trang 27	Kiểm tra số	4,174,200  ->  4.174.200
+Trang 27	Kiểm tra số	2,970,000  ->  2.970.000
+Trang 27	Kiểm tra số	2,310,000  ->  2.310.000
+Trang 27	Kiểm tra số	19,440,000  ->  19.440.000
+Trang 27	Kiểm tra số	19,440,000  ->  19.440.000
+Trang 27	Kiểm tra số	9,180,000  ->  9.180.000
+Trang 27	Kiểm tra số	3,300,000  ->  3.300.000
+Trang 27	Kiểm tra số	12,199,995  ->  12.199.995
+Trang 27	Kiểm tra số	13,599,995  ->  13.599.995
+Trang 27	Kiểm tra số	15,574,592  ->  15.574.592
+Trang 27	Kiểm tra số	18,455,712  ->  18.455.712
+Trang 27	Kiểm tra số	91,459,070  ->  91.459.070
+Trang 27	Kiểm tra số	15,199,300  ->  15.199.300
+Trang 27	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 27	Kiểm tra số	10,780,000  ->  10.780.000
+Trang 27	Kiểm tra số	8.500.000  ->  8.550.000
+Trang 27	Kiểm tra số	1.381.800  ->  1.381.300
+Trang 28	Từ điển	TRIẺN  ->  TRIỂN
+Trang 28	Từ điển	TRIÊN  ->  TRIỂN
+Trang 28	Từ điển	TRIÊN  ->  TRIỂN
+Trang 28	Từ điển	TRIÊN  ->  TRIỂN
+Trang 28	Từ điển	THIÊN  ->  THIỆN
+Trang 28	Từ điển	Thuơng  ->  Thương
+Trang 28	Từ điển	VŨ  ->  VU
+Trang 28	Từ điển	Đâu  ->  Đầu
+Trang 28	Từ điển	Thuơng  ->  Thương
+Trang 28	Từ điển	TỲ  ->  TY
+Trang 28	Từ điển	CÔ  ->  CỔ
+Trang 28	Từ điển	PHÁN  ->  PHẦN
+Trang 28	Từ điển	PHÚC  ->  PHỤC
+Trang 28	Từ điển	PHÚC  ->  PHỤC
+Trang 28	Từ điển	PHÚC  ->  PHỤC
+Trang 28	Từ điển	dụng  ->  dựng
+Trang 28	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 28	Kiểm tra số	16,900,000  ->  16.900.000
+Trang 28	Kiểm tra số	16,900,000  ->  16.900.000
+Trang 28	Kiểm tra số	17,850,000  ->  17.850.000
+Trang 28	Kiểm tra số	50,925,926  ->  50.925.926
+Trang 28	Kiểm tra số	16,625,000  ->  16.625.000
+Trang 28	Kiểm tra số	16,625,000  ->  16.625.000
+Trang 28	Kiểm tra số	16,625,000  ->  16.625.000
+Trang 28	Kiểm tra số	16,625,000  ->  16.625.000
+Trang 28	Kiểm tra số	16,625,000  ->  16.625.000
+Trang 28	Kiểm tra số	16,625,000  ->  16.625.000
+Trang 28	Kiểm tra số	9,240,000  ->  9.240.000
+Trang 28	Kiểm tra số	15,000,000  ->  15.000.000
+Trang 28	Kiểm tra số	4,800,000  ->  4.800.000
+Trang 28	Kiểm tra số	5,500,000  ->  5.500.000
+Trang 28	Kiểm tra số	36,150,000  ->  36.150.000
+Trang 28	Kiểm tra số	9,427,500  ->  9.427.500
+Trang 28	Kiểm tra số	77,343,597  ->  77.343.597
+Trang 28	Kiểm tra số	13,400,000  ->  13.400.000
+Trang 28	Kiểm tra số	13,340,000  ->  13.340.000
+Trang 28	Kiểm tra số	17,600,000  ->  17.600.000
+Trang 28	Kiểm tra số	17,820,000  ->  17.820.000
+Trang 28	Kiểm tra số	17,875,000  ->  17.875.000
+Trang 28	Kiểm tra số	61,500,000  ->  61.500.000
+Trang 28	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 28	Kiểm tra số	1,690,000  ->  1.690.000
+Trang 28	Kiểm tra số	1,690,000  ->  1.690.000
+Trang 28	Kiểm tra số	1,785,000  ->  1.785.000
+Trang 28	Kiểm tra số	4,074,074  ->  4.074.074
+Trang 28	Kiểm tra số	1,662,500  ->  1.662.500
+Trang 28	Kiểm tra số	1,662,500  ->  1.662.500
+Trang 28	Kiểm tra số	1,662,500  ->  1.662.500
+Trang 28	Kiểm tra số	1,662,500  ->  1.662.500
+Trang 28	Kiểm tra số	1,662,500  ->  1.662.500
+Trang 28	Kiểm tra số	1,662,500  ->  1.662.500
+Trang 28	Kiểm tra số	462,000  ->  462.000
+Trang 28	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 28	Kiểm tra số	384,000  ->  384.000
+Trang 28	Kiểm tra số	550,000  ->  550.000
+Trang 28	Kiểm tra số	3,615,000  ->  3.615.000
+Trang 28	Kiểm tra số	754,200  ->  754.200
+Trang 28	Kiểm tra số	6,187,488  ->  6.187.488
+Trang 28	Kiểm tra số	1,340,000  ->  1.340.000
+Trang 28	Kiểm tra số	1,334,000  ->  1.334.000
+Trang 28	Kiểm tra số	1,760,000  ->  1.760.000
+Trang 28	Kiểm tra số	1,782,000  ->  1.782.000
+Trang 28	Kiểm tra số	1,787,500  ->  1.787.500
+Trang 28	Kiểm tra số	4,920,000  ->  4.920.000
+Trang 28	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 28	Kiểm tra số	18,590,000  ->  18.590.000
+Trang 28	Kiểm tra số	18,590,000  ->  18.590.000
+Trang 28	Kiểm tra số	19,635,000  ->  19.635.000
+Trang 28	Kiểm tra số	55,000,000  ->  55.000.000
+Trang 28	Kiểm tra số	18,287,500  ->  18.287.500
+Trang 28	Kiểm tra số	18,287,500  ->  18.287.500
+Trang 28	Kiểm tra số	18,287,500  ->  18.287.500
+Trang 28	Kiểm tra số	18,287,500  ->  18.287.500
+Trang 28	Kiểm tra số	18,287,500  ->  18.287.500
+Trang 28	Kiểm tra số	18,287,500  ->  18.287.500
+Trang 28	Kiểm tra số	9,702,000  ->  9.702.000
+Trang 28	Kiểm tra số	16,500,000  ->  16.500.000
+Trang 28	Kiểm tra số	5,184,000  ->  5.184.000
+Trang 28	Kiểm tra số	6,050,000  ->  6.050.000
+Trang 28	Kiểm tra số	39,765,000  ->  39.765.000
+Trang 28	Kiểm tra số	10,181,700  ->  10.181.700
+Trang 28	Kiểm tra số	83,531,085  ->  83.531.085
+Trang 28	Kiểm tra số	14,740,000  ->  14.740.000
+Trang 28	Kiểm tra số	14,674,000  ->  14.674.000
+Trang 28	Kiểm tra số	19,360,000  ->  19.360.000
+Trang 28	Kiểm tra số	19,602,000  ->  19.602.000
+Trang 28	Kiểm tra số	19,662,500  ->  19.662.500
+Trang 28	Kiểm tra số	66,420,000  ->  66.420.000
+Trang 29	Từ điển	CÔ  ->  CỔ
+Trang 29	Từ điển	PHÁN  ->  PHẦN
+Trang 29	Từ điển	Nguyễn  ->  Nguyên
+Trang 29	Từ điển	CÓ  ->  CỔ
+Trang 29	Từ điển	PHÂN  ->  PHẦN
+Trang 29	Từ điển	CÔ  ->  CỔ
+Trang 29	Từ điển	PHÁN  ->  PHẦN
+Trang 29	Từ điển	TÔNG  ->  TỔNG
+Trang 29	Từ điển	SÀN  ->  SẢN
+Trang 29	Từ điển	SÁN  ->  SẢN
+Trang 29	Từ điển	SÀN  ->  SẢN
+Trang 29	Từ điển	SÀN  ->  SẢN
+Trang 29	Từ điển	Nam  ->  Nằm
+Trang 29	Từ điển	Đại  ->  Dài
+Trang 29	Từ điển	SẲN  ->  SẢN
+Trang 29	Từ điển	triên  ->  triển
+Trang 29	Kiểm tra số	8,400,000  ->  8.400.000
+Trang 29	Kiểm tra số	5,087,500  ->  5.087.500
+Trang 29	Kiểm tra số	5,101,000  ->  5.101.000
+Trang 29	Kiểm tra số	1,244,900  ->  1.244.900
+Trang 29	Kiểm tra số	13,500,000  ->  13.500.000
+Trang 29	Kiểm tra số	6,181,850  ->  6.181.850
+Trang 29	Kiểm tra số	8,976,000  ->  8.976.000
+Trang 29	Kiểm tra số	8,976,000  ->  8.976.000
+Trang 29	Kiểm tra số	13,760,000  ->  13.760.000
+Trang 29	Kiểm tra số	10,760,000  ->  10.760.000
+Trang 29	Kiểm tra số	12,072,000  ->  12.072.000
+Trang 29	Kiểm tra số	12,072,000  ->  12.072.000
+Trang 29	Kiểm tra số	16,994,000  ->  16.994.000
+Trang 29	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 29	Kiểm tra số	17,370,000  ->  17.370.000
+Trang 29	Kiểm tra số	7,528,148  ->  7.528.148
+Trang 29	Kiểm tra số	8,184,000  ->  8.184.000
+Trang 29	Kiểm tra số	8,184,000  ->  8.184.000
+Trang 29	Kiểm tra số	3,600,000  ->  3.600.000
+Trang 29	Kiểm tra số	5,537,000  ->  5.537.000
+Trang 29	Kiểm tra số	12,160,000  ->  12.160.000
+Trang 29	Kiểm tra số	14,350,000  ->  14.350.000
+Trang 29	Kiểm tra số	12,600,000  ->  12.600.000
+Trang 29	Kiểm tra số	14,000,000  ->  14.000.000
+Trang 29	Kiểm tra số	840,000  ->  840.000
+Trang 29	Kiểm tra số	407,000  ->  407.000
+Trang 29	Kiểm tra số	408,080  ->  408.080
+Trang 29	Kiểm tra số	124,490  ->  124.490
+Trang 29	Kiểm tra số	1,080,000  ->  1.080.000
+Trang 29	Kiểm tra số	618,185  ->  618.185
+Trang 29	Kiểm tra số	897,600  ->  897.600
+Trang 29	Kiểm tra số	897,600  ->  897.600
+Trang 29	Kiểm tra số	1,100,800  ->  1.100.800
+Trang 29	Kiểm tra số	860,800  ->  860.800
+Trang 29	Kiểm tra số	965,760  ->  965.760
+Trang 29	Kiểm tra số	965,760  ->  965.760
+Trang 29	Kiểm tra số	1,359,520  ->  1.359.520
+Trang 29	Kiểm tra số	240,000  ->  240.000
+Trang 29	Kiểm tra số	1,389,600  ->  1.389.600
+Trang 29	Kiểm tra số	602,252  ->  602.252
+Trang 29	Kiểm tra số	818,400  ->  818.400
+Trang 29	Kiểm tra số	818,400  ->  818.400
+Trang 29	Kiểm tra số	360,000  ->  360.000
+Trang 29	Kiểm tra số	442,960  ->  442.960
+Trang 29	Kiểm tra số	972,800  ->  972.800
+Trang 29	Kiểm tra số	1,148,000  ->  1.148.000
+Trang 29	Kiểm tra số	1,008,000  ->  1.008.000
+Trang 29	Kiểm tra số	1,400,000  ->  1.400.000
+Trang 29	Kiểm tra số	9,240,000  ->  9.240.000
+Trang 29	Kiểm tra số	5,494,500  ->  5.494.500
+Trang 29	Kiểm tra số	5,509,080  ->  5.509.080
+Trang 29	Kiểm tra số	1,369,390  ->  1.369.390
+Trang 29	Kiểm tra số	14,580,000  ->  14.580.000
+Trang 29	Kiểm tra số	6,800,035  ->  6.800.035
+Trang 29	Kiểm tra số	9,873,600  ->  9.873.600
+Trang 29	Kiểm tra số	9,873,600  ->  9.873.600
+Trang 29	Kiểm tra số	14,860,800  ->  14.860.800
+Trang 29	Kiểm tra số	11,620,800  ->  11.620.800
+Trang 29	Kiểm tra số	13,037,760  ->  13.037.760
+Trang 29	Kiểm tra số	13,037,760  ->  13.037.760
+Trang 29	Kiểm tra số	18,353,520  ->  18.353.520
+Trang 29	Kiểm tra số	3,240,000  ->  3.240.000
+Trang 29	Kiểm tra số	18,759,600  ->  18.759.600
+Trang 29	Kiểm tra số	8,130,400  ->  8.130.400
+Trang 29	Kiểm tra số	9,002,400  ->  9.002.400
+Trang 29	Kiểm tra số	9,002,400  ->  9.002.400
+Trang 29	Kiểm tra số	3,960,000  ->  3.960.000
+Trang 29	Kiểm tra số	5,979,960  ->  5.979.960
+Trang 29	Kiểm tra số	13,132,800  ->  13.132.800
+Trang 29	Kiểm tra số	15,498,000  ->  15.498.000
+Trang 29	Kiểm tra số	13,608,000  ->  13.608.000
+Trang 29	Kiểm tra số	15,400,000  ->  15.400.000
+Trang 30	Từ điển	Đâu  ->  Đầu
+Trang 30	Từ điển	CÓ  ->  CỔ
+Trang 30	Từ điển	PHÁN  ->  PHẦN
+Trang 30	Từ điển	TRIÊN  ->  TRIỂN
+Trang 30	Từ điển	CÔ  ->  CỔ
+Trang 30	Từ điển	PHÁN  ->  PHẦN
+Trang 30	Từ điển	TRIÊN  ->  TRIỂN
+Trang 30	Từ điển	CÓ  ->  CỔ
+Trang 30	Từ điển	PHÁN  ->  PHẦN
+Trang 30	Từ điển	TRIỀN  ->  TRIỂN
+Trang 30	Từ điển	Nguyễn  ->  Nguyên
+Trang 30	Từ điển	Nguyễn  ->  Nguyên
+Trang 30	Từ điển	Nguyễn  ->  Nguyên
+Trang 30	Từ điển	CÔ  ->  CỔ
+Trang 30	Từ điển	PHÂN  ->  PHẦN
+Trang 30	Kiểm tra số	9,800,000  ->  9.800.000
+Trang 30	Kiểm tra số	5,600,000  ->  5.600.000
+Trang 30	Kiểm tra số	3,296,296  ->  3.296.296
+Trang 30	Kiểm tra số	4,305,556  ->  4.305.556
+Trang 30	Kiểm tra số	3,481,481  ->  3.481.481
+Trang 30	Kiểm tra số	4,300,000  ->  4.300.000
+Trang 30	Kiểm tra số	2,240,000  ->  2.240.000
+Trang 30	Kiểm tra số	17,500,000  ->  17.500.000
+Trang 30	Kiểm tra số	17,045,455  ->  17.045.455
+Trang 30	Kiểm tra số	17,727,273  ->  17.727.273
+Trang 30	Kiểm tra số	15,909,091  ->  15.909.091
+Trang 30	Kiểm tra số	5,535,000  ->  5.535.000
+Trang 30	Kiểm tra số	38,727,272  ->  38.727.272
+Trang 30	Kiểm tra số	93,480,000  ->  93.480.000
+Trang 30	Kiểm tra số	9,320,000  ->  9.320.000
+Trang 30	Kiểm tra số	18,170,000  ->  18.170.000
+Trang 30	Kiểm tra số	18,170,000  ->  18.170.000
+Trang 30	Kiểm tra số	9,520,000  ->  9.520.000
+Trang 30	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 30	Kiểm tra số	23,060,000  ->  23.060.000
+Trang 30	Kiểm tra số	10,100,000  ->  10.100.000
+Trang 30	Kiểm tra số	980,000  ->  980.000
+Trang 30	Kiểm tra số	448,000  ->  448.000
+Trang 30	Kiểm tra số	263,704  ->  263.704
+Trang 30	Kiểm tra số	344,444  ->  344.444
+Trang 30	Kiểm tra số	278,518  ->  278.518
+Trang 30	Kiểm tra số	430,000  ->  430.000
+Trang 30	Kiểm tra số	224,000  ->  224.000
+Trang 30	Kiểm tra số	1,750,000  ->  1.750.000
+Trang 30	Kiểm tra số	1,704,546  ->  1.704.546
+Trang 30	Kiểm tra số	1,772,727  ->  1.772.727
+Trang 30	Kiểm tra số	1,590,909  ->  1.590.909
+Trang 30	Kiểm tra số	553,500  ->  553.500
+Trang 30	Kiểm tra số	3,872,727  ->  3.872.727
+Trang 30	Kiểm tra số	7,478,400  ->  7.478.400
+Trang 30	Kiểm tra số	932,000  ->  932.000
+Trang 30	Kiểm tra số	1,817,000  ->  1.817.000
+Trang 30	Kiểm tra số	1,817,000  ->  1.817.000
+Trang 30	Kiểm tra số	952,000  ->  952.000
+Trang 30	Kiểm tra số	150,000  ->  150.000
+Trang 30	Kiểm tra số	2,306,000  ->  2.306.000
+Trang 30	Kiểm tra số	1,010,000  ->  1.010.000
+Trang 30	Kiểm tra số	10,780,000  ->  10.780.000
+Trang 30	Kiểm tra số	6,048,000  ->  6.048.000
+Trang 30	Kiểm tra số	3,560,000  ->  3.560.000
+Trang 30	Kiểm tra số	4,650,000  ->  4.650.000
+Trang 30	Kiểm tra số	3,759,999  ->  3.759.999
+Trang 30	Kiểm tra số	4,730,000  ->  4.730.000
+Trang 30	Kiểm tra số	2,464,000  ->  2.464.000
+Trang 30	Kiểm tra số	19,250,000  ->  19.250.000
+Trang 30	Kiểm tra số	18,750,001  ->  18.750.001
+Trang 30	Kiểm tra số	19,500,000  ->  19.500.000
+Trang 30	Kiểm tra số	17,500,000  ->  17.500.000
+Trang 30	Kiểm tra số	6,088,500  ->  6.088.500
+Trang 30	Kiểm tra số	42,399,999  ->  42.399.999
+Trang 30	Kiểm tra số	100,958,400  ->  100.958.400
+Trang 30	Kiểm tra số	10,252,000  ->  10.252.000
+Trang 30	Kiểm tra số	19,987,000  ->  19.987.000
+Trang 30	Kiểm tra số	19,987,000  ->  19.987.000
+Trang 30	Kiểm tra số	10,472,000  ->  10.472.000
+Trang 30	Kiểm tra số	1,650,000  ->  1.650.000
+Trang 30	Kiểm tra số	25,366,000  ->  25.366.000
+Trang 30	Kiểm tra số	11,110,000  ->  11.110.000
+Trang 30	Kiểm tra số	38.727.272  ->  38.527.272
+Trang 31	Từ điển	thông  ->  thống
+Trang 31	Từ điển	Nguyễn  ->  Nguyên
+Trang 31	Từ điển	Nam  ->  Nằm
+Trang 31	Từ điển	Đại  ->  Dài
+Trang 31	Từ điển	Nam  ->  Nằm
+Trang 31	Từ điển	Đại  ->  Dài
+Trang 31	Từ điển	Nam  ->  Nằm
+Trang 31	Từ điển	Đại  ->  Dài
+Trang 31	Từ điển	Nam  ->  Nằm
+Trang 31	Từ điển	Đại  ->  Dài
+Trang 31	Từ điển	Nam  ->  Nằm
+Trang 31	Từ điển	Đại  ->  Dài
+Trang 31	Từ điển	Nam  ->  Nằm
+Trang 31	Từ điển	Đại  ->  Dài
+Trang 31	Từ điển	Nam  ->  Nằm
+Trang 31	Từ điển	Đại  ->  Dài
+Trang 31	Từ điển	Hoảng  ->  Hoàng
+Trang 31	Từ điển	CÓ  ->  CỔ
+Trang 31	Từ điển	PHÂN  ->  PHẦN
+Trang 31	Từ điển	TÊ  ->  TẾ
+Trang 31	Từ điển	Bão  ->  Báo
+Trang 31	Từ điển	Hường  ->  Hương
+Trang 31	Từ điển	MÌNH  ->  MINH
+Trang 31	Từ điển	Hường  ->  Hương
+Trang 31	Từ điển	Kím  ->  Kim
+Trang 31	Từ điển	Hường  ->  Hương
+Trang 31	Từ điển	Đâu  ->  Đầu
+Trang 31	Từ điển	TUẦN  ->  TUẤN
+Trang 31	Từ điển	dụng  ->  dựng
+Trang 31	Từ điển	TUẦN  ->  TUẤN
+Trang 31	Từ điển	TUẦN  ->  TUẤN
+Trang 31	Từ điển	TUẦN  ->  TUẤN
+Trang 31	Kiểm tra số	800,000  ->  800.000
+Trang 31	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 31	Kiểm tra số	4,500,000  ->  4.500.000
+Trang 31	Kiểm tra số	400,000  ->  400.000
+Trang 31	Kiểm tra số	5,000,000  ->  5.000.000
+Trang 31	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 31	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 31	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 31	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 31	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 31	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 31	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 31	Kiểm tra số	7,944,456  ->  7.944.456
+Trang 31	Kiểm tra số	18,077,900  ->  18.077.900
+Trang 31	Kiểm tra số	18,170,000  ->  18.170.000
+Trang 31	Kiểm tra số	3,645,000  ->  3.645.000
+Trang 31	Kiểm tra số	330,000  ->  330.000
+Trang 31	Kiểm tra số	15,400,000  ->  15.400.000
+Trang 31	Kiểm tra số	18,000,000  ->  18.000.000
+Trang 31	Kiểm tra số	16,220,000  ->  16.220.000
+Trang 31	Kiểm tra số	15,725,000  ->  15.725.000
+Trang 31	Kiểm tra số	14,940,994  ->  14.940.994
+Trang 31	Kiểm tra số	17,139,006  ->  17.139.006
+Trang 31	Kiểm tra số	12,986,000  ->  12.986.000
+Trang 31	Kiểm tra số	80,000  ->  80.000
+Trang 31	Kiểm tra số	150,000  ->  150.000
+Trang 31	Kiểm tra số	450,000  ->  450.000
+Trang 31	Kiểm tra số	40,000  ->  40.000
+Trang 31	Kiểm tra số	500,000  ->  500.000
+Trang 31	Kiểm tra số	700,000  ->  700.000
+Trang 31	Kiểm tra số	700,000  ->  700.000
+Trang 31	Kiểm tra số	700,000  ->  700.000
+Trang 31	Kiểm tra số	700,000  ->  700.000
+Trang 31	Kiểm tra số	700,000  ->  700.000
+Trang 31	Kiểm tra số	700,000  ->  700.000
+Trang 31	Kiểm tra số	700,000  ->  700.000
+Trang 31	Kiểm tra số	635,556  ->  635.556
+Trang 31	Kiểm tra số	1,807,790  ->  1.807.790
+Trang 31	Kiểm tra số	1,817,000  ->  1.817.000
+Trang 31	Kiểm tra số	364,500  ->  364.500
+Trang 31	Kiểm tra số	26,400  ->  26.400
+Trang 31	Kiểm tra số	1,540,000  ->  1.540.000
+Trang 31	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 31	Kiểm tra số	1,622,000  ->  1.622.000
+Trang 31	Kiểm tra số	1,572,500  ->  1.572.500
+Trang 31	Kiểm tra số	1,494,099  ->  1.494.099
+Trang 31	Kiểm tra số	1,713,901  ->  1.713.901
+Trang 31	Kiểm tra số	1,298,600  ->  1.298.600
+Trang 31	Kiểm tra số	830,000  ->  830.000
+Trang 31	Kiểm tra số	1,650,000  ->  1.650.000
+Trang 31	Kiểm tra số	4,950,000  ->  4.950.000
+Trang 31	Kiểm tra số	440,000  ->  440.000
+Trang 31	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 31	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 31	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 31	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 31	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 31	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 31	Kiểm tra số	7,700,000  ->  7.700.000
+Trang 31	Kiểm tra số	8,580,012  ->  8.580.012
+Trang 31	Kiểm tra số	8,380,002  ->  8.380.002
+Trang 31	Kiểm tra số	19,885,690  ->  19.885.690
+Trang 31	Kiểm tra số	19,987,000  ->  19.987.000
+Trang 31	Kiểm tra số	4,009,500  ->  4.009.500
+Trang 31	Kiểm tra số	356,400  ->  356.400
+Trang 31	Kiểm tra số	16,940,000  ->  16.940.000
+Trang 31	Kiểm tra số	19,800,000  ->  19.800.000
+Trang 31	Kiểm tra số	17,842,000  ->  17.842.000
+Trang 31	Kiểm tra số	17,297.500  ->  17.297.500
+Trang 31	Kiểm tra số	16,435,093  ->  16.435.093
+Trang 31	Kiểm tra số	18,852,907  ->  18.852.907
+Trang 31	Kiểm tra số	14,284,600  ->  14.284.600
+Trang 31	Kiểm tra số	80.000  ->  30.000
+Trang 32	Từ điển	THÁNG  ->  THẮNG
+Trang 32	Từ điển	Nguyễn  ->  Nguyên
+Trang 32	Từ điển	THÁNH  ->  THÀNH
+Trang 32	Từ điển	TRIỀN  ->  TRIỂN
+Trang 32	Từ điển	PHÔ  ->  PHỐ
+Trang 32	Từ điển	ĐÒNG  ->  ĐỒNG
+Trang 32	Từ điển	TRIỄN  ->  TRIỂN
+Trang 32	Từ điển	PHÓ  ->  PHỐ
+Trang 32	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 32	Từ điển	dụng  ->  dựng
+Trang 32	Từ điển	NGẮN  ->  NGÂN
+Trang 32	Từ điển	TRIẺN  ->  TRIỂN
+Trang 32	Từ điển	PHÓ  ->  PHỐ
+Trang 32	Từ điển	BIẾN  ->  BIÊN
+Trang 32	Từ điển	NẠI  ->  NAI
+Trang 32	Từ điển	TÍNH  ->  TỈNH
+Trang 32	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 32	Từ điển	CÔ  ->  CỔ
+Trang 32	Từ điển	PHÂN  ->  PHẦN
+Trang 32	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 32	Từ điển	CÔ  ->  CỔ
+Trang 32	Từ điển	PHÂN  ->  PHẦN
+Trang 32	Từ điển	QUÓC  ->  QUỐC
+Trang 32	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 32	Từ điển	Nam  ->  Nằm
+Trang 32	Từ điển	Đại  ->  Dài
+Trang 32	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 32	Từ điển	Nam  ->  Nằm
+Trang 32	Từ điển	Đại  ->  Dài
+Trang 32	Kiểm tra số	2,150,000  ->  2.150.000
+Trang 32	Kiểm tra số	71,110,000  ->  71.110.000
+Trang 32	Kiểm tra số	2,418,168  ->  2.418.168
+Trang 32	Kiểm tra số	60,000,000  ->  60.000.000
+Trang 32	Kiểm tra số	11,120,000  ->  11.120.000
+Trang 32	Kiểm tra số	17,845,455  ->  17.845.455
+Trang 32	Kiểm tra số	18,180,000  ->  18.180.000
+Trang 32	Kiểm tra số	4,788,182  ->  4.788.182
+Trang 32	Kiểm tra số	16,705,000  ->  16.705.000
+Trang 32	Kiểm tra số	18,018,000  ->  18.018.000
+Trang 32	Kiểm tra số	18,134,330  ->  18.134.330
+Trang 32	Kiểm tra số	18,120,000  ->  18.120.000
+Trang 32	Kiểm tra số	6,145,000  ->  6.145.000
+Trang 32	Kiểm tra số	27,000,000  ->  27.000.000
+Trang 32	Kiểm tra số	5,752,500  ->  5.752.500
+Trang 32	Kiểm tra số	6,760,000  ->  6.760.000
+Trang 32	Kiểm tra số	34,500,000  ->  34.500.000
+Trang 32	Kiểm tra số	17,250,000  ->  17.250.000
+Trang 32	Kiểm tra số	1,980,000  ->  1.980.000
+Trang 32	Kiểm tra số	215,000  ->  215.000
+Trang 32	Kiểm tra số	7,111,000  ->  7.111.000
+Trang 32	Kiểm tra số	241,817  ->  241.817
+Trang 32	Kiểm tra số	6,000,000  ->  6.000.000
+Trang 32	Kiểm tra số	1,112,000  ->  1.112.000
+Trang 32	Kiểm tra số	1,784,545  ->  1.784.545
+Trang 32	Kiểm tra số	1,818,000  ->  1.818.000
+Trang 32	Kiểm tra số	478,818  ->  478.818
+Trang 32	Kiểm tra số	1,336,400  ->  1.336.400
+Trang 32	Kiểm tra số	1,801,800  ->  1.801.800
+Trang 32	Kiểm tra số	1,813,433  ->  1.813.433
+Trang 32	Kiểm tra số	1,812,000  ->  1.812.000
+Trang 32	Kiểm tra số	491,600  ->  491.600
+Trang 32	Kiểm tra số	2,700,000  ->  2.700.000
+Trang 32	Kiểm tra số	575,250  ->  575.250
+Trang 32	Kiểm tra số	676,000  ->  676.000
+Trang 32	Kiểm tra số	3,450,000  ->  3.450.000
+Trang 32	Kiểm tra số	1,725,000  ->  1.725.000
+Trang 32	Kiểm tra số	198,000  ->  198.000
+Trang 32	Kiểm tra số	2,365,000  ->  2.365.000
+Trang 32	Kiểm tra số	78,221,000  ->  78.221.000
+Trang 32	Kiểm tra số	2,659,985  ->  2.659.985
+Trang 32	Kiểm tra số	66,000,000  ->  66.000.000
+Trang 32	Kiểm tra số	12,232,000  ->  12.232.000
+Trang 32	Kiểm tra số	19,630,000  ->  19.630.000
+Trang 32	Kiểm tra số	19,998,000  ->  19.998.000
+Trang 32	Kiểm tra số	5,267,000  ->  5.267.000
+Trang 32	Kiểm tra số	18,041,400  ->  18.041.400
+Trang 32	Kiểm tra số	19,819,800  ->  19.819.800
+Trang 32	Kiểm tra số	19,947,763  ->  19.947.763
+Trang 32	Kiểm tra số	19,932,000  ->  19.932.000
+Trang 32	Kiểm tra số	6,636,600  ->  6.636.600
+Trang 32	Kiểm tra số	29,700,000  ->  29.700.000
+Trang 32	Kiểm tra số	7,436,000  ->  7.436.000
+Trang 32	Kiểm tra số	37,950,000  ->  37.950.000
+Trang 32	Kiểm tra số	18,975,000  ->  18.975.000
+Trang 32	Kiểm tra số	2,178,000  ->  2.178.000
+Trang 33	Từ điển	TÍNH  ->  TỊNH
+Trang 33	Từ điển	ĐÔNG  ->  ĐỒNG
+Trang 33	Từ điển	Lo  ->  Lỗ
+Trang 33	Từ điển	khi  ->  khí
+Trang 33	Từ điển	Tuần  ->  Tuấn
+Trang 33	Từ điển	THU  ->  THƯ
+Trang 33	Từ điển	Tuần  ->  Tuấn
+Trang 33	Từ điển	THU  ->  THƯ
+Trang 33	Từ điển	THU  ->  THƯ
+Trang 33	Kiểm tra số	. 53  ->  .53
+Trang 33	Kiểm tra số	2,950,000  ->  2.950.000
+Trang 33	Kiểm tra số	8,924,000  ->  8.924.000
+Trang 33	Kiểm tra số	3,000,000  ->  3.000.000
+Trang 33	Kiểm tra số	16,519,000  ->  16.519.000
+Trang 33	Kiểm tra số	16,519,000  ->  16.519.000
+Trang 33	Kiểm tra số	6,134,000  ->  6.134.000
+Trang 33	Kiểm tra số	6,230,000  ->  6.230.000
+Trang 33	Kiểm tra số	3,680,000  ->  3.680.000
+Trang 33	Kiểm tra số	15,800,000  ->  15.800.000
+Trang 33	Kiểm tra số	84,700,000  ->  84.700.000
+Trang 33	Kiểm tra số	67,636,296  ->  67.636.296
+Trang 33	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	18,232,407  ->  18.232.407
+Trang 33	Kiểm tra số	11,780,000  ->  11.780.000
+Trang 33	Kiểm tra số	18,035,000  ->  18.035.000
+Trang 33	Kiểm tra số	15,900,000  ->  15.900.000
+Trang 33	Kiểm tra số	12,042,000  ->  12.042.000
+Trang 33	Kiểm tra số	295,000  ->  295.000
+Trang 33	Kiểm tra số	892,400  ->  892.400
+Trang 33	Kiểm tra số	240,000  ->  240.000
+Trang 33	Kiểm tra số	1,651,900  ->  1.651.900
+Trang 33	Kiểm tra số	1,651,900  ->  1.651.900
+Trang 33	Kiểm tra số	613,400  ->  613.400
+Trang 33	Kiểm tra số	623,000  ->  623.000
+Trang 33	Kiểm tra số	368,000  ->  368.000
+Trang 33	Kiểm tra số	1,580,000  ->  1.580.000
+Trang 33	Kiểm tra số	6,776,000  ->  6.776.000
+Trang 33	Kiểm tra số	6,763,630  ->  6.763.630
+Trang 33	Kiểm tra số	.144,000  ->  144.000
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	1,458,593  ->  1.458.593
+Trang 33	Kiểm tra số	942,400  ->  942.400
+Trang 33	Kiểm tra số	1,442,800  ->  1.442.800
+Trang 33	Kiểm tra số	1,272,000  ->  1.272.000
+Trang 33	Kiểm tra số	1,204,200  ->  1.204.200
+Trang 33	Kiểm tra số	3,245,000  ->  3.245.000
+Trang 33	Kiểm tra số	9,816,400  ->  9.816.400
+Trang 33	Kiểm tra số	3,240,000  ->  3.240.000
+Trang 33	Kiểm tra số	18,170,900  ->  18.170.900
+Trang 33	Kiểm tra số	18,170,900  ->  18.170.900
+Trang 33	Kiểm tra số	6,747,400  ->  6.747.400
+Trang 33	Kiểm tra số	6,853,000  ->  6.853.000
+Trang 33	Kiểm tra số	4,048,000  ->  4.048.000
+Trang 33	Kiểm tra số	17,380,000  ->  17.380.000
+Trang 33	Kiểm tra số	91,476,000  ->  91.476.000
+Trang 33	Kiểm tra số	74,399,926  ->  74.399.926
+Trang 33	Kiểm tra số	1,944,000  ->  1.944.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	19,691,000  ->  19.691.000
+Trang 33	Kiểm tra số	12,722,400  ->  12.722.400
+Trang 33	Kiểm tra số	19,477,800  ->  19.477.800
+Trang 33	Kiểm tra số	17,172,000  ->  17.172.000
+Trang 33	Kiểm tra số	13,246,200  ->  13.246.200
+Trang 34	Từ điển	THU  ->  THƯ
+Trang 34	Từ điển	Thuơng  ->  Thương
+Trang 34	Từ điển	THU  ->  THƯ
+Trang 34	Từ điển	THU  ->  THƯ
+Trang 34	Từ điển	THU  ->  THƯ
+Trang 34	Từ điển	Nguyễn  ->  Nguyên
+Trang 34	Từ điển	THU  ->  THƯ
+Trang 34	Kiểm tra số	11,948,000  ->  11.948.000
+Trang 34	Kiểm tra số	10,685,900  ->  10.685.900
+Trang 34	Kiểm tra số	6,446,010  ->  6.446.010
+Trang 34	Kiểm tra số	17,837,000  ->  17.837.000
+Trang 34	Kiểm tra số	16,915,000  ->  16.915.000
+Trang 34	Kiểm tra số	1,194,800  ->  1.194.800
+Trang 34	Kiểm tra số	1,068,590  ->  1.068.590
+Trang 34	Kiểm tra số	644,601  ->  644.601
+Trang 34	Kiểm tra số	1,426,960  ->  1.426.960
+Trang 34	Kiểm tra số	1,353,200  ->  1.353.200
+Trang 34	Kiểm tra số	13,142,800  ->  13.142.800
+Trang 34	Kiểm tra số	11,754,490  ->  11.754.490
+Trang 34	Kiểm tra số	7,090,611  ->  7.090.611
+Trang 34	Kiểm tra số	19,263,960  ->  19.263.960
+Trang 34	Kiểm tra số	18,268,200  ->  18.268.200

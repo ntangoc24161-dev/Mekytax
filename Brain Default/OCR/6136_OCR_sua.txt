@@ -1,0 +1,58 @@
+﻿ToolOCR - các chỗ đã tự động sửa (56 chỗ). Trong Word: nền xanh nhạt = đã sửa, tô vàng = nghi ngờ cần soát.
+
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	HOI  ->  HỘI
+Trang 1	Từ điển	THUÊ  ->  THUẾ
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	HO  ->  HỒ
+Trang 1	Từ điển	CHI  ->  CHÍ
+Trang 1	Từ điển	Ay  ->  Áy
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	NAT  ->  NÁT
+Trang 1	Từ điển	cuc  ->  cục
+Trang 1	Từ điển	Thué  ->  Thuế
+Trang 1	Từ điển	dit  ->  dịt
+Trang 1	Từ điển	tuân  ->  tuấn
+Trang 1	Từ điển	thi,  ->  thí,
+Trang 1	Từ điển	quản.  ->  quân.
+Trang 1	Từ điển	đỉnh  ->  định
+Trang 1	Từ điển	chi  ->  chỉ
+Trang 2	Từ điển	có  ->  cỏ
+Trang 2	Từ điển	kho  ->  khô
+Trang 2	Kiểm tra số	8.028.350.4111  ->  80.283.504.111
+Trang 3	Từ điển	dia  ->  địa
+Trang 3	Từ điển	don  ->  đơn
+Trang 3	Từ điển	Dich  ->  Dịch
+Trang 3	Từ điển	hoá  ->  hóa
+Trang 3	Từ điển	dơn  ->  đơn
+Trang 3	Từ điển	Két  ->  Kết
+Trang 3	Từ điển	qua  ->  quả
+Trang 3	Từ điển	kiém  ->  kiểm
+Trang 3	Từ điển	ly  ->  lý
+Trang 3	Từ điển	don  ->  đơn
+Trang 3	Từ điển	Sy  ->  Sỹ
+Trang 3	Từ điển	Thanh  ->  Thành
+Trang 3	Từ điển	TRUONG  ->  TRUÔNG
+Trang 3	Từ điển	THUE  ->  THUẾ
+Trang 3	Từ điển	CO  ->  CƠ
+Trang 3	Từ điển	SO  ->  SỞ
+Trang 3	Từ điển	PHO  ->  PHÔ
+Trang 3	Từ điển	TRUONG  ->  TRƯƠNG
+Trang 3	Từ điển	THUE  ->  THUẾ
+Trang 3	Từ điển	CO  ->  CƠ
+Trang 3	Từ điển	SO  ->  SỞ
+Trang 4	Từ điển	HỒC  ->  HỐC
+Trang 4	Từ điển	BẰNG  ->  BẢNG
+Trang 4	Từ điển	KE  ->  KÊ
+Trang 4	Từ điển	CONG  ->  CÔNG
+Trang 4	Từ điển	SƠ  ->  SỞ
+Trang 4	Từ điển	HÖ  ->  HỒ
+Trang 4	Từ điển	Tĩnh  ->  Tỉnh
+Trang 4	Kiểm tra số	1.351.9584.000  ->  13.519.584.000
+Trang 4	Kiểm tra số	137.051.3840  ->  1.370.513.840
+Trang 4	Kiểm tra số	2.900.145.5600  ->  29.001.455.600
+Trang 4	Kiểm tra số	2.592.638.000  ->  2.592.698.000
+Trang 4	Kiểm tra số	1.370.513.840  ->  137.051.840
+Trang 4	Kiểm tra số	13.519.584.000  ->  1.351.994.000
+Trang 4	Kiểm tra số	29.001.455.600  ->  2.900.145.600

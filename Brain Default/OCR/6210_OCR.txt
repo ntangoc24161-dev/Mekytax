@@ -1,0 +1,847 @@
+﻿THUÊ THANII PIO HỒ CHÍ MINH
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNII PHO HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+Số: ..48/1../TCS1-QLDN2
+Tân Định. ngày 1 tháng \Dnam 2026
+V/v cảnh báo công ty có dâu
+THUẾ THÀNH PHẾ ĐỒNG NAI	
+"CÔNG 1 ĐNh	mộ. 01/40) Chuyển...............
+hiệu rủi ro cao về thuê, hóa đơn
+Kính gửi: - Chi cục Thuế doanh nghiệp lớn;
+- Chi cục Thuế thương mại điện t
+- Các Thuế Tỉnh Thành phố;
+- Các Thuế cơ sở thuộc Thuế Tin
+- Sở Tài chính TP. HCM (Phỏng ]
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/1⁄/4u⁄2 va cac van vãn hướng dẫn thi hành;
+Căn cứ Nghị định 254/2026/NĐ-CP ngày 30/06/2026 của Chính phủ ban hành quy định chi tiết một số điều và biện pháp dé tổ chức, hướng dẫn thi hành Luật Quản lý thuế 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử;
+- Căn cứ Thông tư số 91/2026/TT-BTC ngày 30/06/2026 của Bộ Tài chính quy định mot số điều của Luật Quản lý thuế và Nghị định số 254/2026/NĐ-CP của Chính phủ quy định chỉ tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy đin về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QD-TCT ngày 14/02/2017 của Tổng cục Thuế về việc . ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dấu hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương;
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việc ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro trong quản lý và sử dụng hóa đơn;
+Căn cứ công văn số 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế về việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế về việc tăng cường công tác quản lý hóa đơn điện tử.
+Qua rà soát tình hình sử dụng hóa đơn, hồ so khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Đầu tư Thương mại Dịch vụ Tổng hợp Ngôi
+Sao
+
+- Mã số thuế: 0319496664
+.- Địa chỉ trụ sở: 159 Nguyễn Du, Phường Bến Thành, Thành phố Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319496664, ngày cấp 10/04/2026 do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Bán buôn tổng hợp
+- Người đại diện theo pháp luật: Nguyễn Thị Thanh Thuý - Chức vụ: Giám đốc
+- CMND/CCCD/Hộ chiếu số: 089181013697, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+- Địa chỉ thường trú: Khóm Bắc Sơn, Xã Thoại Sơn, Tinh An Giang.
+2, Các dấu hiệu rai ro:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 20/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov. xuÁreeugftrs. cugbos don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Pvt: đồng)
+Kỳ kê khai.	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Trị giá mua vào	Thuế GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào
+2602.	55.081.164.315	4.442.493.145	55.084.482.315	4.442.681.785	3.318.000	188.640
+2603	65.663.625.000	5.349.741.200	65.664.275.000	5.349.741.200	650.000	0
+Tổng	120.744.789.315	9.792.234.345	120.748.757.315	9.792.422.985	3.968.000	188.640
++ Hóa đơn đầu ra: (Pvt: đồng)
+Kỳ kê khai	Thông tin kê khai trên tờ khai : GTGT		Thông tin trên hệ thông hóa đơn điện tử		- “ Chênhlệch	
+	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra
+2602	42.966.418.974	3.493.430.918	50.595.824.677	4.103.783.374	7.629.405.703	610.352.456
+2603	59.576.634.857	4.797.197.858	61.467.757.057	4.948.487.644	1.891.122.200	151.289.786
+: Tổng	102.543.053.831	8.290.628.776	112.063.581.734	9.052.271.018	9.520.527.903	761.642.242
+Các dấu hiệu rủi ro:
+- Doanh nghiệp không hoạt động tại địa chỉ đã đăng ký.
+- Doanh nghiệp ngày 10/04/2026, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ mua vào của doanh nghiệp đang trạng thái 03 và trạng thái 06.
+- Doanh nghiệp kinh doanh những mặt hàng: Áo cánh dơi cao cấp TBP, Áo mưa bộ phản quang TBP-XL, Củi vụn,...
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hàng, chi nhánh, văn phòng đại diện, địa điểm kinh doanh, nhà xưởng, không phát sinh hóa đơn vận chuyền hoặc thuê nhân công.
+- Doanh nghiệp có vốn điều lệ: 8.000. 000. 000 đồng, rất thấp so với tổng giá trị xuất hóa đơn từ ngày 25/05/2026 đến 19/09/2026: 112.063.581.734 đồng.
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nộp.
+
+- Doanh nghiệp mới thành lập, có người đại diện theo pháp luật không phải là người địa phương.
+- Doanh nghiệp thuộc diện rủi ro cao qua kết quả phân tích rủi ro TPR, nhưng không giải trình theo thông báo của cơ quan thuế.
+3. Các biện pháp đã thực hiện:
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiền hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chỉ đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo số 84109. /TB-TCS1 ngày .24../.42./2026 về việc NNT không hoạt động tại địa chỉ đã đăng ký và gửi công văn chuyển tin báo vụ việc đến Công an phường Bến Thành - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp dé khấu trừ, hoàn thuế, hạch toán chỉ phí đầu vào không đúng quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của Công ty TNHH Đầu tư Thương mại Dịch vụ Tổng hợp Ngôi Sao tiến hành kiểm tra, xác mình và xử lý nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thành phố Hồ Chí Minh theo địa chỉ số 8 Nguyễn Văn Thủ, Phường Tân Định, TP Hồ CHIE)
+Minh.
+cơ quan./. Z
+Nơi nhận:
+- Như trên;
+- Lưu: VT, QLDN2 (10b). /|
+Wp U4,
+
+THUẾ THÀNH PHỐ HỒ CHÍ MINH
+THUẾ CƠ SỞ 1:THÀNH PHO HỒ CHÍ MINH
+oR XH.o =X
+DANH SÁCH HÓA ĐƠN BAN RA
+(Đính kèm công văn số /TCS1-QLDN2 ngày
+'XWI FLIẦuo.. xí. tt				1							
+STTẾ .C	\	%5 h9 "xđơn.	ÑaÌm		MST người mua	Tên người mua	Địa chỉ người mua	Tống tiễn chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	cQT
+LÁ	N4.	ƯA Tại 21⁄4	(86ao‹		3801335652	COONG TY TNHH THƯƠNG MẠI HÒA BÌNH GREEN	Tổ 2B, Khu phố Tiên Hưng 4, Phường Bình Phước, Thành Phố Đồng Nai. Việt Nam	176.750.000	14.140.000	190.890.000	TPĐông Xoài- TCS10Đồng Nai
+
+THUẾ THÀNH PHỐ HỒ CHÍ MINH
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+sé: .2ÍÐ.../TCS1-QLDN2
+Tân Định, ngày |) tháng )0 năm 2026
+V/v cảnh báo công ty có dấu
+hiệu rủi ro cao về thuế, hóa đơn THUÊ THÀNH PHỐ ĐỒNG NAI
+Kính gửi: - Chi cục Thuế doanh nghiệp lớn;
+A
+- Chi cục Thuế thương mại điện từ; | CONG |Số:....G,2JD...
+Uy f
+VĂN
+- Các Thuế Tinh Thành phố;
+- Các Thuế cơ sở thuộc Thuê Tỉnh Thành pi Nay. 0? hà sed
+Inose.
+- Sở Tài chính TP. HCM (Phòng DHIBEN |Chuyển:
+9909450seé°6°.)00090926600
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/12/2025 và các văn bản hướng dẫn thi hành;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QĐ-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ. có dấu
+_hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương;
+quản lý và sử i dụng hóa đơn;
+Căn cứ công văn số 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế vé việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế về việc tăng cường công tác quản lý hóa đơn điện tử.
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí ‘Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Thương mại Dịch vụ Xây dựng Nghị Đức
+- Mã số thuế: 0319298623
+- Địa chỉ trụ sở: 121/45 Lê Thị Riêng, Phường Bến Thành, TP Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319298623, ngày cấp 05/12/2025 do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Hoạt động thiết kế chuyên dụng
+- Người đại diện theo pháp luật: Trương Văn Lớn - Chức vụ: Giám đốc
+- CMND/CCCD/Hộ chiếu số: 079078023102, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+
+- Địa chỉ thường trú: D1/26 Áp 45, Xã Hung Long, TP Hồ Chí Minh.
+2. Các dấu hiệu rủi ro:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 06/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Đv/: dong)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Trị giá mua ' vào	Thuê GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào
+2600	14.618.375.926	1.184.919.008	14.618.375.926	1.184.919.008	0	0
+2601	18.596.413.948	1.509.088.562	18.596.413.948	1.509.088.562	0	0
+2602	27.033.997.659	2.181.704.548	27.033.997.659	2.181.704.548	0	0
+2603	42.624.702.835	34.260.748.384	42.624.702.835	34.260.748.384	0	0
+_+ Hóa đơn đầu ra: (Pvt: dong)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT -		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra
+2504	14.248.055.530	1.163.995.253	14.248.055.530	1.163.995.253	0	0
+261	17.723.677.048	1.348.287.130	17.723.677.048	1.348.287.130	0	0
+362	25.088.917.526	2.027.081.801	25.128.107.526	2.030.217.001	39.190.000	3.135.200
+2603	42.036.794.192	3.380.890.446	42.176.794.192	3.394.890.446	140.000.000	14.000.000
+Cac dấu hiệu rủi ro:
+- Doanh nghiệp không hoạt động tại địa chỉ đã đăng ký.
+- Doanh nghiệp thành lập ngày 05/12/2025, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ bán ra của doanh nghiệp đang trạng thái 05, 09, 03, 06.
+- Doanh nghiệp kinh doanh những mặt hàng: Thép cuộn, Thép văn, Nan gỗ tràm
+bào,...
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hang, địa điểm kinh doanh, không phát sinh hóa đơn vận chuyển hoặc thuê nhân công.
+- Doanh nghiệp có vốn điều lệ: 3.000.000.000 đồng, rất thấp so với tổng giá trị xuất hóa đơn từ ngày 22/12/2025 đến 21/09/2026: 99.276.634.296 đồng
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nộp.
+- Doanh nghiệp nhiều lần thay đổi đại diện pháp luật:
++ Căn cứ dữ liệu trên Hệ thống thuế tập trung (TMS) ngày 17/12/2025, doanh nghiệp thay đổi đại diện pháp luật từ ông/bà Nguyễn Hoàng Đạt qua ông/bà Trương Văn Lớn.
+- Người đại diện theo pháp luật của doanh nghiệp đồng thời là đại diện theo pháp luật của nhiều doanh nghiệp khác: không
+
+3. Các biện pháp đã thực hiện:
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiền hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chỉ đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo số ÿ211Š/TB-TCS1 ngày 6./.19./2026 về việc NNT không hoạt động tại địa chỉ đã đăng ky và gửi công văn chuyền tin báo vụ việc đến Công an phường Bến Thành - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp để khấu trừ, hoàn thuế, hạch toán chi phí đầu vào không ding quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh dé nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của Công ty TNHH Thương mại Dịch vụ Xây dựng Nghị Đức tiến hành kiểm tra, xác minh và xử lý nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thành phố Hồ Chí Minh theo địa chí số 8 Nguyên Văn Thủ, Phường Tân Định, TP 116 Chí Minh.
+Thuế cơ sở 1 Thành phố Hồ Chí Minh rất mong nhận được sự phối hợp của uy’ ER) cơ quan./. - >
+Nơi nhận:
+- Như trên; '
+- bưu: VT, QLDN2 (105). 1A ~/
+Eze
+Đào Mộng Long
+
+THUẾÊTHÀNH PHÓHỎCHÍMINH THUẾ CƠ SỞ 1 THÀNH PHỐ HO C
+Fes	DANH SÁCH HÓA ĐƠN BAN RA ,
+bỊ THÀNH PHỐ Em						(Đính kèm công văn số T 49 /TCS1-QLDN2 ngày ⁄] 2, l4o{ ⁄o¿2b)					
+STT	Ký hiệu hóa đơn	Số hóa đơn	Ni Ngày lu _	sỹ 9H VI MST người n	^ Tên người mua		Địa chỉ người mua	T Š n g tiền chưa “	Tổng tiền thuế	Tổng tiền thanh toán	CcQT
+1	C26TND	89	27/06/2026	3604052006	CÔNG TY TNHH TƯ VÂN VÀ XÂY DỰNG PHẠM LÊ PHÁT		K2/54C, Tổ 50, Khu Phố 3, Phường Biên Hòa, TP Đồng Nai, Viêt Nam	876.315.655	70.105.252	946.420.907	TP. Biên Hòa-TCS3 Đồng Nai
+2	C26TND	91	27/06/2026	3604052006	CÔNG TY TNHH TƯ VẤN VÀ XÂY DỰNG PHẠM LÊ PHÁT		K2/54C, Tỏ 50, Khu Phố 3, Phường Biên Hòa, TP Đồng Nai. Việt Nam	1.433.348.000	114.667.840	1.548.015.840	TP. Biên Hòa-TCS3 Đồng Nai
+
+THUÊ THÀNH PHỐ HỒ CHÍ MINH
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+Tân Định, ngày lÙ tháng | xăm 2026
+sé: .‡Ì3_../TCS1-QLDN2
+THUẾ TRÌNH PHẾ ĐỒNG NẠI	
+CÔNG ẤN, xÊN	
+V/v cảnh báo công ty có dâu
+hiệu rủi ro cao về thuê, hóa đơn
+Kính gửi: - Chi cục Thuế doanh nghiệp lớn;
+- Chi cục Thuế thương mại điện tử;
+- Các Thuế Tỉnh Thanh phố;
+- Các Thuế cơ sở thuộc Thuế Tỉnh 1
+- Sở Tài chính TP. HCM (Phòng ĐK
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/ 12/2025 và các văn. bán hướng dẫn thi hành;
+.. Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tải chính quy dịnh về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QĐ-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dấu hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương;
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việc ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro trong quản lý và sử dụng hóa đơn;
+Căn cứ công văn số 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế về ViỆc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hó đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế Việc tăng cường công tác quản lý hóa đơn điện tử
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chi Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Thương mại Dịch vụ Ngân Hiền
+- Mã số thuế: 0319318478:
+- Dịa chỉ trụ sở: 28/8A Tôn Thất Tùng, Phường Bến Thành, TP Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319318478, ngày cấp 19/12/2025 do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Cho thuê máy móc, thiết bị và d6 dùng hữu hình khác không kèm người điều khiển
+- Người đại diện theo pháp luật: Huỳnh Thị Bích Thủy - Chức vụ: Giám đốc
+
+- CMND/CCCD/Hộ chiếu số: 079193016221, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+B1/24 Áp 2A, Xã Bình Hưng, TP Hồ Chí Minh.
+- Địa chỉ thường trú:
+2. Các dấu hiệu rủi ro:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 06/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Pvt: dong)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch -	
+	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào
+2600	0	0	0	0	0	0
+2601	88.606.676.924	7.422.366.927	88.606.976.924	7.422.396.927	300.000	30.000
+2602	77.939.285.136	6.851.054.211	717.939.707.941	6.851.096.492	422.805	42.281
+2603	46.759.562.594	2.740.193.760	18.822.779.821	1.706.887.211	27.936.782.773	06.549
++ Hóa đơn đầu ra: (Pvt: đồng)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Doanh thu	Thuê GTGT bán ra .	Doanh thu	Thuê GTGT bán ra	Doanh thu	-ThuêGTGT bán ra
+260	0	0	0	0	0	0
+261	84.515.805.405	7.076.071.068	84.683.123.005	7.089.715.076	167.317.600	13.644.008
+2602	81.389.480.385	7.182.192.466	81.616.989.273	7.200.415.578	227.508.888	18.223.112
+2603	462.007.768.979	2.695.650.271	48.987.488.467	2.919.439.237	2.184.719.488	223.788.966
+Các dấu hiệu rủi ro:
+- Doanh nghiệp không hoạt động tại địa chỉ đã đăng ký.
+- Doanh nghiệp thành lập ngày 19/12/2025, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ bán ra của doanh nghiệp đang trạng thái 05, 09, 03, 06.
+- Doanh nghiệp kinh doanh những mặt hàng: Máy phun vữa trát tường chạy Diesel, Máy bơm vữa BW250, Thun,..
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hàng, địa điểm kinh doanh, không phát sinh hóa đơn vận chuyển hoặc thuê nhân công.
+- Doanh nghiệp có vốn điều lệ: 2.300.000.000 đồng, rất thấp so với tổng giá trị xuất hóa đơn từ ngày 07/01/2026 đến 18/09/2026: 215.287.600.745 đồng
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nop.
+- Doanh nghiệp nhiều lần thay đổi đại diện pháp luật: không
+- Người đại diện theo pháp luật của doanh nghiệp đồng thời là đại diện theo pháp luật của nhiều doanh nghiệp khác: không
+3. Các biện pháp đã thực hiện:
+
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiến hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chỉ đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo sb 123 {/TB-TCS1 ngày 2k/.10./2026 về việc NNT không hoạt động tại địa chỉ đã đăng ký và gửi công văn chuyền tin báo vụ việc đến Công an phường Bến Thành - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp dé khấu trừ, hoàn thuế, hạch toán chỉ phí đầu vào không đúng quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của Công ty TNHH Thương mai Dịch vu Ngân Hiển tiến hành kiểm tra, xác minh và xử lý nếu có VI phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thành phố Hồ Chí Minh theo địa chỉ số 8 Nguyễn Văn \ Thủ, Phường Tân Định, TP Hồ Chí
+Minh.
+': Thuế cơ sở 1 Thành phố Hồ Chí Minh rất mong nhận được sự phối hợp của quý cơ quan la
+KT. TRUGNG THUẾ CƠ SỞ
+Nơi nhận:
+- Như trên;
+Thuế cơ Sở PHO ER
+ART ˆ
+- Lưu: VT, QLDN2 (10b). ÂAZ⁄
+1618183
+gái
+
+THUÊ THÀNH PHỚ HÓC
+Ó ŸÖXCHÍ MINH THUÊ cosa
+yd THIẾT BÃI 2
+DANH SÁCH HÓA BON BAN RA
+				(Đính kèm công văn số ~>⁄ | u59 /TCS1-QLDN2 ngày /{ 1 {4D} Lo ìh)							
+STT	Ký hiệu bú4 › đớn	'Sô hồn, đơn	"đð/›		MST người mua	Tên người mua .	Địa chỉ người mua	Tổng tiền chưa thuế	'Tổng tiền thuế	Tổng tiền thanh toán	CcQT
+1	—,	0.	NZ “5o		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tố 4, ấp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Viêt Nam	113.345.000	9.067.600	122.412.600	H.Long Thành- TCS5Đồng Nai
+2	ha] C26TNH	352	06/04/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiển Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	137.500.000	11.000.000	148.500.000	H.Long Thành- TCS5Đồng Nai
+3	C26TNH	454	04/05/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tỗ 4, ấp Hiển Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Việt Nam	116.400.000	9.312.000	125.712.000	H.Long Thảnh- TCS5Đồng Nai
+4	C26TNH	473	06/05/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiển Hòa, Xã Phước Thái, Thành Phố Đồng Nai, Việt Nam	120.000.000	9.600.000	129.600.000	H.Long Thành- TCS5Đẳng Nai
+5	C26TNH	479	07/05/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ắp Hiến Hòa, Xã Phước Thái, Thành Phố Đồng Nai, Việt Nam	2.140.000	171.200	2.311.200	H.Long Thành- TCS5Đồng Nai
+6	C26TNH	497	11/05/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tỗ 4, ấp Hiền Hòa, Xã Phước Thái, - Thành Phố Đồng Nai. Việt Nam	78.800.000	6.304.000	85.104.000	H.Long Thảnh- TCSSĐồng Nai
+7	C26TNH	509	14/05/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, áp Hiên Hòa, Xã Phước Thái, Thành Phố Đồng Nai. Việt Nam	35.100.000	2.808.000	37.908.000	H.Long Thành- 'TCS5Đẳng Nai
+8	C26TNH	512	15/05/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tô 4, ấp Hiển Hòa, Xã Phước Thái, “Thành Phố Đồng Nai. Việt Nam	65.575.000	5.246.000	70.821.000	H.Long Thành- 'TCS5Đồng Nai
+9	C26TNH	51	15/05/2026		3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, áp Hiển Hòa, Xã Phước Thái, Thành Phố Đồng Nai. Việt Nam -	35.860.000	2.328.800	38.188.800	H.Long Thành- TCS5Đồng Nai
+10	C26TNH i	274	30/03/2026		3603484927	CÔNG TY TNHH BẢO HỘ LAO ĐỘNG MINH THÔNG -	37, tỗ 2, ấp Hàng Gòn, Xã Long Thành, Tỉnh Đồng Nai, Việt Nam	13.901.500	1.112.120	15.013.620	H.Long Thành- 'TCS5Đồng Nai
+11	C26TNH	481	07/05/2026		3604023936	CÔNG TY TNHH SẢN XUẤT TM DV ĐÓNG TIỀN PHÁT	Tô 6, ắp Hiển Đức, Xã Phước Thái, Thành Phố Đồng Nai, Việt Nam	76.000.000	6.080.000	82.080.000	H.Long Thảnh- TCS5Đồng Nai
+12	C26TNH	488	08/05/2026		3604023936	CÔNG TY TNHH SẢN XUẤT TM DV ĐÔNG TIỀN PHÁT	Tô 6, ấp Hiền Đức, Xã Phước Thái, Thành Phố Đồng Nai, Viêt Nam	47.000.000	3.760.000	50.760.000	H.Long Thành- TCS5Đồng Nai
+13	C26TNH	277	30/03/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	494.490.000	39.559.200	534.049.200	H.Long Thành- TCSSĐông Nai
+14	C26TNH	278	30/03/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	305.935.600	24.474.848	330.410.448	H.Long Thành- TCS5Đồng Nai
+15	C26TNH	304	31/03/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	281.038.780	22.483.102	303.521.882	H.Long Thành- TCS5Đồng Nai
+16	C26TNH	308	31/03/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Ấp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	278.297.000	22.263.760	300.560.760	H.Long Thành- TCS5Đồng Nai
+17	C26TNH	403	17/04/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	677.579.300	54.206.344	731.785.644	H.Long Thảnh- TCS5Đồng Nai
+18	C26TNH	405	17/04/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	660.770.000	52.861.600	713.631.600	H.Long Thành- 'TCS5 Đẳng Nai
+19	C26TNH	409	18/04/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Ắp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	322.956.000	25.836.480	348.792.480	H.Long Thành- TCSSĐỏng Nai
+20	C261NH	449	29/04/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tỗ 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	645.831.600	51.666.528	697.498.128	H.Long Thảnh- TCS5Đồng Nai
+21	C26TNH	450	29/04/2026		3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Áp Hiển Hỏa, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	475.523.500	38.041.880	513.565.380	H.Long Thành- TCS5Đồng Nai
+22	C26TNH	ÚI	28/02/2026		3603483708	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬN TẢI VIỆT THÀNH HƯNG	Số 191/62, Tổ 16, KP An Hòa, Phường Biên Hòa, Tỉnh Đồng Nai, Việt Nam	131.111.112	10.488.889	141.600.001	TP. Biên Hòa-TCS3 Đồng Nai
+23	C26TNH	132	28/02/2026		3603483708	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬN TẢI VIỆT THÀNH HƯNG	Số 191/62, Tố 16, KP An Hòa, Phường Biên Hòa, Tỉnh Đồng Nai, Việt Nam	87.407.408	6.992.593	94.400.001	TP. Biên Hòa-TCS3 Đồng Nai
+
+7U
+THUẾ THÀNH PHỐ HỒ CHÍ MINH
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+sé: .+4IAO./TCS1-QLDN2
+Tân Định, ngày)Ô tháng |[Onăm 2026
+V/v cảnh báo công ty có dau
+hiệu rủi ro cao về thuê, hóa đơn
+THUẾT! "ĐÔNG hi KKD)	lÌNH PHỔ ĐỒNG NAI số......@œ140...
+	
+Kính gửi: - Chi cục Thuế doanh nghiệp lớn;
+- Chi cục Thuế thương mại điện t
+- Các Thuế Tỉnh Thành phố;
+- Các Thuế cơ sở thuộc Thuế Tin
+- S& Tài chính TP. HCM (Phong
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 1U, „4,44 va var vous ves hướng dẫn thi hành;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QD-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dấu hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương;
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việc ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro trong quản lý và sử dụng hóa đơn;
+Căn cứ công văn số 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế/Ố@>ˆ việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về/i đơn, chống gian lận hoàn thuế GTGT;
+việc tăng cường công tác quản lý hóa đơn điện tử
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Thương mại Dịch vụ Nguyên Bắc
+- Mã số thuế: 0319296746
+- Địa chỉ trụ sở: 44-46 Nguyễn An Ninh, Phường Bến Thành, Thành phố Hồ Chí
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319296746, ngày cấp 04/12/2025 do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Bán buôn giường, tủ, bàn ghế và đồ nội thất tương tự trong gia đình, văn phòng, cửa hàng; thảm, đệm
+- Người đại diện theo pháp luật: Lâm Thế Điền - Chức vụ: Giám đốc
+
+- CMND/CCCD/Hộ chiều số: 079077011408, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội.
+- Địa chỉ thường trú: 85/11 Bùi Minh Trực, Phường Chánh Hưng, TP Hồ Chí
+2. Các dấu hiệu rủi ro:
+~~ Căn cứ kết quả tra cứu hoá đơn bán ra (ngày tra cứu 06/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 06/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Pvt: dong)
+Kỳ kê - khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Trị giá mua vào	Thuế GTGT mua vào	Trị giá mua vào	Thuế GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào
+2600	11.171.920.000	1.087.168.000	11.173.520.000	1.087.168.000	1.600.000	0
+2601	101.313.119.627	8.608.289.842	101.313.119.627	8.608.389.842	0	100.000
+2602	80.919.432.744	7.056.089.660	80.923.528.240	7.056.499.210	4.095.496	409.550
+2603	29.177.118.769	1.611.588.857	15.105.016.590	1.262.392.974	(14.072.102.179)	(349.195.883)
++ Hóa đơn đầu ra: (Pvt: dong)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra
+2504	8.196.362.715	819.636.272	8.196.362.715	819.636.271	0	1
+2601	91.840.465.354	7.783.978.418	91.916.761.354	7.791.608.018	76.296.000	7.629.600
+262	89.456.168.956	7.853.644.691	89.839.336.307	7.884.268.079	383.167.351	30.653.388
+2603	29.184.866.069	1.612.208.642	29.184.866.069	1.612.208.642	0	0
+Các dấu hiệu rủi ro:
+- NNT không hoạt động tại địa chỉ đã đăng ký.
+- Doanh. nghiệp mới thành lập ngày 04/12/2025, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ mua vào của doanh nghiệp có trạng thái 05, 09, 03, 06.
+- Doanh nghiệp kinh doanh những mặt hàng: Thun, Nhôm phế liệu các loại (lon bia, cửa), Cát bê tông vàng, Đá 1x2...
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hàng, địa . điểm kinh doanh, không phát sinh hóa đơn vận chuyển hoặc thuê nhân công.
+- Doanh nghiệp có vốn điều lệ: 3.500.000.000 đồng, rất thấp so với tổng giá trị . xuất hóa đơn từ ngày 20/12/2025 đến 21/08/2026: 219.137.326.445 đồng
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nộp.
+- Doanh nghiệp nhiều lần thay đổi đại diện pháp luật:
+
++ Căn cứ dữ liệu quản lý thuế TMS, ngày 16/12/2025, doanh nghiệp thay đổi đại diện pháp luật từ ông/bà Đặng Thanh Hiền qua ông/bà Lâm Thế Điền.
+3. Các biện pháp đã thực hiện:
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiến hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chi đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo số $213l5/TB-TCS1 ngày .Dk./.)Q/2026 về việc NNT không hoạt động tại địa chỉ đã đăng ký và gửi công văn chuyến tin báo vụ việc đến Công an phường Bến Thành - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp dé khấu trừ, hoàn thuế, hạch toán chi phí đầu vào không đúng quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của Công ty TNHH Thương mại Dịch vụ Nguyên Bắc tiến hành kiểm tra, xác minh và xử lý nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thành phố Hồ Chí Minh theo địa chỉ số 8 Nguyễn Văn Thủ, Phường Tân Định, TP Hồ Chí
+Minh.
+Thuế cơ sở 1 Thành phố Hồ Chí Minh rất mong nhận được sự phối hợp của w S cơ quan
+KT. TRUÔNG THUÊ Cơ St Jz)
+Nơi nhận:
+PHÓ TRƯỞNG THUÊ CƠ S is
+- Như trên;
+- Lưu: VT, QLDN2 (10b).
+
+THUÊ THÀNH PHỐ HỒ CHÍ MINH THUẾ CƠ SỞ 1 THÀNH PH
+ACN,
+of <n=dsð \X%
+DANH SÁCH HÓA ĐƠN BAN RA
+(Đính kèm công ăn số ^Z({qv2
+/TCSI-QLDN2ngy 0G ÌÁO 2O Uở ]
+			- #m is -.- +. .u								
+STT	Ký hiệu hóa đơn	l		THANH! XI	ng)	Tên người mua	Địa chỉ người mua	Tổng tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	cor
+1	C26TNB	sÑ		hà	86a	CÔNG TY TNHH ANH THÀNH CÔNG	Sô 202, Quốc lộ 51, tô 4, âp Hiền Hòa, Xã Phước Thái. Tỉnh Đồng Nai. Việt Nam	66.735.000	5.338.800	72.073.800	H.Long Thành- TCS5Đồng Nai
+2	C26TNB	199		24/0,	5502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tỗ 4, Áp Hiển Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Việt Nam	718.348.000	57.467.840	775.815.840	H.Long Thành- TCS5Đồng Nai
+3	C26TNB	200		24/03/2026	3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MAI TIỀN TIỀN PHÁT	Số 1798, Tổ 4, Áp Hiển Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Việt Nam	521.266.800	41.701.344	562.968.144	H.Long Thành- TCS55Đồng Nai
+4	C26TNB	214		25/03/2026	3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tô 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Viêt Nam	436.655.000	34.932.400	471.587.400	H.Long Thành- TCS5Đồng Nơi
+5	C26TNB	246		02/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiền Hòa, Xã Phước Thái. Tỉnh Đồne Nai. Việt Nam	52.719.000	4.217.520	56.936.520	H.Long Thành- TCS5Đông Nai
+6	C26TNB	280		10/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiền Hòa, Xã Phước Thái. Tình Đồn: Nai. Việt Nam	34.800.000	2.784.000	37.584.000	H.Long Thành- TCS5Đồnn Nai
+7	C26TNB	283		10/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiển Hòa, Xã Phước Thái. Tỉnh Đồng Nai, Việt Nam	77.600.000	6.208.000	83.808.000	H.Long Thành- TCS5Đỏng Nai
+8	C26TNB	289		13/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiển Hòa, Xã Phước Thái. Tỉnh Đồng Nai. Việt Nam	118.800.000	9.504.000	128.304.000	H.Long Thành- TCS5Đỏng Noi
+9	C26TNB	293		14/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ $1, tô 4, ấp Hiền Hòa, Xã Phước Thái. Tỉnh Đồng Nai. Việt Nam	77.600.000	6.208.000	83.808.000	H.Long Thành- TCS5Đồng Nai
+10	C26TNB	296		16/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiển Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Việt Nam	80.000.000	6.400.000	86.400.000	H.Long Thành- 'TCS5Đồng Nai
+11	C26TNB	300		17/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Sô 202, Quốc lộ 51, tô 4, âp Hiền Hòa, Xã Phước Thái. Tỉnh Đồng Nai, Việt Nam	38.800.000	3.104.000	41.904.000	H.Long Thảnh- 'TCS5Đồng Nai
+12	C26TNB	302		17/04/2026	3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tỏ 4, Áp Hiển Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Việt Nam	693.766.800	55.501.344	749.268.144	H.Long Thảnh- TCSSĐồng Nai
+13	C26TNB	306		20/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiển Hòa, Xã Phước Thái. Tỉnh Đồng Nai. Viêt Nam	88.078.000	7.046.240	95.124.240	H.Long Thành- TCS5Đồng Nai
+14	C26TNB	308		20/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tỏ 4, ấp Hiền Hòa, Xã Phước Thái. Tỉnh Đồng Nai. Viêt Nam	38.800.000	3.104.000	41.904.000	H.Long Thành- TCS5Đồng Nai
+15	C26TNB	315		21/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tổ 4, ấp Hiển Hòa, Xã Phước - Thái. Tỉnh Đồng Nai. Việt Nam	38.800.000	3.104.000	41.904.000	H,Long Thành- 'TCS5Đồng Nai
+16	C26TNB	320		22/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ $1, tổ 4, ấp Hiển Hòa, Xã Phước Thái. Tỉnh Đồng Nai. Viêt Nam	157.600.000	12.608.000	170.208.000	H.Long Thành- TCSSĐồng Nai
+17	C26TNB	321		23/04/2026	3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MAI TIỀN TIỀN PHÁT	Số 1798, Tô 4, Áp Hiền Hòa, Xã Phước Thái, Tình Đẳng Nai, Việt Nam	587.730.000	47.018.400	634.748.400	H.Long Thành- TCS5Đồng Nai
+18	C26TNB	325		24/04/2026	3502299558	CÔNG TY TNHH XÂY DỰNG SẢN XUẤT VÀ DỊCH VỤ THƯƠNG MẠI TIỀN TIỀN PHÁT	Số 1798, Tô 4, Áp Hiền Hòa, Xã Phước Thái, Tỉnh Đồng Nai. Việt Nam	255.759.500	20.460.760	276.220.260	H.Long Thảnh- TCS5Đồng Nai
+19	C26TNB	336		28/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Sô 202, Quốc lộ 51, tổ 4, ấp Hiền Hòa, Xã Phước Thái. Tỉnh Đồng Nai. Việt Nam	175.100.000	14.008.000	189.108.000	H.Long Thành- TCS5Đông Nai
+20	C26TNB	348		29/04/2026	3603152181	CÔNG TY TNHH ANH THÀNH CÔNG	Số 202, Quốc lộ 51, tố 4, ấp Hiền Hòa, Xã Phước 'Thái, Tỉnh Đồng Nai, Việt Nam	37.044.000	2.963.520	40.007.520	H.Long Thành- TCS5Đẳng Nai
+21	C26TNB	149		11/03/2026	3603501957	CÔNG TY TNHH MỘT THÀNH VIÊN DUY TRUNG TÍN	Sô 301, tô 9, KP Trần Hưng Đạo, Xã Dầu Giây, Tỉnh Đồng Nai. Việt Nam	1.992.000.000	159.360.000	2.151.360.000	H,.Thông Nhất- TCS6Đồng Nai
+22	C26TNB	310		21/04/2026	3603501957	CÔNG TY TNHH MỘT THÀNH VIÊN DUY TRUNG TÍN	Số 801, tổ 9, KP Trần Hưng Đạo, Xã Dầu Giây, Tỉnh Đẳng Nai. Viêt Nam	1.693.200.000	135.456.000	1.828.656.000	H.Thông Nhất- TCS6Đồng Nai
+23	C26TNB	324		24/04/2026	3603501957	CÔNG TY TNHH MỘT THÀNH VIÊN DUY TRUNG TÍN	Số 801, tô 9, KP Trần Hưng Đạo, Xã Dầu Giây, Tỉnh Đồng Nai. Việt Nam	677.280.000	54.182.400	731.462.400	H.Thông Nhất- TCS6Đông Nai
+24	C26TNB	402		26/05/2026	3603501957	CÔNG TY TNHH MỘT THÀNH VIÊN DUY TRUNG TÍN	Số 801, tô 9, KP Trần Hưng Đạo, Xã Dầu Giây, Tỉnh Đồng Nai. Việt Nam	1.456.716.400	116.537.312	1.573.253.712	H.Thống Nhất- TCS6Đồng Nai
+25	C26TNB	1		06/01/2026	3602825022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	375.593.300	30.047.464	405.640.764	H.Xuân Lộc-TCS1 Đồng Nai
+26	C26TNB	12		22/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Viêt Nam	307.736.100	24.618.888	332.354.988	H.Xuân Lộc-TCS] Đồng Nai
+27	C26TNB	15		24/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	172.908.700	13.832.696	186.741.396	H.Xuân Lộc-TCS1 Đồng Nai
+
+28	C26TNB	18	27/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	348.468.300	27.877.464	376.345.764	H.Xuân Lộc-TCS1 Đồng Nai
+29	C26TNB	2	08/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	306.651.500	24.532.120	331.183.620	H.Xuân Lộc-TCSI Đồng Nai
+30	C26TNB	3	10/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Léc. Tỉnh Đồng Nai, Việt Nam	298.090.100	23.847.208	321.937.308	H.Xuân Lộc-TCS1 Đồng Nai
+31	C26TNB	31	29/01/2026	3602825022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Viết Nam	169.355.680	13.548.454	182.904.134	H.Xuân Lộc-TCS1 Đồng Nai
+32	C26TNB	39	30/01/2026	3602825022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	339.600.000	27.168.000	366.768.000	H.Xuân Lộc-TCS1 Đồng Nai
+33	C26TNB	4	13/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	518.738.100	41.499.048	560.237.148	H.Xuân Lộc-TCS1 Đồng Nai
+34	C26TNB	40	30/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THÙY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lôce. Tỉnh Đồng Nai. Việt Nam	308.038.200	24.643.056	332.681.256	H.Xuân Lộc-TCS1 Đồng Nai
+35	C26TNB	5	14/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THÙY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lôce. Tỉnh Đồng Nai. Việt Nam	272.654.700	21.812.376	294.467.076	H.Xuân Lộc-TCS1 Đồng Nai
+36	C26TNB	6	15/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc, Tỉnh Đồng Nai. Việt Nam	269.860.000	21.588.800	291.448.800	H.Xuân Lộc-TCS1 Đồng Nai
+37	C26TNB	7	17/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lôe. Tỉnh Đồng Nai. Viêt Nam	447.834.400	35.826.752	483.661.152	H.Xuân Lộc-TCS1 Đồng Nai
+38	C26TNB	8	17/01/2026	3602825022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Viêt Nam	151.068.650	1.285.492	152.354.142	H.Xuân Lộc-TCS1 Đồng Nai
+39	C26TNB	9	20/01/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Viêt Nam	177.177.400	14.174.192	191.351.592	H.Xuân Lộc-TCS1 Đồng Nai
+40	C26TNB	103	25/02/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	125.267.900	10.021.432	135.289.332	H.Xuân Lộc-TCS1 Đồng Nai
+41	C26TNB	59	05/02/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai, Việt Nam	456.794.640	36.543.571	493.338.211	H.Xuân Lộc-TCS1 Đồng Nai
+42	C26TNB	67	06/02/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	299.348.900	23.947.912	323.296.812	H.Xuân Lộc-TCS1 Đồng Nai
+43	C26TNB		10/02/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Viêt Nam	336.766.600	26.941.328	363.707.928	H.Xuân Lộc-TCS1 Đồng Nai
+44	C26TNB	50	12/02/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai, Việt Nam	179.759.700	14.380.776	194.140.476	H.Xuân Lộc-TCS1 Đồng Nai
+45	C26TNB	126	05/03/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Viêt Nam	96.177.500	7.694.200	103.871.700	H.Xuân Lộc-TCS1 Đồng Nai
+46	C26TNB	130	06/03/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	123.235.200	9.858.816	133.094.016	H.Xuân Lộc-TCS1 Đồng Nai
+47	C26TNB	137	09/03/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lôce. Tỉnh Đồng Nai. Việt Nam	172.750.600	13.820.048	186.570.648	H.Xuân Lộc-TCS1 Đồng Nai
+48	C26TNB	143	10/03/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai, Việt Nam	221.260.000	17.700.800	238.960.800	H.Xuân Lộc-TCS1 Đồng Nai
+49	C26TNB	145	10/03/2026	3602825022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai, Việt Nam	102.360.000	8.188.800	110.548.800	H.Xuân Lộc-TCS1 Đồng Nai
+50	C26TNB	153	12/03/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đẳng Nai. Việt Nam	175.316.400	14.025.312	189.341.712	H.Xuân Lộc-TCS1 Đồng Nai
+51	C26TNB	155	14/03/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	172.434.400	13.794.752	186.229.152	H.Xuân Lộc-TCS1 Đồng Nai
+52	C26TNB	185	23/03/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Áp Gia Ray 7, Xã Xuân Lộc. Tỉnh Đồng Nai. Việt Nam	461.193.000	36.895.440	498.088.440	H.Xuân Lộc-TCS1 Đồng Nai
+
+THUÊ THÀNH PHỐ HỒ CHÍ MINH
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+sé: 3⁄2b../TCS1-QLDN2
+Tân Định, ngày 09 tháng [Onăm 2026
+THUẾ THÀNH PHỐ ĐỒNG NAI	
+CÔNG VĂN lh Thàn! phBà	số.......¿40 7¬ kh Chuyển...
+V/v cảnh báo công ty có đâu
+A A
+hiệu rủi ro cao về thuê, hóa đơn
+.ˆ
+Kính gửi: - Chỉ cục Thuế doanh nghiệp lới
+- Chi cục Thuế thương mại điện
+- Các Thuế Tỉnh Thành phố;
+[A
+- Các Thuế cơ sở thuộc Thuế Ti
+- Sở Tài chính TP. HCM (Phòng
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/12/2025 và các văn bản hướng dẫn thi hành;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế:
+Căn cứ Quyết định số 165/QĐ-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dé hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương;
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việ ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro trong quản lý và sử dụng hóa đơn;
+Căn cứ công văn số 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế về việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế về việc tăng cường công tác quản lý hóa đơn điện tử
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Thương mại Dịch vụ Ứng Viễn
+- Mã số thuế: 0319322957 `
+- Địa chỉ trụ sở: 26/24/18 Đỗ Quang Đầu, Phường Bến Thành, TP Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319322957, ngày cấp 23/12/2025 do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Bán buôn vật liệu, thiết bị lắp đặt khắc trọng xây dựng
+- Người đại diện theo pháp luật: Hồ Thị Hương - Chức vụ: Giám đốc
+- CMND/CCCD/Hộ chiếu số; 052168000307, ngày cấp 23/10/2024, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+
+- Địa chỉ thường trú: 13/3D Đông Lân 1, Xã Bà Điểm, TP Hồ Chí Minh.
+2. Các dấu hiệu rủi ro:
+- Căn cứ kết quả tra cứu hoá đơn bán ra (ngày tra cứu 06/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tim trên tờ khai thuế GTGT chênh lệch như sau:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 06/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Pvt: dong)
+Kỳ.. kê khai	Thông tin kê khai trên tờ khai s G1GT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Trị giá mua vào	Thuế GTGT mua vào	Trị giá mua vào	Thuế GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào
+2504	0	0	0	0	0	0
+2601	14.181.507.216	1.177.320.181	15.811.522.442	1.307.857.299	1.630.015.226	130.537.118
+262	12.795.147.254	1.023.611.781	12.805.690.180	1.024.606.055	10.542.926	994.274
+2603	Không có dữ liệu		700.000	70.000	700.000	70.000
+2604	Không có dữ liệu		200.000	20.000	200.000	20.000
++ Hóa đơn đầu ra: (Pvt: dong)
+Kỳ Kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Doanh thu 7	| Thuê GTGT ` bán ra	Doanh thu	Thuế GTGT bán ra	Doanh thu	Thuê GTGT bán ra
+2600	0	0	219.376.559	17.581.325	219.376.559	17.581.325
+2601	13.058.035.110	1.066.847.060	13.221.647.463	1.081.281.457	163.612.353	14.434.397
+2602	12.372.383.163	998.577.024	12.613.342.626	1.018.139.680	240.959.463	19.562.656
+2603	“Không có dữ liệu		0	0	0	0
+Các dấu hiệu rủi ro:
+- Doanh nghiệp không hoạt động tại địa chí đã đăng ký.
+- Doanh nghiệp thành lập ngày 23/12/2025, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ bán ra của doanh nghiệp đang trạng thái 05, 09, 03, 06.
+- Doanh nghiệp kinh doanh những mặt hàng: Ông 90, áo bảo hộ lao động, Mâm ép Isuzu....
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hàng, địa điểm kinh doanh, không phát sinh hóa đơn vận chuyền hoặc thuê nhân công.
+- Doanh nghiệp có vốn điều lệ: 2.900.000.000 đồng, rất thấp so với tổng giá trị xuất hóa đơn từ ngày 30/12/2025 đến 02/06/2026: 26.054.366.648 đồng
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nop.
+- Doanh nghiệp nhiều lần thay đổi đại diện pháp luật: không
+- Người đại diện theo pháp luật của doanh nghiệp đồng thời là đại diện theo pháp luật của nhiều doanh nghiệp khác: không
+
+3. Các biện pháp đã thực hiện:
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiến hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chỉ đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo số 122.lb/TB-TCSI ngày b../.1Q./2026 về việc NNT không hoạt động tại địa chỉ đã đăng ký và gửi công văn chuyển tin báo vụ việc đến Công an phường Bến Thành - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp đề khấu trừ, hoàn thuế, hạch toán chỉ phí đầu vào không đúng quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của Công .ty TNHH Thương mại Dịch vụ Ứng Viễn tiến hành kiểm tra, xác minh và xử lý nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thành phố Hồ Chí Minh theo địa chỉ số 8 Nguyễn Văn Thủ, Phường Tân Định, TP Hồ Chí
+Thuế cơ sở 1 Thành phố Hồ Chí Minh rất mong nhận được sự phối hợp của qu cơ quan.) ~~
+Nơi nhận:
+- Như trên;
+- Lưu: VT, QLDN2 (106). 4ÿ
+“Đào Mộng Long
+
+THUÊ THÀNH PHỐ HỒ CHÍ MINH THUẾ CƠ SỞ 1 THÀNH
+PHƠI
+DANH SÁCH HÓA PON BAN RA
+(Đinh kèm công vin số ~VÍ ra, /TCSI-QLDA2 nay, DỰ |A©Í1⁄2 LbJ
+LIA										
+STT	hóa	.., 5 bản 908C vị	N ~.	xi	Tên người mua	Địa chỉ người mua	Tổng tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	CQT
+1	HN	gìn	nvg 15/01/2026	_> Zon5625	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ XỬ LÝ MÔI TRƯỜNG KHÁI TIỀN PHÁT	Lô CN.2605, Khu kinh tế Cửa Khâu Hoa Lư, âp Thạnh Phú, Xã Lộc Thạnh, Tỉnh Đồng Nai. Viêt Nam	7.200.000	720.000	7.920.000	Bình Phước-Thuê Đẳng Nai
+2	C26TUV	<<	qn	43301156935	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ XỬ LÝ MÔI TRƯỜNG KHẢI TIỀN PHÁT	Lã CN.2605, Khu kính tổ Cửa Khẩu Hoa Lư, ấp Thạnh Phú, Xã Lộc Thạnh, Tỉnh Đồng Nai. Viêt Nam	3.500.000	350.000	3.850.000	Bình Phước-Thuê Đồng Nai
+3	C26TUV	110	14/01/2026	3600718503	CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ K]NH DOANH GOLF LỎNG THÀNH	Số 99A, đường Phước Tân - Long Hưng, Phường Phước Tên, Tỉnh Đồng Nai, Việt Nam	4.256.000	340.480	4.596.480	Đông Nai-Thuê Đẳng Nai
+4	C26TUV	248	22/01/2026	0104807020	CÔNG TY CỔ PHẦN PHÁT TRIỂN TRỊ THỨC VIỆT	Số 253, Phạm Văn Thuận, KP 17, Phường Tam Hiệp, Tỉnh Đồng Nai, Việt Nam	4.200.000	336.000	4.536.000	Đồng Nai-Thuê Đồng Nai
+5	C26TUV	336	26/01/2026	3600718503	CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH GOLF LONG THÀNH	Sô 99A, Phước Tân Phước Tân, Tỉnh Đồng Việt đường - Long Hưng, Phường Nai, Nam	3.009.000	240.720	3.249.720	Đồng Nai-Thuê Đồng Nai
+6	C26TUV	34	05/01/2026	0104807020	CÔNG TY CỔ PHẦN PHÁT TRIỂN TRỊ THỨC VIỆT	' §ố 253, Phạm Văn Thuận, KP 17, Phường Tam Hiệp, Tỉnh Đồng Nai, Việt Nam	4.480.000	358.400	4.838.400	Đồng Nai-Thuê Đồng Nai
+7	C26TUV	428	29/01/2026	3600718503	CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH GOLF LONG THÀNH	Số 99A, đường Phước Tân - Lọng Hưng, Phường Phước Tân, Tỉnh Đồng Nai, Việt Nam	4.890.370	391.230	5.281.600	Đông Nai-Thuê Đồng Nai
+8	C26TUV	1026	18/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICÁ ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	4.210.000	340.000	4.550.000	Đồng Nai-Thuê Đẳng Nai
+9	C26TUV	1048	18/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gà Dần, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	4.625.000	370.000	4.995.000	Đồng Nai-Thuê Đẳng Nai
+10	C26TUV	1093	21/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dâu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	4.495.000	359.600	4.854.600	Đông Nai-Thuê Đồng Nai
+11	C26TUV	1146	24/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dâu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	4.287.000	342.960	4.629.960	Đông Nai-Thuê Đồng Nai
+12	C26TUV	1176	25/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICÁ ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	4.495.000	359.600	4.854.600	Đông Nai-Thuê Đẳng Nai
+13	C26TUV	1206	26/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	10.000.000	800.000	10.800.000	Đông Nai-Thuê Đẳng Nai
+14	C26TUV	1207	26/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gà Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	5.000.000	400.000	5.400.000	Đông Nai-Thuê Đồng Nai
+15	C26TUV	907	10/03/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	1.200.000	96.000	1.296.000	Đông Nai-Thuê Đẳng Nai
+16	C26TUV	1522	14/04/2026	3600360169	. CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam ...	4.450.000	356.000	4.806.000	Đồng Nai-Thuê Đẳng Nai
+17	Cc26TUV	1641	18/04/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	17.980.000	1.438.400	19.418.400	Đông Nai-Thuê Đẳng Nai
+18	C26TUV	1642	18/04/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICÁ ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam	4.450.000	356.000	4.806.000	Đông Nai-Thuê Đẳng Nai
+19	C26TUV	1717	22/04/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Tỉnh Đồng Nai, Việt Nam -	3.950.000	316.000	4.266.000	Đông Nai-Thuê Đồng Nai
+20	C26TUV	1764	24/04/2026	3600718503	CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ KINH DOANH GOLF LONG THÀNH	:Số 99A, đường Phước Tân - Long Hưng, Phường Phước Tân, Tỉnh Đồng Nai, Việt Nam	13.462.963	1.077.037	14.540.000	Đông Nai-Thuê Đồng Nai
+gải	C26TUV	1816	04/05/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	Khu công nghiệp Gò Dầu, Xã Phước Thái, Thành phố Đồng Nai, Việt Nam	4.625.000	370.000	4.995.000	Đông Nai-Thuê Đồng Nai
+22	C26TUV	1822	05/05/2026	0900182895-001	CHI NHÁNH ĐỒNG NAI CÔNG TY TNHH TAEYANG VIỆT NAM	KCN Nhân Trạch I, Xã Nhơn Trạch, Thành Phố Đồng Nai, Việt Nam	63.300.000	5.064.000	68.364.000	Đông Nai-Thuê Đẳng Nai
+23	C26TUV	1837	06/05/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Thành phố Đồng Nai, Việt Nam	12.960.000	1.036.800	13.996.800	Đông Nai-Thuê Đẳng Nai
+24	C26TUV	1842	06/05/2026	0301458202	CÔNG TY TNHH MỘT THÀNH VIÊN 751	Sô 9, đường sô I, KCN Quốc phòng, Phường Long Bình, Thành phô Đồng Nai, Việt Nam	3.558.000	284.640	3.842.640	Đông Nai-Thuê Đồng Nai
+pài	C26TUV	2021	21/05/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Thành phố Đồng Nai, Việt Nam	4.450.000	356.000	4.806.000	Đông Nai-Thuê Đồng Nai
+26	C26TUV	2026	21/05/2026	3600360169	CÔNG TY TRÁCH NHIỆM HỮU HẠN AICA ĐỒNG NAI	KCN Gò Dầu, Xã Phước Thái, Thành phố Đồng Nai, Việt Nam	4.625.000	370.000	4.995.000	Đồng Nai-Thuê Đẳng Nai
+27	C26TUV	289	23/01/2026	079156003329	TRÀN THỊ HẠNH NHƠN	Ấp Hoàn Quân, Xã Cẩm Mỹ, Tỉnh Đồng Nai, Việt Nam	700.000	56.000	756.000	H.Cầm Mỹ-TCS2 T.Đẳng Nai
+28	C26TUV	489	02/02/2026	3600363402	CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI THÁI QUỐC BẢO	75A, Áp 8, xã an phước, tỉnh đồng nai	1.480.000	118.400	1.598.400	H.Long Thảnh- TCS5Đẳng Nai
+29	C26TUV	1167	25/03/2026	3604007589	CÔNG TY TNHH DỊCH VỤ THƯƠNG MẠI XÂY DỰNG CƠ KHÍ VAN PHƯỚC HƯNG	Hèm 58, đường Phùng Hưng, khu 3, ắp 7, Xã An Phước, Tỉnh Đồng Nai, Việt Nam	1.300.000	104.000	1.404.000	H.Long Thành- TCSSĐằng Nai
+30	C26TUV	1168	25/03/2026	3603623296	CÔNG TY TNHH MỘT THÀNH VIÊN CƠ KHÍ XÂY DỰNG MINH THUẬN	Sá nhà 214 Tổ 1⁄4, Khu 12, Xã Bình An, Tỉnh Đồng Nai, Việt Nam	585.000	46.800	631.800	H.Long Thành- TCSSĐồng Nai
+31	C26TUV	1223	27/03/2026	0104567918-002	CÔNG TY TNHH CÔNG NGHIỆP PHÚ THÁI CHI NHÁNH TỈNH ĐỒNG NAI -	Đường số 9, KCN Long, Xã An Phước, Tỉnh Đồng Nai, Việt Nam	4.581.600	366.528	4.948.128	H.Long Thành- TCS5Đẳng Nai
+32	C26TUV	1658	20/04/2026	0104567918-002	CÔNG TY TNHH CÔNG NGHIỆP PHÚ THÁI CHI NHÁNH TỈNH ĐỒNG NAI	ĐƯỠNG 5Ô 9, KCN LONG THÁNH, XÃ AN PHƯỚC, TỈNH ĐỒNG NAI, VIỆT : NAM	4.500.000	360.000	4.860.000	'H.Long Thành- TCS5Đổng Nai
+33	C26TUV	|ÿ/ời	23/04/2026	0104567918-002	CÔNG TY TNHH CÔNG NGHIỆP PHÚ THÁI CHI NHÁNH TỈNH ĐỒNG NAI -	Đường số 9, KCN Long Thành, Xã An Phước, Tỉnh Đồng Nai, Việt Nam	2.760.000	220.800	2.980.800	H.Long Thành- TCSSĐông Nai
+
+34	C26TUV	1830	05/05/2026	0104567918-002	CÔNG TY TNHH CÔNG NGHIỆP PHÚ THÁI CHI NHÁNH THÀNH PHÔ ĐỒNG. - NAI	Đường số 9, KCN Long Thành, Xã An Phước, Thành phố Đồng Nai	4.380.000	350.400	4.730.400	H.Long ThÀnh- TCSSĐổng Nai
+35	C26TUV	1864	08/05/2026	0104567918-002	CÔNG TY TNHH CÔNG NGHIỆP PHÙ THÁI - CHI NHÁNH THÁNH PHÔ ĐỒNG NAI	Đường số 9, KCN Long Thành, Xã An Phước, Thành phố Đồng Nai	3.000.000	240.000	3.240.000	H.Long Thành- TCSSĐẳng Nai
+36	C26TUV	1884	11/05/2026	0104567918-002	CÔNG TY TNHH CỐNG NGHIỆP PHÚ THÁI - CHÍ NHÁNH THÁNH PHÔ ĐÔNG NÀI	Đường Sá 9, KCN Long Thành, Xã An Phước, Thành phố Đồng Nai	4.440.000	355.200	4.795.200	H.Long Thành- TCSSĐằng Nai
+kựi	C26TUV	1953	14/05/2026	0104567918-002	CÔNG TY TNHH CÔNG NGHIỆP PHÚ THÁI CHÍ NHÀNH THÁNH PHÔ ĐÔNG - NÀI	Đường Sẻ 9, KCN Long Thành, Xã An Phước, Thành phố Đồng Nai	4.500.000	360.000	4.860.000	H.Long Thành- TCS5Đồng Nai
+38	C26TUV	1971	18/05/2026	0104567918-002	CÔNG TY TNHH CÔNG NGHIỆP PHÚ THÁI - CHI NHÀNH THÀNH PHÔ ĐỒNG. NAI	Đường Sề 9, KCN Long Thành, Xã An Phước, Thành phố Đồng Nai	4.500.000	360.000	4.860.000	H.Long Thành- TCSSĐỏng Nai
+39	C26TUV	1212	27/03/2026	0301383758	CÔNG TY TNHH THƯƠNG MẠI ÂU CHÂU	Tổ 1, ấp Phú Mỹ 2, Xã Nhơn Trạch, Tỉnh Đẳng Nai, Việt Nam ;	1.700.000	136.000	1.836.000	H.Nhơn Trạch- TCS5Đông Nai
+40	C26TUV	163	16/01/2026	030081014058	HỘ KINH DOANH ĐIỆN TỪ NGÀNH MAY PHÚC ĐỨC -	541 Lô 2, ấp 2, Xã Dầu Giây, Tỉnh Đồng Nai, Việt Nam	31.000.000	2.480.000	33.480.000	H.Thống Nhất- TCS6Đẳng Nai
+41	C26TUV	1639	18/04/2026	3604086319	CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ SẢN XUẤT QUANG QUỐC	128-1 tính lộ 768, Khu phố Bình Thạch, Phường Tân Triều, Tỉnh Đồng Nai, Việt Nam	3.340.000	267.200	3.607.200	H.Vĩnh Cửu-TCS3 Đẳng Nai
+42	C26TUV	12	14/01/2026	3603338980	CÔNG TY TNHH MỘT THÀNH VIÊN SẢN XUẤT THƯƠNG MẠI LÝ MINH TUYẾN	A2/224C, đường Bùi Hữu Nghĩa, tỏ 30, KP 2, Phường Biên Hòa, Tỉnh Đồng Nai, Viết Nam	4.410.000	352.800	4.762.800	TP. Biên Hòa- TCS3 Đẳng Nai
+43	C26TUV	295	23/01/2026	3603628417	CÔNG TY TNHH THƯƠNG MẠI XUẤT NHẬT KHẨU AVINA	Số 92/77, Tổ 13, KP 5, Phường Tam Hiệp, Tỉnh Đồng Nai, Việt Nam	2.560.000	204.800	2.764.800	TP. Biện Hòa- TCS3 Đẳng Nai
+44	C26TUV	450	30/01/2026	3603925579	CÔNG TY TNHH TM DV XNK ĐẦU TƯ MẠNH HƯNG PHÁT	Số 924B, tổ 41, khu phố Vườn Dừa, Phường Phước Tân, Tỉnh Đồng Nai, Việt Nam	7.180.000	718.000	7.898.000	TP. Biên Hòa- TCS3 Đẳng Nai
+45	C26TUV	454	30/01/2026	3603896279	CÔNG TY TNHH BH AS ONE	Sô 41-42, đường N10, Khu phố Vinh Thạnh, Phường Trấn Biên, Tỉnh Đồng Nai, Viêt Nam	2.087.000	166.960	2.253.960	'TP.Biên Hòa- TCS83 Đẳng Nai
+46	C26TUV	55	12/01/2026	3603896279	CÔNG TY TNHH BH AS ONE	Số 41-42, đường N10, Khu phổ Vinh Thạnh, Phường Trấn Biên, Tỉnh Đồng Nai, Viêt Nam	2.290.000	183.200	2473200	'TP.Biên Hỏa- TCS3 Đẳng Nai
+47	C26TUV	557	06/02/2026	3603916461	CÔNG TY TNHH CƠ KHÍ TÂN BẢO MINH	Sô 26-27 đường N3, khu phố Bình Dương, Phường Long Hưng, Tỉnh Đồng Nai, Việt Nam	1.280.000	102.400	1.382.400	TP. Biên Hòa- TCS3 Đồng Nai
+48	C26TUV	706	27/02/2026	3603896279	CÔNG TY TNHH BH AS ONE	Số 41-42, đường N10, Khu phố Vinh Thạnh, Phường Trấn Biên, Tỉnh Đồng Nai, Việt Nam	1.241.000	99.280	1.340.280	TP. Biên Hòa- TCS3 Đẳng Nai
+49	C26TUV	731	28/02/2026	3603896279	CÔNG TY TNHH BH AS ONE	Số 41-42, đường N10, Khu phổ Vinh Thạnh, Phường Trấn Biên, Tỉnh Đồng Nai, Viêt Nam	1.930.000	154.400	2.084.400	TP. Biên Hòa- TCS3 Đẳng Nai
+50	C26TUV	1042	18/03/2026	3603758046	CÔNG TY TNHH XÂY DỰNG TRỌNG HỮU	K3/014G Tả 67, Khu phố 3, Phường Biên Hòa, Tỉnh Đồng Nai, Việt Nam	8.245.000	659.600	8.904.600	TP. Biên Hòa- TCS3 Đẳng Nai
+51	C26TUV	1102	23/03/2026	3603925579	CÔNG TY TNHH TM DV XNK ĐẦU TƯ MẠNH HƯNG PHÁT	Số 924B, tổ 41, khu phố Vườn Dừa, Phường Phước Tân, Tỉnh Đồng Nai, Việt Nam	21.246.000	1.699.680	22.945.680	TP. Biên Hỏa- TCS3 Đẳng Nai
+52	C26TUV	1103	23/03/2026	3603925579	CÔNG TY TNHH TM DV XNK ĐẦU TƯ MẠNH HƯNG PHÁT	Số 924B, tổ 41, khu phố Vườn Dừa, Phường Phước Tân, Tỉnh Đồng Nai, Việt Nam	29.065.000	2.906.500	31.971.500	TP. Biện Hòa- TCS3 Đẳng Nai
+53	C26TUV	1213	27/03/2026	3603918860	CÔNG TY TNHH THIẾT KẾ XÂY DỰNG THƯƠNG MẠI NEWLIFE	25/31 đường Lê Văn Duyệt, KP 9, Phường Trấn Biên, Tỉnh Đồng Nai, Việt Nam	4.000.000	320.000	4.320.000	TP. Biên Hòa- TCS3 Đẳng Nai
+54	C26TUV	1230	27/03/2026	3603851341	CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI DỊCH VỤ ZEUS	Số 933, đường Nguyễn Ái Quốc, tô 5, khu phố 2, Phường Tam Hiệp, Tỉnh Đồng Nai, Viêt Nam	1.120.000	89.600	1.209.600	TP. Biên Hòa- 'TCS3 Đẳng Nai
+55	C26TUV	1623	17/04/2026	3603388980	CÔNG TY TNHH MỘT THÀNH VIÊN SẢN XUẤT THƯƠNG MẠI LÝ MINH TUYẾN	.A2/224C, đường Bùi Hữu Nghĩa, tô 30, KP 2, Phường Biên Hòa, Tỉnh Đồng Nai, Việt Nam	4.550.000	364.000	4.914.000	TP. Biên Hòa- TCS3 Đồng Nai
+56	C26TUV	1744	23/04/2026	3603949474	CÔNG TY TNHH KIÊN TRÚC XÂY DỰNG RỦI GIÁ PHÁT	Số 373A/16, tổ 40A, khu phố 32, Phường Long Bình, Tình Đồng Nai, Việt Nam	21.830.000	1.746.400	23.576.400	'TP.Biên Hòa- TCS3 Đồng Nai
+57	C26TUV	1750	23/04/2026	3603758046	CÔNG TY TNHH XÂY DỰNG TRỌNG HỮU	K5/014G Tổ 67, Khu phố 3, Phường Biên Hòa, Tỉnh Đồng Nai, Việt Nam	2.585.000	606.800	3.191.800	TP. Biên Hỏa- TCS3 Đẳng Nai
+58	C26TUV	1774	25/04/2026	3603896279	CÔNG TY TNHH BH AS ONE	Số 41-42, đường N10, Khu phổ Vinh Thạnh, Phường Trấn Biên, Tỉnh Đồng Nai, Viêt Nam	2.500.000	200.000	2.700.000	TP. Biên Hòa- TCS3 Đồng Nai
+59	C26TUV	1795	28/04/2026	3603949474	CÔNG TY TNHH KIÊN TRÚC XÂY DỰNG BÙI GIA PHÁT	Số 373A/16, tổ 40A, khu phố 32, Phượng Long Binh, Tình Đồng Nai, Việt Nam	23.230.000	1.858.400	25.088.400	TP. Biên Hòa- TCS3 Đẳng Nai
+60	C26TUV	1801	25/04/2026	3603925579-	CÔNG TY TNHH TM DV XNK ĐẦU TƯ MẠNH HƯNG PHÁT	Số 924B, tổ 41, khu phố Vườn Dừa, Phường Phước Tân, Tỉnh Đồng Nai, Việt Nam	20.845.000	1.667.600	22.512.600	TP. Biên Hòa- TCS3 Đồng Nai
+lại	C26TUV	1808	02/05/2026	3603896279	CÔNG TY TNHH BH AS ONE	Số 41-42, đường N10, Khu phổ Vinh Thạnh, Phường Trấn Biên, Tỉnh Đồng Nai, ' Viêt Nam	2.644.000	211.520	2.855.520	TP. Biên Hòa- TCS3 Đẳng Nai
+62	C26TUV	1904	12/05/2026	3603758046	CÔNG TY TNHH XÂY DỰNG TRỌNG HỮU	K5/014G Tà 67, Khu phố 3, Phường Biên Hòa, Tỉnh Đồng Nai, Việt Nam	2.560.500	204.300	2.764.800	TP. Biên Hòa- TCS3 Đẳng Nai
+63	C26TUV	1057	19/03/2026		Kha K60 Cue Hâu cần - Kỹ thuật Quân khu 7	Đường Đồng Khởi P. Tân Triều. Tỉnh Đồng Nai	46.288.889	3.703.111	49.992.000	
+
+THUÊ THÀNH PHỐ HỒ CHÍ MINH
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+Sé: . 4.44 2../TCS1-QLDN2
+Tân Dĩnh, ngay03 tháng | Onam 2026
+V/v cảnh báo công ty có dấu
+THUẾ THÀNH PHỔ ĐỒNG NẠI	
+CÔNG na: cBBMI	Chuyển.................
+hiệu rủi ro cao về thuế, hóa đơn
+Kính gửi: - Chi cục Thuế doanh nghiệp lớn;
+- Chi cục Thuế thương mại điện tử;
+- Các Thuế Tỉnh Thành phố;
+- Các Thuế cơ sở thuộc Thuế Tỉnh
+- Sở Tải chính TP. HCM (Phòng D.
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/12/2025 và các văn bản hướng dẫn thi hành;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QĐ-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dấu hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương;
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việc ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro tron quản lý và sử dụng hóa đơn;
+việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế về việc tăng cường công tác quản lý hóa đơn điện tử
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Thương mại Dịch vụ Lợi Hùng
+- Mã số thuế: 0319077102
+- Địa chỉ trụ sở: 36 Trịnh Văn Cấn, Phường Bến Thành, Thành phố Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319077102, ngày cấp 01/08/2025 do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Bán buôn vật liệu, thiết bị lắp đặt khắc trọng xây dựng
+- Người đại diện theo pháp luật: Lê Mai Hoàng Bửu - Chức vụ: Giám đốc
+- CMND/CCCD/Hộ chiếu số: 079097000822, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+
+- Địa chỉ thường trú: Số nhà 60/4 Đường Gò Cát, Khu phố 20, Phượng Long Trường, TP Hồ Chí Minh.
+2. Các dấu hiệu rủi ro:
+- Căn cứ kết quả tra cứu hoá đơn bán ra (ngày tra cứu 02/10/2026) trên hệ thống hoá đơn điện tử hitps:/hddtcbt.gdt.gov.vn/tra-cun/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 02/10/2026) trên hệ thống hoá đơn điện tử .https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Pvt: đồng)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	Thuế GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào
+2503	0	0	0	0	0	0
+2504	0	0	1.600.000	0	1.600.000	0
+261	0	0	0	0	0	0
+262	25.291.708.448	2.132.510.736	25.291.844.813	2.132.524.371	136.365	13.635
+2603	Không có dữ liệu		42.249.745.915	3.548.733.508	42.249.745.915	3.548.733.508
+2604	Không có dữ liệu		761.936.000	60.954.880	761.936.000	60.954.880
++ Hóa đơn đầu ra: (Pvt: dong)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra
+253	0	0.	0	0	0	0
+254	0	0	0	0	0	0
+2601	0	0	0	0	0	0
+2602	24.524.983.355	2.032.389.918	24.524.983.355	2.032.389.918	0	0
+2603	Không có dữ liệu		41.026.333.568	3.452.141.173	41.026.333.568	3.452.141.173
+2604	Không có dữ liệu		761.936.000	60.954.880	761.936.000	60.954.880
+Các dấu hiệu rủi ro:
+- NNT không hoạt động tại địa chỉ đã đăng ký.
+- Doanh nghiệp mới thành lập ngày 01/08/2025, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ mua vào của doanh nghiệp đang trạng thái 03 và trạng thái 06.
+- Doanh nghiệp kinh doanh những mặt hàng: Nhôm tấm A6061 (115x1250x2500mm), Nối thẳng inox 316L OD 1/2" x 1/2" BW - Swagelok, Xilanh thủy lực phi 160mm x Ty 90mm x HT 1500mm, Bộ ngắt mạch tự động LS 50A,...
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hàng, địa điểm kinh doanh, không phát sinh hóa đơn vận chuyển hoặc thuê nhân công.
+
+- Doanh nghiệp có vốn điều lệ: 6.800.000.000 đồng, rất thấp so với tổng giá trị xuất hóa đơn từ ngày 14/04/2026 đến 02/10/2026: 66.313.252.923 đồng
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nộp.
+- Doanh nghiệp nhiều lin thay đổi đại diện pháp luật:
++ Căn cứ dữ liệu quản lý thuế TMS, ngày 06/1 1/2025, doanh nghiệp thay đổi đại điện pháp luật từ ông/bà Trần Thanh Tuấn qua ông/bà Lê Mai Hoàng Bửu.
+- Người đại diện theo pháp luật của doanh nghiệp đồng thời là đại diện theo pháp luật của nhiều doanh nghiệp khác , cụ thể:
++ Công ty TNHH Thương mại DV Mai Hoàng, MST: 3703380181, Trạng thái hoạt động: NNT đang hoạt động
+3. Các biện pháp đã thực hiện:
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiến hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chỉ đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo số 32133/TB-TCS1 ngày .02./.12./2026 về việc NNT không hoạt động tại địa chi đã đăng ký và gửi công văn chuyển tin báo vụ việc đến Công an phường Bến Thành - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp để khấu trừ, hoàn thuéy N\ hạch toán chi phí đầu vào không đúng quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh Ne đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra CIRHO ˆ Công ty TNHH Thương mại Dịch vụ Lợi Hùng tiến hành kiểm tra, xác minh và xử bi lý 4 nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua E00 bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề
+nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thành phố Hồ Chí Minh theo địa chỉ số 8 Nguyễn Văn Thủ, Phường Tân Định, TP Hồ
+Chí Minh.
+Thuế cơ sở 1 Thành phố Hồ Chí Minh rất mong nhận được sự phối hợp của quý
+cơ quan.
+Nơi nhận:
+- Như trên;
+- Lưu: VT, QLDN2 (10b). Ja
+RESP
+Pao Mộng Long
+
+THUÊ THÀNH PHÔ HỎ-CHÍ-MINH THUÊ CƠ 50.1. PH
+á
+Ø ami rst 1
+CHÍ MINH
+DANH SÁCH HÓA ĐƠN BÁN RA
+(VN LH Ti HHÀNHP * -.A\ .vÄ& HI MÌNH											
+						Tên người mua	Địa chỉ người mua	"Tổng tiền chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	CcQT
+											
+1	NI C26TLRẦ	S	109222	3800934195		CÔNG TY TNHH NANTONG XINFEI (VIỆT NAM) TEXTILE	Lê F1, F2, KCN Minh Hưng - Hàn Quốc, khu phố 3A, Phường Minh Hưng. Thành Phố Đồng Nai. Viêt Nam	2.313.396.000	185.071.680	2.498.467.680	Bình Phước-Thuê Đẳng Nai
+2	C261LH	81	18/06/2026	3800934195		CÔNG TY TNHH NANTONG XINFEI (VIỆT NAM)TEXTILE	Lô F1, F2, KCN Minh Hưng - Hàn Quốc, khu phố 3A, Phường Minh Hưng. Thành Phố Đồng Nai. Viêt Nam	2.836.100.000	226.888.000	3.062.988.000	Bình Phước-Thuê Đồng Nai
+3	C26TLH	126	06/07/2026	3800934195		CÔNG TY TNHH NANTONG XINFEI (VIỆT NAM) TEXTILE	Lô F1, F2, KCN Minh Hưng - Hàn Quốc, khu phố 3A, Phường Minh Hưng. TP Đồng Nai. Viêt Nam	2.592.698.000	207.415.840	2.800.113.840	Bình Phước-Thuế Đồng Nai
+4	C26TLH	130	07/07/2026	3800934195		CÔNG TY TNHH NANTONG XINFEI (VIỆT NAM) TEXTILE	Lê F1, F2, KCN Minh Hưng - Hàn Quốc, khu phố 3A, Phường Minh Hưunp. Thành Phố Đồng Nai. Việt Nam	2.593.057.000	207.444.560	2.800.501.560	Bình Phước-Thuê Đồng Nai
+5	C26TLH	133	10/07/2026	3800934195		CÔNG TY TNHH NANTONG XINFEI (VIỆT NAM) TEXTILE	Lô F1, F2, KCN Minh Hưng - Hẳn Quốc, khu phố 3A, Phường Minh Hưng. Thành Phố Đồng Nai, Việt Nam	1.651.400.000	132.112.000	1.783.512.000	Bình Phước Thuê Đồng Nai
+6	C26TLH	134	10/07/2026	3800934195		CÔNG TY TNHH NANTONG XINFEI (VIỆT NAM) TEXTILE	Lô F1, F2, KCN Minh Hưng - Hàn Quốc, khu phố 3A, Phường Minh Hưng. Thành Phố Đồng Nai. Viết Nam	1.478.362.000	118.268.960	1.596.630.960	Bình Phước-Thuê Đồng Nai
+7	C26TLH	167	27/07/2026	3602629136		CÔNG TY TNHH CƠ KHÍ CHÍNH XÁC TRƯỜNG TÂM	Tổ 6, khu Phước Hải, Phường Long Thạnh, TP Đồng Nai. Việt Nam	4.500.000	450.000	4.950.000	H.Long Thành- TCS5Đồng Nai
+8	C261LH	205	10/08/2026	3602629136		CÔNG TY TNHH CƠ KHÍ CHÍNH XÁC TRƯỜNG TÂM	Tổ 6, khu Phước Hải, Phường Long Thạnh, TP Đồng Nai. Viết Nam	4.500.000	450.000	4.950.000	H.Long Thành- TCS5Đồng Nai
+
+THUẾ THÀNH PHÓ HỒ CHÍ MINH.
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+So: + Ma. CS1-QLDN2
+Tân Định, ngay0§ tháng |Onăm 2026
+V/v cảnh báo công ty có dấu
+THUẾ THÀNH PHÔ ĐỒNG NAI	
+chành phô; ố] Chuyển................	
+hiệu rủi ro cao về thuê, hóa đơn
+Kính gửi: - Chi cục Thuế doanh nghiệp lớn;
+- Chi cục Thuế thương mại điện tử;
+- Các Thuế Tỉnh Thành phố;
+- Các Thuế cơ sở thuộc Thuế Tỉnh
+- Sở Tài chính TP. HCM (Phòng D}
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/12/2025 và các văn bản hướng dẫn thi hành;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QĐ-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dấu hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương:
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việc ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro trong quản lý và sử dụng hóa đơn;
+Căn cứ công văn số 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế về việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế về việc tăng cường công tác quản lý hóa đơn điện tử
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cu thé:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Thương mại Dịch vụ Tiếu Lâm
+- Mã số thuế: 0319567386
+- Địa chỉ trụ sở: 47 Lưu Văn Lang, Phường Bến Thành, Thành phố Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319567386, ngày cấp 27/05/2026
+do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Bán buôn vật liệu, thiết bị lắp đặt khắc trọng xây dựng
+- Người đại diện theo pháp luật: Nguyễn Thị Sang - Chức vụ: Giám đốc
+- CMND/CCCD/Hộ chiếu số: 079190008952, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+
+- Địa chỉ thường trú: E7/215/5, Áp 36, Xã Hưng Long, TP Hồ Chí Minh.
+2. Các dấu hiệu rủi ro:
+- Căn cứ kết quả tra cứu hoá đơn bán ra (ngày tra cứu 02/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 02/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Pvt: đồng)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	ThuêGTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào
+262	43.514.431.610	3.632.975.001	43.514.431.610	3.632.975.001	0	0
+2603	Không có dữ liệu		35.353.325.900	32.072.354.471	35.353.325.900	3.207.235.471
+2604	Không có dữ liệu		(3.132.970.400)	(250.637.632)	(3.132.970.400)	(250.637.632)
++ Hóa đơn đầu ra: (Pvt: đồng)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Doanh thu	Thuế GTGT bán ra	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuê GTGT bán ra
+2692	42.399.371.034.	3.558.784.166	42.399.371.034	3.558.784.166	0	0
+263	Không có dữ liệu		35.904.188.068	3.304.903.839	35.904.188.068	3.304.903.839
+.2604	Không có dữ liệu		426.936.335	34.154.907	426.936.335	34.154.907
+Các dấu hiệu rủi ro:
+- NNT không hoạt động tại địa chỉ đã đăng ký.
+- Doanh nghiệp thành lập ngày 27/05/2025, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ mua vào, bán ra của doanh nghiệp đang trạng thái 05, 09, 03, 06.
+- Doanh nghiệp kinh doanh những mặt hàng: Giấy vụn, Giấy phụ phẩm...
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hàng, địa điểm kinh doanh, không phát sinh hóa đơn vận chuyển hoặc thuê nhân công.
+- Doanh nghiệp có vốn điều lệ: 4.800.000.000 đồng, rất thấp so với tổng giá trị xuất hóa đơn từ ngày 18/06/2026 đến 01/10/2026: 78.730.495.437 đồng
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nộp.
+- Doanh nghiệp nhiều lần thay đổi đại diện pháp luật:
++ Căn cứ dữ liệu quản lý thuế TMS, ngày 10/06/2026, doanh nghiệp thay đổi đại điện pháp luật từ ông/bà Ngô Thị Hồng Thủy qua ông/bà Nguyễn Thị Sang.
+- Người đại diện theo pháp luật của doanh nghiệp đồng thời là đại diện theo pháp luật của nhiều doanh nghiệp khác: Không
+3. Các biện pháp đã thực hiện:
+
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiến hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chỉ đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo số }2I0O/TB-TCS1 ngày D../.[Q./2026 về việc NNT không hoạt động tại địa chỉ đã đăng ký và gửi công văn chuyển tin báo vụ việc đến Công an phường Bến Thanh - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp dé khấu trừ, hoàn thuế, hạch toán chỉ phí đầu vào không đúng quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của Công ty TNHH Thương mai Dịch vụ Tiểu Lam tiến hành kiếm tra, xác minh và xử lý nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dụng hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị quý cơ quan Thuế gửi về Tổ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thành phố LIồ Chí Minh theo địa chỉ số 8 Nguyễn Văn Thủ, Phường Tân Định, TP Hồ
+Chí Minh.
+Thuế cơ sở 1 Thành phố Hồ Chí Minh rất mong nhận được sự phối hợp của quý cơ quan./2Z⁄
+Nơi nhận:
+- Như trên;
+- Lưu: VT, QLDN2 (10b). /), _,
+Ug 1sx
+Đào Mộng Long
+
+THUẾ THÀNH PHỐ HỒ CHÍ MINH
+THUẾ CƠ SỞ 1 THÀNH PEO HỒ CHÍ MINH
+ZØ**S& SA
+Jer.) \
+DANH SÁCH HÓA ĐƠN BAN RA
+(Dinh kém công văn sơ Mi 9
+/TCS1 ngày 09 lAo | 1086 ;
+			lạ 1A7: 1H CF, A#									
+STT	Ký hiệu háa đơn	Sô h6{|_ TU đe		1 kgANh	ẻ- .	¡	: Tên người mua	Địa chỉ người mus	Tông tiên chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	CcQT
+1	C26TTL	Ầ 36		T1 AE CôN062026	L LIVR Là 4 =. 5g		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Sô 98 đường Trần Phú, Áp Gia Ray 7, Phường Xuân Lộc, 'Thảnh Phố Đồng Nai. Việt Nam	644.625.610	51.570.049	696.195.659	H.Xuân Lộc-TCS1 Đẳng Nai
+2	C26TTL	39		0922	xố 6o		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Sô 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thảnh Phố Đồng Nai. Việt Nam	159.101.300	12.728.104	171.829.404	H.Xuân Lộc-TCS1 Đẳng Nai
+3	C26TTL	42		30/06/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH "THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai, Việt Nam	767.582.420	61.406.594	828.989.014	H.Xuân Lộc-TCSI Đồng Nai
+4	C26TTL	43		30/06/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	250.784.500	20.062.760	270.847.260	H.Xuân Lộc-TCS1 Đồng Nai
+5	C26TTL	50		01/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	630.177.290	50.414.183	680.591.473	H.Xuân Lộc-TCS1 Đồng Nai
+6	C26TTL	5l		01/07/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lôe. Thành Phố Đồng Nai. Viêt Nam	158.615.900	12.689.272	171.305.172	H.Xuân Lộc-TCS1 Đồng Ngi
+7	C26TTL	52		02/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THÙY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	672.427.090	53.794.167	726.221.257	H.Xuân Lộc-TCS1 Đồng Nai
+8	C26TTL	5		02/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Sô 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam -	162.268.400	12.981.472	175.249.872	H.Xuân Lộc-TCS1 Đồng Nai
+9	C26TTL	54		03/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lôe. Thành Phố Đồng Nai. Việt Nam	391.559.500	31.324.760	422.884.260	H.Xuân Lộc-TCS1 Đồng Nai
+10	C26TTL	5.		03/07/2026	3602829022		CƠNG TY TNHH MỌT THANH VIÊN THANH THỦY PHÚC	Sô 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	163.437.200	13.074.976	176.512.176	H.Xuân Lộc-TCS1 Đồng Nai
+11	C26TTL	56		07/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	ˆ Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	644.717.030	51.577.362	696.294.392	H.Xuân Lộc-TCS1 Đồng Nai
+12	C26T1L	tài		07/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	249.738.380	19.979.070	269.717.450	HXuân Lộc-TCS1 Đồng Nai
+13	C26TTL	58		07/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	1.076.394.560	86.111.565	1.162.506.125	H.Xuân Lộc-TCS1 Đồng Nai
+14	C26TTL	59		07/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam -	165.726.100	13.208.088	178.934.188	H.Xuân Lộc-TCS1 Đồng Nai
+15	C26TTL	60		08/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	ˆ Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai, Việt Nam	532.171.310	42.573.705	574.745.015	H.Xuân Lộc-TCS1 Đồng Nai
+16	C26TTL	61		08/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phổ Đồng Nai, Việt Nam	336.130.700	26.890.456	363.021.156	H.Xuân Lộc-TCS1 Đồng Nai
+17	C26TTL	62		09/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHUC	Số 98 đường Trần Phú, Khu Phố Ơia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	802.264.800	64.181.184	866.445.984	H.Xuân Lộc-TCS1 Đồng Ngì
+18	C26T1L	63		09/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	388.964.500	31.117.160	420.081.660	H.Xuân Lộc-TCS1 Đồng Nai
+19	C26TTL	64		05/07/2026	3602829022		CONG TY TNHH MỌT THÀNH VIÊN THANH THÙY PHÚC	Sô 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	311.174.200	24.893.936	336.068.136	H.Xuân Lộc-TCS1 Đồng Nai
+20	C26TT1L	65		10/07/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THỦY PHÚC	Sô 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	664.929.620	53.194.370	718.123.990	H.Xuân Lộc-TCS1 Đồng Nai
+21	C26T1L	66		10/07/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THÙY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai Viêt Nam -	328.145.800	26.251.664	354.397.464	H.Xuân Lộc-TCS1 Đồng Nai
+22	C26TTL	67		13/07/2026	3602829022		CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	935.734.410	74.858.753	1.010.593.163	H.Xuân Lộc-TCS1 Đồng Nai
+23	C26TTL	68		14/07/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THÙY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	383.943.160	30.715.453	414.658.613	H-Xuân Lộc-TCS1 Đồng Nai
+vài	C26TTL	69		14/07/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam -	162.858.600	13.028.688	175.887.288	H.Xuân Lộc-TCS1 Đồng Nai
+25	C26TTL	70		15/07/2026	3602829022		CONG TY TNHH MỌT THÁNH VIÊN THANH THỦY PHÚC	Sô 98 đường Trần Phú, Khu Phố Gia Ray 7, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	834.305.800	66.744.464	901.050.264	H.Xuân Lộc-TCS1 Đồng Nai
+26	C26TTL	100		10/09/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 2, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	143.224.200	11.457.936	154.682.136	H.Xuân Lộc-TCS] Đồng Nai
+27	C26TTL	101		11/09/2026	3602829022		CÔNG TY TNHH MỘT THÁNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 2, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	285.700.550	22.856.044	308.556.594	H.Xuân Lộc-TCS1 Đồng Nai
+
+28	C26TTL	102	11/09/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 2, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	141.113.445	11.289.076	152.402.521	HXuân Lộc-TCS1 Đồng Nai
+29	C26TTL	124	30/09/2026	3602829022	CÔNG TY TNHH MỘT THÁNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 2, Phường Xuân Lộc. Thành Phố Đồng Nai. Việt Nam	552.489.255	44.199.140	596.688.395	H.Xuân Lộc-TCS1 Đồng Nai
+30	C26TTL	7	03/09/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 2, Phường Xuân Léc. Thành Phố Đồng Nai. Viêt Nam	387.708.950	31.016.716	418.725.666	H.Xuân Lộc-TCS1 Đồng Nai
+31	C26TTL	125	01/10/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THANH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 2, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	283.469.135	22.677.531	306.146.666	H.Xuân Lộc-TCS1 Đồng Nai
+32	C26T1L	126	01/10/2026	3602829022	CÔNG TY TNHH MỘT THÀNH VIÊN THÁNH THỦY PHÚC	Số 98 đường Trần Phú, Khu Phố Gia Ray 2, Phường Xuân Lộc. Thành Phố Đồng Nai. Viêt Nam	143.467.200	11.477.376	154.944.576	H.Xuân Lộc-TCS1 Đồng Nai
+
+THUÊ THÀNH PHÓ HỒ CHÍ MINH
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+THUẾ CƠ SỞ 1 THÀNH PHỐ HỒ CHÍ MINH
+Độc lập - Tự do - Hạnh phúc
+sé: .4.409../TCSI-QLDN2
+Tân Định, ngày 09 tháng lÔnăm 2026
+V/v cảnh báo công ty có dấu
+THUẾ THÀNH PHỐ ĐỒNG NAI	
+CÔNG VĂN Ị HAI	Nay. /đ(n/ Chuyển..............
+hiệu rủi ro cao về thuế, hóa đơn
+Kính gửi: - Chi cục Thuế doanh nghiệp lớn;
+- Chi cục Thuế thương mại điện tử;
+- Các Thuế Tỉnh Thành phố;
+- Các Thuế cơ sở thuộc Thuế Tỉnh
+- Sở Tài chính TP. HCM (Phòng Ð
+Căn cứ Luật quản lý Thuế số 108/2025/QH15 ngày 10/12/2025 và các văn bản hướng dẫn thi hành;
+Căn cứ Thông tư số 94/2026/TT-BTC ngày 01/7/2026 của Bộ Tài chính quy định về quản lý tuân thủ, quản lý rủi ro trọng quan lý thuế;
+Căn cứ Quyết định số 165/QD-TCT ngày 14/02/2017 của Tổng cục Thuế về việc ban hành Quy chế phối hợp giữa cơ quan Thuế các cấp trong việc xử lý hồ sơ có dấu hiệu vi phạm pháp luật về thuế có liên quan đến nhiều địa phương;
+Căn cứ Quyết định số 78/QĐ-TCT ngày 02/02/2023 của Tổng cục Thuế về việc 74 ban hành bộ chỉ số tiêu chí đánh giá, xác định người nộp thuế có dấu hiệu rủi ro tron Ệ quản lý và sử dụng hóa đơn;
+Căn cứ công văn sô 1873/TCT-TTKT ngày 01/06/2022 của Tổng cục Thuế về San việc tăng cường rà soát, kiểm tra phát hiện người nộp thuế có dấu hiệu rủi ro về hóa đơn, chống gian lận hoàn thuế GTGT;
+Căn cứ công văn số 3638/TCT-TTKT ngày 18/08/2023 của Tổng cục Thuế về việc tăng cường công tác quản lý hóa đơn điện tử
+Qua rà soát tình hình sử dụng hóa đơn, hồ sơ khai thuế của người nộp thuế gửi cơ quan thuế trên hệ thống quản lý tập trung (TMS), Thuế cơ sở 1 Thành phố Hồ Chí Minh phát hiện công ty có rủi ro cao về thuế, hóa đơn, cụ thể:
+1. Thông tin công ty:
+- Tên người nộp thuế: Công ty TNHH Thương mại Dịch vụ Gia Tịnh
+- Mã số thuế: 0319330468
+- Địa chỉ trụ sở: 7/16A Nguyễn Trãi, Phường Bến Thành, Thành phố Hồ Chí Minh
+- Giấy chứng nhận đăng ký doanh nghiệp số: 0319330468, ngày cấp 29/12/2025
+do Sở Tài chính TP Hồ Chí Minh cấp.
+- Ngành nghề kinh doanh: Bán buôn vật liệu, thiết bị lắp đặt khắc trọng xây dựng
+- Người đại diện theo pháp luật: Lưu Thị Thúy Hồng - Chức vụ: Giám đốc
+- CMND/CCCD/Hộ chiếu số: 031165019025, ngày cấp 23/10/2024, nơi cấp: Cục Cảnh sát Quản lý hành chính về trật tự xã hội
+
+- Địa chỉ thường trú: 383/14 Nguyễn Thái Bình, Phường Bảy Hiền, TP Hồ Chi
+Minh.
+2. Các dầu hiệu rai ro:
+- Căn cứ kết quả tra cứu hoá đơn bán ra (ngày tra cứu 02/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
+- Căn cứ kết quả tra cứu hoá đơn (ngày tra cứu 02/10/2026) trên hệ thống hoá đơn điện tử https://hddtcbt.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don với thông tin trên tờ khai thuế GTGT chênh lệch như sau:
++ Hóa đơn đầu vào: (Pvt: dong)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thống hóa đơn điện tử		Chênh lệch	
+	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	Thuê GTGT mua vào	Trị giá mua vào	Thuế GTGT mua vào
+2600	0	0	0	0	0	0
+2601	14.229.588.640	1.138.239.091	Không có dữ liệu		14.229.588.640	1.138.235.091
+2602	24.959.961.625	1.996.796.930	Không có dữ liệu		24.959.961.625	1.996.796.930
+2603	8.264.540.000	661.163.200	Không có dữ liệu		8.264.540.000	661.163.200
++ Hóa đơn đầu ra: (Pvt: đồng)
+Kỳ kê khai	Thông tin kê khai trên tờ khai GTGT		Thông tin trên hệ thông hóa đơn điện tử		Chênh lệch	
+	Doanh thu	Thuế GTGT bán ra	Doanh thu	Thuê GTGT bán ra	Doanh thu	Thuế GTGT bán ra
+260	0	0	0	0	0	0
+261	10.749.241.856	898.460.904	10.749.241.856	898.460.904	0	0
+2602	25.088.294.923	2.011.830.544	25.088.294.923	2.011.830.544	0	0
+2603	7.288.073.684	600.075.646	7.468.704.054	614.526.076	(180.630.370)	(14.450.430)
+„ Các dấu hiệu rủi ro:
+- NNT không hoạt động tại địa chỉ đã đăng ký.
+. .= Doanh nghiệp thành lập ngày 29/12/2025, phát sinh doanh thu tăng đột biến, có phát sinh hàng hóa dịch vụ bán ra của doanh nghiệp đang trạng thái 05, 09, 03, 06.
+'= Doanh nghiệp kinh doanh những mặt hàng: In ấn mặt giày, Áo thun đồng phục, Áo thun, Áo sơ mi, Gia công in đơn hàng WPHB7,...
+- Hàng hóa dịch vụ mua vào và bán ra số lượng lớn nhưng không cỏ khô hàng, địa điểm kinh doanh, không phát sinh hóa đơn vận chuyển hoặc thuê nhân công.
+:- Doanh nghiệp có vốn điều lệ: 2.600.000.000 đồng, rất thấp so với tổng giá trị xuất hóa đơn từ ngày 18/03/2026 đến 22/09/2026: 43.306.240.833 đồng
+- Doanh nghiệp có phát sinh doanh thu nhưng không phát sinh số thuế phải nộp.
+- Doanh nghiệp nhiều lần thay đổi đại diện pháp luật:
++ Căn cứ dữ liệu quản lý thuế TMS, ngày 07/09/2026, doanh nghiệp thay đổi đại diện pháp luật từ ông/bà Nguyễn Thị Tài qua ông/bà Lưu Thị Thúy Hồng.
+
+- Người đại điện theo pháp luật của doanh nghiệp đồng thời là đại diện theo pháp luật của nhiều doanh nghiệp khác, cụ thể:
++ Công ty TNHH Thương mại Dịch vụ KT Thiên Thanh, MST: 0319129537, Trạng thái hoạt động: NNT ngừng HP nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực MST.
+3. Các biện pháp đã thực hiện:
+Thuế cơ sở 1 Thành phố Hồ Chí Minh kết hợp với UBND phường Bến Thành đã tiến hành xác minh trụ sở của Công ty, kết quả: Người nộp thuế không hoạt động tại địa chỉ đã đăng ký. Thuế cơ sở 1 Thành phố Hồ Chí Minh đã ban hành thông báo số 34)ÍÃ./TB-TCS1 ngày 22../.ÌQ./2026 về việc NNT không hoạt động tại địa chỉ đã đăng ký và gửi công văn chuyển tin báo vụ việc đến Công an phường Bến Thành - Công an Thành phố Hồ Chí Minh.
+Nhằm ngăn chặn kịp thời các hành vi vi phạm pháp luật về thuế, hóa đơn của các tổ chức, cá nhân qua việc sử dụng hóa đơn bất hợp pháp đề khấu trừ, hoàn thuế, hạch toán chi phí đầu vào không đúng quy định, Thuế cơ sở 1 Thành phố Hồ Chí Minh đề nghị các cơ quan Thuế quản lý công ty có sử dụng hóa đơn mua vào, bán ra của Công ty TNHH Thương mại Dịch vụ Gia Tịnh tiền hành kiểm tra, xác minh và xử lý nếu có vi phạm theo quy định của pháp luật (đính kèm danh sách hóa đơn mua vào, bán ra kết xuất từ ứng dung hoá đơn điện tử theo từng cơ quan thuế).
+Kết quả kiểm tra xử lý và các hóa đơn bản sao (nếu có) có liên quan, kính đề nghị : quý cơ quan Thuế gửi về TỔ Quản lý, hỗ trợ doanh nghiệp số 2 - Thuế cơ sở 1 Thai) phố Hồ Chí Minh theo địa chi số 8 Nguyễn Văn Thủ, Phường Tân Định, TP Hồ Ching ⁄$
+Mình.
+Thuế cơ sở 1 Thành phố Hồ Chí Minh rất mong nhận được sự phối hợp của ng
+cơ quan./z⁄Z
+KT. TRƯỞNG THUẾ CƠ SỞ
+Nơi nhận:
+- Như trên;
+- Lưu: VT, QLDN2 (10b). f\,
+“Pio Mộng Long
+
+THUÊ THÀNH PHÔ HỒ CHÍ MINH
+THUÊ CƠ SG 1
+NH:
+DANH SÁCH HOA BON BAN RA
+(Đính kèm công văn số =x Na /TCSL-OLDN2 ngây D8 340! Lo LE \
+[PT THẦN, 2 \gÌ				- 11 LƯJ _) .						
+STT	Ký hiệu Pa hộ	cuc	DO NA	l MST người mua	Tên người mua	Địa chỉ người mua	Tông tiên chưa thuế	Tổng tiền thuế	Tổng tiền thanh toán	cQT
+1	; C26TGT	Ko	4	0305097236-028	CÔNG TY CỔ PHẦN KINH DOANH KHÍ MIỄN NAM CHI NHÁNH BÌNH KHÍ -	Đường D3, Khu công nghiệp Dệt may Nhơn Trạch, Phường Nhơn Trạch, TP Đồng Nai, Việt Nam	5.920.000	473.600	6.393.600	Đồng Nai-Thuê Đồng Nai
+2	C26TGT	2_~>	026	3801186827	HỢP TÁC XÃ DỊCH VỤ VỆ SINH MÔI TRƯỜNG PHÚ RIÊNG	Số nhà 317, thôn Phú Tân, Xã Phú Riềng, TP Đồng Nai, Việt Nam	7.000.000	560.000	7.560.000	H.Phú Riềng- TCS8 Đồng Nai
+3	C26TGT	28	26/03/2026	3603936556	CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG HÓA THANH PHÁT	279/36, KP 7, Phường Tam Hiệp, Tỉnh Đồng Nai, Việt Nam	2.549.000	254.900	2.803.900	TP. Biên Hòa- 'TCS3 Đồng Nai
+4	C26TGT	237	20/06/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM AN NGUYÊN	Số A602, Khu phố 8, Phường Long Hưng, TP Đồng Nai, Việt Nam	1.450.000	116.000	1.566.000	TP. Biên Hòa- TCS3 Đồng Nai
+5	C26TGT	238	20/06/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM AN NGUYÊN	Số A602, Khu phố 8, Phường Long Hưng, TP Đồng Nai, Việt Nam	2.225.000	178.000	2.403.000	TP. Biên Hòa- TCS3 Đồng Nai
+6	C26TGT	363	25/08/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM AN NGUYÊN	Số A602, Khu phố 8, Phường Long Hưng, TP Đồng Nai, Việt Nam	5.495.700	549.570	6.045.270	'TP.Biên Hỏa- TCS3 Đồng Nai
+7	C26TGT	376	31/08/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM AN NGUYÊN:	Số A602, Khu phố 8, Phường Long Hưng, TP Đồng Nai, Việt Nam :	2.470.000	247.000	2.717.000	TP. Biên Hòa- TCS3 Đồng Nai
+8	C26TGT	377	31/08/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM AN NGUYÊN	Số A602, Khu phố 8, Phường Long Hưng, TP Đồng Nai, Việt Nam Ñ	1.650.000	132.000	1.782.000	TP. Biên Hòa- TCS3 Đồng Nai
+9	C26TGT	389	10/09/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM AN NGUYÊN	Số A602, Khu phố 8, Phường Long Hưng, Thành phố Đồng Nai. Việt Nam Ñ	3.267.300	326.730	3.594.030	TP. Biên Hòa- 'TCS3 Đồng Nai
+10	C26TGT	-390	10/09/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM AN NGUYÊN	Số A6092, Khu phố 8, Phường Long Hưng, Thảnh phô Đồng. Nai. Việt Nam	1.970.000	157.600	2.127.600	TP. Biên Hòa- 'TCS3 Đồng Nai
+11	C26TGT	410	17/09/2026	3604086171	CÔNG TY TNHH CƠ KHÍ XÂY DỰNG TM ÁN NGUYÊN	Số A602, Khu phố 8, Phường Long Hưng, Thành phố Đồng Nai, Việt Nam	9.060.000	720.600	9.780.600	'TP.Biên Hòa- TCS3 Đồng Nai

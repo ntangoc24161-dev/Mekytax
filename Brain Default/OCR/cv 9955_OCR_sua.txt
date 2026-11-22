@@ -1,0 +1,250 @@
+﻿ToolOCR - các chỗ đã tự động sửa (248 chỗ). Trong Word: nền xanh nhạt = đã sửa, tô vàng = nghi ngờ cần soát.
+
+Trang 1	Từ điển	PHO  ->  PHỐ
+Trang 1	Từ điển	PONG  ->  PÔNG
+Trang 1	Từ điển	CONG  ->  CỘNG
+Trang 1	Từ điển	VIET  ->  VIỆT
+Trang 1	Từ điển	Đông  ->  Đồng
+Trang 1	Từ điển	thué,  ->  thuê,
+Trang 1	Từ điển	hoá  ->  hóa
+Trang 1	Từ điển	don”  ->  đơn”
+Trang 1	Từ điển	ket  ->  kết
+Trang 1	Từ điển	điêu  ->  điều
+Trang 1	Từ điển	Hoàng  ->  Hoang
+Trang 1	Từ điển	Phi  ->  Phí
+Trang 1	Từ điển	“tron  ->  “trốn
+Trang 1	Từ điển	trồn  ->  trốn
+Trang 1	Từ điển	“Trồn  ->  “Trốn
+Trang 1	Từ điển	THẰNH  ->  THÀNH
+Trang 1	Từ điển	Tố  ->  Tơ
+Trang 1	Từ điển	chuÿ¿  ->  chùy¿
+Trang 2	Từ điển	qua  ->  quá
+Trang 2	Từ điển	đó  ->  độ
+Trang 2	Từ điển	don  ->  đơn
+Trang 2	Từ điển	Dich  ->  Dịch
+Trang 2	Từ điển	dia  ->  địa
+Trang 2	Từ điển	đồi,  ->  đổi,
+Trang 2	Từ điển	Đội  ->  Đời
+Trang 2	Từ điển	Noi  ->  Nơi
+Trang 3	Từ điển	THANH  ->  THÀNH
+Trang 3	Từ điển	CHU  ->  CHỦ
+Trang 3	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 3	Từ điển	CHU  ->  CHỦ
+Trang 3	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 3	Từ điển	ĐÂU  ->  ĐẦU
+Trang 3	Từ điển	TRIỀN  ->  TRIỂN
+Trang 3	Từ điển	TRIỀN  ->  TRIỂN
+Trang 3	Từ điển	CHU  ->  CHỦ
+Trang 3	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 3	Kiểm tra số	18,843,000  ->  18.843.000
+Trang 3	Kiểm tra số	17,899,500  ->  17.899.500
+Trang 3	Kiểm tra số	18,549,750  ->  18.549.750
+Trang 3	Kiểm tra số	21,738,500  ->  21.738.500
+Trang 3	Kiểm tra số	29,968,000  ->  29.968.000
+Trang 3	Kiểm tra số	20,189,250  ->  20.189.250
+Trang 3	Kiểm tra số	2,771,297  ->  2.771.297
+Trang 3	Kiểm tra số	18,426,050  ->  18.426.050
+Trang 3	Kiểm tra số	21,985,094  ->  21.985.094
+Trang 3	Kiểm tra số	18,716,000  ->  18.716.000
+Trang 3	Kiểm tra số	19,875,000  ->  19.875.000
+Trang 3	Kiểm tra số	23,055,000  ->  23.055.000
+Trang 3	Kiểm tra số	18,550,000  ->  18.550.000
+Trang 3	Kiểm tra số	48,181,818  ->  48.181.818
+Trang 3	Kiểm tra số	24,645,000  ->  24.645.000
+Trang 3	Kiểm tra số	16,800,000  ->  16.800.000
+Trang 3	Số thứ tự	$  ->  8
+Trang 4	Từ điển	CHU  ->  CHỦ
+Trang 4	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 4	Từ điển	CHU  ->  CHỦ
+Trang 4	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 4	Từ điển	CHU  ->  CHỦ
+Trang 4	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 4	Từ điển	CHU  ->  CHỦ
+Trang 4	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 4	Từ điển	CHU  ->  CHỦ
+Trang 4	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 4	Từ điển	Binh  ->  Bình
+Trang 4	Từ điển	BU  ->  BÙ
+Trang 4	Kiểm tra số	19,200,000  ->  19.200.000
+Trang 4	Kiểm tra số	16,750,000  ->  16.750.000
+Trang 4	Kiểm tra số	18,733,000  ->  18.733.000
+Trang 4	Kiểm tra số	24,300,000  ->  24.300.000
+Trang 4	Kiểm tra số	25,500,000  ->  25.500.000
+Trang 4	Kiểm tra số	80,600,000  ->  80.600.000
+Trang 4	Kiểm tra số	24,950,000  ->  24.950.000
+Trang 4	Kiểm tra số	47,945,000  ->  47.945.000
+Trang 4	Kiểm tra số	47,945,000  ->  47.945.000
+Trang 4	Kiểm tra số	12,400,000  ->  12.400.000
+Trang 4	Kiểm tra số	7,991,000  ->  7.991.000
+Trang 4	Kiểm tra số	29,690,585  ->  29.690.585
+Trang 4	Kiểm tra số	13,461,000  ->  13.461.000
+Trang 4	Kiểm tra số	19,553,000  ->  19.553.000
+Trang 4	Kiểm tra số	6,985,000  ->  6.985.000
+Trang 4	Số thứ tự	2  ->  22
+Trang 4	Số thứ tự	”  ->  27
+Trang 4	Số thứ tự	9  ->  29
+Trang 5	Từ điển	CHU  ->  CHỦ
+Trang 5	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 5	Từ điển	CHU  ->  CHỦ
+Trang 5	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 5	Từ điển	CHU  ->  CHỦ
+Trang 5	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 5	Từ điển	CHU  ->  CHỦ
+Trang 5	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 5	Từ điển	CHU  ->  CHỦ
+Trang 5	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 5	Từ điển	CHU  ->  CHỦ
+Trang 5	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 5	Từ điển	CHU  ->  CHỦ
+Trang 5	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 5	Từ điển	Riểng,  ->  Riềng,
+Trang 5	Từ điển	Riểng,  ->  Riềng,
+Trang 5	Kiểm tra số	36,477,640  ->  36.477.640
+Trang 5	Kiểm tra số	32,667,900  ->  32.667.900
+Trang 5	Kiểm tra số	31,016,050  ->  31.016.050
+Trang 5	Kiểm tra số	22,693,500  ->  22.693.500
+Trang 5	Kiểm tra số	66,070,000  ->  66.070.000
+Trang 5	Kiểm tra số	67,160,000  ->  67.160.000
+Trang 5	Kiểm tra số	17,129,630  ->  17.129.630
+Trang 5	Kiểm tra số	16,759,260  ->  16.759.260
+Trang 5	Kiểm tra số	25,750,000  ->  25.750.000
+Trang 5	Kiểm tra số	80,600,000  ->  80.600.000
+Trang 5	Kiểm tra số	24,950,000  ->  24.950.000
+Trang 5	Kiểm tra số	71,020,000  ->  71.020.000
+Trang 5	Kiểm tra số	5,000,000  ->  5.000.000
+Trang 5	Kiểm tra số	7,500,000  ->  7.500.000
+Trang 5	Kiểm tra số	7,250,000  ->  7.250.000
+Trang 5	Kiểm tra số	9,900,000  ->  9.900.000
+Trang 5	Kiểm tra số	4,000,000  ->  4.000.000
+Trang 5	Kiểm tra số	9,000,000  ->  9.000.000
+Trang 5	Số thứ tự	¬  ->  44
+Trang 6	Từ điển	ĐẢU  ->  ĐẦU
+Trang 6	Từ điển	TRIỀN  ->  TRIỂN
+Trang 6	Từ điển	ĐAU  ->  ĐẦU
+Trang 6	Từ điển	PHAT  ->  PHÁT
+Trang 6	Từ điển	TRIEN  ->  TRIỂN
+Trang 6	Từ điển	DICH  ->  DỊCH
+Trang 6	Từ điển	phó  ->  phổ
+Trang 6	Từ điển	Đỏng  ->  Đồng
+Trang 6	Từ điển	SÁT  ->  SẮT
+Trang 6	Từ điển	CHU  ->  CHỦ
+Trang 6	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 6	Từ điển	Ban  ->  Bản
+Trang 6	Từ điển	Quản  ->  Quán
+Trang 6	Từ điển	CÓ  ->  CỔ
+Trang 6	Từ điển	PHÂN  ->  PHẦN
+Trang 6	Từ điển	CHU  ->  CHỦ
+Trang 6	Từ điển	XƯƠNG  ->  XƯỚNG
+Trang 6	Từ điển	ĐÂU  ->  ĐẦU
+Trang 6	Từ điển	TRIỀN  ->  TRIỂN
+Trang 6	Từ điển	Đông  ->  Đồng
+Trang 6	Từ điển	CÔ  ->  CỔ
+Trang 6	Từ điển	PHÁN  ->  PHẦN
+Trang 6	Kiểm tra số	25,000,000  ->  25.000.000
+Trang 6	Kiểm tra số	46,037,000  ->  46.037.000
+Trang 6	Kiểm tra số	4,724,850  ->  4.724.850
+Trang 6	Kiểm tra số	5,000,000  ->  5.000.000
+Trang 6	Kiểm tra số	11,112  ->  11.112
+Trang 6	Kiểm tra số	16,856,100  ->  16.856.100
+Trang 6	Kiểm tra số	16,856,100  ->  16.856.100
+Trang 6	Kiểm tra số	16,856,100  ->  16.856.100
+Trang 6	Kiểm tra số	16,363,636  ->  16.363.636
+Trang 6	Kiểm tra số	6,655,000  ->  6.655.000
+Trang 6	Kiểm tra số	6,320,000  ->  6.320.000
+Trang 6	Kiểm tra số	8,610,000  ->  8.610.000
+Trang 6	Kiểm tra số	1,272,727  ->  1.272.727
+Trang 6	Kiểm tra số	11,550,000  ->  11.550.000
+Trang 6	Kiểm tra số	1,800,000  ->  1.800.000
+Trang 6	Kiểm tra số	7,400,000  ->  7.400.000
+Trang 6	Kiểm tra số	1,291,667  ->  1.291.667
+Trang 6	Số thứ tự	6  ->  64
+Trang 7	Từ điển	THÔNG  ->  THỐNG
+Trang 7	Từ điển	MẢM  ->  MẦM
+Trang 7	Từ điển	Thuần  ->  Thuận
+Trang 7	Từ điển	Thuần  ->  Thuận
+Trang 7	Từ điển	TRUYẺN  ->  TRUYÊN
+Trang 7	Từ điển	CÓ  ->  CỔ
+Trang 7	Từ điển	PHÁN  ->  PHẦN
+Trang 7	Từ điển	Binh,  ->  Bình,
+Trang 7	Từ điển	phó  ->  phố
+Trang 7	Từ điển	Binh  ->  Bình
+Trang 7	Từ điển	QUÓC  ->  QUỐC
+Trang 7	Từ điển	VAN  ->  VẠN
+Trang 7	Từ điển	KIÉN  ->  KIẾN
+Trang 7	Từ điển	phó  ->  phố
+Trang 7	Từ điển	KIÉN  ->  KIẾN
+Trang 7	Từ điển	KIÉN  ->  KIẾN
+Trang 7	Từ điển	KIÉN  ->  KIẾN
+Trang 7	Từ điển	KIÉN  ->  KIẾN
+Trang 7	Từ điển	KIÉN  ->  KIẾN
+Trang 7	Kiểm tra số	1,500,000  ->  1.500.000
+Trang 7	Kiểm tra số	8,000,000  ->  8.000.000
+Trang 7	Kiểm tra số	9,000,000  ->  9.000.000
+Trang 7	Kiểm tra số	18,181,500  ->  18.181.500
+Trang 7	Kiểm tra số	18,178,100  ->  18.178.100
+Trang 7	Kiểm tra số	18,174,700  ->  18.174.700
+Trang 7	Kiểm tra số	18,169,600  ->  18.169.600
+Trang 7	Kiểm tra số	18,166,200  ->  18.166.200
+Trang 7	Kiểm tra số	7,735,000  ->  7.735.000
+Trang 7	Kiểm tra số	1,100,000  ->  1.100.000
+Trang 7	Kiểm tra số	12,000,000  ->  12.000.000
+Trang 7	Kiểm tra số	18,175,750  ->  18.175.750
+Trang 7	Kiểm tra số	18,137,600  ->  18.137.600
+Trang 7	Kiểm tra số	18,164,850  ->  18.164.850
+Trang 7	Kiểm tra số	18,159,400  ->  18.159.400
+Trang 7	Kiểm tra số	18,170,300  ->  18.170.300
+Trang 7	Kiểm tra số	18,181,200  ->  18.181.200
+Trang 7	Kiểm tra số	39,585,000  ->  39.585.000
+Trang 7	Số thứ tự	7  ->  77
+Trang 7	Số thứ tự	%  ->  82
+Trang 7	Số thứ tự	%  ->  83
+Trang 7	Số thứ tự	L  ->  85
+Trang 7	Số thứ tự	s%  ->  87
+Trang 7	Số thứ tự	Li  ->  89
+Trang 8	Từ điển	KIÉN  ->  KIẾN
+Trang 8	Từ điển	CÓ  ->  CỔ
+Trang 8	Từ điển	PHÁN  ->  PHẦN
+Trang 8	Từ điển	Đỏng  ->  Đồng
+Trang 8	Từ điển	XUÁT  ->  XUẤT
+Trang 8	Từ điển	Tiền,  ->  Tiến,
+Trang 8	Từ điển	ĐÂU  ->  ĐẦU
+Trang 8	Từ điển	TRIỀN  ->  TRIỂN
+Trang 8	Từ điển	NGUYẺN  ->  NGUYỄN
+Trang 8	Từ điển	THÔNG  ->  THỐNG
+Trang 8	Từ điển	Tỉnh  ->  Tịnh
+Trang 8	Từ điển	Đông  ->  Đồng
+Trang 8	Từ điển	ĐÂU  ->  ĐẦU
+Trang 8	Từ điển	TRIỀN  ->  TRIỂN
+Trang 8	Từ điển	TRIỀN  ->  TRIỂN
+Trang 8	Từ điển	TRIỀN  ->  TRIỂN
+Trang 8	Kiểm tra số	22,453,705  ->  22.453.705
+Trang 8	Kiểm tra số	22,453,705  ->  22.453.705
+Trang 8	Kiểm tra số	37,110,000  ->  37.110.000
+Trang 8	Kiểm tra số	33,700,000  ->  33.700.000
+Trang 8	Kiểm tra số	18,170,000  ->  18.170.000
+Trang 8	Kiểm tra số	18,180,000  ->  18.180.000
+Trang 8	Kiểm tra số	700,000  ->  700.000
+Trang 8	Kiểm tra số	6,800,000  ->  6.800.000
+Trang 8	Kiểm tra số	120,050,000  ->  120.050.000
+Trang 8	Kiểm tra số	865,000  ->  865.000
+Trang 8	Kiểm tra số	158,819,999  ->  158.819.999
+Trang 8	Kiểm tra số	120,050,000  ->  120.050.000
+Trang 8	Kiểm tra số	17,700,000  ->  17.700.000
+Trang 8	Kiểm tra số	7,000,000  ->  7.000.000
+Trang 8	Kiểm tra số	17,000,000  ->  17.000.000
+Trang 8	Kiểm tra số	100,000,000  ->  100.000.000
+Trang 8	Kiểm tra số	8,400,000  ->  8.400.000
+Trang 9	Từ điển	TRIÊN  ->  TRIỂN
+Trang 9	Từ điển	ĐÂU  ->  ĐẦU
+Trang 9	Từ điển	TRIỀN  ->  TRIỂN
+Trang 9	Từ điển	Trần  ->  Trấn
+Trang 9	Từ điển	Thảnh,  ->  Thành,
+Trang 9	Từ điển	Thảnh,  ->  Thành,
+Trang 9	Từ điển	Đỏng  ->  Đồng
+Trang 9	Từ điển	TRIỀN  ->  TRIỂN
+Trang 9	Từ điển	trần  ->  trấn
+Trang 9	Từ điển	Quán,  ->  Quản,
+Trang 9	Kiểm tra số	2,400,000  ->  2.400.000
+Trang 9	Kiểm tra số	49,500,000  ->  49.500.000
+Trang 9	Kiểm tra số	8,540,000  ->  8.540.000
+Trang 9	Kiểm tra số	48,395,000  ->  48.395.000

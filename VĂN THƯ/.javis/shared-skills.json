@@ -1,5 +1,6 @@
 {
   "enabled": [
+    "doc-ocr",
     "doi-chieu-511-632",
     "doi-chieu-cup-gdlk",
     "doi-chieu-gtgt-tndn-cbrr",
