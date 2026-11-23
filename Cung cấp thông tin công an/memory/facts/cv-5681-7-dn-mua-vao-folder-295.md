@@ -4,6 +4,7 @@ provenance: source
 origin: javis-learned
 created: 2026-11-19
 updated: 2026-11-19
+source: chat 2026-11-22 (7577ea4a)
 ---
 Ngày 19/11/2026 người dùng lệnh bóc tách các công ty theo ảnh đính kèm để cập nhật cung cấp thông tin CV 5681.
 

@@ -17,4 +17,6 @@
 - [Thời hạn kiểm tra hồ sơ Kiến Thành Tân](facts/thoi-han-kiem-tra-ho-so-kien-thanh-tan.md) - Thời hạn kiểm tra của vụ Kiến Thành Tân chốt là 10 ngày làm việc
 - [Đường dẫn hồ sơ và Bảng tính vụ Kiến Thành Tân](facts/duong-dan-ho-so-kien-thanh-tan.md) - Đường dẫn thư mục làm việc và file Bang tinh.xlsx của vụ Kiến Thành Tân trên Google Drive / My Laptop
 - [Thời kỳ kiểm tra hồ sơ Kiến Thành Tân từ năm 2015 trở đi](facts/thoi-ky-kiem-tra-kien-thanh-tan-khong-gom-nam-2014.md) - Hồ sơ Kiến Thành Tân: loại bỏ hóa đơn Quý 4/2014 khỏi truy thu vì ngoài thời kỳ kiểm tra (thời kỳ bắt đầu từ 2015).
-- [Kiến Thành Tân: chênh lệch GTGT lấy từ BANG KE KO HOP LE, TNDN giữ nguyên](facts/kien-thanh-tan-truy-thu-gtgt-tndn-giu-nguyen.md) - Vụ Kiến Thành Tân: chênh lệch GTGT phải nộp trên DTCHEP lấy từ BANG KE KO HOP LE; TNDN giữ nguyên số báo cáo
+- [Kiến Thành Tân: bỏ GTGT, chỉ truy thu TNDN 2018](facts/kien-thanh-tan-truy-thu-gtgt-tndn-giu-nguyen.md) - Vụ Kiến Thành Tân chốt 23/11/2026: không truy thu GTGT; TNDN 2018 truy thu 1.843.382, chậm nộp 1.546.782; Mẫu 15 KPHQ
+- [Hồ sơ Khải Sáng áp dụng Mẫu 15 buộc khắc phục hậu quả do hết thời hiệu](facts/khai-sang-ap-dung-mau-15-khac-phuc-hau-qua.md) - Dự thảo quyết định vụ DNTN Khải Sáng áp dụng Mẫu 15 theo NĐ 118/2021/NĐ-CP, chỉ truy thu và chậm nộp, không có tiền phạt
+- [Chốt không truy thu GTGT, chỉ truy thu TNDN 2018 cho hồ sơ đang xử lý](facts/chot-phuong-an-khong-truy-thu-gtgt-chi-truy-thu-tndn-2018.md) - Hồ sơ đang xử lý chốt bỏ truy thu GTGT (sheet TINH PHAT = 0), chỉ truy thu TNDN năm 2018

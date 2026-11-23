@@ -4,6 +4,7 @@ provenance: assistant
 origin: javis-learned
 created: 2026-11-19
 updated: 2026-11-19
+source: chat 2026-11-22 (7577ea4a)
 ---
 Ngày 19/11/2026, kiểm chứng Bước 1 (agent khai-thac-du-lieu-ho-so) báo `Failed to authenticate: OAuth session expired and could not be refreshed` sau 3 lượt. Lỗi thuộc **OAuth engine Claude của lượt kiểm chứng**, không phải token Google Drive.
 

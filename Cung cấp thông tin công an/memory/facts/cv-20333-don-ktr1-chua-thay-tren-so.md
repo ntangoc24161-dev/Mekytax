@@ -5,6 +5,7 @@ provenance: user
 origin: javis-learned
 created: 2026-11-18
 updated: 2026-11-19
+source: chat 2026-11-22 (7577ea4a)
 ---
 Người dùng hỏi CV **20333/DON-KTr1** ngày 27/10 đã xử lý chưa.
 
