@@ -97,3 +97,4 @@
 - [Theo dõi hồ sơ xử lý kết luận điều tra trên sheet XL KẾT LUẬN](facts/theo-doi-ho-so-cv-xl-ket-luan-tren-bao-cao-cong-van.md) - Thống nhất tên sheet mới là XL KẾT LUẬN để theo dõi các công văn xử lý vi phạm sau kết luận điều tra.
 - [Phân loại lưu trữ hồ sơ XL Kết luận và Tạm ngưng tiếp nhận kê khai](facts/phan-loai-va-luu-tru-cv-xl-ket-luan-va-tam-ngung-ke-khai.md) - Di chuyển và theo dõi tách biệt hồ sơ xử lý kết luận điều tra và tạm ngưng tiếp nhận vào thư mục chuyên biệt và sheet XL KET LUAN
 - [Cấu trúc cột sheet XL KET LUAN trên Bao_cao_cong_van.xlsx](facts/cau-truc-cot-sheet-xl-ket-luan.md) - Sheet XL KET LUAN bổ sung 2 cột MST và tên công ty bán hóa đơn ngay sau cột Doanh nghiệp cần cung cấp
+- [Hồ sơ CV 410/CSKT-Đ2 Đắk Lắk theo dõi trên sheet XL KET LUAN](facts/ho-so-cv-410-cskt-d2-dak-lak-tren-xl-ket-luan.md) - CV 410 folder 294 đã Đã hoàn thành trên XL KET LUAN dòng 64; dòng 895 NHAP_HO_SO không còn.
