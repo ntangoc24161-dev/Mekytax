@@ -4,6 +4,7 @@ provenance: user
 origin: javis-learned
 created: 2026-11-20
 updated: 2026-11-20
+source: chat 2026-11-22 (7577ea4a)
 ---
 Khi danh sách đính kèm công văn chỉ có tên công ty, thêm 1 cột MST kế tên rồi tra theo thứ tự: căn cứ danh sách NNT trước; nếu không có thì tra internet theo tên công ty; chỉ nhận MST khi tên công ty giống 100%; không tra cứu được thì để trống, không suy đoán.
 

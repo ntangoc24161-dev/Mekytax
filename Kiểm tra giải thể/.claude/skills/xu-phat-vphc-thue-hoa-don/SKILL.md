@@ -97,6 +97,17 @@ Mức phạt tiền cụ thể đối với một hành vi vi phạm thủ tục
 - **Thời hạn truy thu thuế**: Quá thời hiệu xử phạt thì không bị xử phạt tiền nhưng vẫn bị **truy thu đủ số tiền thuế thiếu, số tiền thuế trốn và tiền chậm nộp 0,03%/ngày trong thời hạn 10 năm trở về trước** (kể từ ngày phát hiện vi phạm).
 - Trường hợp người nộp thuế không đăng ký thuế thì bị truy thu tiền thuế thiếu, tiền chậm nộp cho toàn bộ thời gian trước đó mà không bị giới hạn 10 năm.
 
+#### Nguyên tắc 2 giai đoạn phân định ban hành Quyết định xử lý (Khoản 2 Điều 65 Luật XLVPHC & Điều 8 NĐ 125):
+Khoảng thời gian này kéo dài 5 năm, cụ thể là từ năm thứ 6 đến hết năm thứ 10 (tính ngược về trước kể từ ngày phát hiện hành vi vi phạm). Theo Điều 8 Nghị định 125/2020/NĐ-CP, mốc thời gian được chia làm 2 giai đoạn rõ rệt:
+- **Từ năm thứ 1 đến hết năm thứ 5**: Còn thời hiệu xử phạt vi phạm hành chính. Doanh nghiệp bị phạt tiền (ví dụ: phạt 20% trên số thuế thiếu) đồng thời phải nộp đủ thuế thiếu, tiền chậm nộp và điều chỉnh giảm lỗ -> **Ban hành Quyết định xử phạt vi phạm hành chính (Mẫu số 02 - NĐ 68/2025/NĐ-CP)**.
+- **Từ năm thứ 6 đến hết năm thứ 10**: Đã hết thời hiệu xử phạt tiền, nhưng vẫn còn trong thời hạn truy thu 10 năm. Doanh nghiệp không bị phạt tiền (không mất 20% tiền phạt), nhưng vẫn bị áp dụng biện pháp khắc phục hậu quả là truy thu đủ tiền thuế thiếu, tiền chậm nộp (0,03%/ngày) và điều chỉnh giảm lỗ -> **Ban hành Quyết định buộc thực hiện biện pháp khắc phục hậu quả (Mẫu số 15 - NĐ 118/2021/NĐ-CP)**.
+- **Từ năm thứ 11 trở về trước (quá 10 năm)**: Không bị phạt và không bị truy thu (trừ trường hợp doanh nghiệp không đăng ký thuế).
+
+**Ví dụ cụ thể (nếu cơ quan thuế phát hiện sai sót vào năm 2026):**
+- Sai sót từ năm 2021 - 2026 (trong vòng 5 năm): Bị phạt 20% + Truy thu thuế + Tiền chậm nộp / Giảm lỗ -> Ra QĐ xử phạt VPHC.
+- Sai sót từ năm 2016 - 2020 (từ năm thứ 6 đến năm thứ 10): Không bị phạt 20%, nhưng vẫn bị Truy thu thuế + Tiền chậm nộp / Giảm lỗ -> Ra QĐ buộc thực hiện biện pháp khắc phục hậu quả.
+- Sai sót từ năm 2015 trở về trước (quá 10 năm): Không bị phạt và không bị truy thu (trừ trường hợp doanh nghiệp không đăng ký thuế).
+
 ### 2.5. Xử phạt vi phạm về trao đổi thông tin thuế quốc tế (Điều 19a bổ sung bởi NĐ 291/2026)
 Áp dụng đối với các tổ chức, cá nhân vi phạm nghĩa vụ cung cấp thông tin theo yêu cầu của cơ quan thuế để phục vụ điều ước quốc tế, thỏa thuận quốc tế về thuế:
 - **Phạt tiền từ 10.000.000 đồng đến 30.000.000 đồng**: Cung cấp thông tin quá thời hạn quy định từ 05 ngày trở lên.
@@ -183,7 +194,20 @@ Mức phạt tiền cụ thể đối với một hành vi vi phạm thủ tục
    - Xác định mức trung bình khung: (Tối thiểu + Tối đa) / 2.
    - Tính toán tình tiết tăng nặng, giảm nhẹ: Tăng hoặc giảm 10% mức trung bình cho mỗi tình tiết; nếu có từ 2 tình tiết tăng nặng/giảm nhẹ thì lấy kịch khung trên hoặc kịch khung dưới.
    - Soát xét thẩm quyền ký quyết định xử phạt theo Điều 32 sửa đổi (Công chức thuế, Trưởng Thuế cơ sở, Chi cục trưởng, Cục trưởng).
-5. **Bước 5: Soạn thảo và ban hành Quyết định xử phạt theo Mẫu số 02 - NĐ 68/2025**:
-   - Điền đầy đủ các thông tin bắt buộc theo Mẫu số 02 ban hành kèm Nghị định số 68/2025/NĐ-CP.
-   - Ghi rõ số tiền phạt bằng số và bằng chữ, Kho bạc Nhà nước hoặc ngân hàng thương mại được ủy nhiệm thu tiền phạt, mã định danh điện tử, mục lục ngân sách nhà nước.
-   - Giao quyết định trực tiếp, gửi qua bưu điện bảo đảm hoặc gửi bằng phương thức điện tử trong thời hạn 02 ngày làm việc kể từ ngày ban hành. Theo dõi đôn đốc việc nộp tiền phạt trong thời hạn 10 ngày.
+5. **Bước 5: Soạn thảo và ban hành Quyết định xử lý (QĐ Xử phạt Mẫu 02 hoặc QĐ Khắc phục hậu quả Mẫu 15)**:
+   - **Trường hợp còn thời hiệu xử phạt (từ năm thứ 1 đến hết năm thứ 5)**:
+     - Soạn thảo Quyết định xử phạt VPHC theo **Mẫu số 02 ban hành kèm Nghị định số 68/2025/NĐ-CP**.
+     - Điền đầy đủ các thông tin: hành vi vi phạm, số tiền phạt (20% trên số thuế thiếu hoặc tiền phạt cố định), số thuế truy thu, tiền chậm nộp, Kho bạc Nhà nước nhận nộp tiền phạt, mã định danh, mục lục NSNN.
+   - **Trường hợp hết thời hiệu xử phạt tiền nhưng còn thời hạn truy thu 10 năm (từ năm thứ 6 đến hết năm thứ 10)**:
+     - Tuyệt đối **KHÔNG ban hành Quyết định xử phạt VPHC**, không ghi tiền phạt và không áp dụng chế tài nộp phạt 0,05%/ngày.
+     - Soạn thảo **Quyết định buộc thực hiện biện pháp khắc phục hậu quả theo Mẫu số 15 ban hành kèm Nghị định số 118/2021/NĐ-CP** (căn cứ khoản 2 Điều 65 Luật XLVPHC).
+     - Ghi rõ lý do không ra quyết định xử phạt (điểm c khoản 1 Điều 65 Luật XLVPHC do hết thời hiệu xử phạt), thời hạn thực hiện biện pháp KPHQ (10 ngày kể từ ngày nhận Quyết định), số tiền thuế truy thu, tiền chậm nộp thuế (tính đến ngày ký biên bản) và giảm lỗ.
+     - Đồng bộ Tờ trình lãnh đạo: Đề xuất ban hành Quyết định buộc thực hiện biện pháp khắc phục hậu quả.
+   - **Trường hợp từ năm thứ 11 trở về trước (quá 10 năm)**:
+     - Hết thời hiệu xử phạt và hết thời hạn truy thu: Không phạt tiền và không truy thu thuế (trừ trường hợp NNT không đăng ký thuế).
+   - **Xử lý xung đột khi kiểm tra nhiều năm (Hồ sơ hỗn hợp niên độ)**:
+     - Khi một vụ việc kiểm tra nhiều năm vừa có niên độ còn thời hiệu xử phạt (trong 5 năm), vừa có niên độ hết thời hiệu xử phạt nhưng còn thời hạn truy thu (năm thứ 6 đến hết năm thứ 10): **Không tách làm 02 quyết định**, vẫn ban hành **01 Quyết định xử phạt VPHC duy nhất (Mẫu số 02 - NĐ 68/2025/NĐ-CP)** cho toàn bộ vụ việc.
+     - *Hình thức phạt tiền*: Chỉ tính và áp dụng phạt tiền (20% hoặc cố định) đối với số thuế khai sai của các năm còn thời hiệu (trong 5 năm gần nhất).
+     - *Biện pháp khắc phục hậu quả*: Gộp toàn bộ số thuế truy thu và tiền chậm nộp của cả 2 giai đoạn (bao gồm cả các năm từ năm thứ 6 đến năm thứ 10).
+     - *Điều kiện duy nhất áp dụng Mẫu số 15 (QĐ buộc KPHQ)*: Chỉ ban hành khi **toàn bộ** các hành vi vi phạm và các năm trong hồ sơ kiểm tra đều đã hết thời hiệu phạt tiền (toàn bộ đều từ năm thứ 6 trở về trước, hoặc thuộc các trường hợp tại khoản 1 Điều 65 Luật XLVPHC).
+   - **Giao nhận và thi hành**: Giao quyết định trực tiếp, gửi qua bưu điện bảo đảm hoặc gửi bằng phương thức điện tử trong thời hạn 02 ngày làm việc kể từ ngày ban hành. Theo dõi đôn đốc việc nộp tiền trong thời hạn 10 ngày.

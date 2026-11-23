@@ -4,6 +4,7 @@ provenance: source
 origin: javis-learned
 created: 2026-11-20
 updated: 2026-11-20
+source: chat 2026-11-22 (7577ea4a)
 ---
 Người dùng gửi `TH THEO DOI CONG AN thang 11.xlsx` (Telegram, `inbox/khach/`) để đối chiếu danh sách phân công TCS3 chưa thực hiện với sổ `Bao_cao_cong_van.xlsx` sheet `NHAP_HO_SO`.
 

@@ -1,4 +1,5 @@
 ---
+superseded_by: phuong-an-cai-tao-chong-loi-file-bao-cao-cong-van
 type: decision
 provenance: assistant
 origin: javis-learned
@@ -12,3 +13,7 @@ source: chat 2026-11-18 (3e4326e5)
   2. Tuyệt đối không kéo tràn công thức làm sinh dòng rác ở đuôi; giữ chuẩn phạm vi AutoFilter.
   3. Tự động tạo bản sao lưu trước khi can thiệp ghi dữ liệu.
   4. Tránh mở file trên máy tính vào khung giờ tiến trình quét chạy (12:00 hàng ngày) để tránh file lock.
+
+
+## Lịch sử
+- [2026-11-22] Bị thay thế bởi [[phuong-an-cai-tao-chong-loi-file-bao-cao-cong-van]] (user đổi thông tin).

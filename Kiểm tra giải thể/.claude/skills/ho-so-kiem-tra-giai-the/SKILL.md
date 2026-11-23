@@ -22,7 +22,7 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 ## Chuẩn bị
 
 - File phôi tổng hợp chuẩn giải thể: `templates/MAUTONG HOP GIAI THE.docx` (đã liên kết trực tiếp `01_DA_BAN_HANH$`, chuẩn hóa 198 thẻ MERGEFIELD, dọn sạch hàng trống thừa theo NĐ 30).
-- Biểu mẫu phụ trợ giải thể: `templates/MAU CAM KET DOANH THU VA CHI PHI.docx`, `templates/MAU DON XIN QUYET TOAN GIAI THE.docx`, `templates/MAU DE XUAT HOAN GIAI THE.docx`, `templates/MAU MS-03-DCS.docx`, `templates/MAU QD XPHC GIAI THE.docx`.
+- Biểu mẫu phụ trợ giải thể: `templates/MAU CAM KET DOANH THU VA CHI PHI.docx`, `templates/MAU DON XIN QUYET TOAN GIAI THE.docx`, `templates/MAU DE XUAT HOAN GIAI THE.docx`, `templates/MAU MS-03-DCS.docx`, `templates/MAU QD XPHC GIAI THE.docx` (khi còn thời hiệu 5 năm), `templates/MAU QD KHAC PHUC HAU QUA GIAI THE.docx` (khi hết thời hiệu xử phạt nhưng còn thời hạn truy thu 6-10 năm theo Mẫu 15/NĐ 118).
 - File Bảng tính: `Bang tinh.xlsx` (các sheet `BB`, `DTCHEP`, `TINH PHAT + CHAM NOP (C T)`).
 - Sổ Excel theo dõi: `Danh sach kiem tra quyet toan pro.xlsm` (sheet `01_DA_BAN_HANH$` qua Dòng 1 ẩn).
 - Căn cứ pháp lý: `references/nen-phap-ly-va-can-cu-giai-the.md`.
@@ -43,7 +43,17 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 2. Điền Mục III Nghĩa vụ NSNN (Bắt buộc cho diện giải thể):
    - Công thức suy luận: `(3)=0, (4)=Kê khai, (5)=Truy thu, (6)=(4), (7)=(3)+(4)+(5)-(6)=(5)`.
 3. Lập các văn bản đặc thù giải thể:
-   - QĐ xử phạt VPHC và Tờ trình theo NĐ 125/2020 và NĐ 310/2025.
+   - **Lựa chọn giữa ban hành QĐ xử phạt VPHC hay QĐ buộc thực hiện biện pháp khắc phục hậu quả** theo Điều 8 Nghị định 125/2020/NĐ-CP:
+     + **Từ năm thứ 1 đến hết năm thứ 5**: Còn thời hiệu xử phạt VPHC. Doanh nghiệp bị phạt tiền (20% trên số thuế thiếu hoặc phạt tiền cố định) đồng thời nộp đủ thuế thiếu, tiền chậm nộp (0,03%/ngày) và điều chỉnh giảm lỗ -> Ban hành **Quyết định xử phạt VPHC (Mẫu số 02 ban hành kèm NĐ 68/2025/NĐ-CP)** theo phôi `templates/MAU QD XPHC GIAI THE.docx` và Tờ trình đề nghị ban hành QĐXP.
+     + **Từ năm thứ 6 đến hết năm thứ 10**: Đã hết thời hiệu xử phạt tiền, nhưng còn trong thời hạn truy thu 10 năm. Doanh nghiệp KHÔNG bị phạt tiền (không mất 20% tiền phạt), nhưng vẫn bị áp dụng biện pháp khắc phục hậu quả: truy thu đủ tiền thuế thiếu, tiền chậm nộp (0,03%/ngày) và điều chỉnh giảm lỗ -> Ban hành **Quyết định buộc thực hiện biện pháp khắc phục hậu quả (Mẫu số 15 ban hành kèm NĐ 118/2021/NĐ-CP)** theo phôi chuẩn `templates/MAU QD KHAC PHUC HAU QUA GIAI THE.docx` và Tờ trình đề nghị ban hành QĐ buộc thực hiện biện pháp KPHQ.
+     + **Từ năm thứ 11 trở về trước (quá 10 năm)**: Không bị phạt tiền và không bị truy thu (trừ trường hợp người nộp thuế không đăng ký thuế).
+     + *Ví dụ cụ thể (phát hiện sai sót năm 2026)*: Sai sót 2021 - 2026 (trong 5 năm): Phạt 20% + Truy thu + Chậm nộp/Giảm lỗ (QĐ xử phạt VPHC); sai sót 2016 - 2020 (năm 6 đến năm 10): Không phạt 20%, chỉ Truy thu + Chậm nộp/Giảm lỗ (QĐ buộc khắc phục hậu quả); sai sót 2015 trở về trước: Không phạt, không truy thu.
+     + **Xử lý xung đột khi kiểm tra nhiều năm (Hồ sơ hỗn hợp niên độ)**:
+       * Khi vụ việc gồm nhiều năm, vừa có năm còn thời hiệu xử phạt (trong 5 năm), vừa có năm hết thời hiệu xử phạt nhưng còn thời hạn truy thu (năm thứ 6 đến năm thứ 10): **Không tách làm 02 quyết định**, vẫn ban hành **01 Quyết định xử phạt VPHC duy nhất (Mẫu số 02 - NĐ 68/2025/NĐ-CP)** cho toàn bộ vụ việc.
+       * *Hình thức phạt tiền*: Chỉ tính và áp dụng phạt tiền (20% hoặc cố định) đối với số thuế khai sai của các năm còn thời hiệu (trong 5 năm gần nhất).
+       * *Biện pháp khắc phục hậu quả*: Gộp toàn bộ số thuế truy thu và tiền chậm nộp của cả 2 giai đoạn (bao gồm cả các năm từ năm thứ 6 đến năm thứ 10).
+       * *Điều kiện duy nhất áp dụng Mẫu số 15 (QĐ buộc KPHQ)*: Chỉ khi **toàn bộ** các hành vi vi phạm và niên độ kiểm tra đều đã hết thời hiệu phạt tiền (từ năm thứ 6 trở về trước, hoặc thuộc các trường hợp tại khoản 1 Điều 65 Luật XLVPHC).
+     + *Thời hiệu theo từng loại hành vi*: Vi phạm thủ tục thuế, hóa đơn là **02 năm**; Khai sai thiếu thuế, trốn thuế là **05 năm**; Truy thu thuế và tiền chậm nộp là **10 năm**.
    - Văn bản từ chối nhận lại số tiền nộp thừa (điền đúng 10 số MST vào ô lưới).
    - Thủ tục hoàn kiêm bù trừ thu NSNN (MS-03-DCS và dự thảo QĐ hoàn bù trừ) nếu còn thuế GTGT khấu trừ.
 4. Thể thức hành chính NĐ 30:
@@ -57,6 +67,7 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 - **Bên nhận trùng bên giao ở Biên bản giao nhận**: Trưởng đoàn vừa là bên giao vừa ký bên nhận hồ sơ.
 - **Căn cứ ban hành sau ngày quyết định**: Viện dẫn số và ngày Thông báo ngừng hoạt động rơi vào ngày sau ngày ký Quyết định kiểm tra.
 - **Áp sai mức phạt vi phạm hành chính**: Trường hợp sau khi loại trừ chi phí mà doanh nghiệp vẫn còn lỗ hoặc thuộc diện miễn thuế (thuế phải nộp = 0), máy móc phạt 20% là sai luật; phải phạt mức tiền cố định (6.500.000 đ) theo quy định tại NĐ 310/2025/NĐ-CP.
+- **Nhầm lẫn giữa QĐ xử phạt VPHC và QĐ buộc khắc phục hậu quả**: Doanh nghiệp có hành vi vi phạm ở các kỳ kiểm tra thuộc giai đoạn từ năm thứ 6 đến hết năm thứ 10 (ví dụ kiểm tra năm 2026 đối với sai sót giai đoạn 2016-2020) đã hết thời hiệu xử phạt tiền; nếu áp dụng Mẫu 02 xử phạt tiền hoặc đưa điều khoản phạt 20%, phạt chậm nộp tiền phạt 0,05%/ngày vào quyết định là trái Điều 8 Nghị định 125/2020/NĐ-CP và Điều 65 Luật Xử lý VPHC. Bắt buộc phải áp dụng Mẫu số 15 (Quyết định buộc khắc phục hậu quả).
 - **Lệch lịch kiểm tra chạm ngày nghỉ**: Lên lịch kiểm tra 3 ngày nhưng rơi vào thứ Năm, thứ Sáu và Chủ nhật.
 
 ## Kiểm chứng
@@ -75,3 +86,4 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 - [2026-10-31] Chuẩn hóa tên gọi chỉ tiêu: quét regex thay thế triệt để 18 vị trí từ "chi phí quản lý kinh doanh" sang "chi phí quản lý doanh nghiệp" trong hồ sơ kiểm tra.
 - [2026-10-31] Đóng gói bộ hồ sơ đề xuất hoàn thuế kiêm bù trừ thu NSNN giải thể (mẫu MS-03-DCS và Tờ trình đề xuất hoàn giải thể) áp dụng Điều 32 NĐ 181/2025/NĐ-CP.
 - [2026-11-11] Quy tắc kiểm tra số gõ cứng trên DTCHEP hoạt động dạng cảnh báo mềm (non-blocking warning), ghi nhận vào open-questions mà không làm gián đoạn luồng tự động đổ số vào biên bản.
+- [2026-11-22] Thiết lập nguyên tắc rẽ nhánh ban hành QĐ xử phạt VPHC (1-5 năm: phạt tiền 20% + truy thu + chậm nộp/giảm lỗ) vs QĐ buộc thực hiện biện pháp khắc phục hậu quả (6-10 năm: không phạt tiền, chỉ truy thu + chậm nộp/giảm lỗ; quá 10 năm không phạt, không truy thu) theo Điều 8 NĐ 125/2020/NĐ-CP; chuẩn hóa phôi gốc `templates/MAU QD KHAC PHUC HAU QUA GIAI THE.docx` (chuẩn Mẫu 15/NĐ 118).

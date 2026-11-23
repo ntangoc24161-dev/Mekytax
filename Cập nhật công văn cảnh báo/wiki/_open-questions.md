@@ -10,3 +10,5 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-11-09) [[Cơ Chế Điều Phối Việc Nền và Điểm Gãy Dữ Liệu Qua Biến Prev]]: đề xuất bổ sung từ chat 2026-11-09 (dedup) - status: open
 
 - [ ] (2026-11-11) [[Chiến Lược Bóc Tách Hồ Sơ Công Văn PDF Kết Hợp OCR Cục Bộ Và Trạm Tài Liệu]]: provenance=assistant (Javis tự nói, cần xác minh) - status: open
+
+- [ ] (2026-11-23) [[Cơ Chế Staging Table Trong Cập Nhật Dữ Liệu Sổ Sách Nghiệp Vụ]]: đề xuất bổ sung từ chat 2026-11-23 (dedup) - status: open

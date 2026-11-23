@@ -4,6 +4,7 @@ provenance: assistant
 origin: javis-learned
 created: 2026-11-20
 updated: 2026-11-20
+source: chat 2026-11-22 (7577ea4a)
 ---
 Ngày 20/11/2026 đã tra MST cho danh sách OCR đính kèm CV `1141/CSKT-Đ3` (dấu đến **6337**), nguồn NNT `sources/DB NNT 03.06.2026.xlsx`, kết quả `exports/6337_OCR_kem_MST.xlsx` và tóm tắt `exports/6337_OCR_kem_MST_tom-tat.md`.
 
