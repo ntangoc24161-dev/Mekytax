@@ -34,3 +34,8 @@
 - [Thư mục lưu trữ chuyên đề trường công lập năm 2026](facts/thu-muc-chuyen-de-truong-cong-lap-2026.md) - Đường dẫn lưu hồ sơ và dự thảo thông báo mời chuyên đề trường công lập năm 2026
 - [Vị trí lưu file Master theo dõi kiểm tra tại thư mục Văn thư](facts/vi-tri-luu-so-master-van-thu.md) - File QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx được người dùng yêu cầu lưu thêm tại thư mục 0-VAN THU.
 - [Chỉ theo dõi một sheet chung trên Master](facts/mot-sheet-theo-doi-chung-master.md) - Người dùng gộp KT_TONG_HOP vào DANH_SACH_THEO_DOI_CHUNG, xóa sheet trùng.
+- [Hướng lai phân công theo dõi hồ sơ kiểm tra](facts/huong-lai-phan-cong-theo-doi-ho-so.md) - Hub Văn thư + chủ loại hồ sơ + khâu dùng chung trên 1 sheet Master
+- [Nhóm chủ loại kế hoạch kiểm tra và chuyên đề](facts/nhom-chu-loai-ke-hoach-va-chuyen-de.md) - KHBS+quyết toán là một; chuyên đề gồm chuyên đề trường học
+- [Thu gọn trợ lý VĂN THƯ phương án A (23/11/2026)](facts/thu-gon-tro-ly-phuong-an-a-2026-11-23.md) - Archive phân tích/soạn HS; giữ lõi Văn thư-công văn; xóa conflict
+- [Tiến độ dự thảo thông báo mời lần 2 chuyên đề trường học 2026](facts/tien-do-thong-bao-lan-2-chuyen-de-truong-hoc-2026.md) - Dự thảo thông báo mời lần 2 đã tạo cho 2 trường học chuyên đề với lịch hẹn 02/12/2026
+- [Vướng mắc dự thảo thông báo mời lần 2 nhóm KHBS 2026](facts/vuong-mac-du-thao-thong-bao-lan-2-khbs-2026.md) - Chưa thể tạo thông báo mời lần 2 cho 4 DN KHBS do thiếu phôi và trạng thái sổ Master chưa khớp

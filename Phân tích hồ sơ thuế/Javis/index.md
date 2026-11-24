@@ -2,14 +2,22 @@
 
 > Tự sinh từ file - ĐỪNG sửa tay. Chỉ mục mọi năng lực của Javis trong brain này để bất kỳ AI/engine đọc 1 chỗ là hiểu Javis làm được gì. Song song `wiki/index.md` (tri thức).
 
-**Tổng quan:** 7 agents · 41 skills · 1 workflows (1 bật) · 0 loops (0 bật) · 30 plugins (29 chạy)
+**Tổng quan:** 15 agents · 41 skills · 1 workflows (1 bật) · 0 loops (0 bật) · 30 plugins (29 chạy)
 
 ## Agents
+- **Chuyên viên công nợ và tiền mặt** (`chuyen-vien-cong-no-tien-mat`) - Quét chi tiền mặt 111, cụm HĐ cùng ngày, công nợ 131/331, sao kê 112. Ngưỡng K5 dùng >=. · skills: phan-tich-cong-no-tien-mat · tags: Tài chính
+- **Chuyên viên doanh thu giá vốn** (`chuyen-vien-doanh-thu-gia-von`) - Đối chiếu sổ 511 với 632 theo khóa HĐ/ngày/mặt hàng, lãi gộp, bán dưới giá (K4). · skills: doi-chieu-511-632 · tags: Tài chính
 - **chuyen-vien-du-lieu-dau-vao** (`chuyen-vien-du-lieu-dau-vao`) - 
+- **Chuyên viên GTGT-TNDN** (`chuyen-vien-gtgt-tndn`) - Đối chiếu bảng kê, tờ khai GTGT, QTT TNDN, HĐĐT theo 2 sheet chuẩn CBRR, bóc nguyên nhân trọng yếu. · skills: doi-chieu-gtgt-tndn-cbrr · tags: Tài chính
+- **Chuyên viên kho và giá thành** (`chuyen-vien-kho-gia-thanh`) - Đối chiếu XNT 152/155/156 với BCTC, xuất kho với 632, bóc giá thành/định mức, giải tỏa TC3 và TC28. · skills: phan-tich-xnt-kho, phan-tich-gia-thanh-dinh-muc · tags: Tài chính
+- **Chuyên viên NCC và hóa đơn** (`chuyen-vien-ncc-hoa-don`) - Đối chiếu 100% NCC với CVCBRR F0/F1, Công an, danh bạ; F0 và F1 đều mức Cao (K2). · skills: doi-chieu-ncc-mua-vao-rui-ro, tong-hop-ben-mua-tu-so-cvcbrr · tags: Tài chính
+- **Chuyên viên TNCN** (`chuyen-vien-tncn`) - Tổng hợp QTT TNCN, danh sách NLĐ, đối chiếu đa nguồn TC22/TC23, trùng CCCD. · skills: tong-hop-tncn-da-nguon · tags: Tài chính
 - **Javis Core** (`javis-core`) - Trợ lý hệ thống nhận báo cáo và hỗ trợ công việc trong brain này.
+- **Khai thác dữ liệu hồ sơ** (`khai-thac-du-lieu-ho-so`) - trợ lý hỗ trợ - xuất bảng kê tiêu chí cung cấp và đối chiếu số liệu thuế khi công văn hoặc soạn thảo cần bằng chứng · skills: xuat-danh-sach-ho-so-ca, doi-chieu-ncc-mua-vao-rui-ro, phan-tich-cong-no-tien-mat, phan-tich-ho-so-thue, giai-doan-1-kiem-ke-danh-gia, giai-doan-2-phan-tich-du-lieu-co-quan-thue, giai-doan-3-hoan-chinh-ho-so · tags: Tài chính
 - **phan-tich-vien-cqt** (`phan-tich-vien-cqt`) - 
 - **phan-tich-vien-so-cty** (`phan-tich-vien-so-cty`) - 
 - **phan-tich-vien-so-sach-dn** (`phan-tich-vien-so-sach-dn`) - 
+- **Pháp chế & chính sách thuế** (`phap-che-chinh-sach-thue`) - trợ lý hỗ trợ - trả lời câu hỏi luật/chính sách có trích dẫn điều khoản khi Điều phối hoặc Soạn thảo vướng căn cứ · skills: thue-gtgt, thue-tncn, thue-tndn, hoa-don-dien-tu, luat-quan-ly-thue, xu-ly-rui-ro-thue-hoa-don, xu-phat-vphc-thue-hoa-don, quy-trinh-hoan-thue, quy-trinh-kiem-tra-thue, huong-dan-kiem-tra-chuyen-de, kiem-tra-thue-thuong-mai-dien-tu, luat-thuong-mai-dien-tu, quy-che-phoi-hop-kiem-tra-thue, luat-phong-chong-tham-nhung · tags: Tài chính
 - **thu-ho-so-kiem-ke** (`thu-ho-so-kiem-ke`) - 
 - **truong-phong-phan-tich-ho-so** (`truong-phong-phan-tich-ho-so`) - 
 
@@ -101,5 +109,5 @@ _(chưa có)_
 - **Đọc video YouTube** (`youtube-read`) - bundled/chạy · tools: javis_youtube_read · Đọc lời thoại (phụ đề) của video YouTube từ link để tóm tắt. Tự đổi qua 6 kiểu trình phát rồi tới yt-dlp khi YouTube chặn máy chủ. Không cần đăng nhập, không cần API key.
 
 ## Cờ sức khoẻ
-- Agent chưa workflow nào dùng: javis-core
+- Agent chưa workflow nào dùng: chuyen-vien-cong-no-tien-mat, chuyen-vien-doanh-thu-gia-von, chuyen-vien-gtgt-tndn, chuyen-vien-kho-gia-thanh, chuyen-vien-ncc-hoa-don, chuyen-vien-tncn, javis-core, khai-thac-du-lieu-ho-so, phap-che-chinh-sach-thue
 - Skill đang tắt: html-to-webcake, phan-tich-cau-hoi-sinh-doi-cheat-sheet, quan-ly-rui-ro-tuan-thu-thue, soan-thao-van-ban, tien-trinh-supervisor-tu-dong, tra-cuu-ioffice-dong-nai, tra-loi-cong-van, xu-phat-vphc-thue-hoa-don
