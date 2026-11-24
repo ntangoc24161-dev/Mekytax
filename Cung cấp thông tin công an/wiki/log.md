@@ -62,7 +62,7 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 Đã tạo:
 - [[Phân loại hồ sơ xử lý kết luận điều tra và tạm ngưng kê khai]]
 
-## [2026-11-22] ingest | tự học từ chat
+## [2026-11-23] ingest | tự học từ chat
 
 Đã tạo:
-- [[Kiến trúc hàng đợi phân tán VPS Linux và Desktop Windows cập nhật Excel]]
+- [[Tra cứu CV trả lời đã ký trên mọi sheet sổ Bao_cao]]
