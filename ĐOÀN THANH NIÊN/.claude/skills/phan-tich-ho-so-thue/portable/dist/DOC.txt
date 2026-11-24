@@ -1,0 +1,20 @@
+Phan tich ho so kiem tra thue - ban mang USB (khong cai dat)
+
+May dich: Windows 64-bit. Khong can Python, khong can mang.
+
+CACH CHAY
+1. Giai nen zip ra o dia (khong chay trong file zip).
+2. Double-click Chay.bat -> chon thu muc ho so -> chon thu muc ket qua.
+   Hoac keo tha thu muc ho so vao Chay.bat. Ket qua nam o <ho so>\ket-qua\
+
+THU MUC HO SO
+- XML to khai GTGT / QTT TNDN / QTT TNCN / BCTC (cong thue dien tu / HTKK)
+- Excel bang ke hoa don (sheet 2.BR ban ra, 4.MV mua vao)
+Khong dang nhap HDDT/TMS.
+
+KET QUA
+- phan-tich-<MST>-<nam>.xlsx  (Excel: moi loai thue 1 sheet, dong Cao to do)
+- phan-tich-<MST>-<nam>.md    (doc bang Notepad / Word / Javis)
+- phan-tich-<MST>-<nam>.json
+
+Khong dong goi ho so NNT trong zip nay.

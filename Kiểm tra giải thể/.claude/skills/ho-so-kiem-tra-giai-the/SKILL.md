@@ -2,8 +2,8 @@
 name: Hồ sơ kiểm tra giải thể
 description: "Lập và chuẩn hóa bộ hồ sơ kiểm tra quyết toán giải thể: bộ 22 văn bản, Mục III NSNN, văn bản từ chối nộp thừa, bù trừ hoàn thuế."
 group: Tài chính
-updated: '2026-11-13'
-learned_updated: '2026-11-13'
+updated: '2026-11-23'
+learned_updated: '2026-11-23'
 ---
 
 # Hồ sơ kiểm tra giải thể
@@ -22,7 +22,7 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 ## Chuẩn bị
 
 - File phôi tổng hợp chuẩn giải thể: `templates/MAUTONG HOP GIAI THE.docx` (đã liên kết trực tiếp `01_DA_BAN_HANH$`, chuẩn hóa 198 thẻ MERGEFIELD, dọn sạch hàng trống thừa theo NĐ 30).
-- Biểu mẫu phụ trợ giải thể: `templates/MAU CAM KET DOANH THU VA CHI PHI.docx`, `templates/MAU DON XIN QUYET TOAN GIAI THE.docx`, `templates/MAU DE XUAT HOAN GIAI THE.docx`, `templates/MAU MS-03-DCS.docx`, `templates/MAU QD XPHC GIAI THE.docx` (khi còn thời hiệu 5 năm), `templates/MAU QD KHAC PHUC HAU QUA GIAI THE.docx` (khi hết thời hiệu xử phạt nhưng còn thời hạn truy thu 6-10 năm theo Mẫu 15/NĐ 118).
+- Biểu mẫu phụ trợ giải thể: `templates/MAU CAM KET DOANH THU VA CHI PHI.docx` (1 công văn DN `/ĐKCP`: cam kết chi phí và chi phí lương), `templates/MAU DON XIN QUYET TOAN GIAI THE.docx`, `templates/MAU DE XUAT HOAN GIAI THE.docx`, `templates/MAU MS-03-DCS.docx`, `templates/MAU QD XPHC GIAI THE.docx` (khi còn thời hiệu 5 năm), `templates/MAU QD KHAC PHUC HAU QUA GIAI THE.docx` (khi hết thời hiệu xử phạt nhưng còn thời hạn truy thu 6-10 năm theo Mẫu 15/NĐ 118).
 - File Bảng tính: `Bang tinh.xlsx` (các sheet `BB`, `DTCHEP`, `TINH PHAT + CHAM NOP (C T)`).
 - Sổ Excel theo dõi: `Danh sach kiem tra quyet toan pro.xlsm` (sheet `01_DA_BAN_HANH$` qua Dòng 1 ẩn).
 - Căn cứ pháp lý: `references/nen-phap-ly-va-can-cu-giai-the.md`.
@@ -38,8 +38,8 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 
 ### Tầng 2: Điền biên bản từ Bảng tính và hoàn thiện đặc thù giải thể
 1. Bóc tách số liệu từ sheet `DTCHEP` của `Bang tinh.xlsx`:
-   - Trưởng đoàn kiểm tra Chi phí quản lý doanh nghiệp và Chi phí bán hàng (TT=1, TT=2); thống nhất chuẩn hóa tên gọi là **`Chi phí quản lý doanh nghiệp`**.
-   - Thành viên kiểm tra Chi phí tài chính (hoặc khối GTGT).
+   - Phân công BBXN **theo sổ JAVIS PRO / chỉ đạo vụ** (cột `Phan_cong_TD` / `Phan_cong_TV`), không cứng TD = QLDN + bán hàng. Vụ Kiến Thành Tân: TD = Giá vốn hàng bán (1 chỉ tiêu); TV = Chi phí bán hàng + Chi phí quản lý doanh nghiệp (2 chỉ tiêu, TT=1/2 trong cùng bảng).
+   - Tên chỉ tiêu thống nhất **`Chi phí quản lý doanh nghiệp`** khi sổ/user ghi vậy. Quét bảng chữ ký: sót tên kế toán phôi (`Lê Hoài Phương`) phải thay theo cột `Ke_toan_truong` trên sổ.
 2. Điền Mục III Nghĩa vụ NSNN (Bắt buộc cho diện giải thể):
    - Công thức suy luận: `(3)=0, (4)=Kê khai, (5)=Truy thu, (6)=(4), (7)=(3)+(4)+(5)-(6)=(5)`.
 3. Lập các văn bản đặc thù giải thể:
@@ -54,10 +54,14 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
        * *Biện pháp khắc phục hậu quả*: Gộp toàn bộ số thuế truy thu và tiền chậm nộp của cả 2 giai đoạn (bao gồm cả các năm từ năm thứ 6 đến năm thứ 10).
        * *Điều kiện duy nhất áp dụng Mẫu số 15 (QĐ buộc KPHQ)*: Chỉ khi **toàn bộ** các hành vi vi phạm và niên độ kiểm tra đều đã hết thời hiệu phạt tiền (từ năm thứ 6 trở về trước, hoặc thuộc các trường hợp tại khoản 1 Điều 65 Luật XLVPHC).
      + *Thời hiệu theo từng loại hành vi*: Vi phạm thủ tục thuế, hóa đơn là **02 năm**; Khai sai thiếu thuế, trốn thuế là **05 năm**; Truy thu thuế và tiền chậm nộp là **10 năm**.
-   - Văn bản từ chối nhận lại số tiền nộp thừa (điền đúng 10 số MST vào ô lưới).
+   - Văn bản từ chối nhận lại số tiền nộp thừa (điền đúng 10 số MST vào ô lưới). Cuối bộ chỉ **1** Công văn xin quyết toán giải thể; không nhân đôi.
+   - Khi user yêu cầu mẫu cam kết chi phí / chi phí lương: **1** công văn DN `/ĐKCP` từ phôi `MAU CAM KET DOANH THU VA CHI PHI.docx` (hàng hóa dịch vụ + tiền lương thực tế trong cùng văn bản). Không gắn `CAM KẾT KHÔNG PHÁT SINH LAO ĐỘNG CHI TRẢ LƯƠNG` trừ khi DN thật sự không có lao động.
    - Thủ tục hoàn kiêm bù trừ thu NSNN (MS-03-DCS và dự thảo QĐ hoàn bù trừ) nếu còn thuế GTGT khấu trừ.
 4. Thể thức hành chính NĐ 30:
    - Các bảng tiêu đề bảo đảm đúng 1 nét gạch chuẩn dưới cơ quan ban hành và tiêu ngữ, không lặp dòng đệm thừa.
+   - **Mẫu 15/NĐ 118:** Quốc hiệu `CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM` nằm **trọn 1 dòng**, canh giữa từng ô; tiêu ngữ đậm + gạch dưới; tên cơ quan đậm + gạch dưới; không nhét cả khối header vào 1 run/`\n` (sẽ rớt chữ `NAM` / `ĐỒNG NAI`).
+   - **Ngày ban hành:** dự thảo QĐ / tờ trình / báo cáo kết quả = ngày báo cáo trên sổ (`Ngay_bao_cao`); hồ sơ phân tích và kế hoạch giám sát = ngày QĐKT; các mốc còn lại theo sổ. Báo cáo kết quả phải có số QĐKT, không để `SỐ          /QĐ-TCS3`, không lặp năm (`năm 2026 2026`).
+   - Tờ trình / QĐ / văn bản thẩm định: chức danh (CÁN BỘ ĐỀ XUẤT, TỔ TRƯỞNG, PHÓ TRƯỞNG) cách tên người ký **4 dòng**. Mỗi văn bản mới bắt đầu trang mới.
    - Xuất 02 file QĐKT và QĐGS độc lập chuẩn 1 trang A4.
 
 ## Bẫy
@@ -69,6 +73,12 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 - **Áp sai mức phạt vi phạm hành chính**: Trường hợp sau khi loại trừ chi phí mà doanh nghiệp vẫn còn lỗ hoặc thuộc diện miễn thuế (thuế phải nộp = 0), máy móc phạt 20% là sai luật; phải phạt mức tiền cố định (6.500.000 đ) theo quy định tại NĐ 310/2025/NĐ-CP.
 - **Nhầm lẫn giữa QĐ xử phạt VPHC và QĐ buộc khắc phục hậu quả**: Doanh nghiệp có hành vi vi phạm ở các kỳ kiểm tra thuộc giai đoạn từ năm thứ 6 đến hết năm thứ 10 (ví dụ kiểm tra năm 2026 đối với sai sót giai đoạn 2016-2020) đã hết thời hiệu xử phạt tiền; nếu áp dụng Mẫu 02 xử phạt tiền hoặc đưa điều khoản phạt 20%, phạt chậm nộp tiền phạt 0,05%/ngày vào quyết định là trái Điều 8 Nghị định 125/2020/NĐ-CP và Điều 65 Luật Xử lý VPHC. Bắt buộc phải áp dụng Mẫu số 15 (Quyết định buộc khắc phục hậu quả).
 - **Lệch lịch kiểm tra chạm ngày nghỉ**: Lên lịch kiểm tra 3 ngày nhưng rơi vào thứ Năm, thứ Sáu và Chủ nhật.
+- **Header Mẫu 15 dồn 1 run:** Quốc hiệu rớt `NAM`, cơ quan rớt `ĐỒNG NA` - phải tách đoạn, cỡ 12, canh giữa ô.
+- **Báo cáo kết quả lặp năm / thiếu số QĐ:** phôi hay ra `ngày 26 tháng 10 năm 2026 2026` và `SỐ          /QĐ-TCS3`. Điền từ sổ (`So_QDKT`, `Ngay_bao_cao`).
+- **Tên kế toán phôi sót ở bảng ký BBXN/BBKT:** `Lê Hoài Phương` nằm trong ô gộp Giám đốc/Kế toán, replace paragraph không đụng tới. Phải quét `cell.text`.
+- **Nội dung kiểm tra trên Báo cáo kết quả:** mặc định `Kiểm tra chấp hành pháp luật thuế`. Chi tiết phân công chỉ ở BBXN và Biên bản phân công.
+- **Nhầm cam kết lương:** `CAM KẾT KHÔNG PHÁT SINH LAO ĐỘNG CHI TRẢ LƯƠNG` chỉ dùng khi DN không có lao động. User xin "cam kết chi phí lương" thì lấy đoạn tiền lương trong `MAU CAM KET DOANH THU VA CHI PHI.docx`.
+- **Công văn xin quyết toán nhân đôi** ở cuối `TONG HOP` (thừa 1 bản + mảnh từ chối nộp thừa). Giữ 1 công văn, xóa phần thừa sau chữ ký.
 
 ## Kiểm chứng
 
@@ -87,3 +97,5 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 - [2026-10-31] Đóng gói bộ hồ sơ đề xuất hoàn thuế kiêm bù trừ thu NSNN giải thể (mẫu MS-03-DCS và Tờ trình đề xuất hoàn giải thể) áp dụng Điều 32 NĐ 181/2025/NĐ-CP.
 - [2026-11-11] Quy tắc kiểm tra số gõ cứng trên DTCHEP hoạt động dạng cảnh báo mềm (non-blocking warning), ghi nhận vào open-questions mà không làm gián đoạn luồng tự động đổ số vào biên bản.
 - [2026-11-22] Thiết lập nguyên tắc rẽ nhánh ban hành QĐ xử phạt VPHC (1-5 năm: phạt tiền 20% + truy thu + chậm nộp/giảm lỗ) vs QĐ buộc thực hiện biện pháp khắc phục hậu quả (6-10 năm: không phạt tiền, chỉ truy thu + chậm nộp/giảm lỗ; quá 10 năm không phạt, không truy thu) theo Điều 8 NĐ 125/2020/NĐ-CP; chuẩn hóa phôi gốc `templates/MAU QD KHAC PHUC HAU QUA GIAI THE.docx` (chuẩn Mẫu 15/NĐ 118).
+- [2026-11-23] Vụ Kiến Thành Tân: BBXN bám phân công sổ (TD giá vốn, TV bán hàng + QLDN); Mẫu 15 tách Quốc hiệu/tiêu ngữ canh giữa NĐ 30; Báo cáo KQ điền số QĐ + ngày báo cáo, bỏ năm lặp; quét tên kế toán trong bảng ký; tờ trình/thẩm định cách ký 4 dòng; mỗi văn bản sang trang mới.
+- [2026-11-23] Hồ sơ về DN: giữ 1 Công văn xin quyết toán; 1 công văn Cam kết chi phí và chi phí lương (`/ĐKCP`) từ phôi Tâm Hoàng Phát, điền pháp nhân vụ; không dùng mẫu không phát sinh lao động.

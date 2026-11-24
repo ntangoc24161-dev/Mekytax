@@ -175,3 +175,4 @@
 - [Quy tắc rà soát NCC mua vào chỉ lọc F0 và gộp cột Cảnh báo rủi ro](facts/decision-ncc-mua-vao-chi-loc-f0-gop-cot-canh-bao.md) - NCC mua vào chỉ gắn cờ F0 ngành Thuế, gộp cột cảnh báo rủi ro; chỉ NNT mới tra cứu F1 và Sổ Công an; giữ nguyên TC2.
 - [Mẫu lệnh giao việc phân tích hồ sơ thuế qua khung chat](facts/pref-mau-giao-viec-phan-tich-ho-so-thue.md) - Mẫu lệnh phân tích gồm Tên công ty, MST, kỳ kiểm tra và đường dẫn thư mục dữ liệu.
 - [Phân công thực hiện tổng hợp HĐĐT và bảng kê 4 sheet theo 3 giai đoạn](facts/decision-phan-cong-lap-bang-ke-tong-hop-4-sheet.md) - Chuyên viên dữ liệu đầu vào chủ trì 3 giai đoạn, phối hợp phân tích viên CQT quét F0.
+- [Bảng tính Kiến Thành Tân (MST 3603216935) đã trừ thuế GTGT bảng kê không hợp lệ](facts/user-kien-thanh-tan-bang-tinh-loai-thue-gtgt-ko-hop-le.md) - File Bang tinh.xlsx tại 0. BIEN BAN của Kiến Thành Tân đã trừ 104.306.175 đ thuế GTGT không hợp lệ trên sheet GTGT.

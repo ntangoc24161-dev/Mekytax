@@ -2,7 +2,7 @@
 type: workflow
 name: Quy trình điều khiển tài liệu
 slug: quy-trinh-dieu-khien-tai-lieu
-status: off
+status: 'off'
 group: Văn thư
 description: TẮT. Trùng ban hành văn bản đi. Dùng quy-trinh-soan-thao-va-ban-hanh-van-ban-di.
 steps:

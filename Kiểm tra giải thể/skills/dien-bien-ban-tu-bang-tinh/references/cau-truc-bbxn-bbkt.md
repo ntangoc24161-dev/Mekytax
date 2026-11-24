@@ -25,7 +25,7 @@ Mục `I. Nội dung kiểm tra` / `II. Kết quả kiểm tra`: đậm, canh đ
 ## BBKT - mỗi năm
 
 - Dòng năm: `+Năm 20xx` + tab + `Đơn vị tính: Đồng` (cùng dòng).
-- Có chênh: Giải trình (đậm) → Công ty báo TNTT... → `*/` nguyên nhân → `=>Thuế TNDN truy thu...` → Giảm lỗ nếu có.
+- Có chênh: Giải trình (đậm) → Công ty báo TNCT... → `*/` nguyên nhân → (nếu có Chuyển lỗ KT: `*/` xác nhận chuyển lỗ + dòng TNTT sau chuyển lỗ) → `=>Thuế TNDN truy thu...` → `Giảm lỗ: ...` nếu có (số = Chuyển lỗ KT trên DTCHEP). Kết luận 2.1 và QĐ: `Giảm lỗ:` ngay trước `Giảm khấu trừ`.
 - Không chênh: `*/ Không chênh lệch.`
 - Đủ mục III (nghĩa vụ) và IV (kết luận/kiến nghị) theo phôi. Với vụ kiểm tra giải thể: Mục III Nghĩa vụ NSNN bắt buộc điền đủ số phát sinh phải nộp các năm theo công thức `(3)=0`, `(6)=(4)`, `(7)=(3)+(4)+(5)-(6)`, không để trống hay gạch ngang.
 - Đoạn mở "Hôm nay, vào lúc..." canh trái, tránh giãn chữ.

@@ -3,7 +3,7 @@ type: business
 provenance: user
 origin: javis-learned
 created: 2026-11-17
-updated: 2026-11-20
+updated: 2026-11-23
 source: chat 2026-11-20 (8aa1855e)
 ---
 - **Đường dẫn chính thức:** `G:\Other computers\My Laptop\1. CONG TAC KIEM TRA\QL_CONG_TAC_KIEM_TRA_MASTER_2026.xlsx`
@@ -13,3 +13,5 @@ source: chat 2026-11-20 (8aa1855e)
 - **Cột sheet chung:** STT, Loại công việc, MST, Tên NNT, Địa chỉ, SĐT, Cán bộ, Giai đoạn, Ngày L1, Deadline L1, Ngày L2, Deadline L2, Giải trình, Trạng thái, Cấp độ, Hành động, Ghi chú.
 - **Hiện có:** 19 DN (4 KHBS + 13 kiểm tra quyết toán + 2 chuyên đề trường công lập).
 - **Quy trình:** Agent `phong-van-thu` / `theo-doi-tien-do` / `xu-ly-cuoi` chỉ đọc-ghi `DANH_SACH_THEO_DOI_CHUNG`.
+
+- **Nhóm chủ loại (23/11/2026):** Kế hoạch kiểm tra = KHBS + Kiểm tra quyết toán; Chuyên đề = chuyên đề trường công lập (và chuyên đề khác khi phát sinh). Agent chủ loại: 	heo-doi-ke-hoach-kiem-tra, 	heo-doi-chuyen-de.

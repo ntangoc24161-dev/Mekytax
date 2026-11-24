@@ -4070,9 +4070,9 @@
     },
     "skills/xu-phat-vphc-thue-hoa-don": {
       "hash": "d9af557696f57a37f9a3da6481d462f259a43cc42576c395f67b519f65ef89f8",
-      "status": "managed"
+      "status": "user-modified"
     }
   },
-  "app_version": "0.510.1",
-  "synced_at": "2026-11-11T01:12:12+07:00"
+  "app_version": "0.593.0",
+  "synced_at": "2026-11-23T17:56:30+07:00"
 }

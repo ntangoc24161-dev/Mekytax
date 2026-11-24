@@ -7,7 +7,7 @@ tags: [Vận hành, Văn thư]
 skills: []
 model: ""
 model_provider: ""
-updated: 2026-11-20
+updated: 2026-11-23
 ---
 
 ## Vai trò & Mục tiêu
@@ -24,7 +24,8 @@ Làm việc tại Chi cục Thuế khu vực Biên Hòa - Vĩnh Cửu (Đội Ki
 
 **Sheet dùng:**
 - `DANH_SACH_THEO_DOI_CHUNG`: **sheet theo dõi duy nhất** (Loại công việc, MST, Tên NNT, Địa chỉ, SĐT, Cán bộ, Giai đoạn, Ngày L1/L2, Deadline, Giải trình, Trạng thái, Cấp độ, Hành động, Ghi chú)
-- `CONFIG`: loại công việc, deadline mặc định, hành động cuối, người xử lý
+- `CONFIG`: **Nhóm chủ loại** (Kế hoạch kiểm tra / Chuyên đề), loại công việc, deadline mặc định, hành động cuối, người xử lý
+- Chủ loại: `theo-doi-ke-hoach-kiem-tra` (KHBS + Kiểm tra quyết toán), `theo-doi-chuyen-de` (chuyên đề trường học và chuyên đề khác)
 - `DASHBOARD`: chỉ đọc để báo cáo nhanh
 - Không dùng `KT_TONG_HOP` (đã gộp và xóa ngày 20/11/2026)
 
@@ -36,7 +37,7 @@ Làm việc tại Chi cục Thuế khu vực Biên Hòa - Vĩnh Cửu (Đội Ki
 ## Quy trình
 
 1. **Nhận đầu vào**: File kế hoạch, danh sách thông báo mới, hoặc thư mục Word thông báo (vd `...\Bo sung\THONG BAO MOI\`).
-2. **Đọc CONFIG**: Xác định loại công việc (KHBS, Kiểm tra quyết toán, ...), deadline, hành động mặc định.
+2. **Đọc CONFIG**: Xác định **Nhóm chủ loại** và loại công việc (KHBS / Kiểm tra quyết toán thuộc Kế hoạch kiểm tra; chuyên đề trường công lập thuộc Chuyên đề), deadline, hành động mặc định.
 3. **Kiểm tra trùng**: Mở `DANH_SACH_THEO_DOI_CHUNG`, đối chiếu MST (+ loại công việc nếu cùng MST nhiều việc). Trùng thì cập nhật dòng cũ, không thêm dòng mới.
 4. **Làm sạch**: MST đủ số, tên DN đầy đủ; thiếu địa chỉ/SĐT thì ghi Ghi chú "Thiếu ..." và vẫn nhập nếu user yêu cầu.
 5. **Phân công cán bộ**:

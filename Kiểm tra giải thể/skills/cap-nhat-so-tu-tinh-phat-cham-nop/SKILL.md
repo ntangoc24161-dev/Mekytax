@@ -5,8 +5,8 @@ group: Tài chính
 origin: javis-learned
 status: active
 created: 2026-11-05
-updated: '2026-11-12'
-learned_updated: '2026-11-12'
+updated: '2026-11-23'
+learned_updated: '2026-11-23'
 ---
 ## Khi nào dùng
 - User yêu cầu: "đối chiếu / đồng bộ số liệu phạt và chậm nộp giữa Bảng tính và sổ theo dõi".
@@ -38,6 +38,7 @@ learned_updated: '2026-11-12'
    - Cột AR (44): Chậm nộp TNDN 0,03% (tổng cột K hoặc M trên Bảng tính)
    - Cột AT (46): Phạt khai sai 20% (tổng cột N trên Bảng tính)
    - Cột AU (47): Phạt thủ tục VPHC (thông báo nếu > 0)
+   - Cột AX (50) `Giam_lo`: **không có trên TINH PHAT**. Lấy DTCHEP dòng **Chuyển lỗ** (Số kiểm tra) của năm đoàn xác nhận; nếu > 0 thì ghi số đó vào AX và giữ `=DocSo(AX<row>)` ở cột 57. Không để 0 chỉ vì sheet tính phạt không có cột giảm lỗ.
 4. Tự động ghi đè các ô lệch vào sổ và lưu file `pro.xlsm`.
 5. Báo cáo kết quả dạng bảng: chỉ tiêu, số cũ, số mới, trạng thái và cảnh báo phát sinh nếu có.
 

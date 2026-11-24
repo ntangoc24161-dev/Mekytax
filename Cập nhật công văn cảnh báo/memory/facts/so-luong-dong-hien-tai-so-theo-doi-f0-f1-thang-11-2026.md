@@ -11,3 +11,7 @@ Ghi nhận thực tế ngày 09/11/2026, file `SoTheoDoi_CV_CanhBaoRuiRo_Thue.xl
 
 ## Lịch sử
 - [2026-11-09] Bị thay thế bởi [[so-luong-dong-va-cau-truc-cot-so-theo-doi-f0-f1]] (user đổi thông tin).
+
+
+## Lịch sử
+- [2026-11-23] Bị thay thế bởi [[so-luong-dong-thuc-te-so-theo-doi-f0-f1-ngay-23-11-2026]] (user đổi thông tin).
