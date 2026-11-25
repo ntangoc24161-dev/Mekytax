@@ -126,3 +126,4 @@
 - [Cột chữ DocSo trên sổ bị mất dấu tiếng Việt, phải tính bằng Python](facts/cot-chu-docso-tren-so-bi-mat-dau-dung-python.md) - Không đọc 6 cột chữ từ sổ; dùng scripts/doc_so.py tính lại từ số gốc.
 - [Dòng 6 bảng tiến trình kiểm tra lấy theo ngày ký BBKT](facts/tien-trinh-kiem-tra-dong-6-lay-ngay-ky-bbkt.md) - Dòng 'Lập biên bản thông báo kết quả KT' đổi thẻ merge từ Ngay_bao_cao sang Ngay_ky_BBKT
 - [Yêu cầu sửa mã VBA DocSo hiển thị có dấu tiếng Việt trên sổ Excel](facts/yeu-cau-sua-ma-vba-docso-tren-so-excel.md) - Sửa hàm VBA DocSo trong sổ .xlsm để các cột tiền bằng chữ không bị lỗi font/mất dấu tiếng Việt
+- [Fix MERGEFIELD ngày dd/MM/yyyy tránh serial Excel](facts/fix-mergefield-ngay-ddmmyyyy-tranh-serial-excel.md) - MERGEFIELD ngày bắt buộc có \@ "dd/MM/yyyy"; thiếu hoặc /@ sẽ ra số khi merge.

@@ -2,8 +2,8 @@
 name: Hồ sơ kiểm tra theo kế hoạch
 description: 'Lập hồ sơ kiểm tra kế hoạch từ MAUTONG HOP: mô hình Hybrid 2 tầng, merge trực tiếp từ 01_DA_BAN_HANH, chuẩn NĐ 30, chuẩn checkbox ☐/☑ và xuất QĐ riêng.'
 group: Tài chính
-updated: '2026-11-13'
-learned_updated: '2026-11-13'
+updated: '2026-11-25'
+learned_updated: '2026-11-25'
 ---
 ## Khi nào dùng
 
@@ -23,7 +23,7 @@ learned_updated: '2026-11-13'
      + Nguồn trộn: Trộn trực tiếp từ sheet `01_DA_BAN_HANH$` của sổ `Danh sach kiem tra quyet toan pro.xlsm` qua Dòng 1 ẩn (58 mã trường chuẩn không dấu) và 6 cột tiền bằng chữ tự động `=DocSo(...)` (cột 53 đến 58 / BA đến BF: `Tong_truy_thu_chu`, `Tong_cham_nop_chu`, `Tong_tien_phat_chu`, `Tong_phat_sinh_chu`, `Giam_lo_chu`, `Giam_khau_tru_chu`). Bãi bỏ hoàn toàn sheet đệm `DuLieuMerge`.
      + Phôi chuẩn `templates/MAUTONG HOP.docx`: Liên kết trực tiếp với bảng `01_DA_BAN_HANH$`, bảo toàn 329 thẻ `MERGEFIELD` chuẩn hóa không dấu.
      + Số QĐKT: Đồng bộ 100% bằng `{ MERGEFIELD So_QDKT }` (chấm dứt gán nhầm trường `Ke_toan_truong`, định dạng màu chữ đen tự động).
-     + Switch ngày tháng: Tách độc lập sau 'ngày' là `\@ "dd"`, sau 'tháng' là `\@ "MM"`, sau 'năm' là `\@ "yyyy"`; chấm dứt triệt để lỗi đảo ngày/tháng hoặc lặp chuỗi `dd/MM/yyyy`.
+     + Switch ngày tháng: chỗ hiện `dd/MM/yyyy` bắt buộc có `\@ "dd/MM/yyyy"` (đúng backslash, cấm `/@`); chỗ tách 'ngày'/'tháng'/'năm' dùng `\@ "dd"`, `\@ "MM"`, `\@ "yyyy"`. Thiếu switch hoặc dùng `/@` sẽ làm Word in serial Excel (số) thay vì ngày. Vá bằng `scripts/fix_mergefield_ngay_ddmmyyyy.py`.
      + Phân công Trưởng đoàn trong BBXN/BBKT: Dựng sẵn khung 2 dòng riêng biệt (`1. Chi phí quản lý doanh nghiệp`, `2. Chi phí bán hàng`), dòng Thành viên chuyển thành `3. Chi phí tài chính`.
      + Bảng tiêu đề chuẩn NĐ 30/2020/NĐ-CP: Mỗi tiêu đề gồm 2 đường kẻ ngang `v:line` chuẩn (cột trái: cơ quan ban hành / tổ kiểm tra; cột phải: Độc lập - Tự do - Hạnh phúc); xóa sạch các hàng số 2 trống đệm để tránh hiện tượng gạch chân 2 lần.
    - **Tầng 2 (Điền biên bản từ Bảng tính - `dien-bien-ban-tu-bang-tinh`)**:
@@ -56,6 +56,7 @@ learned_updated: '2026-11-13'
 
 ## Bẫy
 
+- MERGEFIELD ngày thiếu `\@ "dd/MM/yyyy"` hoặc ghi nhầm `/@`: khi merge từ Excel, ngày hiện thành số serial thay vì `dd/MM/yyyy`.
 - Gán cứng ô checkbox bằng Wingdings hoặc đặt ở đầu câu làm sai lệch phôi gốc mẫu giám sát.
 - Để nguyên nét vẽ VML X khi đổi sang ô `☑` làm nét vẽ bị lệch đè lên chữ.
 - Khoảng cách chữ ký 5 dòng cố định kéo dài ô làm rớt tên người ký sang trang mới (phải giảm xuống 4 dòng theo NĐ 30).
@@ -82,3 +83,4 @@ learned_updated: '2026-11-13'
 - [2026-11-11] Thống nhất bộ quy tắc hoàn thiện thể thức hồ sơ đi và TONG HOP: (1) Căn cứ QĐ 1377/QĐ-CT chốt thống nhất năm 2025 (30/06/2025) cho toàn bộ phôi và script xuất văn bản; (2) Ngày tháng ban hành dự thảo QĐ để trống toàn bộ ngày, tháng, năm (bỏ năm 2026 cố định); (3) Ký hiệu dự thảo để khoảng trống dài `Số:              /QĐ-TCS3`, tuyệt đối không dùng mã tạm DU_THAO-TRINH-KY; (4) Sau khi QĐKT/QĐGS đã ban hành chính thức thì không cập nhật lại số/ngày; (5) Khoảng cách chữ ký trong ô mặc định 5 dòng trống, nếu rớt trang tự động giảm 4 dòng (chuẩn NĐ 30); (6) BBXN Trưởng đoàn đánh số TT 1 và 2, có chênh lệch ghi dòng tiêu đề Giải trình rồi xuống dòng `*/`, không chênh lệch ghi `*/ Không chênh lệch`.
 - [2026-11-12] Thống nhất vận hành sổ theo dõi và luồng hồ sơ đi: (1) Tác nghiệp duy nhất trên file macro `Danh sach kiem tra quyet toan pro.xlsm`, giữ nguyên file gốc `Danh sach kiem tra quyet toan.xlsx` để tham chiếu, cấm tạo file bak trong thư mục sổ; (2) Khi tạo bộ hồ sơ đi trình ký hoặc chuyển sang `01_DA_BAN_HANH` (trạng thái `1. Đã ban hành`), tự động di chuyển thư mục công ty sang thư mục `1. TD`, không hỏi lại người dùng.
 - [2026-11-13] Thống nhất mô hình Hybrid 2 tầng và chuẩn hóa phôi MAUTONG HOP: (1) Tầng 1 Mail Merge kết nối trực tiếp từ sheet 01_DA_BAN_HANH qua Dòng 1 ẩn (58 trường chuẩn hóa không dấu) và 6 cột công thức chữ =DocSo(...) từ cột 53 đến 58 (BA đến BF), xóa bỏ hoàn toàn sheet đệm DuLieuMerge; (2) Phôi MAUTONG HOP.docx xử lý dứt điểm 20 vị trí Số QĐKT (sửa Ke_toan_truong thành So_QDKT), sửa switch ngày tháng độc lập dd/MM/yyyy chống đảo/lặp, tách khung 2 dòng cho Trưởng đoàn (1. QLDN, 2. Bán hàng) và xóa các hàng trống thừa loại bỏ hiện tượng gạch chân 2 lần ở tiêu đề theo NĐ 30; (3) Tầng 2 bắt buộc chạy dien-bien-ban-tu-bang-tinh để đổ ma trận số liệu nhiều năm từ DTCHEP vào BBXN, BBKT và Mục III NSNN, xóa sạch 100% số liệu mẫu cũ.
+- [2026-11-25] Vụ T&T Biên Hòa: merge ngày ra số vì phôi thiếu `\@ "dd/MM/yyyy"` và một số chỗ ghi nhầm `/@`. Đã vá đồng loạt `templates/MAUTONG HOP.docx` (63 chỗ) và `templates/MAU TONG HOP HO SO DI.docx` (3 chỗ); thêm `scripts/fix_mergefield_ngay_ddmmyyyy.py` và cho `field_formatter.py` đổi serial Excel sang `dd/MM/yyyy`. File đã merge trước đó cần merge lại từ phôi mới.

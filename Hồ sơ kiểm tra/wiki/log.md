@@ -223,3 +223,8 @@ Liên quan: [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]], [[K�
 
 Đã tạo:
 - [[Mô hình Mail Merge phân luồng theo loại hình kiểm tra thuế]]
+
+## [2026-11-25] ingest | tự học từ chat
+
+Đã tạo:
+- [[Switch định dạng ngày MERGEFIELD khi Mail Merge từ Excel]]

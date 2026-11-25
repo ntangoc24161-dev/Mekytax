@@ -42,3 +42,5 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Kỹ thuật kết nối trực tiếp Mail Merge từ sheet theo dõi qua dòng 1 ẩn]] - Để Word Mail Merge kết nối trực tiếp với bảng tính theo dõi có tiêu đề nhiều dòn
 - [[Kỹ thuật xử lý xung đột đường kẻ tiêu đề văn bản hành chính Word]] - Trong quá trình tự động hóa lập hồ sơ kiểm tra thuế bằng Microsoft Word, hiện tư
 - [[Mô hình Mail Merge phân luồng theo loại hình kiểm tra thuế]] - Mô hình Mail Merge trong hệ thống kiểm tra quyết toán phân luồng hồ sơ dựa trên
+- [[Switch định dạng ngày MERGEFIELD khi Mail Merge từ Excel]] - ## Ý chính
+- Excel lưu ngày dưới dạng số serial; Word Mail Merge in ra số thay v
