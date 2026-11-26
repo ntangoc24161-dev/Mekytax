@@ -10,6 +10,7 @@ Lệnh:
   repair    --in FILE.xlsx --out FILE.xlsx
   set-status --in FILE.xlsx --out FILE.xlsx --row N [--row N...] --status "Đang xử lý"
   set-cells  --in FILE.xlsx --out FILE.xlsx --cell O901=Đang xử lý [--cell K903=...]
+  set-dates  --in FILE.xlsx --out FILE.xlsx --cell D867=10/11/2026 [--style-row 864]
 
 Sau khi ra file --out: agent tự GOOGLEDRIVE_UPLOAD_UPDATE_FILE đúng fileId sống
 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph (account googledrive_ralph-urbane). Script này
@@ -356,6 +357,78 @@ def cmd_set_status(args: argparse.Namespace) -> int:
     return 0 if report["ok"] else 2
 
 
+def _excel_serial(text: str) -> int:
+    """dd/mm/yyyy -> số serial Excel (1900 system)."""
+    import datetime as _dt
+
+    m = re.fullmatch(r"\s*(\d{1,2})/(\d{1,2})/(\d{4})\s*", text)
+    if not m:
+        raise ValueError(f"ngày không hợp lệ (cần dd/mm/yyyy): {text}")
+    d = _dt.date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    return (d - _dt.date(1899, 12, 30)).days
+
+
+def _style_of(sheet2: bytes, ref: str) -> Optional[str]:
+    text = sheet2.decode("utf-8")
+    m = re.search(rf'<c r="{re.escape(ref)}"[^>]*?\bs="(\d+)"', text)
+    return m.group(1) if m else None
+
+
+def _set_cell_number(sheet2: bytes, ref: str, value: int, style: str) -> bytes:
+    """Ghi ô số (không sharedString), giữ nguyên các ô khác."""
+    ref = ref.upper()
+    text = sheet2.decode("utf-8")
+    pattern = re.compile(
+        rf'<c r="{re.escape(ref)}"[^/]*/>|<c r="{re.escape(ref)}"[^>]*>.*?</c>',
+        re.S,
+    )
+    new_cell = f'<c r="{ref}" s="{style}"><v>{value}</v></c>'
+    m = pattern.search(text)
+    if m:
+        text = text[: m.start()] + new_cell + text[m.end() :]
+        return text.encode("utf-8")
+    _, row = _col_row(ref)
+    row_re = re.compile(rf'(<row r="{row}"[^>]*>)(.*?)(</row>)', re.S)
+    rm = row_re.search(text)
+    if not rm:
+        raise HealthError(f"không thấy dòng {row} để ghi ô {ref}")
+    text = text[: rm.start()] + rm.group(1) + rm.group(2) + new_cell + rm.group(3) + text[rm.end() :]
+    return text.encode("utf-8")
+
+
+def cmd_set_dates(args: argparse.Namespace) -> int:
+    """Ghi ô NGÀY thật (serial Excel). Style lấy từ ô cùng cột ở dòng --style-row (mặc định 864)."""
+    src = Path(args.input)
+    out = Path(args.output or args.input)
+    pairs: List[Tuple[str, str]] = []
+    for item in args.cell or []:
+        if "=" not in item:
+            raise SystemExit(f"--cell cần dạng D867=10/11/2026, nhận được: {item}")
+        ref, text = item.split("=", 1)
+        pairs.append((ref.strip().upper(), text.strip()))
+    if not pairs:
+        raise SystemExit("không có ô ngày nào (--cell)")
+    names, infos, data = _read_workbook(src)
+    sheet2 = data[SHEET2]
+    applied: Dict[str, int] = {}
+    for ref, text in pairs:
+        col, _ = _col_row(ref)
+        style = _style_of(sheet2, f"{col}{args.style_row}")
+        if not style:
+            raise SystemExit(f"không tìm thấy style ngày ở {col}{args.style_row}")
+        serial = _excel_serial(text)
+        sheet2 = _set_cell_number(sheet2, ref, serial, style)
+        applied[ref] = serial
+    data[SHEET2] = sheet2
+    tmpl = None
+    if args.template:
+        _, tmpl, _ = _read_workbook(Path(args.template))
+    report = write_safe_xlsx(names, infos, data, out, zipinfo_template=tmpl)
+    report["applied_serial"] = applied
+    print(json.dumps(report, ensure_ascii=False, indent=2))
+    return 0 if report["ok"] else 2
+
+
 def cmd_set_cells(args: argparse.Namespace) -> int:
     src = Path(args.input)
     out = Path(args.output or args.input)
@@ -413,6 +486,14 @@ def build_parser() -> argparse.ArgumentParser:
     p_cell.add_argument("--json-file", default="")
     p_cell.add_argument("--template", default="")
     p_cell.set_defaults(func=cmd_set_cells)
+
+    p_date = sub.add_parser("set-dates", help="Ghi ô NGÀY dạng số Excel (style lấy từ dòng --style-row)")
+    p_date.add_argument("--in", dest="input", required=True)
+    p_date.add_argument("--out", dest="output", default="")
+    p_date.add_argument("--cell", action="append", default=[], help="D867=10/11/2026")
+    p_date.add_argument("--style-row", type=int, default=864)
+    p_date.add_argument("--template", default="")
+    p_date.set_defaults(func=cmd_set_dates)
 
     return ap
 

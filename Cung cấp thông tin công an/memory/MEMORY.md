@@ -102,3 +102,6 @@
 - [Đổi tên 17 thư mục KT2 thêm hậu tố -R và tồn đọng file ký số ngày 23/11/2026](facts/doi-ten-17-thu-muc-ca-kt2-duoi-r-va-ton-dong-file-ky-so-2026.md) - Đã đổi tên 17 thư mục hồ sơ KT2 hoàn tất sang hậu tố -R; còn 25 thư mục có file phối hợp chưa cập nhật số CV trả lời trên sổ.
 - [Tệp .signed trong thư mục công văn có thể là văn bản phối hợp nội bộ chưa phát hành](facts/luu-y-kiem-tra-tep-signed-truoc-khi-doi-ten-thu-muc-r.md) - Tệp .signed.pdf chưa chắc là công văn trả lời chính thức của TCS3, cần kiểm tra số phát hành trước khi đổi tên -R.
 - [Giữ nguyên tên thư mục 200 không chỉnh sửa](facts/giu-nguyen-thu-muc-200-khong-doi-ten.md) - Thư mục 200. CV 1227- CA DONG NAI-KT1- R được yêu cầu giữ nguyên, không chỉnh sửa tên.
+- [Chốt ghi sổ 6 CV MOI 26/11](facts/chot-ghi-so-6-cv-moi-2026-11-26.md) - 44321 tách 10 dòng; 2296 hạn 30/11; 6634 KT3; 45499 KT2; 44842/44898 theo md.
+- [Cổng 1 chưa đóng sau ghi sổ 6 CV MOI 26/11](facts/cong-1-chua-dong-6-cv-moi-2026-11-26.md) - Việc t_5b5f368e15dc đã đẩy sổ đúng fileId nhưng Cổng 1 chưa đóng; còn số CV mờ và MST ngoài DB.
+- [MST 3603822566 (LSP) chưa có trong DB NNT](facts/mst-3603822566-lsp-chua-co-db.md) - CTY TNHH TM DV vận tải và cung cấp thực phẩm LSP chỉ thấy trên VietQR, không có trong DB NNT 03.06.
