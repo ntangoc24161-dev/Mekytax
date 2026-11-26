@@ -150,7 +150,7 @@
     },
     "skills/phan-tich-ho-so-thue/engine/ingest/excel_hd.py": {
       "hash": "6c142dca9e1c561a3a2cdb79b7d1f0d10ff02d90a1cc5ff1ff1f2bf595913989",
-      "status": "managed"
+      "status": "user-modified"
     },
     "skills/phan-tich-ho-so-thue/engine/ingest/hoso.py": {
       "hash": "01d0eec0b46f494186a393b1607a96cf1a81f51462420a7a4e99372fde14921b",
@@ -4074,5 +4074,5 @@
     }
   },
   "app_version": "0.593.0",
-  "synced_at": "2026-11-23T17:56:37+07:00"
+  "synced_at": "2026-11-26T14:46:28+07:00"
 }

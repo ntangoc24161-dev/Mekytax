@@ -106,6 +106,22 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - **Giữ** file live: `TONG HOP.docx`, QĐ riêng, PDF đã ký (nếu có), `Bang tinh*.xlsx` đang dùng, `hoso.zip` mới nhất.
 - Liệt kê lại thư mục bằng tool sau khi xóa; chỉ xác nhận đã xóa khi lệnh trả thành công.
 
+## Bổ sung 2026-11-25 (vụ T&T Biên Hòa)
+
+- **Đối chiếu DTCHEP trước khi viết giải trình**: đọc cột chênh lệch (E) và số kiểm tra (D) của từng chỉ tiêu, không chỉ lấy số kê khai ở KQKDSXKD. Chỉ tiêu bị loại 100% (vd CPTC 2025: D=0, E=-C) thì bảng ghi báo cáo X, kiểm tra 0, chênh lệch -X và có `*/` giải trình theo mẫu; tuyệt đối không ghi `Không chênh lệch`.
+- Nguyên nhân loại do user chốt (vd `hạch toán chi phí tài chính không phục vụ hoạt động sản xuất, kinh doanh của công ty`) ghi nguyên văn sau `do`, rồi `Căn cứ ...` theo năm. Hỏi nếu chưa có.
+- Chi phí quản lý = bán hàng + QLDN gộp một dòng khi user dặn không đưa chi phí bán hàng; tên chỉ tiêu theo chốt riêng của vụ.
+- Năm không chênh lệch của mọi chỉ tiêu: chỉ `*/ Không chênh lệch.`, xóa sạch giải trình mẫu cũ và bảng thừa của vụ khác.
+- Mục III NSNN: lấy từ sheet QHNS (vd `QHNS 970`) đủ 5 cột, kiểm lại công thức cột (7) = (3)+(4)+(5)-(6).
+- Ngày chèn theo bảng ánh xạ trong `ho-so-kiem-tra-ke-hoach` (công bố, kết thúc, báo cáo, QĐKT); điền số QĐKT/QĐGS đã có trên sổ.
+- Khi thay chữ: giữ `rPr` và `xml:space="preserve"` của run gốc; không ghi lại cả đoạn.
+- Lệch 1 đồng giữa Bảng tính và sổ: nguyên nhân là làm tròn. Sửa ở Bảng tính (xem `cap-nhat-so-tu-tinh-phat-cham-nop`), không sửa số trong biên bản.
+- Phân công: ưu tiên cột AA/AB trên sổ; ai phụ trách 2 nội dung thì tách 2 dòng (TT 1, 2). Dự thảo QĐ bỏ trống dòng địa danh, trường hợp khác điền đủ.
+
+### Cảnh báo phân công và Bảng tính (bắt buộc)
+
+Trước khi đổ BBXN trưởng đoàn, so sổ (cột AA) với KQKDSXKD/DTCHEP. Bảng tính có 2 dòng chi phí quản lý doanh nghiệp và chi phí bán hàng (bán hàng khác 0) nhưng phân công ghi `Chi phí quản lý kinh doanh` thì báo user: `[CẢNH BÁO PHÂN CÔNG]: QLDN = X, bán hàng = Y, phân công ghi chi phí quản lý kinh doanh. Gộp một dòng (X+Y) hay tách hai dòng?` Chưa có trả lời thì tạm gộp X+Y một dòng và ghi rõ trong báo cáo. Công thức DTCHEP phải cộng cả bán hàng khi gộp.
+
 ## Bẫy
 
 - Điền BBXN nhầm sang kiểu BBKT (thêm TNTT/truy thu) làm lệch phôi.
@@ -167,3 +183,4 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - [2026-11-13] Định vị rõ vai trò Tầng 2 trong Mô hình Hybrid 2 tầng: Word Mail Merge (Tầng 1) chỉ điền thông tin chung và số tổng 1-1. Bắt buộc phải chạy skill này (Tầng 2) để bóc tách DTCHEP đổ chi tiết vào khung 2 dòng Trưởng đoàn (1. Chi phí quản lý doanh nghiệp, 2. Chi phí bán hàng), Thành viên (Chi phí tài chính), Mục III NSNN và quét sạch 100% số liệu mẫu cũ của phôi.
 - [2026-11-23] Vụ Kiến Thành Tân: BBXN bám phân công sổ (TD giá vốn 1 dòng; TV bán hàng + QLDN 2 dòng), không dùng khung mặc định TD = QLDN + bán hàng. Quét tên kế toán trong bảng ký.
 - [2026-11-23] Vụ Kiến Thành Tân: đoàn xác nhận giảm lỗ 2018 = 92.258.088 đồng (DTCHEP Chuyển lỗ KT, lỗ 2017 chuyển vào 2018). TINH PHAT không có cột này nên lần đổ trước để AX = 0 và BBKT nhảy từ TNCT sang truy thu. Đã bổ sung dòng chuyển lỗ/TNTT/Giảm lỗ trên BBKT, kết luận, báo cáo, QĐ và sổ AX.
+- [2026-11-25] Đồng bộ từ brain Hồ sơ kiểm tra: đối chiếu DTCHEP trước giải trình, phân công theo sổ, cảnh báo phân công, quy tắc ngày/năm QĐ.

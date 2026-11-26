@@ -40,7 +40,7 @@ Chi tiết cấu trúc từng năm BBXN/BBKT: `references/cau-truc-bbxn-bbkt.md`
 1. Đối chiếu `TONG HOP` đang in với `DTCHEP` và sổ. Sheet `TINH PHAT` cộng trùng chậm nộp GTGT (dòng sắc thuế đã gom rồi dòng thu hồi hoàn cộng lại) thì lấy tổng trên sổ. Chỗ lệch khác: hỏi user, rồi mới ghi.
 2. Đọc sheet **`DTCHEP`** (còn gọi `DCHEP`) bằng `openpyxl` `data_only=True`: số báo cáo / số kiểm tra / chênh lệch theo năm và theo chỉ tiêu chi phí.
 3. **Quét số gõ cứng (cảnh báo mềm, KHÔNG chặn):** mở thêm workbook `data_only=False`, với mỗi ô chênh lệch lớn của từng năm kiểm tra xem ô có công thức (bắt đầu `=`) hay có sheet bảng kê chi tiết đi kèm không. Ô là số nhập tay và không có sheet chi tiết thì ghi lại (ô, năm, chỉ tiêu, số tiền) để báo cuối lượt. **Vẫn đổ số bình thường** vào BBXN/BBKT/QĐ XPHC/TONG HOP; không sửa số, không bỏ năm đó.
-4. Khớp chỉ tiêu với phân công đoàn:
+4. Khớp chỉ tiêu với phân công đoàn. **Ưu tiên đọc cột AA (Trưởng đoàn) và AB (Thành viên) trên sổ; ai được phân công 2 nội dung thì tách 2 dòng (TT 1, 2) trong bảng năm; các mặc định bên dưới chỉ dùng khi sổ trống:**
    - Thành viên (BBXN TV): mặc định Chi phí tài chính (1 chỉ tiêu/năm). Vụ đã bổ sung khối GTGT (đầu vào được khấu trừ, đầu ra) thì **giữ nguyên số chỉ tiêu đó**, không thêm "Thuế GTGT đã được hoàn".
    - Trưởng đoàn (BBXN TD): mặc định Chi phí QLDN và Chi phí bán hàng - **2 chỉ tiêu/năm trong cùng một bảng**, đánh **TT = 1** cho QLDN và **TT = 2** cho bán hàng (không tách hai bảng riêng theo chỉ tiêu). Vụ có thêm giá vốn hàng bán thì giữ đúng số chỉ tiêu đã có trên phôi/TONG HOP.
    - Tên chỉ tiêu trong cột CHỈ TIÊU (và trong mục I/II nói chung) **không gạch đầu dòng `-`**, chỉ ghi thẳng tên nội dung và thống nhất là **`Chi phí quản lý doanh nghiệp`** (không dùng tên cũ `Chi phí quản lý kinh doanh`).
@@ -106,6 +106,21 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - **Giữ** file live: `TONG HOP.docx`, QĐ riêng, PDF đã ký (nếu có), `Bang tinh*.xlsx` đang dùng, `hoso.zip` mới nhất.
 - Liệt kê lại thư mục bằng tool sau khi xóa; chỉ xác nhận đã xóa khi lệnh trả thành công.
 
+## Bổ sung 2026-11-25 (vụ T&T Biên Hòa)
+
+- **Đối chiếu DTCHEP trước khi viết giải trình**: đọc cột chênh lệch (E) và số kiểm tra (D) của từng chỉ tiêu, không chỉ lấy số kê khai ở KQKDSXKD. Chỉ tiêu bị loại 100% (vd CPTC 2025: D=0, E=-C) thì bảng ghi báo cáo X, kiểm tra 0, chênh lệch -X và có `*/` giải trình theo mẫu; tuyệt đối không ghi `Không chênh lệch`.
+- Nguyên nhân loại do user chốt (vd `hạch toán chi phí tài chính không phục vụ hoạt động sản xuất, kinh doanh của công ty`) ghi nguyên văn sau `do`, rồi `Căn cứ ...` theo năm. Hỏi nếu chưa có.
+- Chi phí quản lý = bán hàng + QLDN gộp một dòng khi user dặn không đưa chi phí bán hàng; tên chỉ tiêu theo chốt riêng của vụ.
+- Năm không chênh lệch của mọi chỉ tiêu: chỉ `*/ Không chênh lệch.`, xóa sạch giải trình mẫu cũ và bảng thừa của vụ khác.
+- Mục III NSNN: lấy từ sheet QHNS (vd `QHNS 970`) đủ 5 cột, kiểm lại công thức cột (7) = (3)+(4)+(5)-(6).
+- Ngày chèn theo bảng ánh xạ trong `ho-so-kiem-tra-ke-hoach` (công bố, kết thúc, báo cáo, QĐKT); điền số QĐKT/QĐGS đã có trên sổ.
+- Khi thay chữ: giữ `rPr` và `xml:space="preserve"` của run gốc; không ghi lại cả đoạn.
+- Lệch 1 đồng giữa Bảng tính và sổ: nguyên nhân là làm tròn. Sửa ở Bảng tính (xem `cap-nhat-so-tu-tinh-phat-cham-nop`), không sửa số trong biên bản.
+
+### Cảnh báo phân công và Bảng tính (bắt buộc)
+
+Trước khi đổ BBXN trưởng đoàn, so sổ (cột AA) với KQKDSXKD/DTCHEP. Bảng tính có 2 dòng chi phí quản lý doanh nghiệp và chi phí bán hàng (bán hàng khác 0) nhưng phân công ghi `Chi phí quản lý kinh doanh` thì báo user: `[CẢNH BÁO PHÂN CÔNG]: QLDN = X, bán hàng = Y, phân công ghi chi phí quản lý kinh doanh. Gộp một dòng (X+Y) hay tách hai dòng?` Chưa có trả lời thì tạm gộp X+Y một dòng và ghi rõ trong báo cáo. Công thức DTCHEP phải cộng cả bán hàng khi gộp.
+
 ## Bẫy
 
 - Điền BBXN nhầm sang kiểu BBKT (thêm TNTT/truy thu) làm lệch phôi.
@@ -148,7 +163,7 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - Hai file QĐ riêng khớp khối trong TONG HOP và mỗi file 1 trang.
 - Ngày công bố/báo cáo khớp sổ (hoặc đúng số user chốt).
 - Mọi khối ký: chức danh và tên cùng một trang (Word `Information(3)` trùng nhau), khoảng cách 5 dòng (hoặc 4/3 nếu đã phải giảm để cùng trang).
-- Mọi quyết định: `Số` dưới `sở`, dòng địa danh có `năm 2026` và canh giữa, các `Điều` đậm.
+- Mọi quyết định: `Số` dưới `sở`, các `Điều` đậm. Dòng địa danh: dự thảo chưa có số thì để trống ngày, tháng, năm; QĐ đã có số trên sổ thì điền đầy đủ theo sổ (canh giữa).
 - Thư mục vụ không còn `*.bak*` / `*_backup*` sau bước dọn; còn đủ file live.
 
 ## Nối skill
@@ -164,3 +179,5 @@ Chỉ chạy khi user bảo dọn hoặc sau khi đã chốt file live và có b
 - [2026-11-09] Vụ Tâm Hoàng Phát: sổ đã có ngày ký BBKT 12/11 nhưng AR14 còn chậm nộp tính đến 30/10. Lấy TINH PHAT (4.747.340) vì khớp ngày BBKT; không dùng 4.670.434. Đoạn mở Báo cáo kết quả bị tách run nên replace `30/10` hàng loạt suýt đổi nhầm thành ngày BBKT.
 - [2026-11-11] Vụ Sơn Tiền Hải: Bổ sung quy tắc Hardcoded Data Check trên sheet DTCHEP dạng cảnh báo mềm (non-blocking warning). Khi phát hiện ô chênh lệch lớn là số gõ cứng không công thức / không sheet chi tiết (như DTCHEP!E372 = -826.764.409 đồng): hệ thống xuất dòng LƯU Ý NGHIỆP VỤ trong báo cáo và ghi vào wiki/_open-questions.md để đoàn kiểm tra chủ động chuẩn bị chứng từ, tuyệt đối không dừng luồng đổ số. Thống nhất tên 'Chi phí quản lý doanh nghiệp' (thay cho QLKD) và bổ sung quy chuẩn điền Mục III nghĩa vụ NSNN 5 năm cho hồ sơ giải thể.
 - [2026-11-13] Định vị rõ vai trò Tầng 2 trong Mô hình Hybrid 2 tầng: Word Mail Merge (Tầng 1) chỉ điền thông tin chung và số tổng 1-1. Bắt buộc phải chạy skill này (Tầng 2) để bóc tách DTCHEP đổ chi tiết vào khung 2 dòng Trưởng đoàn (1. Chi phí quản lý doanh nghiệp, 2. Chi phí bán hàng), Thành viên (Chi phí tài chính), Mục III NSNN và quét sạch 100% số liệu mẫu cũ của phôi.
+
+- [2026-11-25] Chốt: dự thảo QĐ bỏ trống cả dòng địa danh; trường hợp còn lại điền đủ. Thêm cảnh báo phân công khi Bảng tính có QLDN và bán hàng riêng mà sổ phân công QLKD.

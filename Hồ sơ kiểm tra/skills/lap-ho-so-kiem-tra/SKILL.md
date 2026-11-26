@@ -120,3 +120,4 @@ Có số thật thì thay `--qd` bằng số chính thức. Bỏ `--docs` thì l
 ## Lịch sử (tự học)
 - [2026-11-12] Thống nhất vận hành duy nhất sổ macro `Danh sach kiem tra quyet toan pro.xlsm`, giữ file gốc `.xlsx`, cấm tạo `.bak` trong thư mục sổ; tự động chuyển sang sheet `01_DA_BAN_HANH` và chuyển thư mục sang `1. TD` ngay khi tạo xong hồ sơ đi trình ký.
 - [2026-11-13] Thiết lập Dòng 1 ẩn trên sheet `01_DA_BAN_HANH` chứa 58 mã trường chuẩn không dấu để kết nối Word Mail Merge trực tiếp và xóa bỏ hoàn toàn sheet đệm `DuLieuMerge`. Tự động sao chép 6 cột công thức chữ `=DocSo(...)` (cột 53 đến 58 / BA đến BF) khi thêm vụ mới hoặc đồng bộ số liệu từ `Bang tinh.xlsx`.
+- [2026-11-25] Chuẩn hóa sổ trước khi trộn: cột ngày (Ngay_cap_CCCD đến Ngay_QDXPHC) là ngày thật định dạng dd/mm/yyyy, cột tiền AN đến AY định dạng #.##0, Ngay_cong_bo phải được điền; thêm vụ mới cũng áp đúng định dạng này. Chi tiết trong `ho-so-kiem-tra-ke-hoach`.

@@ -7,6 +7,7 @@
 - [Đã kiểm kê GĐ1 Kiến Thành Tân MST 3603216935 kỳ 2015-2025](facts/user-gd1-kien-thanh-tan-3603216935.md) - Mức D; NNT không F0/F1/CA; IN05 v2 có 24 NLĐ 05-1; thiếu GTGT Q4/2022 và Q1-Q3/2023, sao kê NH, GDLK, QTT 2023 không phụ lục, 3.3.
 - [Đã phân tích v1.4 Nông sản Lưu Hoài Anh MST 3603057410 kỳ 2022-2025](facts/user-phan-tich-v14-nong-san-luu-hoai-anh.md) - Mức A; 6 file KQ + 2 phụ lục GĐ3; 2 NCC F0 GT 3,65 tỷ; Top-5 91,27%; HTK/DT 2025 40,9%; thiếu sổ DN và một số quý XML.
 - [Đã phân tích v1.4 Đại Huy Hoàng MST 3602179712 kỳ 2021-2025](facts/user-phan-tich-v14-dai-huy-hoang.md) - Mức D; 6 file KQ + 2 phụ lục GĐ3; 511 khớp BCTC; 2 NCC F0 (Gỗ Minh Khôi 15,56 tỷ); HĐĐT thiếu 2021; 2023-2025 GV gần 0.
+- [Đã chạy skill 4 sheet Đại Huy Hoàng MST 3602179712 kỳ 2021-2025](facts/user-4sheet-dai-huy-hoang.md) - File 1+2; HĐĐT mua 1.196 / bán 480; BK mua 738 / bán 810; 1 NCC F0 Gỗ Minh Khôi 15,56 tỷ (chỉ bảng kê); NNT không F0/F1/CA.
 - [Quy trình phân tích hồ sơ thuế v1.4 - Hoàn thành](facts/phan-tich-ho-so-thue-v14-quy-trinh-hoan-thanh.md) - Phân tích T&T Biên Hòa (21/10-23/10): 6 tệp mẫu, 3 giai đoạn, 4 năm, 80 quy tắc, EBITDA không vay nợ.
 - [Cập nhật chuẩn dấu hiệu bất thường và chi tiết giải trình vào Skill](facts/decision-cap-nhat-skill-tong-hop-chi-tiet-dau-hieu-va-giai-trinh.md) - Chuẩn hóa bộ file giải trình 10 sheet, EBITDA, 511-632 chi tiết và quy chuẩn format Q20 vào skill GĐ2, GĐ3, skill trục và shared-skills.
 - [Bài học rút ra - Phân tích hồ sơ thuế v1.4](facts/phan-tich-ho-so-thue-v14-lessons-learned.md) - Checklist kỹ thuật: IN04 cấu trúc dòng, EBITDA 4 thành phần, PDF scan vs trích, NCC F0, HĐ bán dưới giá, định dạng Excel.
@@ -160,7 +161,8 @@
 - [Kết quả phân tích hồ sơ Công ty Hùng Anh Phát (MST 3602451559)](facts/user-ket-qua-phan-tich-hung-anh-phat.md) - Hồ sơ Hùng Anh Phát rủi ro cao: 1 NCC F0 chiếm 20,9%, lệch DT GTGT vs BCTC 4 năm, 72 HĐ bán dưới giá
 - [Đã phân tích v1.4 Nhất Vinh MST 3601946069 kỳ 2016-2025](facts/user-phan-tich-v14-nhat-vinh.md) - Hồ sơ mức C (thiếu XNT kho và sao kê); 6 tệp KQ1.1-KQ3 v1; mua F0 672 triệu (2,23%); Top-5 NCC chiếm 69,42%.
 - [Đã phân tích v1.4 Thanh Thanh Phương MST 3600840461 kỳ 2020-2025](facts/user-phan-tich-v14-thanh-thanh-phuong.md) - Hoàn thành quy trình 1.4 mức D, ghi 6 tệp KQ1.1-KQ3
-- [Đã phân tích v1.4 Huy Khang MST 3603755214 kỳ 2020-2026](facts/user-phan-tich-v14-huy-khang.md) - Hoàn thành quy trình 1.4 mức A, 7 NCC F0, Top-5 72,02%
+- [Đã phân tích v1.4 Huy Khang MST 3603755214 kỳ 2020-2026](facts/user-phan-tich-v14-huy-khang.md) - Lần 1 mức A (09/11); lần 2 NNT nộp sổ, GĐ1 v2 mức D (25/11), bảng kê 8.426 dòng
+- [Huy Khang nộp sổ NNT, GĐ1 v2 mức D](facts/user-huy-khang-nnt-gd1-v2.md) - 25/11/2026 chuyển khối 2, gộp bảng kê/HĐĐT, thiếu sao kê UNC và GDLK
 - [Đã phân tích v1.4 Vina Minh Phát MST 3602373999 kỳ 2023-2025](facts/user-phan-tich-v14-vina-minh-phat.md) - Hồ sơ mức A, xuất 6 tệp KQ1.1-KQ3 theo v1.4; biên lãi gộp giảm 0,69% về 0,10%, Top-5 NCC 67,16%, không dính F0/F1/CA.
 - [T&T Biên Hòa nộp tờ khai bổ sung TNDN (2022-2023) và GTGT (7 kỳ 2022-2024)](facts/user-tt-bien-hoa-ke-khai-bo-sung-tndn-gtgt-2022-2024.md) - T&T Biên Hòa nộp bổ sung 9 tờ khai XML: loại chi phí và GTGT đối tác rủi ro F0 (NNM Group) cùng chi phí Q3/2022.
 - [T&T Biên Hòa phát sinh 01 lao động đa nguồn năm 2023 (Lê Tiến Trung)](facts/user-tt-bien-hoa-nld-da-nguon-le-tien-trung-2023.md) - Năm 2023 ghi nhận ông Lê Tiến Trung có thu nhập đồng thời tại T&T Biên Hòa và Công ty TNHH An Đông.
@@ -176,3 +178,8 @@
 - [Mẫu lệnh giao việc phân tích hồ sơ thuế qua khung chat](facts/pref-mau-giao-viec-phan-tich-ho-so-thue.md) - Mẫu lệnh phân tích gồm Tên công ty, MST, kỳ kiểm tra và đường dẫn thư mục dữ liệu.
 - [Phân công thực hiện tổng hợp HĐĐT và bảng kê 4 sheet theo 3 giai đoạn](facts/decision-phan-cong-lap-bang-ke-tong-hop-4-sheet.md) - Chuyên viên dữ liệu đầu vào chủ trì 3 giai đoạn, phối hợp phân tích viên CQT quét F0.
 - [Bảng tính Kiến Thành Tân (MST 3603216935) đã trừ thuế GTGT bảng kê không hợp lệ](facts/user-kien-thanh-tan-bang-tinh-loai-thue-gtgt-ko-hop-le.md) - File Bang tinh.xlsx tại 0. BIEN BAN của Kiến Thành Tân đã trừ 104.306.175 đ thuế GTGT không hợp lệ trên sheet GTGT.
+- [Đã cập nhật số liệu tờ khai bổ sung vào Bang tinh TT Biên Hòa](facts/user-cap-nhat-bang-tinh-theo-to-khai-bo-sung-tt-bien-hoa.md) - Đã cập nhật 7 kỳ tờ khai bổ sung GTGT (Q3-Q4/2022, Q1-Q3-Q4/2023, Q1-Q3/2024) vào file Bang tinh.xlsx tại 0. BIEN BAN.
+- [Đã chạy skill 4 sheet Thành Sen MST 3603403068 kỳ 2024-2025](facts/user-4sheet-thanh-sen.md) - File 6 sheet Tong_hop_HDDT_BangKe Thành Sen kỳ 2024-2025: MV lệch 797tr, BR lệch 3,56 tỷ, NNT sạch, 0 NCC F0, 18 ĐKKD bất thường.
+- [Đã chạy skill 4 sheet Phúc Nguyên Tiến MST 3603698904 kỳ 2020-2025](facts/user-4sheet-phuc-nguyen-tien.md) - File 6 sheet Tong_hop_HDDT_BangKe Phúc Nguyên Tiến: 1 NCC F0 (Vườn Cau 0314819375), NNT sạch, lọc bỏ trùng TH HD MV.
+- [Đã chạy skill 4 sheet Nhất Vinh MST 3601946069 kỳ 2018-2025](facts/user-4sheet-nhat-vinh.md) - File 6 sheet Tong_hop_HDDT_BangKe Nhất Vinh kỳ 2018-2025: 4 NCC F0, NNT sạch, 223 MST đối tác.
+- [Đã chạy skill 4 sheet Huy Thành Phát MST 3603820015 kỳ 2021-2025](facts/user-4sheet-huy-thanh-phat.md) - File 6 sheet Tong_hop_HDDT_BangKe Huy Thành Phát kỳ 2021-2025: 3 NCC F0 (740,6 tr), MV lệch -1,47 tỷ, BR lệch -1,15 tỷ.
