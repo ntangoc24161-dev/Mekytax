@@ -1,4 +1,5 @@
 ---
+superseded_by: ho-so-kiem-tra-mst-3603883505-tt-bien-hoa-chot-so-lieu-va-ph
 type: business
 provenance: user
 origin: javis-learned
@@ -10,3 +11,7 @@ NNT đã nộp hồ sơ khai thuế bổ sung:
 - TNDN: TNDN 2022 (Lần 1), TNDN 2023 (Lần 2).
 - GTGT: Các kỳ Q3/2022, Q4/2022, Q1/2023, Q3/2023, Q4/2023, Q1/2024, Q3/2024 kèm Bảng kê hóa đơn xuất toán 2022-2025.
 Cần cập nhật lại file `Bang tinh.xlsx` (các sheet KQKDSXKD, GTGT, DTCHEP, TINH PHAT + CHAM NOP) theo hồ sơ khai bổ sung mới.
+
+
+## Lịch sử
+- [2026-11-24] Bị thay thế bởi [[ho-so-kiem-tra-mst-3603883505-tt-bien-hoa-chot-so-lieu-va-ph]] (user đổi thông tin).

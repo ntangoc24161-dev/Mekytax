@@ -79,6 +79,9 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 - **Nội dung kiểm tra trên Báo cáo kết quả:** mặc định `Kiểm tra chấp hành pháp luật thuế`. Chi tiết phân công chỉ ở BBXN và Biên bản phân công.
 - **Nhầm cam kết lương:** `CAM KẾT KHÔNG PHÁT SINH LAO ĐỘNG CHI TRẢ LƯƠNG` chỉ dùng khi DN không có lao động. User xin "cam kết chi phí lương" thì lấy đoạn tiền lương trong `MAU CAM KET DOANH THU VA CHI PHI.docx`.
 - **Công văn xin quyết toán nhân đôi** ở cuối `TONG HOP` (thừa 1 bản + mảnh từ chối nộp thừa). Giữ 1 công văn, xóa phần thừa sau chữ ký.
+- **QĐ Mẫu 15 nhảy trang giữa tiêu ngữ và tên quyết định:** `pageBreakBefore` nằm trên chữ `QUYẾT ĐỊNH` trong khi bảng quốc hiệu/tiêu ngữ thiếu hoặc đứng trước chỗ ngắt trang. Ngắt trang phải ở bảng header; tên quyết định không được `pageBreakBefore`. Giữ `keepWithNext` trên các dòng header.
+- **Văn bản đề nghị thẩm định thiếu ngày / nhảy trang:** header còn `ngày ..... tháng ..... năm`; bảng hồ sơ đính kèm còn `..../..../2026` và số QĐKT phôi. Điền ngày báo cáo trên header, ngày từng tài liệu theo sổ; chỉ giữ 1 ngắt trang ở bảng header, bỏ `pageBreakBefore` trên dòng tiêu đề.
+- **Công văn DN nhảy trang giữa tiêu ngữ và chữ CÔNG VĂN:** xin quyết toán (`/CV`) và cam kết (`/ĐKCP`) để `pageBreakBefore` trên dòng `CÔNG VĂN` sau bảng quốc hiệu. Bỏ `pageBreakBefore` trên tiêu đề; giữ 1 ngắt trang ở đoạn trống trước bảng header; `keepWithNext` trên header + `CÔNG VĂN` + `V/v`.
 
 ## Kiểm chứng
 
@@ -99,3 +102,6 @@ Vận hành theo **mô hình Hybrid 2 tầng** dùng chung nguồn dữ liệu `
 - [2026-11-22] Thiết lập nguyên tắc rẽ nhánh ban hành QĐ xử phạt VPHC (1-5 năm: phạt tiền 20% + truy thu + chậm nộp/giảm lỗ) vs QĐ buộc thực hiện biện pháp khắc phục hậu quả (6-10 năm: không phạt tiền, chỉ truy thu + chậm nộp/giảm lỗ; quá 10 năm không phạt, không truy thu) theo Điều 8 NĐ 125/2020/NĐ-CP; chuẩn hóa phôi gốc `templates/MAU QD KHAC PHUC HAU QUA GIAI THE.docx` (chuẩn Mẫu 15/NĐ 118).
 - [2026-11-23] Vụ Kiến Thành Tân: BBXN bám phân công sổ (TD giá vốn, TV bán hàng + QLDN); Mẫu 15 tách Quốc hiệu/tiêu ngữ canh giữa NĐ 30; Báo cáo KQ điền số QĐ + ngày báo cáo, bỏ năm lặp; quét tên kế toán trong bảng ký; tờ trình/thẩm định cách ký 4 dòng; mỗi văn bản sang trang mới.
 - [2026-11-23] Hồ sơ về DN: giữ 1 Công văn xin quyết toán; 1 công văn Cam kết chi phí và chi phí lương (`/ĐKCP`) từ phôi Tâm Hoàng Phát, điền pháp nhân vụ; không dùng mẫu không phát sinh lao động.
+- [2026-11-24] Vụ Kiến Thành Tân: QĐ Mẫu 15 mất bảng quốc hiệu và `pageBreakBefore` trên chữ QUYẾT ĐỊNH; văn bản đề nghị thẩm định thiếu ngày header/bảng đính kèm và bị đôi ngắt trang. Đã chèn header QĐ, chuyển ngắt trang lên bảng, điền ngày 27/11/2026 và số QĐKT 7486.
+- [2026-11-24] Hai công văn DN (xin quyết toán `/CV`, cam kết `/ĐKCP`) vẫn `pageBreakBefore` trên chữ `CÔNG VĂN` nên tiêu ngữ tách trang. Đã bỏ ngắt trang trên tiêu đề, dính header với `CÔNG VĂN` + `V/v`.
+- [2026-11-25] Áp dụng thêm các quy tắc chung trong `ho-so-kiem-tra-ke-hoach`: Mail Merge (ngày thật dd/mm/yyyy, tiền #.##0, không switch \@ \#), ngày/năm quyết định (dự thảo bỏ trống, còn lại điền đủ), phân công theo sổ, cảnh báo phân công QLDN/bán hàng, và checklist đối soát của agent giám sát.

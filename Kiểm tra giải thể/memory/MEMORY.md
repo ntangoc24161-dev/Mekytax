@@ -21,3 +21,6 @@
 - [Kiến Thành Tân: phân công và kế toán](facts/kien-thanh-tan-phan-cong-va-ke-toan.md) - TD Ánh Ngọc = giá vốn; TV Lân = bán hàng + QLDN; kế toán Nguyễn Gia Hân; báo cáo KQ = chấp hành pháp luật thuế
 - [Hồ sơ Khải Sáng áp dụng Mẫu 15 buộc khắc phục hậu quả do hết thời hiệu](facts/khai-sang-ap-dung-mau-15-khac-phuc-hau-qua.md) - Dự thảo quyết định vụ DNTN Khải Sáng áp dụng Mẫu 15 theo NĐ 118/2021/NĐ-CP, chỉ truy thu và chậm nộp, không có tiền phạt
 - [Chốt không truy thu GTGT, chỉ truy thu TNDN 2018 cho hồ sơ đang xử lý](facts/chot-phuong-an-khong-truy-thu-gtgt-chi-truy-thu-tndn-2018.md) - Hồ sơ đang xử lý chốt bỏ truy thu GTGT (sheet TINH PHAT = 0), chỉ truy thu TNDN năm 2018
+- [Thông tin cơ bản hồ sơ kiểm tra Công ty Sơn Tiền Hải](facts/ho-so-son-tien-hai-thong-tin-co-ban.md) - Sơn Tiền Hải MST 3603859012, QĐKT 7092/QĐ-TCS3 ngày 26/10/2026, BBKT 09/11/2026, Tổ KT1 Thuế cơ sở 3 Đồng Nai
+- [Số và ngày QĐ xử phạt VPHC hồ sơ Sơn Tiền Hải](facts/so-qd-xphc-ngay-ban-hanh-son-tien-hai.md) - Sơn Tiền Hải có QĐ xử phạt số 7623/QĐ-XPHC ngày 17/11/2026
+- [Xử lý lỗi nhảy trang công văn DN trong file TONG HOP.docx](facts/loi-nhay-trang-cong-van-dn-trong-tong-hop.md) - Bỏ pageBreakBefore trên chữ CÔNG VĂN và dính header với dòng V/v

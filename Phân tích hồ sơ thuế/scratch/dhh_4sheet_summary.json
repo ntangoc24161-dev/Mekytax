@@ -1,0 +1,49 @@
+{
+  "mst": "3602179712",
+  "ten": "CÔNG TY TNHH ĐẠI HUY HOÀNG",
+  "ky": "2021-2025",
+  "hddt_mua": 1196,
+  "hddt_ban": 480,
+  "hddt_mua_skip_huy": 2,
+  "hddt_ban_skip_huy": 16,
+  "hddt_mua_years": {
+    "2022": 259,
+    "2023": 364,
+    "2024": 307,
+    "2025": 266
+  },
+  "hddt_ban_years": {
+    "2022": 93,
+    "2023": 148,
+    "2024": 106,
+    "2025": 133
+  },
+  "hddt_mua_2021": 0,
+  "bk_mua": 738,
+  "bk_ban": 810,
+  "doi_tac": 103,
+  "ncc_union": 77,
+  "ncc_f0": 1,
+  "ncc_dkkd_bat_thuong": 8,
+  "inv_risk": 853,
+  "partner_chung_mua": 32,
+  "partner_hddt_only_mua": 28,
+  "partner_bk_only_mua": 17,
+  "nnt_f0": false,
+  "nnt_f1": 0,
+  "nnt_ca": false,
+  "nnt_tt": "",
+  "file1": "G:\\Other computers\\My Laptop\\1. CONG TAC KIEM TRA\\1- KIEM TRA\\1. KIEM TRA TAI TRU SO NNT\\2026\\Dang kiem tra\\KE HOACH\\DAI_HUY_HOANG_3602179712\\4. KET QUA PHAN TICH\\cau-thanh\\Tong_hop_HDDT_BangKe_3602179712_2021-2025.xlsx",
+  "file2": "G:\\Other computers\\My Laptop\\1. CONG TAC KIEM TRA\\1- KIEM TRA\\1. KIEM TRA TAI TRU SO NNT\\2026\\Dang kiem tra\\KE HOACH\\DAI_HUY_HOANG_3602179712\\4. KET QUA PHAN TICH\\cau-thanh\\Tong_hop_NCC_mua_vao_CV_trang_thai_3602179712_2021-2025.xlsx",
+  "f0_list": [
+    {
+      "mst": "3603408235",
+      "ten": "CTY TNHH gỗ Minh Khôi",
+      "cv": "F0: CV 24915/CCTKV-KKKTT ngày 2023-11-27 - Chi Cục thuế khu vực Biên Hòa - Vĩnh Cửu (tỉnh Đồng Nai - Mã Ủy ban)",
+      "hddt_count": 0,
+      "hddt_ds": 0.0,
+      "bk_count": 19,
+      "bk_ds": 15556495789.0
+    }
+  ]
+}

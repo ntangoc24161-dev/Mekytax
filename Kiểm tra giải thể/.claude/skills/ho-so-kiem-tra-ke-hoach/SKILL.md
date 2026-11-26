@@ -37,6 +37,56 @@ learned_updated: '2026-11-11'
 5. **Kiểm định chất lượng trước xuất xưởng (Pre-flight Lint)**:
    - 100% Times New Roman, bảo toàn trạng thái checkbox `☐`/`☑` sau chữ, không còn nét vẽ VML thừa, chữ ký không rớt trang in, giữ nguyên 7 khung floating table (`tblpPr`).
 
+> Áp dụng cho brain giải thể: phôi là `MAUTONG HOP GIAI THE.docx`; Mục III NSNN giải thể vẫn điền đủ theo `ho-so-kiem-tra-giai-the`; văn bản đóng MST/từ chối nộp thừa theo skill đó.
+
+## Quy tắc kỹ thuật Mail Merge (chốt 2026-11-25, đã sửa bằng thực chiến vụ T&T Biên Hòa)
+
+**Phía sổ `Danh sach kiem tra quyet toan pro.xlsm` (làm TRƯỚC khi trộn):**
+1. Các cột ngày (`Ngay_cap_CCCD`, `Ngay_cap_DKKD`, `Ngay_QDKT`, `Ngay_cong_bo`, `Ngay_bat_dau`, `Ngay_ket_thuc`, `Ngay_ky_BBKT`, `Ngay_bao_cao`, `Ngay_QDXPHC`) phải là **ngày thật** (không phải chữ như `13/11/2026`, `12.08.2021`, `<tab>21/09/2026`), định dạng ô `dd/mm/yyyy`. Ô công thức `=AHxx` giữ nguyên. Với kết nối `IMEX=1`, Word sẽ nhận chuỗi `dd/MM/yyyy` đúng ngay từ nguồn.
+2. Các cột tiền (cột AN đến AY: truy thu đến giảm khấu trừ) định dạng `#.##0` (hiện `17.850.636`). Đặt đúng chuỗi này, không đặt `#.##0,0` (sẽ hiện `17850636,0`).
+3. Sửa sổ bằng Excel COM (giữ macro/công thức); sổ đang mở trong Excel thì bị khóa ghi, phải nhờ user đóng trước.
+4. Trước khi lập hồ sơ, kiểm tra các cột mốc ngày của vụ đã có dữ liệu, nhất là `Ngay_cong_bo` (hay bị trống). Trống thì hỏi user rồi ghi vào sổ, không tự bịa.
+
+**Phía TONG HOP.docx:**
+1. Tên MERGEFIELD phải đúng tên không dấu của Dòng 1 ẩn (`Ten_NNT`, `Giam_doc`, `So_QDKT`...). Tên có dấu cũ (`Tên_công_ty`, `TĐ`, `GĐ`) làm Word chỉ hiện `«...»`. Sau khi sửa, quét: không còn trường nào ngoài danh sách cột.
+2. Bật `viewMergedData`; `activeRecord` = số thứ tự bản ghi (dòng Excel trừ 1 dòng tiêu đề ẩn: dòng 18 thì bản ghi 17); `table val` khớp tên bảng `01_DA_BAN_HANH$` trong câu SQL; đường dẫn nguồn phụ phải là ổ `G:` (không để `D:\`).
+3. **Trường ngày đầy đủ**: chỉ `{ MERGEFIELD Ngay_xxx }`, KHÔNG gắn `\@ "dd/MM/yyyy"` (Word đọc nhầm tháng/ngày). **Trường tiền**: chỉ `{ MERGEFIELD ... }`, KHÔNG gắn `\# "#,##0"` (sinh `2804719,  0`).
+4. **Ngày tách `dd` / `MM` / `yyyy`** không tách được từ chuỗi: nếu phôi cần dạng tách thì thêm cột phụ trong sổ (vd `Ngay_bao_cao_dd`, `_MM`, `_yyyy`) rồi trộn; chưa có cột phụ thì điền giá trị tĩnh và báo user cập nhật lại khi đổi ngày trong sổ.
+5. Mở Word bằng COM để thử Mail Merge trên file ở ổ `G:` hay treo: chỉ kiểm chứng bằng đọc XML + đọc dữ liệu qua OLEDB; luôn dặn user tự mở Word, bấm Yes ở hộp SQL, đóng Excel trước. Không hiểu nguyên nhân thì lùi về ngày tĩnh, đừng để user bị bắt chọn lại bảng.
+
+**Bảng ánh xạ ngày (user chốt):**
+
+| Văn bản | Trường |
+| :--- | :--- |
+| Công bố QĐKT, giấy giao quyết định | `Ngay_cong_bo` |
+| BBXN số liệu, công khai BBKT (Mẫu 15/KTT) | `Ngay_ket_thuc` |
+| Báo cáo kết quả kiểm tra, báo cáo giám sát, biên bản làm việc | `Ngay_bao_cao` |
+| Kế hoạch giám sát | `Ngay_QDKT` |
+| BBKT (ký) | `Ngay_ky_BBKT` |
+
+Không dùng nhầm `Ngay_ky_BBKT` cho các mục trên.
+
+**Phân công đoàn theo sổ (chốt 2026-11-25):** nguồn duy nhất là cột `Phân công trưởng đoàn` (AA) và `Phân công thành viên` (AB) của sổ `Danh sach kiem tra quyet toan pro.xlsm`, không dùng mặc định cứng.
+- Mỗi người được phân công N nội dung thì BBXN của người đó có N dòng chỉ tiêu mỗi năm (TT 1..N), tách riêng từng nội dung. Ví dụ Trưởng đoàn phụ trách `Chi phí quản lý doanh nghiệp` và `Chi phí bán hàng` thì tách 2 dòng; phụ trách 1 nội dung thì 1 dòng.
+- Ngoại lệ do user dặn theo vụ (vd gộp bán hàng vào quản lý kinh doanh thành một dòng) ghi trong memory của vụ và được ưu tiên hơn quy tắc tách dòng.
+- Tên chỉ tiêu lấy đúng chữ trên sổ; phôi và biên bản phải khớp, không dựng khung cố định "1. QLDN, 2. Bán hàng".
+
+**Nội dung và định dạng khi đổ số:**
+- Phân tích Mục III DI-01 và bảng biên bản chỉ theo **nội dung kiểm tra được phân công** (vd chỉ chi phí và chi phí tài chính, bỏ giá vốn nếu không kiểm tra). Chi phí quản lý (QLDN hoặc QLKD) = chi phí bán hàng + chi phí quản lý doanh nghiệp, ghi thành **một dòng**, không đưa dòng chi phí bán hàng riêng khi user dặn. Tên chỉ tiêu theo đúng **chốt của vụ** (vụ T&T giữ `Chi phí quản lý kinh doanh`, vụ khác `quản lý doanh nghiệp`): hỏi hoặc đọc memory của vụ, không tự đổi.
+- Công thức DTCHEP chỉ lấy dòng QLDN (KQKDSXKD dòng 21) chưa cộng bán hàng: nếu bán hàng > 0 phải sửa công thức hoặc cộng tay, báo user.
+- Năm chênh lệch: đọc **DTCHEP cột chênh lệch** (E) chứ không chỉ KQKDSXKD; vd CPTC bị loại 100% thì số kiểm tra = 0, chênh lệch = -số báo cáo, giải trình đúng mẫu `*/ ... Căn cứ ...` (BBXN không ghi thuế truy thu).
+- Mục III NSNN: lấy từ sheet **QHNS** của Bảng tính (vd `QHNS 970`) đủ cột (3) kỳ trước, (4) phát sinh báo cáo, (5) qua kiểm tra, (6) đã nộp, (7) còn phải nộp; số đã nộp gộp cả nợ năm trước là đúng. Không tự điền số không có trong sheet.
+- Cỡ chữ: nội dung 13, bảng số liệu các năm 12, tiêu đề 14, phần còn lại giữ như phôi; Times New Roman toàn file; bỏ dòng trắng thừa giữa các bảng năm.
+- Số QĐKT/QĐGS/ngày QĐ đã có trên sổ: điền ngay, không để trống (chỉ dự thảo chưa có số mới để trống).
+- Khi thay chữ trong dòng Word, giữ nguyên `rPr` (nghiêng, cỡ) và `xml:space="preserve"`; không ghi lại cả đoạn bằng một run mới (làm mất nghiêng và dính `số7516`).
+- **Công văn cam kết doanh thu, chi phí và tiền lương** (khi user yêu cầu): thêm cuối TONG HOP, trang riêng, từ `templates/MAU CAM KET DOANH THU VA CHI PHI.docx`; đổi tên công ty, MST, địa chỉ, người ký, ngành nghề (câu mô tả hàng hóa) sang trường Mail Merge; số văn bản và ngày để trống cho DN điền.
+
+**Quy tắc ngày/năm (chốt 2026-11-25):** dự thảo quyết định chưa có số trên sổ để trống số và toàn bộ dòng địa danh `ngày       tháng       năm      `; mọi trường hợp còn lại (QĐ đã có số, giấy giao quyết định, biên bản, báo cáo, hồ sơ về) điền đầy đủ số, ngày, tháng, năm theo sổ.
+
+## Cảnh báo bắt buộc báo user (không chặn đổ số)
+
+- **Lệch phân công và Bảng tính:** Bảng tính có 2 dòng riêng chi phí quản lý doanh nghiệp và chi phí bán hàng (hoặc bán hàng khác 0) mà sổ phân công là `Chi phí quản lý kinh doanh`. Cảnh báo dạng: `[CẢNH BÁO PHÂN CÔNG]: Bảng tính có QLDN = X, bán hàng = Y, nhưng phân công ghi chi phí quản lý kinh doanh. Gộp thành một dòng (X+Y) hay tách hai dòng?` Chưa có trả lời thì tạm gộp X+Y một dòng và nêu rõ trong báo cáo. Bán hàng bằng 0 thì không cần cảnh báo.
+
 ## Bẫy
 
 - Gán cứng ô checkbox bằng Wingdings hoặc đặt ở đầu câu làm sai lệch phôi gốc mẫu giám sát.
@@ -59,3 +109,4 @@ learned_updated: '2026-11-11'
 - [2026-10-08] Cập nhật quy trình chuẩn hóa checkbox trong Báo cáo giám sát: ngăn chặn lỗi reset toàn bộ ô đã tích chọn về ô trống khi thay thế ký tự sang Wingdings.
 - [2026-10-27] Cập nhật chuẩn checkbox hiện đại ☐/☑ nằm sau chữ (bỏ Wingdings và nét vẽ VML X), tích 2 ô mục 9 Báo cáo giám sát, chuẩn canh chữ ký 5/4 dòng chống rớt trang, căn 'Số' dưới 'sở' và in đậm các Điều theo phản hồi thực tế từ user.
 - [2026-11-11] Vụ giải thể trên nền kế hoạch (như Sơn Tiền Hải): Mục III Nghĩa vụ NSNN bắt buộc điền đủ số phát sinh các năm; rà soát thay thế triệt để cụm từ cũ 'chi phí quản lý kinh doanh' thành 'chi phí quản lý doanh nghiệp'; bổ sung văn bản từ chối nhận lại tiền nộp thừa nếu có.
+- [2026-11-25] Đồng bộ từ brain Hồ sơ kiểm tra: quy tắc Mail Merge (ngày thật dd/mm/yyyy, tiền #.##0, bỏ switch \@ và \#), phân công theo sổ (tách dòng), ngày/năm quyết định, cảnh báo phân công QLDN/bán hàng.

@@ -42,6 +42,12 @@ learned_updated: '2026-11-23'
 4. Tự động ghi đè các ô lệch vào sổ và lưu file `pro.xlsm`.
 5. Báo cáo kết quả dạng bảng: chỉ tiêu, số cũ, số mới, trạng thái và cảnh báo phát sinh nếu có.
 
+## Bổ sung 2026-11-25
+- **Làm tròn**: Bảng tính cộng số lẻ nên tổng có thể lệch 1 đồng so với sổ (sổ cộng các khoản đã làm tròn, vd 17.850.636 so với 17.850.637). Bọc `ROUND(...,0)` cho các ô tiền chậm nộp, tiền phạt 20% (cột K, N) và ô truy thu TNDN năm cuối trên sheet TINH PHAT; lưu bản sao vào `%TEMP%` trước khi sửa. Sau đó tổng phải bằng sổ.
+- Chốt mốc ngày chậm nộp với user (ngày ký BBKT), ghi vào cột D rồi mới so số.
+- Sổ đang mở trong Excel thì bị khóa ghi: yêu cầu user đóng Excel, sửa bằng Excel COM để giữ macro.
+- Cột tiền AN đến AY của sổ định dạng `#.##0`, cột ngày là ngày thật `dd/mm/yyyy` (xem `ho-so-kiem-tra-ke-hoach`).
+
 ## Lệnh thực thi nhanh
 ```powershell
 python "scripts\dong_bo_tinh_phat_sang_so.py" <MST_hoac_Ten_vu>

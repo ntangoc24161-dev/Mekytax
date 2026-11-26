@@ -60,3 +60,7 @@ Câu hỏi wiki chưa trả lời đủ. Format mỗi dòng:
 - [ ] (2026-11-13) [[Kỹ thuật xử lý xung đột đường kẻ tiêu đề văn bản hành chính Word]]: đề xuất bổ sung từ chat 2026-11-13 (dedup) - status: open
 
 - [ ] (2026-11-13) [[Mô hình Mail Merge phân luồng theo loại hình kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-13 (dedup) - status: open
+
+- [ ] (2026-11-25) [[Chuẩn định dạng TONG HOP hồ sơ kiểm tra thuế]]: đề xuất bổ sung từ chat 2026-11-25 (dedup) - status: open
+
+- [ ] (2026-11-25) [[Kỹ thuật định dạng trường Mail Merge ngày tháng và số tiền từ Excel sang Word]]: provenance=assistant (Javis tự nói, cần xác minh) - status: open

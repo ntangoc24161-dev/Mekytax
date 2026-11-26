@@ -1,0 +1,5088 @@
+[
+ {
+  "rel": "7. Sao luu tong hop\\Tong_hop_NCC_mua_vao_CV_trang_thai.xlsx",
+  "top": "7. Sao luu tong hop",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".xlsx",
+  "size": 171881,
+  "sha256": "60cf8ff8b5b8a011bfff3383ea9b25463f78f3deefe1884bfef77d5992d03b9d",
+  "sheets": {
+   "Tong_hop_doi_chieu": 108,
+   "Chi_tiet_hoa_don": 1677
+  }
+ },
+ {
+  "rel": "7. Sao luu tong hop\\Tong_hop_TNCN_va_danh_sach_NLD_3603698904.xlsx",
+  "top": "7. Sao luu tong hop",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 5370,
+  "sha256": "e292254cd8b93b81839cd27bc902d78236409cceec91efc77c113a85af24fdf0",
+  "sheets": {
+   "Tong_hop_TNCN": 9
+  }
+ },
+ {
+  "rel": "7. Sao luu tong hop\\Tong_hop_doi_chieu_GTGT_TNDN_3603698904.xlsx",
+  "top": "7. Sao luu tong hop",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 7222,
+  "sha256": "f36a3dbe4560a08a39638957829ad7aee22d5402dc300090358370a661cf9eae",
+  "sheets": {
+   "Tong_hop_doi_chieu": 10,
+   "GTGT_theo_ky": 18
+  }
+ },
+ {
+  "rel": "7. Sao luu tong hop\\Phan_tich_ho_so_cong_ty_PHUC_NGUYEN_TIEN_3603698904.xlsx",
+  "top": "7. Sao luu tong hop",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 25395,
+  "sha256": "4e9095b77a0c93b149566308be8ad293e84c0735dfbdaed7677d434695fa5642",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 32,
+   "Tong_hop_GTGT_TNDN": 11,
+   "Tong_hop_NCC_CVCBRR": 108,
+   "Tong_hop_TNCN_va_Da_nguon": 10,
+   "Tong_hop_XNT_va_Kho": 10,
+   "Gia_thanh_va_Dinh_muc": 9,
+   "Doi_chieu_511_632": 10,
+   "Cong_no_va_Ngan_hang": 10
+  }
+ },
+ {
+  "rel": "7. Sao luu tong hop\\Bang_ke_mua_vao_ban_ra_tong_hop_2020-2025.xlsx",
+  "top": "7. Sao luu tong hop",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 155811,
+  "sha256": "b477951730fe7ea499aaf0589feadc5278bb9512a9fcdf12edfc64efb754c205",
+  "sheets": {
+   "mua vao": 1678,
+   "ban ra": 7
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\Tong_hop_NCC_mua_vao_CV_trang_thai.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".xlsx",
+  "size": 28267,
+  "sha256": "904925e061efbddee614c07730dfa261da22e82fd5050af84bc9b3e1e07d64c2",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 32,
+   "Tong_hop_GTGT_TNDN": 11,
+   "Tong_hop_NCC_CVCBRR": 146,
+   "Tong_hop_TNCN_va_Da_nguon": 10,
+   "Tong_hop_XNT_va_Kho": 10,
+   "Gia_thanh_va_Dinh_muc": 9,
+   "Doi_chieu_511_632": 10,
+   "Cong_no_va_Ngan_hang": 10
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\Bang_ke_mua_vao_ban_ra_tong_hop_2020-2025.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 155811,
+  "sha256": "b477951730fe7ea499aaf0589feadc5278bb9512a9fcdf12edfc64efb754c205",
+  "sheets": {
+   "mua vao": 1678,
+   "ban ra": 7
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\CHECKLIST_TONG_HOP_HO_SO.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 14085,
+  "sha256": "c7779930aae214054ddb1f5b994313bdd841b8213e14146ee030b5746f092fd5",
+  "sheets": {
+   "Kiem_soat_ho_so_A4": 23,
+   "Danh_sach_file_thuc_te": 199
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\Phan_tich_ho_so_cong_ty_PHUC_NGUYEN_TIEN_3603698904.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 28175,
+  "sha256": "e6639fd6dfe89b74c0d22a4aa07d06809efec938bb81bdd31bbcd012714aa9e8",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 32,
+   "Tong_hop_GTGT_TNDN": 11,
+   "Tong_hop_NCC_CVCBRR": 146,
+   "Tong_hop_TNCN_va_Da_nguon": 10,
+   "Tong_hop_XNT_va_Kho": 10,
+   "Gia_thanh_va_Dinh_muc": 9,
+   "Doi_chieu_511_632": 10,
+   "Cong_no_va_Ngan_hang": 10
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\Tong_hop_doi_chieu_GTGT_TNDN_3603698904.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 7222,
+  "sha256": "f36a3dbe4560a08a39638957829ad7aee22d5402dc300090358370a661cf9eae",
+  "sheets": {
+   "Tong_hop_doi_chieu": 10,
+   "GTGT_theo_ky": 18
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\cau-thanh\\Tong_hop_NCC_mua_vao_CV_trang_thai.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".xlsx",
+  "size": 28267,
+  "sha256": "904925e061efbddee614c07730dfa261da22e82fd5050af84bc9b3e1e07d64c2",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 32,
+   "Tong_hop_GTGT_TNDN": 11,
+   "Tong_hop_NCC_CVCBRR": 146,
+   "Tong_hop_TNCN_va_Da_nguon": 10,
+   "Tong_hop_XNT_va_Kho": 10,
+   "Gia_thanh_va_Dinh_muc": 9,
+   "Doi_chieu_511_632": 10,
+   "Cong_no_va_Ngan_hang": 10
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\cau-thanh\\Tong_hop_doi_chieu_GTGT_TNDN_3603698904.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 7222,
+  "sha256": "f36a3dbe4560a08a39638957829ad7aee22d5402dc300090358370a661cf9eae",
+  "sheets": {
+   "Tong_hop_doi_chieu": 10,
+   "GTGT_theo_ky": 18
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\cau-thanh\\Phan_tich_ho_so_cong_ty_PHUC_NGUYEN_TIEN_3603698904.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 28267,
+  "sha256": "904925e061efbddee614c07730dfa261da22e82fd5050af84bc9b3e1e07d64c2",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 32,
+   "Tong_hop_GTGT_TNDN": 11,
+   "Tong_hop_NCC_CVCBRR": 146,
+   "Tong_hop_TNCN_va_Da_nguon": 10,
+   "Tong_hop_XNT_va_Kho": 10,
+   "Gia_thanh_va_Dinh_muc": 9,
+   "Doi_chieu_511_632": 10,
+   "Cong_no_va_Ngan_hang": 10
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\cau-thanh\\Bang_ke_mua_vao_ban_ra_tong_hop_2020-2025.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 155811,
+  "sha256": "b477951730fe7ea499aaf0589feadc5278bb9512a9fcdf12edfc64efb754c205",
+  "sheets": {
+   "mua vao": 1678,
+   "ban ra": 7
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\cau-thanh\\Tong_hop_TNCN_va_danh_sach_NLD_3603698904.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 5370,
+  "sha256": "e292254cd8b93b81839cd27bc902d78236409cceec91efc77c113a85af24fdf0",
+  "sheets": {
+   "Tong_hop_TNCN": 9
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\cau-thanh\\Tong_hop_TNCN_NLD_3603698904.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 26398,
+  "sha256": "cbbf3280f248dc53e1c539777e0551d5d0cd0959285359abbe6eb787bacf40f0",
+  "sheets": {
+   "1. Tong hop QTT TNCN": 11,
+   "2. Danh sach NLĐ (05-1BK)": 111,
+   "3. Ho so Dinh danh NLĐ": 74,
+   "4. Doi chieu Quy vs Nam (TC22)": 10,
+   "5. Nguoi phu thuoc (05-3BK)": 15
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\sao-luu\\master-before-vpt-20261005_071658.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 21855,
+  "sha256": "0b58074c64f654ac35cb182db20e1ba1fe0c68fa7182c447ca4b1ed31e7fb0d9",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 8,
+   "Tong_hop_GTGT_TNDN": 8,
+   "Tong_hop_NCC_CVCBRR": 149,
+   "Tong_hop_TNCN_va_Da_nguon": 8,
+   "Tong_hop_XNT_va_Kho": 8,
+   "Gia_thanh_va_Dinh_muc": 8,
+   "Cong_no_va_Ngan_hang": 8
+  }
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\sao-luu\\phan-tich-3603698904.json",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".json",
+  "size": 4775,
+  "sha256": "031fdbccbf24a30fdbc2a596a1dae5a9984af0d0976191987de7e4b4b1892330",
+  "sheets": null
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\sao-luu\\ncc-cvcbrr-3603698904.json",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".json",
+  "size": 569,
+  "sha256": "b110e0202a5cc697bb6c2aa005b8fd4e3efca9c1fa0ef034606a5bb04621249a",
+  "sheets": null
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\sao-luu\\master-vpt-20261005_071658.json",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".json",
+  "size": 587,
+  "sha256": "a42de39a7fe385ea645eb722dac1547ef630fe2c2dea8c20ecc939ee11f7dd04",
+  "sheets": null
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\sao-luu\\playbook-1-2-4-3603698904.json",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".json",
+  "size": 3084,
+  "sha256": "26e50d7df8f18fde4d09c6517997be4596d953970b0147fa9a17d8daeb69204c",
+  "sheets": null
+ },
+ {
+  "rel": "4. KET QUA PHAN TICH\\ket-qua\\Phan_tich_ho_so_cong_ty_PHUC_NGUYEN_TIEN_3603698904.xlsx",
+  "top": "4. KET QUA PHAN TICH",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 25395,
+  "sha256": "4e9095b77a0c93b149566308be8ad293e84c0735dfbdaed7677d434695fa5642",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 32,
+   "Tong_hop_GTGT_TNDN": 11,
+   "Tong_hop_NCC_CVCBRR": 108,
+   "Tong_hop_TNCN_va_Da_nguon": 10,
+   "Tong_hop_XNT_va_Kho": 10,
+   "Gia_thanh_va_Dinh_muc": 9,
+   "Doi_chieu_511_632": 10,
+   "Cong_no_va_Ngan_hang": 10
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.3. Nghia vu nop thue & Thong bao\\PHUC NGUYEN TIEN-PTDN02_20260524182624.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN14_TMS_Nghia_vu",
+  "ext": ".xlsx",
+  "size": 11081,
+  "sha256": "f7ff4ee9d4388a4644e351b471e00e461babd6661c056ea2c32a3c7c675931e9",
+  "sheets": {
+   "Sheet1": 1
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.3. Nghia vu nop thue & Thong bao\\PHUC NGUYEN TIEN-PTDN01_20260524182643.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN14_TMS_Nghia_vu",
+  "ext": ".xlsx",
+  "size": 22560,
+  "sha256": "c924492bbd8110c50702dbdfd8e1ba90d51413efbf1e083fc6c1ced7b425fa98",
+  "sheets": {
+   "Sheet1": 1
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.4. Tong hop danh sach NLD theo QTT TNCN\\Tong_hop_danh_sach_NLD_theo_QTT_TNCN.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 26398,
+  "sha256": "cbbf3280f248dc53e1c539777e0551d5d0cd0959285359abbe6eb787bacf40f0",
+  "sheets": {
+   "1. Tong hop QTT TNCN": 11,
+   "2. Danh sach NLĐ (05-1BK)": 111,
+   "3. Ho so Dinh danh NLĐ": 74,
+   "4. Doi chieu Quy vs Nam (TC22)": 10,
+   "5. Nguoi phu thuoc (05-3BK)": 15
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.4. Tong hop danh sach NLD theo QTT TNCN\\Tong_hop_TNCN_va_danh_sach_NLD_3603698904.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 5370,
+  "sha256": "e292254cd8b93b81839cd27bc902d78236409cceec91efc77c113a85af24fdf0",
+  "sheets": {
+   "Tong_hop_TNCN": 9
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.4. Tong hop danh sach NLD theo QTT TNCN\\Tong_hop_NLD_QTT_TNCN.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 26398,
+  "sha256": "cbbf3280f248dc53e1c539777e0551d5d0cd0959285359abbe6eb787bacf40f0",
+  "sheets": {
+   "1. Tong hop QTT TNCN": 11,
+   "2. Danh sach NLĐ (05-1BK)": 111,
+   "3. Ho so Dinh danh NLĐ": 74,
+   "4. Doi chieu Quy vs Nam (TC22)": 10,
+   "5. Nguoi phu thuoc (05-3BK)": 15
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240246810717 Q2.2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11396,
+  "sha256": "41d6b2baf93603e6e7de10376935bbddde947a3c57f61545b5838784b5d733f3",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BCTC 11320240246811367 2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 38667,
+  "sha256": "c258f93793d0f2cac8b9a5814c5690a33287ba4e2d555691569ca696585cc840",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320210076380664 2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 14088,
+  "sha256": "4204375acea1b2ff2f32876b5c3879390ab8c5d22f3ecbee7fb67a868c7535c1",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220164943695 Q3.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6284,
+  "sha256": "f304ea156a09745dbd063766d91edf8b9f27bc515e08f4753582d69eedcf6196",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320240275261785 Q4.2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 13203,
+  "sha256": "2def09773818d33fc7077ab7aa0b49ae215f9b2be37932712eeda41aef71a85a",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320230216817186 Q3.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11040,
+  "sha256": "e1ff31443603b39b1b9a31df310ab3881eaf6753a7de585c939151545bd51864",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TB01 11220200021223468 21.01.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6862,
+  "sha256": "93ad4b00d6216b7f510372b3773540db2c52171dd699231fb7ba58bb0bc4be7b",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320210066141363 Q4.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7082,
+  "sha256": "d0f7f770f76d0cd539edb305a824cc15794bb706272623082664c48040e2c674",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320220142027506 Q1.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7612,
+  "sha256": "bd82f7d6aa1566e27687b2965c6591cd4212466f2a0c4eef9babf324306e51fb",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320250320098089 Q1.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11933,
+  "sha256": "6333e89895cad15b3f727052ad83f111db685196ee667649c4b7d10ba92bf1d4",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320260386307882 2020 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 47500,
+  "sha256": "5b45defb0ee5175da2579f1bf22f813fc17e72e5389a09fc0ed155198223f974",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BCTC 11320260386321920 2020 chinh thuc 2.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 38906,
+  "sha256": "24e3d9d04cc8ba7c5b8acdb7bcabae102c341f41872b012b92313de8f6208d89",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240246809485 Q1.2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11396,
+  "sha256": "70fe103e879bab56858fd37cb0648dc9228f41caf6a10a13cddaa5f223b28367",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320240269036033 Q2.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 8133,
+  "sha256": "f33b25b2e692bcf84b98cc8afd1859947872d4494499d70bd5a9825f4e8375cf",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320220121721460 Q4.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7066,
+  "sha256": "e2f50d6d2961624bf654ff4e17a9deadfd1ee488d28c73cc69e3aa7f9c972453",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320260386276489 Q4.2020 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 17378,
+  "sha256": "260101fcd5de24472d55482e20891bac7e1c5e801614af528d7799802453ccd4",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250310576935 Q4.2024 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 12097,
+  "sha256": "f0d431841d898ae656b7c8dc3e9f93c1c26692c5df94d5ec5c214460e7a27d3d",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNDN 11320240246812583 2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 8614,
+  "sha256": "8aabdf12ea3cedfe3a9cac80f2d21741560ddb0c897f0b410fafdfeba9743608",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320210085931182 Q1.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6341,
+  "sha256": "55ed3ec1338eba2501cc6db3bb6994d997c19a3bc7269074f9f726c46a8d5c40",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11220200037264867 Q1.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7611,
+  "sha256": "a7f3f1f73f418314b27f0e888850525f5ed1c4c2f81c333681e0489a7b5ad98a",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BCTC 11320220132625950 2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 38019,
+  "sha256": "a3464535b10d349eddaade8ab782c6e3fa3afeed190d06ca835e4a4c996b6bd9",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240232828841 Q4.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 5691,
+  "sha256": "91c5b961978a4b9929a131752d7a5689ef79e83fb0c5aa6978487e251f5e89bd",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320250295680297 Q4.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11127,
+  "sha256": "b04be92a86a6ea2e04faf5f81f2ee42138ae14bae61bdb5c31714d6b0facca88",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\3603698904000-05_QTT_TNCN_TT80-Y2025-L00.xml.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 15202,
+  "sha256": "90993504192688431c619531ee1ca8e38b773637c1548f502cc2e148f85e836f",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320210085931026 Q1.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7212,
+  "sha256": "95b55746225dfd471629a8c3e7073b213d2a494ab01b965cd64179294649d23d",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240281162512 Q3.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6390,
+  "sha256": "70e7aacf1265413c0bee7ce7d9172849f3613b983740c495073bfd0718e9b137",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320210065413548 Q4.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6321,
+  "sha256": "bb2f5e9a4e3c23564b828626be969507ae281016bb5367379c3391037bdf0774",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220153247818 Q2.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6284,
+  "sha256": "05dc929708c75e02215fab2d027f38790c9aac8753e0e40edd72445591a0c45f",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\LPMB 11320240230070741 2023 bo sung 2.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11349,
+  "sha256": "30396b3f536a48810776ee15d8d5058af75c901df6f72781e9849bed0e8a733a",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNDN 11320220132625929 2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 9092,
+  "sha256": "bf1a8a45f7a5a7eaccd9dea337326e23001aab3cca17e8bfc1127f850ea423c1",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TB01 11220210080857164 16.04.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6930,
+  "sha256": "170a37022eeb432dff2d38f3c80452d10b46dbd3371bcf1a513c500f83a79ee7",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320230206011153 Q2.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6905,
+  "sha256": "12dcb69200d658f6b1e77941694bb477e0d46a5290feb04253c3d8e25787d102",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320210105679781 Q3.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7774,
+  "sha256": "cb6075ac8939d94a7a98393e7254ca66c63b8c60fe4911b76115d3155b0a6bfa",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11220200044466765 Q2.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7589,
+  "sha256": "2a4b327a8049884c0de93c4ee09a1323dd8fe6ab965f64ff64d4103551b76b64",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320240275261781 Q1.2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 19478,
+  "sha256": "0e97a4d35394c8bf538881a213439f06c70da2bf4911a026f80ab44765dba6d7",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230185671106 2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 13352,
+  "sha256": "fb35e60af8eae9e90653ac63c1758658e52684f6dda3fb89a91cf665e4c5107d",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\3603698904000-03_TNDN_TT80-Y2025-L00.xml.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 9748,
+  "sha256": "4e3d0fcad0c6699b93268070498c7a19d63ac79c24b6279b6780c04db5fd6cea",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250310576312 Q1.2024 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 12097,
+  "sha256": "199ce4183994267d4d0207eeb1f8d4e93487718f6771cca7d50350561ea2b031",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320230176194084 Q2.2022 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 37353,
+  "sha256": "be53ee0fa3c4f863ead876a76ca7ddeea2422d12251ca0da6781cd680a60b791",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320210105679767 Q3.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6335,
+  "sha256": "fc7058b6a30a9c6b6ee42bfbaa2bf6eb9e925b964c3a3e163e229d996193454a",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320230195390368 Q1.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 13739,
+  "sha256": "61e9f46438ce9b744c4013ee61c5efc92570e18260c99dfe793a65c9c68af574",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNDN 11320250310575109 2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 9299,
+  "sha256": "27821f04f03fb673c578731688dd5d1f6283550bcb1e4e9a84ef1ad7b91e30a4",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320210096001177 Q2.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7803,
+  "sha256": "71857cdc87e203ba32ee5bf348eb17819992ae082417eb8ede2857b6c83d8b32",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250295680307 Q4.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6390,
+  "sha256": "efcbaac2130816bf9dcc3adc9c122057d1df7059f2de5acde64a15c0a330b5a2",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320260386331159 Q1.2021 bo sung 2.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 16888,
+  "sha256": "4fc2dfce56cfedc27e1179df1a443a8bb24b6b4337e8d2cc079a3e781fe3e42c",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250320098085 Q1.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6392,
+  "sha256": "0f3113e78a0b563870c1c13cdf2685c9c00b576adc0b485bcb94af61d53ae275",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\11320240275496170 30.09.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 12442,
+  "sha256": "74dceddd8ce14769f3297aedd291faf5a85af76048012556d321e2cc3876250d",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320240256058232 Q1.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 10689,
+  "sha256": "da5b4c6fe932426cac986ed324d0ad10fd2d77d2d5e54f7c1d1e6f461bde497c",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\LPMB 11320230177011145 2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 10925,
+  "sha256": "5a46b7fe5316d6a1b56c764d2a18beeccf57883c6732ebcba1eb1a1467710e24",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNDN 11320230185670664 2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11092,
+  "sha256": "0f47d8f5e45eb55091d964b4c84ce15bb358cfb9fac974a85f35de05904caf04",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230185704255 Q4.2022 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11103,
+  "sha256": "bacec0d143d5503dd89ca594021c45acfed345df62044cd6e1eff2eeb5776f44",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240246812806 2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 16893,
+  "sha256": "bab80b4070545c351de3928fae9e6e01786ceeda605e8b462a135ae136e8a8b2",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BCTC 11320230185670272 2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 38516,
+  "sha256": "97067bafcce7024b61fe8d19ebdf08f93d4e9c3e0d2ea249149fcae2ffaa57fd",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNDN 11320260386324457 2020 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 23645,
+  "sha256": "7c1c3a87c052bdb3729a0c95f82da5fde31a0415d2927c2d49261ba487ade3ef",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320250348743659 Q3.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11690,
+  "sha256": "c99a9dd66da8104dea2ff35f3205cfacf47cc2dd5196ef658c2168f6b3c9081a",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNDN 11320210076381158 2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 8882,
+  "sha256": "76c0fec78b83cfcfe31e7a527b121a4868a36d97becd02c853c5a731aae71912",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320210105679745 Q3.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7219,
+  "sha256": "ed967a778a5af708717210ae00bdcee1828ddd6d2664a6f611379c69faab208b",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230185704231 Q1.2022 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11105,
+  "sha256": "b1802468e5948feec1e66e61192ff2947c339619368d7b2c5d5649998def3bc2",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250348739090 Q3.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6352,
+  "sha256": "4c32685830ede8d377fe2cce52898bf46362df0f05eb8c4df274b83098e5ad92",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320200055426057 Q3.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6301,
+  "sha256": "f82e65d41d22005203590cb939ad00f60f740ea64deb3badbd9e2bdea01fd5b1",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320260386276278 Q2.2020 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 19293,
+  "sha256": "1e543b8735199bea25f1404464ee4b9e657867d25881a7cce597593ed18bb6b1",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320220153247815 Q2.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 30188,
+  "sha256": "094745a10bf02966d4b344fe53a600d1dfbf8e67a18ceff98d4fbcdc967f1e5b",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240256059275 Q1.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 5385,
+  "sha256": "9292430a2fa9c7485d0391e052a832309bff3e7621494c7fcccc2a13c7a5c0b0",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320220142027503 Q1.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 18001,
+  "sha256": "0be047d9665e76a970307645384d031af06522173fbcafa028ecda7a28bdb25a",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320200055426562 Q3.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6720,
+  "sha256": "870686863cd27dd5591ae88b7e70506cedf423d7ab1e8072fa87462f2a180c84",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320210096001077 Q2.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7219,
+  "sha256": "adf4e783449fcf3b80a50bc8a30066362ed4ec68e130acf9578928f5d58c8594",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320240257699057 Q1.2024 chinh thuc 2.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7128,
+  "sha256": "23d5d5c95280cb509f5dc81f67972f4458a6f11061228236d2072278e9cb4053",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BCTC 11320210076379596 2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 42119,
+  "sha256": "bbe017a02f7b6cbf24fa51c46581421c739644885bf663bee13cb4df0b0e9fe1",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220121721475 Q4.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6211,
+  "sha256": "176106dad82447ed59d703662a5e7f1b7c84d98cc13b4cfabe8653d6e67e87f3",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250310576729 Q3.2024 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 12099,
+  "sha256": "d543978e0418f8f51d9d1538dfed288413fd51f445a3b2d68cff5613692aeffb",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320260386276149 Q1.2020 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 17529,
+  "sha256": "bda465385e66a84ec08d2cbccf2c6344d2b754f5740cf6af529e8a3dcf8600ea",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320220164943694 Q3.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 29892,
+  "sha256": "30e41d413056442e6e910109c9ce0c5f7f091a408bafaf67006732e476bd296e",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250334399527 Q2.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6352,
+  "sha256": "ea0dc380e48a4614eca3c763316465e14369ec471caae2160bc359dc25c21f81",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230206011171 Q2.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 5689,
+  "sha256": "cf449197d7623dbaeb2610e87f935e7a725e3fab4e317711353b423041790c34",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240246810932 Q3.2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11398,
+  "sha256": "7b961432bc5261b739bd2364015061819f311428b77910f9998dd23b8a91f093",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320230216816963 Q3.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7430,
+  "sha256": "f74efbb235e5d5df3d49611af357894a9a44957224d2249c0365dea0d5b4cadd",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320210066141791 Q4.2020 chinh thuc 2.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11273,
+  "sha256": "c568b45ac425357242a06cc6e6846ddd01a71d575bdde9b168f288c5e7220525",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220132625935 Q1.2021 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6213,
+  "sha256": "09000d879d7a906d7499ac0e619c1546366db83af3f7e95993770f1bca745902",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220132625952 Q3.2021 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6211,
+  "sha256": "6876dbda4773c8a0fded0da816eb33dcda2bb3d582a811b14a9b5c21c500e45e",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BCTC 11320250310574913 2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 39136,
+  "sha256": "e1fc1d5521d56eb4d9519657e68c72fe0f54c2a1f3f50b9d9686c111b21dce00",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320240275261783 Q3.2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 16278,
+  "sha256": "b3765f00bf8e3380655aeca298bd968979b3ea2fe01e4883af1acaea3bf0fe76",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230216816974 Q3.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 5691,
+  "sha256": "ceac15495b1bd945ec521f88e1d4fcfcd8415afe2bf61a83a8d0fe87b3a3b6ba",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220132625955 Q4.2021 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6213,
+  "sha256": "4193e1eee82fb608c5b1a2f243d2abe925986b877dc221f69bac55eeef162380",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320250335646833 Q2.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 19098,
+  "sha256": "a63432c2a55e20540d2a2c1ee83f6c0c3251794c474600a0093a40d2218df8dc",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240246811151 Q4.2023 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 12495,
+  "sha256": "99bdc9891d5c50e063b2af8866d63eacdf7013654a969ab766e66158762735c6",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320210096001128 Q2.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6335,
+  "sha256": "9b2e38f9e7859183f15b179ac92bfa0095ed4ab35841be0fadf1734bc3155cfd",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320250320098076 Q1.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 867057,
+  "sha256": "9a565b9b6d6278c183b07c7bbb53f1818c9c91871c96058bab385d3a82d4d2ee",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320250334398746 Q2.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 1177268,
+  "sha256": "5409a42eb694918fe5b1ccb8abe206db44c114870b3be0d56d7dbb7408814785",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320250310576111 Q2.2024 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 12095,
+  "sha256": "7417d5548d328990a391ce42a36a3ff7c624c965356529acb2a59c3b9721fe76",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320250348739212 Q3.2025 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 16652,
+  "sha256": "1412c82b04a5d7cc7cb0ef821390cc73a4f6504083c63a4daeb31d0bc271d250",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320230185379336 Q3.2022 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 37430,
+  "sha256": "8830f7e3173b8ee099076234fbf969933e725a10a76536957b39858364dc7d93",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320260386276397 Q3.2020 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 17976,
+  "sha256": "a5e4aa35fb678157239b36e5b3dc7cf10ffa61e375852fbb89cedeb59daf461c",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220132625942 2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 19915,
+  "sha256": "ad340cd68bd071c6af93838af3e2305bacdbdb36e2efe493696d4a49371f04c4",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\MBAI 11220200018372713 2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6622,
+  "sha256": "56f927a214c8a11679acde8a4898ee0ccc28d08e67453e3e031296e59e2b843e",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320230176194103 Q4.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 30107,
+  "sha256": "dcbac8c91062849deaff7e602a11c5bc0852bc4a218d36755b0cb564013bdff2",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320240232828846 Q4.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11027,
+  "sha256": "d1c9b15c4e9fea225aed94e7ff3dc18937b6bd9e52c1d85ea1e140bdbdbd0443",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220142027507 Q1.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6284,
+  "sha256": "21058b5a3db415b3423fa2eb2c93bc2f07f77bf52bcff77e3f1afda5d68d5783",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320220132625951 Q2.2021 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6211,
+  "sha256": "304a534e2e9b5b38d4fa429b70f98a49f7901c5c9c8f3d3acd62735535a53179",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320220146828018 Q2.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7628,
+  "sha256": "f66a88ac7c3add87695e5d61e271d07ce9c023732545ffa347145c02b3ffa0e3",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320230195390236 Q1.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 9604,
+  "sha256": "0d7f0c199edf676a57b5408a71c096aa42d4f09ed98fd876c193a371a40597e3",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320240232828830 Q4.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7432,
+  "sha256": "fa1d094d0920769124fe13497fd411eb39ec1b930699725761b053728475474f",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230195390253 Q1.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 5689,
+  "sha256": "40fe42c604b3451f9cd09416b1247ff6214f985689b6819c06180bce71517e52",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320260386389365 Q1.2021 bo sung 2.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 10523,
+  "sha256": "e0b3fe8c27978a434efcf16f01b3e1b3dc09edd07bddbc88963797f9904035ed",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\11320220146827980 25.05.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6707,
+  "sha256": "31dd1b44cb6fafdfc48e89397cd065b889fe2cdb9b7110056f9490f032a5521d",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320240269036057 Q2.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6390,
+  "sha256": "8a0649632f7b5c70550849f22d1b7fff157b32405b33b15eeaca96f6f0ed0d3b",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230185704246 Q3.2022 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11101,
+  "sha256": "1f5e1f090a24f59480fce9643248bd798edb294d326a6ff9b0058eac0eb17dee",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320240281162487 Q3.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11643,
+  "sha256": "ae049b98b87af7e7d2227cb0b228385a03c7f5908c90c3328435278c45d26696",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230176194102 Q4.2022 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 5569,
+  "sha256": "28748230916289d0857b6e5eec4b875915b3d9cd80d9432aabf14b4cc845aa38",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320250295680319 Q4.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11746,
+  "sha256": "ea040d790a177b0cb23fb929459908c2ef005d67f0e46cbb45f519bd2ed66a34",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320220121721485 Q4.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7612,
+  "sha256": "4bb6a9b19b16adcf8e65b7177fda269c1984b5bc0ac2a8af9f72d9a7624fa181",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11220200044465883 Q2.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7245,
+  "sha256": "1a1856de4caf6501e70aedc46d2b6e510557495a2ee3e72bc62a255495abf03e",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320230206011184 Q2.2023 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11040,
+  "sha256": "430c6ad37ff8dd4dc31a9cfa60db921b1d053a7d7262796e4c8b606b24e53b86",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11220250311137161 2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 21624,
+  "sha256": "deccf5328ec58669836bd1ccb1800410b8049b014801a15dbb4093622ec09ea8",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320210065413622 Q4.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7818,
+  "sha256": "c1962fa90777b4fa6c9620d71b090ce68031ddfe8eedc7c3b6d911a10a4f5aff",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11220200036158482 Q1.2020 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7215,
+  "sha256": "c9de11c063dd320d6ec8ab00d26df00145db76d7be7424e9caae1d867cd7d672",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320230185704244 Q2.2022 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11105,
+  "sha256": "ec2d755bfb5a4ee29f3175671512398b7bcafb992f8d459e386d255b3d5ff1c8",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320240281162502 Q3.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11746,
+  "sha256": "bb9e0d9ff06cbb61f550ae72fbe59164793a7d32f0c3e67ae29ba47c9fe8f64a",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TTS 11320240269036047 Q2.2024 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 11730,
+  "sha256": "e4e4ab7dc35d438a79c8ab8ef938ca975d21f5982ee5be1a8c74d3ca697bae54",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\TNCN 11320260386276878 Q4.2020 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 6518,
+  "sha256": "0dfc9dccd8bfe131657529cedf76ed4a6e0d3d7d887a8e8a4f97dd611fb4c815",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\BC26 11320210085931307 Q1.2021 chinh thuc 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 7773,
+  "sha256": "8946a168996dda5356972cbe53c1d9da28806fb15fadcb7290294ab0ab8c29a6",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.1. To khai XML\\GTGT 11320210086749573 Q1.2021 bo sung 1.xml",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN03/IN04/IN06 (tờ khai XML)",
+  "ext": ".xml",
+  "size": 12636,
+  "sha256": "2c541768afe60446842599297c6868679210c907cba7c9ee87269491254af2e2",
+  "sheets": null
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QIV.25.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 13534,
+  "sha256": "51bfebe297d53a878b94dd94ed5d5646035d6d9c2f8f949b6bce922d341de965",
+  "sheets": {
+   "Báo cáo": 105
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BANG KE MUA VAO QUY IV. 20.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 9608,
+  "sha256": "b75785ebb27e6f32ef32592dcd1f5ea064765d7922679eca2872958c88802cd6",
+  "sheets": {
+   "Báo cáo": 41
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BANG KE MUA VAO QUY II. 20.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 8177,
+  "sha256": "82809bd0583e14c6b89efb3449f200dea6ab52d3f737e1316eb80a52f461617a",
+  "sheets": {
+   "Báo cáo": 15
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QIV.24.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10207,
+  "sha256": "7b44e4175b87cb147254cf7971ded833a118e2bf0062d5e61c848e346e6e3049",
+  "sheets": {
+   "Báo cáo": 47
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\HDDT BAN RA TAM THIEN NI 2023.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 21025,
+  "sha256": "c320412306e3a6eb1d0ba3d9aaba2b5d6c3243c8ccb1738a322f2b6c6ad46abd",
+  "sheets": {
+   "data-hddt-Tam thien ni": 4,
+   "Sheet1": 1
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QII.24.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10726,
+  "sha256": "bdc700fa54f3eaf5d916d0bff66ac99918ee58665721e0a59dcd483e927aad90",
+  "sheets": {
+   "Báo cáo": 54
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QII.25.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 11841,
+  "sha256": "af08ebecdd8660bb680344d3c2225121ca5c39b3be64f727ba1737b42c02e86f",
+  "sheets": {
+   "Báo cáo": 66
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUY III. 22.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 11949,
+  "sha256": "e180120fa1e8ff037bb18bfc09b733bdace9ddc6c288a16664b6448365c8daa8",
+  "sheets": {
+   "Báo cáo": 82
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUÝ I.23.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 9588,
+  "sha256": "f26cf302ea382f7358f93ab235e95ef31a89544a75846f475ccd14abf692c414",
+  "sheets": {
+   "Báo cáo": 37
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BANG KE MUA VAO QUY I. 20.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 8309,
+  "sha256": "c4de4b0f67974e72bb8f42e0a5852826adc0e3cfd0e31a5f24a91dd024f79fab",
+  "sheets": {
+   "Báo cáo": 18
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BANG KE MUA VAO QUY III. 20.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 8765,
+  "sha256": "f1ac085c77ccfdbdbfe3b94012fa8511cd9279a3f1cfd488c187266f10ca55ac",
+  "sheets": {
+   "Báo cáo": 26
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUY I. 21.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 8987,
+  "sha256": "d86a4b3bcc36ce26b24dccde14d1af1d47a81b854c3ec655cbb2a0708e5f1a74",
+  "sheets": {
+   "Báo cáo": 28
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QI.25.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 9828,
+  "sha256": "9e07b80b85375cad8c394c7e7d7ce3ba964a046cbfdc7fd5fa3fa21f32248ba7",
+  "sheets": {
+   "Báo cáo": 37
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUÝ IV. 22.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 9790,
+  "sha256": "af5da261340c97af4b1478db20ff772d3272a0d679a223676b1b6070e487df75",
+  "sheets": {
+   "Báo cáo": 43
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUÝ II.23.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 9947,
+  "sha256": "ee0271a0552e0fdc2a8659172c23decf4ddb055baf0a021443b1620c8786bc1a",
+  "sheets": {
+   "Báo cáo": 43
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BANG KE MUA VAO QUY III. 21.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 9070,
+  "sha256": "cd5e0a635165929f5155352f2de624fba6567f428d068eb322f661d7aa12f2ee",
+  "sheets": {
+   "Báo cáo": 32
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUÝ IV.23.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10835,
+  "sha256": "e810c0b32a4a0760dfba78d2dde1b6d933a17bd1e32ff03690904140f93884a3",
+  "sheets": {
+   "Báo cáo": 54
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QIII.25.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 14106,
+  "sha256": "cbde4e4ee215de70860665a754e2941e0dc06d7875fbd6e213a3c8824e2cd9b8",
+  "sheets": {
+   "Báo cáo": 115
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QIII.24.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10204,
+  "sha256": "000e2745ac0a8cef27cb0cc54dd593d360b226ad3595ad39c81ad0e1cee1c6fd",
+  "sheets": {
+   "Báo cáo": 45
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\HDDT.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 235822,
+  "sha256": "dbbae90821cd442983b1d6833666493436bdb366944cf3b821fbde0f822eddef",
+  "sheets": {
+   "Mua vao": 871,
+   "Ban ra": 1008
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QI.24.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10438,
+  "sha256": "f71b4985b4b0691d6bdb77c4f394cfb3936008e14fb9ee3a68ff160921568b24",
+  "sheets": {
+   "Báo cáo": 53
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BANG KE MUA VAO QUY IV. 21.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10312,
+  "sha256": "8ec6b9d1fa661b892bc5051f593dcd1eb56e66e1d030216f6788f4a9c5c9ddf6",
+  "sheets": {
+   "Báo cáo": 47
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUY I.22.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 9214,
+  "sha256": "d3d6361248b4a9afe8582246257ac5bc5e2721ca0544b8c4a5ed930081845253",
+  "sheets": {
+   "Báo cáo": 30
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUÝ III.23.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10727,
+  "sha256": "44225b0b6490451baabaee8dcabf8ccfb2352555932d51b06732514fe57a950a",
+  "sheets": {
+   "Báo cáo": 56
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\TH HD MV.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 432382,
+  "sha256": "80076e25d71ebca02d44352655d3f51b67a09779b9c6c6cc922a25dbd01f45f3",
+  "sheets": {
+   "PV MV": 97,
+   "MUA VAO": 2115,
+   "Sheet1": 1
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BẢNG KÊ MUA VÀO QUY II. 22.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10447,
+  "sha256": "bd75c09b737fc7cc167856f97749f651cf2822c0e1acddbe7eed43a9370a4a7c",
+  "sheets": {
+   "Báo cáo": 53
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu & Bang ke\\BANG KE MUA VAO QUY II. 21.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 10184,
+  "sha256": "6f60464a1b46239dc97ae9b4886bcb6dd18abecc4b742e598cc8f903145f7ea1",
+  "sheets": {
+   "Báo cáo": 51
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu\\HDDT.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 235822,
+  "sha256": "dbbae90821cd442983b1d6833666493436bdb366944cf3b821fbde0f822eddef",
+  "sheets": {
+   "Mua vao": 871,
+   "Ban ra": 1008
+  }
+ },
+ {
+  "rel": "1. DU LIEU THO NGANH THUE\\1.2. Hoa don dien tu\\HDDT BAN RA TAM THIEN NI 2023.xlsx",
+  "top": "1. DU LIEU THO NGANH THUE",
+  "src_group": "CQT",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 21025,
+  "sha256": "c320412306e3a6eb1d0ba3d9aaba2b5d6c3243c8ccb1738a322f2b6c6ad46abd",
+  "sheets": {
+   "data-hddt-Tam thien ni": 4,
+   "Sheet1": 1
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\2021_So_tien_gui_ngan_hang.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 50741,
+  "sha256": "ee27001c8c628072c32d94a3e96c048ce8b09d91bf4426bbba0093048d78cdd3",
+  "sheets": {
+   "Page 1": 410
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\2021_TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 57332,
+  "sha256": "d1a71ca3253de401455e8dd25c162e48ba7df8f39038f829c3077599980f7b0a",
+  "sheets": {
+   "Page 1": 440
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\2020_SO_TIEN_GUI_NGAN_HANG.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 16781,
+  "sha256": "6a7dc9f7b14e28fa83d42d583b2bceafef0846d54889c91ee4bc6f4b156ae4a3",
+  "sheets": {
+   "Báo cáo": 196
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\TH_So_tien_gui_ngan_hang 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 67691,
+  "sha256": "0b344381a3502e6495766893399c3fbff7ec50fa945981378a5afa6485711550",
+  "sheets": {
+   "Page 1": 587
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\TH_So_tien_gui_ngan_hang 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 66513,
+  "sha256": "c44b0d1148790e3e6d2881afe39805abb120c8d226023c94acd670159491ce1f",
+  "sheets": {
+   "Page 1": 547
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\TH_So_tien_gui_ngan_hang 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 81437,
+  "sha256": "9c7359b1443c30a565837122f8d19e2609bc4492a5d74c17aa8f6463a47aac9d",
+  "sheets": {
+   "Page 1": 659
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\2023_TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 67424,
+  "sha256": "c5e2a8a23d3ba0638bb1ccf6b2015a9b7d13703c2a7de34548043aeff6feced3",
+  "sheets": {
+   "Page 1": 564
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\2024_TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 81983,
+  "sha256": "96e12055ecd41001ec5fdde66043bc97e4b39b43b237970d364dec5f75a2ba7e",
+  "sheets": {
+   "Page 1": 700
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.3. Ngan hang & Dong tien\\2022_TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 74896,
+  "sha256": "6284f01ea70b9ad7a4d746a35450605da4364fef93c2b5b11aa4bfc51e21108c",
+  "sheets": {
+   "Page 1": 633
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUY I.22.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 9214,
+  "sha256": "d3d6361248b4a9afe8582246257ac5bc5e2721ca0544b8c4a5ed930081845253",
+  "sheets": {
+   "Báo cáo": 30
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QIV.25.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 13534,
+  "sha256": "51bfebe297d53a878b94dd94ed5d5646035d6d9c2f8f949b6bce922d341de965",
+  "sheets": {
+   "Báo cáo": 105
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\Bang_ke_mua_vao_ban_ra_tong_hop_2020-2025.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 159281,
+  "sha256": "d7e4268579321e6fbc907c20f41d4a15c2ad4006f11b271ca23e5bb5c6307b6f",
+  "sheets": {
+   "mua vao": 1678,
+   "ban ra": 7
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUÝ I.23.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 9588,
+  "sha256": "f26cf302ea382f7358f93ab235e95ef31a89544a75846f475ccd14abf692c414",
+  "sheets": {
+   "Báo cáo": 37
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BANG KE MUA VAO QUY III. 21.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 9070,
+  "sha256": "cd5e0a635165929f5155352f2de624fba6567f428d068eb322f661d7aa12f2ee",
+  "sheets": {
+   "Báo cáo": 32
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUÝ II.23.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 9947,
+  "sha256": "ee0271a0552e0fdc2a8659172c23decf4ddb055baf0a021443b1620c8786bc1a",
+  "sheets": {
+   "Báo cáo": 43
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QI.24.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10438,
+  "sha256": "f71b4985b4b0691d6bdb77c4f394cfb3936008e14fb9ee3a68ff160921568b24",
+  "sheets": {
+   "Báo cáo": 53
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QII.24.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10726,
+  "sha256": "bdc700fa54f3eaf5d916d0bff66ac99918ee58665721e0a59dcd483e927aad90",
+  "sheets": {
+   "Báo cáo": 54
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUÝ IV.23.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10835,
+  "sha256": "e810c0b32a4a0760dfba78d2dde1b6d933a17bd1e32ff03690904140f93884a3",
+  "sheets": {
+   "Báo cáo": 54
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BANG KE MUA VAO QUY IV. 21.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10312,
+  "sha256": "8ec6b9d1fa661b892bc5051f593dcd1eb56e66e1d030216f6788f4a9c5c9ddf6",
+  "sheets": {
+   "Báo cáo": 47
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QIII.24.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10204,
+  "sha256": "000e2745ac0a8cef27cb0cc54dd593d360b226ad3595ad39c81ad0e1cee1c6fd",
+  "sheets": {
+   "Báo cáo": 45
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QIV.24.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10207,
+  "sha256": "7b44e4175b87cb147254cf7971ded833a118e2bf0062d5e61c848e346e6e3049",
+  "sheets": {
+   "Báo cáo": 47
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUÝ III.23.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10727,
+  "sha256": "44225b0b6490451baabaee8dcabf8ccfb2352555932d51b06732514fe57a950a",
+  "sheets": {
+   "Báo cáo": 56
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QI.25.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 9828,
+  "sha256": "9e07b80b85375cad8c394c7e7d7ce3ba964a046cbfdc7fd5fa3fa21f32248ba7",
+  "sheets": {
+   "Báo cáo": 37
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BANG KE MUA VAO QUY I. 20.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 8309,
+  "sha256": "c4de4b0f67974e72bb8f42e0a5852826adc0e3cfd0e31a5f24a91dd024f79fab",
+  "sheets": {
+   "Báo cáo": 18
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QIII.25.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 14106,
+  "sha256": "cbde4e4ee215de70860665a754e2941e0dc06d7875fbd6e213a3c8824e2cd9b8",
+  "sheets": {
+   "Báo cáo": 115
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BANG KE MUA VAO QUY III. 20.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 8765,
+  "sha256": "f1ac085c77ccfdbdbfe3b94012fa8511cd9279a3f1cfd488c187266f10ca55ac",
+  "sheets": {
+   "Báo cáo": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUY I. 21.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 8987,
+  "sha256": "d86a4b3bcc36ce26b24dccde14d1af1d47a81b854c3ec655cbb2a0708e5f1a74",
+  "sheets": {
+   "Báo cáo": 28
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\TH HD MV.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 432382,
+  "sha256": "80076e25d71ebca02d44352655d3f51b67a09779b9c6c6cc922a25dbd01f45f3",
+  "sheets": {
+   "PV MV": 97,
+   "MUA VAO": 2115,
+   "Sheet1": 1
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUÝ IV. 22.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 9790,
+  "sha256": "af5da261340c97af4b1478db20ff772d3272a0d679a223676b1b6070e487df75",
+  "sheets": {
+   "Báo cáo": 43
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BANG KE MUA VAO QUY II. 20.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 8177,
+  "sha256": "82809bd0583e14c6b89efb3449f200dea6ab52d3f737e1316eb80a52f461617a",
+  "sheets": {
+   "Báo cáo": 15
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QII.25.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 11841,
+  "sha256": "af08ebecdd8660bb680344d3c2225121ca5c39b3be64f727ba1737b42c02e86f",
+  "sheets": {
+   "Báo cáo": 66
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BANG KE MUA VAO QUY IV. 20.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 9608,
+  "sha256": "b75785ebb27e6f32ef32592dcd1f5ea064765d7922679eca2872958c88802cd6",
+  "sheets": {
+   "Báo cáo": 41
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BANG KE MUA VAO QUY II. 21.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10184,
+  "sha256": "6f60464a1b46239dc97ae9b4886bcb6dd18abecc4b742e598cc8f903145f7ea1",
+  "sheets": {
+   "Báo cáo": 51
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUY III. 22.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 11949,
+  "sha256": "e180120fa1e8ff037bb18bfc09b733bdace9ddc6c288a16664b6448365c8daa8",
+  "sheets": {
+   "Báo cáo": 82
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\BẢNG KÊ MUA VÀO QUY II. 22.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 10447,
+  "sha256": "bd75c09b737fc7cc167856f97749f651cf2822c0e1acddbe7eed43a9370a4a7c",
+  "sheets": {
+   "Báo cáo": 53
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\2021_Bảng kê bán ra 2021.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 38072,
+  "sha256": "27618cd4231ac22af74c902c43fcfdcd8b3bce2df4439b2b0a5ff074fe69bb43",
+  "sheets": {
+   "Page 1": 271
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\2021_Bảng kê mua vào 2021.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 34781,
+  "sha256": "18f2d993ab8d74ace715a0dda094941346aa35bb25dc4bf38d26608fd61b38fe",
+  "sheets": {
+   "Page 1": 236
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\2020_Bảng kê bán ra 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 19717,
+  "sha256": "3185be59b8b3386f939ec1fac73e4ad3acb3aa9a76016cc73e1c8b88876c74ef",
+  "sheets": {
+   "Báo cáo": 230
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\2020_Bảng kê mua vào 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 12129,
+  "sha256": "488e2a5cee96121127a2e364c07ce7f02164d93243e49560068114f1c86cd63d",
+  "sheets": {
+   "Báo cáo": 85
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\TH_Bảng kê bán ra năm 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 47043,
+  "sha256": "4e2b7f742b483046c53ebe49d408498f21bd0d161bb233cd1f9243f826d9ab72",
+  "sheets": {
+   "Page 1": 350
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\TH_Bảng kê bán ra năm 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 43702,
+  "sha256": "d67729c5a17e582db3f2012454f5d511561bd3c19bc779d003eff9b6cc44b70b",
+  "sheets": {
+   "Page 1": 314
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\TH_Bảng kê bán ra năm 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 46668,
+  "sha256": "4bd35328d5381d8702c12697561d4e37b002e5294c178a83caa03fe94344034a",
+  "sheets": {
+   "Page 1": 350
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\TH_Bảng kê mua vào năm 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 44896,
+  "sha256": "1393e949c4bf00b111f5586da9631fcfe11a5cac2f27433b1db029191c9e5023",
+  "sheets": {
+   "Page 1": 329
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\TH_Bảng kê mua vào năm 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 42704,
+  "sha256": "96f4f76a591f1952e20f24a8b408d089ba2b70efaa4ce81ed439e66a05962776",
+  "sheets": {
+   "Page 1": 298
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.5. Bang ke mua vao ban ra\\TH_Bảng kê mua vào năm 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 46161,
+  "sha256": "f94602a634cb475db8721e5bc4baa70a57ebd82efe72a1cb36188f52caf666e7",
+  "sheets": {
+   "Page 1": 337
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2021_TK 152.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 47550,
+  "sha256": "ad416b76b65b72ec1535ed9aee116e0129c211f4e22765858c7bf4e69642aaaf",
+  "sheets": {
+   "Page 1": 350
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2021_TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 69630,
+  "sha256": "0af0a0ec367c24deeff73245bce32d2c96e6610feae72a8a528fda78e0f07e67",
+  "sheets": {
+   "Page 1": 551
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2021_TK 155.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 66370,
+  "sha256": "87e2ed6af0bf1e9a6cea790a1bfad6c1996cc19b27440dd82c00f726fde34e47",
+  "sheets": {
+   "Page 1": 522
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2021_TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 33024,
+  "sha256": "f1f784e73e7680bdea8c36abf69b664f466fef897f54841cf0ce547c5db97d96",
+  "sheets": {
+   "Page 1": 211
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2020_Sổ chi tiết kho hàng hoá.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 17552,
+  "sha256": "cb73d79199cddaa2ec056f6226b6295e7a8474e7cb3c7e79d427bfb364e3a198",
+  "sheets": {
+   "Báo cáo": 138
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2020_Sổ chi tiết kho NVL.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 477091,
+  "sha256": "2a66ad9ec7b562e8fd814bdc6b5249fd2d470ddad5d8560ebd4146f2e85af1f3",
+  "sheets": {
+   "Báo cáo": 7104
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2020_Sổ chi tiết kho thành phẩm.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 991691,
+  "sha256": "4bc6c92bfdec0c61460fed6642e3e0d12c8bcaf598fc14f43f7cd3b65ad4eb78",
+  "sheets": {
+   "Báo cáo": 16928
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2020_Sổ tổng hợp tồn kho.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 200900,
+  "sha256": "61584c775ada172e6ca351cd892095b3c0de947321ef10b5c77a20d871ce5635",
+  "sheets": {
+   "Báo cáo": 3471
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2023_TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 21036,
+  "sha256": "f82ef8aaf5a94c94685f6de74616193c96edde5c76eea22c153290eb6a696058",
+  "sheets": {
+   "Page 1": 118
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2023_TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 24340,
+  "sha256": "bab1b60c45e82aefca4270a9d49484abc52374ad0f9182e3cc7ec89ececfcb80",
+  "sheets": {
+   "Page 1": 149
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2024_TK 152.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11083,
+  "sha256": "46083362c80b45157d624796f7d44cca3863e1d0976da7beaba21569defb2bad",
+  "sheets": {
+   "Page 1": 25
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2024_TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 39038,
+  "sha256": "2f926cb14d086a0a14d28563cbfc448871d5d81a13c2589ac568d2dd6bdb291a",
+  "sheets": {
+   "Page 1": 318
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2024_TK 155.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11693,
+  "sha256": "3c3c835831619c65625cc1ae46433ad9f3943fd26781c7e1b1ff906badda611c",
+  "sheets": {
+   "Page 1": 27
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2024_TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 108787,
+  "sha256": "4076a8b92e35409cb6f844d7822796b943f3a7cc3de1b8fa304eccf9fcb9051d",
+  "sheets": {
+   "Page 1": 1104
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2022_TK 152.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11501,
+  "sha256": "50d4639c383bde4979ca9973bc9611df6e4d22e280b327e34346e5a71f4386d7",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2022_TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 29638,
+  "sha256": "9eb47f665b42e201ce94b513ae37608d10db55236bda8f9f732bf810285d71d7",
+  "sheets": {
+   "Page 1": 196
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2022_TK 155.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11661,
+  "sha256": "aa9e14f77c947c1f6d403fae1dcc540be432ac4dfe1cb1af821dd08951956e1c",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.2. Kho - Chi phi - Gia thanh\\2022_TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 38323,
+  "sha256": "c443d5800b46f35163dfbdf60c98e135eeac798e78a708dc6bcacf12169d1cf6",
+  "sheets": {
+   "Page 1": 278
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\Lich su cty Tam Thien Ni.XLSX",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11987,
+  "sha256": "7ab6ade9539b79a813590cdbc275cb50162a6087f1430d3da36f4c5caadbb38e",
+  "sheets": {
+   "Sheet1": 143
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\TONG HOP TẤT CẢ_filtered.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 24086,
+  "sha256": "4c76761e746a6126021460a736834ea26cf8470a3dc24f72590ce19627198f78",
+  "sheets": {
+   "GTGT 01": 24,
+   "QT TNDN 03": 7,
+   "TNCN": 16,
+   "QT TNCN": 7,
+   "BCTC 133_B01a": 6,
+   "MBAI": 2
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\BCTC   bo sung .xls",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xls",
+  "size": 116736,
+  "sha256": "97ffd5891ff2bcad77105e2bbce6b29f1c177ee6684afd3a14e0343dbb17bd9b",
+  "sheets": {
+   "Page 1": 355
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\BCTC   bo sung .xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 44217,
+  "sha256": "05407663a22b139ba1084ba6a03c0acea7858d3ee65e4cd275e4f0f0c7ff4ace",
+  "sheets": {
+   "Page 1": 359
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\danh sách lọc lại.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 15534,
+  "sha256": "067ed7f16a08cd9123c62260425f07da3da3a240c8b5c77f8d68ec4e8a56cc8a",
+  "sheets": {
+   "Sheet1": 77
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\TB01   bo sung",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": "",
+  "size": 6862,
+  "sha256": "93ad4b00d6216b7f510372b3773540db2c52171dd699231fb7ba58bb0bc4be7b",
+  "sheets": null
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\TO_KHAI_000.713.18.G12-260331-27130100668351.zip",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".zip",
+  "size": 4642,
+  "sha256": "0b1394d37c8f3ed2431695859fe2f858c7baf2e2b9ce26d00c362d842a2eb414",
+  "sheets": null
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\BCTC   bo sung",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": "",
+  "size": 42119,
+  "sha256": "bbe017a02f7b6cbf24fa51c46581421c739644885bf663bee13cb4df0b0e9fe1",
+  "sheets": null
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\TO_KHAI_000.713.18.G12-260331-27130100669159.zip",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".zip",
+  "size": 4589,
+  "sha256": "5ca3452162d83277d0063e809a535b383b210be946d916fcb533b25a9fc41561",
+  "sheets": null
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_So_nhat_ky_chung.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 432375,
+  "sha256": "9162f90693a9e921aca9bfc4f0ef475c1731a200dbfc6af4bb2b6d95ec21be76",
+  "sheets": {
+   "Page 1": 4955
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 57037,
+  "sha256": "02bdbd6d4e69f7c3f61b42bf8c1f55110753c1678878e74c518e4f6cb83947ff",
+  "sheets": {
+   "Page 1": 450
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 112651,
+  "sha256": "aecbd3b42a43012fa1d36973f6133abbe2858d57a05c4e2cee724250e04cb021",
+  "sheets": {
+   "Page 1": 1007
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 43525,
+  "sha256": "89ba69cffabd0ef2f709d40844a0d4b2cfa98a09c0f63d1789897cceb89198ce",
+  "sheets": {
+   "Page 1": 322
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 44914,
+  "sha256": "224d95032052c7c2d387cf748fe6f967dc44396e4cbe9a967d4ad98aefe53901",
+  "sheets": {
+   "Page 1": 315
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_TK 338.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 14245,
+  "sha256": "e24c5ec3b77df8fe190c43b649689ac1dcb085698e119f24f475234ffe3070f9",
+  "sheets": {
+   "Page 1": 48
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 12150,
+  "sha256": "0409fceeb08746e8b0fca7baa9838b208ffb35908b3f22f9d02b96f5273b7993",
+  "sheets": {
+   "Page 1": 27
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2021_TK 511.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 44331,
+  "sha256": "2b1e4b68886d1ae355afd3a7c7df0e04e05ce5fea2318ff8f96578e0492cafed",
+  "sheets": {
+   "Page 1": 312
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2020_Bảng tính khấu hao TSCĐ.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 8102,
+  "sha256": "53e9bab323bc1cd3e379b8b6323210452770b282583ddc5f9151aac48070b920",
+  "sheets": {
+   "Báo cáo": 6
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2020_CHI_TIET_CONG_NO_PHAI_THU 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 39628,
+  "sha256": "be566f3d13d0b887c1815db461a969dc4544cd812d9468ad4aef42765323eced",
+  "sheets": {
+   "Báo cáo": 594
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2020_CHI_TIET_CONG_NO_PHAI_TRA 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 12386,
+  "sha256": "d5f00547880865976b41bc6de42f1a5c80aa1013f247b96532ce37a4f8785cb3",
+  "sheets": {
+   "Báo cáo": 94
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2020_SO_NHAT_KY_CHUNG 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 136338,
+  "sha256": "ae72b863fc056e366b8d267cf072741988d18b70a229802f74516a2d5e3d1b9d",
+  "sheets": {
+   "Báo cáo": 3362
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\TH_So_nhat_ky_chung 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 384231,
+  "sha256": "3e0b990869f98d30f30459c1a1e3be006f772b83005f2c98f47a8abd0e9f51d6",
+  "sheets": {
+   "Page 1": 4422
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\TH_So_nhat_ky_chung 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 333496,
+  "sha256": "70d383a233ea498aafde5fce97baf10ae71f35962c7148e8383f20d1e5025a3c",
+  "sheets": {
+   "Page 1": 3793
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\TH_So_nhat_ky_chung 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 368901,
+  "sha256": "b1e9fe3a76256db9aacd9865d48f6b3f55e5358c08e67b5bed256fa6b67fd6b8",
+  "sheets": {
+   "Page 1": 4205
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 34450,
+  "sha256": "21924bac7c557ac65c90b7f6f0940b8c283eb743be6850046c8bc605bed5abff",
+  "sheets": {
+   "Page 1": 249
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 113539,
+  "sha256": "5fda9de6600ab86a7cc955c5b8fb29e9f0d1f596489313c366b5c4c221fb940e",
+  "sheets": {
+   "Page 1": 1056
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 1331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 32782,
+  "sha256": "03e91102cf026cd0ced24b3867ee0b17553dca4a86e0e74d6a6edd53e228ba6b",
+  "sheets": {
+   "Page 1": 227
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 43043,
+  "sha256": "b5bd40557d9e8811e1e8317d67ab38266865c2092a01e667dc61b35c75f18051",
+  "sheets": {
+   "Page 1": 342
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 45148,
+  "sha256": "1cbb95270c58e1b755b67b2c17427743c4d4f3f8637e29b893ea892c98f568e9",
+  "sheets": {
+   "Page 1": 345
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 3339.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 13071,
+  "sha256": "ecfbb47e53f5c08c3ebd27bf900fa68ad7a9b8b75e3d71d43acbf518ab6a6e21",
+  "sheets": {
+   "Page 1": 42
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 3383.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 15144,
+  "sha256": "2323e3d1ef55f74ac437555e698bbaf9667e84c2350d644ba72d56def74a14c2",
+  "sheets": {
+   "Page 1": 58
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 3388.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11804,
+  "sha256": "1687a8ac0dd324c248731624f169e22ac7efce8eda033a0152b53eed646b4fa4",
+  "sheets": {
+   "Page 1": 24
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2023_TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 13328,
+  "sha256": "7c8cb7985c17054b3a41b1d1b021bdf299345a66366b11839ca565a209d4eb66",
+  "sheets": {
+   "Page 1": 45
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2024_TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 46655,
+  "sha256": "fe2a5ea5054d9dc637def0dc8ffe3921a85d35e530d49042f458a9ca1c735faf",
+  "sheets": {
+   "Page 1": 361
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2024_TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 5964342,
+  "sha256": "46692500d4b7f62684bdce53399b49fe386c354a8b2ae705a5e1e7b69db172dc",
+  "sheets": {
+   "Page 1": 62398
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2024_TK 1331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 65793,
+  "sha256": "9027512aa35d5ba941c2bf13b213574e445ac4b5acc2ef9b618a959590cf04c7",
+  "sheets": {
+   "Page 1": 576
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2024_TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 90247,
+  "sha256": "97cbdd26e430bf41d50beedae87d76235f1284f1f1962c6945519783f02b78ad",
+  "sheets": {
+   "Page 1": 851
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2024_TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 2936505,
+  "sha256": "a9e8735e68cebce778bcc8c9c4e1d0ff2a24b2da6e1e3f32469d02477be332c9",
+  "sheets": {
+   "Page 1": 31262
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2024_TK 3383.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 14414,
+  "sha256": "70eb803f2819f2d4ccb424b609353813c3a469dad10d15a5443b268aae55ea32",
+  "sheets": {
+   "Page 1": 56
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2024_TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 12702,
+  "sha256": "452422f8a49bb181fd1074645f4c210b195d6a2d082c21ca34313b1d77c1ff91",
+  "sheets": {
+   "Page 1": 35
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 38898,
+  "sha256": "fb2f5e0431fef69784dff4bb9a16c3bdbe3b72a454508033dfd4988faf4e9c68",
+  "sheets": {
+   "Page 1": 281
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 133773,
+  "sha256": "ecf086d7292ee867342941688bb81f7cad8be9b8e0cddce903b49dee19b2fa33",
+  "sheets": {
+   "Page 1": 1208
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 1331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 43571,
+  "sha256": "987371611db31d13ee72cd08cf0c0bdf50b91ced908022ab516766efdace471a",
+  "sheets": {
+   "Page 1": 319
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 1388.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11024,
+  "sha256": "612e965479bc5f25783e676ec316afe95e90c99875453dd1004c9afd42870dfc",
+  "sheets": {
+   "Page 1": 24
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 70246,
+  "sha256": "4fae560e8f0dc6e732c5553155393610734b2b382a28e200b2d1cd35b15bf5e6",
+  "sheets": {
+   "Page 1": 594
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 51862,
+  "sha256": "c6b93cdca82b4195f48fb91868418339ae626f3d23501ee6ae4161010cdba3be",
+  "sheets": {
+   "Page 1": 398
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11678,
+  "sha256": "e5b9421c50418488a2e8049067497e02d00e5ae9dea93aaeba035e902a1c1a8c",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3339.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11522,
+  "sha256": "4733af839702f77279f869bdd41712337e58bd1ea8b504c9c3ee17d4e727b179",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3383.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 14761,
+  "sha256": "427911875e04d69d895c97ec0ba06b36932650f4946c4e99a332b36ccf878e03",
+  "sheets": {
+   "Page 1": 56
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3384.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11319,
+  "sha256": "52e795038833cbcd2ba1a9c412994f859d7f8814c165b12b99ddf4d0d2cd41b1",
+  "sheets": {
+   "Page 1": 25
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3385.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11499,
+  "sha256": "8f8f1e59341724398c1a763c3d83458abf36984248aedcc2dd3a870af19b1c43",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3388.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11035,
+  "sha256": "368037aa14bc46739adae9e9b0f9bc9fcdc3ba215b53371778eddc2981655c98",
+  "sheets": {
+   "Page 1": 24
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 13049,
+  "sha256": "1d4221c2cb99c60fb583f2f656aa69de12181ba5fad8ff8c0efc34d383a80dae",
+  "sheets": {
+   "Page 1": 35
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 4211.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11504,
+  "sha256": "f53f1437e2f2ff3adaf88367234574ceb5892b67dbdcb7c2b24e94860230e89d",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 5111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 28032,
+  "sha256": "072449761c4d5c87d533125f5764e06f2b253814d6d699ba002af4ef6420b3d7",
+  "sheets": {
+   "Page 1": 183
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 5112.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 49537,
+  "sha256": "a35b586e9db5f6c471fdcf474b40933adf18a2f2f61beab3d2dead284cdf0d49",
+  "sheets": {
+   "Page 1": 376
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 5118.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 11559,
+  "sha256": "4b210f719db586fbe0358b89cc8474a6a7baf92a5bda0386b283f68f88e46bcd",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 515.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 12693,
+  "sha256": "0b494491fbd201ac330f3d2565b6e94b8f76d83982cb859bdd3e0223707ccad7",
+  "sheets": {
+   "Page 1": 33
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 821.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11504,
+  "sha256": "d5bae9246c943ea8c399592f692521245c004a1c39fe68c03a27e1f7c94922bc",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.1. So ke toan tong hop va chi tiet\\2022_TK 911.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 12403,
+  "sha256": "b6ae5dea77289e49aa50db15e7be7f554b94768cc8d1dfd94a5bff86277ec5b4",
+  "sheets": {
+   "Page 1": 31
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2021_LƯƠNG 2021 PHÚC NGUYÊN TIẾN.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 150786,
+  "sha256": "7ef8201ebcc89373d708420a13d4d4165854321b4478807bccfbba6e4aaf972e",
+  "sheets": {
+   "t1": 45,
+   "t2": 54,
+   "t3": 55,
+   "t4": 55,
+   "t5": 38,
+   "t6": 39,
+   "t7": 26,
+   "t8": 26,
+   "t9": 25,
+   "T10": 26,
+   "T11": 27,
+   "t12": 29,
+   "BBC": 289
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2021_S09_DNN_So_tai_san_co_dinh.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 18071,
+  "sha256": "c15b652c7d77c01b15cd14d3af277b7fee4c44ed06e63ea979ee7e55bc35eb1c",
+  "sheets": {
+   "Page 1": 77
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2021_TK 334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 17329,
+  "sha256": "5055b917a35052e3b93f98ca1393509c317b9202acb2407eea26d28c9b586b61",
+  "sheets": {
+   "Page 1": 82
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2020_bảng lương 2020 PHÚC NGUYÊN TIẾN.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 407839,
+  "sha256": "d4387736eb999c0458f70eb925e007841562606546d10156d643e9a5eb6cb400",
+  "sheets": {
+   "TNCN": 262,
+   "Thưởng 2020": 234,
+   "Sheet1": 72,
+   "T01": 800,
+   "BCC T1": 51,
+   "BCC T2": 66,
+   "BCC T3": 62,
+   "BCC T4": 63,
+   "BCC T5": 65,
+   "BCC T6": 63,
+   "BCC T7": 62,
+   "BCC T8": 62,
+   "BCC T9": 63,
+   "BCC T10": 65,
+   "BCC T11": 62,
+   "BCC T12": 63
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2023_BẢNG LƯƠNG 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 1314542,
+  "sha256": "3236dc41b56d745aa6928ea68718a09d0ca9dc9236b79aa60942a9976ac3e32f",
+  "sheets": {
+   "T1": 413,
+   "T2": 411,
+   "T3": 412,
+   "T4": 434,
+   "T5": 434,
+   "T6": 434,
+   "T7": 433,
+   "T8": 433,
+   "T9": 433,
+   "T10": 433,
+   "T11": 433,
+   "T12": 433,
+   "BCC": 423,
+   "TNCN": 437
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2023_TK 242.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 13202,
+  "sha256": "e8480fca77def5491b36f459751b4b3c0d44bb62d0e94e5919012091b13fa5f5",
+  "sheets": {
+   "Page 1": 42
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2023_TK 334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 15387,
+  "sha256": "52b17b4989c25efc87e2b47deee18863b5a8d8999059e6ac2c94c6a4fce8df5d",
+  "sheets": {
+   "Page 1": 67
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2024_BẢNG LƯƠNG 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 1335075,
+  "sha256": "67eaea21a09408bd6e74b2fb3e458e284b2951084b61bf76c1652822a77dd8a1",
+  "sheets": {
+   "T1": 433,
+   "T2": 433,
+   "T3": 433,
+   "T4": 433,
+   "T5": 433,
+   "T6": 433,
+   "T7": 435,
+   "T8": 435,
+   "T9": 435,
+   "T10": 435,
+   "T11": 435,
+   "T12": 435,
+   "BCC": 491,
+   "TNCN": 438,
+   "Sheet1": 9
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2024_TK 242.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 12742,
+  "sha256": "94b6cdf1a831f03c304fefac963da5386ed286aabf83e3fe7199acc7ac18c404",
+  "sheets": {
+   "Page 1": 33
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2022_BẢNG LƯƠNG 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 1141252,
+  "sha256": "fe1833c31053e665095f25570f9e925f9fc7f5c26cba761e414af55622b308f4",
+  "sheets": {
+   "T1": 22,
+   "T2": 394,
+   "T3": 372,
+   "T4": 398,
+   "5": 364,
+   "6": 371,
+   "7": 304,
+   "8": 402,
+   "9": 405,
+   "10": 316,
+   "11": 410,
+   "12": 421,
+   "BCC": 217
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2022_TK 242.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 13180,
+  "sha256": "0112a9ce49f430a35f6870ad1807d85be53e7018a411b6ae6adafa6a9b8c0cac",
+  "sheets": {
+   "Page 1": 45
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\2.4. Lao dong - Tien luong - TSCD\\2022_TK 334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 15523,
+  "sha256": "3158bdd4f0c8484a77b061059fd37298a0f4aa6c3be3b674ccf072d61059e3a3",
+  "sheets": {
+   "Page 1": 61
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\Bảng kê bán ra 2021.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 38072,
+  "sha256": "27618cd4231ac22af74c902c43fcfdcd8b3bce2df4439b2b0a5ff074fe69bb43",
+  "sheets": {
+   "Page 1": 271
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\Bảng kê mua vào 2021.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 34781,
+  "sha256": "18f2d993ab8d74ace715a0dda094941346aa35bb25dc4bf38d26608fd61b38fe",
+  "sheets": {
+   "Page 1": 236
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\LƯƠNG 2021 PHÚC NGUYÊN TIẾN.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 150786,
+  "sha256": "7ef8201ebcc89373d708420a13d4d4165854321b4478807bccfbba6e4aaf972e",
+  "sheets": {
+   "t1": 45,
+   "t2": 54,
+   "t3": 55,
+   "t4": 55,
+   "t5": 38,
+   "t6": 39,
+   "t7": 26,
+   "t8": 26,
+   "t9": 25,
+   "T10": 26,
+   "T11": 27,
+   "t12": 29,
+   "BBC": 289
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\S09_DNN_So_tai_san_co_dinh.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 18071,
+  "sha256": "c15b652c7d77c01b15cd14d3af277b7fee4c44ed06e63ea979ee7e55bc35eb1c",
+  "sheets": {
+   "Page 1": 77
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\So_nhat_ky_chung.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 432375,
+  "sha256": "9162f90693a9e921aca9bfc4f0ef475c1731a200dbfc6af4bb2b6d95ec21be76",
+  "sheets": {
+   "Page 1": 4955
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\So_tien_gui_ngan_hang.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 50741,
+  "sha256": "ee27001c8c628072c32d94a3e96c048ce8b09d91bf4426bbba0093048d78cdd3",
+  "sheets": {
+   "Page 1": 410
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 57037,
+  "sha256": "02bdbd6d4e69f7c3f61b42bf8c1f55110753c1678878e74c518e4f6cb83947ff",
+  "sheets": {
+   "Page 1": 450
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 57332,
+  "sha256": "d1a71ca3253de401455e8dd25c162e48ba7df8f39038f829c3077599980f7b0a",
+  "sheets": {
+   "Page 1": 440
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 112651,
+  "sha256": "aecbd3b42a43012fa1d36973f6133abbe2858d57a05c4e2cee724250e04cb021",
+  "sheets": {
+   "Page 1": 1007
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 152.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 47550,
+  "sha256": "ad416b76b65b72ec1535ed9aee116e0129c211f4e22765858c7bf4e69642aaaf",
+  "sheets": {
+   "Page 1": 350
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 69630,
+  "sha256": "0af0a0ec367c24deeff73245bce32d2c96e6610feae72a8a528fda78e0f07e67",
+  "sheets": {
+   "Page 1": 551
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 155.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 66370,
+  "sha256": "87e2ed6af0bf1e9a6cea790a1bfad6c1996cc19b27440dd82c00f726fde34e47",
+  "sheets": {
+   "Page 1": 522
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 33024,
+  "sha256": "f1f784e73e7680bdea8c36abf69b664f466fef897f54841cf0ce547c5db97d96",
+  "sheets": {
+   "Page 1": 211
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 43525,
+  "sha256": "89ba69cffabd0ef2f709d40844a0d4b2cfa98a09c0f63d1789897cceb89198ce",
+  "sheets": {
+   "Page 1": 322
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 44914,
+  "sha256": "224d95032052c7c2d387cf748fe6f967dc44396e4cbe9a967d4ad98aefe53901",
+  "sheets": {
+   "Page 1": 315
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 17329,
+  "sha256": "5055b917a35052e3b93f98ca1393509c317b9202acb2407eea26d28c9b586b61",
+  "sheets": {
+   "Page 1": 82
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 338.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 14245,
+  "sha256": "e24c5ec3b77df8fe190c43b649689ac1dcb085698e119f24f475234ffe3070f9",
+  "sheets": {
+   "Page 1": 48
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 12150,
+  "sha256": "0409fceeb08746e8b0fca7baa9838b208ffb35908b3f22f9d02b96f5273b7993",
+  "sheets": {
+   "Page 1": 27
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2021\\TK 511.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 44331,
+  "sha256": "2b1e4b68886d1ae355afd3a7c7df0e04e05ce5fea2318ff8f96578e0492cafed",
+  "sheets": {
+   "Page 1": 312
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\Bảng kê bán ra 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 19717,
+  "sha256": "3185be59b8b3386f939ec1fac73e4ad3acb3aa9a76016cc73e1c8b88876c74ef",
+  "sheets": {
+   "Báo cáo": 230
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\Bảng kê mua vào 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 12129,
+  "sha256": "488e2a5cee96121127a2e364c07ce7f02164d93243e49560068114f1c86cd63d",
+  "sheets": {
+   "Báo cáo": 85
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\bảng lương 2020 PHÚC NGUYÊN TIẾN.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 407839,
+  "sha256": "d4387736eb999c0458f70eb925e007841562606546d10156d643e9a5eb6cb400",
+  "sheets": {
+   "TNCN": 262,
+   "Thưởng 2020": 234,
+   "Sheet1": 72,
+   "T01": 800,
+   "BCC T1": 51,
+   "BCC T2": 66,
+   "BCC T3": 62,
+   "BCC T4": 63,
+   "BCC T5": 65,
+   "BCC T6": 63,
+   "BCC T7": 62,
+   "BCC T8": 62,
+   "BCC T9": 63,
+   "BCC T10": 65,
+   "BCC T11": 62,
+   "BCC T12": 63
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\Bảng tính khấu hao TSCĐ.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 8102,
+  "sha256": "53e9bab323bc1cd3e379b8b6323210452770b282583ddc5f9151aac48070b920",
+  "sheets": {
+   "Báo cáo": 6
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\CHI_TIET_CONG_NO_PHAI_THU 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 39628,
+  "sha256": "be566f3d13d0b887c1815db461a969dc4544cd812d9468ad4aef42765323eced",
+  "sheets": {
+   "Báo cáo": 594
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\CHI_TIET_CONG_NO_PHAI_TRA 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 12386,
+  "sha256": "d5f00547880865976b41bc6de42f1a5c80aa1013f247b96532ce37a4f8785cb3",
+  "sheets": {
+   "Báo cáo": 94
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\SO_NHAT_KY_CHUNG 2020.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 136338,
+  "sha256": "ae72b863fc056e366b8d267cf072741988d18b70a229802f74516a2d5e3d1b9d",
+  "sheets": {
+   "Báo cáo": 3362
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\SO_TIEN_GUI_NGAN_HANG.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 16781,
+  "sha256": "6a7dc9f7b14e28fa83d42d583b2bceafef0846d54889c91ee4bc6f4b156ae4a3",
+  "sheets": {
+   "Báo cáo": 196
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\Sổ chi tiết kho hàng hoá.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 17552,
+  "sha256": "cb73d79199cddaa2ec056f6226b6295e7a8474e7cb3c7e79d427bfb364e3a198",
+  "sheets": {
+   "Báo cáo": 138
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\Sổ chi tiết kho NVL.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 477091,
+  "sha256": "2a66ad9ec7b562e8fd814bdc6b5249fd2d470ddad5d8560ebd4146f2e85af1f3",
+  "sheets": {
+   "Báo cáo": 7104
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\Sổ chi tiết kho thành phẩm.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 991691,
+  "sha256": "4bc6c92bfdec0c61460fed6642e3e0d12c8bcaf598fc14f43f7cd3b65ad4eb78",
+  "sheets": {
+   "Báo cáo": 16928
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2020\\Sổ tổng hợp tồn kho.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 200900,
+  "sha256": "61584c775ada172e6ca351cd892095b3c0de947321ef10b5c77a20d871ce5635",
+  "sheets": {
+   "Báo cáo": 3471
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\Bảng kê bán ra năm 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 47043,
+  "sha256": "4e2b7f742b483046c53ebe49d408498f21bd0d161bb233cd1f9243f826d9ab72",
+  "sheets": {
+   "Page 1": 350
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\Bảng kê bán ra năm 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 43702,
+  "sha256": "d67729c5a17e582db3f2012454f5d511561bd3c19bc779d003eff9b6cc44b70b",
+  "sheets": {
+   "Page 1": 314
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\Bảng kê bán ra năm 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 46668,
+  "sha256": "4bd35328d5381d8702c12697561d4e37b002e5294c178a83caa03fe94344034a",
+  "sheets": {
+   "Page 1": 350
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\Bảng kê mua vào năm 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 44896,
+  "sha256": "1393e949c4bf00b111f5586da9631fcfe11a5cac2f27433b1db029191c9e5023",
+  "sheets": {
+   "Page 1": 329
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\Bảng kê mua vào năm 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 42704,
+  "sha256": "96f4f76a591f1952e20f24a8b408d089ba2b70efaa4ce81ed439e66a05962776",
+  "sheets": {
+   "Page 1": 298
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\Bảng kê mua vào năm 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 46161,
+  "sha256": "f94602a634cb475db8721e5bc4baa70a57ebd82efe72a1cb36188f52caf666e7",
+  "sheets": {
+   "Page 1": 337
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\So_nhat_ky_chung 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 384231,
+  "sha256": "3e0b990869f98d30f30459c1a1e3be006f772b83005f2c98f47a8abd0e9f51d6",
+  "sheets": {
+   "Page 1": 4422
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\So_nhat_ky_chung 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 333496,
+  "sha256": "70d383a233ea498aafde5fce97baf10ae71f35962c7148e8383f20d1e5025a3c",
+  "sheets": {
+   "Page 1": 3793
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\So_nhat_ky_chung 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 368901,
+  "sha256": "b1e9fe3a76256db9aacd9865d48f6b3f55e5358c08e67b5bed256fa6b67fd6b8",
+  "sheets": {
+   "Page 1": 4205
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\So_tien_gui_ngan_hang 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 67691,
+  "sha256": "0b344381a3502e6495766893399c3fbff7ec50fa945981378a5afa6485711550",
+  "sheets": {
+   "Page 1": 587
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\So_tien_gui_ngan_hang 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 66513,
+  "sha256": "c44b0d1148790e3e6d2881afe39805abb120c8d226023c94acd670159491ce1f",
+  "sheets": {
+   "Page 1": 547
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\SỔ TỔNG HỢP\\So_tien_gui_ngan_hang 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 81437,
+  "sha256": "9c7359b1443c30a565837122f8d19e2609bc4492a5d74c17aa8f6463a47aac9d",
+  "sheets": {
+   "Page 1": 659
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\BẢNG LƯƠNG 2023.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 1314542,
+  "sha256": "3236dc41b56d745aa6928ea68718a09d0ca9dc9236b79aa60942a9976ac3e32f",
+  "sheets": {
+   "T1": 413,
+   "T2": 411,
+   "T3": 412,
+   "T4": 434,
+   "T5": 434,
+   "T6": 434,
+   "T7": 433,
+   "T8": 433,
+   "T9": 433,
+   "T10": 433,
+   "T11": 433,
+   "T12": 433,
+   "BCC": 423,
+   "TNCN": 437
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 34450,
+  "sha256": "21924bac7c557ac65c90b7f6f0940b8c283eb743be6850046c8bc605bed5abff",
+  "sheets": {
+   "Page 1": 249
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 67424,
+  "sha256": "c5e2a8a23d3ba0638bb1ccf6b2015a9b7d13703c2a7de34548043aeff6feced3",
+  "sheets": {
+   "Page 1": 564
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 113539,
+  "sha256": "5fda9de6600ab86a7cc955c5b8fb29e9f0d1f596489313c366b5c4c221fb940e",
+  "sheets": {
+   "Page 1": 1056
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 1331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 32782,
+  "sha256": "03e91102cf026cd0ced24b3867ee0b17553dca4a86e0e74d6a6edd53e228ba6b",
+  "sheets": {
+   "Page 1": 227
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 21036,
+  "sha256": "f82ef8aaf5a94c94685f6de74616193c96edde5c76eea22c153290eb6a696058",
+  "sheets": {
+   "Page 1": 118
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 24340,
+  "sha256": "bab1b60c45e82aefca4270a9d49484abc52374ad0f9182e3cc7ec89ececfcb80",
+  "sheets": {
+   "Page 1": 149
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 242.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 13202,
+  "sha256": "e8480fca77def5491b36f459751b4b3c0d44bb62d0e94e5919012091b13fa5f5",
+  "sheets": {
+   "Page 1": 42
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 43043,
+  "sha256": "b5bd40557d9e8811e1e8317d67ab38266865c2092a01e667dc61b35c75f18051",
+  "sheets": {
+   "Page 1": 342
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 45148,
+  "sha256": "1cbb95270c58e1b755b67b2c17427743c4d4f3f8637e29b893ea892c98f568e9",
+  "sheets": {
+   "Page 1": 345
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 3339.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 13071,
+  "sha256": "ecfbb47e53f5c08c3ebd27bf900fa68ad7a9b8b75e3d71d43acbf518ab6a6e21",
+  "sheets": {
+   "Page 1": 42
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 15387,
+  "sha256": "52b17b4989c25efc87e2b47deee18863b5a8d8999059e6ac2c94c6a4fce8df5d",
+  "sheets": {
+   "Page 1": 67
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 3383.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 15144,
+  "sha256": "2323e3d1ef55f74ac437555e698bbaf9667e84c2350d644ba72d56def74a14c2",
+  "sheets": {
+   "Page 1": 58
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 3388.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11804,
+  "sha256": "1687a8ac0dd324c248731624f169e22ac7efce8eda033a0152b53eed646b4fa4",
+  "sheets": {
+   "Page 1": 24
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2023\\TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 13328,
+  "sha256": "7c8cb7985c17054b3a41b1d1b021bdf299345a66366b11839ca565a209d4eb66",
+  "sheets": {
+   "Page 1": 45
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\BẢNG LƯƠNG 2024.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 1335075,
+  "sha256": "67eaea21a09408bd6e74b2fb3e458e284b2951084b61bf76c1652822a77dd8a1",
+  "sheets": {
+   "T1": 433,
+   "T2": 433,
+   "T3": 433,
+   "T4": 433,
+   "T5": 433,
+   "T6": 433,
+   "T7": 435,
+   "T8": 435,
+   "T9": 435,
+   "T10": 435,
+   "T11": 435,
+   "T12": 435,
+   "BCC": 491,
+   "TNCN": 438,
+   "Sheet1": 9
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 46655,
+  "sha256": "fe2a5ea5054d9dc637def0dc8ffe3921a85d35e530d49042f458a9ca1c735faf",
+  "sheets": {
+   "Page 1": 361
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 81983,
+  "sha256": "96e12055ecd41001ec5fdde66043bc97e4b39b43b237970d364dec5f75a2ba7e",
+  "sheets": {
+   "Page 1": 700
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 5964342,
+  "sha256": "46692500d4b7f62684bdce53399b49fe386c354a8b2ae705a5e1e7b69db172dc",
+  "sheets": {
+   "Page 1": 62398
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 1331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 65793,
+  "sha256": "9027512aa35d5ba941c2bf13b213574e445ac4b5acc2ef9b618a959590cf04c7",
+  "sheets": {
+   "Page 1": 576
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 152.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11083,
+  "sha256": "46083362c80b45157d624796f7d44cca3863e1d0976da7beaba21569defb2bad",
+  "sheets": {
+   "Page 1": 25
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 39038,
+  "sha256": "2f926cb14d086a0a14d28563cbfc448871d5d81a13c2589ac568d2dd6bdb291a",
+  "sheets": {
+   "Page 1": 318
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 155.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11693,
+  "sha256": "3c3c835831619c65625cc1ae46433ad9f3943fd26781c7e1b1ff906badda611c",
+  "sheets": {
+   "Page 1": 27
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 108787,
+  "sha256": "4076a8b92e35409cb6f844d7822796b943f3a7cc3de1b8fa304eccf9fcb9051d",
+  "sheets": {
+   "Page 1": 1104
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 242.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 12742,
+  "sha256": "94b6cdf1a831f03c304fefac963da5386ed286aabf83e3fe7199acc7ac18c404",
+  "sheets": {
+   "Page 1": 33
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 90247,
+  "sha256": "97cbdd26e430bf41d50beedae87d76235f1284f1f1962c6945519783f02b78ad",
+  "sheets": {
+   "Page 1": 851
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 2936505,
+  "sha256": "a9e8735e68cebce778bcc8c9c4e1d0ff2a24b2da6e1e3f32469d02477be332c9",
+  "sheets": {
+   "Page 1": 31262
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 3383.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 14414,
+  "sha256": "70eb803f2819f2d4ccb424b609353813c3a469dad10d15a5443b268aae55ea32",
+  "sheets": {
+   "Page 1": 56
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2024\\TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 12702,
+  "sha256": "452422f8a49bb181fd1074645f4c210b195d6a2d082c21ca34313b1d77c1ff91",
+  "sheets": {
+   "Page 1": 35
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\BẢNG LƯƠNG 2022.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 1141252,
+  "sha256": "fe1833c31053e665095f25570f9e925f9fc7f5c26cba761e414af55622b308f4",
+  "sheets": {
+   "T1": 22,
+   "T2": 394,
+   "T3": 372,
+   "T4": 398,
+   "5": 364,
+   "6": 371,
+   "7": 304,
+   "8": 402,
+   "9": 405,
+   "10": 316,
+   "11": 410,
+   "12": 421,
+   "BCC": 217
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 1111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN10_Chi_tien_mat",
+  "ext": ".xlsx",
+  "size": 38898,
+  "sha256": "fb2f5e0431fef69784dff4bb9a16c3bdbe3b72a454508033dfd4988faf4e9c68",
+  "sheets": {
+   "Page 1": 281
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 1121.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN11_Sao_ke_NH",
+  "ext": ".xlsx",
+  "size": 74896,
+  "sha256": "6284f01ea70b9ad7a4d746a35450605da4364fef93c2b5b11aa4bfc51e21108c",
+  "sheets": {
+   "Page 1": 633
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 131.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 133773,
+  "sha256": "ecf086d7292ee867342941688bb81f7cad8be9b8e0cddce903b49dee19b2fa33",
+  "sheets": {
+   "Page 1": 1208
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 1331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 43571,
+  "sha256": "987371611db31d13ee72cd08cf0c0bdf50b91ced908022ab516766efdace471a",
+  "sheets": {
+   "Page 1": 319
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 1388.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11024,
+  "sha256": "612e965479bc5f25783e676ec316afe95e90c99875453dd1004c9afd42870dfc",
+  "sheets": {
+   "Page 1": 24
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 152.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11501,
+  "sha256": "50d4639c383bde4979ca9973bc9611df6e4d22e280b327e34346e5a71f4386d7",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 154.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 29638,
+  "sha256": "9eb47f665b42e201ce94b513ae37608d10db55236bda8f9f732bf810285d71d7",
+  "sheets": {
+   "Page 1": 196
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 155.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 11661,
+  "sha256": "aa9e14f77c947c1f6d403fae1dcc540be432ac4dfe1cb1af821dd08951956e1c",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 156.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN09_Kho_GiaThanh",
+  "ext": ".xlsx",
+  "size": 38323,
+  "sha256": "c443d5800b46f35163dfbdf60c98e135eeac798e78a708dc6bcacf12169d1cf6",
+  "sheets": {
+   "Page 1": 278
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 242.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 13180,
+  "sha256": "0112a9ce49f430a35f6870ad1807d85be53e7018a411b6ae6adafa6a9b8c0cac",
+  "sheets": {
+   "Page 1": 45
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 70246,
+  "sha256": "4fae560e8f0dc6e732c5553155393610734b2b382a28e200b2d1cd35b15bf5e6",
+  "sheets": {
+   "Page 1": 594
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3331.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 51862,
+  "sha256": "c6b93cdca82b4195f48fb91868418339ae626f3d23501ee6ae4161010cdba3be",
+  "sheets": {
+   "Page 1": 398
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11678,
+  "sha256": "e5b9421c50418488a2e8049067497e02d00e5ae9dea93aaeba035e902a1c1a8c",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3339.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11522,
+  "sha256": "4733af839702f77279f869bdd41712337e58bd1ea8b504c9c3ee17d4e727b179",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 334.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN05/IN08 (luong, TSCD, CP tra truoc)",
+  "ext": ".xlsx",
+  "size": 15523,
+  "sha256": "3158bdd4f0c8484a77b061059fd37298a0f4aa6c3be3b674ccf072d61059e3a3",
+  "sheets": {
+   "Page 1": 61
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3383.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 14761,
+  "sha256": "427911875e04d69d895c97ec0ba06b36932650f4946c4e99a332b36ccf878e03",
+  "sheets": {
+   "Page 1": 56
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3384.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11319,
+  "sha256": "52e795038833cbcd2ba1a9c412994f859d7f8814c165b12b99ddf4d0d2cd41b1",
+  "sheets": {
+   "Page 1": 25
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3385.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11499,
+  "sha256": "8f8f1e59341724398c1a763c3d83458abf36984248aedcc2dd3a870af19b1c43",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3388.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11035,
+  "sha256": "368037aa14bc46739adae9e9b0f9bc9fcdc3ba215b53371778eddc2981655c98",
+  "sheets": {
+   "Page 1": 24
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 3411.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 13049,
+  "sha256": "1d4221c2cb99c60fb583f2f656aa69de12181ba5fad8ff8c0efc34d383a80dae",
+  "sheets": {
+   "Page 1": 35
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 4211.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11504,
+  "sha256": "f53f1437e2f2ff3adaf88367234574ceb5892b67dbdcb7c2b24e94860230e89d",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 5111.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 28032,
+  "sha256": "072449761c4d5c87d533125f5764e06f2b253814d6d699ba002af4ef6420b3d7",
+  "sheets": {
+   "Page 1": 183
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 5112.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 49537,
+  "sha256": "a35b586e9db5f6c471fdcf474b40933adf18a2f2f61beab3d2dead284cdf0d49",
+  "sheets": {
+   "Page 1": 376
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 5118.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 11559,
+  "sha256": "4b210f719db586fbe0358b89cc8474a6a7baf92a5bda0386b283f68f88e46bcd",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 515.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 12693,
+  "sha256": "0b494491fbd201ac330f3d2565b6e94b8f76d83982cb859bdd3e0223707ccad7",
+  "sheets": {
+   "Page 1": 33
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 821.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN08_So_KeToan",
+  "ext": ".xlsx",
+  "size": 11504,
+  "sha256": "d5bae9246c943ea8c399592f692521245c004a1c39fe68c03a27e1f7c94922bc",
+  "sheets": {
+   "Page 1": 26
+  }
+ },
+ {
+  "rel": "2. HO SO NNT CUNG CAP\\cty gui\\NĂM 2022\\TK 911.xlsx",
+  "top": "2. HO SO NNT CUNG CAP",
+  "src_group": "DN",
+  "in_code": "IN13_So_511_632",
+  "ext": ".xlsx",
+  "size": 12403,
+  "sha256": "b6ae5dea77289e49aa50db15e7be7f554b94768cc8d1dfd94a5bff86277ec5b4",
+  "sheets": {
+   "Page 1": 31
+  }
+ },
+ {
+  "rel": "ket-qua\\Tong_hop_doi_chieu_GTGT_TNDN_3603698904.xlsx",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 7222,
+  "sha256": "f36a3dbe4560a08a39638957829ad7aee22d5402dc300090358370a661cf9eae",
+  "sheets": {
+   "Tong_hop_doi_chieu": 10,
+   "GTGT_theo_ky": 18
+  }
+ },
+ {
+  "rel": "ket-qua\\Tong_hop_NCC_mua_vao_CV_trang_thai.xlsx",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".xlsx",
+  "size": 171881,
+  "sha256": "60cf8ff8b5b8a011bfff3383ea9b25463f78f3deefe1884bfef77d5992d03b9d",
+  "sheets": {
+   "Tong_hop_doi_chieu": 108,
+   "Chi_tiet_hoa_don": 1677
+  }
+ },
+ {
+  "rel": "ket-qua\\cau-thanh\\Tong_hop_TNCN_va_danh_sach_NLD_3603698904.xlsx",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 5370,
+  "sha256": "e292254cd8b93b81839cd27bc902d78236409cceec91efc77c113a85af24fdf0",
+  "sheets": {
+   "Tong_hop_TNCN": 9
+  }
+ },
+ {
+  "rel": "ket-qua\\cau-thanh\\Tong_hop_NCC_mua_vao_CV_trang_thai.xlsx",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".xlsx",
+  "size": 171881,
+  "sha256": "60cf8ff8b5b8a011bfff3383ea9b25463f78f3deefe1884bfef77d5992d03b9d",
+  "sheets": {
+   "Tong_hop_doi_chieu": 108,
+   "Chi_tiet_hoa_don": 1677
+  }
+ },
+ {
+  "rel": "ket-qua\\cau-thanh\\Tong_hop_doi_chieu_GTGT_TNDN_3603698904.xlsx",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 7222,
+  "sha256": "f36a3dbe4560a08a39638957829ad7aee22d5402dc300090358370a661cf9eae",
+  "sheets": {
+   "Tong_hop_doi_chieu": 10,
+   "GTGT_theo_ky": 18
+  }
+ },
+ {
+  "rel": "ket-qua\\cau-thanh\\Bang_ke_mua_vao_ban_ra_tong_hop_2020-2025.xlsx",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "IN02_BangKe",
+  "ext": ".xlsx",
+  "size": 155811,
+  "sha256": "b477951730fe7ea499aaf0589feadc5278bb9512a9fcdf12edfc64efb754c205",
+  "sheets": {
+   "mua vao": 1678,
+   "ban ra": 7
+  }
+ },
+ {
+  "rel": "ket-qua\\cau-thanh\\Phan_tich_ho_so_cong_ty_PHUC_NGUYEN_TIEN_3603698904.xlsx",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".xlsx",
+  "size": 25395,
+  "sha256": "4e9095b77a0c93b149566308be8ad293e84c0735dfbdaed7677d434695fa5642",
+  "sheets": {
+   "Danh_gia_28_tieu_chi_rui_ro": 32,
+   "Tong_hop_GTGT_TNDN": 11,
+   "Tong_hop_NCC_CVCBRR": 108,
+   "Tong_hop_TNCN_va_Da_nguon": 10,
+   "Tong_hop_XNT_va_Kho": 10,
+   "Gia_thanh_va_Dinh_muc": 9,
+   "Doi_chieu_511_632": 10,
+   "Cong_no_va_Ngan_hang": 10
+  }
+ },
+ {
+  "rel": "ket-qua\\sao-luu\\playbook-1-2-4-3603698904.json",
+  "top": "ket-qua",
+  "src_group": "Ket qua (ban phan tich truoc)",
+  "in_code": "Ket qua (khong thuoc IN)",
+  "ext": ".json",
+  "size": 3084,
+  "sha256": "26e50d7df8f18fde4d09c6517997be4596d953970b0147fa9a17d8daeb69204c",
+  "sheets": null
+ },
+ {
+  "rel": "3. DU LIEU BO SUNG & TRA CUU QLT\\3.3. Tra cuu TNCN da nguon & Nhan su\\Tong_hop_TNCN_va_danh_sach_NLD_3603698904.xlsx",
+  "top": "3. DU LIEU BO SUNG & TRA CUU QLT",
+  "src_group": "CQT/Tra cuu",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 5370,
+  "sha256": "e292254cd8b93b81839cd27bc902d78236409cceec91efc77c113a85af24fdf0",
+  "sheets": {
+   "Tong_hop_TNCN": 9
+  }
+ },
+ {
+  "rel": "3. DU LIEU BO SUNG & TRA CUU QLT\\3.3. Tra cuu TNCN da nguon & Nhan su\\Tong_hop_TNCN_NLD_3603698904.xlsx",
+  "top": "3. DU LIEU BO SUNG & TRA CUU QLT",
+  "src_group": "CQT/Tra cuu",
+  "in_code": "IN05_NLD_TNCN",
+  "ext": ".xlsx",
+  "size": 26398,
+  "sha256": "cbbf3280f248dc53e1c539777e0551d5d0cd0959285359abbe6eb787bacf40f0",
+  "sheets": {
+   "1. Tong hop QTT TNCN": 11,
+   "2. Danh sach NLĐ (05-1BK)": 111,
+   "3. Ho so Dinh danh NLĐ": 74,
+   "4. Doi chieu Quy vs Nam (TC22)": 10,
+   "5. Nguoi phu thuoc (05-3BK)": 15
+  }
+ },
+ {
+  "rel": "3. DU LIEU BO SUNG & TRA CUU QLT\\3.2. Danh ba trang thai NNT\\Tong_hop_danh_sach_doi_tac_mua_ban_HDDT_va_Bang_ke.xlsx",
+  "top": "3. DU LIEU BO SUNG & TRA CUU QLT",
+  "src_group": "CQT/Tra cuu",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 34311,
+  "sha256": "c241e97f5388a3a663f0faafb77513cdf74a30b0b0e6c26db459beb5dd5e48bb",
+  "sheets": {
+   "Tong_hop_Doi_tac": 132,
+   "Doi_tac_Mua_vao": 75,
+   "Doi_tac_Ban_ra": 59
+  }
+ },
+ {
+  "rel": "3. DU LIEU BO SUNG & TRA CUU QLT\\3.2. Danh ba trang thai NNT\\Danh_sach_doi_tac_HDDT_Bang_ke.xlsx",
+  "top": "3. DU LIEU BO SUNG & TRA CUU QLT",
+  "src_group": "CQT/Tra cuu",
+  "in_code": "IN01_HDDT",
+  "ext": ".xlsx",
+  "size": 34271,
+  "sha256": "6690545a12b0f61cb7ce948013069f09343418540f82b26c8a1836b2e7e4ee6b",
+  "sheets": {
+   "Tong_hop_Doi_tac": 132,
+   "Doi_tac_Mua_vao": 75,
+   "Doi_tac_Ban_ra": 59
+  }
+ },
+ {
+  "rel": "3. DU LIEU BO SUNG & TRA CUU QLT\\3.2. Danh ba trang thai NNT\\Danh sach NCC.xlsx",
+  "top": "3. DU LIEU BO SUNG & TRA CUU QLT",
+  "src_group": "CQT/Tra cuu",
+  "in_code": "IN07_NCC_CanhBao",
+  "ext": ".xlsx",
+  "size": 134850,
+  "sha256": "b24c8841d037ec53a2e0eed026f63ff2543d2ffe11a61f87f835f007fbddcbf2",
+  "sheets": {
+   "NNT": 328
+  }
+ },
+ {
+  "rel": "3. DU LIEU BO SUNG & TRA CUU QLT\\3.4. Giai trinh & Ho so bo sung\\Gui cty.xlsx",
+  "top": "3. DU LIEU BO SUNG & TRA CUU QLT",
+  "src_group": "CQT/Tra cuu",
+  "in_code": "Chua xep",
+  "ext": ".xlsx",
+  "size": 19510,
+  "sha256": "7a0068040afee9757d6fed02b896b3cbb5666e19b7c56191486ce815800ef621",
+  "sheets": {
+   "Sheet1": 160
+  }
+ }
+]

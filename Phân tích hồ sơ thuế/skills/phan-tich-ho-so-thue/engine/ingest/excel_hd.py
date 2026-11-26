@@ -1,6 +1,8 @@
 """Đọc bảng kê hóa đơn Excel (sheet 2.BR / 4.MV)."""
 from __future__ import annotations
 
+import logging
+import re
 from datetime import datetime, date
 from pathlib import Path
 
@@ -163,11 +165,51 @@ def _cell(row, i):
     return row[i]
 
 
+_log = logging.getLogger(__name__)
+_DOT_GROUPS = re.compile(r"^\d{1,3}(\.\d{3})+$")
+_COMMA_GROUPS = re.compile(r"^\d{1,3}(,\d{3})+$")
+
+
+def _parse_amount(s: str):
+    """Đọc một số tiền dạng chữ: 1.234,5 (VN), 1,234.5 (EN), (1.000) (âm), 1 234 567.
+    Trả None nếu không đọc được, không đoán bừa."""
+    t = s.strip().replace(" ", "").replace(" ", "")
+    t = re.sub(r"(?i)(vnd|vnđ|đ)$", "", t)
+    t = t.rstrip("%")                    # 10% đọc là 10, _rate sẽ chia 100
+    neg = False
+    if t.startswith("(") and t.endswith(")"):
+        neg, t = True, t[1:-1]
+    if t.startswith("-"):
+        neg, t = True, t[1:]
+    elif t.startswith("+"):
+        t = t[1:]
+    if not t:
+        return None
+    if "." in t and "," in t:
+        if t.rfind(",") > t.rfind("."):   # 1.234,5 - dấu phẩy là thập phân
+            t = t.replace(".", "").replace(",", ".")
+        else:                            # 1,234.5 - dấu chấm là thập phân
+            t = t.replace(",", "")
+    elif "," in t:
+        t = t.replace(",", "") if _COMMA_GROUPS.match(t) else t.replace(",", ".")
+    elif "." in t and _DOT_GROUPS.match(t):
+        t = t.replace(".", "")           # 1.234.567 - dấu chấm là nhóm nghìn
+    if not re.fullmatch(r"\d+(\.\d+)?", t):
+        return None
+    v = float(t)
+    return -v if neg else v
+
+
 def _float(v) -> float:
-    try:
-        return float(v or 0)
-    except (TypeError, ValueError):
+    if v is None or v == "":
         return 0.0
+    if isinstance(v, (int, float)):
+        return float(v)
+    x = _parse_amount(str(v))
+    if x is None:
+        _log.warning("Không đọc được số tiền: %r, ghi 0 và cần kiểm tra ô này", v)
+        return 0.0
+    return x
 
 
 def _rate(v) -> float:

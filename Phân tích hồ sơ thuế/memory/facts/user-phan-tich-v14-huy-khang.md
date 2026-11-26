@@ -3,7 +3,11 @@ type: user
 provenance: user
 origin: javis-learned
 created: 2026-11-09
-updated: 2026-11-09
-source: chat 2026-11-09 (300c6876)
+updated: 2026-11-25
+source: chat 2026-11-09; bổ sung NNT 2026-11-25
 ---
-Đã chạy xong quy trình phân tích hồ sơ 1.4 cho CÔNG TY TNHH THIẾT BỊ CÔNG NGHIỆP HUY KHANG (MST 3603755214), kỳ 2020-2026. Hồ sơ mức A (đủ XML, HĐĐT, TMS; thư mục sổ NNT trống). NNT không có trên F0, F1 và sổ Công an 2026. Có 7 NCC F0 trên HĐĐT mua vào (doanh số 74,3 triệu đồng, thuế 6,4 triệu đồng); Top-5 NCC chiếm 72,02% tổng mua; W GTGT 885 triệu đồng. Đã xuất 8 file kết quả (6 file KQ1.1-KQ3 và 2 phụ lục GĐ3) tại `4. KET QUA PHAN TICH`.
+Đã chạy quy trình 1.4 cho CÔNG TY TNHH THIẾT BỊ CÔNG NGHIỆP HUY KHANG (MST 3603755214), kỳ 2020-2026.
+
+Lần 1 (09/11/2026): mức A, chỉ dữ liệu CQT; 7 NCC F0 (DS 74,3 triệu, thuế 6,4 triệu); Top-5 72,02%; W GTGT 885 triệu; 8 file KQ v1.
+
+Lần 2 (25/11/2026): NNT nộp sổ 2020-2025, chuyển khối 2, GĐ1 v2 **mức D**. Bảng kê 8.426 dòng (mua 4.370 / bán 4.056); DS mua 27,58 tỷ, bán 29,82 tỷ. Thiếu sao kê/UNC và GDLK. File v2: KQ1.2, KQ1.3; tổng hợp bảng kê và `Tong_hop_HDDT_BangKe_3603755214_2020-2026.xlsx`.
