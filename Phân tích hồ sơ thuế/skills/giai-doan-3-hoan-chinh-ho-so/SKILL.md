@@ -93,6 +93,8 @@ Bên cạnh dữ liệu CQT đã chuẩn hóa ở GĐ2 (IN01–IN07, IN12), ti�
 22. **`LD02`** (Lệch giữa Chi phí lương trên BCTC [TK 641, 642, 622] với TNCT trên QTT TNCN - TC23).
 23. **`LD05`** (Chi phí nhân công trực tiếp vượt mức tương quan với doanh thu sản xuất).
 
+Sau `LD02`, nếu loại hình DNTN hoặc TNHH MTV cá nhân: nạp skill `loai-luong-chu-dntn-tnhh-mtv` (Bước 4b). Dùng bảng lương/HĐLĐ/BHXH ở `2.4` để khép Case A2/B2 (GĐ thuê) và cộng BHXH/phụ cấp Case A1/B1 khi tách được. Không trừ 642 Số kiểm tra khi cán bộ chưa chốt.
+
 ---
 
 ## Hợp đồng đầu ra

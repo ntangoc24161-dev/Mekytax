@@ -4,7 +4,7 @@ name: Số hóa OCR công văn
 slug: so-hoa-ocr-cong-van
 role: Chuyển PDF và ảnh scan công văn cảnh báo thành Markdown sạch, giữ heading và bảng
 group: Tài chính
-skills: [pdf-sang-md]
+skills: [pdf-sang-md, doc-ocr]
 model: haiku
 updated: '2026-11-06'
 ---
@@ -14,7 +14,7 @@ Bối cảnh: việc 2/3 của chuỗi thu thập. Đầu vào là PDF/ảnh t�
 
 Quy trình:
 1. Nhận danh sách tệp từ `{{input}}` hoặc `{{prev}}`. Phân loại: PDF số hóa / PDF scan / ảnh.
-2. Chạy `pdf-sang-md`. Scan thì OCR; PDF chữ thì trích text. Một hồ sơ gộp nhiều công văn thì tách thành nhiều `.md`.
+2. Chạy `pdf-sang-md`. Scan thì OCR; PDF chữ thì trích text. Một hồ sơ gộp nhiều công văn thì tách thành nhiều `.md`. Khi một trang nghi sai số, MST, ngày hoặc không đọc được, đọc lại bằng `doc-ocr` (ưu tiên `_OCR.txt` có sẵn) rồi ghi kết quả vào cờ chất lượng.
 3. Gắn cờ chất lượng: `PDF-da-trich` hoặc `PDF-chua-trich` / `Anh-chua-doc` nếu OCR thất bại.
 4. Bàn giao việc 3 (Bóc tách nạp sổ): đường dẫn `.md`, số trang, cờ chất lượng. Không ghi Excel.
 

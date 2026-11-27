@@ -22,17 +22,17 @@ Kỹ thuật Excel CD1 (MST, HĐ trùng, cụm cùng ngày, BKMV-NKC 133): skill
 Quy trình module hóa được ánh xạ vào **3 giai đoạn** (chi tiết xem `playbook-3-giai-doan.md`):
 
 - **Giai đoạn 1 (Kiểm kê & Đánh giá mức A–E):** Bước 0. Skill chủ: `giai-doan-1-kiem-ke-danh-gia`. Xuất `KQ1_<MST>_<KY>_v1.xlsx`.
-- **Giai đoạn 2 (Dữ liệu CQT, 57 quy tắc khi chưa có sổ DN):** Bước 0b, 1, 1b, 2, 3, 4. Skill chủ: `giai-doan-2-phan-tich-du-lieu-co-quan-thue`. Xuất `KQ2_<MST>_<KY>_v1.xlsx`.
+- **Giai đoạn 2 (Dữ liệu CQT, 57 quy tắc khi chưa có sổ DN):** Bước 0b, 1, 1b, 2, 3, 4, 4b. Skill chủ: `giai-doan-2-phan-tich-du-lieu-co-quan-thue`. Xuất `KQ2_<MST>_<KY>_v1.xlsx`.
 - **Giai đoạn 3 (Hoàn chỉnh hồ sơ & Sổ sách DN, 23 quy tắc):** Bước 5, 6, 7, 8, 9, 10. Skill chủ: `giai-doan-3-hoan-chinh-ho-so`. Xuất `KQ3_<MST>_<KY>_v1.xlsx`.
 
 ```
 0 Kiểm kê (GĐ1) → 0b Tổng hợp đầu vào (HĐĐT + Bảng kê + NLĐ)
 → 1 Bảng kê (nếu chưa gộp) → 1b Làm sạch MST/HĐ trùng → 2 GTGT/TNDN/HĐĐT → 3 NCC rủi ro
-→ 4 TNCN (Hết GĐ2) → 5 511-632 → 6 XNT → 7 Giá vốn/Giá thành
+→ 4 TNCN → 4b loại lương chủ DNTN/TNHH MTV (Hết GĐ2) → 5 511-632 → 6 XNT → 7 Giá vốn/Giá thành
 → 8 Công nợ/Tiền mặt (cụm cùng ngày) → 9 Master 28 TC → 10 Đề cương (Hết GĐ3)
 ```
 
-Làm song song được khi đã có dữ liệu: **(2)+(3)+(4)**; **(5)+(6)+(8)**.
+Làm song song được khi đã có dữ liệu: **(2)+(3)+(4)**; **4b sau 4**; **(5)+(6)+(8)**.
 
 ---
 
@@ -192,6 +192,27 @@ Nếu có file tra cứu đa nguồn ở 3.3 thì đối chiếu TC22/TC23.
 
 ---
 
+## Bước 4b - Loại lương chủ DNTN / chủ TNHH MTV kiêm GĐ
+
+**Skill:** `loai-luong-chu-dntn-tnhh-mtv`. Playbook: `skills/loai-luong-chu-dntn-tnhh-mtv/playbook-lenh.md`.
+
+**Cần:** loại hình DNTN hoặc TNHH MTV do cá nhân làm chủ; XML 05-1. Tốt hơn có TMS `DIRNA`/`NAME_FIRS` và bảng lương `2.4`.
+
+**Lệnh:**
+```
+Xét loại chi phí lương chủ DNTN / chủ TNHH MTV kiêm GĐ
+cho <TEN> MST <MST> tại <FOLDER> kỳ <KY>
+theo skill loai-luong-chu-dntn-tnhh-mtv.
+Ghép TMS chủ/GĐ với 05-1 từng năm. Chỉ loại A1/B1.
+Ghi KQ2.1!KQ2_TNCN_LD2. Chưa trừ 642 Số kiểm tra trên Bang tinh.
+```
+
+**Ra:** khối loại lương trên `KQ2_TNCN_LD2`.
+**Không đúng loại hình:** `KHÔNG_ÁP_DỤNG`, bỏ qua.
+**Thiếu 05-1:** `KHÔNG_ĐỦ_DỮ_LIỆU`.
+
+---
+
 ## Bước 5 - Đối chiếu 511-632 (DN thương mại / có sổ)
 
 **Skill:** `doi-chieu-511-632`.
@@ -322,6 +343,7 @@ NCC/HĐ trọng điểm, nội dung đã giải tỏa.
 | BKMV-NKC 133 | `lam-sach-cd1-mst-hoa-don` | `Đối chiếu BKMV vs HĐĐT vs Nợ 133 <FOLDER>` |
 | NCC | `doi-chieu-ncc-mua-vao-rui-ro` | `Đối chiếu NCC F0/F1/CA chuẩn VPT <FOLDER>` |
 | TNCN | `tong-hop-tncn-da-nguon` | `Tổng hợp TNCN <MST> <FOLDER>` |
+| Loại lương chủ | `loai-luong-chu-dntn-tnhh-mtv` | `Xét loại lương chủ DNTN/TNHH MTV <FOLDER>` |
 | 511-632 | `doi-chieu-511-632` | `Đối chiếu 511-632 skill mới <FOLDER>` |
 | XNT | `phan-tich-xnt-kho` | `Phân tích XNT kho <FOLDER>` |
 | Giá thành | `phan-tich-gia-thanh-dinh-muc` | `Phân tích giá thành/định mức <FOLDER>` hoặc `Cơ cấu GV thương mại <FOLDER>` |

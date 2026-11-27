@@ -6,3 +6,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Quy trình đánh giá xếp loại đảng viên theo KPI và sản phẩm cá thể hóa]]
+
+## [2026-11-26] ingest | tự học từ chat
+
+Đã tạo:
+- [[Quy định đánh giá xếp loại đảng viên cuối năm khối hành chính (Mẫu 2026)]]

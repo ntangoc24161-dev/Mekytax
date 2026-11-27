@@ -98,7 +98,7 @@ Giai đoạn 1 – Kiểm kê hồ sơ <FOLDER>, MST <MST>, kỳ <KY>. Áp dụn
 ```text
 Giai đoạn 2 – Phân tích bằng dữ liệu CQT cho <FOLDER>, MST <MST>, kỳ <KY>. Áp dụng khối Q và K1-K13. Công ty chưa gửi sổ sách.
 1. Chuẩn hóa một lần vào IN01–IN07, IN12 và IN14 (thư mục 1.3): HĐĐT (gắn Tinh_vao_tong, ký hiệu|số|MST chuẩn), bảng kê (bỏ Tổng cộng, chuẩn MST BT6), tờ khai GTGT, BCTC-TNDN, TNCN, cảnh báo rủi ro, TMS.
-2. Chạy 57 quy tắc GĐ2. Quy tắc so BCTC ghi "sơ bộ". HD07 ghi TREO. HD01, HD03, HD08 xếp F0 và F1 đều mức Cao (K2). TT01 dùng ngưỡng >= 20tr và >= 5tr (K5). LS01, LS02 đọc IN14 (K10).
+2. Chạy 57 quy tắc GĐ2. Quy tắc so BCTC ghi "sơ bộ". HD07 ghi TREO. HD01, HD03, HD08 xếp F0 và F1 đều mức Cao (K2). TT01 dùng ngưỡng >= 20tr và >= 5tr (K5). LS01, LS02 đọc IN14 (K10). Nếu loại hình DNTN hoặc TNHH MTV cá nhân: chạy skill `loai-luong-chu-dntn-tnhh-mtv` (Bước 4b) trên IN05+IN14.
 3. 100% NCC mua vào kèm cờ F0/F1 (mức Cao) và ĐKKD (cột S, T).
 4. Ánh xạ năm BCTC sheet 07 kèm độ tin cậy; cờ MƠ HỒ chờ cán bộ duyệt.
 5. 23 quy tắc GĐ3 ghi KHÔNG_ĐỦ_DỮ_LIỆU và nêu nguồn cần xin.
@@ -110,7 +110,7 @@ Giai đoạn 2 – Phân tích bằng dữ liệu CQT cho <FOLDER>, MST <MST>, k
 Giai đoạn 3 – Hoàn chỉnh hồ sơ <FOLDER>, MST <MST>, kỳ <KY>. Áp dụng khối Q và K1-K13. Đã có KQ2, công ty vừa gửi sổ sách.
 1. Chạy lại P1 cho phần mới nhận, cập nhật mức hồ sơ C/D/E.
 2. Chuẩn hóa nguồn công ty vào IN08–IN11, IN13. Lệch giữa bản DN và CQT ghi phát hiện DQ07.
-3. Chạy 23 quy tắc GĐ3. Ghép 511-632 theo skill doi-chieu-511-632 (K4). B01-DN dùng [141], B01-DNN dùng ct140 (K6). Lọc theo loại hình: <LOẠI HÌNH>.
+3. Chạy 23 quy tắc GĐ3. Ghép 511-632 theo skill doi-chieu-511-632 (K4). B01-DN dùng [141], B01-DNN dùng ct140 (K6). Lọc theo loại hình: <LOẠI HÌNH>. DNTN/TNHH MTV cá nhân: hoàn thiện skill `loai-luong-chu-dntn-tnhh-mtv` với bảng lương/HĐLĐ/BHXH.
 4. Nâng quy tắc "sơ bộ" GĐ2 thành "chắc" hoặc giải tỏa rủi ro; ghi rõ khác biệt so với KQ2.
 5. Dựng chuỗi bằng chứng 5 mắt xích cho NCC/HĐ trọng điểm; mắt xích thiếu ghi "Không đủ dữ liệu" (K11).
 6. Lập Master 28 tiêu chí 7 cột (nếu không có mẫu 8 sheet thì chỉ dựng 28 TC - K3). Đề cương kiểm tra xếp theo điểm có cột Nhánh xử lý (để cán bộ chọn).

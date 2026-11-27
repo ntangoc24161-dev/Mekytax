@@ -8,6 +8,7 @@ skills:
 - thue-gtgt
 - thue-tncn
 - thue-tndn
+- loai-luong-chu-dntn-tnhh-mtv
 - hoa-don-dien-tu
 - luat-quan-ly-thue
 - xu-ly-rui-ro-thue-hoa-don

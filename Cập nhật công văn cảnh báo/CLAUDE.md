@@ -56,9 +56,11 @@ Source: `type: source`, `source_kind: article|book|podcast|video|own-note|screen
 - Cần bộ khung sẵn (vd Bullet Journal, nghiên cứu, đọc sách) -> người dùng áp "gói mẫu" (opt-in), không seed mặc định.
 - Viết bằng ngôn ngữ ghi ở khối `# === NGÔN NGỮ ===` của prompt (mặc định tiếng Việt); code/tag/frontmatter key luôn dùng tiếng Anh. Tone thực tế, ngắn gọn. KHÔNG dùng ký tự em dash.
 
-## Xử lý file PDF và ảnh scan (Mặc định 3 skill)
-Khi gặp file PDF, ảnh chụp tài liệu hoặc file scan cần OCR:
-- **Chỉ đọc chữ ra chat**: Mặc định dùng skill paddleocr (MCP tool ocr).
+## Xử lý file PDF và ảnh scan (Mặc định doc-ocr)
+Khi gặp file PDF, ảnh chụp tài liệu hoặc file scan cần đọc hoặc OCR:
+- **Đọc, tra cứu, kiểm số liệu một file (mặc định)**: Dùng skill doc-ocr. Đọc `<tên>_OCR.txt` có sẵn trước, chỉ OCR mới khi chưa có kết quả.
+- **Bóc tách hàng loạt F0/F1 ra bảng tạm**: Dùng script offline (PaddleOCR + từ khóa neo/regex), không đưa cả file vào chat. Bảng tạm phải qua Kiểm soát chất lượng dữ liệu trước khi ghi sổ chính.
+- **Chỉ đọc chữ ra chat, không cần đọc sâu**: Dùng skill paddleocr (MCP tool ocr).
 - **Ghi file Markdown giữ heading/bảng vào sources/**: Mặc định dùng skill pdf-sang-md (	ools.doc2md).
 - **Xuất Office (Word/Excel/TXT/searchable PDF), xoay/tách/ghép trang, so chữ**: Mặc định dùng skill 	ram-tai-lieu (	ools.doctram).
 - Tuyệt đối không bịa số liệu/thông tin khi file scan không đọc được chữ; nói rõ tình trạng cho người dùng.

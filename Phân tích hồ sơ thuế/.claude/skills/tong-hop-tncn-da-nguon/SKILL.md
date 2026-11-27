@@ -10,7 +10,7 @@ updated: '2026-10-15'
 
 Bóc XML quyết toán TNCN (mẫu 953 / 05/QTT), tờ khai khấu trừ quý (05/KK), phụ lục NLĐ; đối chiếu quý vs năm (TC22) và chi phí lương BCTC (TC23); nếu có file tra cứu đa nguồn thì rà 1 nguồn / nhiều nguồn và trùng CCCD.
 
-Skill trục: `phan-tich-ho-so-thue` playbook Bước 4. Chính sách Luật 109/2025 nằm ở skill `thue-tncn` (shared-skills), **không** thay skill này. Playbook lệnh: `playbook-lenh.md`.
+Skill trục: `phan-tich-ho-so-thue` playbook Bước 4. Chính sách Luật 109/2025 nằm ở skill `thue-tncn` (shared-skills), **không** thay skill này. Loại lương chủ DNTN / chủ TNHH MTV kiêm GĐ: skill `loai-luong-chu-dntn-tnhh-mtv` (Bước 4b), không gộp vào skill này. Playbook lệnh: `playbook-lenh.md`.
 
 Đầu vào NLĐ thô: `tong-hop-dau-vao-hddt-bang-ke-nld`.
 

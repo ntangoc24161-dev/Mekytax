@@ -56,3 +56,4 @@ Tỷ suất lợi nhuận ngành là bộ chỉ số định mức tham
 - [[Nguyên tắc trích khấu hao tài sản cố định theo Thông tư 45/2013/TT-BTC]] - Nguyên tắc quản lý, sử dụng và trích khấu hao tài sản cố định (TSCĐ) thực hiện t
 - [[Nguyên tắc và chuẩn hóa phôi Bảng tính biên bản kiểm tra thuế]] - Phôi `Bang tinh.xlsx` là bảng tính biên bản của cơ quan thuế phục vụ thanh kiểm
 - [[Quy chuẩn chuẩn hóa mã số thuế doanh nghiệp và chi nhánh]] - Quy chuẩn kỹ thuật chuẩn hóa mã số thuế (MST_chuan - BT6) xử lý lỗi định dạng số
+- [[Nguyên tắc loại trừ chi phí tiền lương Giám đốc công ty TNHH MTV]] - Loại lương chủ DNTN và chủ TNHH MTV cá nhân kiêm GĐ; GĐ thuê được trừ nếu đủ hồ sơ

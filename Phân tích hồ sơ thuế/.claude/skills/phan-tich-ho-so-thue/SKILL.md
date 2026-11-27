@@ -83,7 +83,7 @@ Quy tắc có bảng chứng cứ ở KQ2: theo cột "Tệp phân tích" và "S
 - `KQ2_511_632` (KQ2.2): cột **Đánh giá tuân thủ & Rủi ro** theo năm tài chính (skill `doi-chieu-511-632`).
 - `KQ2_Doi_chieu_GTGT` (KQ2.1): khối **Nhận xét / nguyên nhân trọng yếu** cuối bảng khi năm/kỳ có chênh lệch lớn (skill `doi-chieu-gtgt-tndn-cbrr`).
 - `KQ2_NCC_mua_vao` + `IN07_NCC_CanhBao` (KQ2.1): Phần 1 đối chiếu NNT với F1/CA; Phần 3 đánh giá rủi ro NCC theo nhóm và đề xuất trọng tâm chứng từ; **HD04 tỷ trọng Top-5 NCC / P14 bắt buộc giữ** - tính bằng gộp theo MST người bán (pivot/code), không dùng `LARGE` trên từng dòng hóa đơn (skill `doi-chieu-ncc-mua-vao-rui-ro`).
-- `KQ2_TNCN_LD2` (KQ2.1): khối nhận xét kê khai / khấu trừ / đa nguồn / trùng CCCD (skill `tong-hop-tncn-da-nguon`).
+- `KQ2_TNCN_LD2` (KQ2.1): khối nhận xét kê khai / khấu trừ / đa nguồn / trùng CCCD (skill `tong-hop-tncn-da-nguon`). Nếu loại hình DNTN hoặc TNHH MTV cá nhân: thêm bảng xét loại lương chủ (skill `loai-luong-chu-dntn-tnhh-mtv`, Bước 4b); mức rủi ro / truy thu vẫn chỉ ở KQ3.
 - `KQ2_Kho_Gia_thanh` (KQ2.2): nhận xét TC3, tồn CK vs BCTC, xuất kho vs 632 (skill `phan-tich-xnt-kho`).
 - `KQ2_Gia_thanh_va_Dinh_muc` (KQ2.2): nhận xét biên lãi gộp / TC28 / cơ cấu giá vốn (skill `phan-tich-gia-thanh-dinh-muc`).
 - `KQ2_Cong_no_Tien_mat` (KQ2.2): nhận xét 131/331, chi 111 vượt ngưỡng, sao kê PDF chưa kết luận UNC (skill `phan-tich-cong-no-tien-mat`).
@@ -201,6 +201,7 @@ Kết quả ghi tên sổ, sheet, số công văn.
 | 2b EBITDA | KQ2.1 `KQ2_EBITDA_Phan_tich` |
 | 3 NCC | KQ2.1 `IN07_NCC_CanhBao`, `KQ2_NCC_mua_vao` |
 | 4 TNCN | KQ2.1 `KQ2_TNCN_LD2` |
+| 4b loại lương chủ DNTN/TNHH MTV | KQ2.1 `KQ2_TNCN_LD2` (bảng case + số loại; skill `loai-luong-chu-dntn-tnhh-mtv`). Bang tinh sheet `LOẠI LƯƠNG` chỉ listing, chưa trừ 642 |
 | 5 511-632 | KQ2.2 `KQ2_511_632` (tổng hợp năm) |
 | 5b 511-632 chi tiết | KQ2.2 `KQ2_511_632_Chi_tiet` (dòng bán dưới giá) |
 | 6, 7 kho, giá thành | KQ2.2 `KQ2_Kho_Gia_thanh`, `KQ2_Gia_thanh_va_Dinh_muc` |
@@ -230,3 +231,4 @@ Hỏi "xuất bản KQ2 có sheet PL" hoặc "xuất workbook trọn gói": từ
 - [2026-10-19 vòng 2b] Cán bộ chốt: giữ HD04 (Top-5 NCC / P14, gộp theo người bán); mở rộng nhận xét module sang TNCN, kho, giá thành, công nợ tiền mặt. Chạy lại 6 tệp TT_BIEN_HOA theo form mới.
 - [2026-10-23] Chuẩn hóa bộ file giải trình NNT và dấu hiệu bất thường: bổ sung sheet EBITDA vào KQ2.1; sheet KQ2_511_632_Chi_tiet vào KQ2.2; bổ sung 2 file chi tiết GĐ3 (`KQ3_Danh_gia_Dau_hieu_Bat_thuong` và `KQ3_NNT_Giai_trinh_Chi_tiet` 10 sheet gồm sheet 00 tổng hợp chung); thêm Q20 quy chuẩn định dạng màu sắc nhận diện (#1F4E78) và cảnh báo rủi ro chuyên nghiệp.
 - [2026-10-23] Đồng bộ phòng 6 thư ký + playbook 3 giai đoạn / lệnh theo bước / tất cả skill; bỏ mô tả KQ3 một sheet và "28 TC chỉ khi yêu cầu".
+- [2026-11-27] Thêm module Bước 4b skill `loai-luong-chu-dntn-tnhh-mtv`: loại lương chủ DNTN và chủ TNHH MTV kiêm GĐ (3 trường hợp + DNTN); ghi `KQ2_TNCN_LD2`; chưa trừ 642 khi chưa chốt.

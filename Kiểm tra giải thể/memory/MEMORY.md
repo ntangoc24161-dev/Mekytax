@@ -24,3 +24,4 @@
 - [Thông tin cơ bản hồ sơ kiểm tra Công ty Sơn Tiền Hải](facts/ho-so-son-tien-hai-thong-tin-co-ban.md) - Sơn Tiền Hải MST 3603859012, QĐKT 7092/QĐ-TCS3 ngày 26/10/2026, BBKT 09/11/2026, Tổ KT1 Thuế cơ sở 3 Đồng Nai
 - [Số và ngày QĐ xử phạt VPHC hồ sơ Sơn Tiền Hải](facts/so-qd-xphc-ngay-ban-hanh-son-tien-hai.md) - Sơn Tiền Hải có QĐ xử phạt số 7623/QĐ-XPHC ngày 17/11/2026
 - [Xử lý lỗi nhảy trang công văn DN trong file TONG HOP.docx](facts/loi-nhay-trang-cong-van-dn-trong-tong-hop.md) - Bỏ pageBreakBefore trên chữ CÔNG VĂN và dính header với dòng V/v
+- [Sửa tiểu mục QĐ thu hồi hoàn Công ty Sơn Tiền Hải](facts/son-tien-hai-tieu-muc-qd-thu-hoi-hoan.md) - QĐ thu hồi hoàn Công ty Sơn Tiền Hải sửa tiểu mục từ 4931 sang 4943 trên bản nháp trình ký
