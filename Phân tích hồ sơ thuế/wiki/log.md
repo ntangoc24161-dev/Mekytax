@@ -317,3 +317,12 @@ File vận hành: `skills/phan-tich-ho-so-thue/playbook-tat-ca-skill.md` + `play
 
 Đã tạo:
 - [[Quy chuẩn chuẩn hóa mã số thuế doanh nghiệp và chi nhánh]]
+
+## [2026-11-27] ingest | tự học từ chat
+
+Đã tạo:
+- [[Nguyên tắc loại trừ chi phí tiền lương Giám đốc công ty TNHH MTV]]
+
+## [2026-11-27] skill | loại lương chủ DNTN và TNHH MTV
+
+Bổ sung DNTN vào cùng điều luật với chủ TNHH MTV; skill `loai-luong-chu-dntn-tnhh-mtv` gắn Bước 4b quy trình 1.4. Cập nhật [[Nguyên tắc loại trừ chi phí tiền lương Giám đốc công ty TNHH MTV]].

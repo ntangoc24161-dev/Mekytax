@@ -17,7 +17,7 @@ learned_updated: '2026-11-09'
 ## Quy trình
 1. Kiểm tra và mở file sổ theo dõi bằng openpyxl (chế độ đọc dữ liệu để đếm dòng trước).
 2. Tạo bản sao lưu file Excel vào thư mục `Sao lưu` với tiền tố ngày giờ YYYYMMDD_HHMMSS.
-3. Trích xuất dữ liệu công văn / tệp Excel đính kèm (ưu tiên đọc bảng Excel trực tiếp thay vì OCR nếu có sẵn).
+3. Trích xuất dữ liệu công văn / tệp Excel đính kèm (ưu tiên đọc bảng Excel trực tiếp thay vì OCR nếu có sẵn). Bóc hàng loạt F0/F1 bằng script offline ra bảng tạm. Khi một trang nghi sai số, MST hoặc ngày, đọc lại bằng skill `doc-ocr` (đọc `_OCR.txt` có sẵn trước) trước khi đưa vào bảng tạm.
 4. Khử trùng dữ liệu theo khoá chốt 09/11/2026: F0 theo `SoCV + MSTBan`; F1 theo `SoCV + MSTBan + MSTMua`.
 5. Nạp dòng mới vào F0 (19 cột) hoặc F1 (25 cột) bắt đầu từ dòng kế tiếp dòng dữ liệu cuối cùng. **F1 bỏ qua hóa đơn không có MST bên mua** (chốt 09/11/2026), không nạp dòng trống `MSTMua`, phải đếm và báo số dòng đã bỏ.
 6. Đếm lại số dòng sau khi ghi và xác nhận biến động (F0 trước/sau, F1 trước/sau, số bỏ trùng).

@@ -6,3 +6,4 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 
 ## Tự học
 - [[Quy trình đánh giá xếp loại đảng viên theo KPI và sản phẩm cá thể hóa]] - Quy trình đánh giá, xếp loại cấp ủy viên và cán bộ cơ sở theo định kỳ quý dựa tr
+- [[Quy định đánh giá xếp loại đảng viên cuối năm khối hành chính (Mẫu 2026)]] - Bộ hồ sơ đánh giá đảng viên cuối năm theo mẫu 2026 áp dụng cho đảng viên không g

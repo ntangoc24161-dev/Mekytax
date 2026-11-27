@@ -1,6 +1,6 @@
 ---
 name: Hồ sơ kiểm tra theo kế hoạch
-description: "Lập hồ sơ kiểm tra kế hoạch từ MAUTONG HOP: mô hình Hybrid 2 tầng, merge trực tiếp từ 01_DA_BAN_HANH, chuẩn NĐ 30, chuẩn checkbox ☐/☑ và xuất QĐ…"
+description: 'Lập hồ sơ kiểm tra kế hoạch từ MAUTONG HOP: mô hình Hybrid 2 tầng, merge trực tiếp từ 01_DA_BAN_HANH, chuẩn NĐ 30, chuẩn checkbox ☐/☑ và xuất QĐ riêng.'
 group: Tài chính
 updated: '2026-11-25'
 learned_updated: '2026-11-25'

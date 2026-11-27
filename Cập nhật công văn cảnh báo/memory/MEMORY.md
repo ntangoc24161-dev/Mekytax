@@ -99,3 +99,4 @@
 - [Chốt phương án xử lý công văn cảnh báo và dọn dẹp HO SO MOI ngày 23/11/2026](facts/chot-phuong-an-xu-ly-va-luu-tru-ho-so-moi-ngay-23-11-2026.md) - Đã chốt toàn diện phương án bóc tách chi tiết bảng kê CV 9955, CV 5645, nạp sổ F0/F1 và dọn sạch HO SO MOI
 - [Số lượng dòng thực tế Sheet F0 và F1 trong Sổ theo dõi tính đến 23/11/2026](facts/so-luong-dong-thuc-te-so-theo-doi-f0-f1-ngay-23-11-2026.md) - Sổ theo dõi hoàn thành đợt nạp HO SO MOI: F0 đạt 17.167 dòng, F1 đạt 14.284 dòng, hộp thư đến còn 0 tệp.
 - [Phân định vai trò của skill doc-ocr và script trích xuất offline](facts/phan-dinh-vai-tro-skill-doc-ocr-va-script-offline.md) - doc-ocr dùng tra cứu/đối chiếu chi tiết; script offline bóc tách hàng loạt vào sổ tạm
+- [Chỉ đạo đối chiếu sổ và dọn dẹp thư mục HO SO MOI](facts/yeu-cau-doi-chieu-so-va-di-chuyen-tep-ho-so-moi.md) - User yêu cầu đối chiếu sổ, CV nào đã bóc tách xong thì di chuyển và xóa file trung gian.

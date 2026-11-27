@@ -19,7 +19,7 @@ Thiếu nguồn thì ô trống, không để số 0 giả. Ô text Excel không
 
 Playbook chạy theo bước: `playbook-lenh-theo-buoc.md`. Lệnh 1-4: `playbook-3-giai-doan.md`.
 
-Song song được khi đã có dữ liệu: **GTGT + NCC + TNCN**; **511-632 + XNT + công nợ**.
+Song song được khi đã có dữ liệu: **GTGT + NCC + TNCN**; **loại lương chủ sau TNCN**; **511-632 + XNT + công nợ**.
 
 ---
 
@@ -45,6 +45,7 @@ Chi tiết lệnh 3 giai đoạn: `skills/phan-tich-ho-so-thue/playbook-3-giai-d
 | 2 | `doi-chieu-gtgt-tndn-cbrr` | `skills/doi-chieu-gtgt-tndn-cbrr/playbook-lenh.md` |
 | 3 | `doi-chieu-ncc-mua-vao-rui-ro` | `skills/doi-chieu-ncc-mua-vao-rui-ro/playbook-lenh.md` |
 | 4 | `tong-hop-tncn-da-nguon` | `skills/tong-hop-tncn-da-nguon/playbook-lenh.md` |
+| 4b | `loai-luong-chu-dntn-tnhh-mtv` | `skills/loai-luong-chu-dntn-tnhh-mtv/playbook-lenh.md` |
 | 5 | `doi-chieu-511-632` | `skills/doi-chieu-511-632/playbook-lenh.md` |
 | 6 | `phan-tich-xnt-kho` | `skills/phan-tich-xnt-kho/playbook-lenh.md` |
 | 7 | `phan-tich-gia-thanh-dinh-muc` | `skills/phan-tich-gia-thanh-dinh-muc/playbook-lenh.md` |
@@ -189,6 +190,28 @@ Không xuất Tong_hop_TNCN_va_Da_nguon.
 
 **Ra:** phiên bản mới của KQ2.1.
 **Thiếu đa nguồn:** vẫn lập QTT; ghi thiếu `3.3`.
+
+---
+
+## A4b - Loại lương chủ DNTN / TNHH MTV (`loai-luong-chu-dntn-tnhh-mtv`)
+
+**Cần:** loại hình DNTN hoặc TNHH MTV do cá nhân làm chủ; XML 05-1. Tốt hơn có TMS `1.3` (`DIRNA`/`NAME_FIRS`) và bảng lương `2.4`.
+
+**Lệnh:**
+```
+Xét loại chi phí lương chủ DNTN / chủ TNHH MTV kiêm GĐ
+cho <TEN> MST <MST> tại <FOLDER> kỳ <KY>
+theo skill loai-luong-chu-dntn-tnhh-mtv.
+Ghép TMS chủ/GĐ với 05-1 từng năm. Chỉ loại A1 (chủ DNTN) và B1 (chủ kiêm GĐ).
+GĐ thuê (A2/B2) không loại theo điều này; thiếu HĐLĐ ghi rủi ro chứng từ riêng.
+Ghi KQ2.1!KQ2_TNCN_LD2. Kết luận truy thu chỉ ở KQ3.
+Nếu có Bang tinh: điền sheet LOẠI LƯƠNG, chưa trừ 642 Số kiểm tra.
+Không loại nhân viên khác. Không điền 0 giả.
+```
+
+**Ra:** phiên bản mới của KQ2.1 (khối loại lương trên `KQ2_TNCN_LD2`).
+**Không đúng loại hình:** ghi `KHÔNG_ÁP_DỤNG`, bỏ qua bước.
+**Thiếu 05-1:** `KHÔNG_ĐỦ_DỮ_LIỆU`.
 
 ---
 
@@ -342,6 +365,7 @@ Không chạy đối chiếu XML/HĐĐT của một MST cụ thể.
 | `lam-sach-cd1-mst-hoa-don` | `Đối chiếu BKMV vs HĐĐT vs Nợ 133 <FOLDER>` |
 | `doi-chieu-ncc-mua-vao-rui-ro` | `Đối chiếu NCC F0/F1/CA chuẩn VPT <FOLDER>` |
 | `tong-hop-tncn-da-nguon` | `Tổng hợp TNCN <MST> <FOLDER>` |
+| `loai-luong-chu-dntn-tnhh-mtv` | `Xét loại lương chủ DNTN/TNHH MTV <FOLDER>` |
 | `doi-chieu-511-632` | `Đối chiếu 511-632 <FOLDER>` |
 | `phan-tich-xnt-kho` | `Phân tích XNT kho <FOLDER>` |
 | `phan-tich-gia-thanh-dinh-muc` | `Phân tích giá thành/định mức <FOLDER>` hoặc `Cơ cấu GV thương mại <FOLDER>` |
