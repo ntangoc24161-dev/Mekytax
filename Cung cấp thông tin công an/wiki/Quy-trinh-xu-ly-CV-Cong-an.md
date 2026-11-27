@@ -245,3 +245,12 @@ Nhánh B (bản trả lời đã ký): số hiệu `…/TCS3-KTr…`, tên `TRA 
 
 Nhánh A (công văn Công an mới): 
 - Cần xác minh (append _open-questions).
+
+
+## Mâu thuẫn
+- Quan điểm mới ([[conversations/2026-11-27]]): Bước 1 của quy trình quản lý công văn Công an phải hoàn tất ghi sổ, tạo thư mục Drive và chuyển PDF trước khi kiểm chứng, không dừng giữa chừng để chờ chủ chốt. (thực tế tính đến 27/11/2026) [[conversations/2026-11-27]]
+
+Chờ chốt chủ không phải điều kiện fail kiểm chứng B1: ghi marker hoặc NEEDS_INPUT rồi vẫn ghi dòng sổ. (thực tế tính đến 27/11/2026) [[conversations/2026-11-27]]
+
+Tạo thư mục Drive, MOVE hoặc COPY PDF từ CV MOI và ghi cột B (số folder) là checklist bắt buộc của B1, cùng lúc với 
+- Cần xác minh (append _open-questions).

@@ -18,3 +18,4 @@ _(Chưa có trang wiki nào. Thả source vào `sources/` rồi bảo Javis "ti�
 - [[Phân biệt số hiệu in sẵn và số dấu đến khi tra cứu công văn Công an]] - Khi người dùng nêu số công văn, số đó có thể là số dấu đến Cục Thuế, không phải
 - [[Phân loại hồ sơ xử lý kết luận điều tra và tạm ngưng kê khai]] - Hồ sơ công văn Công an được phân loại tách biệt giữa yêu cầu cung cấp thông tin
 - [[Tra cứu CV trả lời đã ký trên mọi sheet sổ Bao_cao]] - Khi theo dõi công văn trả lời đã ký, phải tìm hồ sơ trên mọi sheet của sổ `Bao_c
+- [[Đối chiếu và xử lý công văn trùng trên sổ Bao_cao_cong_van]] - Khi đối chiếu lô công văn mới với sổ `NHAP_HO_SO`, tách hai mức: trùng công văn

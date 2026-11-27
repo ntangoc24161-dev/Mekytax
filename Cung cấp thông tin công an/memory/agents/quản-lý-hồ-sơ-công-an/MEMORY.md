@@ -7,6 +7,7 @@
 - Bao_cao_cong_van.xlsx có biểu đồ DASHBOARD, nên ghi bằng Excel COM (win32com) và bỏ qua openpyxl để khỏi mất chart; STT cột A tự nhảy sau khi điền MST.
 - Công văn kiến nghị xử lý hành chính hàng trăm DN (kèm phụ lục dài) khác loại với công văn yêu cầu cung cấp hồ sơ, nên hỏi chủ trước khi nhập sổ.
 - Công văn kiến nghị xử lý hành chính hàng trăm DN thì ghi sổ một dòng, cột MST và tên công ty ghi chung "N cty đính kèm", không bóc từng MST, không phân Tổ KT.
+- Bài học tờ trình/ý kiến bổ sung với `memory/agents/soan-thao-tra-loi-cong-an/MEMORY.md` (mẫu `to trinh.doc`, khối ký Ngọc-Giang-Xuân, Số `/TCS3-KTr1`); anh chốt 27/11 giữ cả hai.
 - CV kiến nghị XLHC ghi sổ 1 dòng "N cty đính kèm"; khi chủ yêu cầu danh sách thì OCR phụ lục xuất Excel riêng, không ghi từng MST vào NHAP_HO_SO.
 - Khi ghi ngày dạng 08/10 hoặc 09/10 vào Excel COM, Excel hiểu kiểu Mỹ; phải gán datetime Python (năm, tháng, ngày) rồi NumberFormat dd/mm/yyyy.
 - CV đề nghị hủy ngăn chặn kê khai bổ sung cho hàng trăm DN ghi sổ 1 dòng "N DN/HKD đính kèm", không bóc từng MST, không phân Tổ KT.

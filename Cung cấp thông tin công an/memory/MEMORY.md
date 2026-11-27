@@ -36,7 +36,7 @@
 - [Quy chuẩn kỹ năng rà soát và đồng bộ thư mục Công văn hoàn tất](facts/skill-dong-bo-thu-muc-cong-van-hoan-tat-duoi-r.md) - Quét tệp ký số công văn trả lời và tự động thêm hậu tố -R vào tên thư mục năm 2026.
 - [Quy chuẩn kỹ năng tra cứu NNT và phân Tổ Kiểm tra tự động](facts/skill-tra-cuu-nnt-tu-dong.md) - Tra MST và CQ thuế quản lý trước; chỉ phân KT1-KT3/CBQL nếu thuộc TCS3 (Vĩnh Cửu=KT2); CQ khác ghi tên vào ô Tổ KT.
 - [Cửa kiểm cơ quan thuế quản lý trước khi phân Tổ KT](facts/cua-kiem-cq-thue-quan-ly-truoc-phan-to-kt.md) - Chỉ chia tổ và CBQL khi CQ là Thuế cơ sở 3 TP Đồng Nai (Biên Hòa-Vĩnh Cửu); Vĩnh Cửu vào KT2; CQ khác ghi tên vào ô Tổ KT.
-- [Canh dòng Số trên Công văn trả lời cách lề trái 2 cm](facts/canh-so-cong-van-cach-le-trai-2cm.md) - Dòng Số trên Công văn trả lời căn trái, cách lề trái 2 cm; Trích yếu vẫn ở dòng phụ căn giữa ô.
+- [Canh dòng Số trên Công văn trả lời cách lề trái 2 cm](facts/canh-so-cong-van-cach-le-trai-2cm.md) - Dòng Số căn trái cách lề 2 cm kèm `/TCS3-KTr1`; Trích yếu dòng phụ căn giữa ô; ngày `Trấn Biên`, không điền sẵn năm.
 - [Cấu trúc 2 đoạn căn cứ mở đầu Công văn trả lời Công an](facts/cau-truc-can-cu-mo-dau-cong-van-tra-loi-ca.md) - Mở đầu 2 đoạn cố định; có CV Thuế TP (DON-KTr1) thì kính gửi/căn cứ theo Thuế TP, không thì trả lời thẳng Công an.
 - [Dự thảo trả lời đủ doanh nghiệp của KT1, KT2, KT3](facts/du-thao-tra-loi-du-dn-cac-to-kt.md) - Nội dung trả lời phải dự thảo đủ mọi doanh nghiệp trong công văn thuộc KT1/KT2/KT3, bám sát từng yêu cầu.
 - [Chữ đỏ cho thông tin chưa xác định trên công văn](facts/chu-do-thong-tin-chua-xac-dinh-cong-van.md) - Phần thiếu/chưa chính xác/chưa xác định tô chữ đỏ trên Word; chat dùng nhãn [CHƯA XÁC ĐỊNH].
@@ -105,3 +105,12 @@
 - [Chốt ghi sổ 6 CV MOI 26/11](facts/chot-ghi-so-6-cv-moi-2026-11-26.md) - 44321 tách 10 dòng; 2296 hạn 30/11; 6634 KT3; 45499 KT2; 44842/44898 theo md.
 - [Cổng 1 chưa đóng sau ghi sổ 6 CV MOI 26/11](facts/cong-1-chua-dong-6-cv-moi-2026-11-26.md) - Việc t_5b5f368e15dc đã đẩy sổ đúng fileId nhưng Cổng 1 chưa đóng; còn số CV mờ và MST ngoài DB.
 - [MST 3603822566 (LSP) chưa có trong DB NNT](facts/mst-3603822566-lsp-chua-co-db.md) - CTY TNHH TM DV vận tải và cung cấp thực phẩm LSP chỉ thấy trên VietQR, không có trong DB NNT 03.06.
+- [CV 5681 đã chuyển XL KET LUAN](facts/cv-5681-da-chuyen-xl-ket-luan.md) - Không khôi phục NHAP_HO_SO; theo dõi tại sheet XL KET LUAN / thư mục 5. THEO DOI XU LY KET LUAN.
+- [WF CA B1: folder+MOVE + verify không chờ chốt](facts/wf-quan-ly-cv-ca-b1-folder-move-verify-2026-11-27.md) - Chỉnh 27/11: B1 bắt buộc tạo folder/MOVE; chờ chốt và số mờ không làm fail verify nếu sổ+PDF xong.
+- [Ánh xạ thư mục Drive CV MOI 26/11 (STT 295, 297-310)](facts/anh-xa-folder-cv-moi-2026-11-26.md) - Tái dùng folder 295 cho 44842; tạo 297-310 và chuyển hết PDF khỏi CV MOI.
+- [Ba số CV mờ trong bó 44321/YC-CSHS](facts/ba-so-cv-mo-bo-44321.md) - Folder 298, 305, 306 còn số 4432? và 4433?; đã gửi ảnh Telegram chờ chốt.
+- [Chốt memory conflict giữ cả hai bổ sung nhau 27/11](facts/chot-memory-conflict-bo-sung-nhau-2026-11-27.md) - Index 02/11 + 18/11 và bài học soạn thảo + quản lý hồ sơ cùng hiệu lực; không chọn một bên.
+- [Chốt 3 số công văn mờ bó 44321 là 44324, 44331, 44333](facts/chot-ba-so-cv-mo-44324-44331-44333.md) - Folder 298/305/306 trên sổ thành 44324, 44331, 44333/YC-CSHS theo thứ tự anh chốt 27/11.
+- [Xóa dòng trùng CV 2296 (STT 310), gộp file vào folder 296](facts/xu-ly-cv-2296-nhap-trung-folder-310.md) - Anh chốt CV 2296 dòng 885/folder 310 là nhập lặp với STT 296 đã hoàn thành; chuyển PDF, xóa folder 310, trống dòng sổ.
+- [Hai nhóm CV KT3 đang chờ gửi Zalo ngày 27/11](facts/cho-gui-zalo-kt3-hai-nhom-2026-11-27.md) - Lúc 09:49 27/11 chưa gửi Zalo KT3 vì còn 2 nhóm khác nhau; nhóm A preview 19/11 (1740, 883) và nhóm B CV mới chưa xem trước.
+- [Chốt gửi Zalo KT3 nhóm B ngày 27/11](facts/chot-gui-zalo-kt3-nhom-b-2026-11-27.md) - Anh chọn Nhóm B (44842, 44898, 18250); chưa gửi vì hết hạn 5 giờ, còn phải xem trước Telegram.

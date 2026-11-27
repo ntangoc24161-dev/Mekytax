@@ -66,3 +66,8 @@ Nhật ký thời gian (append-only). Mỗi entry: `## [YYYY-MM-DD] loại | ti�
 
 Đã tạo:
 - [[Tra cứu CV trả lời đã ký trên mọi sheet sổ Bao_cao]]
+
+## [2026-11-27] ingest | tự học từ chat
+
+Đã tạo:
+- [[Đối chiếu và xử lý công văn trùng trên sổ Bao_cao_cong_van]]

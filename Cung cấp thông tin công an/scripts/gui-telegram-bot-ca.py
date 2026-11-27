@@ -33,6 +33,8 @@ def _load_token() -> str:
 
 
 async def _run(chat_id: str, text: str, files: list[str], caption: str) -> int:
+    if "/app/server" not in sys.path:
+        sys.path.insert(0, "/app/server")
     from telegram_bot import TelegramBot  # noqa: WPS433
 
     bot = TelegramBot(_load_token(), chat_id, None, giau_trang_thai=True)
