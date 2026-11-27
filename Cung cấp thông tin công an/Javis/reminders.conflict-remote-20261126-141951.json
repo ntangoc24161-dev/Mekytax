@@ -1,0 +1,49 @@
+{
+  "reminders": [
+    {
+      "id": "r_7c63a0c056",
+      "text": "Quét thư mục CV MOI. Phân loại TỪNG file theo checklist cứng rồi mới trigger.\n\nCỬA KIỂM SỔ (BẮT BUỘC trước mọi bóc tách/ghi sổ, chốt 20/11/2026): nếu nghi Bao_cao_cong_van.xlsx đang mở thì chạy `python scripts/cua-kiem-dong-bao-cao.py` - nhắc bot CA @Kiem_soat_dieu_phoi_bot, best-effort đóng Excel trên máy đang chạy Javis, chờ Drive sync ~60s, rồi TỰ chạy tiếp (KHÔNG chờ chủ trả lời chat). VPS Docker thường không tắt được Excel trên máy Windows của chủ. Chỉ ghi đè đúng 1 file sống Drive fileId 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph, không tạo bản dated mới.\n\nNHÁNH B (CV trả lời đã ký) nếu có ≥1 dấu hiệu: (a) số hiệu ban hành dạng …/TCS3-KTr1|KTr2|KTr3; (b) tên file có TRA LOI / TRA_LOI / .signed / ky so / đã ký; (c) OCR: cơ quan ban hành là Thuế cơ sở/Thuế TP, kính gửi Công an, có chữ ký+mộc đỏ, trích yếu kiểu báo cáo kết quả xử lý theo CV… → trigger workflow theo-doi-cv-tra-loi-da-ky (Đang xử lý → Đã hoàn thành). Ưu tiên xử lý đúng file vừa thấy trong CV MOI.\n\nNHÁNH A (CV Công an mới) nếu: cơ quan ban hành là Công an/CQCSĐT/CQANĐT/CSKT/ANĐT (hoặc số hiệu …/CSKT-…, …/ANĐT-…, …/YC-… từ CA) VÀ nội dung yêu cầu cung cấp hồ sơ/tài liệu/thông tin NNT → trigger workflow quản-lý-công-văn-công-an chỉ 2 bước bóc tách → phân công (KT1 in / KT2-KT3 Zalo, bắt buộc xem trước rồi chốt; sau bàn giao cập nhật cột O Đang xử lý). DỪNG sau phân công - không tự soạn thảo.\n\nKHÔNG CHẮC nhánh nào → báo chat kèm tên file + lý do, không tự chọn, không ghi Đã hoàn thành.\nCV MOI trống → báo \"không có CV mới\".",
+      "mode": "task",
+      "due_at": 1795669200.0,
+      "chat_id": "web:mwlp8ddhcfj9yn08",
+      "repeat_min": 0,
+      "cron": "0 12 * * *",
+      "script": "",
+      "label": "Quét hồ sơ công an lúc 12h00 hàng ngày",
+      "status": "pending",
+      "muc_quyen": "full",
+      "remember_last": false,
+      "speak": false,
+      "call": false,
+      "created_by": "javis_schedule",
+      "created_at": 1794156270.8227534,
+      "fired_at": 1795592262.2143996,
+      "result": "Đã quét thư mục `CV MOI` (Google Drive / `I:\\My Drive\\HS CONG AN-2025-2026\\HS CUNG CAP CA 2026\\1. CUNG CAP CONG AN NAM 2026\\CV MOI`).\n\nHiện tại không có CV mới (chỉ có file theo dõi cũ `File theo doi hs CUNG CAP CA-01.04.2025......xls`, không có file PDF công văn nào chờ xử lý).",
+      "error": "",
+      "last_slot": 1795582800.0
+    },
+    {
+      "id": "r_9d1482cbe4",
+      "text": "Thực hiện gửi Zalo phân công KT2 và KT3 cho các công văn tiếp nhận ngày 19/11/2026 (CV 5681: CÔNG TY TNHH XÂY DỰNG TIẾN HỒNG PHÚC gửi KT2 CCT- Nga- TT; CÔNG TY TNHH MỘT THÀNH VIÊN TÀI QUỐC TUẤN gửi KT3 CCT- Tieu Diem) kèm tệp hồ sơ tương ứng theo đúng kỹ năng gui-phan-cong-zalo-kt23 và cập nhật sổ theo dõi sang Đang xử lý.",
+      "mode": "notify",
+      "due_at": 1795136400.0,
+      "chat_id": "",
+      "repeat_min": 0,
+      "cron": "",
+      "script": "",
+      "label": "",
+      "status": "done",
+      "muc_quyen": "full",
+      "remember_last": false,
+      "speak": false,
+      "call": false,
+      "created_by": "user",
+      "created_at": 1795111051.2953062,
+      "fired_at": 1795136413.7073946,
+      "result": "",
+      "error": "",
+      "last_slot": 1795136400.0
+    }
+  ],
+  "updated": 1795592262.2143996
+}

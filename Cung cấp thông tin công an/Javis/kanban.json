@@ -471,7 +471,165 @@
           "msg": "PDF 1rtcOtPeUehpp1LzwEHB2DutB7mnh1IJ4 vẫn trong CV MOI, chưa chuyển vào folder 294; NHAP_HO_SO không có dòng 895 (hồ sơ nằm ở XL KET LUAN)."
         }
       ]
+    },
+    {
+      "id": "t_a9ac6d92170e",
+      "brain_root": "/brains/Cung cấp thông tin công an",
+      "title": "Bóc tách và phân công 6 CV Công an mới (CV MOI 26/11)",
+      "intent": "Bóc tách 6 CV Công an nhánh A ngày 26/11 (cặp 18250+24495, 2296, 44842, 44898, 44321, 45499) từ ho-so-cv-moi-2026-11/pdf/ và Drive CV MOI 1CANEGTj5KR3M5biQBS_8YAr5lV4d70c6, tra NNT/phân Tổ KT, ghi đúng 1 file sống Drive 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph, rồi bàn giao KT1 in / KT2-KT3 Zalo (xem trước bot @Kiem_soat_dieu_phoi_bot rồi chốt), cập nhật cột O Đang xử lý; bỏ file Excel theo dõi; dừng, không soạn thảo.",
+      "route": "wf:quản-lý-công-văn-công-an",
+      "capability": "external-write",
+      "execution_mode": "full",
+      "priority": 2,
+      "status": "blocked",
+      "needs_approval": false,
+      "block_kind": "transient",
+      "block_reason": "Bước 1 (Khai thác dữ liệu hồ sơ) chưa qua kiểm chứng sau 3 lượt: Kết quả tự thừa nhận chưa ghi dòng nào vào sổ NHAP_HO_SO, nên nhiệm vụ gốc (cập nhật Bao_cao_cong_van.xlsx) chưa hoàn thành. Việc chờ task t_a9ac6d92170e và các điểm cần chủ quyết (bó 44321, hạn 2296, KT3 của 6634, tổ cho 45499) là lý do hợp lý để dừng, nhưng không thay thế được kết quả. Chưa tự kiể. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_by": "chat",
+      "chat_id": "web:mwlp8ddhcfj9yn08",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "not_before": 0.0,
+      "last_heartbeat_at": 1795670259.2640839,
+      "current_run_id": "",
+      "result": "\n[[NEEDS_INPUT]] Bước 1 (Khai thác dữ liệu hồ sơ) chưa qua kiểm chứng sau 3 lượt: Kết quả tự thừa nhận chưa ghi dòng nào vào sổ NHAP_HO_SO, nên nhiệm vụ gốc (cập nhật Bao_cao_cong_van.xlsx) chưa hoàn thành. Việc chờ task t_a9ac6d92170e và các điểm cần chủ quyết (bó 44321, hạn 2296, KT3 của 6634, tổ cho 45499) là lý do hợp lý để dừng, nhưng không thay thế được kết quả. Chưa tự kiể. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_at": 1795669610.147249,
+      "updated_at": 1795670259.2640839,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "Đã bóc tách đủ 6 CV (18250/YC-CSHS+24495/DON-KTr1, 2296/CV-ANĐT(Đ1), 44842/YC-CSHS, 44898/YC-CSHS, 44321/YC-CSHS, 45499/YC-CSHS-Đ2) với số hiệu, CQ ban hành, DN/MST, hạn; bỏ qua file Excel theo dõi; nhật ký cập nhật tại ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-26.md",
+          "Mỗi DN thuộc TCS3 được tra CQ thuế và phân Tổ KT/CBQL; mọi dòng ghi vào đúng 1 file sống Drive id 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph, không tạo bản dated",
+          "KT1 đã in phiếu phân công; KT2/KT3 đã xem trước qua bot @Kiem_soat_dieu_phoi_bot rồi gửi Zalo; sau bàn giao cột O = Đang xử lý",
+          "Không soạn thảo công văn hay tờ trình trả lời"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "kiem-soat-dieu-phoi-quy-trinh",
+          "name": "Kiểm soát & Điều phối quy trình",
+          "key": ""
+        }
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-26 05:06",
+          "msg": "created by chat"
+        },
+        {
+          "ts": "2026-11-26 05:06",
+          "msg": "claimed by worker:27:5dc8dd1c"
+        },
+        {
+          "ts": "2026-11-26 05:07",
+          "msg": "capability=external-write"
+        },
+        {
+          "ts": "2026-11-26 05:07",
+          "msg": "claimed by worker:27:3db1126c"
+        },
+        {
+          "ts": "2026-11-26 05:17",
+          "msg": "Bước 1 (Khai thác dữ liệu hồ sơ) chưa qua kiểm chứng sau 3 lượt: Kết quả tự thừa nhận chưa ghi dòng nào vào sổ NHAP_HO_SO, nên nhiệm vụ gốc (cập nhật Bao_cao_cong_van.xlsx) chưa hoàn thành. Việc chờ task t_a9ac6d92170e và các điểm cần chủ quyết (bó 44321, hạn 2296, KT3 của 6634, tổ cho 45499) là lý do hợp lý để dừng, nhưng không thay thế được kết quả. Chưa tự kiể. Quy trình dừng ở đây, không chạy tiếp các bước sau."
+        }
+      ]
+    },
+    {
+      "id": "t_5b5f368e15dc",
+      "brain_root": "/brains/Cung cấp thông tin công an",
+      "title": "Bước 1 ghi sổ 6 CV MOI 26/11 theo chốt chủ",
+      "intent": "Ghi sổ NHAP_HO_SO trên file sống Drive 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph (account googledrive_ralph-urbane) cho 6 CV MOI 26/11 theo chốt chủ, không soạn thảo, không sang Bước 2. (1) Bó 44321: tách 10 dòng theo tach-file-pdf-chua-nhieu-cong-van, số hiệu đọc ảnh (44321 và số kế bên còn mờ) kèm chú thích cần đối chiếu, Tổ/CBQL theo ho-so-cv-moi-2026-11/md/44321-YC-CSHS-bo-10-CV.md, hạn 15/11/2026, ngày giao 26/11/2026, folder mới tiếp sau 296. (2) CV 2296/CV-ANĐT(Đ1): hạn 30/11/2026, Tổ KT1; nếu dòng 866 MST 3604083011 Đã hoàn thành thì tạo dòng mới không đè, chú thích đối chiếu lịch sử dòng 866; QĐ 616 ngày 22/09/2026. (3) CV 6634/18250 + thư 24495/DON-KTr1: Tổ KT3 Phường Trấn Biên, MST 3604095553 chưa có DB NNT ghi chú cần xác minh và vietqr tạm ngừng KD, hạn trước 30/11/2026, có số CV Thuế TP 24495. (4) CV 45499/YC-CSHS-Đ2: 1 dòng, MST/tên=thửa đất số 25 lô A7..., Tổ KT2 (tiền lệ dòng 895), hạn 26/11/2026, CBQL trống. (5) CV 44842 (1 DN KT3, hạn 27/11) và 44898 (6 DN đều KT3, hạn 18/11) theo md đã bóc. Trước ghi chạy scripts/cua-kiem-dong-bao-cao.py; ghi bằng scripts/ghi-so-bao-cao-an-toan.py rồi UPLOAD_UPDATE đúng fileId sống; validate ok + còn chart DASHBOARD; cập nhật ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-26.md; báo số dòng/folder đã ghi về chat web:mwlp8ddhcfj9yn08.",
+      "route": "wf:quản-lý-công-văn-công-an",
+      "capability": "external-write",
+      "execution_mode": "full",
+      "priority": 2,
+      "status": "blocked",
+      "needs_approval": false,
+      "block_kind": "transient",
+      "block_reason": "Bước 1 (Khai thác dữ liệu hồ sơ) chưa qua kiểm chứng sau 3 lượt: Không kiểm tra lại file thực tế, chỉ dựa vào báo cáo. Ghi sổ lên đúng fileId và md5 khớp, nhưng chính báo cáo thừa nhận Cổng 1 chưa đóng. Còn 3 số CV mờ (C868, C875, C876) và số đến F877 chưa đối chiếu. MST 3603822566 chỉ có trên VietQR, không có trong DB. Dòng 885 đã ghi CBQL LÊ THỊ MAI dù MST chưa. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_by": "chat",
+      "chat_id": "web:mwlp8ddhcfj9yn08",
+      "idempotency_key": "",
+      "attempts": 1,
+      "max_attempts": 3,
+      "claimed_by": "",
+      "claim_expires_at": 0.0,
+      "not_before": 0.0,
+      "last_heartbeat_at": 1795679985.6091857,
+      "current_run_id": "",
+      "result": "\n[[NEEDS_INPUT]] Bước 1 (Khai thác dữ liệu hồ sơ) chưa qua kiểm chứng sau 3 lượt: Không kiểm tra lại file thực tế, chỉ dựa vào báo cáo. Ghi sổ lên đúng fileId và md5 khớp, nhưng chính báo cáo thừa nhận Cổng 1 chưa đóng. Còn 3 số CV mờ (C868, C875, C876) và số đến F877 chưa đối chiếu. MST 3603822566 chỉ có trên VietQR, không có trong DB. Dòng 885 đã ghi CBQL LÊ THỊ MAI dù MST chưa. Quy trình dừng ở đây, không chạy tiếp các bước sau.",
+      "created_at": 1795678684.7277608,
+      "updated_at": 1795679985.6091857,
+      "lane": "",
+      "team_id": "",
+      "team_seq": 0,
+      "team_prio": null,
+      "team_rev": 0,
+      "assignee_key": "",
+      "coordinator_key": "",
+      "source_ref": "",
+      "acceptance_ready": 0,
+      "acceptance_revision": 0,
+      "acceptance_contract_version": 0,
+      "metadata": {
+        "acceptance": [
+          "Đã chạy scripts/cua-kiem-dong-bao-cao.py trước khi ghi và cửa kiểm đạt",
+          "Đã ghi NHAP_HO_SO bằng scripts/ghi-so-bao-cao-an-toan.py rồi UPLOAD_UPDATE đúng fileId 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph account googledrive_ralph-urbane",
+          "Bó 44321: đúng 10 dòng mới, folder tiếp sau 296, hạn 15/11/2026, ngày giao 26/11/2026, Tổ/CBQL theo md/44321-YC-CSHS-bo-10-CV.md, số hiệu mờ có chú thích cần đối chiếu",
+          "CV 2296: 1 dòng mới không đè dòng 866, hạn 30/11/2026, Tổ KT1, QĐ 616 ngày 22/09/2026, chú thích đối chiếu lịch sử dòng 866 nếu MST 3604083011 đã hoàn thành",
+          "CV 6634: 1 dòng Tổ KT3, hạn trước 30/11/2026, có số CV Thuế TP 24495, chú thích MST 3604095553 chưa có DB NNT/cần xác minh và vietqr tạm ngừng KD",
+          "CV 45499: 1 dòng MST/tên thửa đất số 25 lô A7..., Tổ KT2, CBQL trống, hạn 26/11/2026",
+          "CV 44842: 1 dòng 1 DN KT3 hạn 27/11/2026; CV 44898: 6 dòng 6 DN đều KT3 hạn 18/11/2026, nội dung khớp md đã bóc",
+          "Validate ok và sheet DASHBOARD còn chart",
+          "Không soạn thảo và không sang Bước 2 phân công",
+          "Nhật ký ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-26.md đã ghi kết quả; đã báo số dòng/folder về chat web:mwlp8ddhcfj9yn08"
+        ],
+        "specifier": "ai",
+        "agent": {
+          "slug": "khai-thac-du-lieu-ho-so",
+          "name": "Khai thác dữ liệu hồ sơ",
+          "key": ""
+        }
+      },
+      "artifacts": [],
+      "deps": [],
+      "log": [
+        {
+          "ts": "2026-11-26 07:38",
+          "msg": "created by chat"
+        },
+        {
+          "ts": "2026-11-26 07:38",
+          "msg": "claimed by worker:27:3869976a"
+        },
+        {
+          "ts": "2026-11-26 07:38",
+          "msg": "capability=external-write"
+        },
+        {
+          "ts": "2026-11-26 07:38",
+          "msg": "claimed by worker:27:fab11408"
+        },
+        {
+          "ts": "2026-11-26 07:59",
+          "msg": "Bước 1 (Khai thác dữ liệu hồ sơ) chưa qua kiểm chứng sau 3 lượt: Không kiểm tra lại file thực tế, chỉ dựa vào báo cáo. Ghi sổ lên đúng fileId và md5 khớp, nhưng chính báo cáo thừa nhận Cổng 1 chưa đóng. Còn 3 số CV mờ (C868, C875, C876) và số đến F877 chưa đối chiếu. MST 3603822566 chỉ có trên VietQR, không có trong DB. Dòng 885 đã ghi CBQL LÊ THỊ MAI dù MST chưa. Quy trình dừng ở đây, không chạy tiếp các bước sau."
+        }
+      ]
     }
   ],
-  "updated": 1795410800.9641051
+  "updated": 1795679985.6886215
 }
