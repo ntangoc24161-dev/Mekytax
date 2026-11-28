@@ -4,7 +4,7 @@
       "id": "r_7c63a0c056",
       "text": "Quét thư mục CV MOI. Phân loại TỪNG file theo checklist cứng rồi mới trigger.\n\nCỬA KIỂM SỔ (BẮT BUỘC trước mọi bóc tách/ghi sổ, chốt 20/11/2026): nếu nghi Bao_cao_cong_van.xlsx đang mở thì chạy `python scripts/cua-kiem-dong-bao-cao.py` - nhắc bot CA @Kiem_soat_dieu_phoi_bot, best-effort đóng Excel trên máy đang chạy Javis, chờ Drive sync ~60s, rồi TỰ chạy tiếp (KHÔNG chờ chủ trả lời chat). VPS Docker thường không tắt được Excel trên máy Windows của chủ. Chỉ ghi đè đúng 1 file sống Drive fileId 1OWkt_HFG4Ew-i5Gf9FpXD71gPGsXmXph, không tạo bản dated mới.\n\nNHÁNH B (CV trả lời đã ký) nếu có ≥1 dấu hiệu: (a) số hiệu ban hành dạng …/TCS3-KTr1|KTr2|KTr3; (b) tên file có TRA LOI / TRA_LOI / .signed / ky so / đã ký; (c) OCR: cơ quan ban hành là Thuế cơ sở/Thuế TP, kính gửi Công an, có chữ ký+mộc đỏ, trích yếu kiểu báo cáo kết quả xử lý theo CV… → trigger workflow theo-doi-cv-tra-loi-da-ky (Đang xử lý → Đã hoàn thành). Ưu tiên xử lý đúng file vừa thấy trong CV MOI.\n\nNHÁNH A (CV Công an mới) nếu: cơ quan ban hành là Công an/CQCSĐT/CQANĐT/CSKT/ANĐT (hoặc số hiệu …/CSKT-…, …/ANĐT-…, …/YC-… từ CA) VÀ nội dung yêu cầu cung cấp hồ sơ/tài liệu/thông tin NNT → trigger workflow quản-lý-công-văn-công-an chỉ 2 bước bóc tách → phân công (KT1 in / KT2-KT3 Zalo, bắt buộc xem trước rồi chốt; sau bàn giao cập nhật cột O Đang xử lý). DỪNG sau phân công - không tự soạn thảo.\n\nKHÔNG CHẮC nhánh nào → báo chat kèm tên file + lý do, không tự chọn, không ghi Đã hoàn thành.\nCV MOI trống → báo \"không có CV mới\".",
       "mode": "task",
-      "due_at": 1795842000.0,
+      "due_at": 1795928400.0,
       "chat_id": "web:mwlp8ddhcfj9yn08",
       "repeat_min": 0,
       "cron": "0 12 * * *",
@@ -17,10 +17,10 @@
       "call": false,
       "created_by": "javis_schedule",
       "created_at": 1794156270.8227534,
-      "fired_at": 1795755776.923113,
-      "result": "Nhắc hẹn 12:00: em quét CV MOI, phân loại từng file rồi mới kích hoạt workflow. Bắt đầu từ chỉ mục năng lực, đường dẫn thư mục và trạng thái sổ.MCP Hub chưa hiện tool. Em đọc Drive ID, workflow, cửa kiểm sổ và tìm tool Javis/Drive để quét CV MOI.MCP không hiện trong phiên này. Em lần cách các lần 12h trước gọi Drive và kích hoạt workflow qua hub.Em gọi hub Javis để liệt kê file sống trong CV MOI.Em viết script gọi hub MCP, lấy schema Drive rồi liệt kê file sống trong CV MOI.CV MOI chỉ còn file Excel theo dõi. Em ghi nhật ký quét 12:00 rồi báo kết quả, không kích workflow.Quét CV MOI lúc 12:00 27/11: **không có CV mới**.\n\nCòn 1 file sống: `File theo doi hs CUNG CAP CA-01.04.2025......xls` (Excel theo dõi, tải lên 23/11). Không phải CV Công an yêu cầu cung cấp và không phải bản trả lời đã ký, nên không chọn nhánh A/B, không ghi sổ, không chạy workflow.\n\nKhông có PDF/ảnh/Word mới từ 26/11. Nhật ký: `ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-27.md`.",
+      "fired_at": 1795842186.3986866,
+      "result": "Tôi bắt đầu quét thư mục CV MOI, kiểm tra cửa sổ sống, rồi phân loại từng file theo checklist trước khi kích hoạt workflow.MCP Hub không có trong phiên này; tôi đọc memory Drive, quyền VPS và workflow, rồi quét CV MOI bằng shell.Tiếp theo tôi xác định cách truy cập Drive trên VPS và cách kích hoạt workflow, rồi mới liệt kê file trong CV MOI.Tôi lấy token hub và schema Composio để liệt kê file sống trong CV MOI.Hub đã sẵn sàng. Tôi lấy schema Drive rồi liệt kê file sống trong CV MOI.CV MOI chỉ còn file Excel theo dõi cũ. Tôi ghi nhật ký quét, không chạy cửa kiểm sổ và không kích workflow.Quét CV MOI lúc 12:00 hôm nay: **không có công văn mới**.\n\nCòn 1 file sống: `File theo doi hs CUNG CAP CA-01.04.2025......xls` (Excel theo dõi, tải lên 23/11). Không phải CV Công an yêu cầu cung cấp và không phải bản trả lời đã ký, nên không chọn nhánh A/B, không ghi sổ, không chạy workflow.\n\nKhông có PDF/ảnh/Word mới từ 27/11. Nhật ký: `ho-so-cv-moi-2026-11/00-xu-ly-cv-moi-2026-11-28.md`.",
       "error": "",
-      "last_slot": 1795755600.0
+      "last_slot": 1795842000.0
     },
     {
       "id": "r_9d1482cbe4",
@@ -45,5 +45,5 @@
       "last_slot": 1795136400.0
     }
   ],
-  "updated": 1795755776.9244766
+  "updated": 1795842186.4018872
 }
